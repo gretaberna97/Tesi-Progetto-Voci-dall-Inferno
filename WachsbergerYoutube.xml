@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+
+
+        <fileDesc>
+            <titleStmt>
+                <title>Testimonianza di Arminio Wachsberger, noto per essere stato l'interprete di Auschwitz</title>
+            </titleStmt>
+
+            <editionStmt>
+                <edition>Lavoro realizzato per la tesi di Laurea Triennale in Informatica Umanistica, Università di Pisa.</edition>
+                                
+                <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="GB">Greta Bernardoni</name>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>  <!--contiene una citazione con i dettagli del copione utilizzato per un testo orale -->
+
+                <recordingStmt> <!-- descrive l'insieme delle registrazioni usate nella trascrizione di un testo orale, sia diretta sia messa in onda pubblica -->
+
+                    <recording type="video" dur="PT27M1S">
+
+                        <date when="1998-03-04">4 febbraio 1998</date>
+                        
+                        <respStmt> <!-- controllare -->
+                            <resp>Videointervista facente parte del progetto realizzato da</resp>
+                            <name type="org">Survivors of the Shoah Visual History Foundation</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Testimone intervistato</resp>
+                            <name ref="TEI-ListPerson.xml#AW">Arminio Wachsberger</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Intervistatrice</resp>
+                            <name ref="TEI-ListPerson.xml#MA">Maurina Alazraki</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Addetto alla camera</resp>
+                            <name xml:id="PF">Paolo Favaro</name>
+                        </respStmt>
+
+                        <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
+                            <p>Registrato su una cassetta VHS</p> <!-- verificare -->
+                        </equipment>
+
+                        <broadcast>
+                            <bibl source="https://www.youtube.com/watch?v=4_1l3ZR-gtI">
+                                <author>Survivors of the Shoah Visual History Foundation</author>
+                                <title>Arminio Wachsberger "Spielburg" - Parte I</title>
+                                <date when="1998-03-04">4 febbraio 1998</date>
+                                <series>
+                                    <title>Arminio Wachsberger "Spielburg"</title>
+                                    <biblScope>Parte I di V</biblScope>
+                                </series>
+                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di Roma e sul sito </note>   <!-- guardare -->
+                            </bibl> 
+                        </broadcast>
+
+                    </recording>
+
+                    <recording type="video" dur="PT26M57S">
+
+                        <date when="1998-03-04">4 febbraio 1998</date>
+                        
+                        <respStmt> <!-- controllare -->
+                            <resp>Videointervista facente parte del progetto realizzato da</resp>
+                            <name type="org">Survivors of the Shoah Visual History Foundation</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Testimone intervistato</resp>
+                            <name ref="TEI-ListPerson.xml#AW">Arminio Wachsberger</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Intervistatrice</resp>
+                            <name ref="TEI-ListPerson.xml#MA">Maurina Alazraki</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Addetto alla camera</resp>
+                            <name xml:id="PF">Paolo Favaro</name>
+                        </respStmt>
+
+                        <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
+                            <p>Registrato su una cassetta VHS</p> <!-- verificare -->
+                        </equipment>
+
+                        <broadcast>
+                            <bibl source="https://www.youtube.com/watch?v=SO3I8unl6bg">
+                                <author>Survivors of the Shoah Visual History Foundation</author>
+                                <title>Arminio Wachsberger "Spielburg" - Parte II</title>
+                                <date when="1998-03-04">4 febbraio 1998</date>
+                                <series>
+                                    <title>Arminio Wachsberger "Spielburg"</title>
+                                    <biblScope>Parte II di V</biblScope>
+                                </series>
+                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di Roma e sul sito </note>   <!-- guardare -->
+                            </bibl> 
+                        </broadcast>
+
+                    </recording>
+
+                    <recording type="video" dur="PT26M58S">
+
+                        <date when="1998-03-04">4 febbraio 1998</date>
+                        
+                        <respStmt> <!-- controllare -->
+                            <resp>Videointervista facente parte del progetto realizzato da</resp>
+                            <name type="org">Survivors of the Shoah Visual History Foundation</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Testimone intervistato</resp>
+                            <name ref="TEI-ListPerson.xml#AW">Arminio Wachsberger</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Intervistatrice</resp>
+                            <name ref="TEI-ListPerson.xml#MA">Maurina Alazraki</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Addetto alla camera</resp>
+                            <name xml:id="PF">Paolo Favaro</name>
+                        </respStmt>
+
+                        <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
+                            <p>Registrato su una cassetta VHS</p> <!-- verificare -->
+                        </equipment>
+
+                        <broadcast>
+                            <bibl source="https://www.youtube.com/watch?v=5WSRaVnOQJ8">
+                                <author>Survivors of the Shoah Visual History Foundation</author>
+                                <title>Arminio Wachsberger "Spielburg" - Parte III</title>
+                                <date when="1998-03-04">4 febbraio 1998</date>
+                                <series>
+                                    <title>Arminio Wachsberger "Spielburg"</title>
+                                    <biblScope>Parte III di V</biblScope>
+                                </series>
+                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di Roma e sul sito </note>   <!-- guardare -->
+                            </bibl> 
+                        </broadcast>
+
+                    </recording>
+
+                    <recording type="video" dur="PT26M57S">
+
+                        <date when="1998-03-04">4 febbraio 1998</date>
+                        
+                        <respStmt> <!-- controllare -->
+                            <resp>Videointervista facente parte del progetto realizzato da</resp>
+                            <name type="org">Survivors of the Shoah Visual History Foundation</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Testimone intervistato</resp>
+                            <name ref="TEI-ListPerson.xml#AW">Arminio Wachsberger</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Intervistatrice</resp>
+                            <name ref="TEI-ListPerson.xml#MA">Maurina Alazraki</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Addetto alla camera</resp>
+                            <name xml:id="PF">Paolo Favaro</name>
+                        </respStmt>
+
+                        <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
+                            <p>Registrato su una cassetta VHS</p> <!-- verificare -->
+                        </equipment>
+
+                        <broadcast>
+                            <bibl source="https://www.youtube.com/watch?v=FtV0uZZAzAw">
+                                <author>Survivors of the Shoah Visual History Foundation</author>
+                                <title>Arminio Wachsberger "Spielburg" - Parte IV</title>
+                                <date when="1998-03-04">4 febbraio 1998</date>
+                                <series>
+                                    <title>Arminio Wachsberger "Spielburg"</title>
+                                    <biblScope>Parte IV di V</biblScope>
+                                </series>
+                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di Roma e sul sito </note>   <!-- guardare -->
+                            </bibl> 
+                        </broadcast>
+
+                    </recording>
+
+                    <recording type="video" dur="PT6M46S">
+
+                        <date when="1998-03-04">4 febbraio 1998</date>
+                        
+                        <respStmt> <!-- controllare -->
+                            <resp>Videointervista facente parte del progetto realizzato da</resp>
+                            <name type="org">Survivors of the Shoah Visual History Foundation</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Testimone intervistato</resp>
+                            <name ref="TEI-ListPerson.xml#AW">Arminio Wachsberger</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Intervistatrice</resp>
+                            <name ref="TEI-ListPerson.xml#MA">Maurina Alazraki</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Addetto alla camera</resp>
+                            <name xml:id="PF">Paolo Favaro</name>
+                        </respStmt>
+
+                        <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
+                            <p>Registrato su una cassetta VHS</p> <!-- verificare -->
+                        </equipment>
+
+                        <broadcast>
+                            <bibl source="https://www.youtube.com/watch?v=8mljGuToiUQ">
+                                <author>Survivors of the Shoah Visual History Foundation</author>
+                                <title>Arminio Wachsberger "Spielburg" - Parte V</title>
+                                <date when="1998-03-04">4 febbraio 1998</date>
+                                <series>
+                                    <title>Arminio Wachsberger "Spielburg"</title>
+                                    <biblScope>Parte V di V</biblScope>
+                                </series>
+                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di Roma e sul sito </note>   <!-- guardare -->
+                            </bibl> 
+                        </broadcast>
+
+                    </recording>
+
+                </recordingStmt>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+
+        <encodingDesc><!--(descrizione della codifica) documenta la relazione fra un documento elettronico e la o le fonti da cui è derivato. -->
+            <transcriptionDesc ident="HIAT" version="2004"/> <!-- describes the set of transcription conventions used, particularly for spoken material. -->
+        </encodingDesc>
+
+
+        <profileDesc><!--(descrizione del profilo del testo) fornisce una descrizione dettagliata degli aspetti non bibliografici di un testo, in modo particolare le lingue e i linguaggi secondari utilizzati, la situazione in cui è stato prodotto il testo, i partecipanti e la relativa ambientazione-->
+
+            <particDesc>
+                <listPerson>
+                    <!--Testimone-->
+                    <person xml:id="AW">
+                        <persName>
+                            <forename>Arminio</forename>
+                            <surname>Wachsberger</surname>
+                        </persName>
+                    </person>
+
+                    <!--Intervistatrice-->
+                    <person xml:id="MA">
+                        <persName>
+                            <forename>Maurina</forename>
+                            <surname>Alazraki</surname>
+                        </persName>
+                    </person>
+
+                </listPerson>
+            </particDesc>
+
+
+            <langUsage>
+                <language ident="it">Italiano</language> 
+            </langUsage>
+
+
+            <abstract> <!--regesto-->
+                <ab> 
+                    <list>
+                            <item synch="#">
+                            </item>
+        
+                    </list>  
+                </ab>
+
+            </abstract>
+        
+        </profileDesc>
+
+    </teiHeader> 
+
+
+Arminio Wachsberger
+Code: 38782-35
+Tape: 5 of 1
+Intervi’r: Maurina Schinasi
+Language: Italian
+Camera: Paolo Favaro
+Int Date: 4-March-98
+City: Milan
+
+PARTE I
+P.F: okay, quando volete.
+M.S: 4 Marzo 1998, cassetta numero 5, intervisto il Signor Arminio Wachsberger. Allora Signor Wachsberger siamo arrivati alla quarantena, mi ha raccontato…
+A.W: Si, dunque, la baracca..
+M.S: Me la descriva, si.
+A.W: emh, si, l’avete vista sicuramente tante volte in fotografia erano baracche di legno senza finestra che aveva, per dormire, tre piani di semplicemente di legno, non letti a castello, ma bensì, come se fossero letti a castello, tre ripiani. Quindi, chi era al pian terreno entrava facilmente, gli altri dovevano arrampicarsi. Io stavo al terzo e quindi avevo davanti, non era una finestra, una fessura così che serviva per il ricambio d’aria. Ecco da dove vedevo quelli di Teresistan.
+M.S: in quanti dormivate su questi piani?
+A.W: Dunque c’era 500 fino a 1000 in una baracca.
+M.S: E e con lei proprio nel suo piano diciamo nel terzo piano?
+A.W: eravamo in sei. Ogni di ogni, co come le acciughe perché non si poteva… non potevi voltarti durante la notte per il sonno perché altrimenti vo…
+M.S: c’era un?
+A.W: come?
+M.S: c’era un materasso? Qualcosa?
+A.W: Ma che materasso…
+M.S: Qualcosa?
+A.W: c’era una specie di paglia, c’era…
+M.S: una coperta?
+A.W: una si, una coperta, questa si. Era una coperta militare classica, che lo chiamavano cozzen, che un nome mezzo polacco.
+M.S: c’era qualcuno con lei in questo momento che ancora era con lei sul treno che è venuto con lei nella quarantena?
+A.W: non nello stesso vagone.
+M.S: però nella stesso trasporto.
+A.W: si si, sto parlando di quelli là. Eravamo ? Solo, eravamo circa 150 italiani.
+M.S: quindi si ricorda qualche nome?
+A.W: (sospiro) dunque, innanzitutto, come le dico c’era un medico livornese che stava a Roma, un altro medico, di dove era? ?? questo medico livornese poi è morto a Varsavia eeeee il tribunale di Livorno mi aveva chiamato una volta a fare una dichiarazione di morte non presunta, reale perché i suoi parenti che si son salvati avevano bisogno di questa dichiarazione. Poi (pausa). Quella signorina che è morta in viaggio si chiamava Rosental… vabbè, mi è venuto in mente il nome eee come le dico c’erano questi, non so se chiamarli piani eee in ogni piano sei persone una attaccata all’altra e era proibissimo la notte uscire dalla baracca e quindi c’era il problema di quando uno aveva necessità di bisogni fisiologici.
+M.S: perché le latrine dove stavano?
+A.W: ecco, c’era una altra baracca, la baracca delle latrine. La quarantene del lager aveva la sua baracca delle latrine. Le latrine erano costituite da banconi di legno con dei fori e si andava tutti lì. C’era quello per uomini e quello per donne, semplicemente così.
+M.S: c’erano anche dei lavandini?
+A.W: lavandini lì no… o forse si all’entrata, non mi ricordo più con precisione.
+M.S: c’eran delle scritte ai muri?
+A.W: si, erano le scritte che dicevano “non mi più di dieci minuti”. Dovevi fare i tuoi bisogni in 10 minuti, ed è interessante che i capi, chiamiamoli così, delle latrine erano ufficiali russi che li mettevano lì per punizione. Per punire un ufficiale russo, comunista naturalmente, lo mettevano capo dei gabinetti ee..
+M.S: e quindi potevate andare di giorno ma di notte no.
+A.W: Di notte non si poteva uscire e non ci era come per esempio a Varsavia che, a Varsavia come le racconterò più tardi, fuori dalla baracca c’era un grosso secchio dove si poteva andare a fare i propri bisogni, a Birkenau no.
+M.S: cosa avveniva di notte allora se c’era?
+A.W: Era terribile, poi vedrà che le racconterò cosa è successo invece con un italiano a Varsavia.
+M.S: Adesso magari ci fermiamo un attimo perché mi piacerebbe sapere nel frattempo sua mamma, suo papa e la sua famiglia ee
+A.W: si ciò tutto qui le fotografie.
+M.S: no ma in questo momento quando lei è stato deportato a Birkenau dov’erano?
+A.W: ah ecco, dunque, allora mio papa era morto da un anno. Lui era tornato perché si è ammalato a, vicino a Feltri, in un campo di internamento. Non quello della fotografia perché sono riuscito a spostarlo: io ero a roma, a roma il ministero mi conoscevano mi favorirono, facciamo in modo che si avvicinasse alla casa materna.
+M.S: è stato quindi arrestato a Fiume suo padre?
+A.W: dunque, si, ma non solo con tutti i componenti della comunità maschi superiori ai 18 anni e portato, papa è stato portato a Campania in provincia di Salerno. Quella fotografia si vede lì e viceversa si è ammalato, l’hanno portato all’ospedale di Fiume ed è morto.
+M.S: Quindi suo papa è sepolto a Fiume?
+A.W: e’ sepolto a Fiume.
+M.S: Ha avuto una sepoltura regolare?
+A.W: regolare, proprio ebraica perché in quell’epoca esisteva ancora, nel luglio 42 la comunità ebraica esisteva regolarmente eee anzi la confer, si chiama eschbech, la conferenza di morte, come la vuole chiamare lei, l’ha tenuta un mio compagno che si chiamava ???? dell’Ungheria. Lui, anche lui, è stato deportato insieme con la goti Bauer e a Birkenau faceva il rais comando, eran quelli che portavano dal lager fuori per i contadini il letame.
+M.S: lei in occasione del funerale di suo papa è tornato a Fiume?
+A.W: no, no perché ero a Roma e l’ho saputo con ritardo perché mia sorella me l’ha trasmesso, sa che per gli ebrei bisogna seppellire subito.
+M.S: certo
+A.W: quindi non sono arrivato in tempo per andar..
+M.S: e sua madre nel frattempo?
+A.W: E mia madre poi è rimasta lì, dunque, mia sorella ?, di cui le farò vedere la fotografia, che era nascosta nel Friuli insieme con il marito con documenti falsi, era venuta due volte a Fiume, con documenti falsi preparati per la mamma  e per mio fratello più giovane, dicendole vieni da noi, non si sa mai cosa succederà e la mamma ha mai voluta andare. Invece in maggio è stata presa dalla SS tedesca e trasportata a San Saba che è a Triste, insieme con mia figlia, la… (pausa). Non so se adesso sta riprendendo oh…?
+M.S: si, si si
+A.W: Ahh..
+M.S: allora torniamo alla quarantena, questa baracca che lei mi ha descritto… lei quando ha saputo della sua famiglia?
+A.W: Ecco, adesso, le devo… qui ci sono particolari interessanti. Eee, dopo 5 minuti che eravamo nel lager, dentro, c’erano i prigionieri precedenti, anziani chiamiamoli così, c’erano quelli pessimisti che ci dicevano la verità (guardate quel fumo etc etc), c’erano altri prigionieri invece che avevano pietà di noi, dice, perché dire la verità “ma no, li hanno mandati in un altro campo, ?? Guardateli, era il seagul? Lager, il campo degli zingari e lì c’erano donne, bambini, piccoli, vecchi etc. Poi non ci credi? guarda il teresistan lager, quello accanto a noi, anche lì - perché quello serviva per propaganda no? - poi invece sia quelli teresistan sia gli zingari nella dinger in una notte ne hanno ammazzati 40.000, più tardi tutti quanti, mentre prima lasciavano in vita anche le donne e i bambini.
+M.S: lei era li in quel periodo quando è stato evacuato il campo degli zingari?
+A.W: no,no, ero già a Varsavia in quell’epoca. Ma adesso le voglio raccontare, noi non sapevano, no, no, no, si.. allora quando siamo arrivati il Dottor Mengele ha incominciato a interrogarmi perché, è una ragione comprensibile, in Italia il fascismo è caduto il 25 luglio, allora, in Germania ne hanno parlato pochissimo, è una dittatura anche in Germania, allora, alcuni giornali tedeschi dicevano che questa rivoluzione, questa rivolta contro il fascismo, era una cosa interna fra i gerarchi del fascismo ma che la popolazione era entusiasta e va avanti con la guerra etc e questo invece non era vero perché la popolazione non ne poteva più eee (pausa), allora, Mengele, diceva “se è successo in Italia può succedere anche in Germania”.
+M.S: quindi Mengele veniva nella quarantena…
+A.W: veniva da me
+M.S: perché aveva saputo che lei sapeva…
+A.W: beh io ero il suo interprete no?, che lui mi ha portato giù dal camion, mi ha tirato g..
+M.S: e quindi il giorno dopo diciamo è venuto a parlare con…
+A.W: si e poi dice (frase in tedesco) “stasera vieni da me nella mia baracca”, lui aveva una baracca ufficio.
+M.S: dove stava questa baracca?
+A.W: non lontano da noi, una baracca, nei dintorni, non mi ricordo con precisione. E questo aveva un vantaggio per me perché dopo che mi interrogò, poi le racconterò i particolari, mi regalava o una fetta di pane, o due patate, o un pezzino di formaggio, o di sanguinaccio, perché lì… non era, ci davano una volta ogni due giorni, una fetta, non era di salame, ma sanguinaccio cioè riempito solo con sangue. E io mi ricordo come oggi un ebreo di roma che diceva no?, ma d’altra parte non c’era altro da mangiare, bisognava mangiare quello. Eee, adesso le racconto meglio…
+M.S: mengele che..?
+A.W: Mengele era capo sanitario di Auschwitz Birkenau
+M.S: Lei quando ha saputo che si chiamava Mengele?
+A.W: Come?
+M.S: Quando ha saputo che si chiamava Mengele? (Ripetizione)
+A.W: Ma tutti… il nome Mengele è così conosciuto fra quelli del lager come non so Mussolini nel periodo del fascismo. Allora una volta, io ho dovuto dirgli esattamente la verità “no guardi signor Ub?? Era il suo titolo in tedesco, non è che i gerarchi hanno fatto la rivolta contro Mussolini, è stato il popolo che era felice e giulivo di finire questa guerra che era snervante per tutti”. Quindi l’avevo messo sull’avviso, ?? Finita è riuscito a tagliare la corda e andare prima in Argentina, poi in Paraguay… va bene tutti i particolari li conoscete. Una volta, siccome lui era medico e aveva fatto il giuramento di Ippocrate no? Cioè che farà di tutto per aiutare la gente a vivere e non farà nulla per fare del male ad una persona. Invece ??? Invece era lui la persona che mandava al gas.
+M.S: lui come era diviso, vestito (riformulazione)?
+A.W: era vestito da ufficiale delle SS solo alle mostrine erano la croce.
+M.S: portava anche un camice bianco o no?
+A.W: quasi sempre, quando era in funzione metteva anche il camice sopra la sua divisa, allora… siccome, lei sa che veniva fatta la classificazione, veniva dal da Auschwitz, c’era un magazzino dove c’erano gli zyklon b con un pulmino con la croce rosse entravano due ?? (Nome in tedesco) Caporali del servizio di sanità e avevano, ognuno aveva una propria maschera, venivano con questo camioncino da Auschwitz a Birkenau, sono tre chilometri, montavano sul tetto della gas camera, mettevano la maschera, aprivano queste, queste scatole che contavano questo gas acido cianidrico, io purtroppo lo conosco molto bene perché ho lavorato tutta la mia vita dopo in questo campo qui. Quindi questo acido cianidrico era imbevuto in sughero e allora, però col calore usciva dal sughero, allora questi buttavano dall’alto e questo cadeva giù, sprofondava e usciva fuori già il gas letale, gas acido cianidrico, e dalle docce non usciva acqua, perché erano docce false, allora volevo dirle, era lui che dava l’ordine (balbettii), diceva, lui teneva conto che erano 4 crematori poi più tardi 5, quando era tempo ? Allora venite e naturalmente essendo medico un po’ esami di coscienza se li faceva no? che era lui che mandava alla morte invece di aiutare la gente. Allora cosa faceva? Beveva molta molta vodka ma proprio forte, come noi beviamo l’acqua lui beveva la vodka per stordirsi, perché sapeva di commettere…
+M.S: era ubriaco allora spesso?
+A.W: non era proprio ubriaco ma quasi… allora, una sera che ??, lui aveva appena dato l’ordine e era mezzo ubriaco quando io sono entrato da lui. Allora gli ho detto (frasi in tedesco) “Dove è la mia famiglia?”, si è messo a ridere dice “come non lo sai dov’è la tua famiglia?”, dico “si ma guardi c’è qualcuno che dice la verità, non so se sia la verità, altri che dicono no che sono nei ai campi di lavoro qua vicini”, scusi ho dimenticato, e “ma qual è la verità?”. Allora lui ha detto (frase in tedesco) che in italiano vuol dire “noi abbiamo bisogno solo di bestie da lavoro quindi quelli che non possono lavorare vengono eliminati”, allora gli ho detto “guardi che mia moglie aveva circa la mia età, quindi avrebbe potuto benissimo lavorare anche lei”, disse “no perché voi avete ?? (Balbetta) lei diceva che aveva una bambina di 5 anni, siccome stava con la bambina, se venisse uccisa… la bambina non ci serve quindi la eliminiamo ma una madre sapendo che la propria figlia è stata ammazzata non può più lavorare. Allora l’ha ammazzata anche le.. Poi degli altri, dei vecchi logicamente loro erano nullità e venivano così…
+M.S: quindi lei ha avuto il coraggio di fargli queste domande?
+A.W: si ma perché ripeto era mezzo ubriaco, non ubriaco pieno perché ancora rispondeva e..
+M.S: e quando è stava nel suo ufficio che cosa doveva fare lei?
+A.W: lui doveva organizzare, non so cosa… i suoi lavori che faceva…
+M.S: no, lei, lei, veniva chiamato perché…
+A.W: no no io mi chiamava la sera dice (frase in tedesco) “stasera vieni da me” e io sapevo che a quell’ora devo andar là e lui mi interrogava io rispondevo, e poi quando andavo via mi regalava qualche cosuccia da mangiare che per noi era la vita, e… perché la fame chi è che non l’ha provata non la può capire no? (??) Ho visto io dei genitori che rubavano il pane al figlio o il figlio che rubava il pane al padre… non, era una cattivissima consigliera, e allora le volevo solamente dire questo, dice “tu come ti chiami?”, Wachsberger Arminio, “fa vedere il numero” (balbetta), la mia scheda c’era “vedi perché tu sei in vita c’è la tua scheda, gli altri vediamo se c’è la scheda”, non c’era né mia moglie né mia figlia né i miei suoceri né ?? perché no, non c’erano più.. e così che fra di noi nel lager si diceva nei limiti del possibile sempre andar via da Auschwitz perché ad Auschwitz non potevi mai sapere se fra cinque minuti non eri nella camera a gas perché ogni sabato pomeriggio facevano la selezione interna, cioè quelli che erano nei revir (?), con revir era una termine tedesco militare che significa “ospedale da campo”, c’erano ospedali (balbetta), pensi che a quelli dell’ospedale del campo delle volte davano pane bianco e dopo cinque minuti li mandavano alla morte, ma questo è un’altra faccenda. Allora, quelli che erano all’ospedale veniva Mengele, dava un’occhiata a tutti quando, anche a mia moglie tra parentesi Mengele l’aveva già segnata per mandarla al gas, ma questo glielo racconterà mia moglie eee lui si dedicava a degli studi sui gemelli, era la sua passione, perché mandava poi a un professore, non mi ricordo più il nome, non so in quale Università, l’esito di queste sue prove, solo che dopo aver fatto eee diceva “taglialo”, allora degli assistenti suoi che erano medici ebrei famosissimi al suo tempo eee, c’era un professore patologico patologo (riformulazione) di Budapest che era quello che faceva, come si dice, laparotomia etc. 
+M.S: ma quante volte lei è andato a chiacchierare con Mengele?
+A.W: eh non mi ricordo se era 4, 5 o 6 volte, non ricordo con precisione, anzitutto son trascorsi…
+M.S: e quindi gli interessava la situazione Italiana? Per questo?
+A.W: si, per lui sempre era quello il suo chiodo fisso, voleva sapere com’era la situazione in Italia etc etc. Allora io gli ho chiesto anche “ma cosa ha fatto la mia bambina perché l’avete ammazzata?”, dice “è ebrea, lì conta, è una (nome ebraico) e questo basta”. “E allora perché non l’avete ammazzata a Roma? C’era bisogno di farla trascinare sei giorni di viaggio, portarla qui per ammazzarla qua?” “Eh no tra la gente civile non possiamo fare questo”. Invece hanno fatto poi in Italia tutte le… in Toscana e in Umbria e cose avanti, si va beh questa era già verso la fine della guerra quando non resistevano più…
+M.S: quindi lei era in quarantena, è stato..?
+A.W: circa tre settimane.
+M.S: circa tre settimane (ripetizione).
+A.W: e poi il giorno dice “trasporto ? (Frase in tedesco) Sta partendo un trasporto per Varsavia” e hanno messo dentro 42 italiani.
+M.S: che erano con lei nella quarantena?
+A.W: che erano con me nella quarantena… ma erano di più, eravamo 150 circa, solo che in precedenza una parte è stata mandata nelle miniere di Jaworzno che abbiamo visto sulla carta che era a 700 metri di profondità e mi aveva detto, poi le riferirò chi, più di due settimane non resistevano e morivano, salvo qualcuno che le eccezioni ci sono sempre, c’è uno che l’ho visto nel film e l’ho riconosciuto, che invece si è salvato anche da Jaworzno. Va beh è capitato anche questo, allora, quando è venuto Mengele per fare la selezione di quelli da mandare a Jaworzno io ero suo interprete, lui ci ha fatti denudare tutti meno a me e gli ha fatti passare davanti a lui, lui li guardava e poi diceva al blokken (?), il blokkenstain era il capo baracca prigioniero, di prendere nota del numero, e io avevo, fra gli italiani, ci sono simpatie e/o antipatie, c’era la famiglia della sete di Roma. Questa famiglia della seta, c’era il padre che aveva 52 anni però era giovanile, non si sono accorti che aveva quell’età, e un figlio, Giancarlo. Questo Giancarlo aveva 15 anni però a guardarlo sembrava un colosso ma nessuno sapeva la verità: lui soffriva di distrofia muscolare che certi momenti perdeva completamente le forze e cadeva per terra, non in continuazione, succedeva anche questo. Allora ho avuto ancora pietà per lui e quindi io ero sempre in contatto con questi due della seta, il padre che mi aveva raccontato in tempo di guerra, specialmente nel 43, la gente cercava di accaparrare i generi alimentari e li nascondeva in casa, questo era proibissimo e allora venivano delle squadre di ufficiali e di sottufficiali della finanza e andavano nelle varie case per vedere se qualcuno aveva accaparrato dei generi alimentari, poi venivano puniti, etc. Allora, loro, come tutti gli altri accaparravano, e l’avevano messo questi generi alimentari in una piccola stanzetta e questa stanzetta l’hanno chiusa con un armadio a muro come da Anna Frank all’incirca, e la mattina del 16 ottobre, nella stanza in sala c’era lui, della Seta e il figlio, invece, quando hanno suonato alla porta e hanno detto “ah ah, sono quelli della finanza che vengono a controlla…”, allora la moglie che adesso vive ancora, c’ha 93 anni, l’ho saputo da poco, e la sorella sua, sono andati dentro nello stanzino, loro hanno messo il, quella specie di armadio a muro, entrano ma invece della finanza erano delle SS, non si sono accorti di questo secondo e hanno arrestato solo lui e il figlio, invece la (ripetizione) la madre e la figlia si son salvate a Roma. Eee, adesso cosa succede? Che quando fanno questo controllo per mandare a Jaworzno io ho avuto l’impressione che non hanno preso il numero né del padre né del figlio, quando ho finito, dico (frase in tedesco) “Devo anche io svestirmi?”, cerco insieme con Mengele un medico polacco ebreo che lavorava insieme con Mengele che mi ha detto a me (frase in tedesco) “non dire che… rimani così, tanto lui non se n’è accorto, rimani così in piedi”, dice “perché tu non lo sai dove va a finire questa gente, va a finire a Jaworzno, nelle miniere, più di due settimane non resistono. Poi tornano qui per essere bruciati nei crematori” perché a Jaworzno non c’eran crematori, allora io son stato zitto. Quando poi, finito tutto, era verso le due del pomeriggio, non ne potevo più allora a questo di Segni, al padre, (parole che non si capiscono), ho detto “guarda siete fortunati”
+M.S: della Seta x 2
+A.W: della Seta si, dico “né tu né tuo figlio siete stati nominati, non dovrei dirtelo ma guarda vanno a finire a Jaworzno” e gli ho raccontato tutta la verità. Quando la sera viene il brokkester, il capo baracca, e dice “adesso i numeri che chiamo”, i numeri vuol dire il numero tatuato perché il nome non lo avevamo più, dice “devono essere pronti domani mattina alle 6 partenza, per il trasporto”, non ci dice… non dicevano mai dove, trasporto. Allora, o porca la miseria, adesso invece il padre è fra quelli prescelti, deve andare a Jaworzno e aveva 52 anni. Allora lui mi dice “Arminio sto diventando matto, non per me ma per mio figlio, rimane solo”, ma allora io dico “guarda, esiste una possibilità, io avevo con me ancora i due anelli con il brillante”
+M.S: ecco ma come è possibile che… c’è lei, come ha fatto a nasconderli?
+A.W: li avevo nascosti qua dentro, qua sotto, nella fodera. Allora io sapevo, per quel poco che avevo conoscenze di  di scienze sanitarie, che in quell’epoca la sifilide veniva curata con un sistema che non era Early (?) quello che aveva trovato il San Var San etc, che che non dicevano mai che Early era ebreo però li faceva comodo al San Var San, avevano visto una cosa stranissima, che quando qualcuno aveva la sifilide e si ammalava di malaria, la malaria porta su la temperatura molto elevata, spariva la sifilide, allora hanno capito che il calore interno uccide il batterio della sifilide, allora, cosa è successo? Che molti soldati tedeschi prendevano la sifilide per ragioni evidenti, li curavano che gli davano delle pastiglie che creavano la febbre, esistono ancora oggi, piro, adesso non mi ricordo come si chiaman, allora io sapendo questo, noi logicamente non avevamo neanche una pillola, niente, assolutamente nulla, sapevo però che il nostro blokkerster, sarebbe il capo baracca, conosceva un sottufficiale delle SS che era nella revir della SS, cioè nell’ospedale da campo dei tedeschi.
+M.S: per i tedeschi? Era un revir per i tedeschi…
+A.W: per (balbetta) x 2, si (balbettando) per i soldati della SS che erano lì. E ho detto “va da questo qua, dagli questi due anelli, e fatti dare da loro delle compresse per creare l’asp…” perché? Perché se qualcuno durante la partenza aveva oltre 39 gradi non partiva più, non solo non partiva più, ma non partiva un altro al posto suo, perché altrimenti sarei stato attento a farlo, quindi effettivamente ha funzionato: questo è tornato e mi ha portato queste pastiglie e Giancarlo ha preso le pastiglie, quando… no, io mi son confuso prima, non il padre, il figlio è stato iscritto per la partenza e… quando è la mattina alle 6 lui dice (frase in tedesco) “io c’ho la febbre”, lo controllano: 39 e mezzo. (Frase in tedesco) “tu resti qua allora”, quindi lui non è partito, non è partito, e quando da da Birkenau hanno chiesto (frase in tedesco) e io avendo sentito dice (frase in tedesco) “solo via da Auschwitz” mi sono detto si si si, e insieme con me eravamo in 42 partiti da Birkenau per andare a Varsavia. Varsavia, era il ghetto, l’ex ghetto di Varsavia, voleva chiedere qualche cosa?
+M.S: no, ci fermiamo un attimo perché è finita la cassetta.
+A.W: benissimo.
+M.S: Quindi lei da… è rimasto solo in quarantena ad Ausch… non è mai entrato nel campo?
+A.W: no, nel campo si, sono passato anche davanti alla gas camera senza sapere… [registrazione terminata].
+
+PARTE II 
+→ Tape: 5 of 1
+M.S: 4 Marzo 1998, cassetta numero 6, intervisto il signor Arminio Wachsberger. Allora, siamo, prima un attimo di essere scelto per andare a Varsavia, volevo ancora sapere una cosa, quindi lei non ha avuto incarichi di lavoro perché è sempre rimasto nella baracca quarantena? E come passava la giornata?
+A.W: si, baracca quarantena, ero l’interprete… la giornata non passava mai, faceva freddo, la neve ancora non era venuta, ma un freddo da matti e avevo trovato il sistema di scardarci, perché non potevamo rimanere in baracca, ci buttavano sempre fuori, allora ci scaldavamo uno con l’altro appiccicati così tanto, calore umano. Ci è servito contro il freddo. Comunque quando hanno detto per Auschwitz chi vuol venire? eravamo in 42 e siamo andati a piedi da Birkenau fino ad Auschwitz perché i trasporti partivano da Auschwitz, non da Birkenau, quindi bisognava andare da Birkenau ad Auschwitz naturalmente a piedi, sono tre chilometri, non è una gran cosa però con quelle olandesi di legno, ci mi hanno mangiato tutte le… vabbeh. Siamo arrivati a…
+M.S: chi c’era con lei questi…
+A.W: 42 italiani.
+M.S: 42 italiani (ripetizione).
+A.W: dunque, Si (balbetta)eh Sarmoneta Isacco che è morto un anno che vedrà poi come lo abbiamo salvato, come era fuggito, come lo hanno ripreso, lo racconterò più tardi. C’era Lello di Segni, Lillo di Segni che un’altra famiglia che invece è morto non si sa se ucciso dai partigiani o meno e, adesso gli altri mi sfuggono il nome, c’è l’elenco sul libro sulla memoria (balbetta → non si capisce), i nomi di tutti quanti che erano a Varsavia. Allora ad Auschwitz abbiamo visto edifici a due piani (parola che non si capisce?).
+M.S: quindi solo 42 vi siete mossi da lì? Non era.. No altri?
+A.W: no, no altri perché alcuni son rimasti a Varsavia, a Birkenau (riformulazione), poi dopo successivamente li hanno mandati in vari campi o sono morti a Birkenau, e altri erano andati a Jaworzno di cui non sapevamo più niente. L’ho saputo solo vedendo io quel film che lo hanno trasmesso al cinema, come si chiama quel cinema, vabbeh, comunque, dove c’erano i superstiti anche da Roma.
+M.S: memorie…
+A.W: si ecco, e abbiamo detto “ma come? Queste son case, non è un campo”, erano… perché sono ex, la ex polizia austroungarica quando era ancora austroungheria, poi è diventata Polonia, polacchi erano (balbetta), è stata costituita la polizia polacca, c’erano i poliziotti polacchi, sono arrivati i tedeschi, hanno buttato fuori i polacchi e loro sono diventati i padroni. Era più piccola di Birkenau come grandezza però era nel centro della città di Ouschiwintz (?) E… 
+M.S: e quindi era in muratura? Questo le ha fatto impressione…
+A.W: era in muratura, si, interessante, ci ha fatto una impressione enorme rispetto alle baracche che avevamo visto a… non solo, ma erano dei letti a castel.., ma letti a castello…
+M.S: e vi hanno fatto entrare nel campo?
+A.W: No, noi siamo entrati sotto l’arbeit macht Frei…
+M.S: cos’era questo? un…
+A.W: un arco con scritto “arbeit macht Frei” che vuol dire “il lavoro rende liberi”, loro dicevano "lavorare lavorate che questo vi libera dal male" e viceversa ci mandavano a morte.
+M.S: in che blocco vi hanno sistemato lì ad Auschwitz 1?
+A.W: Dunque, Auschwitz... Auschwitz 1 c'ha edifici di mattoni mattoni rossi e, non mi ricordo quanti ma non tanti, mi pare 12 in tutto. 1, il blocco 11, li chiamavano blocko, il blocco 11 c'era quello dove venivano fucilati, non classificati (o gassificati?), contro il muro - esiste ancora oggi il muro de dove ci sono i fori delle pallottole -. Dove per esempio la figlia di Nenni è stata uccisa con delle pallottole in al blocco 11 di Auschwitz, no di Birkenau. 
+M.S: c'erano ebrei lì ad Aschwitz 1?
+A.W: si, c'era la maggioranza erano ebrei. All'inizio erano meno ebrei, eran polacchi quando hanno cominciato, poi più tardi man mano che hanno deciso la eliminazione degli ebrei allora la maggioranza era ebraica. Allora, eee...
+M.S: viene sistemato in questo blocco?
+A.W: in questo blocco, ma prima di andare a riposare ci hanno fare la doccia, una doccia normale con docce ee mi ricordo non è che avessero avuto, come si chiama, quello che..., il disinfettante classico della fine della guerra american.. dt (?)
+M.S: dt?
+A.W: si, no, ma avevano altri disinfettanti che bruciavano da matti, va bene, loro lo facevano per ragioni evidenti di evitare le.. e poi ci hanno mandato a dormire in queste baracche. La mattina...
+M.S: no, un momento, com'erano le stanze? Eravate tutti insieme o separati?
+A.W: C'erano dei letti a castello
+M.S: come quelli della...
+A.W: No, mentre quelli lì erano dei panconi con sei questi erano letti, ognuno un letto per proprio conto. Erano, quelli che come esistono oggi per i bambini specialmente i letti a castello no?
+M.S: era una grande stanza o era una stanza piccola?
+A.W: Si, era una stanza due o tre volte questa qui.
+M.S: quindi vi hanno messo tutti insieme?
+A.W: tutti insieme si...
+M.S: non avete avuto nessun rapporto con altri prigionieri ad Auschwitz?
+A.W: no no no, e la mattina dopo "seil appeal" (?) che non finiva mai, "seal appeal" vuol dire "appello" per vedere i numeri, controlli, ancora un controllo, contro controllo per vedere...
+M.S: dove veniva fatto?
+A.W: Lei lo sa che quando noi... quando noi si entrava nel campo eravamo considerati nullità, non dico un'altra parola, mandati al gas, quelli che rimanevano in vita avevano un valore d'oro perché ci contavano, ricontavano mille volte al giorno perché guai se mancasse uno, vuol dir che è scappato e se lui è scappato dobbiamo esser puniti noi perché n...
+M.S: questo genere di appello avveniva anche in quarantena? C'era l'appello?
+A.W: in quarantena da Auschwitz è riuscito a scappare uno solo, io c'ho il suo libro in inglese e si trova in Canada, è Professore d'Università, l'ho visto in televisione pochi giorni fa.
+M.S: Si chiamava?
+A.W: eh ce l'ho anche il nome, devo andare a vedere lì, lì sono i libri.
+M.S: e quindi c'era anche l'appello ogni mattina in quarantena?
+A.W: esattamente dappertutto ma non solo lo mattina, poi la sera anche no? Du due appelli giornalieri c'erano sempre.
+M.S: e questi no- numeri venivano emh in tedesco?
+A.W: dunque noi ci si metteva in fila 5 5 5 5 grup-, lui passava "eee tu appos-" oppure c'è qualcuno è morto, il morto doveva essere portato fuori a metterlo in fila con noi perché dovev- il numero corrispondere: se non corrispondeva allora apriti cielo, vuol dire che è scappato, vanno dentro in baracca a controllare e non c'è e allora vuole dire che è scappato. Quindi fino a che non finivano le ricerche noi dovevamo star lì a a con le mani così...
+M.S: sull'attenti?
+A.W: si, unite, senza il berretto in testa, al freddo non freddo, ore ore ore ore. Va bene, eee...
+M.S: quindi anche lì c'è l'appello ad Auschwitz 1?
+A.W: ad Auschwitz 1 c'è l'appello e io ho visto dei, vicino, passavano dei preti e siccome io avevo sentito che anche i preti venivano arrestati come poi li ho conosciuti a Aco (?) che era la baracca dei preti e loro sapevano la realtà perché vicino a Ca?? (8.20)la gente conosceva esattamente ciò che succedeva e dico "guarda un po' se potessi avvicinarmi ad un prete e dirgli di rivolgersi al Papa, dire che" siccome il Papa non aveva reagito per niente quando noi siamo stati presi e invece noi diciamo "lui lo sapeva non poteva far niente magari se glielo ricordano" ma non siamo riusciti a parlare con questi preti. La sera finalmente ci mettono nei (in?) vagoni bestiame...
+M.S: erano comunque dei prigionieri questi preti?
+A.W: no no questi erano liberi ma passavano non nel campo, vicino al campo, si vedeva da lontano, allora si mettono insieme e insieme a Varsavia c'era nel nostro vagone di 42 italiani e circa 40 ebrei olandesi e durante il viaggio facevamo un baccano che non finisce più perché tutti volevano parlare.
+M.S: il treno com'era?
+A.W: Il treno... un un treno merci.
+M.S: Un treno sempre come quello che l'ha portato...
+A.W: come quello con il quale siamo arrivati lì...ee la se-
+M.S: e la rampa era... siete saliti vicino ad Auschwitz 1? Era...
+A.W: si era vicino ma non Birkenau.
+M.S: non in stazione?
+A.W: non in stazione no, era una rampa fatta apposta per loro e la sentinella ogni tanto batteva col calcio del fucile e diceva "steel steel"(?) di star zitti "sennò vi sparo" e così ci siamo un po' calmati. Arrivati a Varsavia...
+M.S: quanto è durato il viaggio?
+A.W: Una notte, una notte intera, non è molto distante. Arrivati a Varsavia ci aprono i gli sportelli e non sono, non c'è più la SS, a Varsavia c'era invece - mentre a Birkenau e a Auschwitz erano le SS pure che "totem comando" (?) si chiamava, comando della morte che portava il teschio qui - ma bensì erano degli ucraini, ucraini che i tedeschi avevano promesso loro la libertà dal comunismo e questi per guadagnare qualche cosa si erano iscritti a questa polizia ucraina.
+M.S: e avevano delle divise diverse?
+A.W: avevano delle divise quasi identiche alle SS ma leggermente diverse per distinguerli, per far... e questi urlavano, sbraitavano "all'ero(?)" e avevano gli scudisci e con gli scudisci ci colpivano perché tutta la pratica delle SS era di infierire contro la gente per renderli incapaci, di non pensare e di non reagire, ma so per esempio che alcuni trasporti provenienti dal ghetto di Varsavia che li hanno portati a Birkenau per ucciderli, loro sapevano che andavano a morte si erano ribellati e hanno attaccato le SS e lì è successo dei grossi parapiglia. Lei sa, a proposito, salto da palo in frasca, che a Auschw- a Birkenau, quando son venuti gli ungheresi le cinque camere a gas erano insufficienti, allora hanno creato il "shaiten often"(?), cioè una fossa enorme dove hanno messo del petrolio in fondo e facevano avvicinare nudi quelli che dovevano perire e li facevano, li buttavano dentro nudi e venivano consumati da questo, poi sopra questi altri ancora.
+M.S: queste sono cose che lei ha saputo dopo perché non era lì quando è avvenuto?
+A.W: no, quando ero io questa volta(?) non esisteva, lo riferisco solo perché c'era una ballerina italiana, non ebrea, che anche lei, partigiana si vede, l'hanno mandata alla morte, lei aveva capito che "adesso mi spingono" è riuscita a tirar fuori dalla fondina del sottufficiale te tedesco che era lì, ha tirato fuori la rivoltella ha sparato contro qui ammazzandolo. Lei sapeva che due minuti dopo l'avrebbero ammazzata anche lei, va beh, questo solo un passant(?) glielo racconto. Allora...
+M.S: quindi arrivati a Varsavia scendete dal treno?
+A.W: Arriviamo a Varsavia e battono contro etc. Finalmente eravamo già abituati, non ci faceva più troppa impressione. Ci portano in una baracca, erano baracche non uguali a quelle di Varsavia, ma sempre baracche erano...
+M.S: di, della quarantena dice?
+A.W: si.
+M.S: diverse?
+A.W: si, ma erano baracche, non edifici. Cioè il ghetto non c'erano più ebrei e hanno a suo tempo, quando hanno costruito il ghetto, hanno fatto il muro del ghetto di Varsavia, eee, noi eravamo dentro nell'ex ghetto, una zona recintata anche lei, quindi non potevamo andare in tutto il ghetto, andavamo insieme accompagnati dalle guardie, dalle sentinelle tedesche, e, però...
+M.S: quante baracche erano secondo lei, si ricorda?
+A.W: Non una bella baracca come magari si vede oggi in giro ma sempre baracche erano con finestre per dire la verità.
+M.S: ma quante erano?
+A.W: non me lo ricordo più però cercavano di tenere uniti le varie nazionalità. Per esempio gli ebrei di Salonicco avevano una propria baracca, gli ebrei italiani non avevano una propria baracca perché eravamo pochi, 42, stavamo insieme con gli olandesi e con gli ungheresi perché dal maggio in poi venivano da Birkenau anche dei gruppi di ebrei ungheresi, ee...
+M.S: solo uomini c'erano?
+A.W: a Varsavia erano solo uomini, solo uomini ee...
+M.S: solo uomini.
+A.W: e io facevo sempre il "dolmetscher", il maester (?) tedesco polacco che sapeva il tedesco che mi dava gli ordini in tedesco e io li traducevo. Gli altri invece lavoravano. E il gruppo degli italiani aveva il compito di sfruttare i mattoni perché i tedeschi perché hanno creato questo questo lager nell'ex ghetto? Per recuperare tutto il recuperabile, perché i mattoni in tempo di guerra non venivano più prodotti, allora invece così riu- si riusavano i mattoni delle case distrutte e li vendevano ai contadini polacchi che venivano la mattina con il loro carro per caricare i mattoni. Allora la casa era distrutta, noi italiani, sto parlando del gruppo degli italiani, uno andava in cima, prendeva il primo mattone, lo buttava al secondo, la catena (?) fino a che non arrivava giù. Però questi mattoni erano sporchi di malta allora giù c'erano i poveri ammalati che con un martelletto pulivano il mattone, poi bisognava costituire, le chiamavano, le stipe, cioè 250 eee mattoni che la SS vendeva a questi contadini polacchi che, fra parentesi, le posso dire che i i gli ebrei di Salonicco erano i più intelligenti di tutti quanti, loro lasciavano una stipa vecchia, giravano i mattoni perché la SS metteva un segno, loro lo giravano così il segno non si vedeva, dicevano che lo avevano preparato eeh- invece stavano riposando un attimo. Va beh, comunque allora il padre della Seta è venuto con me ed anche il figlio, sto parlando dei primi tempi di Varsavia, e dice "tu sei interprete", io ero una nullità come tutti gli altri ma leggermente avendola la binda(?), la fascia...
+M.S: ah quindi lei aveva... le avevano messo una fascia? Com'era questa fascia?
+A.W: Con le vari-, con le varie bandiere delle lingue conosciute no? Ma era l'abitudine, no che l'hanno fatta apposta per me, come per esempio c'era uno che era "snaider", uno che era "maler" che vuol dire "pittore" oppure... per riconoscere il mestiere, oltre quello che avevamo qui sul petto, ah pardon, è il solito errore e quindi il padre era nella c- nella catena e il figlio son riuscito, anche se sembrava un colosso, ero riuscito a metterlo giù fra quelli che con il martellino, quindi avevano meno lavoro che se magari li veniva la distrofia nessuno se ne accorgeva se fosse stato un... e così. Adesso voglio solo finire l'argomento di Segni, dopo un po' di tempo scoppia un'epidemia di tifo, l'ho avuta anch'io a Varsavia, ee (balbetta) ci portavano in una baracca - era uguale a tutte le altre - solo che dovevamo essere nudi, non ci davano nessuna medicina, assolutamente non esisteva medicina, eee...
+M.S: aveva un nome questa baracca?
+A.W: aveva un nome che era un revir (?) che vuol dire sempre "ospedale", eee... io ero insieme con questo Lillo Di Segni, nudi, che dormivam- però erano letti a castello a Varsavia, letti a castello, non panche dove eravamo in 6 tutti...
+M.S: e nelle baracche anche erano letti?
+A.W: nelle baracche erano letti a castello.
+M.S: eh, individuali? Ognuno aveva il suo?
+A.W: si, uno per ogni letto.
+M.S: per ogni persona.
+A.W: E allora c'era naturalmente un capo dentro nella bara-... Ma le finisco prima la storia dei Segni che per me è più importante. Viene una epidemia di tifo e mi ammalo anch'io e si ammala anche questo Di Segni Lillo che vive a Roma ee, c'era, a Roma è conosciutissimo, un ristorante, il ristorante a monte cenci di un'ebreo conosciutissimo che fa i carciofi alla giuria - è molto conosciuto - e uno di questi qua era venuto in campo anche lui, era anche lui a a Varsavia, e la mattina quando vengono con il termometro per misurar la febbre lui non aveva la febbre ma con le dita ha fatto salire il mercurio per far finta di avere la febbre: l'hanno portato dentro mescolandosi davvero con quelli che avevano il tifo ed è morto purtroppo, ma è quasi involontariamente colpa sua perché lllui non aveva preso il tifo eee adesso, cosa succede? Che si ammala anche il padre di tifo, il padre Della Seta, e il figlio invece si ammala di una cosa ancora peggiore, la dissenteria, era la cosa peggiore che esistesse, non, quasi nessuno si è salvato dalla dissenteria, e allora c'era una baracca per, ed è sempre chiamato revir (?), una baracca dove erano quelli di dissenteria e un'altra baracca quelli col tifo. Quando io mi ero risanato già dal tifo quando loro si sono ammalati, gli altri non potevano muoversi tanto quanto io, io con la scusa di esse dolmetscher potevo muovermi un po' di più dentro nel campo, allora, andavo dal padre, padre (?) subito che domandare come sta il figlio e io raccontavo delle balle "sta benissimo, sta aspettando il momento di riveder-", andavo a trovare il figlio, stava morendo, "come sta papa? Come sta?", "eh una meraviglia, fantastico, fra poco lo ved-" e invece erano tutte pan- panzane che io raccontavo a loro per tenerli su. E' interessante, il tifo quando si sta per morire la temperatura che era altissima scende, allora io vado per caso, il figlio era già morto che io non li avevo raccontato, lui è lì e dice "sto morendo Arminio", "ma che stai, racconti barzellette, non vedi che non hai neanche febbre" invece era quello il momento culminante della sua vita, allora lui cosa fa? Tira fuori da, aveva una, come si chiama l'interno della giacca?
+M.S: una fodera
+A.W: una fodera, ee... noi era proibissimo avere una matita, una penna, figuriamoci, allora lui ha preso, aveva una spilla, e con il sangue ha scritto su questa fodera, che era una fodera bianca, "Arminio ci ha salvato la vita due volte, ricordatevelo" - era indirizzata a sua moglie che lui sapeva che era viva a Roma perché dice "tu sicuramente tornerai a Roma" e che è anche stato e io per tranquillizzarlo ho preso questo e l'ho stracciato, dico, l'ho buttato via e dico "Ci ritroveremo insieme con te a Roma" invece lui purtroppo è morto, eee... Adesso perché le ho raccontato questa storia? Perché due mesi fa circa, mentre sono a Rapallo mi telefonano e dice "io sono della Seta, Dottor Della Seta", gliel'ho raccontato forse...
+M.S: no, no.
+A.W: E dico, "chi?", "il fratello di Giancarlo", lui era nascosto in un'altra casa e si è salvato, la madre si è salvata, la sorella si è salvata, la madre adesso c'ha 93 anni ma non capisce purtroppo più niente, e il quando io son tornato a Milano lei mi continuava a scrivere delle lettere, voleva conoscere i particolari e io di nuovo a raccontar balle per - nonon riuscivo a dirgli la verità. Un giorno di Kippur (?) a Milano passo per Piazza Diaz e chi ti vedo? Sergio Tofano. Lei forse non sa chi era Sergio Tofano. "Sto", quello che faceva nel corriere dei piccoli, il fortunello, vedo che lui se lo ricorda. "Sto" vuol dir "Sergio Tofano", era un attore famosissimo, lui era amico intimo di di di Lionello Della Seta, e quando l'ho visto dico "lei è Sergio Tofano?", "si", lui in quel momento (balbetta) non so che dramma faceva in Ital-, a Milano, allora gli ho raccontato la realtà ed era come Claretta in quel momento, venivamo dal tempio di corso di porta romana, e lui è rimasto scioccato purtroppo. Adesso, le volevo solamente dire, adesso di due mesi fa mi telefona e dice, "ma io sono a Rapallo", "e io sono a Milano però vengo apposta perché torno a Roma, perché abito a Roma, e passo per Rapallo", m'ha fissato l'appuntamento, viene lui con un suo figlio e con una sua figlia, la figlia abita a Milano in Via Buonarroti.
+M.S: La conosco.
+A.W: la conosce probabilmente...
+M.S: si.
+A.W: Eee, il figlio è di mestiere biologo però non ha lavoro e quindi si cerca da mangiare in altre maniere, e m'ha raccontato tutti i particolari che io già conoscevo e ioo, questa volta a malincuore, ho riferito esattamente ciò che è successo a suo fratello e ciò che è successo a suo padre. Va beh, questo riguardava i...
+M.S: si, ritorniamo un attimo... allora siete in queste baracche nell'ex ghetto di Varsavia...
+A.W: Ex ghetto di Varsavia.
+M.S: Si.
+A.W: adesso cosa succede? Questo è un caso bisogna raccontarlo perché è interessante: c'erano ancora ebrei nascosti nei sotterranei del ghetto che venivano aiutati da polacchi che venivano la notte attraverso i canali per portar loro da mangiare, ma non per niente, per un- una pagnotta che chi- chiedevano chiedevano che so, un anello con brillante. 
+M.S: come vi siete accorti di questo?
+A.W: Aspetti che glielo dico... eee, noi la mattina, c'era il cors-, l'ordine "armais comando formire?" "Formare i gruppi di lavoro" in "underchaf" (?), vuol dire "a centinaia", sempre 100 100 cent- perché loro per numerarc- (riformulazione) controllarci facilmente, allora noi uscivamo - io era sempre dolmetscher interprete - e c'era sempre un kapò insieme con noi. Questo Kapò, quando si arrivava davanti la sentinella della SS, doveva uscire, levare il berretto e dire emh, indicava il proprio numero (frase in tedesco) vuol dire "altri 99" e si andava a lavoro. La sera quando si tornava avveniva il contrario, la sentinella controllava solo se eravamo 100 e/o non di meno. Una mattina questo Kapò non poté venire perché si era ammalato allora il comandante mi diceva "fai te" il kapò di questa centuria. Io vado, levo il berretto, e mi presento, questo era un sottufficiale che era della Transylvania, era tedesco della - sa che in Transylvania c'erano anche i tedeschi già 2 o 300 anni -. Dico in tedesco (frase in tedesco balbettando: dice "persone" + risposta in tedesco), "cosa hai detto? Persone?" E ha cominciato a darmi addosso pugni e calci. E io non sapevo perché allora siccome avevo gli occhiali, dico non voglio che mi rompa gli occhiali li ho levati e dice "perché togli gli occhiali?" "Li tolgo perché non voglio che si rompano perché poi non ci vedo" "ah si?", allora me li prende, li mette sotto, tac e li li sf- li sfascia completamente. Poi dopo finalmente mi dice (frase in tedesco) "voi non siete persone" (frase in tedesco) "voi siete animali di lavoro e quindi tu devi dire al massimo" (frase in tedesco) "non devi dire (persone in tedesco), non devi dire persone", vabbeh. La sera si torna indietro e dico "aiai, sarà uguale come a stamattina", però sapevo come dovevo dire, non più "menson" o persone ma dovevo dire "arbaistir", lui mi guarda e non mi fa niente, e dico "ma cosa è successo?". Non solo, dopo altre volte che ci incontravamo era sempre affabile e cortese, e delle volte invece capitava di colpo, mentre noi cercavamo di riposare un momentino capitava lui (frase in tedesco) "non ha lavorato" 25 emh frust- con la frusta sul- e io ma ero l'unico che lavorava, gli altri non, gli altri niente a me sì. Allora una volta che l'ho incontrato, dice "come here" "vieni qua" e mi ha detto "adesso ti racconto la mia storia: io ero insegnante di scuola elementare però io sono nato sadico, ho bisogno di soddisfare il mio fabbisogno di sadismo, solo dove lo posso fare, contro i bambini piccoli perché una persona normale non si lascia..." e allora cosa è successo? "Che sono venuti a sapere e mi hanno buttato fuori dalla scuola, allora sono andato nella legione straniera francese" ed è stato un paio di anni lì, anche lì po-
+
+PARTE III
+-teva il caporale, lui era caporale perché era insegnante di di scuola, e poteva soddisfare il proprio bisogno di sadismo che contro i poveri legionari. Quando è nato il hitlerismo, il nazismo, è scappato dalla legione francese è andato a Hitler come volontario perché diceva "ah qui potrò soddisfare i miei bisogni", ecco che lui era sadista perciò perciò dice "però io sadista ma sono anche un insegnante elementare, io capisco quello che faccio, però non posso far niente contro, è più forte di me, però dopo poi ci ripenso e mi pento. Ecco perché le botte che t'ho dato quando sei uscito in quel momento era il sadismo che aveva il guadagno, adesso sono invece una persona normale".
+M.S: e lui spontaneamente vi le ha raccontato proprio la sua vita?
+A.W: la sua la sua vita.. e quindi io sapevo, noi lo chiamavamo "darschwarz"(?) perché era la faccia era scura, tutti soprannomi del campo no?
+M.S: non sapeva il nome...
+A.W: poi interessante come le racconterò, come è successo, come è stato ammazzato lui a Varsavia poi... Allora a un certo momento i russi avanzano, avanzano e arrivano sulla vistola di Varsavia a destra - Varsavia è divisa in due dalla vistola, un fiume - e i russi sono arrivati alla proprio alle falde, no alle falde, accanto al fiume della Vistola dalla parte proveniente dall'est e siccome era il momento in cui i russi marciavano i tedeschi dicono "aiai, qui siamo presi, bisogna scappare", allora naturalmente, siccome volevano sempre utilizzare tutto il possibile, allora dicono (frase in tedesco) "dobbiamo evacuare" e a piedi, e dove andiamo? In Germania. Eee...
+M.S: Aspetti, ci fermiamo un attimo per la cassetta. No, no, mi scappi dal ghetto di Varsavia, io voglio sapere ancora un po' di cose. Intanto co- dobbiamo tornare a quella storia degli ebrei nascosti.
+A.W: si.
+M.S: ecco questa deve raccontarla, adesso cambiamo la cassetta.
+
+→ Tape: 7 of 1
+M.S: 4 Marzo 1998, cassetta numero 7, intervisto il signor Arminio Wachsberger. Allora...
+A.W: Le stavo dicendo dell'Ingegner Pontecorvo.
+M.S: si questo...
+A.W: l'Ingegner Pontecorvo era il primo in Italia ad aver applicato il microscopio elettronico, adesso è diventato una cosa abituale ma stiamo parlando del 43, questo Ingegner Pontecorvo è era era perché purtroppo non c'è più cugino del regista Pontecorvo, famoso in tutto il mondo no?
+M.S: era con lei aa Varsavia?
+A.W: Questo Ingegner Pontecorvo, ma suo cugino si è salvato in Italia, non so come... e allora quando eravamo sulla catena, lei mi aveva chiesto prima le ore, ore e ore che non si contavano più, e allora si cercava di ammazzare il tempo, allora mentre si buttava i mattoni uno all'altro io mi int- io parlavo con l'Ingegner Pontecorvo di argomenti di ottica, di fotografia, lui mi parlava di microscopi, mi spie- (riformulazione) cercava di spiegarmi - non è che abbia capito tutto - come funzionasse e altri c'erano due medici ancora e tutto - purtroppo (?) sono morti tutti eee adesso torno a parlare dei russi che sono vicini e dicono "adesso noi andiamo in Germania a piedi", allora io avevo conosciuto un ebreo polacco, che noi chiamavamo Ti-, non il numero ma neanche il nome, si diceva Tshirt, "Tshirt" vuol dire "falegname" perché lui era di professione falegname. Lui, quando mi son salvato dal tifo, che son rimasto vivo - lo sa il Signore Iddio perché - avevo bisogno di rif- rinforzarmi e allora io avevo un ponte d'oro, lui ha preso una tanaglia da falegname ed è riuscito a togliermi questo oro, questo ponte d'oro, l'ha dato ad un contadino polacco che entravano la mattina per prendere le stipe e lui ci ha portato del pane un bianco, un pezzo di salame - salame vero -, insomma son riuscito a rinforzarmi con questo oro che però era proibitissimo perché appena arrivati a Varsavia la prima cosa che ha fatto l'SS è guardare le bocche di tutti quanti per vedere quanti denti d'oro c'hanno e segnavano pr- prigioniero numero tarditali 2 denti d'oro in maniera che se quello moriva sapevano che prima di bruciarlo bisognava toglier l'oro.
+M.S: voglio chiederle una cosa, emh, lì nell'ex ghetto di Varsavia...
+A.W: Adesso...
+M.S: c'era l'appello anche lì ogni mattina?
+A.W: certo, questo era una cosa classica l'appello.
+M.S: ed non erano SS m'ha detto lì che tenevano nel campo...
+A.W: no, dentro nel campo erano SS.
+M.S: ah erano SS.
+A.W: ma le sentinella erano ucraine.
+M.S: e gli altri comandi che tipo di altri lavori si svolgevano?
+A.W: anche noi per esempio il primo tempo prendevam- prelevavamo il legname delle case distrutte perché era un legname che facilmente bruciava perché era secco, de- dei bombardamenti, e venivano creati in uno spiazzo delle cataste di questo legname che noi italiani siamo riusciti a recuperare e lì bruciavano dei polacchi non ebrei che loro a Varsavia avevano arrestato per esempio un tram (frase in tedesco) "tutti giù" e li portavano e li ammazzavano lì perché lo sa il signore Iddio e quello era uno dei compiti nostri, poi c'era un comando che non eran l'ebr- gli italiani che erano quelli che facevano saltare le case con la dinamite - erano case già distrutte ma non tali da poter riutilizzare, recuperare e loro facevano questo mestiere qua. E quindi c'era, ognuno aveva la propria mansione. 
+M.S: lei prima mi aveva detto che c'erano degli ebrei nascosti ancora sotto...
+A.W: ah ecco, questo le voglio raccontare. Una mattina il andiamo a lavoro, accompagnati sempre dalla SS per, si usciva dal  ghet- dal lager ma si era ancora sempre nel ghetto e ci porta a lavorare. Il nostro lavoro consisteva nel andare - c'era una botola -, scendere giù e recuperare di ciò che trovavamo giù. Giù giù si trovava in genere cadaveri e dovevamo togliere dai cadaveri tutti i generi di valore e portarli su in un secchio.
+M.S: che mese era questo?
+A.W: in che mese?
+M.S: che mese...
+A.W: sarà stato Gennaio Febbraio del 44 perché poi da siamo andati via il primo agosto da, 44, da Varsavia.
+M.S: quindi è stato parecchi mesi (?)
+A.W: Allora cosa succede? Che gli ebrei italiani rispetto agli altri erano i più i i meno sprovveduti, non avevamo la malizia, la la scioltezza degli ebrei polacchi o russi, noi quello che trovavamo glielo davamo. Eee, bene.
+M.S: che cosa si trovava per esempio?
+A.W: un giorno, un giorno mentre sono sotto in questo canale, questo (balbetta) tunnel - come lo vuol chiamare - vedo un uomo con una barba così: era un sopravvissuto che viveva perché i polacchi gli portavano da mangiare contro i generi di valori che c- consegnava. E mi dice "vedi questa era mia moglie, questa è mia figlia, quel-" erano tutti morti e no- non li abbiamo toccati allora perché per non far- co- disturbar questo vivente. Siamo tornati su con il cesto vuoto...
+M.S: era una persona sola? Un uomo?
+A.W: si, siamo tornati su con cesto vuoto. La SS dice "come in-? Non avete trovato niente?" "Eh no, in questo canale altri... no- non abbiamo trovato niente".
+M.S: erano le fogne?
+A.W: fogne si, ecco la parola esatta. Eee... vabbeh, non c'era niente, niente. La mattina dopo ecco - adesso viene il bello - (frase in tedesco) e invece di portarci lì avevamo noi nascosto qui sulla pancia delle pagnotte che davano a noi, una pagnotta in sei: noi abbiamo rinunciato a mangiare noi per portare a questo povero diavolo che era nascosto e le avevamo nascoste qui sulla pancia e invece di andare all pposto del ssolito questa volta la sentinella ci porta in un altro posto... che strano, adesso avevamo qui in pane per darglielo poveretto deve pensare a chissà che cosa, niente. La sera "seil Appel"(?) a Varsavia, a un certo momento viene il comandante e porta con sé una persona, era quello con la barba. Domandano (frase in tedesco) se lo conosciamo "non lo abbiamo mai visto" e invece l'avevo (avevamo?) visto eee... (frase in tedesco) "lui è (pausa) punito per la morte" e lo impiccano davanti a noi.
+M.S: avete assistito tutti insieme?
+A.W: Si, aaa insieme a questa impiccagione. Eee adesso poi più tardi si è saputo il perché: quello della SS, il nostro accompagnatore, quando ha visto che noi non abbiamo detto di non aver trovato nulla è andato lui giù e ha visto quello là e l'ha arrestato perché? Perché se qualcuno trovava un ebreo nascosto riceveva una licenza di due settimane (pausa) in più 500 marchi, quindi a lui ha fatto comodo denunciarlo e in questa maniera purtroppo lui è morto e noi siam-.
+M.S: un'altra cosa volevo chiedergli sempre di questo ex ghetto... emh... quindi ogni giorno c'erano gli appelli?
+A.W: si la mattina e la sera e...
+M.S: c'erano delle selezioni? C'er...
+A.W: Dunque appunto di questo le voglio parlare...Ogni due settimane da Birkenau veniva un comando di SS sanitari e facevano le selezioni di noi operai di Vars-.
+M.S: cosa vuol dire "selezione"? Me lo descriva...
+A.W: Si...bisognava spogliarsi, passare davanti a lui, lui guardava, se riteneva questo "non è più abile al lavoro" prende nota del numero e così finiva. Adesso cosa è successo? Questo era un ufficiale della SS tedesco nazista, io ero nascosto in una casa, quando questo qui è salito-
+M.S: nascosto in una casa del ghetto? Stava lavorando diciamo...
+A.W: si...
+M.S: Si.
+A.W: Allora io vado incontro a lui e gli dico (frase in tedesco) "sia tanto gentile prenda nota anche del mio numero", lui mi guarda e mi fa "che cosa?" "Si ho visto che prende degli altri, anch'io voglio andarmene da Varsavia" (frase in tedesco) "lo sai dove andiamo?" (Frase in tedesco), cioè ci rimandavano a Birkenau per gassificare e ammazzare e io mi sono offerto volontario, perché? A prescindere dal fatto che sapevo della famiglia e io non ne potevo più ma anche c'era un motivo proprio fisiologico: gli altri italiani lavorando con le mani, muovendosi, si scaldavano un po', io dovevo (riformulazione) il mio lavoro consisteva solo nel parlare quindi soffrivo il freddo molto più degli altri quindi io volevo farla finita. Questo ufficiale della SS m'ha dato uno schiaffo dice (frase in tedesco) "la guerra sta per finire e tu scemo d- vai a aa metterti in pericolo di essere ucciso" e m'ha (frase in tedesco) "tu rimani qua", e così son rimasto a Varsavia. Un altro ufficiale della SS anche questo - lo devo raccontare perché è la verità - :, quando eravamo ufficialmente sotto di lui, lui con la frusta ci frustava, urlava, gridava etc, la sera veniva nella nostra baracca degli italiani e diceva "ma come fate voi a resistere a questo freddo di Varsavia quando io son stato in Italia a suo tempo" - era come turista, cconosceva l'Italia -, e allora cosa faceva lui? C'era la "blackaidum scammer" - "blackaidum scammer" vuol dire la (balbetta) baracca con dentro il vestiario per la SS, non per noi -: lui rubava vestiario della SS per darlo a noi e questo vestiario indovini cos'erano? Erano mutande di carta, lei non ha idea, mutandoni, il (balbetta) la carta come protegge dal freddo e quindi se l'avessero pizzicato avrebbe (o avremmo?) passati dei brutti momenti.
+M.S: per tutti voi vi ha procurato...
+A.W: per noi italiani.
+M.S: tutti e 42?
+A.W: tutti e 42... ci dava questi calzoni... però quando era ufficialmente accanto al comandante urlava, sbraitava contro di noi perché doveva far vedere che lui è come tutti gli altri ma in realtà era diverso. Questo non per dirle che son- in tutti i paesi, in tutti i popoli, c'è della gente normale, gente cattiva e gente benevole eee questo era tra i pochi benevoli e io mi tengo in obbligo di raccontare questo perché è giusto che quelli che si son comportati umanamente venga ricordato il loro gesto. Adesso, le voglio...
+M.S: no volevo chiedere un'altra cosa...per quanto riguardava il mangiare, c'era qualche differenza fra lì e Birkenau?
+A.W: pressappoco uguale.
+M.S: mi, me me lo descriva il mangiare, cosa si mangiava?
+A.W: pressappoco... vabbeh er era una brodaglia che...
+M.S: al mattino questo?
+A.W: al mattino c'era una... lo chiamavamo tè, erano delle foglie non so di che cosa.
+M.S: avevate delle scodelle? Ognuno aveva una scodella?
+A.W: si, delle scodelle, una propria scodella si. Mah c'è chi l'aveva sbrecciata, chi l'aveva normale, chi non aveva niente e doveva bere dalla scodella del suo compagno...
+M.S: dopodiché c'era l'appello?
+A.W: Poi c'era l'appello, dopo, se se era nebbioso non si usciva, si rimaneva sull'appello in piedi, sull'attenti, in attesa che la nebbia sparisca, perché? Perché quando c'era nebbia qualcuno tagliava la corda...
+M.S: omg è successo qualche episodio di qualcuno che è scappato?
+A.W: si, adesso le voglio raccontare la storia di Isacco Simoneta (si capisce poco il cognome). Isacco Sarmoneta, ma questo era successo più tardi in Germania vicino a Dachau dove eravamo a millo???.
+M.S: Aspetti, no, allora fermiamoci sempre a Vars-, no dico a Varsavia c'era... c'è stato qualche tentativo?
+A.W: Adesso parliamo di... Varsavia, Varsavia no, a Varsavia c'era un ebreo greco, un ebreo greco molto in gamba - i grechi sono in gambissima - ee, lui era di Salonicco, lui quando il contadino polacco usciva dalla dal ghetto con i suoi mattoni lui, dando dei soldi perché anche i polacchi non facevano niente senza soldi, si era nascosto in mezzo ai mattoni, fra i mattoni ha lasciato uno spazio e si era introdotto lì e così è uscito dal ghetto ed è riuscito a mettersi in contatto con i partigiani polacchi - c'erano anche i partigiani ebrei - e così si è salvata la vita come partigiano riuscendo a scappare dal ghetto.
+M.S: questo l'ave-... questo l'ha saputo...è successo quando lei era lì?
+A.W: Si, però l'ho saputo dopo.
+M.S: certo, certo.
+A.W: E adesso le devo raccontare di un altro fenomeno perché è eccezionale: da noi, a Varsavia, c'era il dirigente del "blackaidum scammer" della SS, sarebbe al al il vestiario per la SS, un ebreo di Salonicco che parlava l'italiano alla perfezione perché a Salonicco c'erano scuole straniere, francesi e italiane, lui aveva frequentato la scuola italiana - parlava l'italiano perfetto -. Quando ha visto noi italiani - ha visto "it" - "italiani", ha cominciato a parlare italiano con noi eee...è diventato il mio migliore amico di Varsavia.
+M.S: si chiamava?
+A.W: Isacz Senor (?????). Eee, lui una volta alla settimana, con un camion della SS, accompagnato da un uuufficia- (riformulazione) sottufficiale della SS andava in una lavanderia di Varsavia, portava tutta la roba sporca e ritirava la roba pulita. Questo era un viaggio normale suo, lui era...
+M.S: I vestiti delle SS comunque, non è che lavavano i vostri...
+A.W: Non nostri, noo, erano quelli della SS: lenzuola, camicie, così varie. Lì, in questa lavanderia, ha conosciuto una ragazza, questa ragazza era ebrea ma aveva documenti falsi, e son diventati fidanzati, amanti, non so che cosa... e allora hanno deciso di tagliare la corda, di andare nei boschi insieme con i partigiani. Allora cosa fa lui? Lui (balbetta) era riusciva, si chiamava organizzare, aveva organizzato della vodka. Quando sono arrivati nella lavanderia lui ha dato la bottiglia di vodka a questo sottufficiale, dice "bevi, bevi, bevi pure" e lui aveva con sé un pugnale. Pensava "quando questo sarà mezzo eee io lo pugnalo e noi due tagliamo la corda", cosa è successo? Esattamente come le ho detto, solo che lui non è morto, ha cominciato a urlare questa sentinella della SS. Vicino passa una pattuglia di SS che sente queste grida e insomma, in parole povere, lo arrestano colpevole di tentato omicidio, e viene riportato nel nostro campo e messo in una cella del lager.
+M.S: è così che lei ha saputo la storia?
+A.W: come?
+M.S: è così che lei ha saputo cos- cos'era successo?
+A.W: Si, perché poi lui mm l'ha raccontato, però mi diceva "non aver paura Arminio, tanto il comandante a me mi salva di sicuro" perché lui faceva affari anche col comandante. Eee, in certa la mattina...
+M.S: lo hanno messo in isolamento lo?
+A.W: ee, in isolamento però io parlavo attraverso la finestrina con lui e lui eee di non aver paura perché (balbetta) a lui non sssuccederà niente. Una mattina "Zahlappel", allora noi avevamo una, qui, oh pardon, avevamo (un?) taschino, son venuti, hanno cucito il taschino, poi avevate, con noi avevamo de- dei cucchiai, hanno levato i cucchiai - e non sapevamo perché. Dopo "Zahlappel", vediamo una forca (pausa). Dopo poco arriva Isacz Senor (?)accompagnato dalla SS e lo fanno montare sulla forca. Era successo che quello che aveva scoperto il il che aveva tentato (riformulazione), lui aveva tentato di ammazzare, sapeva che se lui infie- (riformulazione) si rivolge a a Berlino, al comando generale, otterrà una licenza di due settimane. Allora il comandante del campo di Varsavia non sapeva che quello lì ha denunciato a a Berlino e da Berlino è venuto l'ordine di uccisione, di impiccagione. Accanto a me c'era suo fratello - lui aveva un fratello - che nnnon era una personalità come lui, parlava anche lui italiano ma più parlavamo in nadino (?).
+M.S: si chiamava?
+A.W: eh, dunque... Senor(?) era il cognome, adesso il nome mi sfugge comunque...ee, quando ha visto che suo fratello montava sulla forca è svenuto, è caduto a (?), siccome questo ssSenor(?), il fratello poi quando mi son sposato era mio testimone, ecco perché lo ricordo con precisione, e allora il comandante, malgrado lla quello che non avrebbe voluto fare per aiutare questo Senor ha dichiarato "è venuto l'ordine di impiccagione perché ha fatto questo, quello..." raccontando ed è stato impiccato purtroppo, non c'è più. E questo suo fratello quando siamo stati liberati dagli americani, siamo stati liberati ai primi di maggio del 45, e io il 12 luglio mi son sposato e avevamo bisogno di due testimoni allora c'era uno Isacz Senor (?) il mio testimone che era venuto insieme con una moglie, una ebrea polacca che era andata a Ravensbruck che aveva (riformulazione) era incinta e il bambino è nato nel campo - nel campo di Ravensbruck non uccidevano i bambini come Birkenau - allora questa signora aveva un bambino e questo Isacz Senor (?) ha sposato questa signora allora al al nostro matrimonio è venuta con la carrozzella con il bambino ed era nostro nostro testimone di nozze, ecco perché ricordo di Isacz Senor (?).
+M.S: tutti questi mesi che ha passato a Varsavia, emh, appunto quale erano i vostri discorsi, i vostri pensieri, cosa sapevate? cosa...
+A.W: Il discorso era sempre... c'era sempre per esempio, ecco c'era per esempio un ragazzo ebreo sempre di Salonicco, di cui ero l'interprete ripeto, non conoscendo il greco ma loro parlavano greco, turco, tutte le lingue possibili immaginabili eee... ma lui era riuscito a costruire una radio - era di professione, proprio come loro sono specializzati in questo campo qua - e andavamo su nel terzo letto di sopra a ascoltare così e quindi sapevamo la realtà: questo faceva comodo a noi perché diffondevamo queste notizie, era ossigeno per noi sapere che i russi avanzano, che gli ingl- angloamericani avanzano...
+M.S: e dove la nascondevate questa radio di giorno? Quando eravate fuo-
+A.W: la teneva nascosta sopra dove non capitava mai che andassero a vedere. C'era qualcuno che lavorava nella stanza di un ufficiale come come servizio, come nel film (pausa) la la quella che ha fatto la Meryl Streep (pausa), l'ho (?) visto, ce l'ho qui comunque. (Pausa)
+M.S: si vede la stanza del Kapò che è affianco della baracca...
+A.W: Dunque, lei lavorava come domestica del comandante Rudolf Hoss (?), adesso mi sfugge il nome, c'ho anche la cassetta qui.
+M.S: fania...fania.
+A.W: No, il nome del film si chiama... Non è importante.
+M.S: La scelta di Sophie.
+A.W: si. Eee...quindi, sapevamo tante cose che loro non sapevano che noi sapevamo.
+M.S: emh quindi cc'era un Kapò ee che eera responsabile della vostra baracca?
+A.W: Si, erano i "blokkertest?".
+M.S: "blokkertest"?
+A.W: ebreo.
+M.S: ebreo.
+A.W: Si. Adesso le voglio solamente dire: a Varsavia c'era un kapò nostro che - la notte non si poteva uscire per andare a fare i proprio bisogni - e un ingegnere (riformulazione), un... cosa ? un ingegnere o un dottore? Dottore. Romano. Stava al terzo letto, al terzo piano, e la notte non ha potuto più, gli è scappata l'urina e questa urina è colata e gli altri si sono lamentati logicamente. Allora è venuto questo kapò che era cecoslovacco, gli ha dato tante di quelle botte che questo povero professore è morto dalle botte. Perché racconto questo particolare? Perché finita la guerra, la maggior parte di noi andavano, emigravano, o in Israele o in ai Stati Uniti d'America. Quelli che volevano andare in America c'era l'ACI [letto come acronimo lettera per lettera in inglese] cioè "intelligence service" che controllava se questi si erano comportati umanamente nei campi, allora è venuto questo cecoslovacco da me e mi ha detto "Arminio dolmetscher" Che no? Chiamarmi dolmetscher Che vuol dire "interprete" e dice "io lo so quello che ho fatto però tu lo sai, o facevi così o sennò morivi te e allora mors tua vita mea" (? Controllare) e dico "ma no, tu potevi anche punire quel povero professore ma sbranarlo di botte e di frustate per farlo morire... comunque io sono figlio di un rabbino ortodosso, sono ortodosso anch'io, io ti dichiaro che ti sei comportato umanamente" e lui è andato in America.
+M.S: si, l'ha salvato.
+A.W: eee, adesso voglio finire Varsavia.
+M.S: si, voglio sapere ancora se...
+A.W: mentre mentre stiamo uscendo questo "Thishler"(?) era rimasto - perché erano rimasti 300, da 6 mila 300 erano rimasti nel ghetto perché? Perché questi 300 mentre noi andavamo via avrebbero smontato il campo, portato via tutto il possibile che si poteva recuperare -.
+M.S: questo av- avviene in Agosto?
+A.W: questo in Agosto, prima nel... primo agosto, adesso più o meno.
+M.S: Vi avevano già avvertito che vi sareste spostati o...?
+A.W: Si, ci hanno detto però non hanno detto dove...
+M.S: Certo.
+A.W: Allora, noi andiamo via.
+M.S: Dove? Come?
+A.W: E.. che... in... a piedi fino a emh il famoso - in quell'epoca famosissima cittadina - Kutno si chiama, Kutno. Perché è famosa? Quando i tedeschi hanno invaso la Polonia loro invadevano la Polonia con i carri armati e i polacchi avevano la cavalleria e la cavalleria si era buttata contro i carri armati sapendo che... e gli hanno... si, e questo è successo a Kutno, quindi tutto il mondo conosceva Kutno. Quindi noi a piedi da Varsavia siamo andati fino a Kutno; a Kutno ci hanno montato su dei vagoni ferroviari e ci hanno portato lentamente lentamente fin-
+M.S: chi vi scortava? Delle SS o la???
+A.W: Delle SS... e ci hanno a Dachau. Vabbeh, le voglio raccontare la fine. Siamo nel Waldlager in Germania, vicino aa München, a Mühldorf eee vedo il (frase in tedesco) che sarebbe il giornale del popolo tedesco: (parola) vuol dire "popolo" e (parola) vuol dir sol il quello che controlla, che verifica, er- il giornale del del regime. Dice (frase in tedesco) "primo agosto" e racconta (frase in tedesco) vuol dire "rivolta in Isr- a Varsavia". Perché cosa era successo? Che quando i polacchi hanno visto che i russi sono già qui hanno detto "finalmente adesso possiamo rivoltarci contro i tedeschi". Si sono rivoltati contro i tedeschi e avevano vinto solo che a un certo momento i tedeschi si sono accorti che i russi non camminavano, si erano fermati, ma c'era una regione speciale perché era Stalin che voleva che i polacchi morissero perché così lui poi occupava un paese povero di gente intellettuale. Eee, son tornati i tedeschi, che erano scappati, son tornati verso Varsavia e son riusciti con le loro armi a vincere naturalmente la rivolta polacca, ma non mi ricordo quanti sono morti, quanti son stati deportati.
+M.S: quindi è stato evacuato ma non tutto... Qualc- un gruppo è rimasto?
+A.W: Ecco, questi 300 eran rimasto, e noi dicevamo "poveretti, saranno morti anche loro" eee... io mi trovo da(a) "ihr seid Frei"(?) da "uomo libero" e c'erano dei conoscenti, c'era per caso con noi anche Isacco Sarmoneta che ha presa la tubercolosi e veniva da un tubercolisario(?26.50) e stavo raccontando guardate un po' cosa vuol dire quel... quel Thisler(?) che era già libero perché quando siamo usciti noi...
+
+PARTE IV
+A.W: è uscito anche lui, quando è arrivato alla porta dice "no, torno indietro", è tornat-, e dico "guarda se veniva con noi si salvava, adesso è morto", battono alla porta e (chi era ad entrare?)? Thisler(?): al momento in cui io raccontavo la sua storia è capitato lui - adesso mi sto muovendo troppo lo so, cercherò di muovermi un po' meno - e allora Thisler(?) ci ha raccontato cos'era successo. Questi 300, i polacchi che erano rimasti - polacchi non ebrei - in le avendo saputo che erano rimasti pochi della SS e fra quelli che noi chiamavamo "daschwarz", il nero, quello che mi aveva dato le botte a me. I polacchi non ebrei hanno attaccato il ghetto, dove c'erano questi 300, e hanno salvato questi 300: erano 300 ebrei salvi e gli hanno messi in una scuola, vuole il destino cade una bomba sopra la scuola, ammazza tutti quanti meno lui. E lui adesso si trova in America ed è venuto a Mühldorf?? Per vedere se riconosceva qualcuno dei suoi compagni. Un redivivo, ma ho raccontato che... è interessante che è entrato dentro proprio nel momento io raccontavo la sua storia credendo che fosse morto.
+M.S: beh, allora andiamo per ordine... siete andati a piedi, siete andati fino a Dachau?
+A.W: fino a... no, fino a Kutno.
+M.S: Kutno. Poi a Kutno...
+A.W: da Kutno ci hanno messo su aa, dunque adesso aa a Kutno c'hanno messo in questi vagoni e andavano - a una lentezza esasperata - e siamo arrivati...
+M.S: sempre va- vagoni come i soliti che aveva già...
+A.W: sono i soliti vagoni 
+M.S: si.
+A.W: solo che erano aperti perché era estate, non avevano il tetto... non non disturbava perché anzi era meglio, prendevamo un po' d'aria, però non le racconto quanti sono morti. Voglio però riferire un caso che era successo: noi quando andavamo a piedi non ci davano né mangiare né bere, allora il mangiare come facevamo? C'erano dei campi di patate, con la scusa di andare a fare i propri bisogni, specialmente io, grattavamo le patate dal fondo e le nascondevamo qui nel nei calzoni e poi crude le mangiavamo. Però c'era la sete, acqua non era trovabile. Arriviamo a un fiume - c'è anche, lo so anche il nome, non me lo ricordo ma sulla carta c'è sicuramente - allora dice "ecco, potete andarvi a bagnare e bere", però le sentinelle sono col mitra puntato. E noi entriamo, beviamo l'acqua finalmente, un ebreo ungherese, un ebreo ungherese si è spinto un po' più in fuori, allora la SS le ha sparato e lo ha ucciso. Naturalmente l'acqua si è subito sporcata di sangue e ci hanno obbligato a bere quell'acqua lì (frase in tedesco) "dovete bere quell'acqua lì". Vabbeh, questo era, questa emh non era la Vistola, era un altro, altro fiume.
+M.S: Si.
+A.W: Eee arrivati a Dachau...
+M.S: quanto è durato questo viaggio secondo lei?
+A.W: non mi ricordo quanti giorni, ma diversi giorni.
+M.S: e dormivate come?
+A.W: niente, dentro nel vagone, si dormiva, si c- cercava di chiudere gli occhi, eravamo sempre come le sardine no? Eee, arrivati a Dachau c'erano  degli ebrei ungheresi. Siccome mia madre era ungherese - parlavo in quell'epoca ancora un po' d'ungherese, adesso l'ho quasi dimenticato completamente - ee mi ha regalato una rapa. Una rapa, una comune rapa, perché noi ci davano le rape da mangiare ma le rape degli animali, mentre quella era una rapa normale, bianco blu, bian- bianco azzurro: mi sembrava di aver raggiunto il cielo con un dito di mangiare questa rapa. Va bene, da Dachau...
+M.S: Un attimo, ci fermiamo per cambiare la cassetta.
+A.W: Il fatto che io non me ne accorga vuol dire che sto parlando tanto.
+M.S: no, no emh va bene, no ma lei, un momen-
+
+→ Tape: 8 of 1
+M.S: 4 marzo 1998, cassetta numero 8, intervisto il signor Arminio Wachsberger. Allora siamo rimasti a Dachau...
+A.W: Siamo arrivati a Dachau.
+M.S: Mi descriva Dachau...
+A.W: A Dachau siamo rimasti un paio di giorni. Dachau era il primo campo di concentramento tedesco che è stato sviluppato già nel 34, poi hanno fatto gli altri...
+M.S: lei era sempre con questi 42 italiani?
+A.W: no di italiani non c'erano più, che solamente eravamo in 3.
+M.S: cosa è successo?
+A.W: morti. Morti d- di stenti, di tifo... eravamo rimasti: io, Lillo Di Segni e questo Isacco Sermoneta - che aveva un sacco di familiari - il quale una volta, dop-, nel campo dove eravamo al Waldlager aveva tagliato la corda però vestito ancora da prigioniero e naturalmente l'hanno ripreso e l'hanno riportato al campo. E il comandante era di Laverna(?), il comandante del Waldlager negli ultimi mesi, allora ha fatto montare la forca ee, la sera, sarebbe stato ammazza- stato impiccato la mattina dopo. Nel frattempo l'hanno messo nel bunker sotterraneo. Di italiani eravamo io, una milanese che si chiama - spero che viva ancora, che lei era ebrea, il marito cattolico, e c'ha il figlio, il marito e il figlio son rimasti a Milano vivi, lei è stata deportata a Birkenau - Hahim(?) è il cognome ma poi Hahim (?)ee il marito, portava anche il nome del marito, ed era italiana milanese, e in più c'era una partigiana piemontese, non ebrea - perché a Birkenau? Portavano anche i partigiani, non solamente ebrei. E allora noi, durante la giornata e la notte, portavamo da mangiare a questo povero Isacco Sermoneta. La mattina "Zahlappel", la forca è pronta, il comandante dice "io secondo le norme dovrei impiccarlo perché così così ha cercato di fuggire", allora io mi son rivolto al comandante e dico "signor comandante questo Isa-" - io Isacco Sermoneta prima non lo conoscevo, dico "lui da casa era già matto, prova (?) sia che è scappato vestito in uniforme, come si fa a scappare vestito con l'albero a stris- con la con il vestito a strisce, non sa quello che fa", allora dice "va bene, allora gli gli do salva la vita però lo mandiamo a Dachau" che non era lontano "con il segno rosso qui" - questo, chi portava questo segno rosso appena si avvicinava, non s- che fosse passato, ma si avvicinava alla, come si chiamava?
+M.S: al recinto...
+A.W: al recinto, la SS aveva il diritto di sparare perché era un criminale riconosciuto, e lui non è scappato. Però lui a Dachau ha conosciuto quello che non ho conosciuto io: il lll, quello che... paracadutista che l'hanno lanciato... Sereni.
+M.S: ah.
+A.W: Enzo Sereni (controllare?). Enzo Sernini ? Sa tutta la storia è stato portato a Dachau, a Dachau sono venuti a sapere che era ebreo e lo hanno ammazzato. E lui questo Isacco Sermoneta aveva parlato con con Sereni, emh, io personalmente non l'ho conosciuto.
+M.S: Ma allora a Dachau siete arrivati, vi hanno diviso, vi hanno messo in baracche...
+A.W: (?) hanno messo insieme con gli altri perché di ebrei italiani eravamo in 3. E le voglio raccontare ancora una cosa di questi noi poveri 3 ebrei che usciti da Varsavia, che... ah a proposito, c'era un ebreo che si chiamava Di Porto, ma il nome Di Porto è molto diffuso. Lui stava bene però chi andava nel revir(?) stava leggermente meglio perché non è gli dessero da mangiare più che a noi però almeno non lavorava. Allora il capo del revir? Era un medico ebreo finlandese, lui ha detto "Arminio parlane con lui che mi prenda", l'ha preso (parole non compreso). Quando noi siamo partiti, oltre i 300 che erano falegnami, sarti, etc, c'erano qu- questi cosiddetti ammalati - quelli li hanno mitragliati subito, purtroppo io ho conosciuto i suoi parenti più tardi mah...
+M.S: Allora siamo a Dachau ee...
+A.W: EE allora a Dachau siamo rimasti un paio di giorni solamente, a Dachau. Poi ci hanno messo in treni viaggiatori, non più treni bestiame ee..
+M.S:l'ordine è venuto... per tutti.
+A.W: l'ordine è ve- "trasferire", ma non solo per me, non tutta Dachau, una parte e ci hanno portato a Mühldorf, che era un campo nella città di Mühldorf.
+M.S: Una parte... e lì siete andati sempre col treno?
+A.W: Col treno. Arrivati a Mühldorf siamo rimasti due giorni in tutto e li ho ho conosciuto un capo ebreo che dava degli ordini in tedesco però ogni tanto metteva in mezzo delle parole yiddish, diceva "noi li sorpasseremo", ce- cercava di tranquillizzarci. 
+M.S: Di darvi coraggio...
+A.W: Poi ci hanno portato, come l'ho detto prima, al Waldlager 5, che era in mezzo ai boschi.
+M.S: dov'era esattamente?
+A.W: come?
+M.S: dov'era esattamente? Vicino a Mühl-...
+A.W: Vicino Mühldorf, non mi ricordo quanti chilometri, però nel bosco, e come... si, non c'erano più baracche ma bensì avevano fatto delle fosse e una cop-, una un tetto che ricoperto di alberelli cosicché gli aerei non riconoscessero che li c'è della gente viv-
+M.S: Erano tante queste baracche diciamo emh?
+A.W: si, eee poi hanno, o oltre Wald- Waldlager funf [5 in tedesco] hanno costruito il Waldlager sechs [6] perché, ingrandito, perché poi son venute anche donne - naturalmente le donne le tenevano in disparte.  La pr- preponderanza erano ungheresi ee...
+M.S: e lì cosa dovevate fare co-...? Emh eravate assegnati a un lavoro?
+A.W: dunque io... io, ciascuno n-, la maggior parte di lavoro era in questo tunnel dove veniva costruita la V2, dove era previsto di costruire la V2. Ma io...
+M.S: ma anche se non eravate specializzati?
+A.W: no no, c-, si, erano i "maester"? Che ci insegnavano cosa dovevamo fare.
+M.S: lei è stato in questo tunnel?
+A.W: ecco, io son stato una sola volta che l'ho raccontavo di quel (frase in tedesco) che m'ha fatto portare i sacchi di cemento.
+M.S: ah beh, lo deve raccontare adesso...
+A.W: si, dunque, era così, che un giorno io ero interprete della degli italiani non ebrei che non erano deportati ma che sono stati razziati in Italia per portarli a lavorare in Germania ee...
+M.S: quindi c'erano ebrei e non ebrei in questo emh in questo...
+A.W: emh, in questo ma in questo lager - Waldlager - loro venivano solo la mattina e la sera andavano via perché avevano proprie baracche e potevano girare per 10 chilometri di circond- circondario.
+M.S: Ahh, separati. Si.
+A.W: Erano liberi, non solo, potevano corrispondere con le proprie famiglie ma le lettere bisognava scriverle in tedesco. Allora venivano "Arminio, se sei tanto gentile dimmi, scrivi una domanda che mia mamma sta poco male etc e vorrei...", e gli davano delle licenze, però a me mi davano qualcosa per queste lettere perché loro abitavano in famiglie e conosciuto ragazze tedesche che erano sole perché i mariti, i fidanzati eran tutti aaa al fronte, quindi facevan presto amicizia con questi italiani.
+M.S: ma quindi erano liberi m- e non liberi?
+A.W: erano liberi e non liberi, però ripeto di, stavano molto meglio. Eee allora...
+M.S: un giorno mi stava dicendo è è andato proprio in questo tunnel dove c'era la costruzione...
+A.W: Si, e allora in questo tunnel, il - questo (frase in tedesco), ufficiale delle SS - si ferma e vede che io sto lì in piedi e dice "e tu non lavori?", e dico "No, lavoro si, il "maester" dà degli ordini in tedesco e gl- gli italiani non lo capiscono, lo traduco in italiano", "fa vedere le mani", emh faccio vedere le mani e non c'ho dei calli "allora come lavori?" "Ma lavoro con la testa e con la lingua e con la bocca". Allora lui mi ha preso, m'ha dato una pedata e m'ha lanciato accanto dove veniva girato mescolato il cemento che bisognava andare in sù, e anziché farlo funzionare questo tappeto elettricamente prendevano i prigionieri, ognuno doveva portare un sacco di 50kg. 50kg non sono molto ma per noi che avevano si e no 800 600 calorie al giorno era una cosa incredibile. E così per 24 ore ho dovuto fare quel mestiere, il giorno dopo ho trovato un altro gruppo che ho dovuto fare l'interprete per loro. Adesso voglio arrivare...
+M.S: e cosa costruivano con questo cemento lì sotto?
+A.W: si si, veniva costruito, già c'erano anche macchine dentro, tutto... per costruire la V2, perché la V2 veniva, la prima è stata Peenemunde, la prima che ha lanciato le la (balbetta) V1, poi la V2. "V" vuol dire Ve- Vergelt- Vergeltungswaffe, Vergeltungswaffe vuol dire vendetta. Eee, stavano costruendo questa qui. Per esempio, c'era un comando di ebrei, non italiani, che erano quello che ogni giorno cambiava il fogliame sopra per dare l'illusione a quelli che...
+M.S: che era fogliame fresco... e non, certo per camuffare tutto.
+A.W: si si, ee ecco lei ha detto la parola esatta, camuffare. Allora, adesso la guerra sta per finire, così finisco anch'io così: ee viene il comandante che era della SS e dice a noi del Waldlager (frase in tedesco) "la guerra è finita", eras il primo maggio mi pare. Eee (frase in tedesco) "siete liberi", fa aprire i vagoni "potete andar via", e questo era in un piccolo paese che si chiama Poing, in Baviera. Eee...
+M.S: la notte prima avevate sentito degli spari, qualcosa?
+A.W: si, adesso, mah... la guerra è finita. Noi ci avviciniamo per entrare nel paese, i russi, i prigionieri russi non ebrei, hanno preso una bella vendetta contro inermi tedeschi - poveretti, anche loro non c'entravano - ripensando quelli che hanno fatto i tedeschi a loro in Russia. Noi, invece l'unica cosa pensare (?) di procurare qualcosa da mangiare. Io ero insieme con questa partigiana torinese e con questa ebrea milanese eee... camminiamo, vediamo un campo di lavoro - campo di prigionieri di guerra americani -, io passo davanti eee c'è la sentinella e dico "ma se la guerra è finita..." E fra questi americani c'erano molti italo-americani a prescindere che potevo parlare anche in inglese ma non tanto bene ee parliamo in italiano... emh "la guerra, a noi non risulta che la guerra è finita".
+M.S: erano sempre tedeschi che tenevano questi prigionieri?
+A.W: prigionieri si, prigionieri di guerra però.
+M.S: eh, quindi voi passate e andate... dai tedeschi e dite...
+A.W: e li ho visti e quello dice "ma noi, la guerra non è finita ancora" "ma come mai ci han detto (?) che la guerra è finita? mah", e vedrà il lor- trucco. Andiamo avanti, a un certo momento sentiamo spari di mitragliatrici. Voltiamo la testa e vediamo venire delle auto carrette con sssentinelle con aaviatori - c'era un campo d'aviazione -. Quel comandante della SS ha voluto tagliar la corda ma voleva non lasciare traccia di quello che aveva fatto: ha telefonato al comando della del rapporto dicendo "questi maledetti ebrei sono scappati e hanno ucciso diversi nostri, venite a distruggerli" e questi con con (balbetta) le, passavano con le camionette sparavano con il mitra contro noi che andavamo a piedi verso la cittadina. Un certo momento sentendo questo, io e le due donne, ci siamo buttati per terra facendo finta di essere morti ee logicamente per non sprecare munizioni ai morti non sparavano più. Passa questa carretta e dentro c'è un sottufficiale che mi conosceva "ahh da- dolmetscher" (frase in tedesco dolmetscher) "l'interprete no- non avrà più cosa da da interpretare" e è andato avanti.
+M.S: ah la riconosce mentre lei è lì sdraiato che fa...?
+A.W: ero sdraiato, che sembr- sembravo morto ma non lo ero.
+M.S: si.
+A.W: quando quello se n'è andato ci siamo rimessi in piedi e abbiamo proseguito la strada. Arriviamo al- alla pizza del municipio...
+M.S: c'erano altri che si son salvati così come voi tre?
+A.W: alcuni si.
+M.S: alcuni.
+A.W: ehh... non tutti son- li hanno ammazzati. Arriviamo e c'era questo comandante, sempre lui, si era rivolto al sindaco e ci ha fatto riunire tutti quanti davanti al al comune, al, si, al comune, allora dice "questi maledetti hanno cercato di ammazzarci, avevano con sé (balbetta) coltelli, forbici - perché eran sarti no? sicché avevano il diritto di tenere gli strumenti di lavoro, e allora dice - non mi credete? Adesso ve lo faccio vedere", allora dice (frase in tedesco) "tutti sull'attenti, ee la bocca aperta e senza berretto". Adesso avevo io, avevo un rasoio - qui nel taschino - e avevo una carta topografica che me l'aveva regalata quell'ufficiale della SS che quando io ho compiuto 31 anni m'aveva regalato una torta persino, questo...
+M.S: uu, ma questo non me l'ha raccontato. Dove è avvenuto quest-?
+A.W: questo è avvenuto al Waldlager mentre ero come interprete per la organizzazione Todt (?) quell'ufficiale era un anti nazista però non non lo faceva vedere e aveva simpatia per noi.
+M.S: e' riuscito a portarle una torta...
+A.W: quando lui sapeva che il giorno dopo io avrei avuto il compleanno dalla signora dove lui abitava s'è fatto ap- preparare una torta e me l'ha portata come regalo di... e lui, questo qua, m'ha regalato una carta topografica - per tagliar la corda - ee un altro suo aiutante m'ha regalato un rasoio - umh oggi sembra una cosa da niente ma in quell'epoca un rasoio potevi cambiarlo con dei (?contro) generi alimentari. Adesso passava questo ufficiale della SS eeemh da qualcuno trovava una forbice, o trovava un coltello, allora tac col revolver(?) l'ammazzava. Si stava avvicinando a me, a me mi trova la carta topografica e mi trova il il rasoio, allora cosa ho fatto? Con la bocca - siccome dovevamo star così con le mani giù - ho tirato su la carta topografica e l'ho mangiata, piano piano masticando, invece il rasoio l'ho preso con la bocca e l'ho fatto scendere giù e col piede l'ho coperto. Quindi questo ufficiale quando è passato davanti a me non si è accorto di niente: sono salvo.
+M.S: però aveva con sé sempre la scatola degli occhiali?
+A.W: quella l'avevo sempre con me.
+M.S: quella l'avevo sempre...
+A.W: si, eee...
+M.S: non aveva più gli occhiali però? perché gli erano stati rotti...
+A.W: emh p- io li avevo riparati in certo qual modo mettendo insieme i pezzetti con del con del emh filo fil- del filo spinato. (?non si capisce) quando eravamo in Waldlager c'era un sottufficiale della SS che era quello incaricato dal benessere, il quale mi procurò degli occhiali nuovi.
+M.S: eee
+A.W: anche questo succedeva. Per finire il discorso...
+M.S: passa davanti a lei, non le trova niente...
+A.W: non mi trova niente, allora di nuovo tutti aa piedi a ri- rimontare sui sui carri per andare nelle Alpi. Perché nelle Alpi? Lei sa che nelle Alpi Mussolini e Hitler avevano deciso di, ultima difesa, di recarsi nelle Alpi perché dicevano "nelle Alpi i carri armati non riescono a venir-", non sono riusciti nell'intento, comunque a noi ci portavano per far scavare le trincee e così avanti. E passiamo in mezzo a un...
+M.S: A piedi? o... a piedi.
+A.W: A piedi, a piedi, in mezzo a un campo. (A?) un certo momento le sentinelle della SS spariscono, le vediamo tutte dietro di noi e sentiamo degli spari: non hanno sparato contro di noi, era un altro gruppo di donne. Queste sentinelle hanno ammazzato queste povere donne. A noi invece (a?) un certo momento (frase in tedesco) vuol dir "andiamo avanti". Son tornati al loro posto e c'hanno portato ai vagoni, tutti di nuovo dentro nei vagoni. Io, il solito interprete, sono l'ultimo: i vagoni son già pieni, hanno chiuso il portone, era aperto ancora un vagone dove c'erano solo donne - loro tenevano sempre divise le donne dagli uomini -, mi sono infilato in questo vagone delle donne. L'ufficiale della SS passavano e dicev- (frase in tedesco dolmetscher) "dov'è il dolmetscher?" "Ma (frase che non si capisce), non (lo) sappiamo". Allora lui ha avuto il sospetto, è salito anche lui sul vagone delle donne - queste donne erano ebree ungheresi -. Cosa hanno fatto? Si sono - m'han detto di stendermi sul piano - e loro si sono messe sopra di me eee... entra questo qua e dice (frase in tedesco) "dov'è l'interprete?" " ah, lì poveretto, sta morendo di tifo": lui solo a sentir la parola "tifo" che non era vero ha tagliato la corda. Dopo il treno proseguiva, pensi che con queste ragazze ungheresi, io dopo dieci minuti insegnavo loro le canzoni italiane - emh e in quell'epoca molto conosciute -, avevamo già dimenticato tutto...
+M.S: e cantava allora?
+A.W: cantavamo si.
+M.S: cant- che cosa cantava?
+A.W: eh emh quello, le (varie?) canzoni che erano in vena in quell'epoca. Anche a Varsavia lavoravamo insieme con dei polacchi, non ebrei, che erano cantanti dell'opera di Varsavia ma però avevano (frase in tedesco), di giorno dovevano lavorare e quando hanno visto "italiani" "ehhh" allora "di cantare qualche canzon- ital-". Per loro erano del mestiere...
+M.S: si ricorda una canzone?
+A.W: si mi ricordo, mamma e etc... per loro era emh... e ci davano qualche crosta di pane, quella era la vita per noi. Va bene. Adesso su-, adesso succede questo, che il treno sta camminando e sta, a un certo momento il treno si ferma perché? Perché c'è un attacco aereo, perché il treno nostro aveva davanti e di dietro le batterie anti aeree, quindi gli angloamericani - non so se erano americani o inglesi - pensavano che fosse un treno militare, hanno cominciato a sparare, purtroppo non so quanti sono morti. Allora qualcuno di noi ha avuto la buona idea, è andato sul tetto, ha posato le nostre uniformi cosicché quando son ripassati hanno capito "questo emh son- è un treno di prigionieri, non di Hitler", non hanno più sparato.
+M.S: perché era un treno normale, non era più un trenooo...?
+A.W: no era sempre treno treno di merci.
+M.S: merci.
+A.W: si. Ma loro in un primo momento pensavano che fossero soldati e viceversa, poi hanno capito che siamo noi: non hanno più sparato. Il treno si ferma e i - son chiuso dentro -, attraverso, chiamiamolo "finestrino" eh?, vedo un soldato italiano in divisa italiana perché i soldati italiani presi dopo l'8 settembre li lasciavano la divisa e non tutti lavoravano in campi di lavoro, li mandavano anche nei campi fuori a lavorare - liberi -, ma dovevano lavorare. E questo qua era un contadino di professione, però per caso si trova alla stazione e m'ha visto e dice "c- senti questi colpi?" Dico "si", "sono le mitragliatrici che sparano a Kochel" - Kochel è un lago, a pochi passi - e cos-.
+M.S: lei era fermo in una stazione?
+A.W: eravamo fermi a- questa stazione di Poing e lui mi dice "se puoi taglia la corda" e dico "facile dire a te che sei fuori, io come faccio a tagliar la corda?" Ee perché "sennò" dice "vi portano lì, vi mettono tutti davanti al lago e vi sparano emh e cadono in acqua". A un certo momento, mentre il treno sta per proseguire, viene il "transportfuhrer", sarebbe il comandante del trasporto, che non era più quello della SS ma bensì un ufficiale della Wehrmacht, che era anche da noi a suo tempo vice comandante, ma era della Wehrmacht - non è vero che tutta la Wehrmacht si è comportata bene, poi è risultato che anche loro hanno commesso quello che hanno commesso -, il quale dice a voce alta, col il col il - come si chiama? il... -
+M.S: megafono.
+A.W: megafono, si brava. Col megafono "chi di voi parla inglese?", allora ci siamo presentati in due, io e un certo Landau. Viene... allora lui dice "ecco qua, questo documento, ve lo faccio vedere, ve lo regalo, vedete cosa c'è scritto.. che io devo portare il gruppo di prigionieri a Kochel e consegnarli al comando speciale della SS": logicamente significava la morte. Dice "io però, con la scusa, che la la linea ferroviaria è interrotta da un bombardamento, non posso proseguire. Allora cosa faccio? torno indietro, perché? Perché accanto, a pochi chilometri, c'è una cittadina bavarese che si chiama Tutzing. Questa cittadina era tutto piena di croci rosse perché vogliono far capire che è una zona sanitaria", invece? invece s- erano fabbriche di armi. "E io ho sentito alla radio che gli americani son già entrati a Monaco di Baviera, quindi c'è la possibilità di salvarvi. Io vi porto indietro, chissà che non che non vi- non vi salvino gli americani. D'altra parte però, se questo succederà emh, non dimenticate quello che ho fatto per voi. Effettivamente, a un certo momento sentiamo il rumore di carri armati, quindi della SS dicono (frase in tedesco) "sono i nostri tigre", erano i carri armati tedeschi. emh (balbetta), ssiamo di nuovo nei guai. Viceversa si avvicinano, vedo la la la bandiera americana: erano i carri armati Patton(?) i quali si sono avvicinati e noi subito ci siamo lanciati fuori dai vagoni e quelli ci davano sigarette, del- cioccolato etc.
+M.S: il il comandante della Wehrmacht si chiamava come?
+A.W: emh, questo emh de- (balbetta), quel comandante si chiamava Blazi(?), era tedesco però di origine italiana dal nome - ma non, in Baviera ci sono molti ital- -...
+M.S: quindi parlava in italiano con lui?
+A.W: No no no, no lui parlava tedesco, solo tedesco. Allora viene il comandante della truppa americana che ci ha liberato, era un ebreo di New York, si chiamava Jutennens Smith (?) che probabilmente prima di chuamava Schmiedt(?), "Schmiedt" vuol dire "fabbro". Eee i suoi aiutanti vedevano uno della SS, tac tac, scaricava il mitra su di loro. A un certo momento si rivolgono al transportfuhrer, allora son intervenuto io e Landau, abbiamo detto a Jutennens Smith(?) "guardi che questo avrebbe dovuto portarci alla morte invece ci ha salv- portati da voi" "allora eh beh, se siete voi d'accordo lasciamolo in vita, non solo, diventerà nostro ospite", e allora le ragazze ungheresi - che(?c'erano) erano 500 ragazze ungheresi con noi - dice "anche queste due aufseherin?" - aufseherin vuol dire "sorvegliati della SS tedesca": erano vestiti come le SS solo una la gonna anziché i pantaloni - "questi si son sempre comportati bene con noi" "allora (balbetta), se lo volete voi"... quindi, il comandante del trasporto e le due aufseherin(?) son stati liberati mentre gli altri l'hanno... (verso del mitra) era... guerra.
+
+PARTE V
+A.W: eee... sono diventate aa, ci hanno portato a Feldafing, sempre a due passi, questo paese di Feldafing c'era una scuola per i giovani hitleriani che era vuota perché i giovani hitleriani li hanno mandati tutti al fronte alla fine della guerra, c'erano solo degli uffici della BMW - Bayerische Motore Werke - che è di Monaco di Baviera che era stata bombardata. Allora gli uffici li hanno tras- mess- tras-trasferiti dentro nella scuola dove c'erano prima gli hitleriani. Allora i gli americani hanno mandato via questi impiegati e c'hanno messo a disposizione nostra, erano edifici a due piani, allora, "per i polacchi questa e questa... per gli ungheresi que-, per gli italiani..." eravamo pochi, allora va beh, allora, eravamo in tre di italiani soli, allora ci hanno messo insieme ai greci perché eravam mediterranei. Eee, così ci hanno salvati. Adesso, per finire il discorso, illl (pausa) la maggior parte di questi di Salonicco - non tutti - ma son tornati a Salonic- ma la maggior parte invece è andata a in Israele, specialmente a Haifa.
+M.S: quindi da lì hanno organizzato subito il rientro?
+A.W: rientro ma naturalmente con le solite difficoltà. Son riusciti(o) a ritornare a Haifa, io li ho rincontrati nel 60 quando (è) la prima volta che sono andato in Israele.
+M.S: ma lei è stato ospitalizzato da qualche parte o?
+A.W: no.
+M.S: ... non ha avuto bisogno.
+A.W: no, son-... quando, quando avevo il tifo e quando nel Waldlager ho avuto la polmonite ero nel cosiddetto revir(?) che aveva...
+M.S: no dico alla liberazione.
+A.W: No no no, mentre questo Isacco Sermoneta di cui le parlavo prima lui ha preso nel campo la tubercolosi e l'hanno messo nel tubercolilasar tubercolosario o tubercolasario di Gauting - tutti i nomi finiscono in ing -, rimasto diverso tempo, si è salvato, tornato a Roma e stava benino ma un anno fa...
+M.S: e lei allora a questo punto emh cosa pensava di fare? Di parlare?
+A.W: ecco adesso, adesso a un certo momento partono e ad n- da noi hanno creato - noi eravamo ex prigionieri - hanno creato quello sul sistema, emh diremo dei tedeschi, c'era il blockalteste, cioè l'anziano de- che era il capo dell'edificio, poi c'era sempre lo schreiber - schreiber vuol dire "lo scrivano" - allora, io che ero l'unico che parlasse la lingua dei dei dei greci è diventato blockalteste un greco molto in gambe e io ero schreiber - praticamente facevo tutto io perché parlavo inglese, lui non parlava inglese e non parlava neanche tedesco - ee.. poi è venuta la UNRRA - United Nation Rehabilitation... com'era? (Frase che non si capisce) americana - a Feldafing, c'hanno portato lì, c'era una un bellissimo albergo, si chiamava Hotel Elizabeth - in tempo di guerra non era più "hotel" ma venivano (balbetta) è stato emh cambiato in "ospedale" -, c'erano i prigionieri tedeschi, no prigionieri, erano i soldati tedeschi che venivano curati. Finita la guerra li hanno buttati fuori e l'hanno utilizzato come ospedale per i ex deportati malati e cosa è successo? Che c'era il direttore sanitario, un ebreo e adesso avevano bisogno di un direttore amministrativo (scandito con lentezza), non c'era nessuno, non sapeva... Si dice che nel paese dei ciechi il monocolo fa il re e io che ne capivo qualche cosa m'hanno preso a me come direttore amministrativo dell'ospedale, però siccome a suo tempo ero nel campo oculistico aiutavo anche il professore oculista quando faceva operazioni o la...
+M.S: e(che?) si chiamava?
+A.W: emh era di Varsavia, non mi ricordo più il nome... eh purtroppo...
+M.S: e si chiamava sempre Elizabeth questo...
+A.W: Hotel Elizabeth ma hotel Elizabeth però sotto la UNRRA(?). E caso strano, il comandante americano che veniva a controllare si chiamava... aveva un nome italiano, era un italoamericano, (frase che non si capisce) si divertiva lui a parlare con me in... Poi una volta è venuto Eisenhower a trovarci, non solo, è venuto una volta Fiorello La Guardia, l'ex sindaco di...
+M.S: mi racconti di Eisenhower, quando è successo questo?
+A.W: come?
+M.S: Eisenhower è venuto...
+A.W: no Eisenhower, meh, come si chiama? Il comandante americano... Eisenhower!
+M.S: Eisenhower.
+A.W: Eisenhower, è venuto, e ha parlato in inglese naturalmente, e io e Landau facevamo da interpreti: dall'inglese traducevamo in yiddish o in tedesco, perché la gente capisse. E poi c'era ancora uno che traduceva in ungherese perché la maggior parte erano ebrei ungheresi che si son salvati perché erano gli ultimi arrivati.
+M.S: ci fermiamo un attimo perché è finita la cassetta.
+A.W: basta, adesso basta.
+M.S: no adesso finiamo le ultime cose, solo mi deve dire il dopo.
+A.W: il dopo della guerra.
+M.S: aspetti.
