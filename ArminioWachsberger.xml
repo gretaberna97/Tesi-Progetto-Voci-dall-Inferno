@@ -35,23 +35,6 @@
                     <recording type="video" dur="PT27M1S">
 
                         <date when="1998-03-04">4 febbraio 1998</date>
-                        
-                        <respStmt> <!-- controllare -->
-                            <resp>Videointervista facente parte del progetto realizzato da</resp>
-                            <name type="org">Survivors of the Shoah Visual History Foundation</name>
-                        </respStmt>
-                        <respStmt>
-                            <resp>Testimone intervistato</resp>
-                            <name ref="TEI-ListPerson.xml#AW">Arminio Wachsberger</name>
-                        </respStmt>
-                        <respStmt>
-                            <resp>Intervistatrice</resp>
-                            <name ref="TEI-ListPerson.xml#MA">Maurina Alazraki</name>
-                        </respStmt>
-                        <respStmt>
-                            <resp>Addetto alla camera</resp>
-                            <name xml:id="PF">Paolo Favaro</name>
-                        </respStmt>
 
                         <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
                             <p>Registrato su una cassetta VHS analogica (tape 5 of 1) successivamente digitalizzata: il video contiene in origine la cassetta 5 dell'intera intervista</p>
@@ -59,8 +42,24 @@
 
                         <broadcast>
                             <bibl source="https://www.youtube.com/watch?v=4_1l3ZR-gtI">
-                                <author>Survivors of the Shoah Visual History Foundation</author>
+                                <author>Associazione Figli della Shoah</author>
                                 <title>Arminio Wachsberger "Spielburg" - Parte I</title>
+                                <respStmt> <!-- controllare -->
+                                    <resp>Videointervista facente parte del progetto realizzato da</resp>
+                                    <name type="org">Survivors of the Shoah Visual History Foundation</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp>Testimone intervistato</resp>
+                                    <name ref="TEI-ListPerson.xml#AW">Arminio Wachsberger</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp>Intervistatrice</resp>
+                                    <name ref="TEI-ListPerson.xml#MA">Maurina Alazraki</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp>Addetto alla camera</resp>
+                                    <name ref="TEI-ListPerson.xml#PF">Paolo Favaro</name>
+                                </respStmt>
                                 <date when="1998-03-04">4 febbraio 1998</date>
                                 <series>
                                     <title>Arminio Wachsberger "Spielburg"</title>
@@ -75,23 +74,6 @@
                     <recording type="video" dur="PT26M57S">
 
                         <date when="1998-03-04">4 febbraio 1998</date>
-                        
-                        <respStmt> <!-- controllare -->
-                            <resp>Videointervista facente parte del progetto realizzato da</resp>
-                            <name type="org">Survivors of the Shoah Visual History Foundation</name>
-                        </respStmt>
-                        <respStmt>
-                            <resp>Testimone intervistato</resp>
-                            <name ref="TEI-ListPerson.xml#AW">Arminio Wachsberger</name>
-                        </respStmt>
-                        <respStmt>
-                            <resp>Intervistatrice</resp>
-                            <name ref="TEI-ListPerson.xml#MA">Maurina Alazraki</name>
-                        </respStmt>
-                        <respStmt>
-                            <resp>Addetto alla camera</resp>
-                            <name xml:id="PF">Paolo Favaro</name>
-                        </respStmt>
 
                         <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
                             <p>Registrato su una cassetta VHS analogica (tape 6 of 1) successivamente digitalizzata: il video contiene in origine la cassetta 6 dell'intera intervista</p>
@@ -99,8 +81,24 @@
 
                         <broadcast>
                             <bibl source="https://www.youtube.com/watch?v=SO3I8unl6bg">
-                                <author>Survivors of the Shoah Visual History Foundation</author>
+                                <author>Associazione Figli della Shoah</author>
                                 <title>Arminio Wachsberger "Spielburg" - Parte II</title>
+                                <respStmt> <!-- controllare -->
+                                    <resp>Videointervista facente parte del progetto realizzato da</resp>
+                                    <name type="org">Survivors of the Shoah Visual History Foundation</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp>Testimone intervistato</resp>
+                                    <name ref="TEI-ListPerson.xml#AW">Arminio Wachsberger</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp>Intervistatrice</resp>
+                                    <name ref="TEI-ListPerson.xml#MA">Maurina Alazraki</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp>Addetto alla camera</resp>
+                                    <name ref="TEI-ListPerson.xml#PF">Paolo Favaro</name>
+                                </respStmt>
                                 <date when="1998-03-04">4 febbraio 1998</date>
                                 <series>
                                     <title>Arminio Wachsberger "Spielburg"</title>
@@ -115,23 +113,6 @@
                     <recording type="video" dur="PT26M58S">
 
                         <date when="1998-03-04">4 febbraio 1998</date>
-                        
-                        <respStmt> <!-- controllare -->
-                            <resp>Videointervista facente parte del progetto realizzato da</resp>
-                            <name type="org">Survivors of the Shoah Visual History Foundation</name>
-                        </respStmt>
-                        <respStmt>
-                            <resp>Testimone intervistato</resp>
-                            <name ref="TEI-ListPerson.xml#AW">Arminio Wachsberger</name>
-                        </respStmt>
-                        <respStmt>
-                            <resp>Intervistatrice</resp>
-                            <name ref="TEI-ListPerson.xml#MA">Maurina Alazraki</name>
-                        </respStmt>
-                        <respStmt>
-                            <resp>Addetto alla camera</resp>
-                            <name xml:id="PF">Paolo Favaro</name>
-                        </respStmt>
 
                         <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
                             <p>Registrato su una cassetta VHS analogica (tape 6 and 7 of 1) successivamente digitalizzata: il video contiene in origine la cassetta 6 e parte della 7 dell'intera intervista</p>
@@ -139,8 +120,24 @@
 
                         <broadcast>
                             <bibl source="https://www.youtube.com/watch?v=5WSRaVnOQJ8">
-                                <author>Survivors of the Shoah Visual History Foundation</author>
+                                <author>Associazione Figli della Shoah</author>
                                 <title>Arminio Wachsberger "Spielburg" - Parte III</title>
+                                <respStmt> <!-- controllare -->
+                                    <resp>Videointervista facente parte del progetto realizzato da</resp>
+                                    <name type="org">Survivors of the Shoah Visual History Foundation</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp>Testimone intervistato</resp>
+                                    <name ref="TEI-ListPerson.xml#AW">Arminio Wachsberger</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp>Intervistatrice</resp>
+                                    <name ref="TEI-ListPerson.xml#MA">Maurina Alazraki</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp>Addetto alla camera</resp>
+                                    <name ref="TEI-ListPerson.xml#PF">Paolo Favaro</name>
+                                </respStmt>
                                 <date when="1998-03-04">4 febbraio 1998</date>
                                 <series>
                                     <title>Arminio Wachsberger "Spielburg"</title>
@@ -156,31 +153,30 @@
 
                         <date when="1998-03-04">4 febbraio 1998</date>
                         
-                        <respStmt> <!-- controllare -->
-                            <resp>Videointervista facente parte del progetto realizzato da</resp>
-                            <name type="org">Survivors of the Shoah Visual History Foundation</name>
-                        </respStmt>
-                        <respStmt>
-                            <resp>Testimone intervistato</resp>
-                            <name ref="TEI-ListPerson.xml#AW">Arminio Wachsberger</name>
-                        </respStmt>
-                        <respStmt>
-                            <resp>Intervistatrice</resp>
-                            <name ref="TEI-ListPerson.xml#MA">Maurina Alazraki</name>
-                        </respStmt>
-                        <respStmt>
-                            <resp>Addetto alla camera</resp>
-                            <name xml:id="PF">Paolo Favaro</name>
-                        </respStmt>
-
                         <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
                             <p>Registrato su una cassetta VHS analogica (tape 7 and 8 of 1) successivamente digitalizzata: il video contiene in origine parte della cassetta 7 e parte della 8 dell'intera intervista</p>
                         </equipment>
 
                         <broadcast>
                             <bibl source="https://www.youtube.com/watch?v=FtV0uZZAzAw">
-                                <author>Survivors of the Shoah Visual History Foundation</author>
+                                <author>Associazione Figli della Shoah</author>
                                 <title>Arminio Wachsberger "Spielburg" - Parte IV</title>
+                                <respStmt> <!-- controllare -->
+                                    <resp>Videointervista facente parte del progetto realizzato da</resp>
+                                    <name type="org">Survivors of the Shoah Visual History Foundation</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp>Testimone intervistato</resp>
+                                    <name ref="TEI-ListPerson.xml#AW">Arminio Wachsberger</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp>Intervistatrice</resp>
+                                    <name ref="TEI-ListPerson.xml#MA">Maurina Alazraki</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp>Addetto alla camera</resp>
+                                    <name ref="TEI-ListPerson.xml#PF">Paolo Favaro</name>
+                                </respStmt>
                                 <date when="1998-03-04">4 febbraio 1998</date>
                                 <series>
                                     <title>Arminio Wachsberger "Spielburg"</title>
@@ -195,23 +191,6 @@
                     <recording type="video" dur="PT6M46S">
 
                         <date when="1998-03-04">4 febbraio 1998</date>
-                        
-                        <respStmt> <!-- controllare -->
-                            <resp>Videointervista facente parte del progetto realizzato da</resp>
-                            <name type="org">Survivors of the Shoah Visual History Foundation</name>
-                        </respStmt>
-                        <respStmt>
-                            <resp>Testimone intervistato</resp>
-                            <name ref="TEI-ListPerson.xml#AW">Arminio Wachsberger</name>
-                        </respStmt>
-                        <respStmt>
-                            <resp>Intervistatrice</resp>
-                            <name ref="TEI-ListPerson.xml#MA">Maurina Alazraki</name>
-                        </respStmt>
-                        <respStmt>
-                            <resp>Addetto alla camera</resp>
-                            <name xml:id="PF">Paolo Favaro</name>
-                        </respStmt>
 
                         <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
                             <p>Registrato su una cassetta VHS analogica (tape 8 of 1) successivamente digitalizzata: il video contiene in origine parte della cassetta 8 dell'intera intervista</p>
@@ -219,8 +198,24 @@
 
                         <broadcast>
                             <bibl source="https://www.youtube.com/watch?v=8mljGuToiUQ">
-                                <author>Survivors of the Shoah Visual History Foundation</author>
+                                <author>Associazione Figli della Shoah</author>
                                 <title>Arminio Wachsberger "Spielburg" - Parte V</title>
+                                <respStmt> <!-- controllare -->
+                                    <resp>Videointervista facente parte del progetto realizzato da</resp>
+                                    <name type="org">Survivors of the Shoah Visual History Foundation</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp>Testimone intervistato</resp>
+                                    <name ref="TEI-ListPerson.xml#AW">Arminio Wachsberger</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp>Intervistatrice</resp>
+                                    <name ref="TEI-ListPerson.xml#MA">Maurina Alazraki</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp>Addetto alla camera</resp>
+                                    <name ref="TEI-ListPerson.xml#PF">Paolo Favaro</name>
+                                </respStmt>
                                 <date when="1998-03-04">4 febbraio 1998</date>
                                 <series>
                                     <title>Arminio Wachsberger "Spielburg"</title>
@@ -262,6 +257,14 @@
                         </persName>
                     </person>
 
+                    <!-- Addetto alla camera -->
+                     <person xml:id="PF">
+                        <persName>
+                            <forename>Paolo</forename>
+                            <surname>Favaro</surname>
+                        </persName>
+                    </person>
+
                 </listPerson>
             </particDesc>
 
@@ -271,7 +274,7 @@
             </langUsage>
 
 
-            <abstract> <!--regesto-->
+            <abstract> <!--regesto: ogni item rappresenta un blocco di esperienze da lui raccontate: punta con un when all'interno di una timeline -->
                 <ab> 
                     <list>
                             <item synch="#">
@@ -286,7 +289,7 @@
 
     </teiHeader> 
 
-
+<!--
 Arminio Wachsberger
 Code: 38782-35
 Tape: 5 of 1
@@ -294,16 +297,97 @@ Intervi’r: Maurina Schinasi
 Language: Italian
 Camera: Paolo Favaro
 Int Date: 4-March-98
-City: Milan
+City: Milan -->
 
-PARTE I
-P.F: okay, quando volete.
-M.S: 4 Marzo 1998, cassetta numero 5, intervisto il Signor Arminio Wachsberger. Allora Signor Wachsberger siamo arrivati alla quarantena, mi ha raccontato…
-A.W: Si, dunque, la baracca..
-M.S: Me la descriva, si.
-A.W: emh, si, l’avete vista sicuramente tante volte in fotografia erano baracche di legno senza finestra che aveva, per dormire, tre piani di semplicemente di legno, non letti a castello, ma bensì, come se fossero letti a castello, tre ripiani. Quindi, chi era al pian terreno entrava facilmente, gli altri dovevano arrampicarsi. Io stavo al terzo e quindi avevo davanti, non era una finestra, una fessura così che serviva per il ricambio d’aria. Ecco da dove vedevo quelli di Teresistan.
-M.S: in quanti dormivate su questi piani?
-A.W: Dunque c’era 500 fino a 1000 in una baracca.
+<standOff>
+<!-- timeline da fare -->
+        <!--Timeline regesto -->
+        <timeline xml:id="">
+            <when xml:id="" absolute=""/> 
+        </timeline>
+
+
+        <!--Timeline body momenti di sovrapposizione dei due parlanti (e le interruzioni)-->
+        <timeline xml:id="TL2" unit="s"> 
+
+            <when xml:id="TT01" absolute="0:34" synch="#amr-01"/> <!--synch punta all'id dell'ancora-->
+            <when xml:id="TT02" since="#TT01" interval="1"/> <!-- siamo sicuri dell'intervallo? -->
+
+            <when xml:id="TT03" absolute="1:15" synch="#arm-03">
+            <when xml:id="TT04" since="#TT03" interval="1"> <!-- siamo sicuri dell'intervallo? -->
+
+            <when xml:id="TT05" absolute="1:17" synch="#int-05">
+            <when xml:id="TT06" since="#TT05" interval="1"> <!-- siamo sicuri dell'intervallo? -->
+
+        </timeline>
+
+
+        <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
+        <timeline xml:id="TL3" unit="s">                
+
+            <when xml:id="TS01" synch="#PF1" absolute="0:16"/>
+            <when xml:id="TS02" synch="#MA1" absolute="0:19"/>
+            <when xml:id="TS03" synch="#AW1" absolute="0:32"/>
+            <when xml:id="TS04" synch="#MA2" absolute="0:34"/>
+            <when xml:id="TS05" synch="#AW2" absolute="0:35"/>
+            <when xml:id="TS06" synch="#MA3" absolute="1:15"/>
+            <when xml:id="TS07" synch="#AW3" absolute="1:17"/>
+            <when xml:id="TS09" synch="#MA4" absolute="1:21"/>
+
+        </timeline>
+        
+    </standOff>
+
+<text>
+
+        <body>
+                       
+            <div type="testo"> <!-- Parte I -->
+
+                <u who="#PF" xml:id="PF1" synch="#TS01">
+                    Okay quando volete <vocal><desc>sospira</desc></vocal>
+                </u>
+
+                <u who="#MA" xml:id="MA1" synch="#TS02"> <!-- i cognomi li scrivo come li sento oppure no? stessa cosa per il nome dei luoghi -->
+                    <date when="1998-03-04">4 Marzo 1998</date><pause/> cassetta numero <num type="cardinal" value="5">cinque</num><pause/> intervisto il <persName ref="TEI-ListPerson.xml#AW"><roleName type="honorific">Signor</roleName>Arminio<pause/> Wachsberger</persName><pause/> Allora <persName ref="TEI-ListPerson.xml#AW"><roleName type="honorific">Signor</roleName> Wachsberger</persName> siamo arrivati alla quarantena mi ha raccontato 
+                </u>
+
+                <u who="#AW" xml:id="AW1" synch="#TS03"><!-- Allungamento sillabe -->
+                    Si <del type="falseStart"><del type="repetition">llla </del> lla </del><del type="reformulation">dunque</del> la <ancor xml:id="arm-01" synch="#TT01"/>baracca<ancor xml:id="amr-02" synch="#TT02"/>
+                </u>
+
+                <u who="#MA" xml:id="MA2" synch="#TS04">
+                    <anchor xml:id="int-01" synch="#TT01"/><del type="repetition">me la me la</del> descriva si<ancor xml:id="int-02" synch="#TT02"/>
+                </u>
+                <!-- non ho ancora sistemato i fenomeni di allungamento delle sillabe + gli incisi come li tratto? -->
+                <u who="#AW" xml:id="AW2" synch="#TS05">
+                    ecco <vocal>ehm</vocal><kinesic> l’avete visto sicuramente tante volte <desc>si accarezza la nuca con la sua mano destra</desc></kinesic> in fotografia <pause/> erano baracche di legno <pause/>senza finestre <pause/> che aveva <pause/> come <pause/><kinesic iterated="true"><desc>muove la sua mano destra (posta in orizzontale, con il palmo rivolto verso il basso) da destra verso sinistra per indicare i letti</desc></kinesic>  per dormire <pause/><num type="cardinal" value="3">tre</num> piani di <kinesic><desc> muove entrambe le mani rivolte con il palmo verso il basso dal centro verso l'esterno</kinesic><del type="reformulation">semplicemente di</del> legno <pause/><kinesic><desc>porta le mani all'altezza della nuca e entrambi gli indici verso l'alto per indicare un inciso</desc></kinesic><del type="repetition">non</del> non letti a castello <pause/> ma bensì come se fossero letti a castello <kinesic iterated="true"><desc>muove la sua mano destra (posta in orizzontale, con il palmo rivolto verso il basso) da destra verso sinistra per indicare i letti e gestiscola</desc></kinesic><num type="cardinal" value="3">tre</num> ripiani <pause/>Quindi chi era al pian terreno entrava facilmente <pause/><kinesic iterated="true"><desc>con le mani gesticola una arrampicata</desc></kinesic>gli altri dovevano arrampicarsi <pause/> Io stavo al <num type="ordinal" value="3">terzo</num> e quindi avevo davanti <pause/>non era una finestra<pause/><kinesic><desc>allarga le mani per simulare una fessura</desc></kinesci> una fessura così che serviva per <unclear reason="inaudible">il</unclear> ricambio d’aria<pause/><kinesic><desc>gesticola</desc></kinesic> ecco da dove vedevo quelli della <del type="correction">di</del><ancor xml:id="arm-03" synch="#TT03"/><foreign xml:lang="de">Teresistan</foreign><ancor xml:id="arm-04" synch="#TT04"/><!-- Lista Luoghi: Theresienstadt -->
+                </u>
+
+                <u who="#MA" xml:id="MA3" synch="#TS06"/>
+                    <anchor xml:id="int-03" synch="#TT03"/>in <anchor xml:id="int-04" synch="#TT04"/>quanti<vocal>ehm</vocal> dormivate <ancor xml:id="int-05" synch="#TT05"/>su questi <del type="truncation">pian</del><ancor xml:id="int-06" synch="#TT06"/>
+                </u>
+                
+                <u who="#AW" xml:id="AW3" synch="#TS07"/>
+                    <ancor xml:id="arm-05" synch="#TT05"/>Dunque <ancor xml:id="amr-06" synch="#TT06"/><choice><sic>c’era da <num type="cardinal" value="500">cinquecento</num></sic><corr resp="#GB"> c'erano <num type="cardinal" value="500">cinquecento</num> persone</corr></choice><pause/> fino a <num type="cardinal" value="1000">mille</num> in una baracca  <!-- NON CONVINTA -->
+                </u>
+
+                <pause/>
+
+                <u who="#MA" xml:id="MA4" synch="TS08"/>
+                    <del type="repetition">E </del>e
+                </u>
+
+            </div>
+           
+        </body>
+
+    </text>
+
+
+</TEI>
+<!--
+
 M.S: E e con lei proprio nel suo piano diciamo nel terzo piano?
 A.W: eravamo in sei. Ogni di ogni, co come le acciughe perché non si poteva… non potevi voltarti durante la notte per il sonno perché altrimenti vo…
 M.S: c’era un?
@@ -768,4 +852,4 @@ M.S: ci fermiamo un attimo perché è finita la cassetta.
 A.W: basta, adesso basta.
 M.S: no adesso finiamo le ultime cose, solo mi deve dire il dopo.
 A.W: il dopo della guerra.
-M.S: aspetti.
+M.S: aspetti.-->
