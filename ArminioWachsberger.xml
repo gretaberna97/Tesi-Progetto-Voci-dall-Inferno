@@ -311,13 +311,34 @@ City: Milan -->
         <timeline xml:id="TL2" unit="s"> 
 
             <when xml:id="TT01" absolute="0:34" synch="#amr-01"/> <!--synch punta all'id dell'ancora-->
-            <when xml:id="TT02" since="#TT01" interval="1"/> <!-- siamo sicuri dell'intervallo? -->
+            <when xml:id="TT02" since="#TT01" interval="1"/>
 
-            <when xml:id="TT03" absolute="1:15" synch="#arm-03">
-            <when xml:id="TT04" since="#TT03" interval="1"> <!-- siamo sicuri dell'intervallo? -->
+            <when xml:id="TT03" absolute="1:15" synch="#arm-03"/>
+            <when xml:id="TT04" since="#TT03" interval="1"/>
 
-            <when xml:id="TT05" absolute="1:17" synch="#int-05">
-            <when xml:id="TT06" since="#TT05" interval="1"> <!-- siamo sicuri dell'intervallo? -->
+            <when xml:id="TT05" absolute="1:17" synch="#int-05"/>
+            <when xml:id="TT06" since="#TT05" interval="1"/>
+
+            <when xml:id="TT07" absolute="1:25" synch="int-07"/>
+            <when xml:id="TT08" since="#TT07" interval="1"/>
+
+            <when xml:id="TT09" absolute="1:26" synch="amr-09"/>
+            <when xml:id="TT10" since="#TT09" interval="1"/>
+
+            <when xml:id="TT11" absolute="1:33" synch="arm-11"/>
+            <when xml:id="TT12" since="#TT11" interval="1"/>
+
+            <when xml:id="TT13" absolute="1:36" synch="int-13"/>
+            <when xml:id="TT14" since="#TT13" interval="1"/>
+
+            <when xml:id="TT15" absolute="1:57" synch="int-15"/>
+            <when xml:id="TT16" since="#TT15" interval="1"/>
+
+            <when xml:id="TT17" absolute="2:01" synch="int-17"/>
+            <when xml:id="TT18" since="#TT17" interval="1"/>
+
+            <when xml:id="TT19" absolute="2:03" synch="int-19"/>
+            <when xml:id="TT20" since="#TT19" interval="1"/>
 
         </timeline>
 
@@ -332,7 +353,16 @@ City: Milan -->
             <when xml:id="TS05" synch="#AW2" absolute="0:35"/>
             <when xml:id="TS06" synch="#MA3" absolute="1:15"/>
             <when xml:id="TS07" synch="#AW3" absolute="1:17"/>
-            <when xml:id="TS09" synch="#MA4" absolute="1:21"/>
+            <when xml:id="TS08" synch="#MA4" absolute="1:21"/>
+            <when xml:id="TS09" synch="#AW4" absolute="1:25"/>
+            <when xml:id="TS10" synch="#MA5" absolute="1:33"/>
+            <when xml:id="TS11" synch="#MA6" absolute="1:35"/>
+            <when xml:id="TS12" synch="#AW5" absolute="1:36"/>
+            <when xml:id="TS13" synch="#AW6" absolute="1:42"/>
+            <when xml:id="TS14" synch="#MA7" absolute="1:51"/>
+            <when xml:id="TS15" synch="#AW7" absolute="2:04"/>
+            <when xml:id="TS16" synch="#MA8" absolute="2:07"/>
+            <when xml:id="TS1y" synch="#AW8" absolute="2:10"/>
 
         </timeline>
         
@@ -348,8 +378,8 @@ City: Milan -->
                     Okay quando volete <vocal><desc>sospira</desc></vocal>
                 </u>
 
-                <u who="#MA" xml:id="MA1" synch="#TS02"> <!-- i cognomi li scrivo come li sento oppure no? stessa cosa per il nome dei luoghi -->
-                    <date when="1998-03-04">4 Marzo 1998</date><pause/> cassetta numero <num type="cardinal" value="5">cinque</num><pause/> intervisto il <persName ref="TEI-ListPerson.xml#AW"><roleName type="honorific">Signor</roleName>Arminio<pause/> Wachsberger</persName><pause/> Allora <persName ref="TEI-ListPerson.xml#AW"><roleName type="honorific">Signor</roleName> Wachsberger</persName> siamo arrivati alla quarantena mi ha raccontato 
+                <u who="#MA" xml:id="MA1" synch="#TS02">
+                    <date when="1998-03-04">4 Marzo 1998</date><pause/> cassetta numero cinque<pause/> intervisto il <persName ref="TEI-ListPerson.xml#AW"><roleName type="honorific">Signor</roleName>Arminio<pause/> <foreign xml:lang="de">Wachsberger</foreign></persName><pause/> Allora <persName ref="TEI-ListPerson.xml#AW"><roleName type="honorific">Signor</roleName> <foreign xml:lang="de">Wachsberger</foreign></persName> siamo arrivati alla quarantena mi ha raccontato 
                 </u>
 
                 <u who="#AW" xml:id="AW1" synch="#TS03"><!-- Allungamento sillabe -->
@@ -359,23 +389,76 @@ City: Milan -->
                 <u who="#MA" xml:id="MA2" synch="#TS04">
                     <anchor xml:id="int-01" synch="#TT01"/><del type="repetition">me la me la</del> descriva si<ancor xml:id="int-02" synch="#TT02"/>
                 </u>
-                <!-- non ho ancora sistemato i fenomeni di allungamento delle sillabe + gli incisi come li tratto? -->
+               
                 <u who="#AW" xml:id="AW2" synch="#TS05">
-                    ecco <vocal>ehm</vocal><kinesic> l’avete visto sicuramente tante volte <desc>si accarezza la nuca con la sua mano destra</desc></kinesic> in fotografia <pause/> erano baracche di legno <pause/>senza finestre <pause/> che aveva <pause/> come <pause/><kinesic iterated="true"><desc>muove la sua mano destra (posta in orizzontale, con il palmo rivolto verso il basso) da destra verso sinistra per indicare i letti</desc></kinesic>  per dormire <pause/><num type="cardinal" value="3">tre</num> piani di <kinesic><desc> muove entrambe le mani rivolte con il palmo verso il basso dal centro verso l'esterno</kinesic><del type="reformulation">semplicemente di</del> legno <pause/><kinesic><desc>porta le mani all'altezza della nuca e entrambi gli indici verso l'alto per indicare un inciso</desc></kinesic><del type="repetition">non</del> non letti a castello <pause/> ma bensì come se fossero letti a castello <kinesic iterated="true"><desc>muove la sua mano destra (posta in orizzontale, con il palmo rivolto verso il basso) da destra verso sinistra per indicare i letti e gestiscola</desc></kinesic><num type="cardinal" value="3">tre</num> ripiani <pause/>Quindi chi era al pian terreno entrava facilmente <pause/><kinesic iterated="true"><desc>con le mani gesticola una arrampicata</desc></kinesic>gli altri dovevano arrampicarsi <pause/> Io stavo al <num type="ordinal" value="3">terzo</num> e quindi avevo davanti <pause/>non era una finestra<pause/><kinesic><desc>allarga le mani per simulare una fessura</desc></kinesci> una fessura così che serviva per <unclear reason="inaudible">il</unclear> ricambio d’aria<pause/><kinesic><desc>gesticola</desc></kinesic> ecco da dove vedevo quelli della <del type="correction">di</del><ancor xml:id="arm-03" synch="#TT03"/><foreign xml:lang="de">Teresistan</foreign><ancor xml:id="arm-04" synch="#TT04"/><!-- Lista Luoghi: Theresienstadt -->
+                    ecco <vocal>ehm</vocal><kinesic> l’avete visto sicuramente tante volte <desc>si accarezza la nuca con la sua mano destra</desc></kinesic> in fotografia <pause/> erano baracche di legno <pause/>senza finestre <pause/> che aveva <pause/> come <pause/><kinesic iterated="true"><desc>muove la sua mano destra (posta in orizzontale, con il palmo rivolto verso il basso) da destra verso sinistra per indicare i letti</desc></kinesic>  per dormire <pause/>tre piani di <kinesic><desc> muove entrambe le mani rivolte con il palmo verso il basso dal centro verso l'esterno</kinesic><del type="reformulation">semplicemente di</del> legno <pause/><kinesic><desc>porta le mani all'altezza della nuca e entrambi gli indici verso l'alto per indicare un inciso</desc></kinesic><del type="repetition">non</del> non letti a castello <pause/> ma bensì come se fossero letti a castello <kinesic iterated="true"><desc>muove la sua mano destra (posta in orizzontale, con il palmo rivolto verso il basso) da destra verso sinistra per indicare i letti e gestiscola</desc></kinesic>tre ripiani <pause/>Quindi chi era al pian terreno entrava facilmente <pause/><kinesic iterated="true"><desc>con le mani gesticola una arrampicata</desc></kinesic>gli altri dovevano arrampicarsi <pause/> Io stavo al terzo e quindi avevo davanti <pause/>non era una finestra<pause/><kinesic><desc>allarga le mani per simulare una fessura</desc></kinesci> una fessura così che serviva per <unclear reason="inaudible" resp="#GB">il</unclear> ricambio d’aria<pause/><kinesic><desc>gesticola</desc></kinesic> ecco da dove vedevo quelli della <del type="correction">di</del><ancor xml:id="arm-03" synch="#TT03"/><foreign xml:lang="de">Teresistan</foreign><ancor xml:id="arm-04" synch="#TT04"/><!-- Lista Luoghi: Theresienstadt -->
                 </u>
 
                 <u who="#MA" xml:id="MA3" synch="#TS06"/>
-                    <anchor xml:id="int-03" synch="#TT03"/>in <anchor xml:id="int-04" synch="#TT04"/>quanti<vocal>ehm</vocal> dormivate <ancor xml:id="int-05" synch="#TT05"/>su questi <del type="truncation">pian</del><ancor xml:id="int-06" synch="#TT06"/>
+                    <anchor xml:id="int-03" synch="#TT03"/>in <anchor xml:id="int-04" synch="#TT04"/>quanti<vocal>ehm</vocal> dormivate <ancor xml:id="int-05" synch="#TT05"/>su questi <unclear reason="inaudible" cert="high">piani</unclear><ancor xml:id="int-06" synch="#TT06"/>
                 </u>
                 
                 <u who="#AW" xml:id="AW3" synch="#TS07"/>
-                    <ancor xml:id="arm-05" synch="#TT05"/>Dunque <ancor xml:id="amr-06" synch="#TT06"/><choice><sic>c’era da <num type="cardinal" value="500">cinquecento</num></sic><corr resp="#GB"> c'erano <num type="cardinal" value="500">cinquecento</num> persone</corr></choice><pause/> fino a <num type="cardinal" value="1000">mille</num> in una baracca  <!-- NON CONVINTA -->
+                    <ancor xml:id="arm-05" synch="#TT05"/>Dunque <ancor xml:id="amr-06" synch="#TT06"/><choice><sic>c’era da cinquecento</sic><corr resp="#GB"> c'erano cinquecento persone</corr></choice><pause/> fino a mille in una baracca  <!-- NON CONVINTA -->
                 </u>
 
-                <pause/>
-
                 <u who="#MA" xml:id="MA4" synch="TS08"/>
-                    <del type="repetition">E </del>e
+                    <del type="repetition">E </del>e <vocal>ehm</vocal><pause/> con lei proprio nel suo piano diciamo <anchor xml:id="int-07" synch="#TT07"/><del type="reformulation">nel terzo piano</del><anchor xml:id="int-08" synch="#TT08"/>
+                </u>
+
+                <u who="#AW" xml:id="AW4" synch="TS09"/>
+                    <ancor xml:id="arm-07" synch="#TT07"/><del type="truncation"><del type="repetition">E</del> e</del> <kinesic><desc>alza le mani</desc></kinesic>eravamo<ancor xml:id="arm-08" synch="#TT08"/> in sei<ancor xml:id="arm-09" synch="#TT09"/> ogni di <ancor xml:id="arm-10" synch="#TT10"/> ogni<kinesic><desc>pone le mani una sopra l'altra simulando la vicinanza dei corpi</desc><kinesic> <del type="truncation">co</del> come le acciughe perché non si poteva <del type="correction">non potevi</del> voltarti durante la notte per il sonno perché <ancor xml:id="arm-11" synch="#TT11"/> altrimenti <kinesic><desc>muove la sua mano destra dal suo corpo verso l'intervistatrice<del type="truncation">vo</del><ancor xml:id="arm-12" synch="#TT12"/>
+                </u>
+
+                <u who="#MA"/>
+                    <ancor xml:id="int-09" synch="#TT09"/>in sei<ancor xml:id="int-10" synch="#TT10">
+                </u>
+
+                <u who="#MA" xml:id="MA5" synch="TS10">
+                    <ancor xml:id="int-11" synch="#TT11"/>c'era un materasso<ancor xml:id="int-12" synch="#TT12"/>
+                </u>
+
+                <u who="#AW"/>
+                    come
+                </u>
+                
+                <u who="#MA" xml:id="MA6" synch="TS11">
+                    c'era un materasso <pause/> <ancor xml:id="int-13" synch="#TT13"/>qualcosa<ancor xml:id="int-14" synch="#TT14"/> non c'era niente
+                </u>
+
+                <u who="#AW" xml:id="AW5" synch="TS12"/>
+                    ma che <ancor xml:id="arm-13" synch="#TT13"/>materasso<ancor xml:id="arm-14" synch="#TT13"/> c'era una specie <del type="repetition">di</del> di paglia c'era
+                </u>
+
+                <u who="#MA">
+                    una coperta
+                </u>
+
+                <u who="#AW" xml:id="AW6" synch="TS13"/>
+                    una si una coperta <pause/> questa si <vocal>emh</vocal> era una coperta militare <vocal>emh</vocal> classica che <choice><sic>lo chiamavano</sic><corr resp="#GB">chiamavano</corr><pause/> </choice><soCalled><foreign xml:lang="de">kotzen</foreign></soCalled> <kinesic><desc>porta la mano sinistra in avanti</desc></kinesic>che <unclear resp="#GB" reason="inaudible"> è un</unclear> nome mezzo polacco
+                </u>
+                    
+                <u who="#MA" xml:id="MA7" synch="TS14"/>
+                    c’era qualcuno con lei in questo momento che ancora era <pause/> con lei sul treno che <ancor xml:id="int-15" synch="#TT15"/>è venuto<ancor xml:id="int-16" synch="#TT16"/> con lei nella quarantena <pause/> 
+                    <ancor xml:id="int-17" synch="#TT17"/>però <unclear resp="#GB" reason="inaudible" cert="medium">dello</unclear> stesso trasporto <ancor xml:id="int-18" synch="#TT18"/> 
+                    <ancor xml:id="int-19" synch="#TT19"/>si<ancor xml:id="int-20" synch="#TT20"/>
+                </u>
+
+                <u who="#AW"/>
+                    <ancor xml:id="arm-15" synch="#TT15"/><vocal>ehm</vocal><ancor xml:id="arm-16" synch="#TT16"/> non nello stesso vagone
+                    <ancor xml:id="arm-17" synch="#TT17"/><vocal>ehm</vocal> però <ancor xml:id="arm-18" synch="#TT18"/><del type="repetition">si</del> si <pause/>  sto parlando di quelli <ancor xml:id="arm-19" synch="#TT19"/>là<ancor xml:id="arm-20" synch="#TT20"/>
+                </u>
+
+                <u who="#AW" xml:id="AW7" synch="TS15"/>
+                    <unclear resp="#GB" reason="inaudible">Ero</unclear> solo <del type="reformulation"><!--oppure correction?-->eravamo</del> circa 150 italiani
+                </u>
+
+                <u who="#MA" xml:id="MA8" synch="TS16"/>
+                    quindi <pause/> si ricorda qualche nome
+                </u>
+
+                <u who="#AW" xml:id="AW8" synch="TS17"/> <!-- Lista luoghi: Roma, Varsavia --> <!-- 2:10 -->
+                    <pause dur="PT3S"/><vocal><desc>sospira</desc></vocal> Dunque innanzitutto come le dico c’era un <pause/> medico livornese che stava a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> <pause/> un altro medico <pause/><kinesic><desc>si porta la mano sinistra alle tempie</desc></kinesic> di dove era <pause dur="PT3S"/><gap resp="#GB" reason="inaudible" atLeast="1" atMost="3" unit="words"/>  questo medico livornese poi è morto a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName> eeeee il tribunale di Livorno mi aveva chiamato una volta a fare una dichiarazione di morte non presunta, reale perché i suoi parenti che si son salvati avevano bisogno di questa dichiarazione. Poi (pausa). Quella signorina che è morta in viaggio si chiamava Rosental… vabbè, mi è venuto in mente il nome eee come le dico c’erano questi, non so se chiamarli piani eee in ogni piano sei persone una attaccata all’altra e era proibissimo la notte uscire dalla baracca e quindi c’era il problema di quando uno aveva necessità di bisogni fisiologici.
                 </u>
 
             </div>
@@ -387,21 +470,6 @@ City: Milan -->
 
 </TEI>
 <!--
-
-M.S: E e con lei proprio nel suo piano diciamo nel terzo piano?
-A.W: eravamo in sei. Ogni di ogni, co come le acciughe perché non si poteva… non potevi voltarti durante la notte per il sonno perché altrimenti vo…
-M.S: c’era un?
-A.W: come?
-M.S: c’era un materasso? Qualcosa?
-A.W: Ma che materasso…
-M.S: Qualcosa?
-A.W: c’era una specie di paglia, c’era…
-M.S: una coperta?
-A.W: una si, una coperta, questa si. Era una coperta militare classica, che lo chiamavano cozzen, che un nome mezzo polacco.
-M.S: c’era qualcuno con lei in questo momento che ancora era con lei sul treno che è venuto con lei nella quarantena?
-A.W: non nello stesso vagone.
-M.S: però nella stesso trasporto.
-A.W: si si, sto parlando di quelli là. Eravamo ? Solo, eravamo circa 150 italiani.
 M.S: quindi si ricorda qualche nome?
 A.W: (sospiro) dunque, innanzitutto, come le dico c’era un medico livornese che stava a Roma, un altro medico, di dove era? ?? questo medico livornese poi è morto a Varsavia eeeee il tribunale di Livorno mi aveva chiamato una volta a fare una dichiarazione di morte non presunta, reale perché i suoi parenti che si son salvati avevano bisogno di questa dichiarazione. Poi (pausa). Quella signorina che è morta in viaggio si chiamava Rosental… vabbè, mi è venuto in mente il nome eee come le dico c’erano questi, non so se chiamarli piani eee in ogni piano sei persone una attaccata all’altra e era proibissimo la notte uscire dalla baracca e quindi c’era il problema di quando uno aveva necessità di bisogni fisiologici.
 M.S: perché le latrine dove stavano?
