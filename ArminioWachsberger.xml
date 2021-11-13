@@ -349,6 +349,21 @@ City: Milan -->
             <when xml:id="TT25" absolute="3:36" synch="arm-25"/>
             <when xml:id="TT26" since="#TT25" interval="1"/>
 
+            <when xml:id="TT27" absolute="4:16" synch="arm-27"/>
+            <when xml:id="TT28" since="#TT27" interval="1"/>
+
+            <when xml:id="TT29" absolute="4:31" synch="int-29"/>
+            <when xml:id="TT30" since="#TT29" interval="1"/>
+
+            <when xml:id="TT31" absolute="4:37" synch="arm-31"/>
+            <when xml:id="TT32" since="#TT29" interval="1"/>
+
+            <when xml:id="TT33" absolute="4:44" synch="int-33"/>
+            <when xml:id="TT34" since="#TT29" interval="1"/>
+
+            <when xml:id="TT35" absolute="4:49" synch="int-35"/>
+            <when xml:id="TT36" since="#TT29" interval="1"/>
+
         </timeline>
 
 
@@ -379,6 +394,15 @@ City: Milan -->
             <when xml:id="TS22" synch="#MA11" absolute="3:45"/>
             <when xml:id="TS23" synch="#AW11" absolute="3:47"/>
             <when xml:id="TS24" synch="#MA12" absolute="4:11"/>
+            <when xml:id="TS25" synch="#AW12" absolute="4:15"/>
+            <when xml:id="TS26" synch="#MA13" absolute="4:29"/>
+            <when xml:id="TS27" synch="#AW13" absolute="4:31"/>
+            <when xml:id="TS28" synch="#MA14" absolute="4:37"/>
+            <when xml:id="TS29" synch="#AW14" absolute="4:44"/>
+            <when xml:id="TS30" synch="#MA15" absolute="4:46"/>
+            <when xml:id="TS31" synch="#AW15" absolute="4:49"/>
+            <when xml:id="TS32" synch="#MA16" absolute="5:14"/>
+            <when xml:id="TS33" synch="#AW16" absolute="5:16"/>
 
         </timeline>
         
@@ -511,6 +535,45 @@ City: Milan -->
                     e quindi potevate andare di giorno <pause/> ma di notte no
                 </u>
 
+                <u who="#AW" xml:id="AW12" synch="TS25"/><!-- list: Birkenau -->
+                    Di notte non <choice><sic>si poteva</sic><corr resp="#GB">potevamo</corr></choice> uscire <kinesic><desc>alza l'indice della mano sinistra</desc></kinesica><ancor xml:id="arm-27" synch="#TT27"/>e non ci era<ancor xml:id="arm-28" synch="#TT28"/> come per esempio a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><pause/>che <vocal>ehm</vocal> <del type="reformulation">a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName> come le racconterò più tardi</del><pause/><kinesic iterated="true"><desc>con le mani simula un'apertura</desc></kinesic> fuori dalla baracca c’era un grosso <pause/><vocal>ehm</vocal> secchio dove <choice><sic>si poteva</sic><corr resp="#GB">potevamo</corr></choice> andare a fare i propri bisogni <pause/> a <kinesic><desc>porta la mano sinistra a sorreggere il mento</desc></kinesic>Birkenau no <!-- da codificare Birkenau (?)-->
+                </u>
+
+                <u who="#MA"/>
+                    <ancor xml:id="int-27" synch="#TT27"/>cosa avveniva<ancor xml:id="int-28" synch="#TT28"/>
+                <u>
+
+                <u who="#MA" xml:id="MA13" synch="TS26"/>
+                    cosa avveniva di notte allora se <ancor xml:id="int-29" synch="#TT29"/>c’era<ancor xml:id="int-30" synch="#TT30"/>
+                </u>
+
+                <u who="#AW" xml:id="AW13" synch="TS27"/>
+                    <ancor xml:id="arm-29" synch="#TT29"/><vocal>ehm</vocal> era<ancor xml:id="arm-30" synch="#TT30"/> terribile<pause/><kinesic iterated="true"><desc>alza l'indice della mano sinistra verso la telecamera</desc> poi vedrà che le racconterò cosa è successo invece con un italiano <kinesic><desc>porta la mano sinistra a sorreggere il mento</desc></kinesic><ancor xml:id="arm-31" synch="#TT31"/><del type="repetition">aa</del><pause/> a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><ancor xml:id="arm-32" synch="#TT32"/>
+                </u>
+
+                <u who="#MA" xml:id="MA14" synch="TS28"/>
+                    <ancor xml:id="int-31" synch="#TT31"/><vocal>ehm</vocal>Adesso magari<ancor xml:id="int-32" synch="#TT32"/> ci fermiamo un attimo perché mi piacerebbe sapere nel frattempo <vocal>ehm</vocal><pause/> sua mamma, suo papa <pause/> e la sua famiglia <ancor xml:id="int-33" synch="#TT33"/><vocal>ehm</vocal><ancor xml:id="int-34" synch="#TT34"/>
+                </u>
+
+                <u who="#AW" xml:id="AW14" synch="TS29"/>
+                    <kinesic><desc>con la sua mano sinistra indaga qualcosa sulla sua sinistra</desc></kinesic><ancor xml:id="arm-33" synch="#TT33"/>si<ancor xml:id="arm-34" synch="#TT34"/> <choice><sic>c'ho tutto</sic><corr resp="#GB">le ho tutte</corr></choice> qui le fotografie<kinesic><desc>porta la mano sinistra a sorreggere il mento</desc></kinesic>
+                </u>
+
+                <u who="#MA" xml:id="MA15" synch="TS30"/>
+                    no ma<vocal>ehm</vocal> in questo momento quando lei è stato deportato a <ancor xml:id="int-35" synch="#TT35"/>Birkenau<pause/> dov’erano<ancor xml:id="int-36" synch="#TT36"/> <!-- da codificare Birkenau (?)-->
+                </u>
+
+                <u who="#AW" xml:id="AW15" synch="TS31"/> <!-- list person/persone: il padre + listPlace/luoghi Feltri-->
+                    <kinesic><desc>gesticola la sua mano sinistra</desc></kinesic><ancor xml:id="arm-35" synch="#TT35"/><vocal>ah</vocal> ecco <del type="falseStart">dunque mia <vocal>mm</vocal></del><ancor xml:id="arm-36" synch="#TT36"/> allora<pause/> mio papa era morto da un anno <pause/>lui era <del type="truncation">torn</del> tornato perché si è ammalato a<pause/> <del type="truncation">f</del> vicino a <placeName ref="TEI-ListPlace.xml#Feltri">Feltri</placeName><pause/> in un campo di internamento <pause/><kinesic><desc>con la sua mano destra indica qualcosa alla sua sinistra</desc></kinesic>non quello della fotografia <kinesic iterated="true"><desc>gesticola prima con la mano destra e poi con entrambe</desc></kinesic>perché son riuscito<pause/> a spostarlo<pause/> io ero a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName><pause/> a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> il ministero mi conoscevano<pause/> mi favorirono <pause/><q><del type="truncation">f</del> facciamo in maniera che si avvicinasse<pause/> alla casa materna</q>
+                </u>
+
+                <u who="MA" xml:id="MA16" synch="TS32"/> <!-- sono qui: 5:10 circa-->
+                    è stato quindi arrestato a Fiume<pause/> suo padre
+                </u>
+
+                <u who="AW" xml:id="AW16" synche="TS33"/>
+                    dunque <vocal>ehm</vocal> si <del type="repetition">ma</del> ma non solo<pause/> con tutti i componenti della comunità <emph>maschi</emph><pause/> superiori ai 18 anni <pause/><del type="falseStart">e portato</del> papa è stato portato a Campania in provincia di Salerno. Quella fotografia si vede lì e viceversa si è ammalato, l’hanno portato all’ospedale di Fiume ed è morto.
+                </u>
             </div>
            
         </body>
@@ -520,15 +583,7 @@ City: Milan -->
 
 </TEI>
 <!--
-A.W: Di notte non si poteva uscire e non ci era come per esempio a Varsavia che, a Varsavia come le racconterò più tardi, fuori dalla baracca c’era un grosso secchio dove si poteva andare a fare i propri bisogni, a Birkenau no.
-M.S: cosa avveniva di notte allora se c’era?
-A.W: Era terribile, poi vedrà che le racconterò cosa è successo invece con un italiano a Varsavia.
-M.S: Adesso magari ci fermiamo un attimo perché mi piacerebbe sapere nel frattempo sua mamma, suo papa e la sua famiglia ee
-A.W: si ciò tutto qui le fotografie.
-M.S: no ma in questo momento quando lei è stato deportato a Birkenau dov’erano?
-A.W: ah ecco, dunque, allora mio papa era morto da un anno. Lui era tornato perché si è ammalato a, vicino a Feltri, in un campo di internamento. Non quello della fotografia perché sono riuscito a spostarlo: io ero a roma, a roma il ministero mi conoscevano mi favorirono, facciamo in modo che si avvicinasse alla casa materna.
-M.S: è stato quindi arrestato a Fiume suo padre?
-A.W: dunque, si, ma non solo con tutti i componenti della comunità maschi superiori ai 18 anni e portato, papa è stato portato a Campania in provincia di Salerno. Quella fotografia si vede lì e viceversa si è ammalato, l’hanno portato all’ospedale di Fiume ed è morto.
+
 M.S: Quindi suo papa è sepolto a Fiume?
 A.W: e’ sepolto a Fiume.
 M.S: Ha avuto una sepoltura regolare?
