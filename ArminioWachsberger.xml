@@ -340,6 +340,15 @@ City: Milan -->
             <when xml:id="TT19" absolute="2:03" synch="int-19"/>
             <when xml:id="TT20" since="#TT19" interval="1"/>
 
+            <when xml:id="TT21" absolute="2:50" synch="arm-21"/>
+            <when xml:id="TT22" since="#TT21" interval="1"/>
+
+            <when xml:id="TT23" absolute="3:17" synch="int-23"/>
+            <when xml:id="TT24" since="#TT23" interval="1"/>
+
+            <when xml:id="TT25" absolute="3:36" synch="arm-25"/>
+            <when xml:id="TT26" since="#TT25" interval="1"/>
+
         </timeline>
 
 
@@ -362,7 +371,14 @@ City: Milan -->
             <when xml:id="TS14" synch="#MA7" absolute="1:51"/>
             <when xml:id="TS15" synch="#AW7" absolute="2:04"/>
             <when xml:id="TS16" synch="#MA8" absolute="2:07"/>
-            <when xml:id="TS1y" synch="#AW8" absolute="2:10"/>
+            <when xml:id="TS17" synch="#AW8" absolute="2:10"/>
+            <when xml:id="TS18" synch="#MA9" absolute="3:15"/>
+            <when xml:id="TS19" synch="#AW9" absolute="3:17"/>
+            <when xml:id="TS20" synch="#MA10" absolute="3:36"/>
+            <when xml:id="TS21" synch="#AW10" absolute="3:39"/>
+            <when xml:id="TS22" synch="#MA11" absolute="3:45"/>
+            <when xml:id="TS23" synch="#AW11" absolute="3:47"/>
+            <when xml:id="TS24" synch="#MA12" absolute="4:11"/>
 
         </timeline>
         
@@ -387,7 +403,7 @@ City: Milan -->
                 </u>
 
                 <u who="#MA" xml:id="MA2" synch="#TS04">
-                    <anchor xml:id="int-01" synch="#TT01"/><del type="repetition">me la me la</del> descriva si<ancor xml:id="int-02" synch="#TT02"/>
+                    <anchor xml:id="int-01" synch="#TT01"/><del type="repetition">me la</del> me la descriva si<ancor xml:id="int-02" synch="#TT02"/>
                 </u>
                
                 <u who="#AW" xml:id="AW2" synch="#TS05">
@@ -457,8 +473,42 @@ City: Milan -->
                     quindi <pause/> si ricorda qualche nome
                 </u>
 
-                <u who="#AW" xml:id="AW8" synch="TS17"/> <!-- Lista luoghi: Roma, Varsavia --> <!-- 2:10 -->
-                    <pause dur="PT3S"/><vocal><desc>sospira</desc></vocal> Dunque innanzitutto come le dico c’era un <pause/> medico livornese che stava a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> <pause/> un altro medico <pause/><kinesic><desc>si porta la mano sinistra alle tempie</desc></kinesic> di dove era <pause dur="PT3S"/><gap resp="#GB" reason="inaudible" atLeast="1" atMost="3" unit="words"/>  questo medico livornese poi è morto a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName> eeeee il tribunale di Livorno mi aveva chiamato una volta a fare una dichiarazione di morte non presunta, reale perché i suoi parenti che si son salvati avevano bisogno di questa dichiarazione. Poi (pausa). Quella signorina che è morta in viaggio si chiamava Rosental… vabbè, mi è venuto in mente il nome eee come le dico c’erano questi, non so se chiamarli piani eee in ogni piano sei persone una attaccata all’altra e era proibissimo la notte uscire dalla baracca e quindi c’era il problema di quando uno aveva necessità di bisogni fisiologici.
+                <u who="#AW" xml:id="AW8" synch="TS17"/> <!-- Lista luoghi: Roma, Varsavia --> <!-- Lista persone: medico livorese, Rosenthal (ha sbagliato cognome); vabbè un vocal? -->
+                    <pause dur="PT3S"/><vocal><desc>sospira</desc></vocal> <kinesic><desc>con l'indice della sua mano sinistra indica la telecamera</desc></kinesic>Dunque anzitutto come le dico <pause/><kinesic><desc>con il pollice della sua mano sinistra conta il numero uno</desc></kinesic>c’era un <pause/> medico livornese che stava a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> <pause/> un altro medico <pause/><kinesic><desc>si porta la mano sinistra alle tempie con lo sguardo rivolto verso il basso</desc></kinesic> di dove era <pause dur="PT3S"/><gap resp="#GB" reason="inaudible" atLeast="1" atMost="3" unit="words"/> <kinesic><desc>con l'indice della sua mano sinistra indica qualcosa lontano prima alla sua sinistra e poi a destra</desc></kinesic>questo medico livornese poi è morto a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName> eeeee <pause/> il tribunale di Livorno mi aveva chiamato una volta a fare una <kinesic><desc>muove l'indice della sua mano sinistra che indica verso la sua destra</desc></kinesic> dichiarazione di morte <pause/> non presunta <pause/> reale perché i suoi parenti che si son salvati <pause/>avevano bisogno di questa dichiarazione <kinesic><desc>si porta la sua mano sinistra sul volto in posizione pensante</desc></kinesic><vocal><desc>sospira</desc>ehm</vocal> Poi <vocal>ehm</vocal> <pause/><kinesic iterated="true"><desc>muove la sua mano sinistra</desc></kinesic> quella signorina che è morta in viaggio si chiamava <persName ref="TEI-ListPerson.xml#Rosenthal">Rosental</persName> <vocal>vabbè</vocal><pause/> mi è venuto in mente il <ancor xml:id="arm-21" synch="#TT21"/>nome <vocal><desc>sospira</desc></vocal><ancor xml:id="arm-22" synch="#TT22"/> eee <kinesic iterated="true" dur="PT7S"><desc>muove entrambi le mani (poste in orizzontale con i palmi rivolte verso il basso) da sinistra a destra</desc></kinesic>come le <choice><sic>dico</sic><corr resp="#GB">dicevo</corr> <pause/> c’erano questi <pause/> <del type="truncation">n</del> non so se chiamarli piani eee <vocal>ehm</vocal> per <del type="reformulation">in</del> ogni piano <kinesic iterated="true"><desc>avvicina i palmi di entrambe le sue mani</desc></kinesic><choice><sic>sei persone</sic><corr resp="#GB">c'erano sei persone</corr></choice> una attaccata all’altra <pause/> eee <vocal>ehm</vocal><kinesic><desc>si porta la sua mano sinistra sul volto in posizione pensante</desc></kinesic> era proibitissimo la notte uscire dalla baracca <pause/> quindi c’era il problema <pause/> di quando uno aveva necessità di bisogni fisiologici
+                </u>
+
+                <u who="#MA"/>
+                    <ancor xml:id="int-21" synch="#TT21"/>importante si<ancor xml:id="int-22" synch="#TT22"/>
+                </u>
+
+                <u who="#MA" xml:id="MA9" synch="TS18"/>
+                    perché le latrine dove <pause/> <ancor xml:id="int-23" synch="#TT23"/>stavano<ancor xml:id="int-24" synch="#TT24"/>
+                </u>
+
+                <u who="#AW" xml:id="AW9" synch="TS19"/> <!-- quarantene lager? -->
+                    <ancor xml:id="arm-23" synch="#TT23"/>ecco<ancor xml:id="arm-24" synch="#TT24"/> <kinesic iterated="true"><desc>muove la sua mano destra verso la telecamera</desc></kinesic>c’era una <pause/><vocal>ehm</vocal> altra baracca la baracca delle latrine <pause/> la quarantene lager aveva la sua baracca delle latrine <pause/> le latrine erano costituite da <kinesic><desc>muove le sue mani simulando un piano e poi simulando un foro</desc></kinesic> <pause/> banconi di legno con dei fori e <del type="truncation">c</del><kinesic iterated="true"><desc>gesticola</desc></kinesic> <choice><orig>si andava</orig><reg resp="#GB">andavamo</reg></choice> tutti lì <pause/>c’erano <gap reason="inaudible" extent="1 word"/> quello per uomini e quello <pause/> per donne <pause/> e semplicemente così<kinesic><desc>porta la sua mano sinistra verso la bocca</desc></kinesic> <ancor xml:id="arm-25" synch="#TT25"/><vocal>ehm</vocal><ancor xml:id="arm-26" synch="#TT26"/>
+                </u>
+
+                <u who="#MA" xml:id="MA10" synch="TS20"/>
+                    <ancor xml:id="int-25" synch="#TT25"/>c'erano<ancor xml:id="int-26" synch="#TT26"/> anche dei lavandini
+                </u>
+
+                <u who="#AW" xml:id="AW10" synch="TS21"/>
+                    lavandini lì nno <pause/> o forse si all’entrata <pause/> non mi ricordo più con precisione
+                </u>
+
+                <u who="#MA" xml:id="MA11" synch="TS22"/>
+                    c’eran delle scritte <choice><sic>ai muri</sic><corr resp="#GB">sui muri</corr></choice>
+                </u>
+
+                <pause/>
+
+                <u who="#AW" xml:id="AW11" synch="TS23"/><!-- q o quote? -->
+                    <vocal>ehm</vocal><kinesic><desc>gesticola</desc></kinesic> dunque si erano le scritte che <choice><sic>diceva</sic><corr resp="#GB">dicevano</corr></choice><q type="written"> non mi più di dieci minuti</q><pause/> Dovevi fare i tuoi bisogni entro dieci minuti <pause/><kinesic><desc>alza l'indice della sua mano sinistra</desc></kinesic><unclear reason="inaudible" resp="#GB" cert="medium">ed è</unclear> interessante che i capi chiamiamoli così <pause/> delle latrine erano ufficiali russi <pause/> che li mettevano lì per punizione <pause/> <del type="falseStart">La</del> per punire un ufficiale russo <pause/> comunista naturalmente lo mettevano capo del <del type="correction">dei</del> gabinetti e <vocal>ehm</vocal>
+                </u>
+
+                <u who="#MA" xml:id="MA12" synch="TS24"/>
+                    e quindi potevate andare di giorno <pause/> ma di notte no
                 </u>
 
             </div>
@@ -470,15 +520,6 @@ City: Milan -->
 
 </TEI>
 <!--
-M.S: quindi si ricorda qualche nome?
-A.W: (sospiro) dunque, innanzitutto, come le dico c’era un medico livornese che stava a Roma, un altro medico, di dove era? ?? questo medico livornese poi è morto a Varsavia eeeee il tribunale di Livorno mi aveva chiamato una volta a fare una dichiarazione di morte non presunta, reale perché i suoi parenti che si son salvati avevano bisogno di questa dichiarazione. Poi (pausa). Quella signorina che è morta in viaggio si chiamava Rosental… vabbè, mi è venuto in mente il nome eee come le dico c’erano questi, non so se chiamarli piani eee in ogni piano sei persone una attaccata all’altra e era proibissimo la notte uscire dalla baracca e quindi c’era il problema di quando uno aveva necessità di bisogni fisiologici.
-M.S: perché le latrine dove stavano?
-A.W: ecco, c’era una altra baracca, la baracca delle latrine. La quarantene del lager aveva la sua baracca delle latrine. Le latrine erano costituite da banconi di legno con dei fori e si andava tutti lì. C’era quello per uomini e quello per donne, semplicemente così.
-M.S: c’erano anche dei lavandini?
-A.W: lavandini lì no… o forse si all’entrata, non mi ricordo più con precisione.
-M.S: c’eran delle scritte ai muri?
-A.W: si, erano le scritte che dicevano “non mi più di dieci minuti”. Dovevi fare i tuoi bisogni in 10 minuti, ed è interessante che i capi, chiamiamoli così, delle latrine erano ufficiali russi che li mettevano lì per punizione. Per punire un ufficiale russo, comunista naturalmente, lo mettevano capo dei gabinetti ee..
-M.S: e quindi potevate andare di giorno ma di notte no.
 A.W: Di notte non si poteva uscire e non ci era come per esempio a Varsavia che, a Varsavia come le racconterò più tardi, fuori dalla baracca c’era un grosso secchio dove si poteva andare a fare i propri bisogni, a Birkenau no.
 M.S: cosa avveniva di notte allora se c’era?
 A.W: Era terribile, poi vedrà che le racconterò cosa è successo invece con un italiano a Varsavia.
