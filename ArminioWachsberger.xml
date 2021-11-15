@@ -65,7 +65,7 @@
                                     <title>Arminio Wachsberger "Spielburg"</title>
                                     <biblScope>Parte I di V</biblScope>
                                 </series>
-                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di Roma e sul sito </note>   <!-- guardare -->
+                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName>  e sul sito </note>   <!-- guardare -->
                             </bibl> 
                         </broadcast>
 
@@ -104,7 +104,7 @@
                                     <title>Arminio Wachsberger "Spielburg"</title>
                                     <biblScope>Parte II di V</biblScope>
                                 </series>
-                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di Roma e sul sito </note>   <!-- guardare -->
+                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> e sul sito </note>   <!-- guardare -->
                             </bibl> 
                         </broadcast>
 
@@ -143,7 +143,7 @@
                                     <title>Arminio Wachsberger "Spielburg"</title>
                                     <biblScope>Parte III di V</biblScope>
                                 </series>
-                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di Roma e sul sito </note>   <!-- guardare -->
+                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> e sul sito </note>   <!-- guardare -->
                             </bibl> 
                         </broadcast>
 
@@ -182,7 +182,7 @@
                                     <title>Arminio Wachsberger "Spielburg"</title>
                                     <biblScope>Parte IV di V</biblScope>
                                 </series>
-                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di Roma e sul sito </note>   <!-- guardare -->
+                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> e sul sito </note>   <!-- guardare -->
                             </bibl> 
                         </broadcast>
 
@@ -221,7 +221,7 @@
                                     <title>Arminio Wachsberger "Spielburg"</title>
                                     <biblScope>Parte V di V</biblScope>
                                 </series>
-                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di Roma e sul sito </note>   <!-- guardare -->
+                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> e sul sito </note>   <!-- guardare -->
                             </bibl> 
                         </broadcast>
 
@@ -356,14 +356,40 @@ City: Milan -->
             <when xml:id="TT30" since="#TT29" interval="1"/>
 
             <when xml:id="TT31" absolute="4:37" synch="arm-31"/>
-            <when xml:id="TT32" since="#TT29" interval="1"/>
+            <when xml:id="TT32" since="#TT31" interval="1"/>
 
             <when xml:id="TT33" absolute="4:44" synch="int-33"/>
-            <when xml:id="TT34" since="#TT29" interval="1"/>
+            <when xml:id="TT34" since="#TT33" interval="1"/>
 
             <when xml:id="TT35" absolute="4:49" synch="int-35"/>
-            <when xml:id="TT36" since="#TT29" interval="1"/>
+            <when xml:id="TT36" since="#TT35" interval="1"/>
 
+            <when xml:id="TT37" absolute="5:16" synch="int-37"/>
+            <when xml:id="TT38" since="#TT37" interval="1"/>
+
+            <when xml:id="TT39" absolute="5:36" synch="int-39"/>
+            <when xml:id="TT40" since="#TT39" interval="1"/>
+
+            <when xml:id="TT41" absolute="5:38" synch="arm-41"/>
+            <when xml:id="TT42" since="#TT39" interval="1"/>
+
+            <when xml:id="TT43" absolute="5:40" synch="int-43"/>
+            <when xml:id="TT44" since="#TT43" interval="1"/>
+
+            <when xml:id="TT45" absolute="6:22" synch="int-45"/>
+            <when xml:id="TT46" since="#TT45" interval="1"/>
+
+            <when xml:id="TT47" absolute="6:30" synch="arm-47"/>
+            <when xml:id="TT48" since="#TT48" interval="1"/>
+
+            <when xml:id="TT49" absolute="6:33" synch="arm-49"/>
+            <when xml:id="TT50" since="#TT49" interval="1"/>
+
+            <when xml:id="TT51" absolute="7:14" synch="arm-51"/>
+            <when xml:id="TT52" since="#TT51" interval="1"/>
+
+            <when xml:id="TT53" absolute="7:26" synch="int-53"/>
+            <when xml:id="TT54" since="#TT53" interval="1"/>
         </timeline>
 
 
@@ -403,7 +429,16 @@ City: Milan -->
             <when xml:id="TS31" synch="#AW15" absolute="4:49"/>
             <when xml:id="TS32" synch="#MA16" absolute="5:14"/>
             <when xml:id="TS33" synch="#AW16" absolute="5:16"/>
-
+            <when xml:id="TS34" synch="#MA17" absolute="5:36"/>
+            <when xml:id="TS35" synch="#AW17" absolute="5:38"/>
+            <when xml:id="TS36" synch="#MA18" absolute="5:38"/>
+            <when xml:id="TS37" synch="#AW18" absolute="5:40"/>
+            <when xml:id="TS38" synch="#MA19" absolute="6:20"/>
+            <when xml:id="TS39" synch="#AW19" absolute="6:22"/>
+            <when xml:id="TS40" synch="#MA20" absolute="6:33"/>
+            <when xml:id="TS41" synch="#AW20" absolute="6:34"/>
+            <when xml:id="TS42" synch="#MA21" absolute="7:17"/>
+            <when xml:id="TS43" synch="#AW21" absolute="7:27"/>          
         </timeline>
         
     </standOff>
@@ -509,8 +544,8 @@ City: Milan -->
                     perché le latrine dove <pause/> <ancor xml:id="int-23" synch="#TT23"/>stavano<ancor xml:id="int-24" synch="#TT24"/>
                 </u>
 
-                <u who="#AW" xml:id="AW9" synch="TS19"/> <!-- quarantene lager? -->
-                    <ancor xml:id="arm-23" synch="#TT23"/>ecco<ancor xml:id="arm-24" synch="#TT24"/> <kinesic iterated="true"><desc>muove la sua mano destra verso la telecamera</desc></kinesic>c’era una <pause/><vocal>ehm</vocal> altra baracca la baracca delle latrine <pause/> la quarantene lager aveva la sua baracca delle latrine <pause/> le latrine erano costituite da <kinesic><desc>muove le sue mani simulando un piano e poi simulando un foro</desc></kinesic> <pause/> banconi di legno con dei fori e <del type="truncation">c</del><kinesic iterated="true"><desc>gesticola</desc></kinesic> <choice><orig>si andava</orig><reg resp="#GB">andavamo</reg></choice> tutti lì <pause/>c’erano <gap reason="inaudible" extent="1 word"/> quello per uomini e quello <pause/> per donne <pause/> e semplicemente così<kinesic><desc>porta la sua mano sinistra verso la bocca</desc></kinesic> <ancor xml:id="arm-25" synch="#TT25"/><vocal>ehm</vocal><ancor xml:id="arm-26" synch="#TT26"/>
+                <u who="#AW" xml:id="AW9" synch="TS19"/>
+                    <ancor xml:id="arm-23" synch="#TT23"/>ecco<ancor xml:id="arm-24" synch="#TT24"/> <kinesic iterated="true"><desc>muove la sua mano destra verso la telecamera</desc></kinesic>c’era una <pause/><vocal>ehm</vocal> altra baracca la baracca delle latrine <pause/> la <foreign xml:lang="de">quarantene lager</foreign> aveva la sua baracca delle latrine <pause/>le latrine erano costituite da <kinesic><desc>muove le sue mani simulando un piano e poi simulando un foro</desc></kinesic> <pause/> banconi di legno con dei fori e <del type="truncation">c</del><kinesic iterated="true"><desc>gesticola</desc></kinesic> <choice><orig>si andava</orig><reg resp="#GB">andavamo</reg></choice> tutti lì <pause/>c’erano <gap reason="inaudible" extent="1 word"/> quello per uomini e quello <pause/> per donne <pause/> e semplicemente così<kinesic><desc>porta la sua mano sinistra verso la bocca</desc></kinesic> <ancor xml:id="arm-25" synch="#TT25"/><vocal>ehm</vocal><ancor xml:id="arm-26" synch="#TT26"/>
                 </u>
 
                 <u who="#MA" xml:id="MA10" synch="TS20"/>
@@ -563,17 +598,72 @@ City: Milan -->
                     no ma<vocal>ehm</vocal> in questo momento quando lei è stato deportato a <ancor xml:id="int-35" synch="#TT35"/>Birkenau<pause/> dov’erano<ancor xml:id="int-36" synch="#TT36"/> <!-- da codificare Birkenau (?)-->
                 </u>
 
-                <u who="#AW" xml:id="AW15" synch="TS31"/> <!-- list person/persone: il padre + listPlace/luoghi Feltri-->
-                    <kinesic><desc>gesticola la sua mano sinistra</desc></kinesic><ancor xml:id="arm-35" synch="#TT35"/><vocal>ah</vocal> ecco <del type="falseStart">dunque mia <vocal>mm</vocal></del><ancor xml:id="arm-36" synch="#TT36"/> allora<pause/> mio papa era morto da un anno <pause/>lui era <del type="truncation">torn</del> tornato perché si è ammalato a<pause/> <del type="truncation">f</del> vicino a <placeName ref="TEI-ListPlace.xml#Feltri">Feltri</placeName><pause/> in un campo di internamento <pause/><kinesic><desc>con la sua mano destra indica qualcosa alla sua sinistra</desc></kinesic>non quello della fotografia <kinesic iterated="true"><desc>gesticola prima con la mano destra e poi con entrambe</desc></kinesic>perché son riuscito<pause/> a spostarlo<pause/> io ero a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName><pause/> a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> il ministero mi conoscevano<pause/> mi favorirono <pause/><q><del type="truncation">f</del> facciamo in maniera che si avvicinasse<pause/> alla casa materna</q>
+                <u who="#AW" xml:id="AW15" synch="TS31"/> <!-- list person/persone: il padre + listPlace/luoghi Feltri, Roma-->
+                    <kinesic><desc>gesticola la sua mano sinistra</desc></kinesic><ancor xml:id="arm-35" synch="#TT35"/><vocal>ah</vocal> ecco <del type="falseStart">dunque mia <vocal>mm</vocal></del><ancor xml:id="arm-36" synch="#TT36"/> allora<pause/> mio papa era morto da un anno <pause/>lui era <del type="truncation">torn</del> tornato perché si è ammalato a<pause/> <del type="truncation">f</del> vicino a <placeName ref="TEI-ListPlace.xml#Feltri">Feltri</placeName><pause/> in un campo di internamento <pause/><kinesic><desc>con la sua mano destra indica qualcosa alla sua sinistra</desc></kinesic>non quello della fotografia <kinesic iterated="true"><desc>gesticola prima con la mano destra e poi con entrambe</desc></kinesic>perché son riuscito<pause/> a spostarlo<pause/> io ero a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName><pause/> a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> il ministero mi conoscevano<pause/> mi favorirono <pause/><q><del type="truncation">f</del> facciamo in maniera che si avvicinasse<pause/> alla casa materna</q><kinesic><desc>porta la mano sinistra vicino alla bocca</desc></kinesic>
                 </u>
 
-                <u who="MA" xml:id="MA16" synch="TS32"/> <!-- sono qui: 5:10 circa-->
-                    è stato quindi arrestato a Fiume<pause/> suo padre
+                <u who="MA" xml:id="MA16" synch="TS32"/><!-- list person/persone: il padre-->
+                    è stato quindi arrestato a <placeName ref="TEI-ListPlace.xml#Fiume">Fiume</placeName><pause/> suo  <ancor xml:id="int-37" synch="#TT37"/>padre <ancor xml:id="int-38" synch="#TT38"/>
                 </u>
 
-                <u who="AW" xml:id="AW16" synche="TS33"/>
-                    dunque <vocal>ehm</vocal> si <del type="repetition">ma</del> ma non solo<pause/> con tutti i componenti della comunità <emph>maschi</emph><pause/> superiori ai 18 anni <pause/><del type="falseStart">e portato</del> papa è stato portato a Campania in provincia di Salerno. Quella fotografia si vede lì e viceversa si è ammalato, l’hanno portato all’ospedale di Fiume ed è morto.
+                <u who="AW" xml:id="AW16" synche="TS33"/><!-- lista luoghi: Campania?, Salerno e Fiume -->
+                    <ancor xml:id="arm-37" synch="#TT37"/>dunque <ancor xml:id="arm-38" synch="#TT38"/><vocal>ehm</vocal> <kinesic iterated="true"><desc>gesticola prima con la mano sinistra e poi con entrambe</desc></kinesic>si <del type="repetition">ma</del> ma non solo<pause/> con tutti i componenti della comunità <emph>maschi</emph><pause/> superiori ai 18 anni <pause/><del type="falseStart">e portato</del> papa è stato portato <choice><sic>a Campania</sic><corr resp="#GB">in Campania</corr></choice> in provincia di <placeName ref="TEI-ListPlace.xml#Salerno">Salerno</placeName> <pause/><kinesic><desc>indica con la sua mano sinistra qualcosa alla sua sinistra</desc></kinesic>quella fotografia <pause/> si vede lì e <vocal>ehm</vocal><pause/><kinesic iterated="true"><desc>muove la mano sinistra</desc></kinesic> viceversa si è ammalato l’hanno portato all’ospedale di <placeName ref="TEI-ListPlace.xml#Fiume">Fiume</placeName><pause/> ed è morto lì
                 </u>
+
+                <u who="MA" xml:id="MA17" synch="TS34"/> <!-- list person: padre-->
+                    <ancor xml:id="int-39" synch="#TT39"/>quindi suo<ancor xml:id="int-40" synch="#TT40"/> papa è sepolto a <placeName ref="TEI-ListPlace.xml#Fiume">Fiume</placeName>
+                </U>
+
+                <u who="AW"/>
+                    <ancor xml:id="arm-39" synch="#TT39"/><kinesic><desc>gesticola</desc></kinesic><gap reason="inaudible" extent="1 word"/><ancor xml:id="arm-40" synch="#TT40"/>
+                </u>
+
+                <u who="AW" xml:id="AW17" synch="TS35"/>
+                    <kinesic><desc>annuisce</desc></kinesic>è sepolto a <ancor xml:id="arm-41" synch="#TT41"/><placeName ref="TEI-ListPlace.xml#Fiume">Fiume</placeName><ancor xml:id="arm-42" synch="#TT42"/><kinesic><desc>porta la mano sinistra vicino alla bocca in posizione pensante</desc></kinesic>
+                </u>
+
+                <u who="MA" xml:id="MA18" synch="TS36"/>
+                    <ancor xml:id="int-41" synch="#TT41"/>ha avuto<ancor xml:id="int-42" synch="#TT42"/> una <ancor xml:id="int-43" synch="#TT43"/>sepolturaaa <pause dur="PT2S"/>regolare<ancor xml:id="int-44" synch="#TT44"/>
+                </u>
+
+                <u who="AW" xm:id="AW18" synch="TS37"/> <!-- foreign yeshivah e hesped, lista luoghi, unclear?-->
+                    <ancor xml:id="arm-43" synch="#TT43"/>regolare<ancor xml:id="arm-44" synch="#TT44"/><kinesic iterated="true"><desc>gesticola con la mano sinistra</desc></kinesic> <del type="truncation">pr</del> proprio ebraica perché in quell’epoca esisteva ancora<pause/><del type="reformulation"> nel <date when="1942-07">luglio 42</date> la comunità ebraica esisteva regolarmente</del><pause/><kinesic><desc>si porta la mano sinistra alla boca</desc></kinesic> e <vocal>ehm</vocal> anzi <pause/>la <kinesic><desc>gesticola prima con la mano sinistra e poi con la entrambe</desc></kinesic><del type="truncation">confer</del> si chiama hesped la conferenza <vocal>ehm</vocal> di morte come la vuole chiamare lei l’ha tenuto <pause/>un mio compagno<kinesic><desc>si porta la mano sinistra vicino al mento in posizione pensante</desc></kinesic> di yeshivah che si chiamava <persName ref="TEI-ListPerson.xml#Haim">Haim Zelikowitz</persName> che era di <placeName ref="TEI-ListPlace.xml#Debrecen">Debrecen</placeName> <pause/>dell’Ungheria <kinesic iterated="true"><desc>muove la mano destra chiusa a pugno e con l'indice alzato</desc></kinesic><vocal>ah</vocal> <del type="falseStart">lui</del> anche lui è stato poi deportato insieme con la <persName ref="TEI-ListPerson.xml#Goti">Goti <pause/>Bauer</persName> e alla <del type="correction">a</del> Birkenau <pause/>faceva <kinesic><desc>si porta la mano sinistra vicino al mento in posizione pensante</desc></kinesic>il <pause/><foreign xml:lang="de"><unclear>shais</unclear> comando</foreign> <kinesic iterated="true"><desc>muove entrambe le mani dall'interno verso l'esterno</desc></kinesic><choice><sic>era</sic><corr resp="#GB">che erano</corr></choice> quelli che portavano<pause/> dalla<pause/> <del type="correction">dal</del><foreign xml:lang="de">lager</foreign><kinesic><desc>con la sua mano sinistra fa un gesto che simula il concetto di "esterno"</desc></kinesic>fuori per i contadini<pause/> il letame
+                </u>
+
+                <u who="MA" xml:id="MA19" synch="TS38"/>
+                    lei in occasione del funerale di suo papa è <ancor xml:id="int-45" synch="#TT45"/>tornato a <placeName ref="TEI-ListPlace.xml#Fiume">Fiume</placeName><ancor xml:id="int-46" synch="#TT46"/>
+                </u>
+
+                <u who="AW" xml:id="AW19" synch="TS39"/> <!-- list person persone: sorella-->
+                     <ancor xml:id="arm-45" synch="#TT45"/><del type="repetition">no no</del> no<ancor xml:id="arm-46" synch="#TT46"/> perché ero a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName><kinesic iterated="true"><desc>muove la mano sinistra</desc></kinesic> e l’ho saputo con ritardo<pause/> perché mia sorella me l’ha<pause/> trasmesso sa che <choice><sic>dagli ebrei</sic><corr resp="#GB">per gli ebrei</corr></choice> bisogna <kinesic><desc>con entrambe le mani chiuse a pugno e gli indici alzati ruota i polsi dall'interno verso l'esterno</desc></kinesic>seppellire subito <ancor xml:id="arm-47" synch="#TT47"/><vocal><desc>ispira</desc></vocal><ancor xml:id="arm-48" synch="#TT48"/>quindi non sono arrivato in tempo per <ancor xml:id="arm-49" synch="#TT49"/><unclear reason="inaudible" cert="high">andarci</unclear><ancor xml:id="arm-50" synch="#TT50"/><kinesic><desc>porta la sua mano sinistra vicino al mento in posizione pensante</desc></kinesic>
+                </u>
+
+                <u who="MA"/>
+                    <ancor xml:id="int-47" synch="#TT47"/>certo<ancor xml:id="int-48" synch="#TT48"/>
+                </u>
+
+                <u who="MA" xml:id="MA20" synch="TS40"/>
+                    <ancor xml:id="int-49" synch="#TT49"/>e sua madre<ancor xml:id="int-50" synch="#TT50"/> nel frattempo
+                </u>
+
+                <u who="AW" xml:id="AW20" synch="TS41"/><!-- list person persone:madre, sorella Rive, marito di Rive, fratello più giovane; lista luoghi -->
+                    <kinesic iterated="true"><desc>gesticola con la mano sinistra</desc></kinesic>E mia madre poi è rimasta lì <vocal><desc>balbetta</desc></vocal><pause/> dunque mia sorella <pause/><persName ref="TEI-ListPerson.xml#RiveW">Rive</persName><pause/><kinesic><desc>indica qualcosa alla sua sinistra con la sua mano sinistra</desc></kinesic> di cui le farò vedere la fotografia che <pause/>era nascosta nel Friuli insieme <choice><orig>col</orig><reg resp="#GB">con il</reg></choice> marito<pause/> con documenti falsi <pause/>era venuta<kinesic><desc>fa il numero due con la mano sinistra</desc></kinesic> due volte a <placeName ref="TEI-ListPlace.xml#Fiume">Fiume</placeName><pause/> con documenti falsi <kinesic iterated="true"><desc>gesticola con la mano destra</desc></kinesic>preparati per la mamma e per mio fratello più giovane<pause/> dicendole <kinesic><desc>sposta entrambe le mani da destra verso sinistra</desc></kinesic><q type="spoken">vieni da noi non si sa mai cosa succederà</q><pause/> <kinesic iterated="true"><desc>muove la mano sinistra</desc></kinesic>e la mamma non ha mai voluto andare<pause/> invece in <date when="1944-05" resp="#GB">maggio</date><pause/> è stata presa dalla <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> tedesca e<kinesic><desc>con la sua mano sinistra, con l'indice alzato, simula il concetto di "esterno"</desc></kinesic> trasportata a San Sabba <pause/>che è<pause/> <placeName ref="TEI-ListPlace.xml#Trieste">Trieste</placeName><pause/> insieme con mio <unclear reason="inaudible" cert="medium"><del type="truncation">fi</del><pause/>cioè</unclear> la<kinesic><desc>si porta la mano sinistra alla bocca e guarda e inizia a fissare un punto nel vuoto</desc></kinesic><pause dur="PT3S"/><vocal><desc>sospira</desc></vocal><kinesic><desc>con l'indice della mano sinistra indica la telecamera</desc></kinesic> non so se adesso sta riprendendo <ancor xml:id="arm-51" synch="#TT51"/>oo<ancor xml:id="arm-52" synch="#TT52"/><ancor xml:id="arm-53" synch="#TT53"/><vocal>ahh</vocal><ancor xml:id="arm-54" synch="#TT54"/>
+                </u>
+
+                <u who="MA"/>
+                    <ancor xml:id="int-51" synch="#TT51"/><del type="repetition">si si si</del> si<ancor xml:id="int-52" synch="#TT52"/><pause/><del type="repetition">si si</del> si
+                </u>
+
+                <pause/>
+
+                <u who="MA" xml:id="MA21" synch="TS42"/>
+                    allora<pause/> torniamo alla <vocal>ehm</vocal><pause/> quarantena questa baracca che lei mi ha descritto<pause/> lei quando ha saputo<pause/><vocal>ehm</vocal> della sua <ancor xml:id="int-53" synch="#TT53"/>famiglia<pause/> dove erano <del type="truncation">fin</del><ancor xml:id="int-54" synch="#TT54"/>
+                </u>
+
+                <u who="AW" xml:id="AW21" synch="TS43"/><!-- qui -->
+                    <ancor xml:id="arm-53" synch="#TT53"/><del type="falseStart">Ecco adesso le devo</del><ancor xml:id="arm-54" synch="#TT54"/> questi sono <unclear reason="inaudible" resp="#GB" cert="low">i</unclear> particolari interessanti<pause/> <vocal>Eee</vocal><pause/> dopo 5 minuti che eravamo nel <foreign xml:lang="de">lager</foreign> dentro<pause/> c’erano i<pause/> prigionieri precedenti<pause/> anziani chiamiamoli così<pause/><del type="truncation">c</del> c’erano quelli<pause/> pessimisti che ci dicevano la verità "guardate quel fumo etc etc"<pause/> c’erano altri prigionieri invece che<pause/> avevano pietà di noi dice "perché dire la verità" dicevano? “ma no, li hanno mandati in un<pause/> altro campo, ?? Guardateli"<pause/> era il Zigeuner lager il campo degli zingari e lì c’erano donne bambini piccoli vecchi etc <pause/>"Poi n tu? non ci credi? guarda <vocal>um</vocal>il teresistan lager" quello accanto a noi<pause/> anche lì <pause/> perché quello serviva per propaganda no<pause/> poi invece<pause/> sia quelli teresistan sia gli zingari<pause/> degli zingari in una notte ne hanno ammazzati 40.000<pause/> più tardi<pause/> tutti quanti<pause/> mentre prima lasciavano in vita anche le donne e i bambi.
+                </u>
+
             </div>
            
         </body>
@@ -583,21 +673,6 @@ City: Milan -->
 
 </TEI>
 <!--
-
-M.S: Quindi suo papa è sepolto a Fiume?
-A.W: e’ sepolto a Fiume.
-M.S: Ha avuto una sepoltura regolare?
-A.W: regolare, proprio ebraica perché in quell’epoca esisteva ancora, nel luglio 42 la comunità ebraica esisteva regolarmente eee anzi la confer, si chiama eschbech, la conferenza di morte, come la vuole chiamare lei, l’ha tenuta un mio compagno che si chiamava ???? dell’Ungheria. Lui, anche lui, è stato deportato insieme con la goti Bauer e a Birkenau faceva il rais comando, eran quelli che portavano dal lager fuori per i contadini il letame.
-M.S: lei in occasione del funerale di suo papa è tornato a Fiume?
-A.W: no, no perché ero a Roma e l’ho saputo con ritardo perché mia sorella me l’ha trasmesso, sa che per gli ebrei bisogna seppellire subito.
-M.S: certo
-A.W: quindi non sono arrivato in tempo per andar..
-M.S: e sua madre nel frattempo?
-A.W: E mia madre poi è rimasta lì, dunque, mia sorella ?, di cui le farò vedere la fotografia, che era nascosta nel Friuli insieme con il marito con documenti falsi, era venuta due volte a Fiume, con documenti falsi preparati per la mamma  e per mio fratello più giovane, dicendole vieni da noi, non si sa mai cosa succederà e la mamma ha mai voluta andare. Invece in maggio è stata presa dalla SS tedesca e trasportata a San Saba che è a Triste, insieme con mia figlia, la… (pausa). Non so se adesso sta riprendendo oh…?
-M.S: si, si si
-A.W: Ahh..
-M.S: allora torniamo alla quarantena, questa baracca che lei mi ha descritto… lei quando ha saputo della sua famiglia?
-A.W: Ecco, adesso, le devo… qui ci sono particolari interessanti. Eee, dopo 5 minuti che eravamo nel lager, dentro, c’erano i prigionieri precedenti, anziani chiamiamoli così, c’erano quelli pessimisti che ci dicevano la verità (guardate quel fumo etc etc), c’erano altri prigionieri invece che avevano pietà di noi, dice, perché dire la verità “ma no, li hanno mandati in un altro campo, ?? Guardateli, era il seagul? Lager, il campo degli zingari e lì c’erano donne, bambini, piccoli, vecchi etc. Poi non ci credi? guarda il teresistan lager, quello accanto a noi, anche lì - perché quello serviva per propaganda no? - poi invece sia quelli teresistan sia gli zingari nella dinger in una notte ne hanno ammazzati 40.000, più tardi tutti quanti, mentre prima lasciavano in vita anche le donne e i bambini.
 M.S: lei era li in quel periodo quando è stato evacuato il campo degli zingari?
 A.W: no,no, ero già a Varsavia in quell’epoca. Ma adesso le voglio raccontare, noi non sapevano, no, no, no, si.. allora quando siamo arrivati il Dottor Mengele ha incominciato a interrogarmi perché, è una ragione comprensibile, in Italia il fascismo è caduto il 25 luglio, allora, in Germania ne hanno parlato pochissimo, è una dittatura anche in Germania, allora, alcuni giornali tedeschi dicevano che questa rivoluzione, questa rivolta contro il fascismo, era una cosa interna fra i gerarchi del fascismo ma che la popolazione era entusiasta e va avanti con la guerra etc e questo invece non era vero perché la popolazione non ne poteva più eee (pausa), allora, Mengele, diceva “se è successo in Italia può succedere anche in Germania”.
 M.S: quindi Mengele veniva nella quarantena…
