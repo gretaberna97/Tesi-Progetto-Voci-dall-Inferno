@@ -420,6 +420,15 @@ City: Milan -->
 
             <when xml:id="TT73" absolute="9:49" synch="arm-73"/>
             <when xml:id="TT74" since="#TT73" interval="1"/>
+
+            <when xml:id="TT75" absolute="10:30" synch="arm-75"/>
+            <when xml:id="TT76" since="#TT75" interval="1"/>
+
+            <when xml:id="TT77" absolute="11:40" synch="arm-77"/>
+            <when xml:id="TT78" since="#TT77" interval="1"/>
+
+            <when xml:id="TT79" absolute="11:42" synch="int-79"/>
+            <when xml:id="TT80" since="#TT79" interval="1"/>
         </timeline>
 
 
@@ -475,6 +484,14 @@ City: Milan -->
             <when xml:id="TS47" synch="#AW23" absolute="9:27"/> 
             <when xml:id="TS48" synch="#MA24" absolute="9:43"/>    
             <when xml:id="TS49" synch="#AW24" absolute="9:45"/> 
+            <when xml:id="TS50" synch="#MA25" absolute="10:35"/> 
+            <when xml:id="TS51" synch="#AW25" absolute="10:37"/>    
+            <when xml:id="TS52" synch="#MA26" absolute="10:38"/> 
+            <when xml:id="TS53" synch="#AW26" absolute="10:40"/> 
+            <when xml:id="TS54" synch="#MA27" absolute="11:40"/> 
+            <when xml:id="TS55" synch="#AW27" absolute="11:42"/> 
+            <when xml:id="TS56" synch="#MA28" absolute="11:48"/>
+            <when xml:id="TS57" synch="#AW28" absolute="11:50"/>
         </timeline>
         
     </standOff>
@@ -738,13 +755,45 @@ City: Milan -->
                 </u>
 
                 <u who="AW" xml:id="AW24" synch="TS49"/><!-- lista luoghi: auschwitz e birkenau? -->
-                    <del type="truncation">se</del> non lontano da noi <del type="repetition" cert="medium">una</del> una baracca adesso nei dintorni non mi ricordo <ancor xml:id="arm-73" synch="#TT73"/>con precisione<ancor xml:id="arm-74" synch="#TT74"/> <pause/>E questo aveva un vantaggio per me<pause/> perché dopo che <del type="truncation">l</del> mi interrogò<pause/> poi le racconterò i particolari<pause/> mi regalava o una fetta di pane o uno o due <vocal><desc>balbetta</desc></vocal> 2 patate o un <choice><sic>pezzino</sic><corr resp="#GB">pezzettino</corr></choice> <unclear reason="inaudible" resp="#GB" cert="low">nemmeno</unclear> di formaggio o di <distinct type="slang">sanguinaccio</distinct> perché lì <del type="falseStart">non era</del><del type="reformulation"> ci davano</del><pause/> una volta ogni due giorni una fetta non era di salame ma <distinct type="slang">sanguinaccio</distinct> cioè riempito solo con <del type="truncation">san</del> <del type="reformulation">con sangue</del><pause/> e io mi ricordo come oggi<pause/> un ebreo di<pause/> <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName><pause/> che diceva <gap reason="inaudible" unit="words"/> ma d’altra parte non c’era altro da mangiare<pause/> bisognava mangiare quello<pause/> eee<pause/> adesso le racconto <unclear reason="inaudible" cert="low" resp="#GB">Meng</unclear> <persName ref="TEI-ListPerson.xml#Mengele"><foreign xml:lang="de">Mengele</foreign></persName> era capo sanitario <del type="repetition">di</del> di <vocal>mm</vocal> Auschwitz Birkenau <!-- manca la kinesic e il collegamento con l'enunciato successivo -->
+                    <kinesic><desc>si tocca con le mani la punta delle dita</desc></kinesic><del type="truncation">se</del> non lontano da noi <del type="repetition" cert="medium">una</del><kinesic iterated="true"><desc>allarga le braccia</desc></kinesic> una baracca adesso nei dintorni non mi ricordo <ancor xml:id="arm-73" synch="#TT73"/>con precisione<ancor xml:id="arm-74" synch="#TT74"/><kinesic><desc>con l'indice della mano destra si tocca ai lati del naso e appoggia la mano vicino al mento in posizione pensante</desc></kinesic> <pause/>E questo aveva un vantaggio per me<pause/><kinesic iterated="true"><desc>gesticola con la mano destra e poi con entrambe</desc></kinesic> perché dopo che <del type="truncation">l</del> mi interrogò<pause/> poi le racconterò i particolari<pause/> mi regalava o una fetta di pane o uno o due <vocal><desc>balbetta</desc></vocal> 2 patate o un <choice><sic>pezzino</sic><corr resp="#GB">pezzettino</corr></choice> <unclear reason="inaudible" resp="#GB" cert="low">nemmeno</unclear> di formaggio o di <distinct type="slang">sanguinaccio</distinct> perché lì <kinesic><desc>unisce le mani</desc></kinesic><del type="falseStart">non era</del><del type="reformulation"> ci davano</del><pause/> una volta ogni due giorni una fetta non era di salame ma <distinct type="slang">sanguinaccio</distinct> cioè riempito solo con <del type="truncation">san</del> <del type="reformulation">con sangue</del><pause/><kinesic><desc>appoggia il palmo della mano destra sulla guancia destra e rivolge lo sguardo verso il basso</desc></kinesic> e io mi ricordo come oggi<pause/> un ebreo di<pause/> <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName><pause/> che diceva <gap reason="inaudible" unit="words"/> ma d’altra parte non c’era altro da mangiare<pause/><kinesic><desc>con la mano destra si gratta la fronte</desc></kinesic> bisognava mangiare quello<pause/> eee<pause/> <ancor xml:id="arm-75" synch="#TT75"/><kinesic iterated="true"><desc>gesticola con la mano destra</desc></kinesic> adesso le racconto <ancor xml:id="arm-76" synch="#TT76"/> <unclear reason="inaudible" cert="low" resp="#GB">Meng</unclear> <persName ref="TEI-ListPerson.xml#Mengele"><foreign xml:lang="de">Mengele</foreign></persName> era capo sanitario <del type="repetition">di</del> di <vocal>mm</vocal> Auschwitz Birkenau
                 </u>
 
                 <u who="MA"/>
                     <ancor xml:id="int-73" synch="#TT73"/>no certo<ancor xml:id="int-74" synch="#TT74"/>
+                    <ancor xml:id="int-75" synch="#TT75"/><persName ref="TEI-ListPerson.xml#Mengele"><foreign xml:lang="de">Mengele</foreign></persName> che <vocal>ehm</vocal><ancor xml:id="int-76" synch="#TT76"/>
                 </u>
 
+                <u who="MA" xml:id="MA25" synch="TS50"/>
+                    Lei quando ha saputo che si chiamava <persName ref="TEI-ListPerson.xml#Mengele"><foreign xml:lang="de">Mengele</foreign></persName> 
+                </u>
+
+                <u who="AW" xml:id="AW25" synch="TS51"/>
+                    come
+                </u>
+
+                <u who="MA" xml:id="MA26" synch="TS52"/>
+                    quando ha saputo che si chiamava <persName ref="TEI-ListPerson.xml#Mengele"><foreign xml:lang="de">Mengele</foreign></persName> 
+                </u>
+
+                <u who="AW" xml:id="AW26" synch="TS53"/><!-- persone: mussolini - ippocrate; luoghi: italia, argentina e paraguay -->
+                    <kinesic iterated="true"><desc>gesticola con la mano destra</desc></kinesic><del type="falseStart">ma tutti lo tutti</del> <del type="reformulation">il nome <persName ref="TEI-ListPerson.xml#Mengele"><foreign xml:lang="de">Mengele</foreign></persName> è così conosciuto fra quelli del <foreign xml:lang="de">lager</foreign></del><pause/> come non so <persName ref="TEI-ListPerson.xml#Mussolini">Mussolini</persName> in Italia nel <date from="1922-10-22" to="1943-07-25" resp="#GB" cert="medium">periodo<pause/> del fascismo</date><kinesic><desc>appoggia la sua mano destra alla guancia e al mento in posizione pensante</desc></kinesic> allora<pause/> una volta<pause/><vocal>ehm</vocal> io <del type="repetition">ho ho</del> ho dovuto dirgli esattamente la verità<pause/> <choice><sic>dico</sic><corr resp="#GB">gli dissi</corr></choice> <q type="spoken">no guardi signor <foreign xml:lang="de" resp="#GB" cdert="low">Hauptsturmführer</foreign><kinesic iterated="true"><desc>muove velocemente la mano destra</desc></kinesic> il suo titolo in tedesco<pause/> non è che i gerarchi hanno fatto la rivolta contro <persName ref="TEI-ListPerson.xml#Mussolini">Mussolini</persName><pause/> è stato il popolo che era felice e <distinct type="archaic">giulivo</distinct> di finire questa guerra che era<pause/><vocal>ehm</vocal> snervante per tutti</q><pause/><vocal><desc>espira</desc></vocal> quindi l’avevo messo sull’avviso <gap reason="inaudible" extent="1 word"/>poi dopo quando la guerra è finita è riuscito a <choice><orig>tagliare la corda</orig><reg resp="#GB" cert="high">scappare</reg></choice> <choice><sic>andare</sic><corr resp="#GB">andò</corr></choice> prima in <choice><sic>Argentinta</sic><corr resp="#GB" cert="high">Argentina</corr></choice> poi in Paraguay va <choice><orig>beh</orig><reg>bene</reg></choice> tutti i particolari li conoscete<pause/><vocal><desc>sospira</desc></vocal><del type="falseStart"> una volta siccome lui era medico</del><pause/> eee aveva fatto il giuramento di Ippocrate no<pause/> cioè che farà di tutto per aiutare la gente a vivere e non farà <emph>nulla</emph> per <vocal>ehm</vocal><pause/> fare del male a una persona<pause/><kinesic><desc>si gratta il collo con la mano destra</desc></kinesic> viceversa <persName ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</persName> <del type="correction">era <emph><persName ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</persName> </emph></del> la persona che mandava<pause/> <ancor xml:id="arm-77" synch="#TT77"/>al gas<ancor xml:id="arm-78" synch="#TT78"/>
+                </u>
+
+                <u who="MA" xml:id="MA27" synch="TS54"/>
+                    <ancor xml:id="int-77" synch="#TT77"/><persName ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</persName><ancor xml:id="int-78" synch="#TT78"/> come era diviso <del type="correction">come <ancor xml:id="int-79" synch="#TT79"/>era vestito<ancor xml:id="int-80" synch="#TT80"/></del>
+                </u>
+
+                <u who="AW" xml:id="AW27" synch="TS55"/><!-- mostrine? -->
+                    <ancor xml:id="arm-79" synch="#TT79"/><del type="truncation">er</del><ancor xml:id="arm-80" synch="#TT80"/> era vestito da ufficiale delle <choice><abbr>SS</abbr><expan>Schutzstaffel</expan></choice><kinesic><desc>con la mano destra si tocca il petto dalla parte sinistra</desc></kinesic> solo<pause/> alle <distinct>mostrine</distinct> <choice><sic>erano la croce</sic><corr resp="#GB">c'erano le croci</corr></choice>
+                </u>
+
+                <u who="MA" xml:id="MA28" synch="TS56"/>
+                    portava anche un camice bianco o no
+                </u>
+
+                <u who="AW" xml:id="AW28" synch="TS57"/><!-- termine "gassificazione" e crematori; luoghi: aushwitz -->
+                    <vocal>ehm</vocal> quasi sempre <kinesic><desc>gesticola con la mano destra e poi con entrambe simulando qualcosa che sta sopra nel vestiario</desc></kinesic>quando <del type="truncation">fa</del> <del type="correction">era</del> in funzione metteva anche il camice sopra la <vocal>ehm</vocal> la sua divisa<pause/> allora <vocal>eee</vocal><kinesic iterated="true"><desc>gestiscola con la mano destra e poi con entrambe</desc></kinesic> siccome lei sa che veniva fatta la gassificazione veniva dal <del type="correction">da</del> Auschwitz<pause/> c’era un magazzino dove c’erano i <kinesic><desc>simula con le mani di tenere un oggetto</desc></kinesic><foreign xml:lang="de">zyklon b</foreign><!-- 12:08: kinesic da qui --> con un <vocal>ehm</vocal><pause/> pulmino con la croce rossa entravano dentro due <vocal>ehm</vocal><pause/> <foreign xml:lang="de">sanitatsdienstgefreite</foreign> vuol dire due caporali del servizio di sanità<pause/> e avevano <del type="correction">ognuno aveva</del> una propria maschera<pause/> <del type="reformulation">venivano con questo camioncino <vocal>ehm</vocal> da Auschwitz a Birkenau</del> sono tre chilometri<pause/> montavano sul tetto <del type="repetition">della</del><pause/> della gas camera<pause/> mettevano la maschera aprivano <del type="repetition">queste</del><pause/> queste scatole che <choice><sic>contenevo</sic><corr resp="#GB">contenevano</corr></choice> questo gas acido <choice><sic>cianirico</sic><corr resp="#GB">cianidrico</corr></choice> io purtroppo lo conosco molto bene perché ho lavorato tutta la mia vita dopo<pause/> in questo campo qui<pause/><vocal><desc>espira</desc></vocal> quindi questo acido cianidrico era imbevuto in sughero<pause/> <del type="falseStart">e allora</del> però col calore usciva dal sughero<pause/> allora questi <choice><sic>buttavano</sic><corr resp="#GB">lo buttavano</corr></choice> dall’alto <pause/>e questo <pause/>cadeva giù<pause/> sprofondava ed usciva fuori già il gas letale<pause/> gas acido cianidrico <vocal>ehm</vocal> in <del type="correction">dalle</del> docce non usciva acqua perché erano docce false<pause/> allora volevo dirle era <persName ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</persName> che dava l’ordine <pause/><del type="falseStart">diceva <vocal iterated="true">balbetta</vocal></del> <persName ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</persName> teneva conto che erano <del type="repetition">quattro</del><pause/> quattro crematori poi più tardi cinque <vocal>eee</vocal> quando era tempo allora <q type="spoken">venite</q> e naturalmente essendo medico un po’ di <pause/> esami di coscienza se li faceva no<pause/> che era lui che mandava alla morte invece di aiutare la gente<pause/> allora cosa faceva<pause/> beveva <del type="repetition">molta</del> molta vodka <pause/> ma proprio<pause/> forte come noi beviamo l’acqua <persName ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</persName> beveva la vodka<pause/> per stordirsi perché sapeva di commettere
+                </u>
             </div>
            
         </body>
@@ -754,16 +803,7 @@ City: Milan -->
 
 </TEI>
 <!--
-M.S: mengele che..?
-A.W: Mengele era capo sanitario di Auschwitz Birkenau
-M.S: Lei quando ha saputo che si chiamava Mengele?
-A.W: Come?
-M.S: Quando ha saputo che si chiamava Mengele? (Ripetizione)
-A.W: Ma tutti… il nome Mengele è così conosciuto fra quelli del lager come non so Mussolini nel periodo del fascismo. Allora una volta, io ho dovuto dirgli esattamente la verità “no guardi signor Ub?? Era il suo titolo in tedesco, non è che i gerarchi hanno fatto la rivolta contro Mussolini, è stato il popolo che era felice e giulivo di finire questa guerra che era snervante per tutti”. Quindi l’avevo messo sull’avviso, ?? Finita è riuscito a tagliare la corda e andare prima in Argentina, poi in Paraguay… va bene tutti i particolari li conoscete. Una volta, siccome lui era medico e aveva fatto il giuramento di Ippocrate no? Cioè che farà di tutto per aiutare la gente a vivere e non farà nulla per fare del male ad una persona. Invece ??? Invece era lui la persona che mandava al gas.
-M.S: lui come era diviso, vestito (riformulazione)?
-A.W: era vestito da ufficiale delle SS solo alle mostrine erano la croce.
-M.S: portava anche un camice bianco o no?
-A.W: quasi sempre, quando era in funzione metteva anche il camice sopra la sua divisa, allora… siccome, lei sa che veniva fatta la classificazione, veniva dal da Auschwitz, c’era un magazzino dove c’erano gli zyklon b con un pulmino con la croce rosse entravano due ?? (Nome in tedesco) Caporali del servizio di sanità e avevano, ognuno aveva una propria maschera, venivano con questo camioncino da Auschwitz a Birkenau, sono tre chilometri, montavano sul tetto della gas camera, mettevano la maschera, aprivano queste, queste scatole che contavano questo gas acido cianidrico, io purtroppo lo conosco molto bene perché ho lavorato tutta la mia vita dopo in questo campo qui. Quindi questo acido cianidrico era imbevuto in sughero e allora, però col calore usciva dal sughero, allora questi buttavano dall’alto e questo cadeva giù, sprofondava e usciva fuori già il gas letale, gas acido cianidrico, e dalle docce non usciva acqua, perché erano docce false, allora volevo dirle, era lui che dava l’ordine (balbettii), diceva, lui teneva conto che erano 4 crematori poi più tardi 5, quando era tempo ? Allora venite e naturalmente essendo medico un po’ esami di coscienza se li faceva no? che era lui che mandava alla morte invece di aiutare la gente. Allora cosa faceva? Beveva molta molta vodka ma proprio forte, come noi beviamo l’acqua lui beveva la vodka per stordirsi, perché sapeva di commettere…
+A.W: 
 M.S: era ubriaco allora spesso?
 A.W: non era proprio ubriaco ma quasi… allora, una sera che ??, lui aveva appena dato l’ordine e era mezzo ubriaco quando io sono entrato da lui. Allora gli ho detto (frasi in tedesco) “Dove è la mia famiglia?”, si è messo a ridere dice “come non lo sai dov’è la tua famiglia?”, dico “si ma guardi c’è qualcuno che dice la verità, non so se sia la verità, altri che dicono no che sono nei ai campi di lavoro qua vicini”, scusi ho dimenticato, e “ma qual è la verità?”. Allora lui ha detto (frase in tedesco) che in italiano vuol dire “noi abbiamo bisogno solo di bestie da lavoro quindi quelli che non possono lavorare vengono eliminati”, allora gli ho detto “guardi che mia moglie aveva circa la mia età, quindi avrebbe potuto benissimo lavorare anche lei”, disse “no perché voi avete ?? (Balbetta) lei diceva che aveva una bambina di 5 anni, siccome stava con la bambina, se venisse uccisa… la bambina non ci serve quindi la eliminiamo ma una madre sapendo che la propria figlia è stata ammazzata non può più lavorare. Allora l’ha ammazzata anche le.. Poi degli altri, dei vecchi logicamente loro erano nullità e venivano così…
 M.S: quindi lei ha avuto il coraggio di fargli queste domande?
