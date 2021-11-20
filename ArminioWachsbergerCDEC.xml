@@ -227,8 +227,20 @@
             <when xml:id="TT37" absolute="11:39" synch="#lpf-37"/> 
             <when xml:id="TT38" since="#TT37" interval="1"/>
 
-            <when xml:id="TT39" absolute="11:59" synch="#lpf-37"/> 
+            <when xml:id="TT39" absolute="11:59" synch="#lpf-39"/> 
             <when xml:id="TT40" since="#TT39" interval="1"/>
+
+            <when xml:id="TT41" absolute="12:30" synch="#lpf-41"/> 
+            <when xml:id="TT42" since="#TT41" interval="1"/>
+
+            <when xml:id="TT43" absolute="13:00" synch="#lpf-43"/> 
+            <when xml:id="TT44" since="#TT43" interval="1"/>
+
+            <when xml:id="TT45" absolute="13:02" synch="#lpf-45"/> 
+            <when xml:id="TT46" since="#TT45" interval="1"/>
+
+            <when xml:id="TT47" absolute="15:43" synch="#arm-47"/> 
+            <when xml:id="TT48" since="#TT47" interval="1"/>
         </timeline>
 
 
@@ -315,6 +327,19 @@
             <when xml:id="TS78" synch="#LPF38" absolute="12:23"/>
             <when xml:id="TS79" synch="#AW39" absolute="12:24"/>
             <when xml:id="TS80" synch="#LPF39" absolute="12:29"/>
+            <when xml:id="TS81" synch="#AW40" absolute="12:30"/>
+            <when xml:id="TS82" synch="#LPF40" absolute="12:57"/>
+            <when xml:id="TS83" synch="#AW41" absolute="13:00"/>
+            <when xml:id="TS84" synch="#LPF41" absolute="13:01"/>
+            <when xml:id="TS85" synch="#AW42" absolute="13:02"/>
+            <when xml:id="TS86" synch="#LPF42" absolute="13:07"/>
+            <when xml:id="TS87" synch="#AW43" absolute="13:13"/>
+            <when xml:id="TS88" synch="#LPF43" absolute="15:48"/>
+            <when xml:id="TS89" synch="#AW44" absolute="15:51"/>
+            <when xml:id="TS90" synch="#LPF44" absolute="15:56"/>
+            <when xml:id="TS91" synch="#AW45" absolute="15:58"/>
+            <when xml:id="TS92" synch="#LPF45" absolute="16:03"/>
+            <when xml:id="TS93" synch="#AW46" absolute="16:06"/>
         </timeline>
         
     </standOff>
@@ -704,9 +729,67 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF39" synch="TS80"/>
-                    e quindi <del type="falseStart">si <del type="truncation">ss</del></del> <del type="correction">si è</del> vista questa rapina
+                    e quindi <del type="falseStart">si <del type="truncation">ss</del></del> <del type="correction">si è</del> vista <ancor xml:id="lpf-41" synch="#TT41"/>questa rapina<ancor xml:id="lpf-42" synch="#TT42"/>
                 </u>
-            </div><!-- 12:30 -->
+
+                <u who="#AW" xml:id="AW40" synch="TS81"/>
+                    <ancor xml:id="arm-41" synch="#TT41"/><del type="truncation">ss</del> <del type="correction">si</del> è vista<ancor xml:id="arm-42" synch="#TT42"/> questa rapina si<pause/> ee ed io <del type="truncation">ll</del> la tranquillizzai dicendo <q type="spoken" who="#AW">guarda<pause/> probabilmente siccome hanno avuto successo<pause/> con i <measure><num>50</num> <unit>kg</unit> dell'oro che avevano rapinato<pause/> probabilmente adesso dalle schede vogliono vedere chi sono i maggiori contribuenti<pause/> per poter richiedere<pause/> un secondo ricatto</q><pause/> non immaginavo che quello servisse viceversa per la ricerca degli ebrei da deportare
+                </u>
+
+                <u who="#LPF" xml:id="LPF40" synch="TS82"/>
+                    quindi<pause/> che le schede siano uscite dalla comunità è <ancor xml:id="lpf-43" synch="#TT43"/>sicuro<ancor xml:id="lpf-41" synch="#TT44"/>
+                </u>
+
+                <u who="#AW" xml:id="AW41" synch="TS83"/>
+                    <ancor xml:id="arm-43" synch="#TT43"/>si<ancor xml:id="arm-44" synch="#TT44"/> si
+                </u>
+
+                <u who="#LPF" xml:id="LPF41" synch="TS84"/>
+                    è sicurissimo <ancor xml:id="lpf-45" synch="#TT45"/><unclear reason="inaudible" resp="#GB">questo</unclear><ancor xml:id="lpf-46" synch="#TT46"/>
+                </u>
+
+                <u who="#AW" xml:id="AW42" synch="TS85"/>
+                    <ancor xml:id="arm-45" synch="#TT45"/>Si<pause/> così<ancor xml:id="arm-46" synch="#TT46"/> almeno <del type="repetition">me</del> me lo stava dicendo <persName ref="TEI-ListPerson.xml#ReginaPolacco" resp="#GB">mia moglie</persName> al <unclear reason="inaudible" resp="#GB"><del type="truncation">tele</del></unclear>
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF42" synch="TS86"/>
+                    e allora cosa successe<pause/> al momento del terrore <unclear reason="inaudible" resp="#GB" cert="medium">al</unclear> momento <del type="repetition">della</del><pause/> della razzia
+                </u>
+
+                <u who="#AW" xml:id="AW43" synch="TS87"/><!-- notte; mattina? -->
+                    della razzia erano le <time when="5:00:00">5 del mattino</time> del <date when="1943-10-16" resp="#GB" cert="high">16 ottobre</date><pause/> eee<pause/> con noi<pause/> in famiglia<pause/> dormiva quella notte<pause/> un <persName ref="TEI-ListPerson.xml#VittorioPolacco" resp="#GB">mio nipote</persName><pause/> figlio di <del type="falseStart"><del type="truncation">ll</del></del> <del type="reformulation"><persName ref="TEI-ListPerson.xml#ElioPolacco" resp="#GB">mio cognato</persName></del><pause/> <persName ref="TEI-ListPerson.xml#VittorioPolacco">Vittorio Polacco</persName> che aveva due anni<pause/> in quanto i genitori<pause/> erano andati fuori <del type="truncation"><placeName ref="TEI-ListPlace.xml#Milano" resp="#GB">Mila</placeName></del> <del type="reformulation"> fuori <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName></del><pause/> per procurarsi dei generi alimentari<pause/> e avevano affidato il loro <persName ref="TEI-ListPerson.xml#VittorioPolacco" resp="#GB"><choice><orig>figliolo</orig><reg resp="#GB">figlio</reg></choice></persName> a noi<pause/> per quella notte<pause/> Eee quando la mattina le <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> entrarono da noi<pause/> consegnadocii<pause/> il foglio con il quale ci imponevano dii<pause/>lasciare la casa perché<pause/> da<pause/> <unclear reason="inaudible" resp="#GB" cert="low">venivamo</unclear> trasferiti in <placeName>Germania non dicevano <placeName>Polonia</placeName> <pause/>io dichiarai che naturalmente quel <persName ref="TEI-ListPerson.xml#VittorioPolacco" resp="#GB">bambino</persName><pause/> non era mio eee<pause/> quindi<pause/> non c'entrava con la mia famiglia<pause/> A questo mi risposero<pause/> in tedesco<pause/> lingua che io conoscevo<pause/> che non c'entrava nulla tutti dovevano venire con noi<pause/> Questo <persName ref="TEI-ListPerson.xml#VittorioPolacco" resp="#GB">bambino</persName> poi per un caso particolare riuscì a salvarlo<pause/> perché il camion nel quale ci trasportavano<pause/> sii recava da palazzo a palazzo<pause/> per ritirare gli ebrei nascosti o anche quelli<pause/> ufficialmente riconosciuti<pause/> Quando il camion si avvicinò al portone dove<pause/> abitava <persName ref="TEI-ListPerson.xml#ElioPolacco" resp="#GB">mio cognato</persName><pause/> vidi per caso<pause/> attraverso<pause/> il tendone <del type="repetition">dell</del> del camion<pause/> la <persName>portinaia</persName><pause/> che stava<pause/> al portone<pause/> io le feci vedere il <persName ref="TEI-ListPerson.xml#VittorioPolacco" resp="#GB">bambino</persName><pause/> e <del type="falseStart">le <vocal>emh</vocal></del> <del type="reformulation">stavo per</del><pause/> consegnarglielo dall'alto del camion però in quel momento<pause/> aveva girato la testa anche il <roleName type="military">sottufficiale</roleName> della <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice><pause/> attraverso il finestrino<pause/> Poi per mia fortuna lui volle <del type="falseStart"><del type="truncation">ass</del></del><pause/> <del type="reformulation">volle aaccendersi</del> una sigaretta <pause/>e quindi fu obbligato a voltare la testa in quell'attimo presi il <persName ref="TEI-ListPerson.xml#VittorioPolacco" resp="#GB">bambino</persName> e lo gettai nelle braccia<pause/> della<pause/> <persName>portinaia</persName> la quale sparì <choice><sic>nella sua</sic><corr resp="#GB">nel suo</corr></choice> appartamento nascondendo il <persName ref="TEI-ListPerson.xml#VittorioPolacco" resp="#GB">bambino</persName> cosicché non lo trovarono<pause/> <ancor xml:id="arm-47" synch="#TT47"/>E attualmente<ancor xml:id="arm-48" synch="#TT48"/> vive a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> <choice><orig>c'ha</orig><reg resp="#GB">ha</reg></choice> famiglia e bambini e
+                </u>
+
+                <u who="#LPF"/>
+                    <ancor xml:id="lpf-47" synch="#TT47"/>emh mi può<ancor xml:id="lpf-48" synch="#TT48"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF43" synch="TS88"/>
+                    <vocal>ehm</vocal> mi può ripetere l'indirizzo di dove abitavate a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> 
+                </u>
+
+                <u who="#AW" xml:id="AW44" synch="TS89"/>
+                    a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> abitavo in <placeName type="street">Lungo Tevere Ripa numero <num>6</num></placeName>
+                </u>
+
+                <u who="#LPF" xml:id="LPF44" synch="TS90"/>
+                    era la zona abitata da ebrei
+                </u>
+
+                <u who="#AW" xml:id="AW45" synch="TS91"/>
+                    si perché era <distinct type="archaic">dirimpettaio</distinct> al ghetto<pause/> <del type="truncation">divi</del> divisa solo dal fiume
+                </u>
+
+                <u who="#LPF" xml:id="LPF45" synch="TS92"/>
+                    <vocal><desc>sospira</desc> emh</vocal> senta nessuno vi telefonò e vi avvertì
+                </u>
+
+                <u who="#AW" xml:id="AW46" synch="TS93"/>
+                    no<pause/> anzi il contrario quando <del type="truncation">l</del> quelli delle <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> entrarono<pause/> la prima cosa che fecero tagliarono i fili del telefono
+                </u><!-- 16 -->
+            </div>
            
         </body>
 
@@ -716,19 +799,6 @@
 </TEI>
 
 <!--
-A.W: si è vista questa rapina si. Eee ed io la tranquillizzai dicendo "guarda, probabilmente siccome hanno avuto successo con i 50 chilogrammi dell'oro che avevano rapinato, probabilmente adesso dalle schede vogliono vedere chi sono i maggiori contribuenti per poter richiedere un secondo ricatto". Non immaginavo che quello servisse viceversa per la ricerca degli ebrei da deportare.
-L.P: quindi, che le schede siano uscite dalla comunità è sicuro?
-A.W: si si.
-L.P: è sicurissimo?
-A.W: Si, così almeno m- me lo stava dicendo mia moglie al telefono.
-L.P: e allora cosa successe al momento del terrore? Al momento della della razzia?
-A.W: della razzia... erano le 5 del mattino del 16 ottobre eee con noi, in famiglia, dormiva quella notte un mio nipote, figlio dill mio cognato, Vittorio Polacco, che aveva due anni, in quanto i genitori erano andati fuori Mila- (riformulazione) fuori Roma per procurarsi dei generi alimentari e avevano affidato il loro figliolo a noi, per quella notte. Eee quando la mattina le SS entrarono da noi consegnadocii il foglio con il quale ci imponevano dii lasciare la casa perché dal (pausa) venivamo(?) trasferiti in Germania - non dicevano Polonia - io dichiarai che naturalmente quel bambino non era mio eee quindi non c'entrava con la mia famiglia. A questo mi risposero, in tedesco, lingua che io conoscevo, che non c'entrava nulla, tutti dovevano venire con noi. Questo bambino poi, per un caso particolare, riuscì a salvarlo perché il camion nel quale ci trasportavano sii recava da palazzo a palazzo per ritirare gli ebrei nascosti o anche quelli ufficialmente riconosciuti. Quando il camion si avvicinò al portone dove abitava mio cognato vidi per caso, attraverso il tendone dell del camion la portinaia che stava al portone, io le feci vedere il bambino e le emh stavo per consegnarglielo dall'alto del camion, però in quel momento aveva girato la testa anche il sottufficiale della SS attraverso il finestrino. Poi per mia fortuna, lui volle ass- volle accendersi una sigaretta e quindi fu obbligato a voltare la testa: in quell'attimo presi il bambino e lo gettai nelle braccia della portinaia, la quale sparì nella sua appartamento nascondendo il bambino cosicché non lo trovarono. E attualmente vive a Roma, c'ha famiglia e bambini e.
-L.P: emh mi può emh... mi può ripetere l'indirizzo di dove abitavate a Roma?
-A.W: a Roma abitavo in Lungo Tevere Ripa numero 6.
-L.P: era la zona abitata da ebrei?
-A.W: si perché era di rimpetto (?) al ghetto, divisa solo dal fiume.
-L.P: emh senta, nessuno vi telefonò e vi avvertì?
-A.W: no, anzi, il contrario, quando quelli delle SS entrarono la prima cosa che fecero tagliarono i fili del telefono.
 L.P: voi eravate tra i primi, tra gli ultimi?
 A.W: tra i primi.
 L.P: tra i primi. Perché aveva idea che cominciassero proprio da lì, da quella zona.
