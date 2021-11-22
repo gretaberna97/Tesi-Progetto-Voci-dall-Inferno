@@ -256,6 +256,27 @@
 
             <when xml:id="TT57" absolute="18:01" synch="#lpf-57"/> 
             <when xml:id="TT58" since="#TT57" interval="1"/>
+
+            <when xml:id="TT59" absolute="18:11" synch="#lpf-59"/> 
+            <when xml:id="TT60" since="#TT59" interval="1"/>
+
+            <when xml:id="TT61" absolute="18:19" synch="#arm-61"/> 
+            <when xml:id="TT62" since="#TT61" interval="1"/>
+
+            <when xml:id="TT63" absolute="18:22" synch="#arm-63"/> 
+            <when xml:id="TT64" since="#TT63" interval="1"/>
+
+            <when xml:id="TT65" absolute="18:32" synch="#lpf-65"/> 
+            <when xml:id="TT66" since="#TT65" interval="2"/>
+
+            <when xml:id="TT67" absolute="19:52" synch="#arm-67"/> 
+            <when xml:id="TT68" since="#TT67" interval="1"/>
+
+            <when xml:id="TT69" absolute="19:54" synch="#arm-69"/> 
+            <when xml:id="TT70" since="#TT69" interval="1"/>
+
+            <when xml:id="TT71" absolute="20:12" synch="#lpf-71"/> 
+            <when xml:id="TT72" since="#TT71" interval="1"/>
         </timeline>
 
 
@@ -369,6 +390,19 @@
             <when xml:id="TS105" synch="#AW52" absolute="18:05"/>
             <when xml:id="TS106" synch="#LPF52" absolute="18:06"/>
             <when xml:id="TS107" synch="#AW53" absolute="18:08"/>
+            <when xml:id="TS108" synch="#LPF53" absolute="18:09"/>
+            <when xml:id="TS109" synch="#AW54" absolute="18:13"/>
+            <when xml:id="TS110" synch="#LPF54" absolute="18:19"/>
+            <when xml:id="TS111" synch="#AW55" absolute="18:21"/>
+            <when xml:id="TS112" synch="#LPF55" absolute="18:22"/>
+            <when xml:id="TS113" synch="#AW56" absolute="18:32"/>
+            <when xml:id="TS114" synch="#LPF56" absolute="19:22"/>
+            <when xml:id="TS115" synch="#AW57" absolute="19:27"/>
+            <when xml:id="TS116" synch="#LPF57" absolute="19:29"/>
+            <when xml:id="TS117" synch="#AW58" absolute="19:30"/>
+            <when xml:id="TS118" synch="#LPF58" absolute="19:49"/>
+            <when xml:id="TS119" synch="#AW59" absolute="19:50"/>
+            <when xml:id="TS120" synch="#LPF59" absolute="20:11"/>
         </timeline>
         
     </standOff>
@@ -893,9 +927,78 @@
                     il portone era aperto
                 </u>
 
-                <u who="#LPF" xml:id="LPF53" synch="#TS108"/><!-- 18:11 -->
-                    quindi entrarono direttamente... sapevano anche il piano?
+                <u who="#LPF" xml:id="LPF53" synch="#TS108"/>
+                    quindi entrarono <ancor xml:id="lpf-59" synch="#TT59"/>direttamente sapevano<ancor xml:id="lpf-60" synch="#TT60"/> anche il piano
                 </u>
+
+                <u who="#AW"/>
+                    <ancor xml:id="arm-59" synch="#TT59"/>si<ancor xml:id="arm-60" synch="#TT60"/>
+                </u>
+
+                <pause/>
+
+                <u who="#AW" xml:id="AW54" synch="#TS109"/>
+                    <del type="truncation">N</del> non so io abitavo al primo piano ma non se avevano<pause/> né l'indirizzo anche la località esatta dell'<ancor xml:id="arm-61" synch="#TT61"/><unclear reason="inaudible" resp="#GB" cert="high">appartamento</unclear><ancor xml:id="arm-62" synch="#TT62"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF54" synch="#TS110"/>
+                    <ancor xml:id="lpf-61" synch="#TT61"/>e <persName ref="TEI-ListPerson.xml#Sorani">Sorani</persName><ancor xml:id="lpf-62" synch="#TT62"/>a che piano abitava
+                </u>
+
+                <u who="#AW" xml:id="AW55" synch="#TS111"/>
+                    lo stesso pianerottolo<pause/> <ancor xml:id="arm-63" synch="#TT63"/><unclear reason="inaudible" resp="#GB" cert="medium">del mio</unclear><ancor xml:id="arm-64" synch="#TT64"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF55" synch="#TS112"/>
+                    <ancor xml:id="lpf-63" synch="#TT63"/>lo stesso<ancor xml:id="lpf-64" synch="#TT64"/> pianerottolo<pause/> <vocal>Emh</vocal> lei non sa come avvenne <del type="repetition">nelle altre</del><pause/> nelle altre case cioè se <vocal>ehm</vocal> suonarono alla portinaia oppure<ancor xml:id="lpf-65" synch="#TT65"/><pause/> entrarono direttamente<ancor xml:id="lpf-66" synch="#TT66"/>
+                </u>
+
+                <u who="#AW" xml:id="AW56" synch="#TS113"/>
+                    <ancor xml:id="arm-65" synch="#TT65"/><del type="repetition">Non lo so</del> non lo so<pause/> so solamente che<ancor xml:id="arm-66" synch="#TT66"/> quando mii trasportarono<pause/> alla <placeName ref="TEI-ListPlace.xml#scuolamilitare"> scuola militare</placeName> che è sul <placeName type="street">Lungo Tevere</placeName><pause/> c'era già una certa<pause/> massa di gente<pause/> <vocal>eeehm</vocal><pause/> quindi urlava perché <del type="falseStart">i</i> <del type="reformulation">quelli</del> della <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> davano degli ordini <pause/>e questi non capivano<pause/> quelli delle <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> allora si<pause/> mettevano <del type="repetition">aa</del> a colpirli con il calcio del fucile in testa<pause/> ed è in quell'epoca che io mi presentai aaa <pause/><persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName> che era il <roleName type="military">comandante</roleName><pause/> e mi <pause/>offersi da fare l'interprete<pause/> e <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName> accolse molto <unclear reason="inaudible" resp="#GB" cert="medium">favorevolmente</unclear> la mia proposta<pause/> perché nessun altro capiva il tedesco<pause/> e così si tranquillizzò la situazione
+                </u>
+
+                <u who="#LPF" xml:id="LPF56" synch="#TS114"/>
+                    <vocal>emh</vocal><pause/> che lei sappia qualcuno è riuscito a sfuggire a questa <mentioned>retata</mentioned>
+                </u>
+
+                <pause/>
+
+                <u who="#AW" xml:id="AW57" synch="#TS115"/>
+                    si diversi
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF57" synch="#TS116"/>
+                    sa chi
+                </u>
+
+                <u who="#AW" xml:id="AW58" synch="#TS117"/>
+                    c'è anche <vocal>emh</vocal><pause/> per esempio <vocal>emh</vocal> in via <del type="truncation">d</del> <placeName type="street">della Luce al <num>3</num></placeName><pause/> dove una volta abitavo io<pause/> c'era una famiglia<pause/> e quando<pause/> vennero il portone era chiuso hanno cominciato a battere<pause/> le porte
+                </u>
+
+                <u who="#LPF" xml:id="LPF58" synch="#TS118"/>
+                    ad abbattere
+                </u>
+
+                <u who="#AW" xml:id="AW59" synch="#TS119"/>
+                    <del type="repetition">a</del> a battere sulle <ancor xml:id="arm-67" synch="#TT67"/>porte<ancor xml:id="arm-68" synch="#TT68"/> perché aprissero la porta <del type="reformulation">il portone</del><ancor xml:id="arm-69" synch="#TT69"/><pause/><ancor xml:id="arm-70" synch="#TT70"/> <vocal>eeehm</vocal><pause/> una parte della famiglia <unclear reasong="inaudible" resp="#GB" cert="medium">capitava</unclear> al <del type="truncation">num</del> al <placeNametype="street">numero <num>3</num> di via della Luce</placeName><pause/> il <persName>padre</persName><pause/> scappò sul tetto<pause/> e quindi hanno arrestato tutti gli appartenenti della famiglia e lui invece si salvò
+                </u>
+
+                <u who="#LPF"/>
+                    <ancor xml:id="lpf-67" synch="#TT67"/>si<ancor xml:id="lpf-68" synch="#TT68"/> 
+                    <ancor xml:id="lpf-69" synch="#TT69"/>si<ancor xml:id="lpf-70" synch="#TT70"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF59" synch="#TS120"/><!-- 20:11 -->
+                    quindi hanno battuto al portone <ancor xml:id="lpf-71" synch="#TT71"/><pause/>in basso quindi<ancor xml:id="lpf-72" synch="#TT72"/> al limite qualcuno poteva come come eh è riuscito effettivamente...
+                </u>
+
+                <u who="#AW"/>
+                    <ancor xml:id="arm-71" synch="#TT71"/>al portone<pause/> in basso<ancor xml:id="arm-72" synch="#TT72"/>
+                    si, qualcuno è riuscito, si. (non si capisce)
+                </u>
+
             </div>
            
         </body>
@@ -906,23 +1009,6 @@
 </TEI>
 
 <!--
-A.W: si. Non so, io abitavo al primo piano, ma non se avevano né l'indirizzo, anche la località esatta dell'appartamento.
-L.P: e Sorani a che piano abitava?
-A.W: lo stesso pianerottolo del mio.
-L.P: lo stesso pianerottolo. Emh lei non sa come avvenne emh (non si capisce) nelle altre case? Cioè se suonarono alla portinaia oppure se entravano direttamente...?
-A.W: Non lo so, non lo so. So solamente che quando mii trasportarono alla scuola militare che è sul lungo Tevere c'era già una certa massa di gente eee quindi urlava perché quelli della SS davano degli ordini e questi non capivano, quelli (non si capisce) SS allora si mettevano aa colpirli con il calcio del fucile in testa ed è in quell'epoca che io mi presentai aaa a Dannecker che era il comandante e mi offersi da fare l'interprete e lui accolse molto favorevolmente la mia proposta perché nessun altro capiva il tedesco, così si tranquillizzò la situazione.
-L.P: emh che lei sappia qualcuno è riuscito a sfuggire a questa retata?
-A.W: si, diversi.
-L.P: sa chi?
-A.W: c'è anche emh per esempio emh in via d- della Luce al 3, dove una volta abitavo io, c'era una famiglia e quando vennero il portone era chiuso hanno cominciato a battere le porte.
-L.P: ad abbattere?
-A.W: a battere sulle porte perché aprissero la porta, il portone.
-L.P: si si.
-A.W: eee, una parte della famiglia capitava(?) al n- al numero 3 di via della Luce, il padre scappò sul tetto e quindi hanno arrestato tutti gli appartenenti della famiglia e lui invece si salvò.
-L.P: quindi hanno battuto al portone in basso...
-A.W: al portone...in basso.
-L.P: quindi al limite qualcuno poteva... come è riuscito effettivamente...
-A.W: si, qualcuno è riuscito, si. (non si capisce)
 L.P: quanti erano quando vennero in casa vostra?
 A.W: 2.
 L.P: erano in genere 2 per appartamento?
