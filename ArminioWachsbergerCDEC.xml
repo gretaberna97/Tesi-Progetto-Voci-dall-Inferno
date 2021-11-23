@@ -295,6 +295,24 @@
 
             <when xml:id="TT83" absolute="20:58" synch="#arm-83"/> 
             <when xml:id="TT84" since="#TT83" interval="1"/>
+
+            <when xml:id="TT85" absolute="23:31" synch="#arm-85"/> 
+            <when xml:id="TT86" since="#TT85" interval="1"/>
+
+            <when xml:id="TT87" absolute="23:58" synch="#lpf-87"/> 
+            <when xml:id="TT88" since="#TT87" interval="1"/>
+
+            <when xml:id="TT89" absolute="23:58" synch="#lpf-89"/> 
+            <when xml:id="TT90" since="#TT89" interval="1"/>
+
+            <when xml:id="TT91" absolute="24:59" synch="#lpf-91"/> 
+            <when xml:id="TT92" since="#TT91" interval="1"/>
+
+            <when xml:id="TT93" absolute="25:18" synch="#arm-93"/> 
+            <when xml:id="TT94" since="#TT93" interval="1"/>
+    
+            <when xml:id="TT95" absolute="25:19" synch="#lpf-95"/> 
+            <when xml:id="TT96" since="#TT95" interval="1"/>
         </timeline>
 
 
@@ -439,8 +457,20 @@
             <when xml:id="TS136" synch="#AW67" absolute="20:49"/>
             <when xml:id="TS137" synch="#LPF68" absolute="21:00"/>
             <when xml:id="TS138" synch="#AW68" absolute="21:05"/>
-            <when xml:id="TS139" synch="#LPF70" absolute="21:45"/>
+            <when xml:id="TS139" synch="#LPF69" absolute="21:45"/>
             <when xml:id="TS140" synch="#AW69" absolute="21:46"/>
+            <when xml:id="TS141" synch="#LPF70" absolute="23:41"/>
+            <when xml:id="TS142" synch="#AW70" absolute="23:47"/>
+            <when xml:id="TS143" synch="#LPF71" absolute="23:53"/>
+            <when xml:id="TS144" synch="#AW71" absolute="23:59"/>
+            <when xml:id="TS145" synch="#LPF72" absolute="24:57"/>
+            <when xml:id="TS146" synch="#AW72" absolute="25:03"/>
+            <when xml:id="TS147" synch="#LPF73" absolute="25:05"/>
+            <when xml:id="TS148" synch="#AW73" absolute="25:06"/>
+            <when xml:id="TS149" synch="#LPF74" absolute="25:12"/>
+            <when xml:id="TS150" synch="#AW74" absolute="25:14"/>
+            <when xml:id="TS151" synch="#LPF75" absolute="25:18"/>
+            <when xml:id="TS152" synch="#AW74" absolute="25:19"/>
         </timeline>
         
     </standOff>
@@ -1119,8 +1149,74 @@
                     hanno perquisito
                 </u>
 
-                <u who="#AW" xml:id="AW69" synch="#TS140"/><!-- 21:48 -->
-                    hanno perquisito <vocal>eh</vocal> alla ricerca di altre persone <pause/>ma poi quando loro<pause/> ci dissero che<pause/> avevam(?) potuto portare con noi tutto quanto nel campo di lavoro la tirai fuori<pause/> e la presi con me<pause/> che poi naturalmente mi è stata sottratta<pause/> già alla scuola militare perché<pause/> come è noto alla scuola militare il giorno dopo<pause/> ci fecero<pause/> traversare il corridoio<pause/> alla fine del quale c'era l'ufficiale Dannecker<pause/> e un tavolo con dei tiretti lui mi fece dire in italiano ciò che naturalmente mi stava dicendo prima in tedesco<pause/> che<pause/> nel campo dove saremmo stati<pause/> deportati cioè? non usò il termine deportati ma trasferiti<pause/> avremmo dovuto vivere a nostre spese cioè con tutto quello che abbiamo con noi<pause/> ma siccome ci sono alcuni che hanno dei mezzi e altri no<pause/> bisognava consegnare tutto a loro<pause/> alla SS e cioè<pause/> oro gioielli e danaro e ripassare quindi davanti<pause/> aa lui per consegnarli<pause/> quanto prima detto<pause/> Eee<pause/> io<pause/> rimasi l'ultimo<pause/> e avevo un orologio un longin(?)<pause/> d'oro<pause/> e gli anelli <pause/>e una parte di gioielli io una parte dei gioielli li consegnai più il denaro mentre l'orologio lo tenni con me come pure gli anelli<pause/> miei e di mia moglie<pause/> il Dannecker mi disse "tienteli pure tanto ti verrano<pause/> levati al campo dove arriverai"<pause/> So di molte donne<pause/> che il danaro anziché consegnarlo hanno preferito buttarlo nella latrina
+                <u who="#AW" xml:id="AW69" synch="#TS140"/><!-- who -->
+                    hanno perquisito <vocal>eh</vocal> alla ricerca di altre persone <pause/>ma poi quando loro<pause/> ci dissero che<pause/> <unclear reason="inaudible" resp="#GB" cert="medium">avevam</unclear> potuto portare con noi tutto quanto nel campo di lavoro la tirai fuori<pause/> e la presi con me<pause/> che poi naturalmente mi è stata sottratta<pause/> già alla <placeName ref="TEI-ListPlace.xml#scuolamilitare">scuola militare</placeName> perché<pause/> come è noto alla <placeName ref="TEI-ListPlace.xml#scuolamilitare"> scuola militare</placeName> <date when="1943-10-17">il giorno dopo</date><pause/> ci fecero<pause/> <choice><sic>traversare</sic><corr resp="#GB">attraversare</corr></choice> il corridoio<pause/> alla fine del quale c'era <persName ref="TEI-ListPerson.xml#Dannecker"><roleName type="military">l'ufficiale</roleName>Dannecker</persName><pause/> e un tavolo<pause/> con dei <distinct type="archaic">tiretti</distinct> <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName> mi fece dire in italiano ciò che naturalmente mi stava dicendo prima in tedesco<pause/> che<pause/> nel campo dove saremmo stati<pause/> deportati <unclear reason="inaudible" resp="#GB" cert="low">cioè</unclear> non usò il termine deportati ma trasferiti<pause/> avremmo dovuto vivere<pause/> a nostre spese e cioè con tutto quello che abbiamo con noi<pause/> ma siccome ci sono alcuni che hanno dei mezzi e altri no<pause/> bisognava consegnare tutto a loro<pause/> alla <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> e cioè<pause/> oro gioielli e <distinct type="archaic">danaro</distinct><pause/> e ripassare quindi davanti<pause/> aa <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName> per consegnarli<pause/> quanto prima detto<pause/> eee<pause/> io rimasi l'ultimo<pause/> e avevo un orologio un longines<pause/> d'oro<pause/> e gli anelli <pause/>e una parte di gioielli io una parte dei gioielli li consegnai più il <distinct type="archaic">danaro</distinct><pause/> mentre l'orologio lo tenni con me come pure gli anelli<pause/> miei e di <persName ref="TEI-ListPerson.xml#ReginaPolacco" resp="#GB">mia moglie</persName><pause/> <choice><orig>il <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName></orig><reg resp="#GB"><persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName></reg></choice> mi disse <q type="spoken" who="TEI-ListPerson.xml#Dannecker">tienteli pure tanto ti verrano<pause/> <choice><orig>levati</orig><reg resp="#GB">tolti</reg></choice><incident><desc>viene spostata una sedia</desc></incident> al campo dove arriverai</q><pause/> <ancor xml:id="arm-85" synch="#TT85"/><emph>so</emph><ancor xml:id="arm-86" synch="#TT86"/> di molte donne<pause/> che il <distinct type="archaic">danaro</distinct> <pause/>anziché consegnarlo hanno preferito buttarlo nella latrina
+                </u>
+
+                <u who="#LPF"/>
+                    <ancor xml:id="lpf-85" synch="#TT85"/><gap reason="inaudible" extent="1 word"/><ancor xml:id="lpf-86" synch="#TT86"/>
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF70" synch="#TS141"/>
+                    aveva la sensazione che ci fosse anche <del type="falseStart">un</del> <del type="reformulation">qualche</del> finalità di rapina nel vostro arresto o no
+                </u>
+
+                <u who="#AW" xml:id="AW70" synch="#TS142"/>
+                    <del type="repetition">no</del> no non era<pause/> immaginabile <choice><orig>si credeva</orig><reg resp="#GB">credevamo a</reg></choice> tutto quello che ci dicevano
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF71" synch="#TS143"/>
+                    no nel senso che <del type="falseStart">qualcuno ha <del type="truncation">ten</del></del> <vocal>ehm</vocal> <del type="reformulation">qualche tedesco ha tentato</del> di rubare nei vostri <ancor xml:id="lpf-87" synch="#TT87"/>appartamenti<pause/> questo volevo sapere<ancor xml:id="lpf-88" synch="#TT88"/>
+                </u>
+
+                <u who="#AW"/>
+                    <ancor xml:id="arm-87" synch="#TT87"/><del type="repetition">questo si</del><pause/> questo si<ancor xml:id="arm-88" synch="#TT88"/>
+                </u>
+
+                <u who="#AW" xml:id="AW71" synch="#TS144"/>
+                    Nel senso che come<pause/> già riferito<pause/> <distinct type="archaic">allorché</distinct> <vocal>emh</vocal> la gente cominciò a mormorare di aver fame di non avere<pause/> mezzi di sostentamento<pause/> <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName> mi fece dire<pause/> ai prigionieri<pause/> che <vocal>ehm</vocal><pause/> saremmo andati nelle abitazioni di quelli che si dichiaravano esenti da generi alimentari<pause/> per andarli a prelevare<pause/> eee<pause/> mi fecero salire su un camion insieme con<pause/> 4 <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice><pause/> e con le chiavi che ccci <del type="falseStart">avevano</del> <del type="correction">erano</del> state consegnate<pause/> entrammo in questi vari<pause/> appartamenti<pause/> e <choice><sic>lì è</sic><corr reps="#GB">è lì</corr></choice>che vidi che non cercavano solo generi alimentari ma anche<pause/> qualche cosa di valore e <unclear reason="inaudible" resp="#GB" cert="medium">le cose</unclear> di valore le mettevano in una cassetta a parte<pause/> oppure in tasca<pause/> quindi era una rapina<pause/> già avvenuta in quel momento<pause/> senza aspettare<pause/> <vocal>eh</vocal> ciò che sarebbe successo in seguito
+                </u>
+
+                <u who="#LPF" xml:id="LPF72" synch="#TS145"/>
+                    era una iniziativa<pause/> <ancor xml:id="lpf-89" synch="#TT89"/>privata di questi che li <ancor xml:id="lpf-90" synch="#TT90"/><del type="truncation">accompagna</del> <del type="correction">che l'accompagnavano</del> o secondo lei erano ordini <ancor xml:id="lpf-91" synch="#TT91"/>di <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName><ancor xml:id="lpf-92" synch="#TT92"/>
+                </u>
+
+                <u who="#AW"/>
+                    <ancor xml:id="arm-89" synch="#TT89"/>privata di questi delle <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice><ancor xml:id="arm-90" synch="#TT90"/>
+                </u>
+
+                <u who="#AW" xml:id="AW72" synch="#TS146"/>
+                    <ancor xml:id="arm-91" synch="#TT91"/>io penso che <ancor xml:id="arm-92" synch="#TT92"/><del type="repetition">era era</del> era<pause/> privata
+                </u>
+
+                <u who="#LPF" xml:id="LPF73" synch="#TS147"/>
+                    era privata
+                </u>
+
+                <u who="#AW" xml:id="AW73" synch="#TS148"/>
+                    ma si vede che erano già <del type="repetition">dei</del><pause/> deiii<pause/> rapinatori di natura
+                </u>
+
+                <pause/>
+                
+                <u who="#LPF" xml:id="LPF74" synch="#TS149"/>
+                    e la gente intorno come reagì
+                </u>
+
+                <u who="#AW" xml:id="AW74" synch="#TS150"/>
+                    la gente non eravamo in contatto<pause/> solamente che<ancor xml:id="arm-93" synch="#TT93"/><pause/> ci fecero<ancor xml:id="arm-94" synch="#TT94"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF75" synch="#TS151"/>
+                   <ancor xml:id="lpf-93" synch="#TT93"/>no nel momento dell<ancor xml:id="lpf-94" synch="#TT94"/>'arresto <ancor xml:id="lpf-95" synch="#TT95"/>diciamo<ancor xml:id="lpf-96" synch="#TT96"/>
+                </u>
+
+                <u who="#AW" xml:id="AW75" synch="#TS152"/><!-- 25:20 -->
+                    <ancor xml:id="arm-95" synch="#TT95"/>nel momento<ancor xml:id="arm-96" synch="#TT96"/> dell'arresto era troppo presto la mattina perché la gente potesse vederci So solamente che andammo anche in una panetteria in Corso Vittorio a prelevare 200 kg di pane e lì che emh ebbi la possibilità di fuggire in quanto la panetteria aveva due porte, una sulla strada parallela, e mentre s- stavano caricando il pane io mi affacciai alla porta della panetteria e avrei potuto facilmente scappare, ma poi il pensiero di quanto Dannecker mi disse quando mi lasciò andare con quelli della SS a prelevare il pane "guarda che la tua famiglia è qui" ritornai indietro. Lo stesso avvenne in una farmacia in via Renula(?): anche (i) farmaci siamo andati a prendere in farmacia e anche lì per caso la farmacia aveva due entrate. Anche lì mi trovo già sulla porta ma poi lo stesso pensiero mi fece ritornare
                 </u>
             </div>
            
@@ -1132,20 +1228,6 @@
 </TEI>
 
 <!--
-L.P: aveva la sensazione che ci fosse anche un qualche finalità di rapina nel vostro arresto o no?
-A.W: no no non era immaginabile. Si credeva tutto quello che ci dicevano.
-L.P: no nel senso che qualcuno ha tent-, qualche tedesco ha tentato di rubare nei vostri appartamenti...?
-A.W: questo si questo si. 
-L.P: questo volevo sapere.
-A.W: Nel senso, che come già riferito, allorché emh la gente cominciò a mormorare di aver fame, di non aver mezzi di sostentamento, Dannecker mi fece dire ai prigionieri che saremmo andati nelle abitazioni di quelli che si dichiaravano esenti da generi alimentari per andare a prelevare eee mi fecero salire su un camion insieme con 4 SS e con le chiavi che ccci erano stata consegnate entrammo in questi vari appartamenti e lì è che vidi che non cercavano solo generi alimentari ma anche qualche cosa di valore e (non si capisce) di valore li mettevano in una cassetta a parte oppure in tasca. Quindi era una rapina già avvenuta in quel momento senza aspettare ciò che sarebbe successo in seguito.
-L.P: era una iniziativa privata di questi che l'accompagnavano o secondo lei erano ordini di Dannecker?
-A.W: era una iniziativa privata di questi delle SS (non sicura). Io penso che era era era privata.
-L.P: era privata.
-A.W: ma si vede che erano già dei deiii rapinatori di natura.
-L.P: e la gente intorno come reagì?
-A.W: la gente non eravamo in contatto, solamente che...
-L.P: no, nel momento dell'arresto.
-A.W: nel momento dell'arresto era troppo presto perché la gente potesse vedere. So solamente che andammo anche in una panetteria in Corso Vittorio a prelevare 200 kg di pane e lì che emh ebbi la possibilità di fuggire in quanto la panetteria aveva due porte, una sulla strada parallela, e mentre s- stavano caricando il pane io mi affacciai alla porta della panetteria e avrei potuto facilmente scappare, ma poi il pensiero di quanto Dannecker mi disse quando mi lasciò andare con quelli della SS a prelevare il pane "guarda che la tua famiglia è qui" ritornai indietro. Lo stesso avvenne in una farmacia in via Renula(?): anche (i) farmaci siamo andati a prendere in farmacia e anche lì per caso la farmacia aveva due entrate. Anche lì mi trovo già sulla porta ma poi lo stesso pensiero mi fece ritornare.
 L.P: e con che denaro fece questa spesa?
 A.W: denaro l'ho raccolto daii (pausa) dai depor- daii... prossimi deportati.
 L.P: ma emh irrompendo in casa fecero un certo rumore? I vicini se ne accorsero...no?
