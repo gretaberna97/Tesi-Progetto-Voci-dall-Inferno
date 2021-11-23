@@ -277,6 +277,24 @@
 
             <when xml:id="TT71" absolute="20:12" synch="#lpf-71"/> 
             <when xml:id="TT72" since="#TT71" interval="1"/>
+
+            <when xml:id="TT73" absolute="20:15" synch="#lpf-73"/> 
+            <when xml:id="TT74" since="#TT73" interval="2"/>
+
+            <when xml:id="TT75" absolute="20:28" synch="#lpf-75"/> 
+            <when xml:id="TT76" since="#TT75" interval="1"/>
+
+            <when xml:id="TT77" absolute="20:32" synch="#lpf-77"/> 
+            <when xml:id="TT78" since="#TT77" interval="1"/>
+
+            <when xml:id="TT79" absolute="20:45" synch="#lpf-79"/> 
+            <when xml:id="TT80" since="#TT79" interval="1"/>
+
+            <when xml:id="TT81" absolute="20:47" synch="#lpf-81"/> 
+            <when xml:id="TT82" since="#TT81" interval="1"/>
+
+            <when xml:id="TT83" absolute="20:58" synch="#arm-83"/> 
+            <when xml:id="TT84" since="#TT83" interval="1"/>
         </timeline>
 
 
@@ -403,6 +421,26 @@
             <when xml:id="TS118" synch="#LPF58" absolute="19:49"/>
             <when xml:id="TS119" synch="#AW59" absolute="19:50"/>
             <when xml:id="TS120" synch="#LPF59" absolute="20:11"/>
+            <when xml:id="TS121" synch="#LPF60" absolute="20:18"/>
+            <when xml:id="TS122" synch="#AW60" absolute="20:21"/>
+            <when xml:id="TS123" synch="#LPF61" absolute="20:23"/>
+            <when xml:id="TS124" synch="#AW61" absolute="20:25"/>
+            <when xml:id="TS125" synch="#LPF62" absolute="20:27"/>
+            <when xml:id="TS126" synch="#AW62" absolute="20:28"/>
+            <when xml:id="TS127" synch="#LPF63" absolute="20:29"/>
+            <when xml:id="TS128" synch="#AW63" absolute="20:32"/>
+            <when xml:id="TS129" synch="#LPF64" absolute="20:37"/>
+            <when xml:id="TS130" synch="#AW64" absolute="20:39"/>
+            <when xml:id="TS131" synch="#LPF65" absolute="20:44"/>
+            <when xml:id="TS132" synch="#AW65" absolute="20:45"/>
+            <when xml:id="TS133" synch="#LPF66" absolute="20:46"/>
+            <when xml:id="TS134" synch="#AW66" absolute="20:47"/>
+            <when xml:id="TS135" synch="#LPF67" absolute="20:48"/>
+            <when xml:id="TS136" synch="#AW67" absolute="20:49"/>
+            <when xml:id="TS137" synch="#LPF68" absolute="21:00"/>
+            <when xml:id="TS138" synch="#AW68" absolute="21:05"/>
+            <when xml:id="TS139" synch="#LPF70" absolute="21:45"/>
+            <when xml:id="TS140" synch="#AW69" absolute="21:46"/>
         </timeline>
         
     </standOff>
@@ -990,15 +1028,100 @@
                     <ancor xml:id="lpf-69" synch="#TT69"/>si<ancor xml:id="lpf-70" synch="#TT70"/>
                 </u>
 
-                <u who="#LPF" xml:id="LPF59" synch="#TS120"/><!-- 20:11 -->
-                    quindi hanno battuto al portone <ancor xml:id="lpf-71" synch="#TT71"/><pause/>in basso quindi<ancor xml:id="lpf-72" synch="#TT72"/> al limite qualcuno poteva come come eh è riuscito effettivamente...
+                <u who="#LPF" xml:id="LPF59" synch="#TS120"/>
+                    quindi hanno battuto al portone <ancor xml:id="lpf-71" synch="#TT71"/>in basso<pause/> quindi<ancor xml:id="lpf-72" synch="#TT72"/> al limite qualcuno <ancor xml:id="lpf-73" synch="#TT73"/>poteva come <vocal>eh</vocal> come<ancor xml:id="lpf-74" synch="#TT74"/> è riuscito effettivamente
                 </u>
 
                 <u who="#AW"/>
                     <ancor xml:id="arm-71" synch="#TT71"/>al portone<pause/> in basso<ancor xml:id="arm-72" synch="#TT72"/>
-                    si, qualcuno è riuscito, si. (non si capisce)
+                    <ancor xml:id="arm-73" synch="#TT73"/>qualcuno è riuscito si<pause/> <del type="repetition">si</del> si<ancor xml:id="arm-74" synch="#TT74"/>
                 </u>
 
+                <u who="#LPF" xml:id="LPF60" synch="#TS121"/>
+                    quanti erano<pause/> quando vennero in casa vostra
+                </u>
+
+                <u who="#AW" xml:id="AW60" synch="#TS122"/>
+                    2
+                </u>
+
+                <u who="#LPF" xml:id="LPF61" synch="#TS123"/>
+                    erano in genere 2 per appartamento
+                </u>
+
+                <u who="#AW" xml:id="AW61" synch="#TS124"/>
+                    secondo i casi
+                </u>
+
+                <u who="#LPF" xml:id="LPF62" synch="#TS125"/>
+                    come eran vestiti da <ancor xml:id="lpf-75" synch="#TT75"/><choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice><ancor xml:id="lpf-76" synch="#TT76"/>
+                </u>
+
+                <u who="#AW" xml:id="AW62" synch="#TS126"/>
+                    <ancor xml:id="arm-75" synch="#TT75"/>erano<ancor xml:id="arm-76" synch="#TT76"/> vestiti da <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice>
+                </u>
+
+                <u who="#LPF" xml:id="LPF63" synch="#TS127"/>
+                    si ricorda un bracciale con la S di sopra o no<pause/> <ancor xml:id="lpf-77" synch="#TT77"/>si <del type="truncation">ri</del><ancor xml:id="lpf-78" synch="#TT78"/>
+                </u>
+
+                <u who="#AW" xml:id="AW63" synch="#TS128"/>
+                    <ancor xml:id="arm-77" synch="#TT77"/>no non mi ricordo<ancor xml:id="arm-78" synch="#TT78"/><pause/> i particolari non li ricordo ma so che erano delle <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice>
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF64" synch="#TS129"/>
+                    eee vi consegnarono un foglio
+                </u>
+
+                <u who="#AW" xml:id="AW64" synch="#TS130"/>
+                    ci consegnarono il foglio che naturalmente è stato consegnato a tutti quanti
+                </u>
+
+                <u who="#LPF" xml:id="LPF65" synch="#TS131"/>
+                    in italiano o in <ancor xml:id="lpf-79" synch="#TT79"/>tedesco<ancor xml:id="lpf-80" synch="#TT80"/>
+                </u>
+
+                <u who="#AW" xml:id="AW65" synch="#TS132"/>
+                    <ancor xml:id="arm-79" synch="#TT79"/>italiano<ancor xml:id="arm-80" synch="#TT80"/> e tedesco
+                </u>
+
+                <u who="#LPF" xml:id="LPF66" synch="#TS133"/>
+                    in tutte e due le <ancor xml:id="lpf-81" synch="#TT81"/>lingue<ancor xml:id="lpf-82" synch="#TT82"/>
+                </u>
+
+                <u who="#AW" xml:id="AW66" synch="#TS134"/>
+                    <ancor xml:id="arm-81" synch="#TT81"/>in tutte e<ancor xml:id="arm-82" synch="#TT82"/> due le lingue
+                </u>
+
+                <u who="#LPF" xml:id="LPF67" synch="#TS135"/>
+                    era battuto a macchina
+                </u>
+
+                <u who="#AW" xml:id="AW67" synch="#TS136"/>
+                    era <vocal>emh</vocal> <del type="truncation">st</del><pause/> <choice><orig>mi pare</orig><reg resp="#GB">mi sembra</reg></choice> fatto <del type="reformulation">stampato</del><pause/> per <foreign xml:lang="en" cert="low">copy</foreign><pause/> come si chiama <ancor xml:id="arm-83" synch="#TT83"/><del type="repetition">per</del><pause/> per ciclostile<ancor xml:id="arm-84" synch="#TT84"/>
+                </u>
+
+                <u who="#LPF"/>
+                    <ancor xml:id="lpf-83" synch="#TT83"/>ciclostile forse<ancor xml:id="lpf-84" synch="#TT84"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF68" synch="#TS137"/>
+                    per ciclostile <vocal><desc>espira</desc> emh</vocal> in questo foglio che istruzioni erano date
+                </u>
+
+                <u who="#AW" xml:id="AW68" synch="#TS138"/><!-- Germania -->
+                    in questo foglio era indicato che<pause/> tutta la famiglia<pause/> veniva<pause/> trasportata in <placeName>Germania</placeName> per del lavoro<pause/> e che ognuno<pause/> in 20 minuti doveva lasciare l'appartamento<pause/> era consigliabile portare con sé generi alimentari<pause/> due coperte<pause/> e oro e gioielli<pause/> io avevo con me per esempio unaa macchina fotografica molto costosa<pause/><vocal><desc>deglutisce</desc></vocal> eee che <choice><sic>l'avevo nascosta</sic><corr resp="#GB">avevo nascosto</corr></choice><pause/> mentre loro stavano rovistando nella casa
+                </u>
+
+                <u who="#LPF" xml:id="LPF69" synch="#TS139"/>
+                    hanno perquisito
+                </u>
+
+                <u who="#AW" xml:id="AW69" synch="#TS140"/><!-- 21:48 -->
+                    hanno perquisito <vocal>eh</vocal> alla ricerca di altre persone <pause/>ma poi quando loro<pause/> ci dissero che<pause/> avevam(?) potuto portare con noi tutto quanto nel campo di lavoro la tirai fuori<pause/> e la presi con me<pause/> che poi naturalmente mi è stata sottratta<pause/> già alla scuola militare perché<pause/> come è noto alla scuola militare il giorno dopo<pause/> ci fecero<pause/> traversare il corridoio<pause/> alla fine del quale c'era l'ufficiale Dannecker<pause/> e un tavolo con dei tiretti lui mi fece dire in italiano ciò che naturalmente mi stava dicendo prima in tedesco<pause/> che<pause/> nel campo dove saremmo stati<pause/> deportati cioè? non usò il termine deportati ma trasferiti<pause/> avremmo dovuto vivere a nostre spese cioè con tutto quello che abbiamo con noi<pause/> ma siccome ci sono alcuni che hanno dei mezzi e altri no<pause/> bisognava consegnare tutto a loro<pause/> alla SS e cioè<pause/> oro gioielli e danaro e ripassare quindi davanti<pause/> aa lui per consegnarli<pause/> quanto prima detto<pause/> Eee<pause/> io<pause/> rimasi l'ultimo<pause/> e avevo un orologio un longin(?)<pause/> d'oro<pause/> e gli anelli <pause/>e una parte di gioielli io una parte dei gioielli li consegnai più il denaro mentre l'orologio lo tenni con me come pure gli anelli<pause/> miei e di mia moglie<pause/> il Dannecker mi disse "tienteli pure tanto ti verrano<pause/> levati al campo dove arriverai"<pause/> So di molte donne<pause/> che il danaro anziché consegnarlo hanno preferito buttarlo nella latrina
+                </u>
             </div>
            
         </body>
@@ -1009,28 +1132,6 @@
 </TEI>
 
 <!--
-L.P: quanti erano quando vennero in casa vostra?
-A.W: 2.
-L.P: erano in genere 2 per appartamento?
-A.W: secondo i casi...
-L.P: come eran vestiti? da SS?
-A.W: erano vestiti da SS.
-L.P: si ricorda un bracciale con la S di sopra no? Si r-?
-A.W: no non mi ricordo, i particolari non me li ricordo ma so che erano delle SS.
-L.P: eee vi consegnarono un foglio?
-A.W: ci consegnarono il foglio che naturalmente è stato consegnato a tutti quanti.
-L.P: in italiano o in tedesco?
-A.W: italiano e tedesco.
-L.P: in tutte e due le lingue.
-A.W: in tutte e due le lingue.
-L.P: era battuto a macchina?
-A.W: era emh (pausa) mi pare fatto... stampato per cop(?), come si chiama?
-L.P: per ciclo stile forse?
-A.W: per ciclo stile.
-L.P: per ciclo stile. Emh in questo foglio che istruzioni erano date?
-A.W: in questo foglio era indicato che tutta la famiglia veniva trasportata in Germania per del lavoro e che ognuno in 20 minuti doveva lasciare l'appartamento, era consigliato portare con sé generi alimentari, due coperte e oro e gioielli. Io avevo con me per esempio unaa macchina fotografica molto costosa (pausa) eee che l'avevo nascosta mentre loro stavano rovistando nella casa.
-L.P: hanno perquisito?
-A.W: hanno perquisito alla ricerca di altre persone. Ma poi quando loro ci dissero che avevam(?) potuto portare con noi tutto quanto nel campo di lavoro la tirai fuori e la presi con me. E(che) poi naturalmente mi è stata sottratta già alla scuola militare perché (non si capisce) alla scuola militare il giorno dopo ci fecero traversare il corridoio alla fine del quale c'era l'ufficiale Dannecker e un tavolo con dei (non si capisce cosa), lui mi fece dire in italiano ciò che naturalmente mi stava dicendo prima in tedesco che nel campo dove saremmo stati deportati, (non si capisce) ma trasferiti, avremmo dovuto vivere a nostre spese, e cioè con tutto quello che abbiamo con noi, ma siccome ci sono alcuni che hanno dei mezzi e altri no bisognava consegnare tutto a loro, alla SS, e cioè oro, gioielli e danaro, e ripassare quindi davanti aa lui per consegnarli quanto prima detto. Eee io rimasi l'ultimo e avevo un orologio, un longin(?), d'oro, e gli anelli (pausa) e una parte di gioielli. Io, una parte dei gioielli li consegnai più il denaro, mentre l'orologio lo tenni con me come pure gli anelli miei e di mia moglie. Il Dannecker mi disse "tienteli pure tanto ti verrano levati al campo dove arriverai". So di molte donne che il danaro anziché consegnarlo hanno preferito buttarlo nella latrina.
 L.P: aveva la sensazione che ci fosse anche un qualche finalità di rapina nel vostro arresto o no?
 A.W: no no non era immaginabile. Si credeva tutto quello che ci dicevano.
 L.P: no nel senso che qualcuno ha tent-, qualche tedesco ha tentato di rubare nei vostri appartamenti...?
