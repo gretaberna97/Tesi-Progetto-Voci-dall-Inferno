@@ -313,6 +313,27 @@
     
             <when xml:id="TT95" absolute="25:19" synch="#lpf-95"/> 
             <when xml:id="TT96" since="#TT95" interval="1"/>
+
+            <when xml:id="TT97" absolute="26:47" synch="#arm-97"/> 
+            <when xml:id="TT98" since="#TT97" interval="1"/>
+
+            <when xml:id="TT99" absolute="27:30" synch="#lpf-99"/> 
+            <when xml:id="TT100" since="#TT99" interval="1"/>
+
+            <when xml:id="TT101" absolute="28:10" synch="#lpf-101"/> 
+            <when xml:id="TT102" since="#TT101" interval="1"/>
+
+            <when xml:id="TT103" absolute="28:57" synch="#arm-103"/> 
+            <when xml:id="TT104" since="#TT103" interval="1"/>
+
+            <when xml:id="TT105" absolute="29:31" synch="#lpf-105"/> 
+            <when xml:id="TT106" since="#TT105" interval="1"/>
+
+            <when xml:id="TT107" absolute="29:34" synch="#lpf-107"/> 
+            <when xml:id="TT108" since="#TT107" interval="1"/>
+
+            <when xml:id="TT109" absolute="29:53" synch="#lpf-109"/> 
+            <when xml:id="TT110" since="#TT110" interval="1"/>
         </timeline>
 
 
@@ -471,6 +492,31 @@
             <when xml:id="TS150" synch="#AW74" absolute="25:14"/>
             <when xml:id="TS151" synch="#LPF75" absolute="25:18"/>
             <when xml:id="TS152" synch="#AW74" absolute="25:19"/>
+            <when xml:id="TS153" synch="#LPF76" absolute="26:22"/>
+            <when xml:id="TS154" synch="#AW75" absolute="26:25"/>
+            <when xml:id="TS155" synch="#LPF77" absolute="26:32"/>
+            <when xml:id="TS156" synch="#AW76" absolute="26:38"/>
+            <when xml:id="TS157" synch="#LPF78" absolute="26:38"/>
+            <when xml:id="TS158" synch="#AW77" absolute="26:45"/>
+            <when xml:id="TS159" synch="#LPF79" absolute="26:48"/>
+            <when xml:id="TS160" synch="#AW78" absolute="26:51"/>
+            <when xml:id="TS161" synch="#LPF80" absolute="26:59"/>
+            <when xml:id="TS162" synch="#AW80" absolute="27:03"/>
+            <when xml:id="TS163" synch="#LPF81" absolute="27:12"/>
+            <when xml:id="TS164" synch="#AW81" absolute="27:14"/>
+            <when xml:id="TS165" synch="#LPF82" absolute="27:25"/>
+            <when xml:id="TS166" synch="#AW82" absolute="27:30"/>
+            <when xml:id="TS167" synch="#LPF83" absolute="28:06"/>
+            <when xml:id="TS168" synch="#AW83" absolute="28:10"/>
+            <when xml:id="TS169" synch="#LPF84" absolute="28:27"/>
+            <when xml:id="TS170" synch="#AW84" absolute="28:28"/>
+            <when xml:id="TS171" synch="#LPF85" absolute="28:30"/>
+            <when xml:id="TS172" synch="#AW85" absolute="28:32"/>
+            <when xml:id="TS173" synch="#LPF86" absolute="29:29"/>
+            <when xml:id="TS174" synch="#AW86" absolute="29:44"/>
+            <when xml:id="TS175" synch="#LPF87" absolute="29:46"/>
+            <when xml:id="TS176" synch="#AW87" absolute="29:46"/>
+            <when xml:id="TS177" synch="#LPF88" absolute="29:50"/>
         </timeline>
         
     </standOff>
@@ -1215,9 +1261,138 @@
                    <ancor xml:id="lpf-93" synch="#TT93"/>no nel momento dell<ancor xml:id="lpf-94" synch="#TT94"/>'arresto <ancor xml:id="lpf-95" synch="#TT95"/>diciamo<ancor xml:id="lpf-96" synch="#TT96"/>
                 </u>
 
-                <u who="#AW" xml:id="AW75" synch="#TS152"/><!-- 25:20 -->
-                    <ancor xml:id="arm-95" synch="#TT95"/>nel momento<ancor xml:id="arm-96" synch="#TT96"/> dell'arresto era troppo presto la mattina perché la gente potesse vederci So solamente che andammo anche in una panetteria in Corso Vittorio a prelevare 200 kg di pane e lì che emh ebbi la possibilità di fuggire in quanto la panetteria aveva due porte, una sulla strada parallela, e mentre s- stavano caricando il pane io mi affacciai alla porta della panetteria e avrei potuto facilmente scappare, ma poi il pensiero di quanto Dannecker mi disse quando mi lasciò andare con quelli della SS a prelevare il pane "guarda che la tua famiglia è qui" ritornai indietro. Lo stesso avvenne in una farmacia in via Renula(?): anche (i) farmaci siamo andati a prendere in farmacia e anche lì per caso la farmacia aveva due entrate. Anche lì mi trovo già sulla porta ma poi lo stesso pensiero mi fece ritornare
+                <u who="#AW" xml:id="AW75" synch="#TS152"/><!-- la mattina; who -->
+                    <ancor xml:id="arm-95" synch="#TT95"/>nel momento<ancor xml:id="arm-96" synch="#TT96"/> dell'arresto era troppo presto la mattina perché la gente potesse vederci<pause/> so solamente che <vocal>ehm</vocal><pause/> andammo anche in una panetteria in <placeName type="street">Corso Vittorio</placeName><pause/> a prelevare <measure><num>200</num><unit> kg</unit></measure> di pane<pause/> è lì che <vocal>emh</vocal><pause/> ebbi la possibilità di fuggire in quanto la panetteria<pause/> aveva due porte<pause/> una sulla strada<pause/> parallela<pause/> e mentre <del type="falseStart"><unclear reason="inaudible" resp="#GB">cia</unclear></del> <del type="reformulation">stavano</del> caricando il pane io mi affacciai alla porta della panetteria<pause/> e avrei potuto<pause/> facilmente scappare<pause/> ma poi il pensiero di quanto <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName> mi disse quando mi lasciò andare con quelli della <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice><pause/> a prelevare il pane <q type="spoken" who="TEI-ListPerson.xml#Dannecker">guarda che la tua famiglia è qui</q><pause/> ritornai indietro lo stesso avvenne in una farmacia in <placeName type="street">via Arenula</placeName><pause/> anche <unclear reason="inaudible" resp="#GB" cert="medium">i</unclear> farmaci siamo andati a prendere in farmacia e anche lì per caso la farmacia aveva due<pause/> entrate<pause/> anche lì mi trovavo già sulla porta<pause/> ma poi lo stesso pensiero<pause/> mi fece ritornare
                 </u>
+
+                <u who="#LPF" xml:id="LPF76" synch="#TS153"/>
+                    e con che denaro fece questa<pause/> spesa
+                </u>
+
+                <u who="#AW" xml:id="AW76" synch="#TS154"/>
+                    denaro l'ho raccolto <del type="repetition">dai</del> <pause/>dai <del type="falseStart"><del type="truncation">depor</del></del> <del type="reformulation">daii<pause/> prossimi deportati</del>
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF77" synch="#TS155"/>
+                    ma <vocal>emh</vocal> irrompendo in casa fecero un certo rumore i vicini se ne accorsero o no
+                </u>
+
+                <u who="#AW" xml:id="AW77" synch="#TS156"/>
+                    <del type="repetition">no</del><pause/> no
+                </u>
+
+                <u who="#LPF" xml:id="LPF78" synch="#TS157"/>
+                    in casa vostra no<pause/> e in generale non fu fatto diciamo alla luce del<pause/> forse non c'era ancora luce
+                </u>
+
+                <u who="#AW" xml:id="AW78" synch="#TS158"/><!-- mattina -->
+                    <vocal>emh</vocal> <del type="falseStart"><del type="truncation">c'er</del></del> <del type="reformulation">hanno</del> fatto molto presto la mattina <ancor xml:id="arm-97" synch="#TT97"/>appunto<ancor xml:id="arm-98" synch="#TT98"/> per
+                </u>
+
+                <u who="#LPF"/>
+                    <ancor xml:id="lpf-97" synch="#TT97"/><vocal>ehm</vocal><ancor xml:id="lpf-98" synch="#TT98"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF79" synch="#TS159"/>
+                    non facendo nessun baccano
+                </u>
+
+                <u who="#AW" xml:id="AW79" synch="#TS160"/>
+                    no<pause/> <del type="falseStart">solo in</del> <del type="reformulation">dicono che in <placeName><district type="area">ghetto</district></placeName> </del> ma io non l'ho sentito<pause/> avessero sparato dei colpi di fucile in aria<pause/> per spaventare la gente
+                </u>
+
+                <u who="#LPF" xml:id="LPF80" synch="#TS161"/>
+                    e lei sa se il camion andava di casa in casa anche fuori da quella zona
+                </u>
+
+                <u who="#AW" xml:id="AW80" synch="#TS162"/>
+                    si naturalmente è successo in <del type="repetition">tutta</del><pause/> tutta <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> <pause/>non solamente nella zona del <placeName><district type="area">ghetto</district></placeName><pause/> ma la <vocal>emh</vocal> preponderanza della popolazione viveva nel <placeName><district type="area">ghetto</district></placeName> 
+                </u>
+
+                <u who="#LPF" xml:id="LPF81" synch="#TS163"/>
+                    ma anche in quartieri lontani andarono
+                </u>
+
+                <u who="#AW" xml:id="AW81" synch="#TS164"/><!-- <mentioned>campo</mentioned>? -->
+                    probabilmente perché sono in molti conoscenti che sono venuti con me<pause/> in campo<pause/> che abitavano in zone<pause/> lontane dal centro<pause/> eppure son stati<pause/> presi
+                </u>
+
+                <u who="#LPF" xml:id="LPF82" synch="#TS165"/>
+                    e al <placeName ref="TEI-ListPlace.xml#scuolamilitare">collegio militare</placeName> c'eranoo <vocal>ehm</vocal><pause/> attrezzature c'erano servizi igienici <ancor xml:id="lpf-99" synch="#TT99"/>o non c'era nulla<ancor xml:id="lpf-100" synch="#TT100"/>
+                </u>
+
+                <u who="#AW" xml:id="AW82" synch="#TS166"/>
+                    <ancor xml:id="arm-99" synch="#TT99"/>no<pause/> i servizi<ancor xml:id="arm-100" synch="#TT100"/> igienici <del type="repetition">della</del><pause/> della <vocal>emh</vocal> <placeName ref="TEI-ListPlace.xml#scuolamilitare">scuola<pause/> militare</persName><pause/> quindi niente di particolare<pause/> ma naturalmente noi <del type="truncation">er</del> essendo<pause/> 1300 circa<pause/> non erano sufficienti<pause/> posso dire che<pause/> <vocal>emh</vocal> nella <placeName ref="TEI-ListPlace.xml#scuolamilitare">scuola militare</persName><pause/> c'erano ancora alcuni <roleName type="military">sottufficiali</roleName> italiani<pause/> i quali protestavano con i tedeschi<pause/> per quanto stava succedendo a noi<pause/> e mi ricordo la frase che <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName> rispose a <persName>questo <roleName type="military">sottufficiale</roleName></persName> <pause/><q type="spoken" who="TEI-ListPerson.xml#Dannecker">sta zitto perché altrimenti<pause/> vieni anche <choice><orig>te</orig><reg resp="#GB">tu</reg></choice> con noi</q>
+                </u>
+                
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF83" synch="#TS167"/>
+                    emh<pause/> dove eravate messi eravate per terra <ancor xml:id="lpf-101" synch="#TT101"/>sulle delle panche<ancor xml:id="lpf-102" synch="#TT102"/>
+                </u>
+
+                <u who="#AW" xml:id="AW83" synch="#TS168"/>
+                    <ancor xml:id="arm-101" synch="#TT101"/>per terra perché non<ancor xml:id="arm-102" synch="#TT102"/> c'erano brande non ce n'erano perché era vuota la <placeName ref="TEI-ListPlace.xml#scuolamilitare">scuola militare</persName><pause/> essendooo <date notBefore="1943-09-08">dopo l'8 settembre</date><pause/> <del type="truncation">lll</del> stata chiusa<pause/> non c'erano più brande si vede che le brande le avevano portate altrove<pause/> quindi dormivamo per terra<pause/> dormire quello che si riusciva a dormire
+                </u>
+
+                <u who="#LPF" xml:id="LPF84" synch="#TS169"/>
+                    quanto siete rimasti
+                </u>
+
+                <u who="#AW" xml:id="AW84" synch="#TS170"/>
+                    siamo rimasti <date from="1943-09-08" to="1943-09-11" resp="#GB" cert="high">due giorni</date>
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF85" synch="#TS171"/>
+                    ee quindi sono stati <date from="1943-09-08" to="1943-09-11" resp="#GB" cert="high">due giorni</date> tormentosi
+                </u>
+
+                <u who="#AW" xml:id="AW85" synch="#TS172"/><!--socio; tragitto?-->
+                    tormentosi<pause/> io avevo un <persName ref="TEI-ListPerson.xml#Moranzoni" resp="#GB">socio</persName><pause/> ee scrissi una lettera a questo mio <persName ref="TEI-ListPerson.xml#Moranzoni" resp="#GB">socio</persName><pause/> dove gli dicevo quello che mi stava succedendo e affidavo la mia abitazione a <persName ref="TEI-ListPerson.xml#Moranzoni" resp="#GB">lui</persName><pause/> e nella busta misi anche la chiave dell'appartamento<pause/> durante il tragitto dal treno attraverso una fessura<pause/> feci cadere giù questa busta<pause/> e questa busta è stata trovata<ancor xml:id="arm-103" synch="#TT103"/><pause/><ancor xml:id="arm-104" synch="#TT104"/> effettivamente<pause/> e il mio <persName ref="TEI-ListPerson.xml#Moranzoni" resp="#GB">socio</persName><pause/> riuscì a entrare in camera nostra<pause/> <del type="reformulation">cioè in casa nostra</del><pause/> cercando di<pause/> proteggere<pause/> quello che era possibile<pause/> <del type="falseStart"><del type="truncation">recup</del></del> <vocal>emh</vocal> <del type="reformulation">proteggere</del> appunto<pause/> ma poi<pause/> ha dovuto anche <persName ref="TEI-ListPerson.xml#Moranzoni" resp="#GB">lui</persName> abbandonare la casa<pause/> perché il governo affidò l'appartamento<pause/> ad un <vocal>emh</vocal> <pause/>come chiamavano quelli<pause/> che non avevano abitazione<pause/> a un
+                </u>
+
+                <u who="#LPF"/>
+                    <ancor xml:id="lpf-103" synch="#TT103"/>ah<ancor xml:id="lpf-104" synch="#TT104"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF86" synch="#TS173"/>
+                    <del type="falseStart">con tutto la <distinct type="slang">roba</distinct> dentro</del> <ancor xml:id="lpf-105" synch="#TT105"/><del type="correction">con tutta la vostra <distinct type="slang">roba</distinct> dentro</del><ancor xml:id="lpf-106" synch="#TT106"/><pause/> che poi ritrovaste dopo la <ancor xml:id="lpf-107" synch="#TT107"/>guerra o no<pause/><ancor xml:id="lpf-108" synch="#TT108"/> niente di niente <vocal><desc>sospira e si schiarisce la gola</desc></vocal><pause/> <del type="falseStart">el</del><pause/> mi può descrivere <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName> fisicamente
+                </u>
+
+                <u who="#AW"/>
+                    <ancor xml:id="arm-105" synch="#TT105"/>con tutta la <distinct type="slang">roba</distinct> dentro<pause/> si<ancor xml:id="arm-106" synch="#TT106"/>
+                    <ancor xml:id="arm-107" synch="#TT107"/>no<pause/> no<pause/> niente<ancor xml:id="arm-108" synch="#TT108"/>
+                </u>
+
+                <pause/>
+
+                <u who="#AW" xml:id="AW86" synch="#TS174"/>
+                    il ricordo è molto vago
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF87" synch="#TS175"/>
+                    era in divisa
+                </u>
+
+                <u who="#AW" xml:id="AW87" synch="#TS176"/>
+                    era in divisa si
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF88" synch="#TS177"/><!-- soCalled? -->
+                    ee capì subito che era il capo<ancor xml:id="lpf-109" synch="#TT109"/><pause/> che<ancor xml:id="lpf-109" synch="#TT109"/> era quello che aveva organizzato questa <soCalled>razzia</soCalled>
+                </u>
+
+                <u who="#AW"/>
+                    <ancor xml:id="arm-109" synch="#TT109"/>si<ancor xml:id="arm-110" synch="#TT110"/>
+                </u> <!-- 29:54 -->
             </div>
            
         </body>
@@ -1228,35 +1403,6 @@
 </TEI>
 
 <!--
-L.P: e con che denaro fece questa spesa?
-A.W: denaro l'ho raccolto daii (pausa) dai depor- daii... prossimi deportati.
-L.P: ma emh irrompendo in casa fecero un certo rumore? I vicini se ne accorsero...no?
-A.W: no no.
-L.P: in casa vostra? no. E in generale non fu fatto diciamo alla luce del g-... forse non c'era ancora luce.
-A.W: emh c'er-... hanno fatto molto presto, la mattina appunto per...
-L.P: non facendo nessun baccano?
-A.W: no, solo in... dicono che in ghetto - ma io non l'ho sentito - avessero sparato dei colpi di fucile in aria (pausa) per spaventare la gente.
-L.P: e lei sa se il camion andava di casa in casa anche fuori da quella zona?
-A.W: si naturalmente è successo in tutta tutta Roma, non solamente nella zona del Ghetto, ma la emh preponderanza della popolazione viveva nel ghetto.
-L.P: ma anche in quartieri lontani andarono?
-A.W: probabilmente perché sono, in molti conoscenti che son venuti con me in campo che abitavano in zone lontane dal centro, eppure son stati presi.
-L.P: e al collegio militare c'eranoo attrezzature, c'erano servizi igienici o non c'era nulla?
-A.W: no, i servizi igienici della della emh scuola militare, quindi niente di particolare, ma naturalmente noi essendo 1300 circa non erano sufficienti. Posso dire che emh nella scuola militare c'erano ancora alcuni sottufficiali italiani, i quali protestavano con i tedeschi per quanto stava succedendo a noi. E mi ricordo la frase che Dannecker rispose a questo sottufficiale "sta zitto perché altrimenti vieni anche te con noi".
-L.P: emh dove eravate messi? Eravate per terra, sulle panche(o branche?)...
-A.W: per terra perché non c'erano brande, non ce n'erano perché (non si capisce) alla scuola militare, essendo dopo l'8 settembre stata chiusa non c'erano più brande, si vede che le brande le avevano portate altrove quindi dormivamo per terra... "dormire", quello che si riusciva a dormire.
-L.P: quanto siete rimasti?
-A.W: siamo rimasti 2 giorni.
-L.P: e quindi sono stati due giorni tormentosi?
-A.W: tormentosi. Io avevo un socio ee scrissi una lettera a questo mio socio dove gli dicevo quello che mi stava succedendo e affidavo la mia abitazione a lui e nella busta misi anche la chiave dell'appartamento. Durante il tragitto, dal treno attraverso una fessura, feci cadere giù questa busta, e questa busta è stata trovata effettivamente e il mio socio riuscì a entrare in camera nostra, cioè in casa nostra, cercando di proteggere quello che era possibile recup- emh proteggere appunto, ma poi ha dovuto anche lui abbandonare la casa perché il governo affidò l'appartamento ad un emh (pausa) - come chiamavano quelli che non avevano abitazione? - a un...
-L.P: con tutt- la roba dentro? Con tutta la vostra roba dentro...
-A.W: con tutta la roba dentro si.
-L.P: che poi ritrovaste dopo la guerra o no?
-A.W: no. niente.
-L.P: niente di niente. (Sospira) Emh, el... mi può descrivere Dannecker fisicamente?
-A.W: il ricordo è molto vago.
-L.P: era in divisa?
-A.W: era in divisa si.
-L.P: ee capì subito che era il capo...che era quello che aveva organizzato questa razzia?
 A.W: si emh poi almeno che era quello che la comandava.
 L.P: rimase lì Dannecker al collegio militare o non lo vedeste più dopo...?
 A.W: no non lo vedemmo più, da quando salimmo sul treno non lo vedemmo più. Dannecker emh mi ricordo che quando ritirava i vari gioielli e li metteva in un cassetto io stavo accanto a lui e osservai una cosa strana che quando si trattava di un gioiello veramente di gran valore lui se lo metteva in tasca semplicemente, quindi, come al solito, quelli della SS sfruttavano le emh disposizioni anche a favore proprio.
