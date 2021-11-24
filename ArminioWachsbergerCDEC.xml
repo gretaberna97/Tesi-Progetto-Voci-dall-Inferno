@@ -334,8 +334,28 @@
 
             <when xml:id="TT109" absolute="29:53" synch="#lpf-109"/> 
             <when xml:id="TT110" since="#TT110" interval="1"/>
-        </timeline>
 
+            <when xml:id="TT111" absolute="30:03" synch="#lpf-111"/> 
+            <when xml:id="TT112" since="#TT112" interval="1"/>
+
+            <when xml:id="TT113" absolute="30:37" synch="#lpf-113"/> 
+            <when xml:id="TT114" since="#TT113" interval="1"/>
+
+            <when xml:id="TT115" absolute="30:40" synch="#arm-115"/> 
+            <when xml:id="TT116" since="#TT115" interval="1"/>
+
+            <when xml:id="TT117" absolute="32:16" synch="#arm-117"/> 
+            <when xml:id="TT118" since="#TT117" interval="1"/>
+
+            <when xml:id="TT119" absolute="32:24" synch="#lpf-119"/> 
+            <when xml:id="TT120" since="#TT119" interval="1"/>
+
+            <when xml:id="TT121" absolute="32:26" synch="#lpf-121"/> 
+            <when xml:id="TT122" since="#TT121" interval="1"/>
+
+            <when xml:id="TT123" absolute="32:29" synch="#arm-123"/> 
+            <when xml:id="TT124" since="#TT123" interval="1"/>
+        </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
         <timeline xml:id="TL3" unit="s">                
@@ -517,6 +537,19 @@
             <when xml:id="TS175" synch="#LPF87" absolute="29:46"/>
             <when xml:id="TS176" synch="#AW87" absolute="29:46"/>
             <when xml:id="TS177" synch="#LPF88" absolute="29:50"/>
+            <when xml:id="TS178" synch="#AW88" absolute="29:56"/>
+            <when xml:id="TS179" synch="#LPF89" absolute="29:59"/>
+            <when xml:id="TS180" synch="#AW89" absolute="30:03"/>
+            <when xml:id="TS181" synch="#LPF90" absolute="30:35"/>
+            <when xml:id="TS182" synch="#AW90" absolute="30:37"/>
+            <when xml:id="TS183" synch="#LPF91" absolute="30:40"/>
+            <when xml:id="TS184" synch="#AW91" absolute="30:42"/>
+            <when xml:id="TS185" synch="#LPF92" absolute="30:43"/>
+            <when xml:id="TS186" synch="#AW92" absolute="30:45"/>
+            <when xml:id="TS187" synch="#LPF93" absolute="32:16"/>
+            <when xml:id="TS188" synch="#AW93" absolute="32:18"/>
+            <when xml:id="TS189" synch="#LPF94" absolute="32:21"/>
+            <when xml:id="TS190" synch="#AW94" absolute="32:26"/>
         </timeline>
         
     </standOff>
@@ -1392,7 +1425,95 @@
 
                 <u who="#AW"/>
                     <ancor xml:id="arm-109" synch="#TT109"/>si<ancor xml:id="arm-110" synch="#TT110"/>
-                </u> <!-- 29:54 -->
+                </u> 
+
+                <u who="#AW" xml:id="AW88" synch="#TS178"/>
+                    <vocal>emh</vocal> <del type="falseStart">poi</del> <del type="reformulation">almeno</del> che era quello che la comandava
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF89" synch="#TS179"/>
+                    e rimase lì<pause/> <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName> al <placeName ref="TEI-ListPlace.xml#scuolamilitare">collegio militare</placeName><pause/> o non lo vedeste più <ancor xml:id="lpf-111" synch="#TT111"/>dopo<ancor xml:id="lpf-112" synch="#TT112"/>
+                </u>
+
+                <u who="#AW" xml:id="AW89" synch="#TS180"/>
+                    <ancor xml:id="arm-111" synch="#TT111"/>no non lo<ancor xml:id="arm-112" synch="#TT112"/> vedemmo più<pause/> da quando salimmo sul treno non lo vedemmo più<pause/> <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName> <vocal>emh</vocal><pause/> mi ricordo<pause/> che quando<pause/> ritirava i vari gioielli<pause/> e li metteva in un cassetto<pause/> io stavo accanto a <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName><pause/> e osservai una cosa strana che quando si trattava di un gioiello veramente di gran valore <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName> se lo metteva in tasca semplicemente<pause/> quindi come al solito quelli della <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> sfruttavano<pause/> <del type="repetition">leee</del> le disposizioni anche a favore proprio
+                </u>
+
+                <u who="#LPF" xml:id="LPF90" synch="#TS181"/>
+                    e fu l'<roleName type="military">ufficiale</roleName> di gradoo superiore <ancor xml:id="lpf-113" synch="#TT113"/>che vide<ancor xml:id="lpf-114" synch="#TT114"/>
+                </u>
+
+                <u who="#AW" xml:id="AW90" synch="#TS182"/>
+                    <ancor xml:id="arm-113" synch="#TT113"/>non mi ricordo<ancor xml:id="arm-114" synch="#TT114"/> mi pare che aveva il grado di <roleName type="military">capitano</roleName><ancor xml:id="arm-115" synch="#TT115"/><pause/> o qualcosa di simile<ancor xml:id="arm-116" synch="#TT116"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF91" synch="#TS183"/>
+                    <ancor xml:id="lpf-115" synch="#TT115"/>non vide qualcuno di superiore<ancor xml:id="lpf-116" synch="#TT116"/> a <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName>
+                </u>
+
+                <u who="#AW" xml:id="AW91" synch="#TS184"/>
+                    no<pause/> non vidi altro
+                </u>
+
+                <u who="#LPF" xml:id="LPF92" synch="#TS185"/>
+                    non vide altro
+                </u>
+
+                <u who="#AW" xml:id="AW92" synch="#TS186"/>
+                    poi c'è stato ill caso strano<pause/> che fra di noi c'eran molti non ebrei<pause/> i quali gridavano sempree<pause/> <q type="spoken">non siamo ebrei</q><pause/> e allora <persName ref="TEI-ListPerson.xml#Dannecker">Dannacker</persName> si decise<pause/> aaa lasciar liberi<pause/> quelli che non erano ebrei<pause/> eee disse a me<pause/> di riferire<pause/> che avrebbero<pause/> controllato i documenti di quelli che si dichiaravano non ebrei<pause/> e<pause/> se qualcuno si fosse azzardato<pause/> <choice><sic>di</sic><corr resp="#GB">a</corr></choice> volerli imbrogliare<pause/> <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName> avrebbe provveduto a punirli<pause/> ora effettivamente in quel periodo sulle carte di identità italiane<pause/> non c'era ancora il <del type="truncation">timb</del> <gap extent="unknown" reason="lost"/> diversi non ebrei<pause/> riuscirono a uscire<pause/> dalla <placeName ref="TEI-ListPlace.xml#scuolamilitare">scuola miliare</placeName><pause/> <vocal>emh</vocal><pause/> naturalmente alcuni ebrei<pause/> tentarono anche loro<pause/> di uscire<pause/> è chiaro che io li conoscevo<pause/> ma che se si chiamava Levi <del type="repetition">o</del><pause/> o Coen era chiaro che non potevo farlo<pause/> però con alcuni con nomi non prettamente ebraici<pause/> riuscii a farli uscire<pause/> in quanto al documento che era senza timbro di ebreo<pause/> io dichiarai su mia responsabilità che erano non ebrei<pause/> e così uscirono per esempio<pause/> <persName ref="TEI-ListPerson.xml#DisegniSig">la <roleName type="honorific">signora</roleName> Disegni</persName><pause/> <ancor xml:id="arm-117" synch="#TT117"/>mi ricordo<ancor xml:id="arm-118" synch="#TT118"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF93" synch="#TS187"/>
+                    <ancor xml:id="lpf-117" synch="#TT117"/>Disegni<ancor xml:id="lpf-118" synch="#TT118"/> è un nome ebraico
+                </u>
+
+                <u who="#AW" xml:id="AW93" synch="#TS188"/>
+                    ho capito ma è un nome ebraico per noi<pause/> non per un tedesco
+                </u>
+
+                <u who="#LPF" xml:id="LPF94" synch="#TS189"/>
+                    ma ce n'erano molti altri Disegni<pause/> ebrei<pause/> cioè <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName> <ancor xml:id="lpf-119" synch="#TT119"/><vocal>emh</vocal> <del type="truncation">ll</del><ancor xml:id="lpf-120" synch="#TT120"/> <persName ref="TEI-ListPerson.xml#Dannecker">Dannacker</persName> non ha fatto il <ancor xml:id="lpf-121" synch="#TT121"/>collegamento<ancor xml:id="lpf-122" synch="#TT122"/>
+                </u>
+
+                <u who="#AW"/>
+                    <ancor xml:id="arm-119" synch="#TT119"/>si<ancor xml:id="arm-120" synch="#TT120"/>
+                </u>
+
+                <u who="#AW" xml:id="AW94" synch="#TS190"/>
+                    <ancor xml:id="arm-121" synch="#TT121"/>ma <del type="falseStart">era</del><ancor xml:id="arm-122" synch="#TT122"/> <del type="reformulation"><persName ref="TEI-ListPerson.xml#DisegniSig" resp="#GB">questa <roleName type="honorific">signora</roleName></persName> si era messa</del> <del type="falseStart">fra quelli non</del><del type="reformulation"> fra i non ebrei</del><ancor xml:id="arm-123" synch="#TT123"/><pause/> non<ancor xml:id="arm-124" synch="#TT124"/> potevo far uscire <del type="falseStart">tutti tutto</del> <del type="repetition"><del type="correction">tutta</del> la</del><pause/> tutta la gente <vocal>ehm</vocal><pause/> che si trovava rinchiusa nella <placeName ref="TEI-ListPlace.xml#scuolamilitare">scuola miliare</placeName><pause/> poi mi ricordo anche della famiglia Dina<pause/> veneziana<pause/> anche quella riuscì a salvarla anzi<pause/> con l'occasione voglio raccontare una cosa<pause/> che al <placeName>lido di Venezia</placeName> qualche anno fa<pause/> incontrai per caso<pause/> la <persName ref="TEI-ListPerson.xml#DinaSig"><roleName type="honorific">signora</roleName> Dina</persName><pause/> che mi disse che le <persName><choice><orig>figliole</orig><reg resp="#GB">figlie</reg></choice></persName><pause/> sono sposate nel <placeName>Belgio</placeName> e in <placeName>Israele</placeName><pause/> e mi ringraziò per quanto feci in <date notBefore="1943-10-17" notAfter="1943-10-18">quell'epoca</date> alla <placeName ref="TEI-ListPlace.xml#scuolamilitare">scuola miliare</placeName>
+                </u>
+
+                <u who="#LPF"/>
+                    <ancor xml:id="lpf-123" synch="#TT123"/>ho capito<ancor xml:id="lpf-124" synch="#TT124"/>
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF95" synch="#TS191"/><!-- 33:00 -->
+                    e quanti erano più o meno iii sorveglianti tedeschi... al collegio militare?
+                </u>
+
+                <u who="#AW" xml:id="AW95" synch="#TS192"/>
+                    non posso dirlo, non posso dirlo con precisione ma anche se fossero pochi loro erano armati noi no, eravamo inermi
+                </u>
+
+                <u who="#LPF"/>
+                    certo
+                </u>
+
+                <u who="#LPF" xml:id="LPF96" synch="#TS193"/>
+                    comunque eravate continuamente guardati a visto o no?
+                </u>
+
+                <u who="#AW" xml:id="AW96" synch="#TS194"/>
+                    si si si si
+                </u>
+
+                <u who="#LPF" xml:id="LPF97" synch="#TS195"/>
+                    si continuamente (sospira) Eee emh come avvenne... vi fu annunciata la partenza...?
+                </u>
             </div>
            
         </body>
@@ -1403,28 +1524,6 @@
 </TEI>
 
 <!--
-A.W: si emh poi almeno che era quello che la comandava.
-L.P: rimase lì Dannecker al collegio militare o non lo vedeste più dopo...?
-A.W: no non lo vedemmo più, da quando salimmo sul treno non lo vedemmo più. Dannecker emh mi ricordo che quando ritirava i vari gioielli e li metteva in un cassetto io stavo accanto a lui e osservai una cosa strana che quando si trattava di un gioiello veramente di gran valore lui se lo metteva in tasca semplicemente, quindi, come al solito, quelli della SS sfruttavano le emh disposizioni anche a favore proprio.
-L.P: e fu l'ufficiale di grado superiore che vide ?
-A.W: non mi ricordo, mi pare che aveva il grado di capitano... o qualcosa di simile...
-L.P: non vide qualcuno di superiore a lui?
-A.W: no, non vidi altro(i).
-L.P: non vide altro.
-A.W: poi c'è stato il caso strano che fra di noi c'erano molti non ebrei i quali gridavano sempre "non siamo ebrei" e allora Dannecker si decise a lasciar liberi quelli che non erano ebrei eee disse a me di riferire che avrebbero controllato i documenti di quelli che si dichiaravano non ebrei e se qualcuno si fosse azzardato di volerli imbrogliare lui avrebbe provveduto a punirli. Ora effettivamente in quel peiodo sulle carte di identità italiane non c'era ancora il timb-. [buco fino a 31:39] Diversi non ebrei riuscirono a uscire dalla scuola miliare emh naturalmente alcuni ebrei tentarono anche loro di uscire, è chiaro che io li conoscevo ma che se si chiamava Levi o (pausa) Coen era chiaro che non potevo farlo... però con alcuni, con nomi non prettamente ebraici, riuscii a farli uscire in quanto al documento che era senza timbro di ebreo io dichiarai, su mia responsabilità, che erano "non ebrei". E' così uscirono per esempio la signora Disegni, mi ricordo...
-L.P: Disegni è un nome ebraico...
-A.W: ho capito, ma è un nome ebraico per noi, non per un tedesco.
-L.P: ma ce n'erano molti altri di Di Segni ebrei... cioè lui emh Dannecker non ha fatto il collegamento?
-A.W: ma si... ma questa signora si era messa fra quelli non ebrei. 
-L.P: ho capito.
-A.W: non potevo far uscire tutt- tutta la tutta la gente che si trovava rinchiusa nella scuola militare. Poi mi ricordo anche della famiglia Dina, veneziana, anche quella riuscì a salvarla, anzi, con l'occasione voglio raccontare una cosa, che al lido di Venezia qualche anno fa incontrai per caso la signora Dina che mi disse che le figliole sono sposate nel Belgio e in Israele e mi ringraziò per quanto feci in quell'epoca alla scuola militare.
-L.P: e quanti erano più o meno iii sorveglianti tedeschi... al collegio militare?
-A.W: non posso dirlo, non posso dirlo con precisione ma anche se fossero pochi loro erano armati...
-L.P: certo.
-A.W: noi no, eravamo inermi.
-L.P: comunque eravate continuamente guardati a visto o no?
-A.W: si si si si.
-L.P: continuamente. Eee emh come avvenne... vi fu annunciata la partenza...?
 A.W: no, improvvisamente ci fecero salire sui camion la mattina del...
 L.P: con tutta la vostra roba?
 A.W: connn con quella roba che avevamo con noi, si. Ci fecero salire sui camion che ci portarono fino al (pausa) alla stazione tiburtina.
