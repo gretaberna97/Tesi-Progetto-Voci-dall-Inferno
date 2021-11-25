@@ -454,6 +454,18 @@
 
             <when xml:id="TT189" absolute="38:27" synch="#arm-189"/> 
             <when xml:id="TT190" since="#TT189" interval="1"/>
+
+            <when xml:id="TT191" absolute="39:39" synch="#lpf-191"/> 
+            <when xml:id="TT192" since="#TT191" interval="1"/>
+
+            <when xml:id="TT193" absolute="41:35" synch="#arm-193"/> 
+            <when xml:id="TT194" since="#TT193" interval="1"/>
+
+            <when xml:id="TT195" absolute="41:41" synch="#arm-195"/> 
+            <when xml:id="TT196" since="#TT195" interval="1"/>
+
+            <when xml:id="TT197" absolute="41:49" synch="#lpf-197"/> 
+            <when xml:id="TT198" since="#TT197" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -721,6 +733,24 @@
             <when xml:id="TS260" synch="#AW129" absolute="39:22"/>
             <when xml:id="TS261" synch="#LPF130" absolute="39:34"/>
             <when xml:id="TS262" synch="#AW130 " absolute="39:35"/>
+            <when xml:id="TS263" synch="#LPF131" absolute="39:37"/>
+            <when xml:id="TS264" synch="#AW131" absolute="39:39"/>
+            <when xml:id="TS265" synch="#LPF132" absolute="39:41"/>
+            <when xml:id="TS266" synch="#AW132" absolute="39:46"/>
+            <when xml:id="TS267" synch="#LPF133" absolute="39:50"/>
+            <when xml:id="TS268" synch="#AW133" absolute="39:51"/>
+            <when xml:id="TS269" synch="#LPF134" absolute="39:56"/>
+            <when xml:id="TS270" synch="#AW134" absolute="39:58"/>
+            <when xml:id="TS271" synch="#LPF135" absolute="40:02"/>
+            <when xml:id="TS272" synch="#AW135" absolute="40:06"/>
+            <when xml:id="TS273" synch="#LPF136" absolute="40:13"/>
+            <when xml:id="TS274" synch="#AW136" absolute="40:15"/>
+            <when xml:id="TS275" synch="#LPF137" absolute="41:32"/>
+            <when xml:id="TS276" synch="#AW137" absolute="41:33"/>
+            <when xml:id="TS277" synch="#LPF138" absolute="41:36"/>
+            <when xml:id="TS278" synch="#AW138" absolute="41:38"/>
+            <when xml:id="TS279" synch="#LPF139" absolute="41:46"/>
+            <when xml:id="TS280" synch="#AW139" absolute="41:49"/>
         </timeline>
         
     </standOff>
@@ -784,11 +814,11 @@
                 <pause/>
 
                 <u who="#LPF" xml:id="LPF7" synch="#TS13"/>
-                    abitava con la famiglia <ancor xml:id="lpf-1" synch="#TT01"/>o da solo<ancor xml:id="lpf-2" synch="#TT02"/>
+                    abitava con la famiglia <anchor xml:id="lpf-1" synch="#TT01"/>o da solo<anchor xml:id="lpf-2" synch="#TT02"/>
                 </u>
 
                 <u who="#AW" xml:id="AW7" synch="#TS14"/><!-- suoceri -->
-                    <ancor xml:id="arm-1" synch="#TT01"/>abitavo<ancor xml:id="arm-2" synch="#TT02"/> con la famiglia<pause/> moglie e figlia Clara<pause/> di 5 anni e<pause/> i suoceri<pause/> <persName ref="TEI-ListPerson.xml#MoisePolacco">Moisè Polacco<persName> e <persName ref="TEI-ListPerson.xml#CarlottaPolacco">Carlotta Polacco<persName>
+                    <anchor xml:id="arm-1" synch="#TT01"/>abitavo<anchor xml:id="arm-2" synch="#TT02"/> con la famiglia<pause/> moglie e figlia Clara<pause/> di 5 anni e<pause/> i suoceri<pause/> <persName ref="TEI-ListPerson.xml#MoisePolacco">Moisè Polacco<persName> e <persName ref="TEI-ListPerson.xml#CarlottaPolacco">Carlotta Polacco<persName>
                 </u>
 
                 <u who="#LPF" xml:id="LPF8" synch="#TS15"/>
@@ -812,21 +842,21 @@
                 <pause/>
 
                 <u who="#LPF" xml:id="LPF10" synch="#TS19"/>
-                    <vocal>eeh</vocal> la sua famiglia di origine com'era <ancor xml:id="lpf-3" synch="#TT03"/>composta<ancor xml:id="lpf-4" synch="#TT04"/>
+                    <vocal>eeh</vocal> la sua famiglia di origine com'era <anchor xml:id="lpf-3" synch="#TT03"/>composta<anchor xml:id="lpf-4" synch="#TT04"/>
                 </u>
 
                 <u who="#AW" xml:id="AW10" synch="#TS20"/>
-                    <ancor xml:id="arm-3" synch="#TT03"/><persName ref="TEI-ListPerson.xml#MiriamG" resp="#GB">la mamma</persName><ancor xml:id="arm-4" synch="#TT04"/> era ungherese<pause/> <persName ref="TEI-ListPerson.xml#DavideW" resp="#GB">il papa</persName> era di origine polacca ma ha vissuto in <placeName>Cecoslovacchia</placeName><pause/> aveva <del type="falseStart"><vocal>amh</vocal></del> <del type="correction">a</del> <placeName ref="TEI-ListPlace.xml#Fiume">Fiume</placeName> la funzione di rabbino capo ortodosso
+                    <anchor xml:id="arm-3" synch="#TT03"/><persName ref="TEI-ListPerson.xml#MiriamG" resp="#GB">la mamma</persName><anchor xml:id="arm-4" synch="#TT04"/> era ungherese<pause/> <persName ref="TEI-ListPerson.xml#DavideW" resp="#GB">il papa</persName> era di origine polacca ma ha vissuto in <placeName>Cecoslovacchia</placeName><pause/> aveva <del type="falseStart"><vocal>amh</vocal></del> <del type="correction">a</del> <placeName ref="TEI-ListPlace.xml#Fiume">Fiume</placeName> la funzione di rabbino capo ortodosso
                 </u>
 
                 <pause/>
 
                 <u who="#LPF" xml:id="LPF11" synch="#TS21"/>
-                    quindi lei ha avuto una educazione ebraica molto profonda <ancor xml:id="lpf-5" synch="#TT05"/>immagino<ancor xml:id="lpf-6" synch="#TT06"/><pause/> <vocal>ehm</vocal> <del type="falseStart">frequentava la scuola ebraica</del> <ancor xml:id="lpf-7" synch="#TT07"/><unclear reason="inaudible" resp="#GB" cert="medium">c'è la</unclear> scuola ebraica innanzitutto a <placeName ref="TEI-ListPlace.xml#Fiume">Fiume</placeName><ancor xml:id="lpf-8" synch="#TT08"/><pause/> si
+                    quindi lei ha avuto una educazione ebraica molto profonda <anchor xml:id="lpf-5" synch="#TT05"/>immagino<anchor xml:id="lpf-6" synch="#TT06"/><pause/> <vocal>ehm</vocal> <del type="falseStart">frequentava la scuola ebraica</del> <anchor xml:id="lpf-7" synch="#TT07"/><unclear reason="inaudible" resp="#GB" cert="medium">c'è la</unclear> scuola ebraica innanzitutto a <placeName ref="TEI-ListPlace.xml#Fiume">Fiume</placeName><anchor xml:id="lpf-8" synch="#TT08"/><pause/> si
                 </u>
 
                 <u who="#AW"/>
-                    <ancor xml:id="arm-5" synch="#TT05"/>si<ancor xml:id="arm-6" synch="#TT06"/> <ancor xml:id="arm-7" synch="#TT07"/><unclear reason="inaudible" resp="#GB" cert="medium">c'era e c'è tutt'ora</unclear><ancor xml:id="arm-8" synch="#TT08"/>
+                    <anchor xml:id="arm-5" synch="#TT05"/>si<anchor xml:id="arm-6" synch="#TT06"/> <anchor xml:id="arm-7" synch="#TT07"/><unclear reason="inaudible" resp="#GB" cert="medium">c'era e c'è tutt'ora</unclear><anchor xml:id="arm-8" synch="#TT08"/>
                 </u>
 
                 <u who="#AW" xml:id="AW11" synch="#TS22"/><!-- abbreviazione ebraico: he -->
@@ -850,15 +880,15 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF14" synch="#TS27"/>
-                    e quelli che si distinguevano erano allora<pause/> gli <ancor xml:id="lpf-9" synch="#TT09"/>ungheresi<ancor xml:id="lpf-10" synch="#TT10"/>
+                    e quelli che si distinguevano erano allora<pause/> gli <anchor xml:id="lpf-9" synch="#TT09"/>ungheresi<anchor xml:id="lpf-10" synch="#TT10"/>
                 </u>
 
                 <u who="#AW" xml:id="AW14" synch="#TS28"/>
-                    <ancor xml:id="arm-9" synch="#TT09"/>gli ungheresi<ancor xml:id="arm-10" synch="#TT10"/> erano i peggiori<pause/> <ancor xml:id="arm-11" synch="#TT11"/>ma <vocal>ehm</vocal><ancor xml:id="arm-12" synch="#TT12"/> comunque non eccessivamente
+                    <anchor xml:id="arm-9" synch="#TT09"/>gli ungheresi<anchor xml:id="arm-10" synch="#TT10"/> erano i peggiori<pause/> <anchor xml:id="arm-11" synch="#TT11"/>ma <vocal>ehm</vocal><anchor xml:id="arm-12" synch="#TT12"/> comunque non eccessivamente
                 </u>
             
                 <u who="#LPF"/>
-                    <ancor xml:id="lpf-11" synch="#TT11"/>ee <unclear reason="inaudible" cert="medium"><del type="truncation">a</del></unclear><ancor xml:id="lpf-12" synch="#TT12"/>
+                    <anchor xml:id="lpf-11" synch="#TT11"/>ee <unclear reason="inaudible" cert="medium"><del type="truncation">a</del></unclear><anchor xml:id="lpf-12" synch="#TT12"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF15" synch="#TS29"/>
@@ -878,11 +908,11 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF17" synch="#TS33"/> <!-- filoitaliani e sionismo -->
-                    <vocal>ehm</vocal> che sentimenti nutrivate per l'<placeName>Italia</placeName> eravate <ancor xml:id="lpf-13" synch="#TT13"/>filoitaliani<ancor xml:id="lpf-14" synch="#TT14"/>
+                    <vocal>ehm</vocal> che sentimenti nutrivate per l'<placeName>Italia</placeName> eravate <anchor xml:id="lpf-13" synch="#TT13"/>filoitaliani<anchor xml:id="lpf-14" synch="#TT14"/>
                 </u>
 
                 <u who="#AW" xml:id="AW17" synch="#TS34"/>
-                    <ancor xml:id="arm-13" synch="#TT13"/>eravamo molto<ancor xml:id="arm-14" synch="#TT14"/> filoitaliani tutti quanti
+                    <anchor xml:id="arm-13" synch="#TT13"/>eravamo molto<anchor xml:id="arm-14" synch="#TT14"/> filoitaliani tutti quanti
                 </u>
 
                 <u who="#LPF" xml:id="LPF18" synch="#TS35"/>
@@ -904,11 +934,11 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF20" synch="#TS39"/>
-                    c'erano circoli sionistici<pause/> <ancor xml:id="lpf-15" synch="#TT15"/>c'era attività<ancor xml:id="lpf-16" synch="#TT16"/>
+                    c'erano circoli sionistici<pause/> <anchor xml:id="lpf-15" synch="#TT15"/>c'era attività<anchor xml:id="lpf-16" synch="#TT16"/>
                 </u>
 
                 <u who="#AW" xml:id="AW20" synch="#TS40"/>
-                    <ancor xml:id="arm-15" synch="#TT15"/>c'era il circolo sionista<ancor xml:id="arm-16" synch="#TT16"/> eccetera c'era anche il <orgName type="association"><choice><sic>Macabi<corr resp="#GB" cert="high">Maccabi</corr></choice></orgName>
+                    <anchor xml:id="arm-15" synch="#TT15"/>c'era il circolo sionista<anchor xml:id="arm-16" synch="#TT16"/> eccetera c'era anche il <orgName type="association"><choice><sic>Macabi<corr resp="#GB" cert="high">Maccabi</corr></choice></orgName>
                 </u>
 
                 <pause/>
@@ -922,11 +952,11 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF22" synch="#TS43"/>
-                    e là si fermò<pause/> ma <choice><orig>m'ha</orig><reg resp="#GB" cert="high">mi ha</reg></choice> detto che c'è stato un <ancor xml:id="lpf-17" synch="#TT17"/><vocal>mm</vocal>un<ancor xml:id="lpf-18" synch="#TT18"/> periodo in cui <del type="truncation"><del type="repetition">st</del> st</del> <vocal>ehm</vocal> abitò a <placeName ref="TEI-ListPlace.xml#Gorizia">Gorizia</placeName>
+                    e là si fermò<pause/> ma <choice><orig>m'ha</orig><reg resp="#GB" cert="high">mi ha</reg></choice> detto che c'è stato un <anchor xml:id="lpf-17" synch="#TT17"/><vocal>mm</vocal>un<anchor xml:id="lpf-18" synch="#TT18"/> periodo in cui <del type="truncation"><del type="repetition">st</del> st</del> <vocal>ehm</vocal> abitò a <placeName ref="TEI-ListPlace.xml#Gorizia">Gorizia</placeName>
                 </u>
 
                 <u who="#AW"/>
-                    <ancor xml:id="arm-17" synch="#TT17"/><vocal cert="medium">ehm</vocal><ancor xml:id="arm-18" synch="#TT18"/>
+                    <anchor xml:id="arm-17" synch="#TT17"/><vocal cert="medium">ehm</vocal><anchor xml:id="arm-18" synch="#TT18"/>
                 </u>
 
                 <u who="#AW" xml:id="AW22" synch="#TS44"/>
@@ -962,23 +992,23 @@
                 <pause/>
 
                 <u who="#LPF" xml:id="LPF24" synch="#TS51"/>
-                    si ricorda della propaganda antisemita <ancor xml:id="lpf-19" synch="#TT19"/>che aveva<ancor xml:id="lpf-20" synch="#TT20"/> preparato le leggi <ancor xml:id="lpf-21" synch="#TT21"/>razziali<ancor xml:id="lpf-22" synch="#TT22"/>
+                    si ricorda della propaganda antisemita <anchor xml:id="lpf-19" synch="#TT19"/>che aveva<anchor xml:id="lpf-20" synch="#TT20"/> preparato le leggi <anchor xml:id="lpf-21" synch="#TT21"/>razziali<anchor xml:id="lpf-22" synch="#TT22"/>
                 </u>
 
                 <u who="#AW" xml:id="AW26" synch="#TS52"/>
-                    <ancor xml:id="arm-19" synch="#TT19"/>si<ancor xml:id="arm-20" synch="#TT20"/> <ancor xml:id="arm-21" synch="#TT21"/>si <del type="repetition">molto</del><ancor xml:id="arm-22" synch="#TT22"/> <ancor xml:id="arm-23" synch="#TT23"/>molto<ancor xml:id="arm-24" synch="#TT24"/> la seguivamo naturalmente con attenzione
+                    <anchor xml:id="arm-19" synch="#TT19"/>si<anchor xml:id="arm-20" synch="#TT20"/> <anchor xml:id="arm-21" synch="#TT21"/>si <del type="repetition">molto</del><anchor xml:id="arm-22" synch="#TT22"/> <anchor xml:id="arm-23" synch="#TT23"/>molto<anchor xml:id="arm-24" synch="#TT24"/> la seguivamo naturalmente con attenzione
                 </u>
 
                 <u who="#LPF"/>
-                    <ancor xml:id="lpf-23" synch="#TT23"/>si<ancor xml:id="lpf-24" synch="#TT24"/>
+                    <anchor xml:id="lpf-23" synch="#TT23"/>si<anchor xml:id="lpf-24" synch="#TT24"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF25" synch="#TS53"/>
-                    e in generale <del type="falseStart">lei come</del> <vocal>emh</vocal> <del type="reformulation">la popolazione come si comportava <ancor xml:id="lpf-25" synch="#TT25"/>con gli ebrei<ancor xml:id="lpf-26" synch="#TT26"/></del>
+                    e in generale <del type="falseStart">lei come</del> <vocal>emh</vocal> <del type="reformulation">la popolazione come si comportava <anchor xml:id="lpf-25" synch="#TT25"/>con gli ebrei<anchor xml:id="lpf-26" synch="#TT26"/></del>
                 </u>
 
                 <u who="#AW" xml:id="AW27" synch="#TS54"/>
-                    <ancor xml:id="arm-25" synch="#TT25"/>la popolazione<ancor xml:id="arm-26" synch="#TT26"/> si è comportata umanamente con noi anzi avevamo degli appoggi da parte della popolazione civile non facevano nessuna distinzione<pause/> fra noi e gli altri
+                    <anchor xml:id="arm-25" synch="#TT25"/>la popolazione<anchor xml:id="arm-26" synch="#TT26"/> si è comportata umanamente con noi anzi avevamo degli appoggi da parte della popolazione civile non facevano nessuna distinzione<pause/> fra noi e gli altri
                 </u>
 
                 <u who="#LPF" xml:id="LPF26" synch="#TS55"/>
@@ -998,21 +1028,21 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF28" synch="#TS59"/>
-                    e mi scusi può riparlare un attimo ancora di <placeName ref="TEI-ListPlace.xml#Gorizia">Gorizia</placeName><pause/> prima me ne ha <ancor xml:id="lpf-27" synch="#TT27"/>accennato<pause/><vocal><desc>si schiarisce la gola</desc></vocal><ancor xml:id="lpf-28" synch="#TT28"/>
+                    e mi scusi può riparlare un attimo ancora di <placeName ref="TEI-ListPlace.xml#Gorizia">Gorizia</placeName><pause/> prima me ne ha <anchor xml:id="lpf-27" synch="#TT27"/>accennato<pause/><vocal><desc>si schiarisce la gola</desc></vocal><anchor xml:id="lpf-28" synch="#TT28"/>
                 </u>
 
                 <u who="#AW" xml:id="AW30" synch="#TS60"/>
-                    <del type="falseStart"><ancor xml:id="arm-27" synch="#TT27"/>a <placeName ref="TEI-ListPlace.xml#Gorizia">Gorizia</placeName> <vocal>eer eh</vocal><ancor xml:id="arm-28" synch="#TT28"/></del> <del type="reformulation">dunque</del> <placeName ref="TEI-ListPlace.xml#Gorizia">Gorizia</placeName> era una piccola cittadina<pause/> con unn 200 ebrei circa<pause/> dove venne nel <date when="1928" resp="#GB" cert="high">28</date><pause/> da <placeName>Corfù</placeName><pause/> il <persName><roleName type="religion">rabbino</roleName> <foreign>Schreiber</foreign></persName><pause/> che fondò una <term ref="#yeshivah"><foreign xml:lang="he">yeshivah</foreign></term><pause/> <gloss xml:id="yeshivah">un collegio rabbino</gloss><pause/> eee eravamo relativamente in pochi ma comunque abbiamo passato 5 anni<pause/> poi la <term ref="#yeshivah"><foreign xml:lang="he">yeshivah</foreign></term> si sciolse per mancanza dii ©studenti
+                    <del type="falseStart"><anchor xml:id="arm-27" synch="#TT27"/>a <placeName ref="TEI-ListPlace.xml#Gorizia">Gorizia</placeName> <vocal>eer eh</vocal><anchor xml:id="arm-28" synch="#TT28"/></del> <del type="reformulation">dunque</del> <placeName ref="TEI-ListPlace.xml#Gorizia">Gorizia</placeName> era una piccola cittadina<pause/> con unn 200 ebrei circa<pause/> dove venne nel <date when="1928" resp="#GB" cert="high">28</date><pause/> da <placeName>Corfù</placeName><pause/> il <persName><roleName type="religion">rabbino</roleName> <foreign>Schreiber</foreign></persName><pause/> che fondò una <term ref="#yeshivah"><foreign xml:lang="he">yeshivah</foreign></term><pause/> <gloss xml:id="yeshivah">un collegio rabbino</gloss><pause/> eee eravamo relativamente in pochi ma comunque abbiamo passato 5 anni<pause/> poi la <term ref="#yeshivah"><foreign xml:lang="he">yeshivah</foreign></term> si sciolse per mancanza dii ©studenti
                 </u>
 
                 <pause/>
                 <!-- si rischiarano la voce qualcuno ma non si sa chi -->
                 <u who="#LPF" xml:id="LPF29" synch="#TS61"/>
-                    <vocal>ehm</vocal><pause/> quando scoppiò la guerra lei dove si trovava e <ancor xml:id="lpf-29" synch="#TT29"/>come si trovava<ancor xml:id="lpf-30" synch="#TT30"/>
+                    <vocal>ehm</vocal><pause/> quando scoppiò la guerra lei dove si trovava e <anchor xml:id="lpf-29" synch="#TT29"/>come si trovava<anchor xml:id="lpf-30" synch="#TT30"/>
                 </u>
 
                 <u who="#AW" xml:id="AW31" synch="#TS62"/>
-                    <del type="repetition"><ancor xml:id="arm-29" synch="#TT29"/>Mi trovavo<ancor xml:id="arm-30" synch="#TT30"/></del><pause/> mi trovavo a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName>
+                    <del type="repetition"><anchor xml:id="arm-29" synch="#TT29"/>Mi trovavo<anchor xml:id="arm-30" synch="#TT30"/></del><pause/> mi trovavo a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName>
                 </u>
 
                 <u who="#LPF" xml:id="LPF30" synch="#TS63"/>
@@ -1032,21 +1062,21 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF32" synch="#TS67"/>
-                   quindi contro <del type="truncation">lll ll ll</del> la prima volta in cui perse il lavoro una seconda volta invece non lo <ancor xml:id="lpf-31" synch="#TT31"/>perse<ancor xml:id="lpf-32" synch="#TT32"/> per il fatto di essere ebreo
+                   quindi contro <del type="truncation">lll ll ll</del> la prima volta in cui perse il lavoro una seconda volta invece non lo <anchor xml:id="lpf-31" synch="#TT31"/>perse<anchor xml:id="lpf-32" synch="#TT32"/> per il fatto di essere ebreo
                 </u>
 
                 <u who="#AW"/>
-                    <ancor xml:id="arm-31" synch="#TT31"/>no<ancor xml:id="arm-32" synch="#TT32"/>
+                    <anchor xml:id="arm-31" synch="#TT31"/>no<anchor xml:id="arm-32" synch="#TT32"/>
                 </u>
 
                 <pause/>
 
                 <u who="#LPF" xml:id="LPF33" synch="#TS68"/>
-                   cosa successe alla caduta di <persName>Mussolini</persName> il <date when="1943-07-25" resp="#GB" cert="high">25 luglio</date><pause/> <ancor xml:id="lpf-33" synch="#TT33"/>successe<ancor xml:id="lpf-34" synch="#TT34"/> qualche cosa di particolare
+                   cosa successe alla caduta di <persName>Mussolini</persName> il <date when="1943-07-25" resp="#GB" cert="high">25 luglio</date><pause/> <anchor xml:id="lpf-33" synch="#TT33"/>successe<anchor xml:id="lpf-34" synch="#TT34"/> qualche cosa di particolare
                 </u>
 
                 <u who="#AW"/>
-                   <ancor xml:id="arm-33" synch="#TT33"/>Dunque<ancor xml:id="arm-34" synch="#TT34"/>
+                   <anchor xml:id="arm-33" synch="#TT33"/>Dunque<anchor xml:id="arm-34" synch="#TT34"/>
                 </u>
 
                 <u who="#AW" xml:id="AW34" synch="#TS69"/>
@@ -1064,11 +1094,11 @@
                 <pause/>                
                 
                 <u who="#LPF" xml:id="LPF35" synch="#TS72"/>
-                    questo più o meno già in <date when="1943-09" resp="#GB" cert="high">settembre</date> si <ancor xml:id="lpf-35" synch="#TT35"/>vedevano <del type="truncation" cert="medium">molt</del><ancor xml:id="lpf-36" synch="#TT36"/> tedeschi in giro
+                    questo più o meno già in <date when="1943-09" resp="#GB" cert="high">settembre</date> si <anchor xml:id="lpf-35" synch="#TT35"/>vedevano <del type="truncation" cert="medium">molt</del><anchor xml:id="lpf-36" synch="#TT36"/> tedeschi in giro
                 </u>
 
                 <u who="#AW"/>
-                    <ancor xml:id="arm-35" synch="#TT35"/>questo <del type="truncation" cert="medium">er</del><ancor xml:id="arm-36" synch="#TT36"/>
+                    <anchor xml:id="arm-35" synch="#TT35"/>questo <del type="truncation" cert="medium">er</del><anchor xml:id="arm-36" synch="#TT36"/>
                 </u>
 
                 <u who="#AW" xml:id="AW36" synch="#TS73"/>
@@ -1078,11 +1108,11 @@
                 <pause/>
 
                 <u who="#LPF" xml:id="LPF36" synch="#TS74"/>
-                    dopo gli avvenimenti in comunità <del type="repetition">dellaaa</del> <vocal>mm</vocal> della taglia della rapina <del type="falseStart">del</del> <del type="correction">dell'archivio</del> eccetera<pause/> pensò ancora una volta di nascondersi<pause/> oppure la situazione non era <ancor xml:id="lpf-37" synch="#TT37"/>molto cambiata<ancor xml:id="lpf-38" synch="#TT38"/>
+                    dopo gli avvenimenti in comunità <del type="repetition">dellaaa</del> <vocal>mm</vocal> della taglia della rapina <del type="falseStart">del</del> <del type="correction">dell'archivio</del> eccetera<pause/> pensò ancora una volta di nascondersi<pause/> oppure la situazione non era <anchor xml:id="lpf-37" synch="#TT37"/>molto cambiata<anchor xml:id="lpf-38" synch="#TT38"/>
                 </u>
 
                 <u who="#AW"/>
-                    <ancor xml:id="arm-37" synch="#TT37"/>proprio così<ancor xml:id="arm-38" synch="#TT38"/>
+                    <anchor xml:id="arm-37" synch="#TT37"/>proprio così<anchor xml:id="arm-38" synch="#TT38"/>
                 </u>
 
                 <u who="#AW" xml:id="AW37" synch="#TS75"/>
@@ -1090,11 +1120,11 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF37" synch="#TS76"/>
-                    e qualcuno di voi aveva saputo che era arrivato a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> questo <soCalled>distaccamento speciale</soCalled> <ancor xml:id="lpf-39" synch="#TT39"/>per <pause/>arrestare gli ebrei<ancor xml:id="lpf-40" synch="#TT40"/>
+                    e qualcuno di voi aveva saputo che era arrivato a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> questo <soCalled>distaccamento speciale</soCalled> <anchor xml:id="lpf-39" synch="#TT39"/>per <pause/>arrestare gli ebrei<anchor xml:id="lpf-40" synch="#TT40"/>
                 </u>
 
                 <u who="#AW"/>
-                    <ancor xml:id="arm-39" synch="#TT39"/>no questo qui no solamente<ancor xml:id="arm-40" synch="#TT40"/>
+                    <anchor xml:id="arm-39" synch="#TT39"/>no questo qui no solamente<anchor xml:id="arm-40" synch="#TT40"/>
                 </u>
 
                 <u who="#AW" xml:id="AW38" synch="#TS77"/>
@@ -1110,27 +1140,27 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF39" synch="#TS80"/>
-                    e quindi <del type="falseStart">si <del type="truncation">ss</del></del> <del type="correction">si è</del> vista <ancor xml:id="lpf-41" synch="#TT41"/>questa rapina<ancor xml:id="lpf-42" synch="#TT42"/>
+                    e quindi <del type="falseStart">si <del type="truncation">ss</del></del> <del type="correction">si è</del> vista <anchor xml:id="lpf-41" synch="#TT41"/>questa rapina<anchor xml:id="lpf-42" synch="#TT42"/>
                 </u>
 
                 <u who="#AW" xml:id="AW40" synch="#TS81"/>
-                    <ancor xml:id="arm-41" synch="#TT41"/><del type="truncation">ss</del> <del type="correction">si</del> è vista<ancor xml:id="arm-42" synch="#TT42"/> questa rapina si<pause/> ee ed io <del type="truncation">ll</del> la tranquillizzai dicendo <q type="spoken" who="#AW">guarda<pause/> probabilmente siccome hanno avuto successo<pause/> con i <measure><num>50</num> <unit>kg</unit> dell'oro che avevano rapinato<pause/> probabilmente adesso dalle schede vogliono vedere chi sono i maggiori contribuenti<pause/> per poter richiedere<pause/> un secondo ricatto</q><pause/> non immaginavo che quello servisse viceversa per la ricerca degli ebrei da deportare
+                    <anchor xml:id="arm-41" synch="#TT41"/><del type="truncation">ss</del> <del type="correction">si</del> è vista<anchor xml:id="arm-42" synch="#TT42"/> questa rapina si<pause/> ee ed io <del type="truncation">ll</del> la tranquillizzai dicendo <q type="spoken" who="#AW">guarda<pause/> probabilmente siccome hanno avuto successo<pause/> con i <measure><num>50</num> <unit>kg</unit> dell'oro che avevano rapinato<pause/> probabilmente adesso dalle schede vogliono vedere chi sono i maggiori contribuenti<pause/> per poter richiedere<pause/> un secondo ricatto</q><pause/> non immaginavo che quello servisse viceversa per la ricerca degli ebrei da deportare
                 </u>
 
                 <u who="#LPF" xml:id="LPF40" synch="#TS82"/>
-                    quindi<pause/> che le schede siano uscite dalla comunità è <ancor xml:id="lpf-43" synch="#TT43"/>sicuro<ancor xml:id="lpf-41" synch="#TT44"/>
+                    quindi<pause/> che le schede siano uscite dalla comunità è <anchor xml:id="lpf-43" synch="#TT43"/>sicuro<anchor xml:id="lpf-41" synch="#TT44"/>
                 </u>
 
                 <u who="#AW" xml:id="AW41" synch="#TS83"/>
-                    <ancor xml:id="arm-43" synch="#TT43"/>si<ancor xml:id="arm-44" synch="#TT44"/> si
+                    <anchor xml:id="arm-43" synch="#TT43"/>si<anchor xml:id="arm-44" synch="#TT44"/> si
                 </u>
 
                 <u who="#LPF" xml:id="LPF41" synch="#TS84"/>
-                    è sicurissimo <ancor xml:id="lpf-45" synch="#TT45"/><unclear reason="inaudible" resp="#GB">questo</unclear><ancor xml:id="lpf-46" synch="#TT46"/>
+                    è sicurissimo <anchor xml:id="lpf-45" synch="#TT45"/><unclear reason="inaudible" resp="#GB">questo</unclear><anchor xml:id="lpf-46" synch="#TT46"/>
                 </u>
 
                 <u who="#AW" xml:id="AW42" synch="#TS85"/>
-                    <ancor xml:id="arm-45" synch="#TT45"/>Si<pause/> così<ancor xml:id="arm-46" synch="#TT46"/> almeno <del type="repetition">me</del> me lo stava dicendo <persName ref="TEI-ListPerson.xml#ReginaPolacco" resp="#GB">mia moglie</persName> al <unclear reason="inaudible" resp="#GB"><del type="truncation">tele</del></unclear>
+                    <anchor xml:id="arm-45" synch="#TT45"/>Si<pause/> così<anchor xml:id="arm-46" synch="#TT46"/> almeno <del type="repetition">me</del> me lo stava dicendo <persName ref="TEI-ListPerson.xml#ReginaPolacco" resp="#GB">mia moglie</persName> al <unclear reason="inaudible" resp="#GB"><del type="truncation">tele</del></unclear>
                 </u>
 
                 <pause/>
@@ -1140,11 +1170,11 @@
                 </u>
 
                 <u who="#AW" xml:id="AW43" synch="#TS87"/><!-- notte; mattina? -->
-                    della razzia erano le <time when="5:00:00">5 del mattino</time> del <date when="1943-10-16" resp="#GB" cert="high">16 ottobre</date><pause/> eee<pause/> con noi<pause/> in famiglia<pause/> dormiva quella notte<pause/> un <persName ref="TEI-ListPerson.xml#VittorioPolacco" resp="#GB">mio nipote</persName><pause/> figlio di <del type="falseStart"><del type="truncation">ll</del></del> <del type="reformulation"><persName ref="TEI-ListPerson.xml#ElioPolacco" resp="#GB">mio cognato</persName></del><pause/> <persName ref="TEI-ListPerson.xml#VittorioPolacco">Vittorio Polacco</persName> che aveva due anni<pause/> in quanto i genitori<pause/> erano andati fuori <del type="truncation"><placeName ref="TEI-ListPlace.xml#Milano" resp="#GB">Mila</placeName></del> <del type="reformulation"> fuori <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName></del><pause/> per procurarsi dei generi alimentari<pause/> e avevano affidato il loro <persName ref="TEI-ListPerson.xml#VittorioPolacco" resp="#GB"><choice><orig>figliolo</orig><reg resp="#GB">figlio</reg></choice></persName> a noi<pause/> per quella notte<pause/> Eee quando la mattina le <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> entrarono da noi<pause/> consegnadocii<pause/> il foglio con il quale ci imponevano dii<pause/>lasciare la casa perché<pause/> da<pause/> <unclear reason="inaudible" resp="#GB" cert="low">venivamo</unclear> trasferiti in <placeName>Germania non dicevano <placeName>Polonia</placeName> <pause/>io dichiarai che naturalmente quel <persName ref="TEI-ListPerson.xml#VittorioPolacco" resp="#GB">bambino</persName><pause/> non era mio eee<pause/> quindi<pause/> non c'entrava con la mia famiglia<pause/> A questo mi risposero<pause/> in tedesco<pause/> lingua che io conoscevo<pause/> che non c'entrava nulla tutti dovevano venire con noi<pause/> Questo <persName ref="TEI-ListPerson.xml#VittorioPolacco" resp="#GB">bambino</persName> poi per un caso particolare riuscì a salvarlo<pause/> perché il camion nel quale ci trasportavano<pause/> sii recava da palazzo a palazzo<pause/> per ritirare gli ebrei nascosti o anche quelli<pause/> ufficialmente riconosciuti<pause/> Quando il camion si avvicinò al portone dove<pause/> abitava <persName ref="TEI-ListPerson.xml#ElioPolacco" resp="#GB">mio cognato</persName><pause/> vidi per caso<pause/> attraverso<pause/> il tendone <del type="repetition">dell</del> del camion<pause/> la <persName>portinaia</persName><pause/> che stava<pause/> al portone<pause/> io le feci vedere il <persName ref="TEI-ListPerson.xml#VittorioPolacco" resp="#GB">bambino</persName><pause/> e <del type="falseStart">le <vocal>emh</vocal></del> <del type="reformulation">stavo per</del><pause/> consegnarglielo dall'alto del camion però in quel momento<pause/> aveva girato la testa anche il <roleName type="military">sottufficiale</roleName> della <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice><pause/> attraverso il finestrino<pause/> Poi per mia fortuna lui volle <del type="falseStart"><del type="truncation">ass</del></del><pause/> <del type="reformulation">volle aaccendersi</del> una sigaretta <pause/>e quindi fu obbligato a voltare la testa in quell'attimo presi il <persName ref="TEI-ListPerson.xml#VittorioPolacco" resp="#GB">bambino</persName> e lo gettai nelle braccia<pause/> della<pause/> <persName>portinaia</persName> la quale sparì <choice><sic>nella sua</sic><corr resp="#GB">nel suo</corr></choice> appartamento nascondendo il <persName ref="TEI-ListPerson.xml#VittorioPolacco" resp="#GB">bambino</persName> cosicché non lo trovarono<pause/> <ancor xml:id="arm-47" synch="#TT47"/>E attualmente<ancor xml:id="arm-48" synch="#TT48"/> vive a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> <choice><orig>c'ha</orig><reg resp="#GB">ha</reg></choice> famiglia e bambini e
+                    della razzia erano le <time when="5:00:00">5 del mattino</time> del <date when="1943-10-16" resp="#GB" cert="high">16 ottobre</date><pause/> eee<pause/> con noi<pause/> in famiglia<pause/> dormiva quella notte<pause/> un <persName ref="TEI-ListPerson.xml#VittorioPolacco" resp="#GB">mio nipote</persName><pause/> figlio di <del type="falseStart"><del type="truncation">ll</del></del> <del type="reformulation"><persName ref="TEI-ListPerson.xml#ElioPolacco" resp="#GB">mio cognato</persName></del><pause/> <persName ref="TEI-ListPerson.xml#VittorioPolacco">Vittorio Polacco</persName> che aveva due anni<pause/> in quanto i genitori<pause/> erano andati fuori <del type="truncation"><placeName ref="TEI-ListPlace.xml#Milano" resp="#GB">Mila</placeName></del> <del type="reformulation"> fuori <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName></del><pause/> per procurarsi dei generi alimentari<pause/> e avevano affidato il loro <persName ref="TEI-ListPerson.xml#VittorioPolacco" resp="#GB"><choice><orig>figliolo</orig><reg resp="#GB">figlio</reg></choice></persName> a noi<pause/> per quella notte<pause/> Eee quando la mattina le <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> entrarono da noi<pause/> consegnadocii<pause/> il foglio con il quale ci imponevano dii<pause/>lasciare la casa perché<pause/> da<pause/> <unclear reason="inaudible" resp="#GB" cert="low">venivamo</unclear> trasferiti in <placeName>Germania non dicevano <placeName>Polonia</placeName> <pause/>io dichiarai che naturalmente quel <persName ref="TEI-ListPerson.xml#VittorioPolacco" resp="#GB">bambino</persName><pause/> non era mio eee<pause/> quindi<pause/> non c'entrava con la mia famiglia<pause/> A questo mi risposero<pause/> in tedesco<pause/> lingua che io conoscevo<pause/> che non c'entrava nulla tutti dovevano venire con noi<pause/> Questo <persName ref="TEI-ListPerson.xml#VittorioPolacco" resp="#GB">bambino</persName> poi per un caso particolare riuscì a salvarlo<pause/> perché il camion nel quale ci trasportavano<pause/> sii recava da palazzo a palazzo<pause/> per ritirare gli ebrei nascosti o anche quelli<pause/> ufficialmente riconosciuti<pause/> Quando il camion si avvicinò al portone dove<pause/> abitava <persName ref="TEI-ListPerson.xml#ElioPolacco" resp="#GB">mio cognato</persName><pause/> vidi per caso<pause/> attraverso<pause/> il tendone <del type="repetition">dell</del> del camion<pause/> la <persName>portinaia</persName><pause/> che stava<pause/> al portone<pause/> io le feci vedere il <persName ref="TEI-ListPerson.xml#VittorioPolacco" resp="#GB">bambino</persName><pause/> e <del type="falseStart">le <vocal>emh</vocal></del> <del type="reformulation">stavo per</del><pause/> consegnarglielo dall'alto del camion però in quel momento<pause/> aveva girato la testa anche il <roleName type="military">sottufficiale</roleName> della <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice><pause/> attraverso il finestrino<pause/> Poi per mia fortuna lui volle <del type="falseStart"><del type="truncation">ass</del></del><pause/> <del type="reformulation">volle aaccendersi</del> una sigaretta <pause/>e quindi fu obbligato a voltare la testa in quell'attimo presi il <persName ref="TEI-ListPerson.xml#VittorioPolacco" resp="#GB">bambino</persName> e lo gettai nelle braccia<pause/> della<pause/> <persName>portinaia</persName> la quale sparì <choice><sic>nella sua</sic><corr resp="#GB">nel suo</corr></choice> appartamento nascondendo il <persName ref="TEI-ListPerson.xml#VittorioPolacco" resp="#GB">bambino</persName> cosicché non lo trovarono<pause/> <anchor xml:id="arm-47" synch="#TT47"/>E attualmente<anchor xml:id="arm-48" synch="#TT48"/> vive a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> <choice><orig>c'ha</orig><reg resp="#GB">ha</reg></choice> famiglia e bambini e
                 </u>
 
                 <u who="#LPF"/>
-                    <ancor xml:id="lpf-47" synch="#TT47"/>emh mi può<ancor xml:id="lpf-48" synch="#TT48"/>
+                    <anchor xml:id="lpf-47" synch="#TT47"/>emh mi può<anchor xml:id="lpf-48" synch="#TT48"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF43" synch="#TS88"/>
@@ -1180,11 +1210,11 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF47" synch="#TS96"/>
-                    tra i primi<pause/> perché <unclear reason="inaudible" resp="#GB" cert="medium">aveva</unclear> l'idea che cominciassero proprio da lì<pause/> da <ancor xml:id="lpf-49" synch="#TT49"/>quella zona<ancor xml:id="lpf-50" synch="#TT50"/>
+                    tra i primi<pause/> perché <unclear reason="inaudible" resp="#GB" cert="medium">aveva</unclear> l'idea che cominciassero proprio da lì<pause/> da <anchor xml:id="lpf-49" synch="#TT49"/>quella zona<anchor xml:id="lpf-50" synch="#TT50"/>
                 </u>
 
                 <u who="#AW"/>
-                    <ancor xml:id="arm-49" synch="#TT49"/><unclear reason="inaudible" resp="#GB" cert="low">non</unclear><ancor xml:id="arm-50" synch="#TT50"/>
+                    <anchor xml:id="arm-49" synch="#TT49"/><unclear reason="inaudible" resp="#GB" cert="low">non</unclear><anchor xml:id="arm-50" synch="#TT50"/>
                 </u>
 
                 <u who="#AW" xml:id="AW48" synch="#TS97"/>
@@ -1196,37 +1226,37 @@
                 </u>
 
                 <u who="#AW" xml:id="AW49" synch="#TS99"/>
-                    era diviso per zone ma malgrado ciò<pause/> avevano <vocal>ehm</vocal> elenchi non<pause/> perfetti<pause/> nel senso che <del type="falseStart">quel</del><pause/> <del type="correction">quella</del> squadra che è venuta a prendere me avrebbe dovuto contemporaneamente prendere anche <persName ref="TEI-ListPerson.xml#Sorani">Sorani</persName><ancor xml:id="arm-51" synch="#TT51"/><pause/> ma<ancor xml:id="arm-52" synch="#TT52"/> viceversa<pause/> non era così era in un secondo elenco<pause/> e in quel secondo elenco quando sono arrivati <persName ref="TEI-ListPerson.xml#Sorani" resp="#GB">lui</persName> non c'era più
+                    era diviso per zone ma malgrado ciò<pause/> avevano <vocal>ehm</vocal> elenchi non<pause/> perfetti<pause/> nel senso che <del type="falseStart">quel</del><pause/> <del type="correction">quella</del> squadra che è venuta a prendere me avrebbe dovuto contemporaneamente prendere anche <persName ref="TEI-ListPerson.xml#Sorani">Sorani</persName><anchor xml:id="arm-51" synch="#TT51"/><pause/> ma<anchor xml:id="arm-52" synch="#TT52"/> viceversa<pause/> non era così era in un secondo elenco<pause/> e in quel secondo elenco quando sono arrivati <persName ref="TEI-ListPerson.xml#Sorani" resp="#GB">lui</persName> non c'era più
                 </u>
 
                 <u who="#LPF"/>
-                    <ancor xml:id="lpf-51" synch="#TT51"/>certo<ancor xml:id="lpf-52" synch="#TT52"/>
+                    <anchor xml:id="lpf-51" synch="#TT51"/>certo<anchor xml:id="lpf-52" synch="#TT52"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF49" synch="#TS100"/>
-                    lei è sicuro che sia in un secondo elenco <del type="correction"><ancor xml:id="lpf-53" synch="#TT53"/>che<ancor xml:id="lpf-54" synch="#TT54"/> fosse</del> in un secondo elenco
+                    lei è sicuro che sia in un secondo elenco <del type="correction"><anchor xml:id="lpf-53" synch="#TT53"/>che<anchor xml:id="lpf-54" synch="#TT54"/> fosse</del> in un secondo elenco
                 </u>
 
                 <u who="#AW"/>
-                    <ancor xml:id="arm-53" synch="#TT53"/>si<ancor xml:id="arm-54" synch="#TT54"/>
+                    <anchor xml:id="arm-53" synch="#TT53"/>si<anchor xml:id="arm-54" synch="#TT54"/>
                 </u>
 
                 <u who="#AW" xml:id="AW50" synch="#TS101"/>
-                    si ma per un errore <ancor xml:id="arm-55" synch="#TT55"/>probabilmente<ancor xml:id="arm-56" synch="#TT56"/>
+                    si ma per un errore <anchor xml:id="arm-55" synch="#TT55"/>probabilmente<anchor xml:id="arm-56" synch="#TT56"/>
                 </u>
 
                 <u who="#LPF"/>
-                    <ancor xml:id="lpf-55" synch="#TT55"/>per un errore<ancor xml:id="lpf-56" synch="#TT56"/>
+                    <anchor xml:id="lpf-55" synch="#TT55"/>per un errore<anchor xml:id="lpf-56" synch="#TT56"/>
                 </u>
 
                 <pause/>
 
                 <u who="#LPF" xml:id="LPF50" synch="#TS102"/>
-                    <vocal>Emh</vocal> senta <vocal>emh</vocal> come arrivarono all'improvviso <ancor xml:id="lpf-57" synch="#TT57"/>oppure<ancor xml:id="lpf-58" synch="#TT58"/>
+                    <vocal>Emh</vocal> senta <vocal>emh</vocal> come arrivarono all'improvviso <anchor xml:id="lpf-57" synch="#TT57"/>oppure<anchor xml:id="lpf-58" synch="#TT58"/>
                 </u>
 
                 <u who="#AW" xml:id="AW51" synch="#TS103"/>
-                    <ancor xml:id="arm-57" synch="#TT57"/>arrivarono<ancor xml:id="arm-58" synch="#TT58"/> all'improvviso alle <time when="5:00:00">5 del mattino</time>
+                    <anchor xml:id="arm-57" synch="#TT57"/>arrivarono<anchor xml:id="arm-58" synch="#TT58"/> all'improvviso alle <time when="5:00:00">5 del mattino</time>
                 </u>
 
                 <u who="#LPF" xml:id="LPF51" synch="#TS104"/>
@@ -1246,33 +1276,33 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF53" synch="#TS108"/>
-                    quindi entrarono <ancor xml:id="lpf-59" synch="#TT59"/>direttamente sapevano<ancor xml:id="lpf-60" synch="#TT60"/> anche il piano
+                    quindi entrarono <anchor xml:id="lpf-59" synch="#TT59"/>direttamente sapevano<anchor xml:id="lpf-60" synch="#TT60"/> anche il piano
                 </u>
 
                 <u who="#AW"/>
-                    <ancor xml:id="arm-59" synch="#TT59"/>si<ancor xml:id="arm-60" synch="#TT60"/>
+                    <anchor xml:id="arm-59" synch="#TT59"/>si<anchor xml:id="arm-60" synch="#TT60"/>
                 </u>
 
                 <pause/>
 
                 <u who="#AW" xml:id="AW54" synch="#TS109"/>
-                    <del type="truncation">N</del> non so io abitavo al primo piano ma non se avevano<pause/> né l'indirizzo anche la località esatta dell'<ancor xml:id="arm-61" synch="#TT61"/><unclear reason="inaudible" resp="#GB" cert="high">appartamento</unclear><ancor xml:id="arm-62" synch="#TT62"/>
+                    <del type="truncation">N</del> non so io abitavo al primo piano ma non se avevano<pause/> né l'indirizzo anche la località esatta dell'<anchor xml:id="arm-61" synch="#TT61"/><unclear reason="inaudible" resp="#GB" cert="high">appartamento</unclear><anchor xml:id="arm-62" synch="#TT62"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF54" synch="#TS110"/>
-                    <ancor xml:id="lpf-61" synch="#TT61"/>e <persName ref="TEI-ListPerson.xml#Sorani">Sorani</persName><ancor xml:id="lpf-62" synch="#TT62"/>a che piano abitava
+                    <anchor xml:id="lpf-61" synch="#TT61"/>e <persName ref="TEI-ListPerson.xml#Sorani">Sorani</persName><anchor xml:id="lpf-62" synch="#TT62"/>a che piano abitava
                 </u>
 
                 <u who="#AW" xml:id="AW55" synch="#TS111"/>
-                    lo stesso pianerottolo<pause/> <ancor xml:id="arm-63" synch="#TT63"/><unclear reason="inaudible" resp="#GB" cert="medium">del mio</unclear><ancor xml:id="arm-64" synch="#TT64"/>
+                    lo stesso pianerottolo<pause/> <anchor xml:id="arm-63" synch="#TT63"/><unclear reason="inaudible" resp="#GB" cert="medium">del mio</unclear><anchor xml:id="arm-64" synch="#TT64"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF55" synch="#TS112"/>
-                    <ancor xml:id="lpf-63" synch="#TT63"/>lo stesso<ancor xml:id="lpf-64" synch="#TT64"/> pianerottolo<pause/> <vocal>Emh</vocal> lei non sa come avvenne <del type="repetition">nelle altre</del><pause/> nelle altre case cioè se <vocal>ehm</vocal> suonarono alla portinaia oppure<ancor xml:id="lpf-65" synch="#TT65"/><pause/> entrarono direttamente<ancor xml:id="lpf-66" synch="#TT66"/>
+                    <anchor xml:id="lpf-63" synch="#TT63"/>lo stesso<anchor xml:id="lpf-64" synch="#TT64"/> pianerottolo<pause/> <vocal>Emh</vocal> lei non sa come avvenne <del type="repetition">nelle altre</del><pause/> nelle altre case cioè se <vocal>ehm</vocal> suonarono alla portinaia oppure<anchor xml:id="lpf-65" synch="#TT65"/><pause/> entrarono direttamente<anchor xml:id="lpf-66" synch="#TT66"/>
                 </u>
 
                 <u who="#AW" xml:id="AW56" synch="#TS113"/>
-                    <ancor xml:id="arm-65" synch="#TT65"/><del type="repetition">Non lo so</del> non lo so<pause/> so solamente che<ancor xml:id="arm-66" synch="#TT66"/> quando mii trasportarono<pause/> alla <placeName ref="TEI-ListPlace.xml#scuolamilitare"> scuola militare</placeName> che è sul <placeName type="street">Lungo Tevere</placeName><pause/> c'era già una certa<pause/> massa di gente<pause/> <vocal>eeehm</vocal><pause/> quindi urlava perché <del type="falseStart">i</i> <del type="reformulation">quelli</del> della <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> davano degli ordini <pause/>e questi non capivano<pause/> quelli delle <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> allora si<pause/> mettevano <del type="repetition">aa</del> a colpirli con il calcio del fucile in testa<pause/> ed è in quell'epoca che io mi presentai aaa <pause/><persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName> che era il <roleName type="military">comandante</roleName><pause/> e mi <pause/>offersi da fare l'interprete<pause/> e <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName> accolse molto <unclear reason="inaudible" resp="#GB" cert="medium">favorevolmente</unclear> la mia proposta<pause/> perché nessun altro capiva il tedesco<pause/> e così si tranquillizzò la situazione
+                    <anchor xml:id="arm-65" synch="#TT65"/><del type="repetition">Non lo so</del> non lo so<pause/> so solamente che<anchor xml:id="arm-66" synch="#TT66"/> quando mii trasportarono<pause/> alla <placeName ref="TEI-ListPlace.xml#scuolamilitare"> scuola militare</placeName> che è sul <placeName type="street">Lungo Tevere</placeName><pause/> c'era già una certa<pause/> massa di gente<pause/> <vocal>eeehm</vocal><pause/> quindi urlava perché <del type="falseStart">i</i> <del type="reformulation">quelli</del> della <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> davano degli ordini <pause/>e questi non capivano<pause/> quelli delle <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> allora si<pause/> mettevano <del type="repetition">aa</del> a colpirli con il calcio del fucile in testa<pause/> ed è in quell'epoca che io mi presentai aaa <pause/><persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName> che era il <roleName type="military">comandante</roleName><pause/> e mi <pause/>offersi da fare l'interprete<pause/> e <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName> accolse molto <unclear reason="inaudible" resp="#GB" cert="medium">favorevolmente</unclear> la mia proposta<pause/> perché nessun altro capiva il tedesco<pause/> e così si tranquillizzò la situazione
                 </u>
 
                 <u who="#LPF" xml:id="LPF56" synch="#TS114"/>
@@ -1300,21 +1330,21 @@
                 </u>
 
                 <u who="#AW" xml:id="AW59" synch="#TS119"/>
-                    <del type="repetition">a</del> a battere sulle <ancor xml:id="arm-67" synch="#TT67"/>porte<ancor xml:id="arm-68" synch="#TT68"/> perché aprissero la porta <del type="reformulation">il portone</del><ancor xml:id="arm-69" synch="#TT69"/><pause/><ancor xml:id="arm-70" synch="#TT70"/> <vocal>eeehm</vocal><pause/> una parte della famiglia <unclear reasong="inaudible" resp="#GB" cert="medium">capitava</unclear> al <del type="truncation">num</del> al <placeNametype="street">numero <num>3</num> di via della Luce</placeName><pause/> il <persName>padre</persName><pause/> scappò sul tetto<pause/> e quindi hanno arrestato tutti gli appartenenti della famiglia e lui invece si salvò
+                    <del type="repetition">a</del> a battere sulle <anchor xml:id="arm-67" synch="#TT67"/>porte<anchor xml:id="arm-68" synch="#TT68"/> perché aprissero la porta <del type="reformulation">il portone</del><anchor xml:id="arm-69" synch="#TT69"/><pause/><anchor xml:id="arm-70" synch="#TT70"/> <vocal>eeehm</vocal><pause/> una parte della famiglia <unclear reasong="inaudible" resp="#GB" cert="medium">capitava</unclear> al <del type="truncation">num</del> al <placeNametype="street">numero <num>3</num> di via della Luce</placeName><pause/> il <persName>padre</persName><pause/> scappò sul tetto<pause/> e quindi hanno arrestato tutti gli appartenenti della famiglia e lui invece si salvò
                 </u>
 
                 <u who="#LPF"/>
-                    <ancor xml:id="lpf-67" synch="#TT67"/>si<ancor xml:id="lpf-68" synch="#TT68"/> 
-                    <ancor xml:id="lpf-69" synch="#TT69"/>si<ancor xml:id="lpf-70" synch="#TT70"/>
+                    <anchor xml:id="lpf-67" synch="#TT67"/>si<anchor xml:id="lpf-68" synch="#TT68"/> 
+                    <anchor xml:id="lpf-69" synch="#TT69"/>si<anchor xml:id="lpf-70" synch="#TT70"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF59" synch="#TS120"/>
-                    quindi hanno battuto al portone <ancor xml:id="lpf-71" synch="#TT71"/>in basso<pause/> quindi<ancor xml:id="lpf-72" synch="#TT72"/> al limite qualcuno <ancor xml:id="lpf-73" synch="#TT73"/>poteva come <vocal>eh</vocal> come<ancor xml:id="lpf-74" synch="#TT74"/> è riuscito effettivamente
+                    quindi hanno battuto al portone <anchor xml:id="lpf-71" synch="#TT71"/>in basso<pause/> quindi<anchor xml:id="lpf-72" synch="#TT72"/> al limite qualcuno <anchor xml:id="lpf-73" synch="#TT73"/>poteva come <vocal>eh</vocal> come<anchor xml:id="lpf-74" synch="#TT74"/> è riuscito effettivamente
                 </u>
 
                 <u who="#AW"/>
-                    <ancor xml:id="arm-71" synch="#TT71"/>al portone<pause/> in basso<ancor xml:id="arm-72" synch="#TT72"/>
-                    <ancor xml:id="arm-73" synch="#TT73"/>qualcuno è riuscito si<pause/> <del type="repetition">si</del> si<ancor xml:id="arm-74" synch="#TT74"/>
+                    <anchor xml:id="arm-71" synch="#TT71"/>al portone<pause/> in basso<anchor xml:id="arm-72" synch="#TT72"/>
+                    <anchor xml:id="arm-73" synch="#TT73"/>qualcuno è riuscito si<pause/> <del type="repetition">si</del> si<anchor xml:id="arm-74" synch="#TT74"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF60" synch="#TS121"/>
@@ -1334,19 +1364,19 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF62" synch="#TS125"/>
-                    come eran vestiti da <ancor xml:id="lpf-75" synch="#TT75"/><choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice><ancor xml:id="lpf-76" synch="#TT76"/>
+                    come eran vestiti da <anchor xml:id="lpf-75" synch="#TT75"/><choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice><anchor xml:id="lpf-76" synch="#TT76"/>
                 </u>
 
                 <u who="#AW" xml:id="AW62" synch="#TS126"/>
-                    <ancor xml:id="arm-75" synch="#TT75"/>erano<ancor xml:id="arm-76" synch="#TT76"/> vestiti da <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice>
+                    <anchor xml:id="arm-75" synch="#TT75"/>erano<anchor xml:id="arm-76" synch="#TT76"/> vestiti da <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice>
                 </u>
 
                 <u who="#LPF" xml:id="LPF63" synch="#TS127"/>
-                    si ricorda un bracciale con la S di sopra o no<pause/> <ancor xml:id="lpf-77" synch="#TT77"/>si <del type="truncation">ri</del><ancor xml:id="lpf-78" synch="#TT78"/>
+                    si ricorda un bracciale con la S di sopra o no<pause/> <anchor xml:id="lpf-77" synch="#TT77"/>si <del type="truncation">ri</del><anchor xml:id="lpf-78" synch="#TT78"/>
                 </u>
 
                 <u who="#AW" xml:id="AW63" synch="#TS128"/>
-                    <ancor xml:id="arm-77" synch="#TT77"/>no non mi ricordo<ancor xml:id="arm-78" synch="#TT78"/><pause/> i particolari non li ricordo ma so che erano delle <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice>
+                    <anchor xml:id="arm-77" synch="#TT77"/>no non mi ricordo<anchor xml:id="arm-78" synch="#TT78"/><pause/> i particolari non li ricordo ma so che erano delle <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice>
                 </u>
 
                 <pause/>
@@ -1360,19 +1390,19 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF65" synch="#TS131"/>
-                    in italiano o in <ancor xml:id="lpf-79" synch="#TT79"/>tedesco<ancor xml:id="lpf-80" synch="#TT80"/>
+                    in italiano o in <anchor xml:id="lpf-79" synch="#TT79"/>tedesco<anchor xml:id="lpf-80" synch="#TT80"/>
                 </u>
 
                 <u who="#AW" xml:id="AW65" synch="#TS132"/>
-                    <ancor xml:id="arm-79" synch="#TT79"/>italiano<ancor xml:id="arm-80" synch="#TT80"/> e tedesco
+                    <anchor xml:id="arm-79" synch="#TT79"/>italiano<anchor xml:id="arm-80" synch="#TT80"/> e tedesco
                 </u>
 
                 <u who="#LPF" xml:id="LPF66" synch="#TS133"/>
-                    in tutte e due le <ancor xml:id="lpf-81" synch="#TT81"/>lingue<ancor xml:id="lpf-82" synch="#TT82"/>
+                    in tutte e due le <anchor xml:id="lpf-81" synch="#TT81"/>lingue<anchor xml:id="lpf-82" synch="#TT82"/>
                 </u>
 
                 <u who="#AW" xml:id="AW66" synch="#TS134"/>
-                    <ancor xml:id="arm-81" synch="#TT81"/>in tutte e<ancor xml:id="arm-82" synch="#TT82"/> due le lingue
+                    <anchor xml:id="arm-81" synch="#TT81"/>in tutte e<anchor xml:id="arm-82" synch="#TT82"/> due le lingue
                 </u>
 
                 <u who="#LPF" xml:id="LPF67" synch="#TS135"/>
@@ -1380,11 +1410,11 @@
                 </u>
 
                 <u who="#AW" xml:id="AW67" synch="#TS136"/>
-                    era <vocal>emh</vocal> <del type="truncation">st</del><pause/> <choice><orig>mi pare</orig><reg resp="#GB">mi sembra</reg></choice> fatto <del type="reformulation">stampato</del><pause/> per <foreign xml:lang="en" cert="low">copy</foreign><pause/> come si chiama <ancor xml:id="arm-83" synch="#TT83"/><del type="repetition">per</del><pause/> per ciclostile<ancor xml:id="arm-84" synch="#TT84"/>
+                    era <vocal>emh</vocal> <del type="truncation">st</del><pause/> <choice><orig>mi pare</orig><reg resp="#GB">mi sembra</reg></choice> fatto <del type="reformulation">stampato</del><pause/> per <foreign xml:lang="en" cert="low">copy</foreign><pause/> come si chiama <anchor xml:id="arm-83" synch="#TT83"/><del type="repetition">per</del><pause/> per ciclostile<anchor xml:id="arm-84" synch="#TT84"/>
                 </u>
 
                 <u who="#LPF"/>
-                    <ancor xml:id="lpf-83" synch="#TT83"/>ciclostile forse<ancor xml:id="lpf-84" synch="#TT84"/>
+                    <anchor xml:id="lpf-83" synch="#TT83"/>ciclostile forse<anchor xml:id="lpf-84" synch="#TT84"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF68" synch="#TS137"/>
@@ -1400,11 +1430,11 @@
                 </u>
 
                 <u who="#AW" xml:id="AW69" synch="#TS140"/><!-- who -->
-                    hanno perquisito <vocal>eh</vocal> alla ricerca di altre persone <pause/>ma poi quando loro<pause/> ci dissero che<pause/> <unclear reason="inaudible" resp="#GB" cert="medium">avevam</unclear> potuto portare con noi tutto quanto nel campo di lavoro la tirai fuori<pause/> e la presi con me<pause/> che poi naturalmente mi è stata sottratta<pause/> già alla <placeName ref="TEI-ListPlace.xml#scuolamilitare">scuola militare</placeName> perché<pause/> come è noto alla <placeName ref="TEI-ListPlace.xml#scuolamilitare"> scuola militare</placeName> <date when="1943-10-17">il giorno dopo</date><pause/> ci fecero<pause/> <choice><sic>traversare</sic><corr resp="#GB">attraversare</corr></choice> il corridoio<pause/> alla fine del quale c'era <persName ref="TEI-ListPerson.xml#Dannecker"><roleName type="military">l'ufficiale</roleName>Dannecker</persName><pause/> e un tavolo<pause/> con dei <distinct type="archaic">tiretti</distinct> <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName> mi fece dire in italiano ciò che naturalmente mi stava dicendo prima in tedesco<pause/> che<pause/> nel campo dove saremmo stati<pause/> deportati <unclear reason="inaudible" resp="#GB" cert="low">cioè</unclear> non usò il termine deportati ma trasferiti<pause/> avremmo dovuto vivere<pause/> a nostre spese e cioè con tutto quello che abbiamo con noi<pause/> ma siccome ci sono alcuni che hanno dei mezzi e altri no<pause/> bisognava consegnare tutto a loro<pause/> alla <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> e cioè<pause/> oro gioielli e <distinct type="archaic">danaro</distinct><pause/> e ripassare quindi davanti<pause/> aa <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName> per consegnarli<pause/> quanto prima detto<pause/> eee<pause/> io rimasi l'ultimo<pause/> e avevo un orologio un longines<pause/> d'oro<pause/> e gli anelli <pause/>e una parte di gioielli io una parte dei gioielli li consegnai più il <distinct type="archaic">danaro</distinct><pause/> mentre l'orologio lo tenni con me come pure gli anelli<pause/> miei e di <persName ref="TEI-ListPerson.xml#ReginaPolacco" resp="#GB">mia moglie</persName><pause/> <choice><orig>il <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName></orig><reg resp="#GB"><persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName></reg></choice> mi disse <q type="spoken" who="TEI-ListPerson.xml#Dannecker">tienteli pure tanto ti verrano<pause/> <choice><orig>levati</orig><reg resp="#GB">tolti</reg></choice><incident><desc>viene spostata una sedia</desc></incident> al campo dove arriverai</q><pause/> <ancor xml:id="arm-85" synch="#TT85"/><emph>so</emph><ancor xml:id="arm-86" synch="#TT86"/> di molte donne<pause/> che il <distinct type="archaic">danaro</distinct> <pause/>anziché consegnarlo hanno preferito buttarlo nella latrina
+                    hanno perquisito <vocal>eh</vocal> alla ricerca di altre persone <pause/>ma poi quando loro<pause/> ci dissero che<pause/> <unclear reason="inaudible" resp="#GB" cert="medium">avevam</unclear> potuto portare con noi tutto quanto nel campo di lavoro la tirai fuori<pause/> e la presi con me<pause/> che poi naturalmente mi è stata sottratta<pause/> già alla <placeName ref="TEI-ListPlace.xml#scuolamilitare">scuola militare</placeName> perché<pause/> come è noto alla <placeName ref="TEI-ListPlace.xml#scuolamilitare"> scuola militare</placeName> <date when="1943-10-17">il giorno dopo</date><pause/> ci fecero<pause/> <choice><sic>traversare</sic><corr resp="#GB">attraversare</corr></choice> il corridoio<pause/> alla fine del quale c'era <persName ref="TEI-ListPerson.xml#Dannecker"><roleName type="military">l'ufficiale</roleName>Dannecker</persName><pause/> e un tavolo<pause/> con dei <distinct type="archaic">tiretti</distinct> <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName> mi fece dire in italiano ciò che naturalmente mi stava dicendo prima in tedesco<pause/> che<pause/> nel campo dove saremmo stati<pause/> deportati <unclear reason="inaudible" resp="#GB" cert="low">cioè</unclear> non usò il termine deportati ma trasferiti<pause/> avremmo dovuto vivere<pause/> a nostre spese e cioè con tutto quello che abbiamo con noi<pause/> ma siccome ci sono alcuni che hanno dei mezzi e altri no<pause/> bisognava consegnare tutto a loro<pause/> alla <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> e cioè<pause/> oro gioielli e <distinct type="archaic">danaro</distinct><pause/> e ripassare quindi davanti<pause/> aa <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName> per consegnarli<pause/> quanto prima detto<pause/> eee<pause/> io rimasi l'ultimo<pause/> e avevo un orologio un longines<pause/> d'oro<pause/> e gli anelli <pause/>e una parte di gioielli io una parte dei gioielli li consegnai più il <distinct type="archaic">danaro</distinct><pause/> mentre l'orologio lo tenni con me come pure gli anelli<pause/> miei e di <persName ref="TEI-ListPerson.xml#ReginaPolacco" resp="#GB">mia moglie</persName><pause/> <choice><orig>il <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName></orig><reg resp="#GB"><persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName></reg></choice> mi disse <q type="spoken" who="TEI-ListPerson.xml#Dannecker">tienteli pure tanto ti verrano<pause/> <choice><orig>levati</orig><reg resp="#GB">tolti</reg></choice><incident><desc>viene spostata una sedia</desc></incident> al campo dove arriverai</q><pause/> <anchor xml:id="arm-85" synch="#TT85"/><emph>so</emph><anchor xml:id="arm-86" synch="#TT86"/> di molte donne<pause/> che il <distinct type="archaic">danaro</distinct> <pause/>anziché consegnarlo hanno preferito buttarlo nella latrina
                 </u>
 
                 <u who="#LPF"/>
-                    <ancor xml:id="lpf-85" synch="#TT85"/><gap reason="inaudible" extent="1 word"/><ancor xml:id="lpf-86" synch="#TT86"/>
+                    <anchor xml:id="lpf-85" synch="#TT85"/><gap reason="inaudible" extent="1 word"/><anchor xml:id="lpf-86" synch="#TT86"/>
                 </u>
 
                 <pause/>
@@ -1420,11 +1450,11 @@
                 <pause/>
 
                 <u who="#LPF" xml:id="LPF71" synch="#TS143"/>
-                    no nel senso che <del type="falseStart">qualcuno ha <del type="truncation">ten</del></del> <vocal>ehm</vocal> <del type="reformulation">qualche tedesco ha tentato</del> di rubare nei vostri <ancor xml:id="lpf-87" synch="#TT87"/>appartamenti<pause/> questo volevo sapere<ancor xml:id="lpf-88" synch="#TT88"/>
+                    no nel senso che <del type="falseStart">qualcuno ha <del type="truncation">ten</del></del> <vocal>ehm</vocal> <del type="reformulation">qualche tedesco ha tentato</del> di rubare nei vostri <anchor xml:id="lpf-87" synch="#TT87"/>appartamenti<pause/> questo volevo sapere<anchor xml:id="lpf-88" synch="#TT88"/>
                 </u>
 
                 <u who="#AW"/>
-                    <ancor xml:id="arm-87" synch="#TT87"/><del type="repetition">questo si</del><pause/> questo si<ancor xml:id="arm-88" synch="#TT88"/>
+                    <anchor xml:id="arm-87" synch="#TT87"/><del type="repetition">questo si</del><pause/> questo si<anchor xml:id="arm-88" synch="#TT88"/>
                 </u>
 
                 <u who="#AW" xml:id="AW71" synch="#TS144"/>
@@ -1432,15 +1462,15 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF72" synch="#TS145"/>
-                    era una iniziativa<pause/> <ancor xml:id="lpf-89" synch="#TT89"/>privata di questi che li <ancor xml:id="lpf-90" synch="#TT90"/><del type="truncation">accompagna</del> <del type="correction">che l'accompagnavano</del> o secondo lei erano ordini <ancor xml:id="lpf-91" synch="#TT91"/>di <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName><ancor xml:id="lpf-92" synch="#TT92"/>
+                    era una iniziativa<pause/> <anchor xml:id="lpf-89" synch="#TT89"/>privata di questi che li <anchor xml:id="lpf-90" synch="#TT90"/><del type="truncation">accompagna</del> <del type="correction">che l'accompagnavano</del> o secondo lei erano ordini <anchor xml:id="lpf-91" synch="#TT91"/>di <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName><anchor xml:id="lpf-92" synch="#TT92"/>
                 </u>
 
                 <u who="#AW"/>
-                    <ancor xml:id="arm-89" synch="#TT89"/>privata di questi delle <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice><ancor xml:id="arm-90" synch="#TT90"/>
+                    <anchor xml:id="arm-89" synch="#TT89"/>privata di questi delle <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice><anchor xml:id="arm-90" synch="#TT90"/>
                 </u>
 
                 <u who="#AW" xml:id="AW72" synch="#TS146"/>
-                    <ancor xml:id="arm-91" synch="#TT91"/>io penso che <ancor xml:id="arm-92" synch="#TT92"/><del type="repetition">era era</del> era<pause/> privata
+                    <anchor xml:id="arm-91" synch="#TT91"/>io penso che <anchor xml:id="arm-92" synch="#TT92"/><del type="repetition">era era</del> era<pause/> privata
                 </u>
 
                 <u who="#LPF" xml:id="LPF73" synch="#TS147"/>
@@ -1458,15 +1488,15 @@
                 </u>
 
                 <u who="#AW" xml:id="AW74" synch="#TS150"/>
-                    la gente non eravamo in contatto<pause/> solamente che<ancor xml:id="arm-93" synch="#TT93"/><pause/> ci fecero<ancor xml:id="arm-94" synch="#TT94"/>
+                    la gente non eravamo in contatto<pause/> solamente che<anchor xml:id="arm-93" synch="#TT93"/><pause/> ci fecero<anchor xml:id="arm-94" synch="#TT94"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF75" synch="#TS151"/>
-                   <ancor xml:id="lpf-93" synch="#TT93"/>no nel momento dell<ancor xml:id="lpf-94" synch="#TT94"/>'arresto <ancor xml:id="lpf-95" synch="#TT95"/>diciamo<ancor xml:id="lpf-96" synch="#TT96"/>
+                   <anchor xml:id="lpf-93" synch="#TT93"/>no nel momento dell<anchor xml:id="lpf-94" synch="#TT94"/>'arresto <anchor xml:id="lpf-95" synch="#TT95"/>diciamo<anchor xml:id="lpf-96" synch="#TT96"/>
                 </u>
 
                 <u who="#AW" xml:id="AW75" synch="#TS152"/><!-- la mattina; who -->
-                    <ancor xml:id="arm-95" synch="#TT95"/>nel momento<ancor xml:id="arm-96" synch="#TT96"/> dell'arresto era troppo presto la mattina perché la gente potesse vederci<pause/> so solamente che <vocal>ehm</vocal><pause/> andammo anche in una panetteria in <placeName type="street">Corso Vittorio</placeName><pause/> a prelevare <measure><num>200</num><unit> kg</unit></measure> di pane<pause/> è lì che <vocal>emh</vocal><pause/> ebbi la possibilità di fuggire in quanto la panetteria<pause/> aveva due porte<pause/> una sulla strada<pause/> parallela<pause/> e mentre <del type="falseStart"><unclear reason="inaudible" resp="#GB">cia</unclear></del> <del type="reformulation">stavano</del> caricando il pane io mi affacciai alla porta della panetteria<pause/> e avrei potuto<pause/> facilmente scappare<pause/> ma poi il pensiero di quanto <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName> mi disse quando mi lasciò andare con quelli della <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice><pause/> a prelevare il pane <q type="spoken" who="TEI-ListPerson.xml#Dannecker">guarda che la tua famiglia è qui</q><pause/> ritornai indietro lo stesso avvenne in una farmacia in <placeName type="street">via Arenula</placeName><pause/> anche <unclear reason="inaudible" resp="#GB" cert="medium">i</unclear> farmaci siamo andati a prendere in farmacia e anche lì per caso la farmacia aveva due<pause/> entrate<pause/> anche lì mi trovavo già sulla porta<pause/> ma poi lo stesso pensiero<pause/> mi fece ritornare
+                    <anchor xml:id="arm-95" synch="#TT95"/>nel momento<anchor xml:id="arm-96" synch="#TT96"/> dell'arresto era troppo presto la mattina perché la gente potesse vederci<pause/> so solamente che <vocal>ehm</vocal><pause/> andammo anche in una panetteria in <placeName type="street">Corso Vittorio</placeName><pause/> a prelevare <measure><num>200</num><unit> kg</unit></measure> di pane<pause/> è lì che <vocal>emh</vocal><pause/> ebbi la possibilità di fuggire in quanto la panetteria<pause/> aveva due porte<pause/> una sulla strada<pause/> parallela<pause/> e mentre <del type="falseStart"><unclear reason="inaudible" resp="#GB">cia</unclear></del> <del type="reformulation">stavano</del> caricando il pane io mi affacciai alla porta della panetteria<pause/> e avrei potuto<pause/> facilmente scappare<pause/> ma poi il pensiero di quanto <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName> mi disse quando mi lasciò andare con quelli della <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice><pause/> a prelevare il pane <q type="spoken" who="TEI-ListPerson.xml#Dannecker">guarda che la tua famiglia è qui</q><pause/> ritornai indietro lo stesso avvenne in una farmacia in <placeName type="street">via Arenula</placeName><pause/> anche <unclear reason="inaudible" resp="#GB" cert="medium">i</unclear> farmaci siamo andati a prendere in farmacia e anche lì per caso la farmacia aveva due<pause/> entrate<pause/> anche lì mi trovavo già sulla porta<pause/> ma poi lo stesso pensiero<pause/> mi fece ritornare
                 </u>
 
                 <u who="#LPF" xml:id="LPF76" synch="#TS153"/>
@@ -1492,11 +1522,11 @@
                 </u>
 
                 <u who="#AW" xml:id="AW78" synch="#TS158"/><!-- mattina -->
-                    <vocal>emh</vocal> <del type="falseStart"><del type="truncation">c'er</del></del> <del type="reformulation">hanno</del> fatto molto presto la mattina <ancor xml:id="arm-97" synch="#TT97"/>appunto<ancor xml:id="arm-98" synch="#TT98"/> per
+                    <vocal>emh</vocal> <del type="falseStart"><del type="truncation">c'er</del></del> <del type="reformulation">hanno</del> fatto molto presto la mattina <anchor xml:id="arm-97" synch="#TT97"/>appunto<anchor xml:id="arm-98" synch="#TT98"/> per
                 </u>
 
                 <u who="#LPF"/>
-                    <ancor xml:id="lpf-97" synch="#TT97"/><vocal>ehm</vocal><ancor xml:id="lpf-98" synch="#TT98"/>
+                    <anchor xml:id="lpf-97" synch="#TT97"/><vocal>ehm</vocal><anchor xml:id="lpf-98" synch="#TT98"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF79" synch="#TS159"/>
@@ -1524,21 +1554,21 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF82" synch="#TS165"/>
-                    e al <placeName ref="TEI-ListPlace.xml#scuolamilitare">collegio militare</placeName> c'eranoo <vocal>ehm</vocal><pause/> attrezzature c'erano servizi igienici <ancor xml:id="lpf-99" synch="#TT99"/>o non c'era nulla<ancor xml:id="lpf-100" synch="#TT100"/>
+                    e al <placeName ref="TEI-ListPlace.xml#scuolamilitare">collegio militare</placeName> c'eranoo <vocal>ehm</vocal><pause/> attrezzature c'erano servizi igienici <anchor xml:id="lpf-99" synch="#TT99"/>o non c'era nulla<anchor xml:id="lpf-100" synch="#TT100"/>
                 </u>
 
                 <u who="#AW" xml:id="AW82" synch="#TS166"/>
-                    <ancor xml:id="arm-99" synch="#TT99"/>no<pause/> i servizi<ancor xml:id="arm-100" synch="#TT100"/> igienici <del type="repetition">della</del><pause/> della <vocal>emh</vocal> <placeName ref="TEI-ListPlace.xml#scuolamilitare">scuola<pause/> militare</persName><pause/> quindi niente di particolare<pause/> ma naturalmente noi <del type="truncation">er</del> essendo<pause/> 1300 circa<pause/> non erano sufficienti<pause/> posso dire che<pause/> <vocal>emh</vocal> nella <placeName ref="TEI-ListPlace.xml#scuolamilitare">scuola militare</persName><pause/> c'erano ancora alcuni <roleName type="military">sottufficiali</roleName> italiani<pause/> i quali protestavano con i tedeschi<pause/> per quanto stava succedendo a noi<pause/> e mi ricordo la frase che <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName> rispose a <persName>questo <roleName type="military">sottufficiale</roleName></persName> <pause/><q type="spoken" who="TEI-ListPerson.xml#Dannecker">sta zitto perché altrimenti<pause/> vieni anche <choice><orig>te</orig><reg resp="#GB">tu</reg></choice> con noi</q>
+                    <anchor xml:id="arm-99" synch="#TT99"/>no<pause/> i servizi<anchor xml:id="arm-100" synch="#TT100"/> igienici <del type="repetition">della</del><pause/> della <vocal>emh</vocal> <placeName ref="TEI-ListPlace.xml#scuolamilitare">scuola<pause/> militare</persName><pause/> quindi niente di particolare<pause/> ma naturalmente noi <del type="truncation">er</del> essendo<pause/> 1300 circa<pause/> non erano sufficienti<pause/> posso dire che<pause/> <vocal>emh</vocal> nella <placeName ref="TEI-ListPlace.xml#scuolamilitare">scuola militare</persName><pause/> c'erano ancora alcuni <roleName type="military">sottufficiali</roleName> italiani<pause/> i quali protestavano con i tedeschi<pause/> per quanto stava succedendo a noi<pause/> e mi ricordo la frase che <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName> rispose a <persName>questo <roleName type="military">sottufficiale</roleName></persName> <pause/><q type="spoken" who="TEI-ListPerson.xml#Dannecker">sta zitto perché altrimenti<pause/> vieni anche <choice><orig>te</orig><reg resp="#GB">tu</reg></choice> con noi</q>
                 </u>
                 
                 <pause/>
 
                 <u who="#LPF" xml:id="LPF83" synch="#TS167"/>
-                    emh<pause/> dove eravate messi eravate per terra <ancor xml:id="lpf-101" synch="#TT101"/>sulle delle panche<ancor xml:id="lpf-102" synch="#TT102"/>
+                    emh<pause/> dove eravate messi eravate per terra <anchor xml:id="lpf-101" synch="#TT101"/>sulle delle panche<anchor xml:id="lpf-102" synch="#TT102"/>
                 </u>
 
                 <u who="#AW" xml:id="AW83" synch="#TS168"/>
-                    <ancor xml:id="arm-101" synch="#TT101"/>per terra perché non<ancor xml:id="arm-102" synch="#TT102"/> c'erano brande non ce n'erano perché era vuota la <placeName ref="TEI-ListPlace.xml#scuolamilitare">scuola militare</persName><pause/> essendooo <date notBefore="1943-09-08">dopo l'8 settembre</date><pause/> <del type="truncation">lll</del> stata chiusa<pause/> non c'erano più brande si vede che le brande le avevano portate altrove<pause/> quindi dormivamo per terra<pause/> dormire quello che si riusciva a dormire
+                    <anchor xml:id="arm-101" synch="#TT101"/>per terra perché non<anchor xml:id="arm-102" synch="#TT102"/> c'erano brande non ce n'erano perché era vuota la <placeName ref="TEI-ListPlace.xml#scuolamilitare">scuola militare</persName><pause/> essendooo <date notBefore="1943-09-08">dopo l'8 settembre</date><pause/> <del type="truncation">lll</del> stata chiusa<pause/> non c'erano più brande si vede che le brande le avevano portate altrove<pause/> quindi dormivamo per terra<pause/> dormire quello che si riusciva a dormire
                 </u>
 
                 <u who="#LPF" xml:id="LPF84" synch="#TS169"/>
@@ -1556,20 +1586,20 @@
                 </u>
 
                 <u who="#AW" xml:id="AW85" synch="#TS172"/><!--socio; tragitto?-->
-                    tormentosi<pause/> io avevo un <persName ref="TEI-ListPerson.xml#Moranzoni" resp="#GB">socio</persName><pause/> ee scrissi una lettera a questo mio <persName ref="TEI-ListPerson.xml#Moranzoni" resp="#GB">socio</persName><pause/> dove gli dicevo quello che mi stava succedendo e affidavo la mia abitazione a <persName ref="TEI-ListPerson.xml#Moranzoni" resp="#GB">lui</persName><pause/> e nella busta misi anche la chiave dell'appartamento<pause/> durante il tragitto dal treno attraverso una fessura<pause/> feci cadere giù questa busta<pause/> e questa busta è stata trovata<ancor xml:id="arm-103" synch="#TT103"/><pause/><ancor xml:id="arm-104" synch="#TT104"/> effettivamente<pause/> e il mio <persName ref="TEI-ListPerson.xml#Moranzoni" resp="#GB">socio</persName><pause/> riuscì a entrare in camera nostra<pause/> <del type="reformulation">cioè in casa nostra</del><pause/> cercando di<pause/> proteggere<pause/> quello che era possibile<pause/> <del type="falseStart"><del type="truncation">recup</del></del> <vocal>emh</vocal> <del type="reformulation">proteggere</del> appunto<pause/> ma poi<pause/> ha dovuto anche <persName ref="TEI-ListPerson.xml#Moranzoni" resp="#GB">lui</persName> abbandonare la casa<pause/> perché il governo affidò l'appartamento<pause/> ad un <vocal>emh</vocal> <pause/>come chiamavano quelli<pause/> che non avevano abitazione<pause/> a un
+                    tormentosi<pause/> io avevo un <persName ref="TEI-ListPerson.xml#Moranzoni" resp="#GB">socio</persName><pause/> ee scrissi una lettera a questo mio <persName ref="TEI-ListPerson.xml#Moranzoni" resp="#GB">socio</persName><pause/> dove gli dicevo quello che mi stava succedendo e affidavo la mia abitazione a <persName ref="TEI-ListPerson.xml#Moranzoni" resp="#GB">lui</persName><pause/> e nella busta misi anche la chiave dell'appartamento<pause/> durante il tragitto dal treno attraverso una fessura<pause/> feci cadere giù questa busta<pause/> e questa busta è stata trovata<anchor xml:id="arm-103" synch="#TT103"/><pause/><anchor xml:id="arm-104" synch="#TT104"/> effettivamente<pause/> e il mio <persName ref="TEI-ListPerson.xml#Moranzoni" resp="#GB">socio</persName><pause/> riuscì a entrare in camera nostra<pause/> <del type="reformulation">cioè in casa nostra</del><pause/> cercando di<pause/> proteggere<pause/> quello che era possibile<pause/> <del type="falseStart"><del type="truncation">recup</del></del> <vocal>emh</vocal> <del type="reformulation">proteggere</del> appunto<pause/> ma poi<pause/> ha dovuto anche <persName ref="TEI-ListPerson.xml#Moranzoni" resp="#GB">lui</persName> abbandonare la casa<pause/> perché il governo affidò l'appartamento<pause/> ad un <vocal>emh</vocal> <pause/>come chiamavano quelli<pause/> che non avevano abitazione<pause/> a un
                 </u>
 
                 <u who="#LPF"/>
-                    <ancor xml:id="lpf-103" synch="#TT103"/>ah<ancor xml:id="lpf-104" synch="#TT104"/>
+                    <anchor xml:id="lpf-103" synch="#TT103"/>ah<anchor xml:id="lpf-104" synch="#TT104"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF86" synch="#TS173"/>
-                    <del type="falseStart">con tutto la <distinct type="slang">roba</distinct> dentro</del> <ancor xml:id="lpf-105" synch="#TT105"/><del type="correction">con tutta la vostra <distinct type="slang">roba</distinct> dentro</del><ancor xml:id="lpf-106" synch="#TT106"/><pause/> che poi ritrovaste dopo la <ancor xml:id="lpf-107" synch="#TT107"/>guerra o no<pause/><ancor xml:id="lpf-108" synch="#TT108"/> niente di niente <vocal><desc>sospira e si schiarisce la gola</desc></vocal><pause/> <del type="falseStart">el</del><pause/> mi può descrivere <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName> fisicamente
+                    <del type="falseStart">con tutto la <distinct type="slang">roba</distinct> dentro</del> <anchor xml:id="lpf-105" synch="#TT105"/><del type="correction">con tutta la vostra <distinct type="slang">roba</distinct> dentro</del><anchor xml:id="lpf-106" synch="#TT106"/><pause/> che poi ritrovaste dopo la <anchor xml:id="lpf-107" synch="#TT107"/>guerra o no<pause/><anchor xml:id="lpf-108" synch="#TT108"/> niente di niente <vocal><desc>sospira e si schiarisce la gola</desc></vocal><pause/> <del type="falseStart">el</del><pause/> mi può descrivere <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName> fisicamente
                 </u>
 
                 <u who="#AW"/>
-                    <ancor xml:id="arm-105" synch="#TT105"/>con tutta la <distinct type="slang">roba</distinct> dentro<pause/> si<ancor xml:id="arm-106" synch="#TT106"/>
-                    <ancor xml:id="arm-107" synch="#TT107"/>no<pause/> no<pause/> niente<ancor xml:id="arm-108" synch="#TT108"/>
+                    <anchor xml:id="arm-105" synch="#TT105"/>con tutta la <distinct type="slang">roba</distinct> dentro<pause/> si<anchor xml:id="arm-106" synch="#TT106"/>
+                    <anchor xml:id="arm-107" synch="#TT107"/>no<pause/> no<pause/> niente<anchor xml:id="arm-108" synch="#TT108"/>
                 </u>
 
                 <pause/>
@@ -1591,11 +1621,11 @@
                 <pause/>
 
                 <u who="#LPF" xml:id="LPF88" synch="#TS177"/><!-- soCalled? -->
-                    ee capì subito che era il capo<ancor xml:id="lpf-109" synch="#TT109"/><pause/> che<ancor xml:id="lpf-109" synch="#TT109"/> era quello che aveva organizzato questa <soCalled>razzia</soCalled>
+                    ee capì subito che era il capo<anchor xml:id="lpf-109" synch="#TT109"/><pause/> che<anchor xml:id="lpf-109" synch="#TT109"/> era quello che aveva organizzato questa <soCalled>razzia</soCalled>
                 </u>
 
                 <u who="#AW"/>
-                    <ancor xml:id="arm-109" synch="#TT109"/>si<ancor xml:id="arm-110" synch="#TT110"/>
+                    <anchor xml:id="arm-109" synch="#TT109"/>si<anchor xml:id="arm-110" synch="#TT110"/>
                 </u> 
 
                 <u who="#AW" xml:id="AW88" synch="#TS178"/>
@@ -1605,23 +1635,23 @@
                 <pause/>
 
                 <u who="#LPF" xml:id="LPF89" synch="#TS179"/>
-                    e rimase lì<pause/> <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName> al <placeName ref="TEI-ListPlace.xml#scuolamilitare">collegio militare</placeName><pause/> o non lo vedeste più <ancor xml:id="lpf-111" synch="#TT111"/>dopo<ancor xml:id="lpf-112" synch="#TT112"/>
+                    e rimase lì<pause/> <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName> al <placeName ref="TEI-ListPlace.xml#scuolamilitare">collegio militare</placeName><pause/> o non lo vedeste più <anchor xml:id="lpf-111" synch="#TT111"/>dopo<anchor xml:id="lpf-112" synch="#TT112"/>
                 </u>
 
                 <u who="#AW" xml:id="AW89" synch="#TS180"/>
-                    <ancor xml:id="arm-111" synch="#TT111"/>no non lo<ancor xml:id="arm-112" synch="#TT112"/> vedemmo più<pause/> da quando salimmo sul treno non lo vedemmo più<pause/> <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName> <vocal>emh</vocal><pause/> mi ricordo<pause/> che quando<pause/> ritirava i vari gioielli<pause/> e li metteva in un cassetto<pause/> io stavo accanto a <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName><pause/> e osservai una cosa strana che quando si trattava di un gioiello veramente di gran valore <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName> se lo metteva in tasca semplicemente<pause/> quindi come al solito quelli della <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> sfruttavano<pause/> <del type="repetition">leee</del> le disposizioni anche a favore proprio
+                    <anchor xml:id="arm-111" synch="#TT111"/>no non lo<anchor xml:id="arm-112" synch="#TT112"/> vedemmo più<pause/> da quando salimmo sul treno non lo vedemmo più<pause/> <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName> <vocal>emh</vocal><pause/> mi ricordo<pause/> che quando<pause/> ritirava i vari gioielli<pause/> e li metteva in un cassetto<pause/> io stavo accanto a <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName><pause/> e osservai una cosa strana che quando si trattava di un gioiello veramente di gran valore <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName> se lo metteva in tasca semplicemente<pause/> quindi come al solito quelli della <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> sfruttavano<pause/> <del type="repetition">leee</del> le disposizioni anche a favore proprio
                 </u>
 
                 <u who="#LPF" xml:id="LPF90" synch="#TS181"/>
-                    e fu l'<roleName type="military">ufficiale</roleName> di gradoo superiore <ancor xml:id="lpf-113" synch="#TT113"/>che vide<ancor xml:id="lpf-114" synch="#TT114"/>
+                    e fu l'<roleName type="military">ufficiale</roleName> di gradoo superiore <anchor xml:id="lpf-113" synch="#TT113"/>che vide<anchor xml:id="lpf-114" synch="#TT114"/>
                 </u>
 
                 <u who="#AW" xml:id="AW90" synch="#TS182"/>
-                    <ancor xml:id="arm-113" synch="#TT113"/>non mi ricordo<ancor xml:id="arm-114" synch="#TT114"/> mi pare che aveva il grado di <roleName type="military">capitano</roleName><ancor xml:id="arm-115" synch="#TT115"/><pause/> o qualcosa di simile<ancor xml:id="arm-116" synch="#TT116"/>
+                    <anchor xml:id="arm-113" synch="#TT113"/>non mi ricordo<anchor xml:id="arm-114" synch="#TT114"/> mi pare che aveva il grado di <roleName type="military">capitano</roleName><anchor xml:id="arm-115" synch="#TT115"/><pause/> o qualcosa di simile<anchor xml:id="arm-116" synch="#TT116"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF91" synch="#TS183"/>
-                    <ancor xml:id="lpf-115" synch="#TT115"/>non vide qualcuno di superiore<ancor xml:id="lpf-116" synch="#TT116"/> a <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName>
+                    <anchor xml:id="lpf-115" synch="#TT115"/>non vide qualcuno di superiore<anchor xml:id="lpf-116" synch="#TT116"/> a <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName>
                 </u>
 
                 <u who="#AW" xml:id="AW91" synch="#TS184"/>
@@ -1633,11 +1663,11 @@
                 </u>
 
                 <u who="#AW" xml:id="AW92" synch="#TS186"/>
-                    poi c'è stato ill caso strano<pause/> che fra di noi c'eran molti non ebrei<pause/> i quali gridavano sempree<pause/> <q type="spoken">non siamo ebrei</q><pause/> e allora <persName ref="TEI-ListPerson.xml#Dannecker">Dannacker</persName> si decise<pause/> aaa lasciar liberi<pause/> quelli che non erano ebrei<pause/> eee disse a me<pause/> di riferire<pause/> che avrebbero<pause/> controllato i documenti di quelli che si dichiaravano non ebrei<pause/> e<pause/> se qualcuno si fosse azzardato<pause/> <choice><sic>di</sic><corr resp="#GB">a</corr></choice> volerli imbrogliare<pause/> <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName> avrebbe provveduto a punirli<pause/> ora effettivamente in quel periodo sulle carte di identità italiane<pause/> non c'era ancora il <del type="truncation">timb</del> <gap extent="unknown" reason="lost"/> diversi non ebrei<pause/> riuscirono a uscire<pause/> dalla <placeName ref="TEI-ListPlace.xml#scuolamilitare">scuola miliare</placeName><pause/> <vocal>emh</vocal><pause/> naturalmente alcuni ebrei<pause/> tentarono anche loro<pause/> di uscire<pause/> è chiaro che io li conoscevo<pause/> ma che se si chiamava Levi <del type="repetition">o</del><pause/> o Coen era chiaro che non potevo farlo<pause/> però con alcuni con nomi non prettamente ebraici<pause/> riuscii a farli uscire<pause/> in quanto al documento che era senza timbro di ebreo<pause/> io dichiarai su mia responsabilità che erano non ebrei<pause/> e così uscirono per esempio<pause/> <persName ref="TEI-ListPerson.xml#DisegniSig">la <roleName type="honorific">signora</roleName> Disegni</persName><pause/> <ancor xml:id="arm-117" synch="#TT117"/>mi ricordo<ancor xml:id="arm-118" synch="#TT118"/>
+                    poi c'è stato ill caso strano<pause/> che fra di noi c'eran molti non ebrei<pause/> i quali gridavano sempree<pause/> <q type="spoken">non siamo ebrei</q><pause/> e allora <persName ref="TEI-ListPerson.xml#Dannecker">Dannacker</persName> si decise<pause/> aaa lasciar liberi<pause/> quelli che non erano ebrei<pause/> eee disse a me<pause/> di riferire<pause/> che avrebbero<pause/> controllato i documenti di quelli che si dichiaravano non ebrei<pause/> e<pause/> se qualcuno si fosse azzardato<pause/> <choice><sic>di</sic><corr resp="#GB">a</corr></choice> volerli imbrogliare<pause/> <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName> avrebbe provveduto a punirli<pause/> ora effettivamente in quel periodo sulle carte di identità italiane<pause/> non c'era ancora il <del type="truncation">timb</del> <gap extent="unknown" reason="lost"/> diversi non ebrei<pause/> riuscirono a uscire<pause/> dalla <placeName ref="TEI-ListPlace.xml#scuolamilitare">scuola miliare</placeName><pause/> <vocal>emh</vocal><pause/> naturalmente alcuni ebrei<pause/> tentarono anche loro<pause/> di uscire<pause/> è chiaro che io li conoscevo<pause/> ma che se si chiamava Levi <del type="repetition">o</del><pause/> o Coen era chiaro che non potevo farlo<pause/> però con alcuni con nomi non prettamente ebraici<pause/> riuscii a farli uscire<pause/> in quanto al documento che era senza timbro di ebreo<pause/> io dichiarai su mia responsabilità che erano non ebrei<pause/> e così uscirono per esempio<pause/> <persName ref="TEI-ListPerson.xml#DisegniSig">la <roleName type="honorific">signora</roleName> Disegni</persName><pause/> <anchor xml:id="arm-117" synch="#TT117"/>mi ricordo<anchor xml:id="arm-118" synch="#TT118"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF93" synch="#TS187"/>
-                    <ancor xml:id="lpf-117" synch="#TT117"/>Disegni<ancor xml:id="lpf-118" synch="#TT118"/> è un nome ebraico
+                    <anchor xml:id="lpf-117" synch="#TT117"/>Disegni<anchor xml:id="lpf-118" synch="#TT118"/> è un nome ebraico
                 </u>
 
                 <u who="#AW" xml:id="AW93" synch="#TS188"/>
@@ -1645,53 +1675,53 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF94" synch="#TS189"/>
-                    ma ce n'erano molti altri Disegni<pause/> ebrei<pause/> cioè <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName> <ancor xml:id="lpf-119" synch="#TT119"/><vocal>emh</vocal> <del type="truncation">ll</del><ancor xml:id="lpf-120" synch="#TT120"/> <persName ref="TEI-ListPerson.xml#Dannecker">Dannacker</persName> non ha fatto il <ancor xml:id="lpf-121" synch="#TT121"/>collegamento<ancor xml:id="lpf-122" synch="#TT122"/>
+                    ma ce n'erano molti altri Disegni<pause/> ebrei<pause/> cioè <persName ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</persName> <anchor xml:id="lpf-119" synch="#TT119"/><vocal>emh</vocal> <del type="truncation">ll</del><anchor xml:id="lpf-120" synch="#TT120"/> <persName ref="TEI-ListPerson.xml#Dannecker">Dannacker</persName> non ha fatto il <anchor xml:id="lpf-121" synch="#TT121"/>collegamento<anchor xml:id="lpf-122" synch="#TT122"/>
                 </u>
 
                 <u who="#AW"/>
-                    <ancor xml:id="arm-119" synch="#TT119"/>si<ancor xml:id="arm-120" synch="#TT120"/>
+                    <anchor xml:id="arm-119" synch="#TT119"/>si<anchor xml:id="arm-120" synch="#TT120"/>
                 </u>
 
                 <u who="#AW" xml:id="AW94" synch="#TS190"/>
-                    <ancor xml:id="arm-121" synch="#TT121"/>ma <del type="falseStart">era</del><ancor xml:id="arm-122" synch="#TT122"/> <del type="reformulation"><persName ref="TEI-ListPerson.xml#DisegniSig" resp="#GB">questa <roleName type="honorific">signora</roleName></persName> si era messa</del> <del type="falseStart">fra quelli non</del><del type="reformulation"> fra i non ebrei</del><ancor xml:id="arm-123" synch="#TT123"/><pause/> non<ancor xml:id="arm-124" synch="#TT124"/> potevo far uscire <del type="falseStart">tutti tutto</del> <del type="repetition"><del type="correction">tutta</del> la</del><pause/> tutta la gente <vocal>ehm</vocal><pause/> che si trovava rinchiusa nella <placeName ref="TEI-ListPlace.xml#scuolamilitare">scuola miliare</placeName><pause/> poi mi ricordo anche della famiglia Dina<pause/> veneziana<pause/> anche quella riuscì a salvarla anzi<pause/> con l'occasione voglio raccontare una cosa<pause/> che al <placeName>lido di Venezia</placeName> qualche anno fa<pause/> incontrai per caso<pause/> la <persName ref="TEI-ListPerson.xml#DinaSig"><roleName type="honorific">signora</roleName> Dina</persName><pause/> che mi disse che le <persName><choice><orig>figliole</orig><reg resp="#GB">figlie</reg></choice></persName><pause/> sono sposate nel <placeName>Belgio</placeName> e in <placeName>Israele</placeName><pause/> e mi ringraziò per quanto feci in <date notBefore="1943-10-17" notAfter="1943-10-18">quell'epoca</date> alla <placeName ref="TEI-ListPlace.xml#scuolamilitare">scuola miliare</placeName>
+                    <anchor xml:id="arm-121" synch="#TT121"/>ma <del type="falseStart">era</del><anchor xml:id="arm-122" synch="#TT122"/> <del type="reformulation"><persName ref="TEI-ListPerson.xml#DisegniSig" resp="#GB">questa <roleName type="honorific">signora</roleName></persName> si era messa</del> <del type="falseStart">fra quelli non</del><del type="reformulation"> fra i non ebrei</del><anchor xml:id="arm-123" synch="#TT123"/><pause/> non<anchor xml:id="arm-124" synch="#TT124"/> potevo far uscire <del type="falseStart">tutti tutto</del> <del type="repetition"><del type="correction">tutta</del> la</del><pause/> tutta la gente <vocal>ehm</vocal><pause/> che si trovava rinchiusa nella <placeName ref="TEI-ListPlace.xml#scuolamilitare">scuola miliare</placeName><pause/> poi mi ricordo anche della famiglia Dina<pause/> veneziana<pause/> anche quella riuscì a salvarla anzi<pause/> con l'occasione voglio raccontare una cosa<pause/> che al <placeName>lido di Venezia</placeName> qualche anno fa<pause/> incontrai per caso<pause/> la <persName ref="TEI-ListPerson.xml#DinaSig"><roleName type="honorific">signora</roleName> Dina</persName><pause/> che mi disse che le <persName><choice><orig>figliole</orig><reg resp="#GB">figlie</reg></choice></persName><pause/> sono sposate nel <placeName>Belgio</placeName> e in <placeName>Israele</placeName><pause/> e mi ringraziò per quanto feci in <date notBefore="1943-10-17" notAfter="1943-10-18">quell'epoca</date> alla <placeName ref="TEI-ListPlace.xml#scuolamilitare">scuola miliare</placeName>
                 </u>
 
                 <u who="#LPF"/>
-                    <ancor xml:id="lpf-123" synch="#TT123"/>ho capito<ancor xml:id="lpf-124" synch="#TT124"/>
+                    <anchor xml:id="lpf-123" synch="#TT123"/>ho capito<anchor xml:id="lpf-124" synch="#TT124"/>
                 </u>
 
                 <pause/>
 
                 <u who="#LPF" xml:id="LPF95" synch="#TS191"/>
-                    e quanti erano più o meno iii<pause/> sorveglianti tedeschi<pause/> <ancor xml:id="lpf-125" synch="#TT125"/>al <placeName ref="TEI-ListPlace.xml#scuolamilitare">collegio militare</placeName><ancor xml:id="lpf-126" synch="#TT126"/>
+                    e quanti erano più o meno iii<pause/> sorveglianti tedeschi<pause/> <anchor xml:id="lpf-125" synch="#TT125"/>al <placeName ref="TEI-ListPlace.xml#scuolamilitare">collegio militare</placeName><anchor xml:id="lpf-126" synch="#TT126"/>
                 </u>
 
                 <u who="#AW" xml:id="AW95" synch="#TS192"/>
-                    <ancor xml:id="arm-125" synch="#TT125"/><del type="repetition">non posso dirlo</del><pause/> non posso<ancor xml:id="arm-126" synch="#TT126"/> dirlo con precisione ma<pause/> anche se fossero pochi loro erano armati <ancor xml:id="arm-127" synch="#TT127"/>noi no<ancor xml:id="arm-128" synch="#TT128"/> eravamo <ancor xml:id="arm-129" synch="#TT129"/>inermi<ancor xml:id="arm-130" synch="#TT130"/>
+                    <anchor xml:id="arm-125" synch="#TT125"/><del type="repetition">non posso dirlo</del><pause/> non posso<anchor xml:id="arm-126" synch="#TT126"/> dirlo con precisione ma<pause/> anche se fossero pochi loro erano armati <anchor xml:id="arm-127" synch="#TT127"/>noi no<anchor xml:id="arm-128" synch="#TT128"/> eravamo <anchor xml:id="arm-129" synch="#TT129"/>inermi<anchor xml:id="arm-130" synch="#TT130"/>
                 </u>
 
                 <u who="#LPF"/>
-                    <ancor xml:id="lpf-127" synch="#TT127"/>certo<ancor xml:id="lpf-128" synch="#TT128"/>
+                    <anchor xml:id="lpf-127" synch="#TT127"/>certo<anchor xml:id="lpf-128" synch="#TT128"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF96" synch="#TS193"/>
-                    <ancor xml:id="lpf-129" synch="#TT129"/>comunque<ancor xml:id="lpf-130" synch="#TT130"/> eravate guardati a vista continuamente <ancor xml:id="lpf-131" synch="#TT131"/>o no<ancor xml:id="lpf-132" synch="#TT132"/>
+                    <anchor xml:id="lpf-129" synch="#TT129"/>comunque<anchor xml:id="lpf-130" synch="#TT130"/> eravate guardati a vista continuamente <anchor xml:id="lpf-131" synch="#TT131"/>o no<anchor xml:id="lpf-132" synch="#TT132"/>
                 </u>
 
                 <u who="#AW" xml:id="AW96" synch="#TS194"/>
-                    <ancor xml:id="arm-131" synch="#TT131"/><del type="repetition">si<pause/> si<pause/> si<pause/><ancor xml:id="arm-132" synch="#TT132"/> si <ancor xml:id="arm-133" synch="#TT133"/></del>si<ancor xml:id="arm-134" synch="#TT134"/>
+                    <anchor xml:id="arm-131" synch="#TT131"/><del type="repetition">si<pause/> si<pause/> si<pause/><anchor xml:id="arm-132" synch="#TT132"/> si <anchor xml:id="arm-133" synch="#TT133"/></del>si<anchor xml:id="arm-134" synch="#TT134"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF97" synch="#TS195"/>
-                    <ancor xml:id="lpf-133" synch="#TT133"/>si<ancor xml:id="lpf-134" synch="#TT134"/><pause/> continuamente <vocal><desc>sospira</desc><pause/> <vocal>emmmmh</vocal><pause/> come avvenne vi fu annunciata la partenza
+                    <anchor xml:id="lpf-133" synch="#TT133"/>si<anchor xml:id="lpf-134" synch="#TT134"/><pause/> continuamente <vocal><desc>sospira</desc><pause/> <vocal>emmmmh</vocal><pause/> come avvenne vi fu annunciata la partenza
                 </u>
 
                 <u who="#AW" xml:id="AW97" synch="#TS196"/>
-                    no improvvisamente ci fecero salire sui camion<pause/> <ancor xml:id="arm-135" synch="#TT135"/><date when="1943-10-18" resp="#GB">la mattina del</date><ancor xml:id="arm-136" synch="#TT136"/>
+                    no improvvisamente ci fecero salire sui camion<pause/> <anchor xml:id="arm-135" synch="#TT135"/><date when="1943-10-18" resp="#GB">la mattina del</date><anchor xml:id="arm-136" synch="#TT136"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF98" synch="#TS197"/>
-                    <ancor xml:id="lpf-135" synch="#TT135"/>con tutta la vostra<ancor xml:id="lpf-136" synch="#TT136"/> <distinct type="slang">roba</distinct>
+                    <anchor xml:id="lpf-135" synch="#TT135"/>con tutta la vostra<anchor xml:id="lpf-136" synch="#TT136"/> <distinct type="slang">roba</distinct>
                 </u>
 
                 <u who="#AW" xml:id="AW98" synch="#TS198"/><!-- join ?-->
@@ -1699,11 +1729,11 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF99" synch="#TS199"/>
-                    quanti erano i camion<pause/> può <ancor xml:id="lpf-137" synch="#TT137"/>immaginarselo<ancor xml:id="lpf-138" synch="#TT138"/>
+                    quanti erano i camion<pause/> può <anchor xml:id="lpf-137" synch="#TT137"/>immaginarselo<anchor xml:id="lpf-138" synch="#TT138"/>
                 </u>
 
                 <u who="#AW" xml:id="AW99" synch="#TS200"/>
-                    <ancor xml:id="arm-137" synch="#TT137"/>non posso<ancor xml:id="arm-138" synch="#TT138"/> immaginare perché comunque eravamo <del type="falseStart">un <del type="truncation">mi</del></del> un migliaio circa
+                    <anchor xml:id="arm-137" synch="#TT137"/>non posso<anchor xml:id="arm-138" synch="#TT138"/> immaginare perché comunque eravamo <del type="falseStart">un <del type="truncation">mi</del></del> un migliaio circa
                 </u>
 
                 <u who="#LPF" xml:id="LPF100" synch="#TS201"/>
@@ -1711,11 +1741,11 @@
                 </u>
 
                 <u who="#AW" xml:id="AW100" synch="#TS202"/>
-                    ma non poteva più <del type="truncation">s</del> sapere di cosa si trattasse perché i camion erano chiusi<pause/><ancor xml:id="arm-139" synch="#TT139"/> <gap reason="inaudible" extent="one sentence"/><unclear reason="inaudible" resp="#GB" cert="medium">tendone</unclear><ancor xml:id="arm-140" synch="#TT140"/>
+                    ma non poteva più <del type="truncation">s</del> sapere di cosa si trattasse perché i camion erano chiusi<pause/><anchor xml:id="arm-139" synch="#TT139"/> <gap reason="inaudible" extent="one sentence"/><unclear reason="inaudible" resp="#GB" cert="medium">tendone</unclear><anchor xml:id="arm-140" synch="#TT140"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF101" synch="#TS203"/>
-                    <ancor xml:id="lpf-139" synch="#TT139"/>a che ora più o meno è<ancor xml:id="lpf-140" synch="#TT140"/> avvenuto
+                    <anchor xml:id="lpf-139" synch="#TT139"/>a che ora più o meno è<anchor xml:id="lpf-140" synch="#TT140"/> avvenuto
                 </u>
 
                 <u who="#AW" xml:id="AW101" synch="#TS204"/>
@@ -1727,31 +1757,31 @@
                 </u>
 
                 <u who="#AW" xml:id="AW102" synch="#TS206"/>
-                    no comprato no quello che era in casa<pause/> ma non tutti lo presero<ancor xml:id="arm-141" synch="#TT141"/><pause/> perché<ancor xml:id="arm-142" synch="#TT142"/> non tutti avevano<pause/> effettivamente in casa in quel momento da mangiare
+                    no comprato no quello che era in casa<pause/> ma non tutti lo presero<anchor xml:id="arm-141" synch="#TT141"/><pause/> perché<anchor xml:id="arm-142" synch="#TT142"/> non tutti avevano<pause/> effettivamente in casa in quel momento da mangiare
                 </u>
 
                 <u who="#LPF"/>
-                    <ancor xml:id="lpf-141" synch="#TT141"/><vocal><desc>annuisce</desc></vocal><ancor xml:id="lpf-142" synch="#TT142"/>
+                    <anchor xml:id="lpf-141" synch="#TT141"/><vocal><desc>annuisce</desc></vocal><anchor xml:id="lpf-142" synch="#TT142"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF103" synch="#TS207"/>
-                    non ci fu nessuna distribuzione di cibo <ancor xml:id="lpf-143" synch="#TT143"/>prima della partenza<ancor xml:id="lpf-144" synch="#TT144"/>
+                    non ci fu nessuna distribuzione di cibo <anchor xml:id="lpf-143" synch="#TT143"/>prima della partenza<anchor xml:id="lpf-144" synch="#TT144"/>
                 </u>
 
                 <u who="#AW" xml:id="AW103" synch="#TS208"/>
-                    <ancor xml:id="arm-143" synch="#TT143"/>no nulla<pause/><ancor xml:id="arm-144" synch="#TT144"/> assolutamente niente<ancor xml:id="arm-145" synch="#TT145"/><pause/> solo<ancor xml:id="arm-146" synch="#TT146"/> il pane che è statoo <ancor xml:id="arm-147" synch="#TT147"/> acquistato<ancor xml:id="arm-148" synch="#TT148"/> 
+                    <anchor xml:id="arm-143" synch="#TT143"/>no nulla<pause/><anchor xml:id="arm-144" synch="#TT144"/> assolutamente niente<anchor xml:id="arm-145" synch="#TT145"/><pause/> solo<anchor xml:id="arm-146" synch="#TT146"/> il pane che è statoo <anchor xml:id="arm-147" synch="#TT147"/> acquistato<anchor xml:id="arm-148" synch="#TT148"/> 
                 </u>
 
                 <u who="#LPF"/>
-                    <ancor xml:id="lpf-145" synch="#TT145"/>niente<ancor xml:id="lpf-146" synch="#TT146"/>
+                    <anchor xml:id="lpf-145" synch="#TT145"/>niente<anchor xml:id="lpf-146" synch="#TT146"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF104" synch="#TS209"/>
-                    <ancor xml:id="lpf-147" synch="#TT147"/>comprato<ancor xml:id="lpf-148" synch="#TT148"/><pause/> quella volta<pause/> e la <placeName type="station" ref="TEI-ListPlace.xml#stazioneTiburtina">stazione tiburtina</placeName> è una stazione secondaria <ancor xml:id="lpf-149" synch="#TT149"/>di <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> no<ancor xml:id="lpf-150" synch="#TT150"/>
+                    <anchor xml:id="lpf-147" synch="#TT147"/>comprato<anchor xml:id="lpf-148" synch="#TT148"/><pause/> quella volta<pause/> e la <placeName type="station" ref="TEI-ListPlace.xml#stazioneTiburtina">stazione tiburtina</placeName> è una stazione secondaria <anchor xml:id="lpf-149" synch="#TT149"/>di <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> no<anchor xml:id="lpf-150" synch="#TT150"/>
                 </u>
 
                 <u who="#AW" xml:id="AW104" synch="#TS210"/>
-                    <ancor xml:id="arm-149" synch="#TT149"/> una stazione secondaria<ancor xml:id="arm-150" synch="#TT150"/> di <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> si
+                    <anchor xml:id="arm-149" synch="#TT149"/> una stazione secondaria<anchor xml:id="arm-150" synch="#TT150"/> di <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> si
                 </u>
 
                 <u who="#LPF" xml:id="LPF105" synch="#TS211"/>
@@ -1763,22 +1793,22 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF106" synch="#TS213"/>
-                    80 <ancor xml:id="lpf-151" synch="#TT151"/>son tantissimi<ancor xml:id="lpf-152" synch="#TT152"/>
+                    80 <anchor xml:id="lpf-151" synch="#TT151"/>son tantissimi<anchor xml:id="lpf-152" synch="#TT152"/>
                 </u>
 
                 <u who="#AW"/>
-                    <ancor xml:id="arm-151" synch="#TT151"/>80<ancor xml:id="arm-152" synch="#TT152"/> 
+                    <anchor xml:id="arm-151" synch="#TT151"/>80<anchor xml:id="arm-152" synch="#TT152"/> 
                 </u>
 
                 <pause/>
 
                 <u who="#AW" xml:id="AW106" synch="#TS214"/>
-                    si e io per mia fortuna mi trovai in un vagone<pause/> di sole 30 persone perché eravamo gli ultimi a essere<ancor xml:id="arm-153" synch="#TT153"/><pause/> <del type="repetition">in<ancor xml:id="arm-154" synch="#TT154"/> in</del><pause/> infilati nel vagone<pause/> e con me c'era<pause/> anche <choice><sic>ill</sic><corr resp="#GB">l'</corr></choice> <pause/><persName ref="TEI-ListPerson.xml#Capon"><roleName type="military">ammiraglio Capon</roleName></persName><pause/> che poveretto era paralizzato<pause/> e la <persName ref="TEI-ListPerson.xml#AlinaCavalieri" resp="#GB"> <roleName type="honorific">signorina</roleName> Lina Cavalieri</persName><pause/> che era a suo tempo<pause/> <roleName>direttrice</roleName> della <orgName>croce rossa italiana</orgName><pause/> eee avevamo un po' più di spazio<pause/> rispetto agli altri<pause/> con noi c'era anche una <persName ref="TEI-ListPerson.xml#Rotschild" resp="#GB"><roleName type="honorific">signora</roleName> Rosenthal</persName><pause/> che purtroppo morì durante il tragitto<pause/><ancor xml:id="arm-155" synch="#TT155"/><unclear reason="inaudible" resp="#GB" cert="low">ma i</unclear><ancor xml:id="arm-156" synch="#TT156"/><pause/>di nome non me la ricordo<pause/> so che si chiamava Rosenthal
+                    si e io per mia fortuna mi trovai in un vagone<pause/> di sole 30 persone perché eravamo gli ultimi a essere<anchor xml:id="arm-153" synch="#TT153"/><pause/> <del type="repetition">in<anchor xml:id="arm-154" synch="#TT154"/> in</del><pause/> infilati nel vagone<pause/> e con me c'era<pause/> anche <choice><sic>ill</sic><corr resp="#GB">l'</corr></choice> <pause/><persName ref="TEI-ListPerson.xml#Capon"><roleName type="military">ammiraglio Capon</roleName></persName><pause/> che poveretto era paralizzato<pause/> e la <persName ref="TEI-ListPerson.xml#AlinaCavalieri" resp="#GB"> <roleName type="honorific">signorina</roleName> Lina Cavalieri</persName><pause/> che era a suo tempo<pause/> <roleName>direttrice</roleName> della <orgName>croce rossa italiana</orgName><pause/> eee avevamo un po' più di spazio<pause/> rispetto agli altri<pause/> con noi c'era anche una <persName ref="TEI-ListPerson.xml#Rotschild" resp="#GB"><roleName type="honorific">signora</roleName> Rosenthal</persName><pause/> che purtroppo morì durante il tragitto<pause/><anchor xml:id="arm-155" synch="#TT155"/><unclear reason="inaudible" resp="#GB" cert="low">ma i</unclear><anchor xml:id="arm-156" synch="#TT156"/><pause/>di nome non me la ricordo<pause/> so che si chiamava Rosenthal
                 </u>
 
                 <u who="#LPF"/>
-                    <ancor xml:id="lpf-153" synch="#TT153"/>caricati<ancor xml:id="lpf-154" synch="#TT154"/> 
-                    <ancor xml:id="lpf-155" synch="#TT155"/>di nome<ancor xml:id="lpf-156" synch="#TT156"/>
+                    <anchor xml:id="lpf-153" synch="#TT153"/>caricati<anchor xml:id="lpf-154" synch="#TT154"/> 
+                    <anchor xml:id="lpf-155" synch="#TT155"/>di nome<anchor xml:id="lpf-156" synch="#TT156"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF107" synch="#TS215"/>
@@ -1788,19 +1818,19 @@
                 <pause/>
 
                 <u who="#AW" xml:id="AW107" synch="#TS216"/>
-                    adesso non mi ricordo se Rosenthal o Rotschild<pause/> uno dei due nomi<pause/> Rosenthal <ancor xml:id="arm-157" synch="#TT157"/>o Rotschild<ancor xml:id="arm-158" synch="#TT158"/>
+                    adesso non mi ricordo se Rosenthal o Rotschild<pause/> uno dei due nomi<pause/> Rosenthal <anchor xml:id="arm-157" synch="#TT157"/>o Rotschild<anchor xml:id="arm-158" synch="#TT158"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF108" synch="#TS217"/>
-                    <ancor xml:id="lpf-157" synch="#TT157"/>ho l'impressione che<ancor xml:id="lpf-158" synch="#TT158"/> sia Rotschild
+                    <anchor xml:id="lpf-157" synch="#TT157"/>ho l'impressione che<anchor xml:id="lpf-158" synch="#TT158"/> sia Rotschild
                 </u>
 
                 <u who="#AW" xml:id="AW108" synch="#TS218"/>
-                    Rotschild<ancor xml:id="arm-159" synch="#TT159"/><pause/> dal nome<ancor xml:id="arm-160" synch="#TT160"/> forse
+                    Rotschild<anchor xml:id="arm-159" synch="#TT159"/><pause/> dal nome<anchor xml:id="arm-160" synch="#TT160"/> forse
                 </u>
 
                 <u who="#LPF"/>
-                    <ancor xml:id="lpf-159" synch="#TT159"/>ho l'impressione si<ancor xml:id="lpf-160" synch="#TT160"/>
+                    <anchor xml:id="lpf-159" synch="#TT159"/>ho l'impressione si<anchor xml:id="lpf-160" synch="#TT160"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF109" synch="#TS219"/>
@@ -1812,11 +1842,11 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF110" synch="#TS221"/>
-                    <vocal>emhh</vocal><pause/> <del type="falseStart">eravate</del> <del type="reformulation">vi eravate</del> un pochino organizzati almeno a livello di<pause/> colloqui tra di voi<pause/> durante <del type="repetition">la</del> la prigionia al <placeName ref="TEI-ListPlace.xml#scuolamilitare">collegio militare</placeName> cioè<pause/> pensare decidere chi <ancor xml:id="lpf-161" synch="#TT161"/>chiamare che cosa fare<ancor xml:id="lpf-162" synch="#TT162"/>
+                    <vocal>emhh</vocal><pause/> <del type="falseStart">eravate</del> <del type="reformulation">vi eravate</del> un pochino organizzati almeno a livello di<pause/> colloqui tra di voi<pause/> durante <del type="repetition">la</del> la prigionia al <placeName ref="TEI-ListPlace.xml#scuolamilitare">collegio militare</placeName> cioè<pause/> pensare decidere chi <anchor xml:id="lpf-161" synch="#TT161"/>chiamare che cosa fare<anchor xml:id="lpf-162" synch="#TT162"/>
                 </u>
 
                 <u who="#AW" xml:id="AW110" synch="#TS222"/>
-                    <ancor xml:id="arm-161" synch="#TT161"/>non c'era nulla da fare<ancor xml:id="arm-162" synch="#TT162"/><pause/> perché <del type="falseStart">e ogni</del><pause/> <del type="reformulation">qualsiasi</del> gesto si volesse fare era <pause/>fermato dai <roleName>militi</roleName> delle <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice>
+                    <anchor xml:id="arm-161" synch="#TT161"/>non c'era nulla da fare<anchor xml:id="arm-162" synch="#TT162"/><pause/> perché <del type="falseStart">e ogni</del><pause/> <del type="reformulation">qualsiasi</del> gesto si volesse fare era <pause/>fermato dai <roleName>militi</roleName> delle <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice>
                 </u>
 
                 <u who="#LPF" xml:id="LPF111" synch="#TS223"/>
@@ -1836,19 +1866,19 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF113" synch="#TS227"/>
-                    <vocal>eeh</vocal> per esempio quanto <del type="falseStart">alla</del> <deltype="correction">al</del> <orgName>vaticano</orgName> nessuno aveva pensato di <ancor xml:id="lpf-163" synch="#TT163"/>rivolgersi al <orgName>vaticano</orgName><ancor xml:id="lpf-164" synch="#TT164"/>
+                    <vocal>eeh</vocal> per esempio quanto <del type="falseStart">alla</del> <deltype="correction">al</del> <orgName>vaticano</orgName> nessuno aveva pensato di <anchor xml:id="lpf-163" synch="#TT163"/>rivolgersi al <orgName>vaticano</orgName><anchor xml:id="lpf-164" synch="#TT164"/>
                 </u>
 
                 <u who="#AW" xml:id="AW113" synch="#TS228"/>
-                    <ancor xml:id="arm-163" synch="#TT163"/>assolutamente <del type="truncation">spera</del> <del type="reformulation">noi<ancor xml:id="arm-164" synch="#TT164"/> speravamo</del> che il <orgName>Vaticano</orgName> <del type="falseStart">a</del> facesse qualche cosa<pause/> <unclear reason="inaudible" resp="#GB" cert="low">solo che sia</unclear> che quando eravamo poi<pause/> a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><pause/> nel campo di concentramento<pause/> una volta <vocal>emh</vocal> <del type="truncation">s</del> siamo andati alla stazione <del type="repetition">di</del> di<pause/> <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName> per dei lavori da eseguire<pause/> e vedemmo dei preti<pause/> e noi pensavamo <q type="thought">ecco che adesso i preti verranno a salvarci</q> <pause/>ma<pause/> inutilmente
+                    <anchor xml:id="arm-163" synch="#TT163"/>assolutamente <del type="truncation">spera</del> <del type="reformulation">noi<anchor xml:id="arm-164" synch="#TT164"/> speravamo</del> che il <orgName>Vaticano</orgName> <del type="falseStart">a</del> facesse qualche cosa<pause/> <unclear reason="inaudible" resp="#GB" cert="low">solo che sia</unclear> che quando eravamo poi<pause/> a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><pause/> nel campo di concentramento<pause/> una volta <vocal>emh</vocal> <del type="truncation">s</del> siamo andati alla stazione <del type="repetition">di</del> di<pause/> <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName> per dei lavori da eseguire<pause/> e vedemmo dei preti<pause/> e noi pensavamo <q type="thought">ecco che adesso i preti verranno a salvarci</q> <pause/>ma<pause/> inutilmente
                 </u>
                 
                 <u who="#LPF" xml:id="LPF114" synch="#TS229"/>
-                    e avevate pensato che il <orgName>Vaticano</orgName> sarebbe intervenuto in qualche modo<pause/> <ancor xml:id="lpf-165" synch="#TT165"/>o a nessuno di voi è venuto in mente<pause/>si<pause/> cioè<ancor xml:id="lpf-166" synch="#TT166"/> ne avevate parlato
+                    e avevate pensato che il <orgName>Vaticano</orgName> sarebbe intervenuto in qualche modo<pause/> <anchor xml:id="lpf-165" synch="#TT165"/>o a nessuno di voi è venuto in mente<pause/>si<pause/> cioè<anchor xml:id="lpf-166" synch="#TT166"/> ne avevate parlato
                 </u>
 
                 <u who="#AW" xml:id="AW114" synch="#TS230"/>
-                    <ancor xml:id="arm-165" synch="#TT165"/>si <del type="repetition">era la nostra speranza</del><pause/> era la nostra speranza<ancor xml:id="arm-166" synch="#TT166"/><pause/>si ne parlavamo fra di noi<pause/> e come ripeto appunto a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName> <unclear reason="inaudible" resp="#GB" cert="medium">abbiamemo</unclear> <del type="truncation">a</del><pause/> <del type="reformulation">abbiamo</del> avuto occasione di parlare con un <roleName type="religion">prete</roleName><pause/> e <unclear reason="inaudible" resp="#GB" cert="medium">quello ci disse</unclear> <q type="spoken">ma come<pause/> se il <orgName>Vaticano</orgName> non può fare niente per i nostri fratelli<pause/> <roleName type="religion">preti</roleName> che sono rinchiusi nei campi di concentramento<pause/> figuriamoci se ha tempo di pensare agli ebrei</q>
+                    <anchor xml:id="arm-165" synch="#TT165"/>si <del type="repetition">era la nostra speranza</del><pause/> era la nostra speranza<anchor xml:id="arm-166" synch="#TT166"/><pause/>si ne parlavamo fra di noi<pause/> e come ripeto appunto a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName> <unclear reason="inaudible" resp="#GB" cert="medium">abbiamemo</unclear> <del type="truncation">a</del><pause/> <del type="reformulation">abbiamo</del> avuto occasione di parlare con un <roleName type="religion">prete</roleName><pause/> e <unclear reason="inaudible" resp="#GB" cert="medium">quello ci disse</unclear> <q type="spoken">ma come<pause/> se il <orgName>Vaticano</orgName> non può fare niente per i nostri fratelli<pause/> <roleName type="religion">preti</roleName> che sono rinchiusi nei campi di concentramento<pause/> figuriamoci se ha tempo di pensare agli ebrei</q>
                 </u>
 
                 <pause/>
@@ -1866,31 +1896,31 @@
                 <pause/>
 
                 <u who="#LPF" xml:id="LPF116" synch="#TS233"/>
-                    cioè qualcuno che non voleva <ancor xml:id="lpf-167" synch="#TT167"/>salire fu mandato dentro<ancor xml:id="lpf-168" synch="#TT168"/>
+                    cioè qualcuno che non voleva <anchor xml:id="lpf-167" synch="#TT167"/>salire fu mandato dentro<anchor xml:id="lpf-168" synch="#TT168"/>
                 </u>
 
                 <u who="#AW" xml:id="AW116" synch="#TS234"/>
-                    <ancor xml:id="arm-167" synch="#TT167"/>salire eccetera <del type="repetition">si ma</del><pause/><ancor xml:id="arm-168" synch="#TT168"/> si ma <del type="repetition">non non</del> non con botte non
+                    <anchor xml:id="arm-167" synch="#TT167"/>salire eccetera <del type="repetition">si ma</del><pause/><anchor xml:id="arm-168" synch="#TT168"/> si ma <del type="repetition">non non</del> non con botte non
                 </u>
 
                 <u who="#LPF" xml:id="LPF117" synch="#TS235"/>
-                    non con botte<pause/> quindi le prime botte le vedeste le <ancor xml:id="lpf-169" synch="#TT169"/>sentiste al <placeName ref="TEI-ListPlace.xml#scuolamilitare">collegio militare</placeName><ancor xml:id="lpf-170" synch="#TT170"/>
+                    non con botte<pause/> quindi le prime botte le vedeste le <anchor xml:id="lpf-169" synch="#TT169"/>sentiste al <placeName ref="TEI-ListPlace.xml#scuolamilitare">collegio militare</placeName><anchor xml:id="lpf-170" synch="#TT170"/>
                 </u>
 
                 <u who="#AW" xml:id="AW117" synch="#TS236"/>
-                    <ancor xml:id="arm-169" synch="#TT169"/>le vedemmo<pause/> al <placeName ref="TEI-ListPlace.xml#scuolamilitare">collegio militare</placeName><ancor xml:id="arm-170" synch="#TT170"/> si
+                    <anchor xml:id="arm-169" synch="#TT169"/>le vedemmo<pause/> al <placeName ref="TEI-ListPlace.xml#scuolamilitare">collegio militare</placeName><anchor xml:id="arm-170" synch="#TT170"/> si
                 </u>
 
                 <u who="#LPF" xml:id="LPF118" synch="#TS237"/>
-                    <vocal>emh</vocal> con scene che si ripetevano <ancor xml:id="lpf-171" synch="#TT171"/>oppure solo quella<ancor xml:id="lpf-172" synch="#TT172"/> volta
+                    <vocal>emh</vocal> con scene che si ripetevano <anchor xml:id="lpf-171" synch="#TT171"/>oppure solo quella<anchor xml:id="lpf-172" synch="#TT172"/> volta
                 </u>
 
                 <u who="#AW" xml:id="AW118" synch="#TS238"/><!--interprete?-->
-                    <ancor xml:id="arm-171" synch="#TT171"/>si ripetevano fino a <del type="truncation">quan</del><ancor xml:id="arm-172" synch="#TT172"/><pause/> fino a quando io non <ancor xml:id="arm-173" synch="#TT173"/>mi dichiarai<ancor xml:id="arm-174" synch="#TT174"/><pause/> disposto <choice><sic>di fare</sic><corr resp="#GB">a fare</corr></choice> da interprete
+                    <anchor xml:id="arm-171" synch="#TT171"/>si ripetevano fino a <del type="truncation">quan</del><anchor xml:id="arm-172" synch="#TT172"/><pause/> fino a quando io non <anchor xml:id="arm-173" synch="#TT173"/>mi dichiarai<anchor xml:id="arm-174" synch="#TT174"/><pause/> disposto <choice><sic>di fare</sic><corr resp="#GB">a fare</corr></choice> da interprete
                 </u>
 
                 <u who="#LPF"/>
-                    <ancor xml:id="lpf-173" synch="#TT173"/>ah<ancor xml:id="lpf-174" synch="#TT174"/>
+                    <anchor xml:id="lpf-173" synch="#TT173"/>ah<anchor xml:id="lpf-174" synch="#TT174"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF119" synch="#TS239"/>
@@ -1918,27 +1948,27 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF122" synch="#TS245"/>
-                    eee<pause/> <vocal>ehm</vocal> <del type="repetition">i</del> i <roleName>militi</roleName><pause/> tedeschi eran li stessi <del type="reformulation">quelli che assistevano al caricamento del <ancor xml:id="lpf-175" synch="#TT175"/>treno erano li stessi<ancor xml:id="lpf-176" synch="#TT176"/></del>
+                    eee<pause/> <vocal>ehm</vocal> <del type="repetition">i</del> i <roleName type="military">militi</roleName><pause/> tedeschi eran li stessi <del type="reformulation">quelli che assistevano al caricamento del <anchor xml:id="lpf-175" synch="#TT175"/>treno erano li stessi<anchor xml:id="lpf-176" synch="#TT176"/></del>
                 </u>
 
                 <u who="#AW" xml:id="AW122" synch="#TS246"/>
-                    <ancor xml:id="arm-175" synch="#TT175"/>si li stessi di<ancor xml:id="arm-176" synch="#TT176"/><pause/> li stessi <ancor xml:id="arm-177" synch="#TT177"/>di quelli che ci hanno<ancor xml:id="arm-178" synch="#TT178"/> arrestato
+                    <anchor xml:id="arm-175" synch="#TT175"/>si li stessi di<anchor xml:id="arm-176" synch="#TT176"/><pause/> li stessi <anchor xml:id="arm-177" synch="#TT177"/>di quelli che ci hanno<anchor xml:id="arm-178" synch="#TT178"/> arrestato
                 </u>
 
                 <u who="#LPF"/>
-                    <ancor xml:id="lpf-177" synch="#TT177"/>li stessi<pause/> si<ancor xml:id="lpf-178" synch="#TT178"/>
+                    <anchor xml:id="lpf-177" synch="#TT177"/>li stessi<pause/> si<anchor xml:id="lpf-178" synch="#TT178"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF123" synch="#TS247"/>
-                    e vi accompagnarono<pause/> o <ancor xml:id="lpf-179" synch="#TT179"/>no<ancor xml:id="lpf-180" synch="#TT180"/>
+                    e vi accompagnarono<pause/> o <anchor xml:id="lpf-179" synch="#TT179"/>no<anchor xml:id="lpf-180" synch="#TT180"/>
                 </u>
 
                 <u who="#AW" xml:id="AW123" synch="#TS248"/>
-                    <ancor xml:id="arm-179" synch="#TT179"/>e<ancor xml:id="arm-180" synch="#TT180"/> <choice><orig>c'accompagnarono</orig><reg resp="#GB">ci accompagnarono</reg></choice><pause/> in parte perché<pause/> <vocal>emh</vocal> mentre prima avevano bisogno di un certo numero circa mi pare 300 erano<pause/> quelli che ci arrestarono<pause/> per il tragitto bastava solamente un <roleName>milite</roleName> per ogni vagone
+                    <anchor xml:id="arm-179" synch="#TT179"/>e<anchor xml:id="arm-180" synch="#TT180"/> <choice><orig>c'accompagnarono</orig><reg resp="#GB">ci accompagnarono</reg></choice><pause/> in parte perché<pause/> <vocal>emh</vocal> mentre prima avevano bisogno di un certo numero circa mi pare 300 erano<pause/> quelli che ci arrestarono<pause/> per il tragitto bastava solamente un <roleName>milite</roleName> per ogni vagone
                 </u>
 
                 <u who="#LPF" xml:id="LPF124" synch="#TS249"/>
-                    e dove viaggiarono ii<pause/> <roleName>militi</roleName><pause/> tedeschi
+                    e dove viaggiarono ii<pause/> <roleName type="military">militi</roleName><pause/> tedeschi
                 </u>
 
                 <u who="#AW" xml:id="AW124" synch="#TS250"/>
@@ -1952,19 +1982,19 @@
                 </u>
 
                 <u who="#AW" xml:id="AW125" synch="#TS252"/>
-                    con noi dentro no<pause/> naturalmente non c'era luce<ancor xml:id="arm-181" synch="#TT181"/><pause/><ancor xml:id="arm-182" synch="#TT182"/> eee qualcuno aveva portato che sé delle candele<pause/> ma anche queste si esaurirono<pause/> e si dovette <del type="truncation">s</del> proseguire<pause/> senza luce nel buio<pause/> completo
+                    con noi dentro no<pause/> naturalmente non c'era luce<anchor xml:id="arm-181" synch="#TT181"/><pause/><anchor xml:id="arm-182" synch="#TT182"/> eee qualcuno aveva portato che sé delle candele<pause/> ma anche queste si esaurirono<pause/> e si dovette <del type="truncation">s</del> proseguire<pause/> senza luce nel buio<pause/> completo
                 </u>
 
                 <u who="#LPF"/>
-                    <ancor xml:id="lpf-181" synch="#TT181"/><vocal><desc>annuisce</desc></vocal><ancor xml:id="lpf-182" synch="#TT182"/>
+                    <anchor xml:id="lpf-181" synch="#TT181"/><vocal><desc>annuisce</desc></vocal><anchor xml:id="lpf-182" synch="#TT182"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF126" synch="#TS253"/>
-                    non c'era neanche l'apertura <del type="reformulation">feritoria</del> in <ancor xml:id="lpf-183" synch="#TT183"/>alto<ancor xml:id="lpf-184" synch="#TT184"/>
+                    non c'era neanche l'apertura <del type="reformulation">feritoria</del> in <anchor xml:id="lpf-183" synch="#TT183"/>alto<anchor xml:id="lpf-184" synch="#TT184"/>
                 </u>
 
                 <u who="#AW" xml:id="AW126" synch="#TS254"/>
-                    <ancor xml:id="arm-183" synch="#TT183"/><del type="truncation">fe</del><ancor xml:id="arm-184" synch="#TT184"/> feritoria c'era <del type="repetition">la</del> la<pause/> finestrella<pause/> però naturalmente chiusa con<pause/> filo spinato
+                    <anchor xml:id="arm-183" synch="#TT183"/><del type="truncation">fe</del><anchor xml:id="arm-184" synch="#TT184"/> feritoria c'era <del type="repetition">la</del> la<pause/> finestrella<pause/> però naturalmente chiusa con<pause/> filo spinato
                 </u>
 
                 <u who="#LPF" xml:id="LPF127" synch="#TS255"/>
@@ -1984,16 +2014,16 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF129" synch="#TS259"/>
-                    una pignatta <ancor xml:id="lpf-185" synch="#TT185"/><vocal>ehm</vocal><ancor xml:id="lpf-186" synch="#TT186"/>
+                    una pignatta <anchor xml:id="lpf-185" synch="#TT185"/><vocal>ehm</vocal><anchor xml:id="lpf-186" synch="#TT186"/>
                 </u>
 
                 <u who="#AW" xml:id="AW129" synch="#TS260"/>
-                    <ancor xml:id="arm-185" synch="#TT185"/><unclear reason="inaudible" resp="#GB" cert="medium">è</unclear> una<ancor xml:id="arm-186" synch="#TT186"/> tenda<ancor xml:id="arm-187" synch="#TT187"/><pause/><ancor xml:id="arm-188" synch="#TT188"/> all'angolo e dove<pause/> si faceva i propri bisogni <ancor xml:id="arm-189" synch="#TT189"/>naturalmente<ancor xml:id="arm-190" synch="#TT190"/> era <del type="repetition">molto</del><pause/> molto
+                    <anchor xml:id="arm-185" synch="#TT185"/><unclear reason="inaudible" resp="#GB" cert="medium">è</unclear> una<anchor xml:id="arm-186" synch="#TT186"/> tenda<anchor xml:id="arm-187" synch="#TT187"/><pause/><anchor xml:id="arm-188" synch="#TT188"/> all'angolo e dove<pause/> si faceva i propri bisogni <anchor xml:id="arm-189" synch="#TT189"/>naturalmente<anchor xml:id="arm-190" synch="#TT190"/> era <del type="repetition">molto</del><pause/> molto
                 </u>
 
                 <u who="#LPF"/>
-                    <ancor xml:id="lpf-187" synch="#TT187"/><vocal>ehm</vocal> si<ancor xml:id="lpf-188" synch="#TT188"/>
-                    <ancor xml:id="lpf-189" synch="#TT189"/><gap reason="inaudible" resp="#GB" atLeast="1 word" atMost="2 words"/><ancor xml:id="lpf-190" synch="#TT190"/>
+                    <anchor xml:id="lpf-187" synch="#TT187"/><vocal>ehm</vocal> si<anchor xml:id="lpf-188" synch="#TT188"/>
+                    <anchor xml:id="lpf-189" synch="#TT189"/><gap reason="inaudible" resp="#GB" atLeast="1 word" atMost="2 words"/><anchor xml:id="lpf-190" synch="#TT190"/>
                 </u>
 
                 <pause/>
@@ -2007,11 +2037,11 @@
                 </u>
                 <!-- QUI -->
                 <u who="#LPF" xml:id="LPF131" synch="#TS263"/>
-                    e <vocal>emh</vocal> anche negli altri vagoni è stato così <ancor xml:id="lpf-191" synch="#TT191"/>che lei sappia<ancor xml:id="lpf-192" synch="#TT192"/>
+                    e <vocal>emh</vocal> anche negli altri vagoni è stato così <anchor xml:id="lpf-191" synch="#TT191"/>che lei sappia<anchor xml:id="lpf-192" synch="#TT192"/>
                 </u>
 
                 <u who="#AW" xml:id="AW131" synch="#TS264"/>
-                    <ancor xml:id="arm-191" synch="#TT191"/><del type="repetition">era uguale</del><ancor xml:id="arm-192" synch="#TT192"/><pause/> era uguale
+                    <anchor xml:id="arm-191" synch="#TT191"/><del type="repetition">era uguale</del><anchor xml:id="arm-192" synch="#TT192"/><pause/> era uguale
                 </u>
 
                 <u who="#LPF" xml:id="LPF132" synch="#TS265"/>
@@ -2027,6 +2057,72 @@
                 <u who="#LPF" xml:id="LPF133" synch="#TS267"/>
                     con la famiglia
                 </u>
+
+                <pause/>
+
+                <u who="#AW" xml:id="AW133" synch="#TS268"/>
+                    no mi pare che <choice><sic>era</sic><corr resp="#GB">fosse</corr></choice> solo<pause/> mi pare di ricordare che <persName ref="TEI-ListPerson.xml#IngMuggia" resp="#GB">lui</persName> <choice><sic>era</sic><corr resp="#GB">fosse</corr></choice> solo senza la famiglia
+                </u>
+
+                <u who="#LPF" xml:id="LPF134" synch="#TS269"/>
+                    qualcun altro
+                </u>
+
+                <pause/>
+
+                <u who="#AW" xml:id="AW134" synch="#TS270"/>
+                    che mi ricordi del vagone dove ero io no
+                </u>
+
+                <u who="#LPF" xml:id="LPF135" synch="#TS271"/>
+                    <vocal>eehm</vocal> decessi negli altri vagoni <del type="falseStart">se</del><pause/> <del type="reformulation">ne</del> ha saputi
+                </u>
+
+                <u who="#AW" xml:id="AW135" synch="#TS272"/>
+                    no<pause/> ma può darsi che ci siano stati ma che io <del type="repetition">non</del><pause/> non ebbi occasione di sapere
+                </u>
+
+                <u who="#LPF" xml:id="LPF135" synch="#TS273"/>
+                    <vocal><desc>sospira</desc></vocal> <del type="falseStart">e durante il <del type="truncation">tragitt</del></del> <del type="reformulation">quanto durò il tragitto</del>
+                </u>
+
+                <u who="#AW" xml:id="AW136" synch="#TS274"/>
+                    il tragitto durò <date from="1943-10-18" to="1943-10-22" resp="#GB">sei giorni</date><pause/> ma arrivammo prima a <placeName ref="TEI-ListPlace.xml#stazionediPadova" resp="#GB">Padova</placeName><pause/> doveeee <vocal>ehm</vocal><pause/> sempre chiusi senza mangiare senza bere<pause/> urlavamo<pause/> di aprirci le porte perché volevamo bere<pause/> e <unclear reason="inaudible" resp="#GB" cert="medium">alla</unclear> <del type="truncation">ss</del><pause/> <placeName ref="TEI-ListPlace.xml#Padova">stazione di Padova</placeName><pause/> c'erano anche dei <roleName type="military">militi</roleName> fascisti<pause/> ai quali noi ci rivolgemmo almeno a loro<pause/> e loro <emph>imposero</emph><pause/> ai <roleName type="military">militi</roleName> della <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice><pause/> di aprirci le porte per andare a prendere dell'acqua<pause/> nelle fontanelle che c'erano in <placeName ref="TEI-ListPlace.xml#stazionediPadova" resp="#GB">stazione</placeName><pause/> ed è lì che successe il caso strano<pause/> di alcuni ebrei<pause/> che non<pause/> avendo pazienza di stare <del type="falseStart">a</del> <del type="reformulation">in</del> fila <del type="truncation">s</del> alla fontanella della <placeName ref="TEI-ListPlace.xml#stazionediPadova" resp="#GB">stazione</placeName><pause/> ne uscirono<pause/> ee si<pause/> procurarono acqua fuori dalla <placeName ref="TEI-ListPlace.xml#stazionediPadova" resp="#GB">stazione</placeName> <pause/>ritornarono per ricongiungersi con le proprie famiglie<pause/> e la <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> non li lasciava più entrare<pause/> perchééé<pause/> non immaginavano che qualcuno avesse avuto l'<distinct type="archaic">ardire</distinct> di uscire dalla <placeName ref="TEI-ListPlace.xml#stazionediPadova" resp="#GB">stazione</placeName><pause/> e chiamarono <emph>me</emph><pause/> e io ho dovuto<pause/> testimoniare che questi qui erano effettivamente ebrei e che rientravano nei vagoni <unclear reason="inaudible" resp="#GB" cert="high">dalle</unclear> proprie famiglie<pause/> pensare che quelli li si sarebbero salvati<pause/>e viceversa
+                </u>
+
+                <incident><desc>si sente un colpo lieve</desc></incident>
+
+                <u who="#LPF" xml:id="LPF136" synch="#TS275"/>
+                    erano in tanti
+                </u>
+
+                <u who="#AW" xml:id="AW137" synch="#TS276"/>
+                    no in tanti no<pause/> <anchor xml:id="arm-193" synch="#TT193"/>ma comunque alcuni<anchor xml:id="arm-194" synch="#TT194"/>
+                </u>
+
+                <u who="#LPF"/>
+                    <anchor xml:id="lpf-193" synch="#TT193"/>qualcuno<anchor xml:id="lpf-194" synch="#TT194"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF137" synch="#TS277"/>
+                    ma scesero tutti dai vagoni
+                </u>
+
+                <u who="#AW" xml:id="AW138" synch="#TS278"/>
+                    no<pause/> scesero quelli che andavano a <anchor xml:id="arm-195" synch="#TT195"/><vocal>emh</vocal> che <unclear reason="inaudible" resp="#GB" cert="medium">avevano poi</unclear><anchor xml:id="arm-196" synch="#TT196"/> con sé qualche<pause/> recipiente dove mettere dell'acqua non tutti l'avevano
+                </u>
+
+                <u who="#LPF"/>
+                    <anchor xml:id="lpf-195" synch="#TT195"/>a raccogliere l'acqua<anchor xml:id="lpf-196" synch="#TT196"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF138" synch="#TS279"/>
+                    e a <placeName>Padova</placeName> quindi<pause/> proprio <del type="falseStart">in <placeName ref="TEI-ListPlace.xml#stazionediPadova" resp="#GB">stazione</placeName></del> <del type="reformulation">dentro la <anchor xml:id="lpf-197" synch="#TT197"/><placeName ref="TEI-ListPlace.xml#stazionediPadova" resp="#GB">stazione</placeName></del> si fermò il treno<anchor xml:id="lpf-198" synch="#TT198"/>
+                </u>
+
+                <u who="#AW" xml:id="AW139" synch="#TS280"/>
+                    <anchor xml:id="arm-197" synch="#TT197"/>in <placeName ref="TEI-ListPlace.xml#stazionediPadova" resp="#GB">stazione</placeName> si<pause/> <placeName ref="TEI-ListPlace.xml#stazionediPadova" resp="#GB">stazione<anchor xml:id="arm-198" synch="#TT198"/> centrale</placeName>
+                </u>
             </div>
            
         </body>
@@ -2037,19 +2133,6 @@
 </TEI>
 
 <!--
-A.W: non mi pare, (che) era solo... mi pare di ricordare che lui era solo, senza la famiglia.
-L.P: qualcun altro?
-A.W: che mi ricordi del vagone dove ero io no.
-L.P: ee decessi negli altri vagoni se ne ha saputi?
-A.W: no, ma può darsi che ci siano stati ma che io non ebbi occasione di sapere.
-L.P: e durante il tragitt-... quanto durò il tragitto?
-A.W: il tragitto durò sei giorni ma arrivammo prima a Padova doveeee sempre chiusi, senza mangiare, senza bere, urlavamo di aprirci le porte perché volevamo bere. E (al)la ss stazione di Padova c'erano anche dei militi fascisti ai quali noi ci rivolgemmo almeno a loro e loro imposero ai militi della SS di aprirci le porte per andare a prendere dell'acqua da(e)lle fontanelle che c'erano in stazione. Ed è lì che successe il caso strano di alcuni ebrei che non avendo pazienza di stare a in fila alla fontanella della stazione ne uscirono ee si procurarono acqua fuori dalla stazione. Ritornarono per ricongiungersi con le proprio famiglie e la SS non li lasciava più entrare perchééé non immaginavano che qualcuno avesse avuto l'ardire di uscire dalla stazione. E chiamarono me, e io ho dovuto testimoniare che questi qui erano effettivamente ebrei e che rientravano nei vagoni dalle(alle) proprie famiglie. Pensare che quelli li si sarebbero salvati e viceversa...
-L.P: erano in tanti?
-A.W: no in tanti no, ma comunque alcuni.
-L.P: qualcuno. Ma scesero tutti dai vagoni?
-A.W: no, scesero quelli che andavano a emh che aveva(no) poi con sé qualche recipienti(e) dove mettere dell'acqua, non tutti l'avevano.
-L.P: a raccogliere l'acqua ...e Padova quindi, proprio in stazione, dentro la stazione si fermò il treno?
-A.W: in stazione, si, stazione centrale.
 L.P: ee altri si accorsero di questa cosa... il pubblico, la gente...?
 A.W: il pubblico si accorse ma era già abituato a vedere dei treni di prigionieri italiani che venivano trasferiti in Germania.
 L.P: emh ci fu, c'erano anche...
