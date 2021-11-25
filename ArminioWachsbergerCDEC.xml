@@ -466,6 +466,39 @@
 
             <when xml:id="TT197" absolute="41:49" synch="#lpf-197"/> 
             <when xml:id="TT198" since="#TT197" interval="1"/>
+
+            <when xml:id="TT199" absolute="41:55" synch="#lpf-199"/> 
+            <when xml:id="TT200" since="#TT199" interval="1"/>
+
+            <when xml:id="TT201" absolute="42:06" synch="#lpf-201"/> 
+            <when xml:id="TT202" since="#TT201" interval="1"/>
+
+            <when xml:id="TT203" absolute="42:07" synch="#arm-203"/> 
+            <when xml:id="TT204" since="#TT203" interval="1"/>
+
+            <when xml:id="TT205" absolute="42:10" synch="#lpf-205"/> 
+            <when xml:id="TT206" since="#TT205" interval="1"/>
+
+            <when xml:id="TT207" absolute="42:40" synch="#lpf-207"/> 
+            <when xml:id="TT208" since="#TT207" interval="1"/>
+
+            <when xml:id="TT209" absolute="42:47" synch="#lpf-209"/> 
+            <when xml:id="TT210" since="#TT209" interval="1"/>
+
+            <when xml:id="TT211" absolute="43:17" synch="#arm-211"/> 
+            <when xml:id="TT212" since="#TT211" interval="1"/>
+
+            <when xml:id="TT213" absolute="43:19" synch="#arm-213"/> 
+            <when xml:id="TT214" since="#TT213" interval="1"/>
+
+            <when xml:id="TT215" absolute="44:39" synch="#lpf-215"/> 
+            <when xml:id="TT216" since="#TT215" interval="1"/>
+
+            <when xml:id="TT217" absolute="44:49" synch="#arm-217"/> 
+            <when xml:id="TT218" since="#TT217" interval="1"/>
+
+            <when xml:id="TT219" absolute="44:52" synch="#arm-219"/> 
+            <when xml:id="TT220" since="#TT219" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -751,6 +784,34 @@
             <when xml:id="TS278" synch="#AW138" absolute="41:38"/>
             <when xml:id="TS279" synch="#LPF139" absolute="41:46"/>
             <when xml:id="TS280" synch="#AW139" absolute="41:49"/>
+            <when xml:id="TS281" synch="#LPF140" absolute="41:52"/>
+            <when xml:id="TS282" synch="#AW140" absolute="41:55"/>
+            <when xml:id="TS283" synch="#LPF141" absolute="42:04"/>
+            <when xml:id="TS284" synch="#AW141" absolute="42:06"/>
+            <when xml:id="TS285" synch="#LPF142" absolute="42:08"/>
+            <when xml:id="TS286" synch="#AW142" absolute="42:10"/>
+            <when xml:id="TS287" synch="#LPF143" absolute="42:35"/>
+            <when xml:id="TS288" synch="#AW143" absolute="42:40"/>
+            <when xml:id="TS289" synch="#LPF144" absolute="42:42"/>
+            <when xml:id="TS290" synch="#AW144" absolute="42:44"/>
+            <when xml:id="TS291" synch="#LPF145" absolute="42:45"/>
+            <when xml:id="TS292" synch="#AW145" absolute="42:49"/>
+            <when xml:id="TS293" synch="#LPF146" absolute="42:53"/>
+            <when xml:id="TS294" synch="#AW146" absolute="42:56"/>
+            <when xml:id="TS295" synch="#LPF147" absolute="43:11"/>
+            <when xml:id="TS296" synch="#AW147" absolute="43:12"/>
+            <when xml:id="TS297" synch="#LPF148" absolute="43:13"/>
+            <when xml:id="TS298" synch="#AW148" absolute="43:16"/>
+            <when xml:id="TS299" synch="#LPF149" absolute="43:31"/>
+            <when xml:id="TS300" synch="#AW149" absolute="43:32"/>
+            <when xml:id="TS301" synch="#LPF150" absolute="43:35"/>
+            <when xml:id="TS302" synch="#AW150" absolute="43:37"/>
+            <when xml:id="TS303" synch="#LPF151" absolute="43:49"/>
+            <when xml:id="TS304" synch="#AW151" absolute="43:51"/>
+            <when xml:id="TS305" synch="#LPF152" absolute="44:37"/>
+            <when xml:id="TS306" synch="#AW152" absolute="44:39"/>
+            <when xml:id="TS307" synch="#LPF153" absolute="44:43"/>
+            <when xml:id="TS308" synch="#AW153" absolute="44:46"/>
         </timeline>
         
     </standOff>
@@ -2123,6 +2184,151 @@
                 <u who="#AW" xml:id="AW139" synch="#TS280"/>
                     <anchor xml:id="arm-197" synch="#TT197"/>in <placeName ref="TEI-ListPlace.xml#stazionediPadova" resp="#GB">stazione</placeName> si<pause/> <placeName ref="TEI-ListPlace.xml#stazionediPadova" resp="#GB">stazione<anchor xml:id="arm-198" synch="#TT198"/> centrale</placeName>
                 </u>
+
+                <u who="#LPF" xml:id="LPF139" synch="#TS281"/>
+                    ee<pause/> altri si accorsero di questa cosa il pubblico <anchor xml:id="lpf-199" synch="#TT199"/>la gente<anchor xml:id="lpf-200" synch="#TT200"/>
+                </u>
+
+                <u who="#AW" xml:id="AW140" synch="#TS282"/>
+                    <anchor xml:id="arm-199" synch="#TT199"/>il pubblico si accorse<anchor xml:id="arm-200" synch="#TT200"/> ma era già abituato a vedere<pause/> dei treni di<pause/> prigionieri italiani che venivano trasferiti in <placeName>Germania</placeName>
+                </u>
+
+                <u who="#LPF" xml:id="LPF140" synch="#TS283"/>
+                    <vocal>emh</vocal> <del type="falseStart">ci fu</del> c'erano <anchor xml:id="lpf-201" synch="#TT201"/>anche<anchor xml:id="lpf-202" synch="#TT202"/>
+                </u>
+
+                <u who="#AW" xml:id="AW141" synch="#TS284"/>
+                    <anchor xml:id="arm-201" synch="#TT201"/>intendo dire<anchor xml:id="arm-202" synch="#TT202"/> prigionieri <anchor xml:id="arm-203" synch="#TT203"/><roleName type="military">soldati<pause/> militari</roleName><anchor xml:id="arm-204" synch="#TT204"/>
+                </u>
+
+                <u who="#LPF"/>
+                    <anchor xml:id="arm-203" synch="#TT203"/><del type="repetition">si</del><pause/> si<anchor xml:id="arm-204" synch="#TT204"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF141" synch="#TS285"/>
+                    c'erano anche delle crocerossine a <placeName ref="TEI-ListPlace.xml#stazionediPadova" resp="#GB">Padova</placeName> <anchor xml:id="lpf-205" synch="#TT205"/><unclear reason="inaudible" resp="#GB" cert="low">o no<pause/> non avete visto nessuno</unclear><anchor xml:id="lpf-206" synch="#TT206"/>
+                </u>
+
+                <u who="#AW" xml:id="AW142" synch="#TS286"/>
+                    <anchor xml:id="arm-205" synch="#TT205"/>a <placeName ref="TEI-ListPlace.xml#stazionediPadova" resp="#GB">Padova</placeName> no<pause/> <unclear reason="inaudible" resp="#GB" cert="medium">non le abbiamo <del type="truncation">vist</del></unclear><anchor xml:id="arm-206" synch="#TT206"/><pause/> le prime crocerossine tedesche le abbiamo viste a <placeName ref="TEI-ListPlace.xml#Furth">Furth</placeName><pause/> in <placeName>Baviera</placeName><pause/> dove <del type="truncation">e</del> era la prima che ci <choice><sic>apressero</sic><corr resp="#GB">aprirono</corr></choice> le porte<pause/> per portarci una zuppa<pause/> ed erano crocerossine tedesche alle quali io mi rivolsi<pause/> parlando in tedesco chiedendo <q type="spoken" who="#AW">dove ci trasportano dove andiamo</q><pause/> e loro <unclear reason="inaudible" resp="#GB" cert="medium">ci</unclear> rispondevano<pause/> <q type="spoken">non possiamo<pause/> parlare</q>
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF143" synch="#TS287"/>
+                    senta mi son dimenticata di chiederle<pause/> fuori dai vagoni<pause/> c'era scritto qualche <anchor xml:id="lpf-207" synch="#TT207"/>cosa<anchor xml:id="lpf-207" synch="#TT207"/>
+                </u>
+
+                <u who="#AW" xml:id="AW143" synch="#TS288"/>
+                    <anchor xml:id="arm-207" synch="#TT207"/>no nulla<anchor xml:id="arm-208" synch="#TT208"/> erano vagoni merci<pause/> normali
+                </u>
+
+                <u who="#LPF" xml:id="LPF144" synch="#TS289"/>
+                    con nessun cartello
+                </u>
+
+                <u who="#AW" xml:id="AW144" synch="#TS290"/>
+                    nessun cartello
+                </u>
+
+                <u who="#LPF" xml:id="LPF145" synch="#TS291"/>
+                    e voi non <vocal>emh</vocal> immaginavate assolutamente <anchor xml:id="lpf-209" synch="#TT209"/>dove sareste stati portati<anchor xml:id="lpf-210" synch="#TT210"/>
+                </u>
+
+                <u who="#AW"/>
+                    <anchor xml:id="arm-209" synch="#TT209"/>assolutamente<pause/> nulla<anchor xml:id="arm-210" synch="#TT210"/>
+                </u>
+
+                <u who="#AW" xml:id="AW145" synch="#TS292"/>
+                    <choice><orig>si sapeva</orig><reg resp="#GB">sapevamo</reg></choice> solamente che <choice><orig>si andava</orig><reg resp="#GB">andavamo</reg></choice> in <placeName><emph>Germania</emph></placeName><pause/> non dicevano in <placeName>Polonia</placeName>
+                </u>
+
+                <u who="#LPF" xml:id="LPF146" synch="#TS293"/><!-- sbaglia le date -->
+                    e durante questi <date from="1943-10-18" to="1943-10-23" resp="#GB">6 giorni</date><pause/> l'unica fermata fu
+                </u>
+
+                <u who="#AW" xml:id="AW146" synch="#TS294"/>
+                    a <placeName ref="TEI-ListPlace.xml#Furth">Furth</placeName><pause/> <vocal>emh</vocal> e poi avvenne una seconda fermata nel <date when="1943-10-23" resp="#GB" cert="medium">quinto giorno</date><pause/> eravamo già in <placeName>Polonia</placeName><pause/> in una latrina per prigionieri militari<pause/> dove<pause/> la prima volta <choice><sic>venne aperto</sic><corr resp="#GB">vennero aperti</corr></choice> i vagoni
+                </u>
+
+                <u who="#LPF" xml:id="LPF147" synch="#TS295"/>
+                    e poteste scender tutti lì
+                </u>
+
+                <u who="#AW" xml:id="AW147" synch="#TS296"/>
+                    si</pause> <unclear reason="inaudible" resp="#GB" cert="medium">poteva</unclear> scendere tutti
+                </u>
+
+                <u who="#LPF" xml:id="LPF148" synch="#TS297"/>
+                    tutti</pause> eee quanto al cibo
+                </u>
+
+                <u who="#AW" xml:id="AW148" synch="#TS298"/>
+                    al cibo niente <anchor xml:id="arm-211" synch="#TT211"/>bisognava <choice><orig>tirare<anchor xml:id="arm-212" synch="#TT212"/> avanti</orig><reg resp="#GB">sopravvivere</reg></choice><anchor xml:id="arm-213" synch="#TT213"/><pause/> ee mi ricordo che qualcuno<anchor xml:id="arm-214" synch="#TT214"/> aveva portato con sé nel nostro vagone</pause> delle patate però <del type="repetition">non</del></pause> non cotte</pause> e un altro aveva portato della marmellata</pause> tagliavamo le patate e mangiavamo patate con marmellata
+                </u>
+
+                <u who="#LPF"/>
+                    <anchor xml:id="lpf-211" synch="#TT211"/>niente<anchor xml:id="lpf-212" synch="#TT212"/> 
+                    <anchor xml:id="lpf-213" synch="#TT213"/>con quello che avevate<anchor xml:id="lpf-214" synch="#TT214"/>
+                </u>
+                <!--here-->
+                <u who="#LPF" xml:id="LPF149" synch="#TS299"/>
+                    i bambini tutti uguale
+                </u>
+
+                <u who="#AW" xml:id="AW149" synch="#TS300"/>
+                    tutti uguale
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF150" synch="#TS301"/>
+                    ee<pause/> che giorno arrivaste ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName>
+                </u>
+
+                <u who="#AW" xml:id="AW150" synch="#TS302"/><!-- in realtà arrivò ad Auschwitz il 22 -->
+                    arrivammo dunque il <date when="1943-10-16" resp="#GB">16</date> fummo arrestati<pause/> <date from="1943-10-16" to="1943-10-18" resp="#GB">due giorni</date> a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName><pause/> <date from="1943-10-18" to="1943-10-24" resp="#GB">6 giorni</date><pause/> di viaggio quindi 8 16 più 8 <unclear reason="inaudible" resp="#GB" cert="medium">il</unclear> <date when="1943-10-24">24<pause/> era un sabato</date>
+                </u>
+
+                <u who="#LPF" xml:id="LPF151" synch="#TS303"/><!-- mattina -->
+                    di mattina
+                </u>
+
+                <u who="#AW" xml:id="AW151" synch="#TS304"/><!-- riferimento a Dante; notte? -->
+                    sabato di <del type="truncation">mattin</del> <del type="reformulation">cioè</del> arrivammo la notte<pause/> ma il treno rimase <del type="repetition">inn</del> in <placeName ref="TEI-ListPlace.xml#Birkenau">stazione</placeName><pause/> durante tutta la notte<pause/> la mattina verso le<pause/> <time atLeast="5:00:00" atMost="6:00:00"> 5 o le 6</time><pause/> iniziò<pause/> a farsi chiaro<pause/> io guardai fuori dalla finestra<pause/> e vidi unn <roleName type="military">ufficiale</roleName> della <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> <pause/>che ci guardava<pause/> siccome la <persName ref="TEI-ListPerson.xml#ClaraW" resp="#GB">mia bambina</persName> era molto<pause/> ansiosa di guardare <pause/>fuori dal vagone<pause/> la tirai su<pause/> a guardare anche <persName ref="TEI-ListPerson.xml#ClaraW" resp="#GB">lei</persName> attraverso <del type="falseStart">la</del> <del type="reformulation">il finestrino</del> la feritoia<pause/> e questo <roleName type="military">ufficiale</roleName> della <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> prese un sasso e lo lanciò contro la <persName ref="TEI-ListPerson.xml#ClaraW" resp="#GB">mia bambina</persName><pause/> da quel momento capì che eravamo nell'Inferno
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF152" synch="#TS305"/>
+                    era <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName><anchor xml:id="lpf-215" synch="#TT215"/><pause/> stazione<anchor xml:id="lpf-216" synch="#TT216"/>
+                </u>
+
+                <u who="#AW" xml:id="AW152" synch="#TS306"/>
+                    <anchor xml:id="arm-215" synch="#TT215"/>era <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName><anchor xml:id="arm-216" synch="#TT216"/><pause/> no era <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName><pause/> la rampa di <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName> cioè
+                </u>
+
+                <u who="#LPF" xml:id="LPF153" synch="#TS307"/>
+                    cioè<pause/> fuori o dentro
+                </u>
+
+                <u who="#AW" xml:id="AW153" synch="#TS308"/>
+                    dentro a <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName> <del type="truncation">avevan</del> <unclear reason="inaudible" resp="#GB" cert="medium">avevano</unclear> una stazione <unclear reason="inaudible" resp="#GB" cert="medium">avevano</unclear> una rampa<anchor xml:id="arm-217" synch="#TT217"/><pause/><anchor xml:id="arm-218" synch="#TT218"/> cioè una <anchor xml:id="arm-219" synch="#TT219"/><pause/><anchor xml:id="arm-220" synch="#TT220"/><vocal>emh</vocal> uuna <emph>banchina</emph>
+                </u>
+
+                <u who="#LPF"/>
+                    <anchor xml:id="lpf-217" synch="#TT217"/>si<anchor xml:id="lpf-218" synch="#TT218"/>
+                    <anchor xml:id="lpf-219" synch="#TT219"/>ehm ss<anchor xml:id="lpf-220" synch="#TT220"/>
+                </u>
+
+                <!--da qui: 44:54-->
+                <u who="#LPF" xml:id="LPF154" synch="#TS309"/>
+                    una banchina di arrivo. E quindi siete arrivati direttamente dentro a Birkenau?
+                </u>
+
+                <u who="#AW" xml:id="AW154" synch="#TS310"/>
+                    una banchina di arr-... direttamente a Birkenau perché Auschwitz è a 4 chilometri da Birkenau.
+                </u>
             </div>
            
         </body>
@@ -2132,39 +2338,7 @@
 
 </TEI>
 
-<!--
-L.P: ee altri si accorsero di questa cosa... il pubblico, la gente...?
-A.W: il pubblico si accorse ma era già abituato a vedere dei treni di prigionieri italiani che venivano trasferiti in Germania.
-L.P: emh ci fu, c'erano anche...
-A.W: intendo dire prigionieri soldati, militari.
-L.P: si si, c'erano anche delle crocerossine a Padova?
-A.W: a Padova no, non le abbiamo vist-(?). Le prime crocerossine tedesche le abbiamo viste a Fierd(?) in Baviera, dove e- era la prima che ci apressero(?) le porte per portarci una zuppa ed erano crocerossine tedesche alle quali io mi rivolsi parlando in tedesco chiedendo "dove ci trasportano? Dove andiamo?" E loro (ci) rispondevano "non possiamo parlare".
-L.P: senta, mi son dimenticata di chiederle... fuori dai vagoni c'era scritto qualche qualcosa?
-A.W: no nulla, erano vagoni merci normali.
-L.P: con nessun cartello?
-A.W: nessun cartello.
-L.P: e voi non emh non immaginavate assolutamente dove sareste stati portati?
-A.W: assolutamente, nulla, si sapeva solamente che si andava in Germania, non dicevano in Polonia.
-L.P: e durante questi 6 giorni l'unica fermata fu...
-A.W: a Fierd(?) emh e poi avvenne una seconda fermata nel quinto giorno, eravamo già in Polonia, in una latrina per prigionieri militari dove la prima volta venne aperto i vagoni.
-L.P: e poteste scender tutti lì?
-A.W: si poteva scendere tutti.
-L.P: tutti eee quanto al cibo...?
-A.W: al cibo niente, bisognava tirare avanti
-L.P: niente... con quello che avevate?
-A.W: ee mi ricordo che qualcuno aveva portato con sé nel nostro vagone delle patate però non non cotte e un altro aveva portato della marmellata, tagliavamo le patate e mangiavamo patate con marmellata.
-L.P: i bambini... tutti uguale?
-A.W: tutti uguale.
-L.P: ee che giorno arrivaste ad Auschwitz?
-A.W: arrivammo... dunque, il 16 fummo arrestati, due giorni a Roma, 6 giorni di viaggio, quindi 8 16 più 8, (il) 24. Era un sabato.
-L.P: di mattina ?
-A.W: sabato di mattin-, cioè arrivammo la notte ma il treno rimase inn in stazione durante tutta la notte. La mattina verso le 5 o le 6 iniziò a farsi chiaro e io guardai fuori dalla finestra e vidi unn ufficiale della SS che ci guardava. Siccome la mia bambina era molto ansiosa di guardare fuori dal vagone la tirai su a guardare anche lei attraverso il finestrino, la feritoia e questo ufficiale della SS prese un sasso e lo lanciò contro la mia bambina. Da quel momento capì che eravamo nell'Inferno. 
-L.P: era Auschwitz stazione?
-A.W: era Birkenau, no era Birkenau, la rampa di Birkenau cioè...
-L.P: cioè... fuori o dentro?
-A.W: dentro a Birkenau avevan- era una stazione, aveva(no) una rampa, cioè una emh una banchina.
-L.P: una banchina di arrivo. E quindi siete arrivati direttamente dentro a Birkenau?
-A.W: una banchina di arr-... direttamente a Birkenau perché Auschwitz è a 4 chilometri da Birkenau.
+<!-- 
 L.P: eee anche la fermata del treno era fuori da Birkenau allora?
 A.W: fuori da Birkenau però sempre sulla emh sul bi- sul...
 L.P: sul binario.
