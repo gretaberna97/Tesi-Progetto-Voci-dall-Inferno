@@ -526,6 +526,18 @@
 
             <when xml:id="TT237" absolute="48:05" synch="#arm-237"/> 
             <when xml:id="TT238" since="#TT237" interval="1"/>
+
+            <when xml:id="TT239" absolute="48:24" synch="#arm-239"/> 
+            <when xml:id="TT240" since="#TT239" interval="1"/>
+
+            <when xml:id="TT241" absolute="48:31" synch="#lpf-241"/> 
+            <when xml:id="TT242" since="#TT241" interval="1"/>
+
+            <when xml:id="TT243" absolute="48:53" synch="#arm-243"/> 
+            <when xml:id="TT244" since="#TT243" interval="1"/>
+
+            <when xml:id="TT245" absolute="49:39" synch="#arm-245"/> 
+            <when xml:id="TT246" since="#TT245" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -863,6 +875,10 @@
             <when xml:id="TS330" synch="#AW164" absolute="48:03"/>
             <when xml:id="TS331" synch="#LPF165" absolute="48:04"/>
             <when xml:id="TS332" synch="#AW165" absolute="48:05"/>
+            <when xml:id="TS333" synch="#LPF166" absolute="48:30"/>
+            <when xml:id="TS334" synch="#AW166" absolute="48:31"/>
+            <when xml:id="TS335" synch="#LPF167" absolute="49:38"/>
+            <when xml:id="TS336" synch="#AW167" absolute="49:39"/>
         </timeline>
         
     </standOff>
@@ -2467,7 +2483,7 @@
                     quindi allora siete scesi sulla destra
                 </u>
 
-                <u who="#AW" xml:id="AW165" synch="#TS330"/>
+                <u who="#AW" xml:id="AW164" synch="#TS330"/>
                     <del type="truncation"><del type="repetition">d</del> d</del> destra della <anchor xml:id="arm-235" synch="#TT235"/>banchina<anchor xml:id="arm-236" synch="#TT236"/>
                 </u>
 
@@ -2479,28 +2495,50 @@
                     della banchina
                 </u>
 
-                <u who="#AW" xml:id="AW166" synch="#TS332"/>
-                    <anchor xml:id="arm-237" synch="#TT237"/>si<pause/><anchor xml:id="arm-238" synch="#TT238"/> ed è strano questo racconterò in seguito<pause/> chee<pause/> a un certo momento il <persName ref="TEI-ListPerson.xml#Hoss"><roleName type="military">comandante</roleName> <foreign xml:lang="de">Hoss</foreign></persName> non <persName ref="TEI-ListPerson.xml#Mengele"><foreign xml:lang="de">Mengele</foreign></persName><pause/> <del type="falseStart">ci</del> <del type="correction">mi</del> fece dire che<pause/> lì erano pronti dei camion<pause/> <choice><sic><del type="falseStart">sulla</del></sic><corr resp="#GB">sul</corr></choice> <pause/><del type="truncation">sp</del> <del type="reformulation">piazzale</del> della banchina c'erano pronti dei camion vuoti no<pause/> <vocal>emh</vocal>
+                <u who="#AW" xml:id="AW165" synch="#TS332"/>
+                    <anchor xml:id="arm-237" synch="#TT237"/>si<pause/><anchor xml:id="arm-238" synch="#TT238"/> ed è strano questo racconterò in seguito<pause/> chee<pause/> a un certo momento il <persName ref="TEI-ListPerson.xml#Hoss"><roleName type="military">comandante</roleName> <foreign xml:lang="de">Hoss</foreign></persName> non <persName ref="TEI-ListPerson.xml#Mengele"><foreign xml:lang="de">Mengele</foreign></persName><pause/> <del type="falseStart">ci</del> <del type="correction">mi</del> fece dire che<pause/> lì erano pronti dei camion<pause/> <choice><sic><del type="falseStart">sulla</del></sic><corr resp="#GB">sul</corr></choice> <pause/><del type="truncation">spia</del> <del type="reformulation">piazzale</del> della banchina c'erano pronti dei camion vuoti no<pause/> <vocal>emh</vocal><anchor xml:id="arm-239" synch="#TT239"/><pause/> accanto <del type="truncation">a</del><pause/> accanto<anchor xml:id="arm-240" synch="#TT240"/><pause/> prima dell'ingresso l'ingresso noi non <unclear reason="inaudible" resp="#GB" cert="medium">lo</unclear> vedevamo l'ingresso di <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName>
                 </u>
 
                 <u who="#LPF"/>
                     <anchor xml:id="lpf-237" synch="#TT237"/><vocal iterated="true"><desc>si schiarisce la gola</desc></vocal><anchor xml:id="lpf-238" synch="#TT238"/>
-                </u>
-                <!-- here: 48:20 -->
-                <u who="#LPF" xml:id="LPF167" synch="#TS333"/>
-                    dove? Davan- davanti all'ingresso...
+                    <anchor xml:id="lpf-239" synch="#TT239"/>dove <del type="truncation">davan</del><pause/> davanti all'ingresso<anchor xml:id="lpf-240" synch="#TT240"/>
                 </u>
 
-                <u who="#AW" xml:id="AW167" synch="#TS334"/>
-                    accanto accanto, prima dell'ingresso, l'ingresso noi non vedevamo l'ingresso di Birkenau.
+                <u who="#LPF" xml:id="LPF166" synch="#TS333"/>
+                    non lo vedevate <anchor xml:id="lpf-241" synch="#TT241"/>l'ingresso <unclear reason="inaudible" resp="#GB" cert="low">una volta arrivati</unclear><anchor xml:id="lpf-242" synch="#TT242"/>
                 </u>
 
-                <u who="#LPF" xml:id="LPF168" synch="#TS335"/>
-                    non lo vedevate l'ingresso di Birk-? (Frase che non si capisce)
+                <u who="#AW" xml:id="AW166" synch="#TS334"/>
+                    <anchor xml:id="arm-241" synch="#TT241"/><del type="repetition">no</del><pause/> no appunto <anchor xml:id="arm-242" synch="#TT242"/>questo è strano che voglio raccontarlo adesso<pause/> non si vedeva niente <unclear reason="inaudible" resp="#GB" cert="medium"><del type="falseStart">che</del></unclear> solo la banchina<pause/> fuori inn<pause/> aperta campagna<pause/> Eee<pause/> il <persName ref="TEI-ListPerson.xml#Hoss" resp="#GB"><roleName type="military">comandante</roleName></persName> mi fece dire<pause/> cheee<pause/> chi fosse stanco<pause/> da <del type="falseStart">poter</del><pause/> <del type="correction">non poter</del> camminare in <anchor xml:id="arm-243" synch="#TT243"/>quanto il <emph>campo</emph><anchor xml:id="arm-244" synch="#TT244"/> di lavoro era distante circa<pause/> <measure><num>10</num><unit> km</unit></measure><pause/> eravamo stati scelti in 300 da uomini robusti <del type="truncation">ad</del> adatti al lavoro<pause/> eee il campo era lontano <measure><num>10</num><unit> km</unit></measure> chi <choice><sic>si fosse</sic><corr resp="#GB">era</corr></choice> stanco<pause/> cioè non se la <choice><sic>sente</sic><corr resp="#GB">sentiva</corr></choice> di fare questi altri <measure><num>10</num><unit> km</unit></measure> <del type="falseStart">amh</del> <del type="reformulation">a</del> piedi<pause/> poteva salire sui camion insieme con gli altri che <choice><sic>vanno</sic><corr resp="#GB">andavano</corr></choice> nel<pause/> campo di riposo<pause/> e molti fra questi qui naturalmente preferirono andare sui camion<pause/> così <del type="repetition">dei</del> dei 300 che eravamo<pause/> rimanemmo solo in 200<pause/> e<pause/> ci incamminarono<pause/> a piedi<pause/> per andare verso<pause/> il campo<pause/> <unclear reason="inaudible" resp="#GB" cert="medium">su</unclear>
                 </u>
 
-                <u who="#AW" xml:id="AW168" synch="#TS336"/>
-                    no, appunto questo è strano, che voglio raccontarlo adesso. Non si vedeva niente, (che) solo la banchina, fuori inn aperta campagna. Eee il comandante mi fece dire cheee chi fosse stanco da poter (riformulazione) non poter camminare, in quanto il campo di lavoro era distante circa 10 km - eravamo stati scelti in 300 da uomini robusti ad- adatti al lavoro - eee il campo era lontano 10 km, chi si fosse stanco, cioè non se la sente di fare questi altri 10 km amh a piedi, poteva salire sui camion insieme con gli altri che vanno nel campo di riposo. E molti, fra questi qui naturalmente, preferirono andare sui camion così ddei 300 che eravamo rimanemmo solo in 200. E ci incamminarono a piedi per andare verso il campo. Su...
+                <u who="#LPF"/>
+                    <anchor xml:id="lpf-243" synch="#TT243"/><vocal iterated="true"><desc>si schiarisce la gola</desc></vocal><anchor xml:id="lpf-244" synch="#TT244"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF167" synch="#TS335"/>
+                    di <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName>
+                </u>
+
+                <u who="#AW" xml:id="AW167" synch="#TS336"/><!-- ha fatto -->
+                    di <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName><anchor xml:id="arm-245" synch="#TT245"/><pause/> solo<pause/> dritto<pause/> davanti<anchor xml:id="arm-246" synch="#TT246"/><pause/> però <del type="falseStart">non</del> <del type="correction">prima non</del> vedevamo ancora l'entrata<pause/> abbiamo camminato si e no dieci minuti quando<pause/> finalmente<pause/> vedemmo questa <soCalled>entrata di <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName></soCalled><pause/> con la scritta <q type="written"><foreign xml:lang="de">arbeit macht dich frei</foreign></q> no<pause/> e per me sembrava strano la decisione<pause/> di quelli che erano saliti sui camion<pause/> se si trattava solo di dieci minuti di cammino<pause/> e su questo<pause/> parlerò dopo<pause/> ciò che mi disse <persName ref="TEI-ListPerson.xml#Mengele"><foreign xml:lang="de">Mengele</foreign></persName> quando un giorno gli chiesi<pause/> perché<pause/> <choice><sic>ha fatto</sic><corr resp="#GB">fece</corr></choice> mandare<pause/> in camera a gas anche quelli robusti <vocal>emh</vocal> nel fisico<pause/> e che avrebbero potuto lavorare<pause/> entrati aaa<pause/> <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName><pause/> fummo mandati
+                </u>
+
+                <u who="#LPF"/>
+                    <anchor xml:id="lpf-245" synch="#TT245"/>quindi dritto davanti a voi<anchor xml:id="lpf-246" synch="#TT246"/>
+                </u>
+
+                <!--50:20-->
+                <u who="#LPF" xml:id="LPF168" synch="#TS337"/>
+                    con la vostra <distinct type="slang">roba</distinct> in mano<pause/> o no
+                </u>
+
+                <u who="#AW" xml:id="AW168" synch="#TS338"/>
+                    la <distinct type="slang">roba</distinct> in mano no perché era rimasto tutto nel vagone
+                </u>
+
+                <u who="#LPF" xml:id="LPF169" synch="#TS339"/>
+                    niente<pause/> era rimasto tutto nel vagone<pause/> mi scusi un attimo laaa selezione come avvenne? Prima tra le donne e poi tra gli uomini?
                 </u>
             </div>
            
@@ -2512,8 +2550,6 @@
 </TEI>
 
 <!-- 
-L.P: di Birkenau? Quindi dritto davanti a voi...
-A.W: di Birkenau... solo dritto, davanti. Però non, prima non vedevamo ancora l'entrata. Abbiamo camminato si e no dieci minuti quando finalmente vedemmo questa entrata di Birkenau con la scritta "ARBEIT MACHT DICH FREI" no? E per me sembrava strano la decisione di quelli che erano saliti sui camion se si trattava solo di dieci minuti di cammino e su questo parlerò dopo ciò che mi disse Mengele quando un giorno gli chiesi perché ha fatto mandare in camera a gas anche quelli robusti emh nel fisico e che avrebbero potuto lavorare. Entrati aaa Birkenau fummo mandati...
 L.P: con la vostra roba in mano? O no?
 A.W: la roba in mano no perché era rimasto tutto nel vagone.
 L.P: niente, era rimasto tutto nel vagone. Mi scusi un attimo, laaa selezione come avvenne? Prima tra le donne e poi tra gli uomini?
