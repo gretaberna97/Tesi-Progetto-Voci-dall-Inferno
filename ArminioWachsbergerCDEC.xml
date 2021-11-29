@@ -616,6 +616,36 @@
 
             <when xml:id="TT297" absolute="1:01:35" synch="#lpf-297"/> 
             <when xml:id="TT298" since="#TT297" interval="1"/>
+
+            <when xml:id="TT299" absolute="1:01:46" synch="#lpf-299"/> 
+            <when xml:id="TT300" since="#TT299" interval="1"/>
+
+            <when xml:id="TT301" absolute="1:01:52" synch="#arm-301"/> 
+            <when xml:id="TT302" since="#TT301" interval="1"/>
+
+            <when xml:id="TT303" absolute="1:01:57" synch="#arm-303"/> 
+            <when xml:id="TT304" since="#TT303" interval="1"/>
+
+            <when xml:id="TT305" absolute="1:02:42" synch="#arm-305"/> 
+            <when xml:id="TT306" since="#TT305" interval="1"/>
+
+            <when xml:id="TT307" absolute="1:02:50" synch="#arm-307"/> 
+            <when xml:id="TT308" since="#TT308" interval="1"/>
+
+            <when xml:id="TT309" absolute="1:04:31" synch="#lpf-309"/> 
+            <when xml:id="TT310" since="#TT309" interval="1"/>
+
+            <when xml:id="TT311" absolute="1:04:34" synch="#lpf-311"/> 
+            <when xml:id="TT312" since="#TT311" interval="1"/>
+
+            <when xml:id="TT313" absolute="1:04:36" synch="#lpf-313"/> 
+            <when xml:id="TT314" since="#TT313" interval="1"/>
+
+            <when xml:id="TT315" absolute="1:04:41" synch="#lpf-315"/> 
+            <when xml:id="TT316" since="#TT315" interval="1"/>
+
+            <when xml:id="TT317" absolute="1:04:44" synch="#lpf-317"/> 
+            <when xml:id="TT318" since="#TT318" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -1015,6 +1045,25 @@
             <when xml:id="TS392" synch="#AW195" absolute="1:01:29"/>
             <when xml:id="TS393" synch="#LPF196" absolute="1:01:30"/>
             <when xml:id="TS394" synch="#AW196" absolute="1:01:38"/>
+            <when xml:id="TS395" synch="#LPF197" absolute="1:01:39"/>
+            <when xml:id="TS396" synch="#AW197" absolute="1:01:42"/>
+            <when xml:id="TS397" synch="#LPF198" absolute="1:01:45"/>
+            <when xml:id="TS398" synch="#AW198" absolute="1:01:46"/>
+            <when xml:id="TS399" synch="#LPF199" absolute="1:03:24"/>
+            <when xml:id="TS400" synch="#AW199" absolute="1:03:26"/>
+            <when xml:id="TS401" synch="#LPF200" absolute="1:03:32"/>
+            <when xml:id="TS402" synch="#AW200" absolute="1:03:33"/>
+            <when xml:id="TS403" synch="#LPF201" absolute="1:03:35"/>
+            <when xml:id="TS404" synch="#AW201" absolute="1:03:37"/>
+            <when xml:id="TS405" synch="#LPF202" absolute="1:03:42"/>
+            <when xml:id="TS406" synch="#AW202" absolute="1:03:44"/>
+            <when xml:id="TS407" synch="#LPF203" absolute="1:04:02"/>
+            <when xml:id="TS408" synch="#AW203" absolute="1:04:09"/>
+            <when xml:id="TS409" synch="#LPF204" absolute="1:04:28"/>
+            <when xml:id="TS410" synch="#AW204" absolute="1:04:31"/>
+            <when xml:id="TS411" synch="#LPF205" absolute="1:04:33"/>
+            <when xml:id="TS412" synch="#AW205" absolute="1:04:51"/>
+            <when xml:id="TS413" synch="#LPF206" absolute="1:05:01"/>
         </timeline>
         
     </standOff>
@@ -1911,7 +1960,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW90" synch="#TS182"/>
-                    <anchor xml:id="arm-113" synch="#TT113"/>non mi ricordo<anchor xml:id="arm-114" synch="#TT114"/> mi pare che aveva il grado di <roleName type="military">capitano</roleName><anchor xml:id="arm-115" synch="#TT115"/><pause/> o qualcosa di simile<anchor xml:id="arm-116" synch="#TT116"/>
+                    <anchor xml:id="arm-113" synch="#TT113"/>non mi ricordo<anchor xml:id="arm-114" synch="#TT114"/> <choice><orig>mi pare</orig><reg resp="#GB">mi sembra</reg></choice> che aveva il grado di <roleName type="military">capitano</roleName><anchor xml:id="arm-115" synch="#TT115"/><pause/> o qualcosa di simile<anchor xml:id="arm-116" synch="#TT116"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF91" synch="#TS183"/>
@@ -2228,7 +2277,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW123" synch="#TS248"/>
-                    <anchor xml:id="arm-179" synch="#TT179"/>e<anchor xml:id="arm-180" synch="#TT180"/> <choice><orig>c'accompagnarono</orig><reg resp="#GB">ci accompagnarono</reg></choice><pause/> in parte perché<pause/> <vocal>emh</vocal> mentre prima avevano bisogno di un certo numero circa mi pare 300 erano<pause/> quelli che ci arrestarono<pause/> per il tragitto bastava solamente un <roleName>milite</roleName> per ogni vagone
+                    <anchor xml:id="arm-179" synch="#TT179"/>e<anchor xml:id="arm-180" synch="#TT180"/> <choice><orig>c'accompagnarono</orig><reg resp="#GB">ci accompagnarono</reg></choice><pause/> in parte perché<pause/> <vocal>emh</vocal> mentre prima avevano bisogno di un certo numero circa <choice><orig>mi pare</orig><reg resp="#GB">mi sembra</reg></choice> 300 erano<pause/> quelli che ci arrestarono<pause/> per il tragitto bastava solamente un <roleName>milite</roleName> per ogni vagone
                 </u>
 
                 <u who="#LPF" xml:id="LPF124" synch="#TS249"/>
@@ -2325,7 +2374,7 @@
                 <pause/>
 
                 <u who="#AW" xml:id="AW133" synch="#TS268"/>
-                    no mi pare che <choice><sic>era</sic><corr resp="#GB">fosse</corr></choice> solo<pause/> mi pare di ricordare che <persName ref="TEI-ListPerson.xml#IngMuggia" resp="#GB">lui</persName> <choice><sic>era</sic><corr resp="#GB">fosse</corr></choice> solo senza la famiglia
+                    no mi pare che <choice><sic>era</sic><corr resp="#GB">fosse</corr></choice> solo<pause/> <choice><orig>mi pare</orig><reg resp="#GB">mi sembra</reg></choice> di ricordare che <persName ref="TEI-ListPerson.xml#IngMuggia" resp="#GB">lui</persName> <choice><sic>era</sic><corr resp="#GB">fosse</corr></choice> solo senza la famiglia
                 </u>
 
                 <u who="#LPF" xml:id="LPF134" synch="#TS269"/>
@@ -2955,7 +3004,104 @@
                 <u who="#AW" xml:id="AW196" synch="#TS394"/>
                     si
                 </u>
-                <!-- 1:01:38 -->
+                
+                <u who="#LPF" xml:id="LPF197" synch="#TS395"/>
+                    <vocal><desc>si schiarisce la gola</desc></vocal> dopo<pause/> subito<pause/>
+                </u>
+
+                <u who="#AW" xml:id="AW197" synch="#TS396"/>
+                    dunque subito dopo il portone<pause/> lo svestimento
+                </u>
+
+                <u who="#LPF" xml:id="LPF198" synch="#TS397"/>
+                    svestimento<pause/> <anchor xml:id="lpf-299" synch="#TT299"/>poi<anchor xml:id="lpf-300" synch="#TT300"/>
+                </u>
+
+                <u who="#AW" xml:id="AW198" synch="#TS398"/>
+                    <anchor xml:id="arm-299" synch="#TT299"/>poi dopo<anchor xml:id="arm-300" synch="#TT300"/> <del type="falseStart">la <del type="truncation">lll</del></del> <del type="correction">il</del> tatuaggio la doccia<pause/> e poi<pause/> il proseguimento al<pause/> <anchor xml:id="arm-301" synch="#TT301"/><placeName ref="TEI-ListPlace.xml#quarantena">campo della quarantena</placeName><anchor xml:id="arm-302" synch="#TT302"/><pause/> mediante una <distinct type="slang">macchinetta</distinct><anchor xml:id="arm-303" synch="#TT303"/><pause/><anchor xml:id="arm-304" synch="#TT304"/> a orologeria<pause/> è come quella che serve per forare<pause/> le carte<pause/> ee da disegno<pause/> per<pause/> ricamo<pause/> che vengono duplicate non so se ha mai visto <pause/>una carta da disegno<pause/> forata<pause/> e attraverso la<pause/> forata sotto si mette il tessuto si passa sopra<pause/> <del type="falseStart">delll</del> <del type="reformulation">un</del> colore anilina e attraverso i fori <choice><sic>questa</sic><corr resp="#GB">questo</corr></choice> passa<pause/> e quindi con un solo disegno si possono fare centinaia di copie<pause/> e la stessa <distinct type="slang">macchinetta</distinct> serviva per<pause/> tatuarci<pause/> cioè era un ago<pause/> chee<pause/> attaccato a un piccolo meccanismo che caricato ad orologeria<pause/> faceva<pause/> scendere e alzare<pause/> l'ago<pause/> e <anchor xml:id="arm-305" synch="#TT305"/><gap reason="inaudible" resp="#GB" extent="1 sentence"/><pause/> <del type="repetition">no</del> no<pause/> solo a<anchor xml:id="arm-306" synch="#TT306"/> orologeria<pause/> come caricare un orologio<pause/> come lei carica un orologio e suona per <anchor xml:id="arm-307" synch="#TT307"/>esempio no<anchor xml:id="arm-308" synch="#TT308"/><pause/> così questo caricava e aveva il <unclear reason="inaudible" resp="#GB" cert="low">fon la</unclear> <gap reason="lost" extent="unknown"/> e attraverso un meccanismo di orologeria che veniva caricato<pause/> l'ago veniva intinto <choice><sic>inn</sic><corr resp="#GB">nell'</corr></choice><pause/> inchiostro<pause/> e<pause/> l'<roleName>operatore</roleName><pause/> applicava questo ago sul braccio<pause/> ee segnava un numero consecutivo<pause/> cominciò con 158 mila 600<pause/> e andava avanti così per circa 150 numeri<pause/> tanti eravamo<pause/> i prigionieri entrati nel campo
+                </u>
+
+                <u who="#LPF"/>
+                    <anchor xml:id="lpf-301" synch="#TT301"/>si come avveniva il tatuaggio<anchor xml:id="lpf-302" synch="#TT302"/>
+                    <anchor xml:id="lpf-303" synch="#TT303"/><vocal><desc>annuisce</desc></vocal><anchor xml:id="lpf-304" synch="#TT304"/>
+                    <anchor xml:id="lpf-305" synch="#TT305"/><unclear reason="inaudible" resp="#GB" cert="medium">ma</unclear> elettricamente<pause/> no<anchor xml:id="lpf-306" synch="#TT306"/>
+                    <anchor xml:id="lpf-307" synch="#TT307"/>si<anchor xml:id="lpf-308" synch="#TT308"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF199" synch="#TS399"/>
+                    era doloroso
+                </u>
+
+                <u who="#AW" xml:id="AW199" synch="#TS400"/>
+                    no<pause/> oppure anche se era doloroso<pause/> non lo si sentiva in quel momento
+                </u>
+
+                <u who="#LPF" xml:id="LPF200" synch="#TS401"/>
+                    e tutti nello stesso punto
+                </u>
+
+                <u who="#AW" xml:id="AW200" synch="#TS402"/>
+                    tutti nello stesso punto si
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF201" synch="#TS403"/>
+                    aveva la serie con la a o senza a
+                </u>
+
+                <u who="#AW" xml:id="AW201" synch="#TS404"/>
+                    no senza la a venne applicata in seguito<pause/> cominciando dal basso
+                </u>
+
+                <u who="#LPF" xml:id="LPF202" synch="#TS405"/>
+                    e lei sa perché fu applicata poi la A
+                </u>
+
+                <u who="#AW" xml:id="AW202" synch="#TS406"/>
+                    <del type="repetition">no so</del><pause/> no so il motivo <choice><orig>mi pare</orig><reg resp="#GB">mi sembra</reg></choice> che siano andati avanti fino a 200 mila<pause/> e poi hanno cominciato con la A<pause/> la differenza ripeto questo l'ho visto in seguito<pause/> <del type="falseStart">che le donne</del><pause/> <del type="reformulation">alle donne</del> veniva tatuato il numero nell'interno del braccio<pause/> agli uomini invece all'esterno
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF203" synch="#TS407"/>
+                    eee
+                </u>
+
+                <gap reason="lost" extent="unknown"/>
+
+                <u who="#AW" xml:id="AW203" synch="#TS408"/>
+                    doveee erano di legno<pause/> con un po' di paglia<pause/> sui quali ci si <distinct type="archaic">coricava</distinct><pause/> ed era una unica coperta per ogni 4 persone del <mentioned>castello</mentioned><pause/> quindi<pause/> era poco piacevole la notte perché se uno si muoveva<pause/> trascinava la coperta e l'altro rimaneva scoperto
+                </u>
+
+                <u who="#LPF" xml:id="LPF204" synch="#TS409"/>
+                    allora erano 4 letti per piano <anchor xml:id="lpf-309" synch="#TT309"/>diciamo<anchor xml:id="lpf-310" synch="#TT310"/>
+                </u>
+
+                <u who="#AW" xml:id="AW204" synch="#TS410"/>
+                    <anchor xml:id="arm-309" synch="#TT309"/>4<pause/> letti<anchor xml:id="arm-310" synch="#TT310"/> <emph>4 posti</emph>
+                </u>
+
+                <u who="#LPF" xml:id="LPF205" synch="#TS411"/>
+                    4 posti<pause/> <anchor xml:id="lpf-311" synch="#TT311"/>per piano<anchor xml:id="lpf-312" synch="#TT312"/> e i piani erano <anchor xml:id="lpf-313" synch="#TT313"/>4<pause/><anchor xml:id="lpf-314" synch="#TT314"/><del type="repetition">quindi<pause/> 16</del> <incident iterated="true"><desc>rumore di una calcolatrice</desc></incident><pause/><anchor xml:id="lpf-315" synch="#TT315"/>quindi 16 persone<anchor xml:id="lpf-316" synch="#TT316"/> per<pause/> <vocal>emh</vocal> <anchor xml:id="lpf-317" synch="#TT317"/>colonna diciamo<anchor xml:id="lpf-318" synch="#TT318"/> così<pause/> e quanto potevano esser grandi queste baracche<pause/> diciamo
+                </u>
+
+                <u who="#AW"/>
+                    <anchor xml:id="arm-311" synch="#TT311"/>per piano<anchor xml:id="arm-312" synch="#TT312"/>
+                    <anchor xml:id="arm-313" synch="#TT313"/>erano 4<anchor xml:id="arm-314" synch="#TT314"/>
+                    <anchor xml:id="arm-315" synch="#TT315"/><gap reason="inaudible" resp="#GB" extent="1 sentence"/><anchor xml:id="arm-316" synch="#TT316"/>
+                    <anchor xml:id="arm-317" synch="#TT317"/>per colonna<anchor xml:id="arm-318" synch="#TT318"/>
+                </u>
+
+                <u who="#AW" xml:id="AW205" synch="#TS412"/>
+                    so che<pause/> eravamo dentro in 500<pause/> ma <choice><sic>in</sic><corr resp="#GB">nei</corr></choice> momenti<pause/> dei<pause/> trasporti ungheresi arrivavano persino fino a 2000
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF206" synch="#TS413"/><!-- 1:05:07 circa -->
+                    senta come foste smistati<pause/> andaste tutti nella stessa baracca?
+                </u>
             </div>
            
         </body>
@@ -2965,35 +3111,7 @@
 
 </TEI>
 
-<!-- 
-L.P: (Si schiarisce la voce) dopo? subito?
-A.W: dunque, subito dopo il portone, lo svestimento.
-L.P: svestimento. Poi..
-A.W: poi dopo lll (balbetta) il tatuaggio, la doccia e poi il proseguimento al campo della quarantena.
-L.P: come avveniva il tatuaggio?
-A.W: mediante una macchinetta a orologeria. E' come quella che serve per forare le carte ee da disegno per ricamo che vengono duplicate. Non so se ha mai visto una carta da disegno forata e attraverso la forata sotto si mette il tessuto, si passa sopra delll un colore anilina e attraverso i fori questa passa. E quindi con un solo disegno di possono fare centinaia di copie, e la stessa macchinetta serviva per tatuarci, cioè era un ago chee attaccato a un piccolo meccanismo che caricato ad orologeria faceva scendere e alzare l'ago. (Non si capisce)
-L.P: e elettricamente?
-A.W: no no, solo a orologeria, come caricare un orologio. Come lei carica un orologio e suona per esempio no?
-L.P: si.
-A.W: Così questo caricava (balbetta) [BUCO 01:02:56] e attraverso un meccanismo di orologeria che veniva caricato, l'ago veniva intinto inn inchiostro e l'operatore applicava questo ago sul braccio ee segnava un numero consecutivo. Cominciò con 158 mila 600 e andava avanti così per circa 150 numeri tanti eravamo i prigionieri entrati nel campo.
-L.P: era doloroso?
-A.W: no, oppure, anche se era doloroso non lo si sentiva in quel momento.
-L.P: e tutti nello stesso punto?
-A.W: tutti nello stesso punto si.
-L.P: aveva la serie con la A o senza A?
-A.W: no senza, la A venne applicata in seguito cominciando dal basso.
-L.P: e lei sa perché fu applicata poi la A?
-A.W: no so, no so il motiv-. Mi pare che siano andati avanti fino a 200 mila, e poi hanno cominciato con la A. La differenza, ripeto questo l'ho visto in seguito, che le donne, alle donne veniva tatuato il numero nell'interno del braccio, agli uomini invece all'esterno.
-L.P: emh... [BUCO 1:04:06 → 1:04:08]
-A.W: doveee erano di legno con un po' di paglia sui quali ci si coricava ed era una unica coperta per ogni 4 persone del castello, quindi era poco piacevole la notte perché se uno si muoveva trascinava la coperta e l'altro rimaneva scoperto.
-L.P: allora erano 4 letti per piano?
-A.W: 4 letti, 4 posti... per piano.
-L.P: 4 posti per piano e i piani erano 4.
-A.W: erano 4.
-L.P: quindi 16 (pausa) quindi 16 persone (Arminio parla ma non si capisce) per emh colonna
-A.W: per colonna
-L.P: diciamo così... e quanto potevano esser grandi queste baracche? Diciamo...
-A.W: so che eravamo dentro in 500 mah in momenti dei trasporti ungheresi arrivavano persino fino a 2000.
+<!--
 L.P: senta come foste smistati? Andaste tutti nella stessa baracca?
 A.W: stessa baracca perché eravamo solo 150.
 L.P: tutti insieme...
