@@ -589,6 +589,33 @@
 
             <when xml:id="TT279" absolute="57:47" synch="#arm-279"/> 
             <when xml:id="TT280" since="#TT279" interval="1"/>
+
+            <when xml:id="TT281" absolute="57:52" synch="#lpf-281"/> 
+            <when xml:id="TT282" since="#TT281" interval="1"/>
+
+            <when xml:id="TT283" absolute="57:56" synch="#arm-283"/> 
+            <when xml:id="TT284" since="#TT283" interval="1"/>
+
+            <when xml:id="TT285" absolute="58:06" synch="#lpf-285"/> 
+            <when xml:id="TT286" since="#TT285" interval="1"/>
+
+            <when xml:id="TT287" absolute="58:35" synch="#lpf-287"/> 
+            <when xml:id="TT288" since="#TT287" interval="1"/>
+
+            <when xml:id="TT289" absolute="58:37" synch="#arm-279"/> 
+            <when xml:id="TT290" since="#TT290" interval="1"/>
+
+            <when xml:id="TT291" absolute="59:48" synch="#lpf-291"/> 
+            <when xml:id="TT292" since="#TT291" interval="1"/>
+
+            <when xml:id="TT293" absolute="59:55" synch="#lpf-293"/> 
+            <when xml:id="TT294" since="#TT293" interval="1"/>
+
+            <when xml:id="TT295" absolute="1:01:32" synch="#lpf-295"/> 
+            <when xml:id="TT296" since="#TT295" interval="1"/>
+
+            <when xml:id="TT297" absolute="1:01:35" synch="#lpf-297"/> 
+            <when xml:id="TT298" since="#TT297" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -968,6 +995,26 @@
             <when xml:id="TS372" synch="#AW185" absolute="57:31"/>
             <when xml:id="TS373" synch="#LPF186" absolute="57:39"/>
             <when xml:id="TS374" synch="#AW186" absolute="57:41"/>
+            <when xml:id="TS375" synch="#LPF187" absolute="57:50"/>
+            <when xml:id="TS376" synch="#AW187" absolute="57:52"/>
+            <when xml:id="TS377" synch="#LPF188" absolute="58:01"/>
+            <when xml:id="TS378" synch="#AW188" absolute="58:06"/>
+            <when xml:id="TS379" synch="#LPF189" absolute="58:09"/>
+            <when xml:id="TS380" synch="#AW189" absolute="58:11"/>
+            <when xml:id="TS381" synch="#LPF190" absolute="58:16"/>
+            <when xml:id="TS382" synch="#AW190" absolute="58:19"/>
+            <when xml:id="TS383" synch="#LPF191" absolute="58:33"/>
+            <when xml:id="TS384" synch="#AW191" absolute="58:35"/>
+            <when xml:id="TS385" synch="#LPF192" absolute="59:45"/>
+            <when xml:id="TS386" synch="#AW192" absolute="59:55"/>
+            <when xml:id="TS387" synch="#LPF193" absolute="1:00:56"/>
+            <when xml:id="TS388" synch="#AW193" absolute="1:00:58"/>
+            <when xml:id="TS389" synch="#LPF194" absolute="1:01:24"/>
+            <when xml:id="TS390" synch="#AW194" absolute="1:01:25"/>
+            <when xml:id="TS391" synch="#LPF195" absolute="1:01:28"/>
+            <when xml:id="TS392" synch="#AW195" absolute="1:01:29"/>
+            <when xml:id="TS393" synch="#LPF196" absolute="1:01:30"/>
+            <when xml:id="TS394" synch="#AW196" absolute="1:01:38"/>
         </timeline>
         
     </standOff>
@@ -2802,7 +2849,113 @@
                     <anchor xml:id="lpf-279" synch="#TT279"/><unclear reason="inaudible" resp="#GB" cert="low">quindi</unclear><anchor xml:id="lpf-280" synch="#TT280"/>
                 </u>
 
-                <!-- 57:43 -->
+                <u who="#LPF" xml:id="LPF187" synch="#TS375"/>
+                    ma presumibilmente ebbero lo stesso <pause/><anchor xml:id="lpf-281" synch="#TT281"/>trattamento<anchor xml:id="lpf-282" synch="#TT282"/>
+                </u>
+
+                <u who="#AW" xml:id="AW187" synch="#TS376"/>
+                    <anchor xml:id="arm-281" synch="#TT281"/>ebbero probabilmente<anchor xml:id="arm-282" synch="#TT282"/> lo stesso trattamento<pause/> si potrebbe chiedere alla <persName ref="TEI-ListPerson.xml#SettimiaSpizzichino">Spizzichino</persName> a <anchor xml:id="arm-283" synch="#TT283"/><placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> che vive ancora<pause/> ma immagino<anchor xml:id="arm-284" synch="#TT284"/> che<pause/> sia stato uguale
+                </u>
+
+                <u who="#LPF"/>
+                    <anchor xml:id="lpf-283" synch="#TT283"/>si<pause/><gap reason="inaudible" resp="#GB" extent="1 sentence"/><anchor xml:id="lpf-284" synch="#TT284"/>
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF188" synch="#TS378"/>
+                    <vocal><desc>sospira</desc>eeemh</vocal><pause/> aa i vestiti venivano lanciati daaa<pause/> <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> <anchor xml:id="lpf-285" synch="#TT285"/>oppure dai<anchor xml:id="lpf-286" synch="#TT286"/>
+                </u>
+
+                <u who="#AW" xml:id="AW188" synch="#TS378"/>
+                    <anchor xml:id="arm-285" synch="#TT285"/><del type="falseStart">dai</del> <del type="repetition">no</del> no <del type="falseStart">da</del><anchor xml:id="arm-286" synch="#TT286"/> no <del type="repetition">da</del> <del type="reformulation">da<pause/> prigionieri</del>
+                </u>
+
+                <u who="#LPF" xml:id="LPF189" synch="#TS379"/>
+                    da prigionieri i prigionieri com'eran vestiti
+                </u>
+
+                <u who="#AW" xml:id="AW189" synch="#TS380"/>
+                    <incident><desc>rumore di un motore</desc></incident>loro erano vestiti con<pause/> vestiti da zebra quello classico<pause/> da prigioniero
+                </u>
+
+                <u who="#LPF" xml:id="LPF190" synch="#TS381"/>
+                    avevano l'aria <choice><orig>patita</orig><reg resp="#GB">deperita</reg></choice> o no
+                </u>
+
+                <pause/> 
+
+                <u who="#AW" xml:id="AW190" synch="#TS382"/>
+                    quelli li <vocal>emh</vocal> stavano relativamente bene perché eranoo<pause/> <del type="truncation">rr</del> sotto ricovero della baracca <pause/>e siccome avevano delle mansioni ufficiali<pause/> avevano la possibilità di arrangiarsi a stare un pochino meglio rispetto alla massa
+                </u>
+
+                <u who="#LPF" xml:id="LPF191" synch="#TS383"/>
+                    usarono violenza nei vostri <anchor xml:id="lpf-287" synch="#TT287"/>confronti o furono buoni<anchor xml:id="lpf-288" synch="#TT288"/>
+                </u>
+
+                <u who="#AW" xml:id="AW191" synch="#TS384"/><!-- notte? -->
+                    <anchor xml:id="arm-287" synch="#TT287"/>no<pause/> no<pause/><anchor xml:id="arm-288" synch="#TT288"/> no<pause/> furono normali<anchor xml:id="arm-289" synch="#TT289"/><pause/> solo<anchor xml:id="arm-290" synch="#TT290"/> che alcuni ci <unclear reason="inaudible" resp="#GB" cert="low"><del type="truncation">ri</del></unclear> riferirono subito<pause/> <vocal>emh</vocal> cos'era successo con le nostre famiglie<pause/> e altri che li smentivano che dicevano che sono matti<pause/> a raccontare <unclear reason="inaudible" resp="#GB" cert="medium">che</unclear> le nostre famiglie sono<pause/> in quei campi che si vedeva da <unclear reason="inaudible" resp="#GB" cert="medium">lì</unclear> in lontananza che era il campo femminile<pause/> e il campo degli zingari<pause/> dove si vedevano<pause/> non si poteva <unclear reason="inaudible" resp="#GB" cert="medium">discernere</unclear> che c'erano anche i bambini<pause/> ma si vedeva che c'era una massa di gente<pause/> dicevano <q type="spoken"><gap reason="inaudible" resp="#GB" extent="1 word"/> sono di là le vostre famiglie son tutte di là</q><pause/> altri invece volevano metterci subito al corrente di ciò che era successo<pause/> eee <unclear reason="inaudible" resp="#GB" cert="low">per ora</unclear> in preponderanza eravamo<pause/> quasi convinti che fosse vero<pause/> ciò che ci avevano detto alcuni di loro e cioè che le nostre famiglie vivevano<pause/> in un secondo campo<pause/> purtroppo<pause/> ioo<pause/> ebbi occasione più tardi di sentire il discorso<pause/> di due<pause/> <persName><roleName>medici</roleName> ebrei polacchi</persName><pause/> che non<pause/> potendo immaginare che io <choice><sic>capira</sic><corr resp="#GB">capivo</corr></choice> a loro come parlano stavano parlando in yiddish<pause/> e stavano dicendo <q type="spoken">guarda questi qui<pause/> durante la notte son stati<pause/> gassificati<pause/> tutto il <del type="truncation">rest</del></q><incident><desc>rumore della sedia che si piega</desc></incident>
+                </u>
+
+                <u who="#LPF"/>
+                    <anchor xml:id="arm-289" synch="#TT289"/>normali<anchor xml:id="arm-290" synch="#TT290"/>
+                </u>
+                
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF192" synch="#TS385"/>
+                    e la doccia avvenne subito<pause/> appena <anchor xml:id="lpf-291" synch="#TT291"/>arrivati in campo<pause/> <unclear reason="inaudible" resp="#GB" cert="low">di tempo</unclear><anchor xml:id="lpf-292" synch="#TT292"/><pause/> <time when="07:00:00" resp="#GB">un'oretta dopo</time><pause/> <vocal><desc>sospira</desc></vocal> eee dopo cosa avvenne <del type="falseStart">dopo la <del type="truncation">do</del></del> <del type="reformulation">dopo <anchor xml:id="lpf-293" synch="#TT293"/><del type="truncation">ll</del> lla<pause/> <distinct type="archaic">vestizione</distinct></del><anchor xml:id="lpf-294" synch="#TT294"/>
+                </u>
+
+                <u who="#AW"/>
+                    <anchor xml:id="arm-291" synch="#TT291"/><del type="repetition">si</del><pause/> si circa <time when="07:00:00" resp="#GB">un'oretta dopo</time><anchor xml:id="arm-292" synch="#TT292"/>
+                </u>
+
+                <u who="#AW" xml:id="AW192" synch="#TS386"/>
+                    <anchor xml:id="arm-293" synch="#TT293"/>dopo il vestiario<anchor xml:id="arm-294" synch="#TT294"/> ci portarono alla <placeName ref="TEI-ListPlace.xml#quarantena">baracca 13<pause/> dell<pause/> <term ref="#quarantena"><foreign xml:lang="de">quarantänelager</foreign></term></placeName> sarebbe il <gloss xml:id="quarantena">campo della quarantena</gloss><pause/> perché generalmente<pause/> ii prigionieri rimanevano un mese<pause/> a <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName><pause/> prima di venir smistati nei vari campi di lavoro della <placeName>Germania</placeName><pause/> o della <placeName>Polonia</placeName><pause/> ee <del type="falseStart"><choice><sic>nalla</sic><corr resp="#GB">nel</corr></choice></del> <del type="reformulation">al</del> <placeName ref="TEI-ListPlace.xml#quarantena"><term ref="#quarantena"><foreign xml:lang="de">quarantänelager</foreign></term></placeName><pause/> c'era anche<pause/> la<pause/> <vocal>emh</vocal> baracca con le docce<pause/> separata da quella dell'arrivo<pause/> poi<pause/> le latrine<pause/> che sono state già descritte è inutile che le descriva io attualmente<pause/> che venivano<pause/> <vocal>emh</vocal> guardate da <roleName>sentinelle</roleName><pause/> che erano <persName><roleName type="military">ufficiali</roleName> russi prigionieri</persName><pause/> i quali dai loro campi di prigionia militare erano scappati<pause/> e ripresi dai tedeschi per punizione<pause/> portati ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName><pause/> a pulire le latrine
+                </u>
+                
+                <pause/>
+                
+                <u who="#LPF" xml:id="LPF193" synch="#TS387"/>
+                    altrimenti altri russi non ce n'erano
+                </u>
+
+                <u who="#AW" xml:id="AW193" synch="#TS388"/>
+                    in <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">quel campo</placeName> lì si c'erano<pause/> dei russi<pause/> ex prigionieri<pause/>em a prescindere da questi <del type="falseStart">della</del> <del type="correction"><del type="repetition">delle</del> delle</del> latrine<pause/> ma specialmente erano<pause/> malati di tifo<pause/> avevano<pause/> una baracca divisa dalle altre<pause/> nella quale venivano<pause/> più che curati<pause/> <vocal>emh</vocal><pause/> osservati
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF194" synch="#TS389"/>
+                    e il tatuaggio quando avvenne
+                </u>
+
+                <u who="#AW" xml:id="AW194" synch="#TS390"/>
+                    il tatuaggio avvenne <time notAfter="07:00:00" resp="#GB">prima della doccia</time>
+                </u>
+
+                <u who="#LPF" xml:id="LPF195" synch="#TS391"/>
+                    <time notAfter="07:00:00" resp="#GB">prima della doccia</time>
+                </u>
+
+                <u who="#AW" xml:id="AW195" synch="#TS392"/>
+                    si
+                </u>
+
+                <u who="#LPF" xml:id="LPF196" synch="#TS393"/>
+                    quindi in ordine com'è discesa dal <anchor xml:id="lpf-295" synch="#TT295"/> treno<pause/> incamminamento <vocal><desc>si schiarisce la gola</desc></vocal><pause/><anchor xml:id="lpf-296" synch="#TT296"/>  <del type="falseStart"><del type="truncation">dent</del></del><del type="reformulation"> all'interno</del><anchor xml:id="lpf-297" synch="#TT297"/>del campo quindi siete<anchor xml:id="lpf-298" synch="#TT298"/> passati attraverso il portone <vocal><desc>si schiarisce la gola</desc></vocal>
+                </u>
+
+                <u who="#AW"/>
+                    <anchor xml:id="arm-295" synch="#TT295"/> discesa dal<pause/> si<anchor xml:id="arm-296" synch="#TT296"/> 
+                    <anchor xml:id="arm-297" synch="#TT297"/> <unclear reason="inaudible" resp="#GB" cert="medium">all'</unclear>interno <unclear reason="inaudible" resp="#GB" cert="medium"><del type="repetition">del</del></unclear> del campo<anchor xml:id="arm-298" synch="#TT298"/> 
+                </u>
+
+                <u who="#AW" xml:id="AW196" synch="#TS394"/>
+                    si
+                </u>
+                <!-- 1:01:38 -->
             </div>
            
         </body>
@@ -2813,34 +2966,6 @@
 </TEI>
 
 <!-- 
-L.P: ma presumibilmente ebbero lo stesso trattamento?
-A.W: (balbetta) ebbero probabilmente lo stesso trattamento. Si potrebbe chiedere alla Spizzichino a Roma che vive ancora, ma immagino che sia stato uguale.
-L.P: si. eeemh aa i vestiti venivano lanciati daaa SS oppure dai...?
-A.W: no da, no da da prigionieri.
-L.P: da prigionieri. I prigionieri com'eran vestiti?
-A.W: loro erano vestiti con vestiti da zebra, quello classico da prigioniero.
-L.P: avevano l'aria patita o no?
-A.W: quelli li emh stavano relativamente bene perché eranoo emh sotto ricovero della baracca e siccome avevano delle mansioni ufficiali avevano la possibilità di arrangiarsi a stare un pochino meglio rispetto alla massa.
-L.P: usarono violenza nei vostri confronti o furono buoni?
-A.W: no no no. No, furono normali.
-L.P: normali.
-A.W: solo che alcuni ci rirriferirono subito emh cos'era successo con le nostre famiglie e altri che li smentivano, che dicevano che sono matti a raccontare: le nostre(?) famiglie sono in quei campi che si vedeva da lì in lontananza che era il campo femminile e il campo degli zingari, dove si vedevano, non si poteva discernere(?) che c'erano anche i bambini ma si vedeva che c'era una massa di gente. Dicevano "son sono di là le vostre famiglie, son tutte di là", altri invece volevano metterci subito al corrente di ciò che era successo eee per ora(?) in preponderanza eravamo quasi convinti che fosse vero ciò che ci avevano detto alcuni di loro e cioè che le nostre famiglie vivevano in un secondo campo. Purtroppo, ioo ebbi occasione più tardi di sentire il discorso di due medici ebrei polacchi che non potendo immaginare che io capirav(?) a loro come parlano, stavano parlando in yiddish, e stavano dicendo "guarda questi qui, durante la notte son stati gassificati tutto il rest-".
-L.P: e la doccia avvenne subito? appena arrivati in campo?
-A.W: si si, circa un'oretta dopo.
-L.P: una oretta dopo. Eee dopo cosa avvenne dopo la docc-, dopo lla vestizione?
-A.W: dopo il vestiario ci portarono alla baracca 13 dell quarantänelager - sarebbe il campo della quarantena, perché generalmente ii prigionieri rimanevano un mese a Birkenau prima di venir smistati nei vari campi di lavoro della Germania, o della Polonia - ee nllla quarantänelager c'era anche la emh baracca con le docce separata con quella dell'arrivo, poi le latrine, che sono state già descritte - è inutile che le descriva io attualmente -, che venivano emh guardate da sentinelle che erano ufficiali russi prigionieri i quali dai loro campi di prigionia militare erano scappati e ripresi dai tedeschi, per punizione portati ad Auschwitz a pulire le latrine.
-L.P: altrimenti altri russi non ce n'erano?
-A.W: in quel campo lì si c'erano dei russi ex prigionieri em a prescindere da questi russi delle emh del delle latrine, ma specialmente erano malati di tifo: avevano una baracca divisa dalle altre nella quale venivano più che curati emh osservati.
-L.P: e il tatuaggio quando avvenne?
-A.W: il tatuaggio avvenne prima della doccia.
-L.P: prima della doccia?
-A.W: si.
-L.P: quindi in ordine com'è? discesa dal treno...
-A.W: discesa dal... si
-L.P: incamminamento (si rischiara la voce) dent-, all'interno del campo... 
-A.W: all'interno del campo.
-L.P: quindi siete passati attraverso il portone? (Si schiarisce la voce)
-A.W: si.
 L.P: (Si schiarisce la voce) dopo? subito?
 A.W: dunque, subito dopo il portone, lo svestimento.
 L.P: svestimento. Poi..
