@@ -554,8 +554,41 @@
             <when xml:id="TT255" absolute="50:59" synch="#lpf-255"/> 
             <when xml:id="TT256" since="#TT255" interval="1"/>
 
-            <when xml:id="TT257" absolute="51:04" synch="#arm-247"/> 
+            <when xml:id="TT257" absolute="51:04" synch="#arm-257"/> 
             <when xml:id="TT258" since="#TT257" interval="1"/>
+
+            <when xml:id="TT259" absolute="54:58" synch="#arm-259"/> 
+            <when xml:id="TT260" since="#TT259" interval="1"/>
+
+            <when xml:id="TT261" absolute="55:08" synch="#lpf-261"/> 
+            <when xml:id="TT262" since="#TT261" interval="1"/>
+
+            <when xml:id="TT263" absolute="55:14" synch="#arm-263"/> 
+            <when xml:id="TT264" since="#TT263" interval="1"/>
+
+            <when xml:id="TT265" absolute="56:22" synch="#lpf-265"/> 
+            <when xml:id="TT266" since="#TT265" interval="1"/>
+
+            <when xml:id="TT267" absolute="56:45" synch="#arm-267"/> 
+            <when xml:id="TT268" since="#TT267" interval="1"/>
+
+            <when xml:id="TT269" absolute="57:31" synch="#lpf-269"/> 
+            <when xml:id="TT270" since="#TT269" interval="1"/>
+
+            <when xml:id="TT271" absolute="57:36" synch="#arm-271"/> 
+            <when xml:id="TT272" since="#TT271" interval="1"/>
+
+            <when xml:id="TT273" absolute="57:37" synch="#arm-273"/> 
+            <when xml:id="TT274" since="#TT273" interval="1"/>
+
+            <when xml:id="TT275" absolute="57:39" synch="#lpf-275"/> 
+            <when xml:id="TT276" since="#TT275" interval="1"/>
+
+            <when xml:id="TT277" absolute="57:42" synch="#arm-277"/> 
+            <when xml:id="TT278" since="#TT277" interval="1"/>
+
+            <when xml:id="TT279" absolute="57:47" synch="#arm-279"/> 
+            <when xml:id="TT280" since="#TT279" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -923,6 +956,18 @@
             <when xml:id="TS360" synch="#AW179" absolute="55:12"/>
             <when xml:id="TS361" synch="#LPF180" absolute="55:14"/>
             <when xml:id="TS362" synch="#AW180" absolute="55:15"/>
+            <when xml:id="TS363" synch="#LPF181" absolute="55:20"/>
+            <when xml:id="TS364" synch="#AW181" absolute="55:21"/>
+            <when xml:id="TS365" synch="#LPF182" absolute="56:14"/>
+            <when xml:id="TS366" synch="#AW182" absolute="56:17"/>
+            <when xml:id="TS367" synch="#LPF183" absolute="56:19"/>
+            <when xml:id="TS368" synch="#AW183" absolute="56:21"/>
+            <when xml:id="TS369" synch="#LPF184" absolute="56:22"/>
+            <when xml:id="TS370" synch="#AW184" absolute="56:26"/>
+            <when xml:id="TS371" synch="#LPF185" absolute="57:29"/>
+            <when xml:id="TS372" synch="#AW185" absolute="57:31"/>
+            <when xml:id="TS373" synch="#LPF186" absolute="57:39"/>
+            <when xml:id="TS374" synch="#AW186" absolute="57:41"/>
         </timeline>
         
     </standOff>
@@ -2683,7 +2728,81 @@
 
                 <u who="#AW" xml:id="AW180" synch="#TS362"/>
                     si tutti insieme<pause/> <del type="repetition">non</del> non tutti in una sola volta perché era impossibile ma comunque tutti insieme
-                </u><!-- 55:16 circa + da fare le anchor precedenti! -->
+                </u>
+                
+                <u who="#LPF" xml:id="LPF181" synch="#TS363"/>
+                    calda
+                </u>
+
+                <pause/>
+
+                <u who="#AW" xml:id="AW181" synch="#TS364"/>
+                    era<pause/> calda si<pause/> Eee<pause/> <del type="falseStart">dopo</del> <del type="reformulation">prima</del> di andare alla doccia<pause/> non potevo andare alla doccia con gli occhiali<pause/> eee l'astuccio e <unclear reason="inaudible" resp="#GB" cert="medium">perciò <choice><sic>chiedi</sic><corr resp="#GB">chiesi</corr></choice></unclear> a un certo <persName ref="TEI-ListPerson.xml#NathanG"><foreign>Nathan Gerovitsch</foreign></persName><pause/><unclear reason="inaudible" reso="#GB" cert="high">che</unclear> era il <roleName><foreign xml:lang="de">kapò</foreign></roleName> dei tatuatori di quelli che facevano il tatuaggio<pause/> era un ebreo polacco prigioniero anche <persName ref="TEI-ListPerson.xml#NathanG" resp="#GB">lui</persName><pause/> e gli dissi di tenermelo fino <del type="falseStart">alll</del><pause/> <del type="correction">alla</del> fine della doccia<pause/> Eee alcuni ebrei romani che erano con me mi dissero <q type="spoken">stupido<pause/> ti illudi se pensi di ritrovare<pause/> l'astuccio con</q> <pause/>sapevano che avevo nascosto <del type="falseStart">gli <del type="truncation">oc</del></del> <vocal>emh</vocal><pause/> <del type="reformulation">gli anelli</del> viceversa finita la doccia<pause/> <persName ref="TEI-ListPerson.xml#NathanG"><foreign>Nathan Gerovitsch</foreign></persName> mi ridiede tutto<pause/> e questo <del type="falseStart">gli sono</del> <del type="correction">gli ero</del> riconoscente e son stato riconoscente perché quegli anelli<pause/> servirono a salvare la vita di un certo ragazzo<pause/> <del type="falseStart">Lionello della Seta che <del type="truncation">ins</del></del> <del type="correction"><persName ref="TEI-ListPerson.xml#GiancarloDS">Giancarlo Della Seta</persName><pause/></del> come riferirò più tardi
+                </u>
+
+                <u who="#LPF" xml:id="LPF182" synch="#TS365"/>
+                    e lei tenne anche la cintura
+                </u>
+
+                <pause/>
+
+                <u who="#AW" xml:id="AW182" synch="#TS366"/>
+                    la cintura si poteva tenere
+                </u>
+
+                <u who="#LPF" xml:id="LPF183" synch="#TS367"/>
+                    <vocal>emh</vocal> <del type="falseStart">allora dopo</del> ee <del type="reformulation">c'era sapone</del>
+                </u>
+
+                <u who="#AW" xml:id="AW183" synch="#TS368"/>
+                    <del type="repetition">no no</del> no
+                </u>
+
+                <u who="#LPF" xml:id="LPF184" synch="#TS369"/>
+                    una doccia <anchor xml:id="lpf-265" synch="#TT265"/>così<pause/> fatta solo con l'acqua<anchor xml:id="lpf-265" synch="#TT265"/><pause/> una cosa veloce
+                </u>
+
+                <u who="#AW"/>
+                    <anchor xml:id="arm-265" synch="#TT265"/><unclear reason="inaudible" resp="#GB" cert="medium">sapone<pause/> una doccia così</unclear><anchor xml:id="arm-266" synch="#TT266"/>
+                </u>
+
+                <u who="#AW" xml:id="AW184" synch="#TS370"/><!-- gassificati? -->
+                    una cosa veloce però perché prima <vocal>emh</vocal> ho dimenticato di dirlo<pause/> in forma cronologica<pause/> ci fecero tagliare i capelli<pause/> a tutti quanti i peli del corpo<pause/> eee la doccia era susseguente a questa<pause/> <del type="falseStart">primo<pause/> <foreign xml:lang="fr">toilette</foreign></del><pause/> <del type="correction">a questa prima <foreign xml:lang="fr">toilette</foreign></del><anchor xml:id="arm-267" synch="#TT267"/><pause/><del type="repetition">finita</del><anchor xml:id="arm-268" synch="#TT268"/> finita la doccia <vocal>emh</vocal> <del type="truncation">lll</del><pause/> ci <choice><sic>fece</sic><corr resp="#GB">fecero</corr></choice> entrare in una baracca<pause/> llungo il corridoio c'erano<pause/> <choice><sic>dei</sic><corr resp="#GB">degli</corr></choice><pause/> indumenti<pause/> suddivisi<pause/> <vocal>aamh</vocal><pause/> calze<pause/> scarpe<pause/> calzoni giacche eccetera<pause/> e ci fecero passare davanti a questi <choice><orig>mucchi</orig><reg resp="#GB">cumulo</reg></choice><pause/> e ci gettavano a ognuno<pause/> una parte di questi indumenti<pause/> cosicchè alla fine avevamo questi vari<pause/> indumenti<pause/> però<pause/> o troppo lunghi o troppo corti perché questi come <vocal>emh</vocal><pause/> venimmo a saperlo in seguito<pause/> questi erano vestiti dei<pause/> poveri gassificati
+                </u>
+
+                <u who="#LPF"/>
+                    <anchor xml:id="lpf-267" synch="#TT267"/>poi cosa è successo<anchor xml:id="lpf-268" synch="#TT268"/>
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF185" synch="#TS371"/>
+                    <vocal>ehm</vocal> eravate maschi e femmine <anchor xml:id="lpf-269" synch="#TT269"/>separati<anchor xml:id="lpf-270" synch="#TT270"/>
+                </u>
+
+                <u who="#AW" xml:id="AW185" synch="#TS372"/>
+                    <anchor xml:id="arm-269" synch="#TT269"/><del type="repetition">no</del><anchor xml:id="arm-270" synch="#TT2270"/> no <del type="falseStart"><del type="truncation">d</del> le femmine andaron a</del><pause/><del type="reformulation"> di femmine <choice><sic>c'erano</sic><corr resp="#GB">ce ne erano</corr></choice> solo 50</del> <anchor xml:id="arm-271" synch="#TT271"/>che sono entrate<anchor xml:id="arm-272" synch="#TT2272"/> nel campo<anchor xml:id="arm-273" synch="#TT273"/><pause/> di cui <persName ref="TEI-ListPerson.xml#SettimiaSpizzichino" resp="#GB">una</persName><anchor xml:id="arm-274" synch="#TT274"/> sola si salvò
+                </u>
+
+                <u who="#LPF"/>
+                    <anchor xml:id="lpf-271" synch="#TT271"/>si<anchor xml:id="lpf-272" synch="#TT272"/>
+                    <anchor xml:id="lpf-273" synch="#TT273"/>ee<anchor xml:id="lpf-274" synch="#TT274"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF186" synch="#TS373"/>
+                    ee<pause/> non le vedeste più le <anchor xml:id="lpf-275" synch="#TT275"/>femmine<anchor xml:id="lpf-276" synch="#TT276"/>
+                </u>
+
+                <u who="#AW" xml:id="AW186" synch="#TS374"/>
+                    <anchor xml:id="arm-275" synch="#TT275"/>no non le vedemmo<anchor xml:id="arm-276" synch="#TT276"/> più<pause/> no<anchor xml:id="arm-277" synch="#TT277"/> perché nel campo di<anchor xml:id="arm-278" synch="#TT278"/> <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName> c'era<pause/> il campo maschile e il campo femminile<anchor xml:id="arm-279" synch="#TT279"/><pause/> diviso<anchor xml:id="arm-280" synch="#TT280"/> solo da un reticolato però comunque non insieme
+                </u>
+
+                <u who="#LPF"/>
+                    <anchor xml:id="lpf-277" synch="#TT277"/>non le <unclear reason="inaudible" resp="#GB" cert="medium">vedeste più</unclear><anchor xml:id="lpf-278" synch="#TT278"/>
+                    <anchor xml:id="lpf-279" synch="#TT279"/><unclear reason="inaudible" resp="#GB" cert="low">quindi</unclear><anchor xml:id="lpf-280" synch="#TT280"/>
+                </u>
+
+                <!-- 57:43 -->
             </div>
            
         </body>
@@ -2694,22 +2813,6 @@
 </TEI>
 
 <!-- 
-L.P: calda?
-A.W: era calda si. Eee... dopo, prima di andare alla doccia, non potevo andare alla doccia con gli occhiali eee l'astuccio, e passò di lì un certo Nathan Garovich(? Frase non sicura fa "passò"), era il Kapò dei tatuatosi, di quelli che facevano il tatuaggio, era un ebreo polacco, prigioniero anche lui e gli dissi di tenermelo fino alll alla fine della doccia. Eee alcuni ebrei romani che erano con me mi dissero "stupido, ti illudi se pensi di ritrovare l'astuccio con... " - sapevano che avevo nascosto gli emh gli anelli -. Viceversa, finita la doccia Nathan Garovich? mi ridiede tutto e questo gli sono gli ero riconoscente e son stato riconoscente perché quegli anelli servirono a salvare la vita di un certo ragazzo, Lionello della Seta che ins-, Giancarlo Della Seta, come riferirò più tardi.
-L.P: e lei tenne anche la cintura?
-A.W: la cintura si poteva tenere.
-L.P: emh allora dopo... ee c'era sapone?
-A.W: no no no.
-L.P: una doccia così fatta solo con l'acqua... una cosa veloce?
-A.W: No sapone, una doccia così (non sono sicura che dica così), una cosa veloce però perché prima emh, ho dimenticato di dirlo in forma cronologica, ci fecero tagliare i capelli a tutti quanti, i peli del corpo eee la doccia era susseguente a questa primo(a) toilette, a questa prima toilette.
-L.P: poi cosa è successo?
-A.W: finita... finita la doccia emh lll ci fece entrare in una baracca, llungo il corridoio c'erano dei indumenti suddivisi aamh calze, scarpe, calzoni, giacche etc e ci fecero passare davanti a questi mucchi e ci gettavano a ognuno una parte di questi indumenti così che alla fine avevamo questi vari indumenti però o troppo lunghi o troppo corti perché questi come emh venimmo a saperlo in seguito, questi erano vestiti dei poveri gassificati.
-L.P: emh eravate maschi e femmine separati?
-A.W: no, no, d- le femmine andaron a-... di femmine c'erano solo 50 che sono entrate nel campo.
-L.P: si, ee..
-A.W: di cui una sola si salvò.
-L.P: ee non le vedeste più le femmine?
-A.W: no, non le vedemmo più, no, perché nel campo di Birkenau c'era il campo maschile e il campo femminile, diviso solo da un reticolato però comunque non insieme.
 L.P: ma presumibilmente ebbero lo stesso trattamento?
 A.W: (balbetta) ebbero probabilmente lo stesso trattamento. Si potrebbe chiedere alla Spizzichino a Roma che vive ancora, ma immagino che sia stato uguale.
 L.P: si. eeemh aa i vestiti venivano lanciati daaa SS oppure dai...?
