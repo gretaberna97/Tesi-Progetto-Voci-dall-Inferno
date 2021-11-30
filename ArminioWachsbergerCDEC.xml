@@ -646,6 +646,33 @@
 
             <when xml:id="TT317" absolute="1:04:44" synch="#lpf-317"/> 
             <when xml:id="TT318" since="#TT318" interval="1"/>
+
+            <when xml:id="TT319" absolute="1:05:06" synch="#lpf-319"/> 
+            <when xml:id="TT320" since="#TT319" interval="1"/>
+
+            <when xml:id="TT321" absolute="1:05:09" synch="#arm-321"/> 
+            <when xml:id="TT322" since="#TT321" interval="1"/>
+
+            <when xml:id="TT323" absolute="1:05:19" synch="#lpf-323"/> 
+            <when xml:id="TT324" since="#TT323" interval="1"/>
+
+            <when xml:id="TT325" absolute="1:05:26" synch="#lpf-325"/> 
+            <when xml:id="TT326" since="#TT325" interval="1"/>
+
+            <when xml:id="TT327" absolute="1:05:29" synch="#lpf-327"/> 
+            <when xml:id="TT328" since="#TT327" interval="1"/>
+
+            <when xml:id="TT329" absolute="1:06:05" synch="#lpf-329"/> 
+            <when xml:id="TT330" since="#TT329" interval="1"/>
+
+            <when xml:id="TT331" absolute="1:06:09" synch="#lpf-331"/> 
+            <when xml:id="TT332" since="#TT331" interval="1"/>
+
+            <when xml:id="TT333" absolute="1:06:19" synch="#arm-333"/> 
+            <when xml:id="TT334" since="#TT333" interval="1"/>
+
+            <when xml:id="TT335" absolute="1:09:01" synch="#lpf-335"/> 
+            <when xml:id="TT336" since="#TT335" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -1064,6 +1091,21 @@
             <when xml:id="TS411" synch="#LPF205" absolute="1:04:33"/>
             <when xml:id="TS412" synch="#AW205" absolute="1:04:51"/>
             <when xml:id="TS413" synch="#LPF206" absolute="1:05:01"/>
+            <when xml:id="TS414" synch="#AW206" absolute="1:05:06"/>
+            <when xml:id="TS415" synch="#LPF207" absolute="1:05:18"/>
+            <when xml:id="TS416" synch="#AW207" absolute="1:05:31"/>
+            <when xml:id="TS417" synch="#LPF208" absolute="1:06:05"/>
+            <when xml:id="TS418" synch="#AW208" absolute="1:06:05"/>
+            <when xml:id="TS419" synch="#LPF209" absolute="1:06:12"/>
+            <when xml:id="TS420" synch="#AW209" absolute="1:06:18"/>
+            <when xml:id="TS421" synch="#LPF210" absolute="1:07:22"/>
+            <when xml:id="TS422" synch="#AW210" absolute="1:07:25"/>
+            <when xml:id="TS423" synch="#LPF211" absolute="1:08:06"/>
+            <when xml:id="TS424" synch="#AW211" absolute="1:08:09"/>
+            <when xml:id="TS425" synch="#LPF212" absolute="1:08:16"/>
+            <when xml:id="TS426" synch="#AW212" absolute="1:08:19"/>
+            <when xml:id="TS427" synch="#LPF213" absolute="1:08:59"/>
+            <when xml:id="TS428" synch="#AW213" absolute="1:09:01"/>
         </timeline>
         
     </standOff>
@@ -3099,9 +3141,89 @@
 
                 <pause/>
 
-                <u who="#LPF" xml:id="LPF206" synch="#TS413"/><!-- 1:05:07 circa -->
-                    senta come foste smistati<pause/> andaste tutti nella stessa baracca?
+                <u who="#LPF" xml:id="LPF206" synch="#TS413"/>
+                    senta come foste smistati<pause/> andaste tutti nella stessa <anchor xml:id="lpf-319" synch="#TT319"/><placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName><anchor xml:id="lpf-320" synch="#TT320"/>
                 </u>
+
+                <u who="#AW" xml:id="AW206" synch="#TS414"/>
+                    <anchor xml:id="arm-319" synch="#TT319"/>stessa <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName><anchor xml:id="arm-320" synch="#TT320"/> perché eravamo solo 150<anchor xml:id="arm-321" synch="#TT321"/><pause/> gli altri componenti<anchor xml:id="arm-322" synch="#TT322"/> della <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName> erano polacchi<pause/> <vocal>emh</vocal> russi<pause/> belgi olandesi
+                </u>
+
+                <u who="#LPF"/>
+                    <anchor xml:id="lpf-321" synch="#TT321"/>tutti insieme<anchor xml:id="lpf-321" synch="#TT321"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF207" synch="#TS415"/>
+                    <vocal>ah</vocal> <del type="falseStart">mi sono</del> <anchor xml:id="lpf-323" synch="#TT323"/><del type="reformulation">volevo chiederle<anchor xml:id="lpf-324" synch="#TT324"/> questo</del> <vocal>emh</vocal><pause/> <del type="truncation">lu</del><pause/> quello che vi tatuava <anchor xml:id="lpf-325" synch="#TT325"/><pause/>prendeva<anchor xml:id="lpf-326" synch="#TT326"/> il numero da un registro<pause/> oppure lo sapeva <del type="reformulation">lo aveva a mente<pause/> <anchor xml:id="lpf-327" synch="#TT327"/>che numero<anchor xml:id="lpf-328" synch="#TT328"/> darvi</del>
+                </u>
+
+                <u who="#AW "/>
+                    <anchor xml:id="arm-323" synch="#TT323"/><gap reason="inaudible" resp="#GB" atleast="1 word" atMost="2 words"/><anchor xml:id="arm-323" synch="#TT323"/>
+                    <anchor xml:id="arm-325" synch="#TT325"/>si<anchor xml:id="arm-326" synch="#TT326"/>
+                    <anchor xml:id="arm-327" synch="#TT327"/><gap reason="inaudible" resp="#GB" atleast="1 word" atMost="4 words"/><anchor xml:id="arm-328" synch="#TT328"/>
+                </u>
+
+                <u who="#AW" xml:id="AW207" synch="#TS416"/>
+                    questo non lo ricordo con precisione<pause/> se aveva un registro o meno perché tanto i nomi non venivano<pause/> né segnati in nessun posto<pause/> né<pause/> no <emph><del type="repetition">si che venivano segnati</del><pause/> si che venivano segnati</emph> dev'esser proprio così<pause/> <unclear reason="inaudible" resp="#GB" cert="low">il</unclear> nome veniva segnato sul registro e<pause/> a noi il numero<pause/> perché questo mi fa ricordare un colloquio che ho avuto con <persName ref="TEI-ListPerson.xml#Mengele"><foreign xml:lang="de">Mengele</foreign></persName> in seguito<pause/> dove <persName ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</persName> andò<pause/> <del type="falseStart">sullla</del><pause/> <del type="reformulation">lo</del> schedario e tirò fuori le <choice><sic>schede mie</sic><corr resp="#GB">mie schede</corr></choice><pause/> la <choice><sic>scheda mia</sic><corr resp="#GB">mia scheda</corr></choice> esisteva e non esisteva quella di <persName ref="TEI-ListPerson.xml#ReginaPolacco" resp="#GB">mia moglie</persName> e <choice><sic>della</sic><corr resp="#GB"> di</corr></choice> <persName ref="TEI-ListPerson.xml#ClaraW" resp="#GB">mia figlia</persName>
+                </u>
+
+                <u who="#LPF" xml:id="LPF208" synch="#TS417"/>
+                    <anchor xml:id="lpf-329" synch="#TT329"/>con nome e cognome questa scheda<anchor xml:id="lpf-330" synch="#TT330"/><pause/> e numero<pause/> <anchor xml:id="lpf-331" synch="#TT331"/>probabilmente<anchor xml:id="lpf-332" synch="#TT332"/>
+                </u>
+
+                <u who="#AW" xml:id="AW208" synch="#TS418"/>
+                    <anchor xml:id="arm-329" synch="#TT329"/><unclear reason="inaudible" resp="#GB" cert="low">quindi</unclear><pause/> con nome e cognome<anchor xml:id="arm-330" synch="#TT330"/> e la scheda era con il nome e il cognome<pause/> e il <anchor xml:id="arm-331" synch="#TT331"/>numero<pause/> indicato<anchor xml:id="arm-332" synch="#TT332"/><pause/> si
+                </u>
+                
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF209" synch="#TS419"/>
+                    <vocal><desc>sospira</desc></vocal><pause/>qualcuno era anche smistato e poteva andare nel campo di <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> a lavorare
+                </u>
+
+                <u who="#AW" xml:id="AW209" synch="#TS420"/><!-- risentire questa ancora; casa bianca -->
+                    <del type="repetition">no no <anchor xml:id="arm-333" synch="#TT333"/>no no<anchor xml:id="arm-334" synch="#TT334"/> no </del>no<pause/> <choice><orig>si rimaneva</orig><reg resp="#GB">rimanevamo</reg></choice> in <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName> oppure quando ci mandavano fuori<pause/> sempree<pause/> la <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName> veniva svuotata<pause/> e <choice><orig>si andava</orig><reg resp="#GB">andavamo</reg></choice> tutti quanti<pause/> a lavoro<pause/> in<pause/> <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName> stessa<pause/> nell'interno del campo<pause/> <vocal>emh</vocal> in attesa di esser trasferiti in qualche altro campo di lavoro<pause/> per lavori di sterro di canalizzazione<pause/> trasporto sassi<pause/> solo una volta<pause/> ed era ill <date when="1943-11-04">4 novembre del 1943</date> la data la ricordo perché era il mio compleanno<pause/> uscimmo da <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName> per la prima volta<pause/> per andare nei boschi vicini<pause/> a procurarci legname<pause/> per <choice><sic>riscaldamento</sic><corr resp="#GB">il riscaldamento</corr></choice><pause/> è lì che vidi la famosa<pause/> <unclear reason="inaudible" resp="#GB" cert="medium"><foreign xml:lang="de">das weissee Haus</foreign></unclear><pause/> la casa bianca<pause/> dovee<pause/> come mi raccontò un vecchio prigioniero<pause/> avevano gassificato i primi russi <pause/>le prime prove di gassificazione fatte<pause/> dai russi in questa <distinct type="slang">casetta</distinct><pause/> rurale
+                </u>
+
+                <u who="#LPF"/>
+                    <anchor xml:id="lpf-333" synch="#TT333"/>no<anchor xml:id="lpf-334" synch="#TT334"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF210" synch="#TS421"/>
+                    <vocal>eh</vocal> può descrivermi la <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName> c'erano stufe <gap reason="inaudible" resp="#GB" extent="1 word"/>
+                </u>
+
+                <u who="#AW" xml:id="AW210" synch="#TS422"/>
+                    dunque <del type="falseStart"><del type="repetition">la</del> la stufa era <del type="truncation">cos</del><pause/> era la <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName> lungo<pause/></del> al centro<pause/> lungo tutta la <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName><pause/> c'era unn llavoro di<pause/> muratura <pause/>ee <choice><sic>due</sic><corr resp="#GB">ai due</corr></choice><pause/> lati <del type="falseStart">della</del><pause/> <del type="repetition">di</del> di questa muratura c'erano due stufe<pause/> una all'entrata della <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName> e una all'uscita<pause/> ee il calore<pause/> si distendeva su <choice><sic>questa</sic><corr resp="#GB">questo</corr></choice><pause/> lavoro in muratura che era al centro quindi<pause/> in maniera da poter scaldare tutta la <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName><pause/> e qualcuno<pause/> che aveva la fortuna di non venir sgridato<pause/> si sedeva su <choice><sic>questa</sic><corr resp="#GB">questo</corr></choice><pause/> lavoro di cemento<pause/> non di cemento di mattoni <pause/><unclear reason="inaudible" resp="#GB" cert="low">niente</unclear> così per scaldarsi un pochino
+                </u>
+
+                <u who="#LPF" xml:id="LPF211" synch="#TS423"/>
+                    <vocal>emh</vocal> lei si ricorda il freddo dentro la <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName>
+                </u>
+
+                <u who="#AW" xml:id="AW212" synch="#TS424"/>
+                    il freddo dentro la <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName> era intenso perché la <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName> era enorme<pause/> ee ill calore non riusciva a scaldarla tutta
+                </u>
+                
+                <pause/>
+                
+                <u who="#LPF" xml:id="LPF213" synch="#TS425"/>
+                    e c'era un <roleName>sorvegliante</roleName> all'interno della <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName>
+                </u>
+
+                <u who="#AW" xml:id="AW213" synch="#TS426"/><!-- lui -->
+                    nella baracca c'era prima di tutto <pause/>il <term ref="#blockaltester"><roleName><foreing xml:lang="de">blockaltester</foreign></roleName></term> cioè <del type="falseStart">il</del> <gloss xml:id="blockaltester"><del type="correction">l'</del>anziano della baracca<pause/> che era anche lui un prigioniero</gloss><pause/> poi c'era<pause/> lo <term ref="#schreiber"><roleName><foreing xml:lang="de">schreiber</foreign></roleName></term><pause/> cioè <gloss xml:id="schreiber">lo scrivano</gloss><pause/> eee<pause/> poi erano i <roleName><foreign><gap reason="inaudible" resp="#GB" atLeast="1 word" atMost="2 words"/></foreign></roleName><pause/> che erano gli aiutanti del capo baracca<pause/> praticamente 1 2 più 1 4<pause/> però il <del type="falseStart"><foreign xml:lang="de">blockfuher</foreign></del><pause/> il <vocal>emh</vocal> <del type="correction"><term ref="#blockaltester"><roleName><foreing xml:lang="de">blockaltester</foreign></roleName></term></del><pause/> aveva dentro nella <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName> un piccolo sgabuzzino per proprio conto <unclear reason="inaudible" resp="#GB" cert="low">così</unclear> lui non dormiva quindi<pause/> nei <mentioned>castelli</mentioned> come noi bensì su una branda<pause/> nell'interno della <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName><pause/> però chi lo sa
+                </u>
+                
+                <pause/>
+                
+                <u who="#LPF" xml:id="LPF214" synch="#TS427"/>
+                    <vocal><desc>si schiarisce la gola</desc></vocal> che funzioni aveva<anchor xml:id="lpf-335" synch="#TT335"/><vocal><desc>si schiarisce la gola</desc></vocal><anchor xml:id="lpf-336" synch="#TT336"/>
+                </u>
+
+                <u who="#AW" xml:id="AW214" synch="#TS428"/><!-- mattina -->
+                    <anchor xml:id="arm-335" synch="#TT335"/>il<pause/><anchor xml:id="arm-336" synch="#TT336"/> capo baracca aveva le funzioni di qualsiasi <roleName type="military">comandante</roleName><pause/> rispetto a noi prigionieri<pause/> era lui che provvedeva<pause/> <del type="falseStart">al</del> <del type="reformulation">con</del> l'aiuto dei due <roleName><foreign><gap reason="inaudible" resp="#GB" atLeast="1 word" atMost="2 words"/></foreign></roleName><pause/> dei due aiutanti <unclear reason="inaudible" resp="#GB" cert="medium">era</unclear> che distribuiva il pane <pause/>si perché la minestra che ci davano veniva distribuita<pause/> fuori <del type="repetition">da</del><pause/> da un grande <pause/> come si chiama <emph>un recipiente</emph><pause/> la mattina ci veniva distribuito il cosiddetto <soCalled>caffè</soCalled><pause/> che era solamente
+                </u><!-- 1:09:28 -->
             </div>
            
         </body>
@@ -3112,25 +3234,7 @@
 </TEI>
 
 <!--
-L.P: senta come foste smistati? Andaste tutti nella stessa baracca?
-A.W: stessa baracca perché eravamo solo 150.
-L.P: tutti insieme...
-A.W: Gli altri componenti della baracca erano polacchi, emh russi, belgi, olandesi...
-L.P: ah mi sono...volevo chiederle questo emh... lu... quello che vi tatuava prendeva il numero da un registro oppure lo sapeva, lo aveva a mente che numero darvi?
-A.W: questo non (me) lo ricordo con precisione, se aveva un registro o meno, perché tanto i nomi non venivano né segnati in nessun posto né... no si che venivano segnati, si che venivano segnati, dev'esser proprio così: (il) nome veniva segnato sul registro e a noi il numero. Perché questo mi fa ricordare un colloquio che ho avuto con Mengele in seguito dove lui andò sullla lo schedario e tirò fuori le schede mie, la scheda mia esisteva e non esisteva quella di mia moglie e della mia figlia. 
-L.P: con nome e cognome questa scheda? E numero probabilmente?
-A.W: con nome e cognome, e la scheda era con il nome e il cognome. E il numero indicato si.
-L.P: qualcuno era anche smistato e poteva andare nel campo di Auschwitz a lavorare?
-A.W: no no no no no no, si rimaneva in baracca oppure quando ci mandavano fuori sempree la baracca veniva svuotata e si andava tutti quanti a lavoro in Birkenau stessa, nell'interno del campo, emh in attesa di esser trasferiti in qualche altro campo di lavoro per lavori di sterro, di canalizzazione, trasporto, sassi. Solo una volta, ed era ill 4 novembre del 1943 - la data la ricordo perché era il mio compleanno - uscimmo da Birkenau per la prima volta per andare nei boschi vicini a procurarci legname per riscaldamento. É lì che vidi la famosa das weiße Haus? (Frase in tedesco), la casa bianca dovee - come mi raccontò un vecchio prigioniero - avevano gassificato i primi russi, le prime prove di gassificazione fatte dai russi in questa casetta rurale. 
-L.P: emh può descrivermi la baracca? C'erano stufe...?
-A.W: dunque la stufa era c- emh era la baracca lungo al centro lungo tutta la baracca c'era unn llavoro di muratura ee due lati della dii questa muratura c'erano due stufe, una all'entrata della baracca e una all'uscita ee il calore si distendeva su questa lavoro in muratura che era al centro, quindi, in maniera da poter scaldare tutta la baracca e qualcuno che aveva la fortuna di non venir sgridato si sedeva su questa lavoro di cemento - non di cemento, di mattoni - così (si mangia la parola), per scaldarsi un pochino.
-L.P: emh lei si ricorda il freddo dentro la baracca?
-A.W: il freddo dentro la baracca era intenso perché la baracca era enorme ee ill calore non riusciva a scaldarla tutta.
-L.P: e c'era un sorvegliante all'interno della baracca?
-A.W: nella baracca c'era prima di tutto il blockaltester, cioè il l'anziano della baracca che era anche lui un prigioniero, poi c'era lo schreiber, cioè lo scrivano, eee poi erano i (frase in tedesco??) che erano gli aiutanti del capo baracca. Praticamente... 1, 2 + 1, 4, però il blockfuher, il emh blockaltester aveva dentro nella baracca un piccolo sgabuzzino per proprio conto, quindi(?) lui non dormiva nei castelli come noi bensì su una branda nell'interno della baracca. Però chi lo sa...
-L.P: (si schiarisce la voce) che funzioni aveva?
-A.W: il capo baracca aveva le funzioni di qualsiasi comandante rispetto a noi prigionieri. Era lui che provvedeva al con l'aiuto dei due (frase in tedesco) dei due aiutanti che distribuiva il pane (pausa) si perché la minestra che ci davano veniva servita fuori da da un grande (pausa), come si chiama? Un recipiente. La mattina ci veniva distribuito il cosiddetto caffè che era solamente...
-L.P: dove? Dentro la baracca?
+L.P: dove? Dentro la baracca o fuori
 A.W: dentro della baracca.
 L.P: chi lo distribuiva?
 A.W: gli aiutanti.
