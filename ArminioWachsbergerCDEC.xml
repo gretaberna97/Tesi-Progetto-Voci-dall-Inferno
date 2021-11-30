@@ -673,6 +673,15 @@
 
             <when xml:id="TT335" absolute="1:09:01" synch="#lpf-335"/> 
             <when xml:id="TT336" since="#TT335" interval="1"/>
+
+            <when xml:id="TT337" absolute="1:09:33" synch="#lpf-337"/> 
+            <when xml:id="TT338" since="#TT337" interval="1"/>
+
+            <when xml:id="TT339" absolute="1:10:16" synch="#lpf-339"/> 
+            <when xml:id="TT340" since="#TT339" interval="1"/>
+
+            <when xml:id="TT341" absolute="1:10:44" synch="#lpf-341"/> 
+            <when xml:id="TT342" since="#TT341" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -1106,6 +1115,20 @@
             <when xml:id="TS426" synch="#AW212" absolute="1:08:19"/>
             <when xml:id="TS427" synch="#LPF213" absolute="1:08:59"/>
             <when xml:id="TS428" synch="#AW213" absolute="1:09:01"/>
+            <when xml:id="TS429" synch="#LPF214" absolute="1:09:32"/>
+            <when xml:id="TS430" synch="#AW214" absolute="1:09:33"/>
+            <when xml:id="TS431" synch="#LPF215" absolute="1:09:35"/>
+            <when xml:id="TS432" synch="#AW215" absolute="1:09:36"/>
+            <when xml:id="TS433" synch="#LPF216" absolute="1:09:37"/>
+            <when xml:id="TS434" synch="#AW216" absolute="1:09:38"/>
+            <when xml:id="TS435" synch="#LPF217" absolute="1:09:39"/>
+            <when xml:id="TS436" synch="#AW217" absolute="1:09:40"/>
+            <when xml:id="TS437" synch="#LPF218" absolute="1:10:07"/>
+            <when xml:id="TS438" synch="#AW218" absolute="1:10:08"/>
+            <when xml:id="TS439" synch="#LPF219" absolute="1:10:13"/>
+            <when xml:id="TS440" synch="#AW219" absolute="1:10:16"/>
+            <when xml:id="TS441" synch="#LPF220" absolute="1:10:34"/>
+            <when xml:id="TS442" synch="#AW220" absolute="1:10:37"/>
         </timeline>
         
     </standOff>
@@ -3201,29 +3224,103 @@
                     <vocal>emh</vocal> lei si ricorda il freddo dentro la <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName>
                 </u>
 
-                <u who="#AW" xml:id="AW212" synch="#TS424"/>
+                <u who="#AW" xml:id="AW211" synch="#TS424"/>
                     il freddo dentro la <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName> era intenso perché la <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName> era enorme<pause/> ee ill calore non riusciva a scaldarla tutta
                 </u>
                 
                 <pause/>
                 
-                <u who="#LPF" xml:id="LPF213" synch="#TS425"/>
+                <u who="#LPF" xml:id="LPF212" synch="#TS425"/>
                     e c'era un <roleName>sorvegliante</roleName> all'interno della <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName>
                 </u>
 
-                <u who="#AW" xml:id="AW213" synch="#TS426"/><!-- lui -->
+                <u who="#AW" xml:id="AW212" synch="#TS426"/><!-- lui -->
                     nella baracca c'era prima di tutto <pause/>il <term ref="#blockaltester"><roleName><foreing xml:lang="de">blockaltester</foreign></roleName></term> cioè <del type="falseStart">il</del> <gloss xml:id="blockaltester"><del type="correction">l'</del>anziano della baracca<pause/> che era anche lui un prigioniero</gloss><pause/> poi c'era<pause/> lo <term ref="#schreiber"><roleName><foreing xml:lang="de">schreiber</foreign></roleName></term><pause/> cioè <gloss xml:id="schreiber">lo scrivano</gloss><pause/> eee<pause/> poi erano i <roleName><foreign><gap reason="inaudible" resp="#GB" atLeast="1 word" atMost="2 words"/></foreign></roleName><pause/> che erano gli aiutanti del capo baracca<pause/> praticamente 1 2 più 1 4<pause/> però il <del type="falseStart"><foreign xml:lang="de">blockfuher</foreign></del><pause/> il <vocal>emh</vocal> <del type="correction"><term ref="#blockaltester"><roleName><foreing xml:lang="de">blockaltester</foreign></roleName></term></del><pause/> aveva dentro nella <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName> un piccolo sgabuzzino per proprio conto <unclear reason="inaudible" resp="#GB" cert="low">così</unclear> lui non dormiva quindi<pause/> nei <mentioned>castelli</mentioned> come noi bensì su una branda<pause/> nell'interno della <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName><pause/> però chi lo sa
                 </u>
                 
                 <pause/>
                 
-                <u who="#LPF" xml:id="LPF214" synch="#TS427"/>
+                <u who="#LPF" xml:id="LPF213" synch="#TS427"/>
                     <vocal><desc>si schiarisce la gola</desc></vocal> che funzioni aveva<anchor xml:id="lpf-335" synch="#TT335"/><vocal><desc>si schiarisce la gola</desc></vocal><anchor xml:id="lpf-336" synch="#TT336"/>
                 </u>
 
-                <u who="#AW" xml:id="AW214" synch="#TS428"/><!-- mattina -->
+                <u who="#AW" xml:id="AW213" synch="#TS428"/><!-- mattina -->
                     <anchor xml:id="arm-335" synch="#TT335"/>il<pause/><anchor xml:id="arm-336" synch="#TT336"/> capo baracca aveva le funzioni di qualsiasi <roleName type="military">comandante</roleName><pause/> rispetto a noi prigionieri<pause/> era lui che provvedeva<pause/> <del type="falseStart">al</del> <del type="reformulation">con</del> l'aiuto dei due <roleName><foreign><gap reason="inaudible" resp="#GB" atLeast="1 word" atMost="2 words"/></foreign></roleName><pause/> dei due aiutanti <unclear reason="inaudible" resp="#GB" cert="medium">era</unclear> che distribuiva il pane <pause/>si perché la minestra che ci davano veniva distribuita<pause/> fuori <del type="repetition">da</del><pause/> da un grande <pause/> come si chiama <emph>un recipiente</emph><pause/> la mattina ci veniva distribuito il cosiddetto <soCalled>caffè</soCalled><pause/> che era solamente
-                </u><!-- 1:09:28 -->
+                </u>
+
+                <u who="#LPF" xml:id="LPF214" synch="#TS429"/>
+                    dove dentro la <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName> <anchor xml:id="lpf-337" synch="#TT337"/>o fuori<anchor xml:id="lpf-338" synch="#TT338"/>
+                </u>
+
+                <u who="#AW" xml:id="AW214" synch="#TS430"/>
+                    <anchor xml:id="arm-337" synch="#TT337"/>dentro <unclear reason="inaudible" resp="#GB" cert="medium">nella</unclear><anchor xml:id="arm-338" synch="#TT338"/> <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName>
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF215" synch="#TS431"/>
+                    chi lo distribuiva
+                </u>
+
+                <u who="#AW" xml:id="AW215" synch="#TS432"/>
+                    <del type="falseStart">i</del> <del type="correction">gli</del> aiutanti
+                </u>
+
+                <u who="#LPF" xml:id="LPF216" synch="#TS433"/>
+                    gli aiutanti
+                </u>
+
+                <u who="#AW" xml:id="AW216" synch="#TS434"/>
+                    si
+                </u>
+
+                <u who="#LPF" xml:id="LPF217" synch="#TS435"/>
+                    che eran sempre prigionieri
+                </u>
+
+                <u who="#AW" xml:id="AW217" synch="#TS436"/>
+                    sempre prigionieri<pause/> anzi il <distinct type="slang">colmo dei colmi</distinct> era che la maggior parte di tutto ciò che avveniva del campo era<pause/> era eseguito da prigionieri<pause/> <del type="falseStart">iii</del> <del type="reformulation">la</del> <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> guardava tutto solo dall'alto<pause/> <del type="repetition">ee</del> e<pause/> così<pause/> si può dire che praticamente<pause/> anche le sevizie che abbiamo avuto<pause/> son <choice><sic>stati particolarmente i</sic><corr resp="#GB">state fatte maggiormente dai</corr></choice> vari <roleName><foreign xml:lang="de">kapò</foreign></roleName><pause/> di cui molti erano ebrei
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF218" synch="#TS437"/>
+                    e perché lo facevano
+                </u>
+
+                <u who="#AW" xml:id="AW218" synch="#TS438"/>
+                    lo facevano per salvare se stessi
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF219" synch="#TS439"/>
+                    perché un atteggiamentooo<pause/> umano avrebbe compromesso le loro <anchor xml:id="lpf-339" synch="#TT339"/>posizioni<anchor xml:id="lpf-340" synch="#TT340"/>
+                </u>
+
+                <u who="#AW" xml:id="AW219" synch="#TS440"/>
+                    <anchor xml:id="arm-339" synch="#TT339"/><unclear reason="inaudible" resp="#GB" cert="low">avrebbe compromesso</unclear><anchor xml:id="arm-340" synch="#TT340"/> è logico loro dovevano imporci di <del type="repetition">lavorare lavorare</del> lavorare svegliarci la mattina tutti quanti alle <time when="04:00:00">4</time><pause/> e naturalmente<pause/> se qualcuno si azzardava a rimanere<pause/> <del type="repetition">perché</del> perché <time notBefore="04:00:00">poco dopo</time> ci sarebbe stato l'appello<pause/> e all'appello arrivava uno della <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> a controllare
+                </u>
+
+                <u who="#LPF" xml:id="LPF220" synch="#TS441"/>
+                    <unclear reason="inaudible" resp="#GB" cert="medium"><del type="truncation">ll</del> <del type="repetition">e lo</del></unclear> e lo scrivano che funzioni aveva
+                </u>
+
+                <u who="#AW" xml:id="AW220" synch="#TS442"/>
+                    era quello di<pause/> dividere i lavori<pause/> a seconda <del type="truncation">de</del> <del type="correction">dei</del><pause/> a noi <unclear reason="inaudible" resp="#GB" cert="medium">non</unclear> ci chiamava per nome solo per numero<anchor xml:id="arm-341" synch="#TT341"/><pause/><anchor xml:id="arm-342" synch="#TT342"/> <unclear reason="inaudible" resp="#GB" cert="medium"><del type="falseStart">erm</del></unclear> <del type="correction">eravamo</del> divenuti dei numeri
+                </u>
+
+                <u who="#LPF"/>
+                    <anchor xml:id="lpf-341" synch="#TT341"/><vocal><desc>annuisce</vocal></desc><anchor xml:id="lpf-342" synch="#TT342"/>
+                </u><!-- 1:10:46 -->
+
+                <u who="#LPF" xml:id="LPF221" synch="#TS443"/>
+                    e assegnava i lavori
+                </u>
+
+                <u who="#AW" xml:id="AW221" synch="#TS444"/>
+                    assegnava il lavoro a... e perché? lui riceveva gli ordini dall'alto, poi ciascuno aveva il suo compito, doveva provvedere pe- per il ritiro delle razioni di pane, di mar- marmellata e dii margarina che ci davano.
+                </u>
             </div>
            
         </body>
@@ -3234,22 +3331,6 @@
 </TEI>
 
 <!--
-L.P: dove? Dentro la baracca o fuori
-A.W: dentro della baracca.
-L.P: chi lo distribuiva?
-A.W: gli aiutanti.
-L.P: gli aiutanti.
-A.W: si.
-L.P: che eran sempre prigionieri?
-A.W: sempre prigionieri, anzi, il colmo dei colmi era che la maggior parte di tutto ciò che avveniva del campo era era eseguito da prigionieri iii la SS guardava tutto solo dall'alto eee così si può dire che praticamente anche le sevizie che abbiamo avuto son stati particolarmente i vari Kapò, di cui molti erano ebrei.
-L.P: e perché lo facevano?
-A.W: lo facevano per salvare se stessi.
-L.P: perché un atteggiamentooo umano avrebbe compromesso le loro posizioni?
-A.W: (balbetta), è logico, loro dovevano imporci di lavorare lavorare lavorare, svegliarci la mattina tutti quanti alle 4, e naturalmente se qualcuno si azzardava a rimanere... perché? Perché poco dopo ci sarebbe stato l'appello e all'appello arrivava uno della SS a controllare.
-L.P: (balbetta) e lo scrivano che funzioni aveva?
-A.W: era quello di dividere i lavori a seconda de dei... a noi (non?) ci chiamava per nome, solo per numero, emh eravamo divenuti dei numeri.
-L.P: e assegnava i lavori...?
-A.W: assegnava il lavoro a... e perché? lui riceveva gli ordini dall'alto, poi ciascuno aveva il suo compito, doveva provvedere pe- per il ritiro delle razioni di pane, di mar- marmellata e dii margarina che ci davano.
 L.P: e il cibo veniva consumato all'interno?
 A.W: il cibo veniva consumato all'interno (si mangia la parola balbettando), naturalmente poi c'erano le latrine fuori e qualcuno svuotava(?) il cibo anche persino nella latrina.
 L.P: eee per lavarsi?
