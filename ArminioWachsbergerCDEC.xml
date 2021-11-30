@@ -682,6 +682,39 @@
 
             <when xml:id="TT341" absolute="1:10:44" synch="#lpf-341"/> 
             <when xml:id="TT342" since="#TT341" interval="1"/>
+
+            <when xml:id="TT343" absolute="1:11:07" synch="#arm-343"/> 
+            <when xml:id="TT344" since="#TT343" interval="1"/>
+
+            <when xml:id="TT345" absolute="1:11:28" synch="#arm-345"/> 
+            <when xml:id="TT346" since="#TT345" interval="1"/>
+
+            <when xml:id="TT347" absolute="1:13:13" synch="#lpf-347"/> 
+            <when xml:id="TT348" since="#TT348" interval="1"/>
+
+            <when xml:id="TT349" absolute="1:13:19" synch="#lpf-349"/> 
+            <when xml:id="TT350" since="#TT349" interval="1"/>
+
+            <when xml:id="TT351" absolute="1:13:13" synch="#lpf-351"/> 
+            <when xml:id="TT352" since="#TT351" interval="1"/>
+
+            <when xml:id="TT353" absolute="1:13:27" synch="#lpf-353"/> 
+            <when xml:id="TT354" since="#TT354" interval="1"/>
+
+            <when xml:id="TT355" absolute="1:13:28" synch="#arm-355"/> 
+            <when xml:id="TT356" since="#TT355" interval="1"/>
+
+            <when xml:id="TT357" absolute="1:14:02" synch="#lpf-357"/> 
+            <when xml:id="TT358" since="#TT358" interval="1"/>
+
+            <when xml:id="TT359" absolute="1:14:05" synch="#lpf-359"/> 
+            <when xml:id="TT360" since="#TT359" interval="1"/>
+
+            <when xml:id="TT361" absolute="1:14:09" synch="#lpf-361"/> 
+            <when xml:id="TT362" since="#TT361" interval="1"/>
+
+            <when xml:id="TT363" absolute="1:15:28" synch="#lpf-363"/> 
+            <when xml:id="TT364" since="#TT363" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -1129,6 +1162,45 @@
             <when xml:id="TS440" synch="#AW219" absolute="1:10:16"/>
             <when xml:id="TS441" synch="#LPF220" absolute="1:10:34"/>
             <when xml:id="TS442" synch="#AW220" absolute="1:10:37"/>
+            <when xml:id="TS443" synch="#LPF221" absolute="1:10:47"/>
+            <when xml:id="TS444" synch="#AW221" absolute="1:10:48"/>
+            <when xml:id="TS445" synch="#LPF222" absolute="1:11:05"/>
+            <when xml:id="TS446" synch="#AW222" absolute="1:11:07"/>
+            <when xml:id="TS447" synch="#LPF223" absolute="1:11:15"/>
+            <when xml:id="TS448" synch="#AW223" absolute="1:11:18"/>
+            <when xml:id="TS449" synch="#LPF224" absolute="1:11:25"/>
+            <when xml:id="TS450" synch="#AW224" absolute="1:11:28"/>
+            <when xml:id="TS451" synch="#LPF225" absolute="1:11:37"/>
+            <when xml:id="TS452" synch="#AW225" absolute="1:11:39"/>
+            <when xml:id="TS453" synch="#LPF226" absolute="1:11:46"/>
+            <when xml:id="TS454" synch="#AW226" absolute="1:11:48"/>
+            <when xml:id="TS455" synch="#LPF227" absolute="1:11:50"/>
+            <when xml:id="TS456" synch="#AW227" absolute="1:11:52"/>
+            <when xml:id="TS457" synch="#LPF228" absolute="1:12:07"/>
+            <when xml:id="TS458" synch="#AW228" absolute="1:12:10"/>
+            <when xml:id="TS459" synch="#LPF229" absolute="1:12:55"/>
+            <when xml:id="TS460" synch="#AW229" absolute="1:12:59"/>
+            <when xml:id="TS461" synch="#LPF230" absolute="1:13:08"/>
+            <when xml:id="TS462" synch="#AW230" absolute="1:13:19"/>
+            <when xml:id="TS463" synch="#LPF231" absolute="1:13:22"/>
+            <when xml:id="TS464" synch="#AW231" absolute="1:13:27"/>
+            <when xml:id="TS465" synch="#LPF232" absolute="1:13:31"/>
+            <when xml:id="TS466" synch="#AW232" absolute="1:13:34"/>
+            <when xml:id="TS467" synch="#LPF233" absolute="1:14:00"/>
+            <when xml:id="TS468" synch="#AW233" absolute="1:14:11"/>
+            <when xml:id="TS469" synch="#LPF234" absolute="1:14:13"/>
+            <when xml:id="TS470" synch="#AW234" absolute="1:14:16"/>
+            <when xml:id="TS471" synch="#LPF235" absolute="1:14:19"/>
+            <when xml:id="TS472" synch="#AW235" absolute="1:14:23"/>
+            <when xml:id="TS473" synch="#LPF236" absolute="1:14:28"/>
+            <when xml:id="TS474" synch="#AW236" absolute="1:14:33"/>
+            <when xml:id="TS475" synch="#LPF237" absolute="1:14:57"/>
+            <when xml:id="TS476" synch="#AW237" absolute="1:15:00"/>
+            <when xml:id="TS477" synch="#LPF238" absolute="1:15:17"/>
+            <when xml:id="TS478" synch="#AW238" absolute="1:15:19"/>
+            <when xml:id="TS479" synch="#LPF239" absolute="1:15:25"/>
+            <when xml:id="TS480" synch="#AW239" absolute="1:15:28"/>
+            <when xml:id="TS481" synch="#LPF240" absolute="1:16:40"/>
         </timeline>
         
     </standOff>
@@ -3312,15 +3384,211 @@
 
                 <u who="#LPF"/>
                     <anchor xml:id="lpf-341" synch="#TT341"/><vocal><desc>annuisce</vocal></desc><anchor xml:id="lpf-342" synch="#TT342"/>
-                </u><!-- 1:10:46 -->
+                </u>
 
                 <u who="#LPF" xml:id="LPF221" synch="#TS443"/>
                     e assegnava i lavori
                 </u>
 
                 <u who="#AW" xml:id="AW221" synch="#TS444"/>
-                    assegnava il lavoro a... e perché? lui riceveva gli ordini dall'alto, poi ciascuno aveva il suo compito, doveva provvedere pe- per il ritiro delle razioni di pane, di mar- marmellata e dii margarina che ci davano.
+                    assegnava il lavoro <del type="falseStart">a</del><pause/> <del type="reformulation">e</del> perché lui riceveva gli ordini dall'alto<pause/> poi ciascuno<pause/> aveva il suo compito doveva provvedere <del type="truncation">pe</del> <del type="correction">per</del> il ritiro delle razioni di pane di <del type="truncation">mar</del> <del type="correction">marmellata</del><pause/> e dii<pause/> margarina<pause/> che ci davano
                 </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF222" synch="#TS445"/>
+                    e il cibo veniva consumato all'interno
+                </u>
+
+                <u who="#AW" xml:id="AW222" synch="#TS446"/>
+                    il cibo <anchor xml:id="arm-343" synch="#TT343"/>veniva consumato<anchor xml:id="arm-344" synch="#TT344"/> <gap reason="inaudible" resp="#GB" extent="1 word"/> all'interno naturalmente poi c'erano le latrine fuori e qualcuno<pause/> svuotava il cibo anche persino nella latrina
+                </u>
+
+                <u who="#LPF"/>
+                    <anchor xml:id="lpf-343" synch="#TT343"/><vocal><desc>si schiarisce la gola</desc></vocal><anchor xml:id="lpf-344" synch="#TT344"/>
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF223" synch="#TS447"/>
+                    <vocal>eeehm</vocal><pause/> per lavarsi
+                </u>
+
+                <u who="#AW" xml:id="AW223" synch="#TS448"/>
+                    per lavarsi c'era come le ho detto prima dentro nelle latrine c'erano dellee<pause/> <distinct type="slang">fontanine</distinct>
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF224" synch="#TS449"/>
+                    quindi<pause/> per lavarsi <vocal>emh</vocal> una parte del <anchor xml:id="lpf-345" synch="#TT345"/>corpo <del type="repetition">mai</del><pause/> mai intero<anchor xml:id="lpf-346" synch="#TT346"/>
+                </u>
+
+                <u who="#AW" xml:id="AW224" synch="#TS450"/>
+                    <anchor xml:id="arm-345" synch="#TT345"/>una parte del corpo mai intero<anchor xml:id="arm-346" synch="#TT346"/> intero <unclear reason="inaudible" resp="#GB" cert="high">e</unclear> ci fecero fare in tutto<pause/> due docce<pause/> in tutto il <date from="1943-10-22" to="1943-11-27" resp="#GB" cert="medium">periodo</date> che siamo stati ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> 
+                </u>
+                
+                <pause/>
+                
+                <u who="#LPF" xml:id="LPF225" synch="#TS451"/>
+                    i vestiti venivano cambiati in qualche modo
+                </u>
+
+                <u who="#AW" xml:id="AW225" synch="#TS452"/>
+                    no <unclear reason="inaudible" resp="#GB" cert="medium">i</unclear> vestiti non venivano cambiati<pause/> solo più tardi a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><pause/> ci diedero i vestiti zebrati
+                </u>
+
+                <u who="#LPF" xml:id="LPF226" synch="#TS453"/>
+                    quindi<pause/> rimaneste sempre con lo stesso vestito
+                </u>
+
+                <u who="#AW" xml:id="AW226" synch="#TS454"/>
+                    sempre con lo stesso vestito addosso
+                </u>
+
+                <u who="#LPF" xml:id="LPF227" synch="#TS455"/>
+                    quindi sempre sporchi laceri
+                </u>
+
+                <u who="#AW" xml:id="AW227" synch="#TS456"/>
+                    <gap reason="inaudible" resp="#GB" extent="2 words"/>
+                </u>
+
+                <gap reason="lost" extent="12 seconds"/>
+
+                <u who="#LPF" xml:id="LPF228" synch="#TS457"/>
+                    e che cos'è questa striscia zebrata che mi fa vedere
+                </u>
+
+                <u who="#AW" xml:id="AW228" synch="#TS458"/><!-- niente da codifica? -->
+                    è una striscia <pause/>della stessa stoffa con la quale<pause/> venivano confezionati<pause/> i calzoni e la giacca<pause/> per i prigionieri<pause/> nel periodo in cui non avevano sufficientemente<pause/> vestiti zebrati<pause/> utilizzarono per noi<pause/> i vestiti civili delle vittime<pause/> gassificate<pause/> ma per riconoscerci facilmente<pause/> sulla schiena della giacca<pause/> tagliavano<pause/> un settore <pause/>a forma di croce<pause/> eee inserivano<pause/> un pezzetto di stoffa zembrato<pause/> questo serviva per riconoscere<pause/> qualcuno nel caso fosse fuggito
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF229" synch="#TS459"/>
+                    e c'è stato un periodo invece in cui la croce veniva fatta a vernice
+                </u>
+
+                <u who="#AW" xml:id="AW229" synch="#TS460"/>
+                    veniva fatta anche a vernice ma<pause/> quello non era sufficiente perché si poteva sverniciare<pause/> e non rimaneva più alcun segno
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF230" synch="#TS461"/>
+                    ee <date when="1943-10-22">quandoo arrivò lei</date> queste strisce sui vestiti c'erano già<pause/> o sono state <anchor xml:id="lpf-347" synch="#TT347"/>applicate dopo <pause/>c'erano già<anchor xml:id="lpf-348" synch="#TT348"/><pause/> eee altri detenuti <del type="falseStart">avevano</del><pause/> <del type="reformulation">che voi vedeste quando <anchor xml:id="lpf-349" synch="#TT349"/>arrivaste avevano<anchor xml:id="lpf-350" synch="#TT3450"/></del>
+                </u>
+
+                <u who="#AW"/>
+                    <anchor xml:id="arm-347" synch="#TT347"/><del type="repetition">c'erano già</del> <pause/>c'erano già<anchor xml:id="arm-348" synch="#TT348"/>
+                </u>
+
+                <u who="#AW" xml:id="AW230" synch="#TS462"/>
+                    <anchor xml:id="arm-349" synch="#TT349"/>avevano già i <gap reason="inaudible" resp="#GB" atLeast="1 word" atMost="4 words"/><anchor xml:id="arm-350" synch="#TT350"/> i vestiti zebrati
+                </u>
+
+                <u who="#LPF" xml:id="LPF231" synch="#TS463"/>
+                    i vestiti zebrati quindi <anchor xml:id="lpf-351" synch="#TT351"/>alcuni si<pause/> alcuni no<anchor xml:id="lpf-352" synch="#TT352"/><pause/> c'era anche un cappello<pause/> <del type="reformulation">un <anchor xml:id="lpf-353" synch="#TT353"/>copricapo<anchor xml:id="lpf-354" synch="#TT354"/></del>
+                </u>
+
+                <u who="#AW"/>
+                    <anchor xml:id="arm-351" synch="#TT351"/>si<pause/> alcuni no<anchor xml:id="arm-352" synch="#TT352"/>
+                </u>
+                
+                <u who="#AW" xml:id="AW231" synch="#TS464"/>
+                    <anchor xml:id="arm-353" synch="#TT353"/>un berretto<anchor xml:id="arm-354" synch="#TT354"/> c'era<pause/> <anchor xml:id="arm-355" synch="#TT355"/>un berretto<pause/> sempre della<anchor xml:id="arm-356" synch="#TT356"/> stessa stoffa
+                </u>
+
+                <u who="#LPF"/>
+                    <anchor xml:id="lpf-355" synch="#TT355"/>c'era un berretto<anchor xml:id="lpf-356" synch="#TT356"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF232" synch="#TS465"/>
+                    <vocal>ehm</vocal><pause/> su questa divisa c'era una <mentioned>stella</mentioned>
+                </u>
+
+                <u who="#AW" xml:id="AW232" synch="#TS466"/>
+                    no <vocal>umh</vocal> c'era <vocal>ehm</vocal> si portava sul lato sinistro<pause/> della giacca<pause/> una <mentioned>stella</mentioned><pause/> gialla<pause/> con dentro <del type="falseStart">un iii</del><pause/> <del type="correction">un</del><pause/> triangolo rosso e con sopra scritto le iniziali<pause/> della nazionalità a cui apparteneva il prigioniero<pause/> per esempio per l'<placeName>italia</placeName> c'era una i maiuscola<pause/> <placeName>russia</placeName> una r maiuscola e così via
+                </u>
+
+                <u who="#LPF" xml:id="LPF233" synch="#TS467"/><!-- stella di david ?-->
+                    allora <del type="falseStart">era una <del type="truncation">s</del></del><del type="reformulation"> era una stella di David</del><anchor xml:id="lpf-357" synch="#TT357"/> formata da due triangoli<pause/><anchor xml:id="lpf-358" synch="#TT358"/> uno rosso e uno <anchor xml:id="lpf-359" synch="#TT359"/>giallo<pause/><anchor xml:id="lpf-360" synch="#TT360"/> che vi distribuirono da applicare o era <anchor xml:id="lpf-361" synch="#TT361"/>già applicata<pause/><anchor xml:id="lpf-362" synch="#TT362"/> sui vestiti
+                </u>
+
+                <u who="#AW"/>
+                    <anchor xml:id="arm-357" synch="#TT357"/>si<pause/>formata da due triangoli<anchor xml:id="arm-358" synch="#TT358"/>
+                    <anchor xml:id="arm-359" synch="#TT359"/><unclear reason="inaudible" resp="#GB" cert="medium">e</unclear> uno giallo<pause/> si<anchor xml:id="arm-360" synch="#TT360"/>
+                    <anchor xml:id="arm-361" synch="#TT361"/>no era già applicata<anchor xml:id="arm-362" synch="#TT362"/>
+                </u>
+
+                <u who="#AW" xml:id="AW233" synch="#TS468"/>
+                    sui vestiti
+                </u>
+                
+                <pause/>
+                
+                <u who="#LPF" xml:id="LPF234" synch="#TS469"/>
+                    <del type="falseStart">non c'era <del type="truncation">ne</del></del> <del type="correction">non c'era il vostro numero</del> sul<pause/> vestito
+                </u>
+
+                <u who="#AW" xml:id="AW234" synch="#TS470"/>
+                    il numero<pause/> sul vestito no
+                </u>
+                
+                <pause/>
+                
+                <u who="#LPF" xml:id="LPF235" synch="#TS471"/>
+                    e che numero dii matricolaa ricevette lei
+                </u>
+
+                <u who="#AW" xml:id="AW235" synch="#TS472"/>
+                    158 mila<pause/> 639
+                </u>
+                
+                <pause/>
+                
+                <u who="#LPF" xml:id="LPF236" synch="#TS473"/>
+                    lei si ricorda qualche compagno immatricolato<pause/> insieme a lei
+                </u>
+
+                <u who="#AW" xml:id="AW236" synch="#TS474"/>
+                    quelli<pause/> che sono entrati con me <del type="falseStart">a</del> <del type="reformulation">son</del> stati tutti immatricolati<pause/> ora i nomi particolariii non li ricordo a memoria<pause/> ci sono tutti quelli che sono elencati nella corrispondenza fra me<pause/> e il <orgName>centroo<pause/> di ricerche ebraiche</orgName> di <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName>
+                </u>
+
+                <pause/>
+
+                <incident iterated="true"><desc>si sentono dei colpi</desc></incident>
+
+                <u who="#LPF" xml:id="LPF237" synch="#TS475"/>
+                    e mi può parlare del cibo
+                </u>
+
+                <u who="#AW" xml:id="AW237" synch="#TS476"/><!-- mattina -->
+                    il cibo<pause/> consisteva<pause/> in questo la mattina<pause/> ci davano una <distinct type="slang">specie</distinct><pause/> di tè caldo ma che naturalmente non era tè bensì<pause/> foglie qualsiasi del bosco<pause/> semplicemente bollite
+                </u>
+
+                <u who="#LPF" xml:id="LPF238" synch="#TS477"/>
+                    cucinato dove
+                </u>
+
+                <u who="#AW" xml:id="AW238" synch="#TS478"/>
+                    cucinato nella cucina centrale <del type="falseStart">dellaaa</del><pause/> <del type="correction">di</del> <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> <pause/> veniva distribuito nelle varie baracche
+                </u>
+
+                <u who="#LPF" xml:id="LPF239" synch="#TS479"/>
+                    e c'era <del type="falseStart">unna</del> <del type="correction">un'</del>unica cucina per <placeName ref="TEI-ListPlace.xml#Auschwitz" resp="#GB">tutto questo <anchor xml:id="lpf-363" synch="#TT363"/>immenso campo<anchor xml:id="lpf-364" synch="#TT364"/></placeName>
+                </u>
+
+                <u who="#AW" xml:id="AW239" synch="#TS480"/><!-- sera; mattina; notte -->
+                    <anchor xml:id="arm-363" synch="#TT363"/>per tutto il campo<anchor xml:id="arm-364" synch="#TT364"/> si<pause/> enorme<pause/> poi<pause/> a pranzo<pause/> ci davano<pause/> una zuppa<pause/> di cavoli<pause/> ma<pause/> più che cavoli erano rape<pause/> ee non le comuni rape mangiabili bensì quelle destinate<pause/> al bestiame che grattavano in gola<pause/> eee<pause/> se qualcuno aveva fortuna<pause/> trovava dentro<pause/> anche qualche patata ma<pause/> succedeva di rado<pause/> la sera<pause/> ci davano ancora una volta il tè della mattina<pause/> e in più un pane in 5<pause/> <del type="reformulation">da dividere in 5 parti</del><pause/> unn cucchiaio di marmellata<pause/> ee un cucchiaio di margarina<pause/> ora il pane qualcuno se lo mangiava subito<pause/> qualcuno <unclear reason="inaudible" resp="#GB" cert="medium">tratteneva</unclear> una parte per il giorno dopo<pause/> quelli che la mangiavano subito è perché avevano paura che durante la notte<pause/> glielo rubassero come succedeva purtroppo spesso<pause/> anche fra fratelli e anche fra genitori e figli<pause/> questo per dimostrare cosa significa fame
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF240" synch="#TS481"/>
+                    ee mi può parlare degli orari
+                </u><!-- 01:16:43-->
             </div>
            
         </body>
@@ -3331,52 +3599,6 @@
 </TEI>
 
 <!--
-L.P: e il cibo veniva consumato all'interno?
-A.W: il cibo veniva consumato all'interno (si mangia la parola balbettando), naturalmente poi c'erano le latrine fuori e qualcuno svuotava(?) il cibo anche persino nella latrina.
-L.P: eee per lavarsi?
-A.W: per lavarsi c'era, come le ho detto prima, dentro nelle latrine c'erano dellee (pausa) fontanine.
-L.P: quindi per lavarsi emh una parte del corpo? Mai intero?
-A.W: una parte del corpo, mai intero, intero emh ci fecero fare in tutto due docce in tutto il periodo che siamo stati ad Auschwitz.
-L.P: i vestiti venivano cambiati in qualche modo?
-A.W: no, (i) vestiti non venivano cambiati. Solo più tardi aa Varsavia ci diedero i vestiti zebrati.
-L.P: quindi emh rimaneste sempre con lo stesso vestito?
-A.W: sempre con lo stesso vestito addosso.
-L.P: quindi sempre sporchi, laceri?
-A.W: (frase incomprensibile) [BUCO 1:11:54 → 1:12:06]
-L.P: e che cos'è questa striscia zebrata che mi fa vedere?
-A.W: è una striscia della (pausa) stessa stoffa con la quale venivano confezionati i calzoni e la giacca per i prigionieri: nel periodo in cui non avevano sufficientemente vestiti zebrati utilizzarono per noi i vestiti civili delle vittime gassificate ma per riconoscerci facilmente sulla schiena della giacca tagliavano un settore a forma di croce eee inserivano un pezzetto di stoffa zembrato. Questo serviva per riconoscere qualcuno nel caso fosse fuggito.
-L.P: e c'è stato un periodo invece in cui la croce veniva fatta a vernice?
-A.W: veniva fatta anche a vernice ma quello non era sufficiente perché si poteva sverniciare e non rimaneva più alcun segno.
-L.P: ee quandoo arrivò lei queste strisce sui vestiti c'erano già o sono state applicate(si sente male) dopo?
-A.W: c'erano già. c'erano già.
-L.P: c'erano già. Eee altri detenuti avevano che voi vedeste (balbetta → si sovrappongono), quando arrivaste, avevano...
-A.W: avevano già i i vestiti zebrati.
-L.P: i vestiti zebrati. Quindi alcuni si, alcuni no.
-A.W: si e alcuni no.
-L.P: C'era anche un cappello? Un copricapo?
-A.W: un berretto c'era, un berretto.
-L.P: un berretto.
-A.W: sempre della stessa stoffa.
-L.P: emhh su questa divisa c'era una stella?
-A.W: no emh c'era... si portava sul lato sinistro della giacca una stella gialla con dentro un iii un triangolo rosso e con sopra scritto le iniziali della nazionalità a cui apparteneva il prigioniero. Per esempio, per l'Italia c'era una I maiuscola, Russia una R maiuscola e così via.
-L.P: allora era s- emh era una stella di David formata da due triangoli? Uno rosso e uno giallo?
-A.W: formata da due triangoli...e uno giallo si.
-L.P: che vi distribuirono da applicare o era già applicata?
-A.W: no era già applicata.
-L.P: sui vestiti?
-A.W: sui vestiti.
-L.P: non c'era n-, non c'era il vostro numero sul vestito?
-A.W: il numero sul vestito no.
-L.P: e che numero dii matricolaa ricevette lei?
-A.W: 158.639.
-L.P: lei si ricorda qualche compagno immatricolato insieme a lei?
-A.W: quelli che sono entrati con me a son stati tutti immatricolati, ora i nomi particolariii non li ricordo a memoria, ci sono tutti quelli che sono elencati nella corrispondenza fra me e il centroo di ricerche ebraiche di Roma.
-L.P: e mi può parlare del cibo?
-A.W: il cibo consisteva in questo: la mattina ci davano una specie di tè caldo, ma che naturalmente non era tè bensì foglie qualsiasi emh(di?) bosco semplicemente bollite.
-L.P: cucinato dove?
-A.W: cucinato nella cucina centrale dellaaa di Auschwitz, veniva distribuito nelle varie baracche.
-L.P: e c'era unn (balbetta) un'unica cucina per tutto questo immenso campo?
-A.W: tutto... si, enorme. Poi a pranzo ci davano una zuppa di cavoli ma più che cavoli erano rape, ee non le comuni rape mangiabili, bensì quelle destinate al bestiame che grattavano in gola, eee se qualcuno aveva fortuna trovava dentro anche qualche patata ma succedeva di rado. La sera ci davano ancora una volta il tè della mattina e in più un pane in 5, da dividere in 5 parti, unn cucchiaio di marmellata ee un cucchiaio di margarina. Ora il pane qualcuno se lo mangiava subito, qualcuno tratteneva(o teneva?) una parte per il giorno dopo. Quelli che la mangiavano subito è perché avevano paura che durante la notte glielo rubassero come succedeva purtroppo spesso, anche fra fratelli e anche fra genitori e figli. Questo per dimostrare cosa significa "fame".
 L.P: ee (mi) può parlare degli orari?
 A.W: gli orari era verso le 4 era laa emh sveglia, alle 4 e mezza del mattino c'era l'appello, dopo verso le 5 sii formavano i comandi di lavoro perché emh nell'interno ad Auschwitz c'erano solo lavori di manutenzione ma fuori Auschwitz c'erano diverse fabbriche dove lavoravano i prigionieri. Ee la mattina, appunto alle 5 e mezza, veniva dato l'ordine (frase in tedesco) che significa "formare centurie destinate al lavoro" e le cinturie uscivano dal campo per andare nelle varie fabbriche di lavor- (non si capisce l'ultima parte).
 L.P: il rientro a che ora era?
