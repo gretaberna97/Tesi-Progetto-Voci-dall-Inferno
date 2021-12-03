@@ -775,6 +775,25 @@
 
             <when xml:id="TT403" absolute="1:21:41" synch="#lpf-403"/> 
             <when xml:id="TT404" since="#TT403" interval="1"/>
+
+            <when xml:id="TT405" absolute="1:22:14" synch="#lpf-405"/> 
+            <when xml:id="TT406" since="#TT385" interval="1"/>
+
+            <when xml:id="TT407" absolute="1:22:16" synch="#lpf-407"/> 
+            <when xml:id="TT408" since="#TT407" interval="1"/>
+
+            <when xml:id="TT409" absolute="1:22:16" synch="#lpf-409"/> 
+            <when xml:id="TT410" since="#TT409" interval="1"/>
+
+            <when xml:id="TT411" absolute="1:22:43" synch="#lpf-411"/> 
+            <when xml:id="TT412" since="#TT411" interval="1"/>
+
+            <when xml:id="TT413" absolute="1:22:47" synch="#lpf-413"/> 
+            <when xml:id="TT414" since="#TT413" interval="1"/>
+
+            <when xml:id="TT415" absolute="1:23:00" synch="#lpf-415"/> 
+            <when xml:id="TT416" since="#TT415" interval="1"/>
+
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -1310,6 +1329,20 @@
             <when xml:id="TS528" synch="#AW263" absolute="1:21:36"/>
             <when xml:id="TS529" synch="#LPF264" absolute="1:21:39"/>
             <when xml:id="TS530" synch="#AW264" absolute="1:21:41"/>
+            <when xml:id="TS531" synch="#LPF265" absolute="1:22:10"/>
+            <when xml:id="TS532" synch="#AW265" absolute="1:22:14"/>
+            <when xml:id="TS533" synch="#LPF266" absolute="1:22:15"/>
+            <when xml:id="TS534" synch="#AW266" absolute="1:22:16"/>
+            <when xml:id="TS535" synch="#LPF267" absolute="1:22:39"/>
+            <when xml:id="TS536" synch="#AW267" absolute="1:22:43"/>
+            <when xml:id="TS537" synch="#LPF268" absolute="1:22:44"/>
+            <when xml:id="TS538" synch="#AW268" absolute="1:22:47"/>
+            <when xml:id="TS539" synch="#LPF269" absolute="1:23:07"/>
+            <when xml:id="TS540" synch="#AW269" absolute="1:23:15"/>
+            <when xml:id="TS541" synch="#LPF270" absolute="1:23:31"/>
+            <when xml:id="TS542" synch="#AW270" absolute="1:23:34"/>
+            <when xml:id="TS543" synch="#LPF271" absolute="1:23:39"/>
+            <when xml:id="TS544" synch="#AW271" absolute="1:23:40"/>
         </timeline>
         
     </standOff>
@@ -3711,7 +3744,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW241" synch="#TS484"/><!-- pomeriggio; sera -->
-                    il rientro avveniva <unclear reason="inaudible" resp="#GB" cert="medium">il</unclear> pomeriggio<pause/> verso sera perr la verità<pause/> circa <time when="05:00:00">le 5</time> <time when="05:00:00">le 6</time>
+                    il rientro avveniva <unclear reason="inaudible" resp="#GB" cert="medium">il</unclear> pomeriggio<pause/> verso sera perr la verità<pause/> circa <time when="17:00:00">le 5</time> <time when="18:00:00">le 6</time>
                 </u>
                 
                 <pause/>    
@@ -3932,23 +3965,77 @@
 
                 <u who="#AW" xml:id="AW264" synch="#TS530"/>
                     <anchor xml:id="arm-403" synch="#TT403"/><del type="truncation">du</del> durava<anchor xml:id="arm-404" synch="#TT404"/> <date dur="PT40D">40 giorni</date> solo da noi italiani<pause/> in quanto <persName ref="TEI-ListPerson.xml#Mengele"><foreign xml:lang="de">Mengele</foreign></persName> avevano stabilito che non c'erano<pause/> casi di epidemia a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName><pause/> quindi non sussisteva il pericolo che noi potessimo<pause/> <unclear reason="inaudible" resp="#GB" cert="medium"><del type="truncation">i</del></unclear> infettare altri prigionieri<pause/> quando <vocal>emh</vocal> fu necessario<pause/> preparare <distinct type="slang">gente</distinct> per<pause/> il <placeName ref="TEI-ListPlace.xml#Varsavia"><district type="area">ghetto</district> di Varsavia</placeName><pause/> prese direttamente gli italiani dal <placeName ref="TEI-ListPlace.xml#quarantena">campo della<incident iterated="true"><desc>rumori di auto in sottofondo</desc></incident> <del type="truncation">quarante</del></placeName>
-                </u><!-- 1:22:08 -->
+                </u>
                 
                 <pause/>
                 
                 <u who="#LPF" xml:id="LPF265" synch="#TS531"/>
-                    emh, dopo le 5, quindi dopo il rientro, c'era di nuovo un appello?
+                    <vocal>emh</vocal> <time notBefore="17:00:00">dopo le 5</time> quindi dopo il rientro c'era di nuovo un <anchor xml:id="lpf-405" synch="#TT405"/>appello<anchor xml:id="lpf-406" synch="#TT406"/>
                 </u>
 
                 <u who="#AW" xml:id="AW265" synch="#TS532"/>
-                    c'era di nuovo l'appello
+                    <anchor xml:id="arm-405" synch="#TT405"/>c'era di nuovo<anchor xml:id="arm-406" synch="#TT406"/> l'appello
                 </u>
 
                 <u who="#LPF" xml:id="LPF266" synch="#TS533"/>
-                    sempre fatto nello stesso modo
+                    sempre <anchor xml:id="lpf-407" synch="#TT407"/>fatto<anchor xml:id="lpf-408" synch="#TT408"/> nello <anchor xml:id="lpf-409" synch="#TT409"/>stesso modo<anchor xml:id="lpf-410" synch="#TT410"/>
                 </u>
+
+                <u who="#AW"/>
+                    <anchor xml:id="arm-407" synch="#TT407"/><unclear reason="inaudible" resp="#GB" cert="low">e</unclear><anchor xml:id="arm-408" synch="#TT408"/>
+                </u>
+                
+                <u who="#AW" xml:id="AW266" synch="#TS534"/><!-- tagliare la corda -->
+                    <anchor xml:id="arm-409" synch="#TT409"/>sempre fatto<anchor xml:id="arm-410" synch="#TT410"/> nello stesso modo solo che<pause/> se<pause/> tutto era <choice><orig>apposto</orig><reg resp="#GB">regolare</reg></choice><pause/> durava <time dur="PT1H">un'oretta circa</time><pause/> ma se per caso<pause/> i numeri non corrispondevano<pause/> e quindi era da supporre che qualcuno durante il lavoro<pause/> avesse <distinct type="archaic">tagliato la corda</distinct><pause/> incominciavano da capo tutti i conteggi<pause/> e questo durava delle volte fino a <time when="24:00:00">mezzanotte</time>                  
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF267" synch="#TS535"/>
+                    ee le possibilità di fuga erano molto maggiori durante il lavoro<anchor xml:id="lpf-411" synch="#TT411"/><pause/> mi sembra<anchor xml:id="lpf-412" synch="#TT412"/>
+                </u>
+
+                <u who="#AW" xml:id="AW267" synch="#TS536"/>
+                    <anchor xml:id="arm-411" synch="#TT411"/>durante il lavoro<anchor xml:id="arm-412" synch="#TT412"/> fuori           
+                </u>
+
+                <u who="#LPF" xml:id="LPF268" synch="#TS537"/>
+                    fuori<pause/> <unclear reason="inaudible" resp="#GB" cert="medium">c'era</unclear> la possibilità di fuga anche quando si era dentro <anchor xml:id="lpf-413" synch="#TT413"/>o <gap reason="inaudible" resp="#GB" atLeast="1 word" atMost="3 words"/><anchor xml:id="lpf-414" synch="#TT414"/>
+                </u>
+
+                <u who="#AW" xml:id="AW268" synch="#TS538"/><!-- nome di un film? -->
+                    <anchor xml:id="arm-413" synch="#TT413"/>no da dentro no<anchor xml:id="arm-414" synch="#TT414"/> <vocal>eh</vocal> per caso<pause/> <vocal>emh</vocal> llei l'avrà visto <choice><sic>nel</sic><corr resp="#GB">in</corr></choice> <pause/> <bibl><title type="main" level="m"><foreign xml:lang="he">Shoah</foreign></title></bibl><pause/> io ho letto il libro<pause/> dii <persName ref="TEI-ListPerson.xml#Vrba" resp="#GB">uno</persName> che adesso è in <placeName>Canada</placeName><pause/> un certo <persName ref="TEI-ListPerson.xml#Vrba">Vrba</persName><anchor xml:id="arm-415" synch="#TT415"/><pause/><anchor xml:id="arm-416" synch="#TT416"/> il quale riuscì a fuggire<pause/> dall'interno del <placeName ref="TEI-ListPlace.xml#Auschwitz" resp="#GB">campo</placeName> ma è un caso eccezionale        
+                </u>
+
+                <u who="#LPF"/>
+                    <anchor xml:id="lpf-415" synch="#TT415"/><vocal><desc>annuisce</desc></vocal><anchor xml:id="lpf-416" synch="#TT416"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF269" synch="#TS539"/><!-- ci si -->
+                    si<pause/> e <del type="falseStart">se <del type="truncation">s</del></del> <vocal>emh</vocal> <del type="correction">se ci si accorgeva</del> che qualcuno <del type="truncation">fu</del> fuggiva<pause/> o fosse fuggito c'era un allarme c'era
+                </u>
+
+                <u who="#AW" xml:id="AW269" synch="#TS540"/>
+                    c'era un allarmeee<pause/> tutto si bloccava tutto si fermava<pause/> fino alla ripresa del prigioniero<pause/> o della <pause/><del type="falseStart"><del type="truncation">s</del> <del type="truncation">con</del> <del type="truncation">st</del></del><pause/> <del type="correction">della <emph>constatazione</emph></del> che non era più possibile riprenderlo
+                </u>
+
+                <u who="#LPF" xml:id="LPF270" synch="#TS541"/>
+                    e c'era una punizione per quelli che rimanevano
+                </u>
+
+                <u who="#AW" xml:id="AW270" synch="#TS542"/><!-- ci facevano? -->
+                    per quelli che rimanevano ci <del type="falseStart"><del type="truncation">stav</del></del> <del type="reformulation">facevano</del> stare in piedi sempre<pause/> sulla zona d'appello
+                </u>
+
+                <u who="#LPF" xml:id="LPF271" synch="#TS543"/>
+                    questa era la punizione
+                </u>
+
+                <u who="#AW" xml:id="AW271" synch="#TS544"/>
+                    la punizione si
+                </u><!-- 1:23:41 -->
             </div>
-           sempre fatto nello stesso modo solo che se tutto era apposto durava un'oretta circa ma se per caso i numeri non corrispondevano e quindi era da supporre che qualcuno durante il lavoro avesse tagliato la corda incominciavano da capo tutti i conteggi e questo durava delle volte fino a mezzanotte
+
         </body>
 
     </text>
@@ -3957,16 +4044,6 @@
 </TEI>
 
 <!--
-L.P: ee le possibilità di fuga erano molto maggiori durante il lavoro, mi sembra?
-A.W: durante il lavoro fuori.
-L.P: fuori. C'era la possibilità di fuga anche quando si era dentro o (dice qualcosa con poca voce ma non si capisce)...?
-A.W: no da dentro no. Per caso emh llei lo avrà visto (balbetta e non si capisce) Shoah, io ho letto il libro di uno che adesso è in Canada, un certo Brubah(?) il quale riuscì a fuggire dall'interno del campo ma è un caso eccezionale.
-L.P: si e se emh se ci si accorgeva che qualcuno fuggiva o fosse fuggito c'era un allarme, c'era...?
-A.W: c'era un allarme ee tutto si bloccava, tutto si fermava, fino alla ripresa del prigioniero o della s- con- della constatazione che non era più possibile riprenderlo.
-L.P: e c'era una punizione per quelli che rimanevano?
-A.W: per quelli che rimanevano ci stav- facevano stare in piedi sempre sulla zona d'appello.
-L.P: questa era la punizione?
-A.W: la punizione si.
 L.P: ddopo le 5, dopo l'appello si rientrava nella baracca...
 A.W: si rientrava nella baracca eee si mangiava e poi(?) ci si metteva nel giaciglio.
 L.P: c'era illuminazione dentro la baracca?
