@@ -715,6 +715,30 @@
 
             <when xml:id="TT363" absolute="1:15:28" synch="#lpf-363"/> 
             <when xml:id="TT364" since="#TT363" interval="1"/>
+
+            <when xml:id="TT365" absolute="1:17:45" synch="#lpf-365"/> 
+            <when xml:id="TT366" since="#TT365" interval="1"/>
+
+            <when xml:id="TT367" absolute="1:17:48" synch="#lpf-367"/> 
+            <when xml:id="TT368" since="#TT368" interval="1"/>
+
+            <when xml:id="TT369" absolute="1:17:49" synch="#lpf-369"/> 
+            <when xml:id="TT370" since="#TT369" interval="1"/>
+
+            <when xml:id="TT371" absolute="1:17:54" synch="#lpf-371"/> 
+            <when xml:id="TT372" since="#TT371" interval="1"/>
+
+            <when xml:id="TT373" absolute="1:18:37" synch="#lpf-373"/> 
+            <when xml:id="TT374" since="#TT373" interval="1"/>
+
+            <when xml:id="TT375" absolute="1:18:42" synch="#lpf-373"/> 
+            <when xml:id="TT376" since="#TT375" interval="1"/>
+
+            <when xml:id="TT377" absolute="1:19:12" synch="#lpf-377"/> 
+            <when xml:id="TT378" since="#TT377" interval="1"/>
+
+            <when xml:id="TT379" absolute="1:19:18" synch="#lpf-379"/> 
+            <when xml:id="TT380" since="#TT379" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -1201,6 +1225,29 @@
             <when xml:id="TS479" synch="#LPF239" absolute="1:15:25"/>
             <when xml:id="TS480" synch="#AW239" absolute="1:15:28"/>
             <when xml:id="TS481" synch="#LPF240" absolute="1:16:40"/>
+            <when xml:id="TS482" synch="#AW240" absolute="1:16:44"/>
+            <when xml:id="TS483" synch="#LPF241" absolute="1:17:31"/>
+            <when xml:id="TS484" synch="#AW241" absolute="1:17:32"/>
+            <when xml:id="TS485" synch="#LPF242" absolute="1:17:41"/>
+            <when xml:id="TS486" synch="#AW242" absolute="1:17:45"/>
+            <when xml:id="TS487" synch="#LPF243" absolute="1:17:46"/>
+            <when xml:id="TS488" synch="#AW243" absolute="1:17:54"/>
+            <when xml:id="TS489" synch="#LPF244" absolute="1:18:15"/>
+            <when xml:id="TS490" synch="#AW244" absolute="1:18:17"/>
+            <when xml:id="TS491" synch="#LPF245" absolute="1:18:19"/>
+            <when xml:id="TS492" synch="#AW245" absolute="1:18:20"/>
+            <when xml:id="TS493" synch="#LPF246" absolute="1:18:35"/>
+            <when xml:id="TS494" synch="#AW246" absolute="1:18:37"/>
+            <when xml:id="TS495" synch="#LPF247" absolute="1:18:39"/>
+            <when xml:id="TS496" synch="#AW247" absolute="1:18:42"/>
+            <when xml:id="TS497" synch="#LPF248" absolute="1:19:03"/>
+            <when xml:id="TS498" synch="#AW248" absolute="1:19:03"/>
+            <when xml:id="TS499" synch="#LPF249" absolute="1:19:10"/>
+            <when xml:id="TS500" synch="#AW249" absolute="1:19:18"/>
+            <when xml:id="TS501" synch="#LPF250" absolute="1:20:02"/>
+            <when xml:id="TS502" synch="#AW250" absolute="1:20:06"/>
+            <when xml:id="TS503" synch="#LPF251" absolute="1:20:09"/>
+            <when xml:id="TS504" synch="#AW251" absolute="1:20:09"/>
         </timeline>
         
     </standOff>
@@ -1486,7 +1533,8 @@
                 </u>
 
                 <pause/>
-                <!-- si rischiarano la voce qualcuno ma non si sa chi -->
+                <vocal><desc>qualcuno si schiarisce la gola</desc></vocal>
+
                 <u who="#LPF" xml:id="LPF29" synch="#TS61"/>
                     <vocal>ehm</vocal><pause/> quando scoppiò la guerra lei dove si trovava e <anchor xml:id="lpf-29" synch="#TT29"/>come si trovava<anchor xml:id="lpf-30" synch="#TT30"/>
                 </u>
@@ -1668,7 +1716,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW48" synch="#TS97"/>
-                    da quella zona nel <placeName><district type="area">ghetto</district></placeName> e quelli vicini al <placeName><district type="area">ghetto</district></placeName><pause/> <del type="truncation">v</del> voglio ricordare un fatto<pause/> che è successo <date when="1943-10-16" resp="#GB" cert="high">quel giorno</date><pause/> ee nello stesso pianerottolo<pause/> dove abitavo io<pause/> abitava anche<pause/> come si chiamava<pause/> adesso purtroppo è morto<pause/> la famiglia<pause/> del<pause/> <persName ref="TEI-ListPerson.xml#Sorani" resp="#GB"><roleName type="office">presidente</roleName></persName> della <choice><abbr>DELASEM</abbr><expan resp="#GB">delegazione per l'assistenza degli emigratni ebrei</expan></choice> adesso non mi ricordo più il cognome<pause/> non mi viene in mente<pause/> un nome <del type="truncation">conosciuti</del> <persName ref="TEI-ListPerson.xml#Sorani"><emph>Sorani</emph></persName><pause/> eccolo <persName ref="TEI-ListPerson.xml#Sorani">Sorani</persName><pause/> bene anche <persName ref="TEI-ListPerson.xml#Sorani" resp="#GB">lui</persName> era nelle liste dei<pause/> <emph>deportandi</emph><pause/> ma era in mano a un secondo gruppo di <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> non quello che era venuto a prender me<pause/> nella loro<pause/> <soCalled>stupenda organizzazione</soCalled><pause/> avevano dimenticato di verificare se un gruppo<pause/> non avesse per caso<pause/> anche l'elenco di altri ebrei<pause/> cosicché quando presero me<pause/> non si recarono da <persName ref="TEI-ListPerson.xml#Sorani">Sorani</persName>il quale <persName ref="TEI-ListPerson.xml#Sorani">Sorani</persName><pause/> quando ha visto quello che era successo a me<pause/> dopo mezz'ora sparì <del type="falseStart" cert="medium">per</del> <del type="reformulation">dalla</del> circolazione e si salvò
+                    da quella zona nel <placeName><district type="area">ghetto</district></placeName> e quelli vicini al <placeName><district type="area">ghetto</district></placeName><pause/> <del type="truncation">v</del> voglio ricordare un fatto<pause/> che è successo <date when="1943-10-16" resp="#GB" cert="high">quel giorno</date><pause/> ee nello stesso pianerottolo<pause/> dove abitavo io<pause/> abitava anche<pause/> come si chiamava<pause/> adesso purtroppo è morto<pause/> la famiglia<pause/> del<pause/> <persName ref="TEI-ListPerson.xml#Sorani" resp="#GB"><roleName type="office">presidente</roleName></persName> della <choice><abbr>DELASEM</abbr><expan resp="#GB">delegazione per l'assistenza degli emigrati ebrei</expan></choice> adesso non mi ricordo più il cognome<pause/> non mi viene in mente<pause/> un nome <del type="truncation">conosciuti</del> <persName ref="TEI-ListPerson.xml#Sorani"><emph>Sorani</emph></persName><pause/> eccolo <persName ref="TEI-ListPerson.xml#Sorani">Sorani</persName><pause/> bene anche <persName ref="TEI-ListPerson.xml#Sorani" resp="#GB">lui</persName> era nelle liste dei<pause/> <emph>deportandi</emph><pause/> ma era in mano a un secondo gruppo di <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> non quello che era venuto a prender me<pause/> nella loro<pause/> <soCalled>stupenda organizzazione</soCalled><pause/> avevano dimenticato di verificare se un gruppo<pause/> non avesse per caso<pause/> anche l'elenco di altri ebrei<pause/> cosicché quando presero me<pause/> non si recarono da <persName ref="TEI-ListPerson.xml#Sorani">Sorani</persName>il quale <persName ref="TEI-ListPerson.xml#Sorani">Sorani</persName><pause/> quando ha visto quello che era successo a me<pause/> dopo mezz'ora sparì <del type="falseStart" cert="medium">per</del> <del type="reformulation">dalla</del> circolazione e si salvò
                 </u>
 
                 <u who="#LPF" xml:id="LPF48" synch="#TS98"/>
@@ -3588,7 +3636,113 @@
 
                 <u who="#LPF" xml:id="LPF240" synch="#TS481"/>
                     ee mi può parlare degli orari
-                </u><!-- 01:16:43-->
+                </u>
+
+                <pause/>
+
+                <u who="#AW" xml:id="AW240" synch="#TS482"/><!-- traduzione -->
+                    gli orari <choice><sic>era</sic><corr resp="#GB">erano</corr></choice><pause/> verso le <time when="04:00:00">4</time> <choice><sic>era</sic><corr resp="#GB">c'era</corr></choice> laa <vocal>amh</vocal><pause/> <emph>sveglia</emph><pause/> alle <time when="04:30:00">4 e mezza del mattino</time><pause/> c'era l'appello<pause/> <time when="05:00:00">dopo verso le 5</time><pause/> sii formavano i comandi di lavoro<pause/> perché <vocal>emh</vocal><pause/> nell'interno ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> c'erano solo lavori di manutenzione<pause/> ma fuori <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> c'erano diverse fabbriche<pause/> dove lavoravano i prigionieri<pause/> ee la mattina appunto alle <time when="05:30:00">5 e mezza</time><pause/> veniva dato l'ordine <q type="spoken"><foreign xml:lang="de">arbeitskommando formieren</foreign></q> che significa<pause/> formare <distinct type="archaic">centurie</distinct> destinate al lavoro <pause/>e le <distinct type="archaic">centurie</distinct>  uscivano dal <placeName ref="TEI-ListPlace.xml#Auschwitz" resp="#GB">campo</placeName> per andare<pause/> nelle varie fabbriche di <del type="truncation">lavor</del>
+                </u>
+
+                <u who="#LPF" xml:id="LPF241" synch="#TS483"/>
+                    il rientro a che ora era
+                </u>
+
+                <u who="#AW" xml:id="AW241" synch="#TS484"/><!-- pomeriggio; sera -->
+                    il rientro avveniva <unclear reason="inaudible" resp="#GB" cert="medium">il</unclear> pomeriggio<pause/> verso sera perr la verità<pause/> circa <time when="05:00:00">le 5</time> <time when="05:00:00">le 6</time>
+                </u>
+                
+                <pause/>    
+                
+                <u who="#LPF" xml:id="LPF242" synch="#TS485"/>
+                    eee<pause/> in questo caso <del type="repetition">il</del> il pasto si consumava fuori<pause/> dal <anchor xml:id="lpf-365" synch="#TT365"/><placeName ref="TEI-ListPlace.xml#Auschwitz" resp="#GB">campo</placeName><anchor xml:id="lpf-366" synch="#TT366"/>
+                </u>
+
+                <u who="#AW" xml:id="AW242" synch="#TS486"/>
+                    <anchor xml:id="arm-365" synch="#TT365"/>il pasto si<anchor xml:id="arm-366" synch="#TT366"/> consumava fuori si
+                </u>
+
+                <u who="#LPF" xml:id="LPF243" synch="#TS487"/>
+                    era meglio in un certo <anchor xml:id="lpf-367" synch="#TT367"/>senso o peggio<anchor xml:id="lpf-368" synch="#TT368"/><anchor xml:id="lpf-369" synch="#TT369"/>era lo stesso<anchor xml:id="lpf-370" synch="#TT370"/><pause/> l'appello dove si faceva davanti <unclear reason="inaudible" resp="#GB" cert="medium">la</unclear> baracca <anchor xml:id="lpf-371" synch="#TT371"/>o nella piazza centrale<anchor xml:id="lpf-372" synch="#TT372"/>
+                </u>
+
+                <u who="#AW"/>
+                    <anchor xml:id="arm-367" synch="#TT367"/>no <del type="repetition">era lo stesso</del><anchor xml:id="arm-368" synch="#TT368"/><pause/><anchor xml:id="arm-369" synch="#TT369"/> era lo stesso<anchor xml:id="arm-370" synch="#TT370"/>
+                </u>
+
+                <u who="#AW" xml:id="AW243" synch="#TS488"/>
+                    <anchor xml:id="arm-371" synch="#TT371"/>davanti alla baracca e <unclear reason="inaudible" resp="#GB" cert="medium"><del type="falseStart">la</del></unclear> <del type="reformulation">all'appello</del><anchor xml:id="arm-372" synch="#TT372"/> dovevano partecipare tutti<pause/> anche coloro che erano morti<pause/> o moribondi<pause/> i morti bisognava portarli fuori dalla baracca e metterli accanto alla nostra fila<pause/> sempre perr <del type="repetition">il</del> il motivo che la <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> che controllava<pause/> doveva verificare quante persone <unclear reason="inaudible" resp="#GB" cert="medium">erano</unclear>
+                </u>
+
+                <u who="#LPF" xml:id="LPF244" synch="#TS489"/>
+                    l'appello veniva fatto baracca per baracca
+                </u>
+
+                <u who="#AW" xml:id="AW244" synch="#TS490"/>
+                    l'appello veniva fatto baracca per baracca
+                </u>
+
+                <u who="#LPF" xml:id="LPF245" synch="#TS491"/>
+                    fatto da chi
+                </u>
+
+                <u who="#AW" xml:id="AW245" synch="#TS492"/><!-- #blockaltester? -->
+                    prima dal <roleName>capoo baracca</roleName><pause/> poi veniva <gloss xml:id="rapportfuhrer">unn controllore</gloss> unn cosiddetto <term ref="#rapportfuhrer"><roleName><foreing xml:lang="de"><soCalled>rapportfuhrer</soCalled></foreign></roleName></term><pause/> che verificava se i dati indicati lì dalll<pause/> anziano della baracca</term> <choice><sic>corrispondeva</sic><corr resp="#GB">corrispondevano</corr></choice>
+                </u>
+
+                <u who="#LPF" xml:id="LPF246" synch="#TS493"/>
+                    era fatto per numero <del type="repetition">il</del> il <anchor xml:id="lpf-373" synch="#TT373"/>conteggio<anchor xml:id="lpf-374" synch="#TT374"/>
+                </u>
+
+                <u who="#AW" xml:id="AW246" synch="#TS494"/>
+                    <anchor xml:id="arm-373" synch="#TT373"/>per numero<anchor xml:id="arm-374" synch="#TT374"/> si
+                </u>
+
+                <u who="#LPF" xml:id="LPF247" synch="#TS495"/>
+                    allora poteva darsi caso che qualcuno rispondessee<pause/> <anchor xml:id="lpf-375" synch="#TT375"/>due volte <gap reason="inaudible" atLeast="1 word" atMost="3 words"/><anchor xml:id="lpf-376" synch="#TT376"/>
+                </u>
+
+                <u who="#AW" xml:id="AW247" synch="#TS496"/><!-- lui riferito al rapportfuhrer(?) -->
+                    <anchor xml:id="arm-375" synch="#TT375"/><del type="repetition">no no no no no</del> no<anchor xml:id="arm-376" synch="#TT376"/> loro <del type="truncation">se</del> semplicemente<pause/> <vocal>emh</vocal> conteggiavano <del type="repetition">le</del> le file<pause/> siccome dovevamo essere<pause/> <vocal>aaahm</vocal> messi a 5<pause/> uno dietro l'altro<pause/> per 5 <del type="reformulation">cioè erano file per 5</del><pause/> bastava che <roleName type="#rapportfuhrer">lui</roleName> contasse quante file ci sono<pause/> per avere il numero dei prigionieri
+                </u>
+
+                <u who="#LPF" xml:id="LPF248" synch="#TS497"/>
+                    <vocal>ah</vocal> tutto lì
+                </u>
+
+                <u who="#AW" xml:id="AW248" synch="#TS498"/>
+                    si<pause/> che appunto doveva corrispondere con il foglio<pause/> che aveva <del type="falseStart">il</del> <del type="correction">l</del>'anziano della baracca
+                </u>
+                
+                <pause/>
+                
+                <u who="#LPF" xml:id="LPF249" synch="#TS499"/>
+                    dovevate mettervi per numero o <anchor xml:id="lpf-377" synch="#TT377"/><del type="falseStart">non</del><pause/> <del type="repetition">no</del><anchor xml:id="lpf-378" synch="#TT378"/><pause/>no<vocal><desc>sospira</desc></vocal><pause/> questo appelloo era tormentoso<anchor xml:id="lpf-379" synch="#TT379"/><pause/> o<anchor xml:id="lpf-380" synch="#TT380"/>
+                </u>
+
+                <u who="#AW"/>
+                    <anchor xml:id="arm-377" synch="#TT377"/><del type="repetition">no no</del> no<anchor xml:id="arm-378" synch="#TT378"/>
+                </u>
+
+                <u who="#AW" xml:id="AW249" synch="#TS500"/>
+                    <anchor xml:id="arm-377" synch="#TT377"/>era tormentosissimo<anchor xml:id="arm-378" synch="#TT378"/> perché durava delle volte delle ore<pause/> in quanto non si <del type="truncation">u</del><pause/> usciva dall'appello<pause/> se non veniva dato il segnale<pause/> e questo capitava<pause/> solo in giornate limpide<pause/> perché se c'era qualche giornata nebbiosa<pause/> in quanto era già avvenuto che qualche<pause/> prigioniero sfruttando l'occasione della nebbia era fuggito<pause/> c'era la disposizione<pause/> che <del type="falseStart">ill</del><pause/> <del type="correction">i</del> comandi non uscivano dal <placeName ref="TEI-ListPlace.xml#Auschwitz" resp="#GB">campo</placeName><pause/> fino a quando c'era nebbia<pause/> e quindi noi dovevamo rimanere in fila allaaa<pause/> piazza dell'appello<pause/> <distinct type="archaic">intirizziti</distinct> dal freddo<pause/> stremati dalla fame<pause/> in attesa dell'ordine di muoversi
+                </u>
+
+                <u who="#LPF" xml:id="LPF250" synch="#TS501"/>
+                    quindi non era al fine dell'appello questo<pause/> <soCalled>stare in piedii</soCalled>
+                </u>
+
+                <u who="#AW" xml:id="AW250" synch="#TS502"/>
+                    no <choice><sic><del type="truncation">ll</del> lo stare in piedi si stava</sic><corr resp="#GB">stavamo in piedi</corr></choice> già prima dell'appello
+                </u>
+
+                <u who="#LPF" xml:id="LPF251" synch="#TS503"/>
+                    si
+                </u>
+
+                <u who="#AW" xml:id="AW251" synch="#TS504"/>
+                    poi durante l'appello bisognava rimanere in piedi fino al momento dell'uscita dal <placeName ref="TEI-ListPlace.xml#Auschwitz" resp="#GB">campo</placeName>
+                </u>
             </div>
            
         </body>
@@ -3599,34 +3753,6 @@
 </TEI>
 
 <!--
-L.P: ee (mi) può parlare degli orari?
-A.W: gli orari era verso le 4 era laa emh sveglia, alle 4 e mezza del mattino c'era l'appello, dopo verso le 5 sii formavano i comandi di lavoro perché emh nell'interno ad Auschwitz c'erano solo lavori di manutenzione ma fuori Auschwitz c'erano diverse fabbriche dove lavoravano i prigionieri. Ee la mattina, appunto alle 5 e mezza, veniva dato l'ordine (frase in tedesco) che significa "formare centurie destinate al lavoro" e le cinturie uscivano dal campo per andare nelle varie fabbriche di lavor- (non si capisce l'ultima parte).
-L.P: il rientro a che ora era?
-A.W: il rientro avveniva (il) pomeriggio verso sera, perr la verità, circa le 5, le 6.
-L.P: eee in questo caso il pasto si consumava fuori dal campo?
-A.W: il pasto si consumava fuori si.
-L.P: era meglio in un certo senso o peggio?
-A.W: no, era lo stesso. era lo stesso.
-L.P: era lo stesso. L'appello dove si faceva? Davanti ala baracca o (alla?)nella piazza centrale?
-A.W: davanti alla baracca, e all'appello dovevano partecipare tutti, anche coloro che erano morti o moribondi. I morti bisognava portarli fuori dalla baracca e metterli accanto alla nostra fila sempre perr (balbetta) il motivo che la SS che controllava doveva verificare quante persone erano...
-L.P: l'appello veniva fatto baracca per baracca?
-A.W: l'appello veniva fatto baracca per baracca.
-L.P: fatto da chi?
-A.W: prima dal capoo baracca, poi veniva unn controllore, unn cosiddetto rapportfuhrer(?) che verificava se i dati indicati lì dalll anziano corrispondevano.
-L.P: era fatto per numero emh il conteggio...?
-A.W: per numero si.
-L.P: allora poteva darsi caso che qualcuno rispondessee due volte (non si capisce)?
-A.W: no no no no no, loro se- semplicemente emh conteggiavano le file, siccome dovevamo essere aaa messi a 5 uno dietro l'altro per 5, cioè erano file per 5, bastava che lui contasse quante file ci sono per avere il numero dei prigionieri.
-L.P: tutto lì.
-A.W: che(?) appunto doveva corrispondere con il foglio che aveva il l'anziano della baracca.
-L.P: dovevate mettervi per numero o no...?
-A.W: no no.
-L.P: no. Questo appelloo era tormentoso o...?
-A.W: era tormentosissimo perché durava delle volte delle ore, in quanto non si u usciva dall'appello se non veniva dato il segnale e questo capitava solo in giornate limpide perché se c'era qualche giornata nebbiosa - in quanto era già avvenuto che qualche prigioniero sfruttando l'occasione della nebbia era fuggito - c'era la disposizione che ill i comandi non uscivano dal campo fino a quando c'era nebbia. E quindi noi dovevamo rimanere in fila allaaa piazza dell'appello intirizziti dal freddo, stremati dalla fame, in attesa dell'ordine di muoversi.
-L.P: quindi non era al fine dell'appello questo... stare in piedii?
-A.W: no (balbetta) lo stare in piedi si stava già prima dell'appello.
-L.P: si.
-A.W: poi durante l'appello bisognava rimanere in piedi fino al momento dell'uscita dal campo.
 L.P: si, e emh quindi non era per far l'appello questaaa questo questo tormento di di lasciarvi in piedi?
 A.W: no, no, anzitutto c'era l'appello di (frasi che si sovrappongono e non si capiscono bene → non sicura)
 L.P: (non si capisce) si schiarisse lll'atmosfera... (non sicura)
