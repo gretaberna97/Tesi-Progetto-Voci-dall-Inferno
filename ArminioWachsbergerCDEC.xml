@@ -828,7 +828,25 @@
             <when xml:id="TT438" since="#TT437" interval="1"/>
 
             <when xml:id="TT439" absolute="1:26:16" synch="#lpf-439"/> 
-            <when xml:id="TT440" since="#TT449" interval="1"/>
+            <when xml:id="TT440" since="#TT439" interval="1"/>
+
+            <when xml:id="TT441" absolute="1:26:28" synch="#lpf-441"/> 
+            <when xml:id="TT442" since="#TT441" interval="1"/>
+
+            <when xml:id="TT443" absolute="1:26:37" synch="#lpf-443"/> 
+            <when xml:id="TT444" since="#TT443" interval="1"/>
+
+            <when xml:id="TT445" absolute="1:26:49" synch="#lpf-445"/> 
+            <when xml:id="TT446" since="#TT445" interval="1"/>
+
+            <when xml:id="TT447" absolute="1:26:51" synch="#lpf-447"/> 
+            <when xml:id="TT448" since="#TT447" interval="1"/>
+
+            <when xml:id="TT449" absolute="1:27:46" synch="#lpf-449"/> 
+            <when xml:id="TT450" since="#TT449" interval="1"/>
+
+            <when xml:id="TT451" absolute="1:28:00" synch="#lpf-451"/> 
+            <when xml:id="TT452" since="#TT451" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -1402,6 +1420,38 @@
             <when xml:id="TS566" synch="#AW282" absolute="1:25:21"/>
             <when xml:id="TS567" synch="#LPF283" absolute="1:26:13"/>
             <when xml:id="TS568" synch="#AW283" absolute="1:26:16"/>
+            <when xml:id="TS569" synch="#LPF284" absolute="1:26:26"/>
+            <when xml:id="TS570" synch="#AW284" absolute="1:26:30"/>
+            <when xml:id="TS571" synch="#LPF285" absolute="1:26:32"/>
+            <when xml:id="TS572" synch="#AW285" absolute="1:26:35"/>
+            <when xml:id="TS573" synch="#LPF286" absolute="1:26:36"/>
+            <when xml:id="TS574" synch="#AW286" absolute="1:26:37"/>
+            <when xml:id="TS575" synch="#LPF287" absolute="1:26:39"/>
+            <when xml:id="TS576" synch="#AW287" absolute="1:26:42"/>
+            <when xml:id="TS577" synch="#LPF288" absolute="1:26:46"/>
+            <when xml:id="TS578" synch="#AW288" absolute="1:26:52"/>
+            <when xml:id="TS579" synch="#LPF289" absolute="1:26:54"/>
+            <when xml:id="TS580" synch="#AW289" absolute="1:26:57"/>
+            <when xml:id="TS581" synch="#LPF290" absolute="1:27:24"/>
+            <when xml:id="TS582" synch="#AW290" absolute="1:27:25"/>
+            <when xml:id="TS583" synch="#LPF291" absolute="1:27:45"/>
+            <when xml:id="TS584" synch="#AW291" absolute="1:27:48"/>
+            <when xml:id="TS585" synch="#LPF292" absolute="1:27:49"/>
+            <when xml:id="TS586" synch="#AW292" absolute="1:27:52"/>
+            <when xml:id="TS587" synch="#LPF293" absolute="1:27:58"/>
+            <when xml:id="TS588" synch="#AW293" absolute="1:28:00"/>
+            <when xml:id="TS589" synch="#LPF294" absolute="1:28:05"/>
+            <when xml:id="TS590" synch="#AW294" absolute="1:28:09"/>
+            <when xml:id="TS591" synch="#LPF295" absolute="1:28:50"/>
+            <when xml:id="TS592" synch="#AW295" absolute="1:28:53"/>
+            <when xml:id="TS593" synch="#LPF296" absolute="1:28:54"/>
+            <when xml:id="TS594" synch="#AW296" absolute="1:28:55"/>
+            <when xml:id="TS595" synch="#LPF297" absolute="1:29:01"/>
+            <when xml:id="TS596" synch="#AW297" absolute="1:29:04"/>
+            <when xml:id="TS597" synch="#LPF298" absolute="1:29:31"/>
+            <when xml:id="TS598" synch="#AW298" absolute="1:29:32"/>
+            <when xml:id="TS599" synch="#LPF299" absolute="1:29:33"/>
+            <when xml:id="TS600" synch="#AW299" absolute="1:29:34"/>
         </timeline>
         
     </standOff>
@@ -4222,7 +4272,159 @@
 
                 <u who="#AW" xml:id="AW283" synch="#TS568"/><!-- saltava in mente -->
                     <anchor xml:id="arm-439" synch="#TT439"/>è un sadismo<anchor xml:id="arm-440" synch="#TT440"/> un loro divertimento senza nessun motivo<pause/> perché avrei capito <unclear reason="inaudible" resp="#GB" cert="high">che</unclear> lo facessero<pause/> per punizione<pause/> invece no<pause/> così improvvisamente gli <distinct type="slang">saltava in mente</distinct> di farci fare <unclear reason="inaudible" resp="#GB" cert="medium">la</unclear> ginnastica
-                </u><!--1:26:26-->
+                </u>
+
+                <u who="#LPF" xml:id="LPF284" synch="#TS569"/>
+                    e questo allora <del type="falseStart">nell'orario</del><anchor xml:id="lpf-441" synch="#TT441"/><pause/> <del type="reformulation">al di là dell'orario<anchor xml:id="lpf-442" synch="#TT442"/> di lavoro</del>
+                </u>
+
+                <u who="#AW"/>
+                    <anchor xml:id="arm-441" synch="#TT441"/><unclear reason="inaudible" resp="#GB" cert="medium">nell'orario</unclear><anchor xml:id="arm-442" synch="#TT442"/>
+                </u>
+
+                <u who="#AW" xml:id="AW284" synch="#TS570"/>
+                    al di là dell'orario di lavoro
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF285" synch="#TS571"/>
+                    ed eravate sempre diciamo a loro disposizione
+                </u>
+
+                <u who="#AW" xml:id="AW285" synch="#TS572"/>
+                    si
+                </u>
+
+                <u who="#LPF" xml:id="LPF286" synch="#TS573"/>
+                    anche dopo il <anchor xml:id="lpf-443" synch="#TT443"/>lavoro<anchor xml:id="lpf-444" synch="#TT444"/>
+                </u>
+
+                <u who="#AW" xml:id="AW286" synch="#TS574"/>
+                    <anchor xml:id="arm-443" synch="#TT443"/>anche dopo<anchor xml:id="arm-444" synch="#TT444"/> il lavoro
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF287" synch="#TS575"/>
+                    <vocal><desc>sospira</desc></vocal>e questo successe parecchie volte
+                </u>
+
+                <u who="#AW" xml:id="AW287" synch="#TS576"/>
+                    parecchie volte questo ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName> no
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF288" synch="#TS577"/>
+                    ee<pause/> prendevano un gruppo di voi oppure <del type="repetition">tutta la <anchor xml:id="lpf-445" synch="#TT445"/> baracca doveva farlo<anchor xml:id="lpf-446" synch="#TT446"/> </del><pause/> tutta la baracca doveva <anchor xml:id="lpf-447" synch="#TT447"/>farlo<anchor xml:id="lpf-448" synch="#TT448"/>
+                </u>
+
+                <u who="#AW"/>
+                    <anchor xml:id="arm-445" synch="#TT445"/>prendevano tutta la baracca<anchor xml:id="arm-446" synch="#TT446"/> 
+                    <anchor xml:id="arm-447" synch="#TT447"/>tutta la baracca<anchor xml:id="arm-448" synch="#TT448"/>
+                </u>
+
+                <u who="#AW" xml:id="AW288" synch="#TS578"/>
+                    prendevano a gruppi
+                </u>
+
+                <u who="#LPF" xml:id="LPF289" synch="#TS579"/>
+                    eee lei vide morire qualcuno nella sua baracca
+                </u>
+
+                <u who="#AW" xml:id="AW289" synch="#TS580"/><!-- mia baracca; difinfezione -->
+                    nella <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">mia baracca</placeName> <del type="repetition">ne</del> ne morì uno<pause/> subito <time notBefore="07:00:00">dopo <del type="repetition">laa</del><pause/> la doccia</time><pause/> in quanto non si poteva <choice><sic>rivestirsi</sic><corr resp="#GB">rivestire</corr></choice><pause/> perché i vestiti erano mandati alla <term>disinfezione</term><pause/> e bisognava aspettare che ritornassero<pause/> quindi rimanemmo in piedi fuori dalla <placeName ref="TEI-ListPlace.xml#quarantena" resp="#GB">baracca</placeName><pause/> con il freddo che faceva e uno<pause/> dei miei compagni<pause/> cadde <del type="truncation">mort</del><pause/> adesso mi sfugge il nome però
+
+                <u who="#LPF" xml:id="LPF290" synch="#TS581"/>
+                    ma un italiano
+                </u>
+
+                <u who="#AW" xml:id="AW290" synch="#TS582"/><!-- carriola; crematorio -->
+                    era un italiano si<pause/> che poi dopo mi ricordo<pause/> una scena straziante<pause/> che bisognava portarlo con una <term>carriola</term> il cadavere<pause/> fino alla porta del <placeName ref="TEI-ListPlace.xml#Auschwitz" resp="#GB">campo</placeName><pause/> perché lì arrivavano i camion<pause/> che li trasportavano poi<pause/> al <term>crematorio</term>
+                </u>
+                
+                <pause/>
+                
+                <u who="#LPF" xml:id="LPF291" synch="#TS583"/>
+                    li trasportavano al <term>crematorio</term> che <anchor xml:id="lpf-449" synch="#TT449"/>era all'interno del<anchor xml:id="lpf-450" synch="#TT450"/> <placeName ref="TEI-ListPlace.xml#Auschwitz" resp="#GB">campo</placeName>
+                </u>
+
+                <u who="#AW"/>
+                    <anchor xml:id="arm-449" synch="#TT449"/><gap reason="inaudible" atLeast="2 words" atMost="4 words"/><anchor xml:id="arm-450" synch="#TT450"/>
+                </u>
+
+                <u who="#AW" xml:id="AW291" synch="#TS584"/>
+                    <unclear reason="inaudible" resp="#GB" cert="medium">che era nell</unclear>'interno del <placeName ref="TEI-ListPlace.xml#Auschwitz" resp="#GB">campo</placeName>
+                </u>
+
+                <u who="#LPF" xml:id="LPF292" synch="#TS585"/>
+                    era così lontano che era necessario un camion
+                </u>
+
+                <u who="#AW" xml:id="AW292" synch="#TS586"/>
+                    no <unclear reason="inaudible" resp="#GB" cert="medium"><del type="falseStart">nell</del></unclear> così lontano no<pause/> però naturalmente non era neanche vicino
+                </u>
+
+                <u who="#LPF" xml:id="LPF293" synch="#TS587"/>
+                    era un camion che era addetto <anchor xml:id="lpf-451" synch="#TT451"/>a questo scopo<anchor xml:id="lpf-452" synch="#TT452"/>
+                </u>
+
+                <u who="#AW" xml:id="AW293" synch="#TS588"/>
+                    <anchor xml:id="arm-451" synch="#TT451"/>addetto a questo<anchor xml:id="arm-452" synch="#TT452"/> perchè ne trovavano purtroppo ogni giorno diversi
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF294" synch="#TS589"/><!-- botte? -->
+                    lei ha visto qualcuno prendere delle botte <unclear reason="inaudible" resp="#GB" cert="high">in modo</unclear> particolare
+                </u>
+
+                <u who="#AW" xml:id="AW294" synch="#TS590"/>
+                    si diversi<pause/> questo succedeva se per esempio appunto durante la ginnastica qualcuno<pause/> non si lanciava per terra<pause/> immediatamente<pause/> subito dopo l'ordine ricevuto<pause/> maaa <vocal>ehm</vocal> ho visto dar botte<pause/> moltissimo<pause/> nel caso<pause/> dei lavori interni che facevamo di sterro<pause/> di canalizzazione eccetera se qualcuno non si muoveva<pause/> sollecitamente veniva subito punito<pause/> con unn manganello di gomma<pause/> che avevano in mano<pause/> ma questo succedeva particolarmente<pause/> dalla sorveglianza dei <roleName><foreign xml:lang="de">kapò</foreign></roleName><pause/> non della <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> perché come dissi prima la <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> lasciava fare tutto ai <roleName><foreign xml:lang="de">kapò</foreign></roleName>
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF295" synch="#TS591"/>
+                    eee <del type="truncation">ll</del> la ginnastica era
+                </u>
+
+                <u who="#AW" xml:id="AW295" synch="#TS592"/>
+                    era invece
+                </u>
+
+                <u who="#LPF" xml:id="LPF296" synch="#TS593"/>
+                    della <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice>
+                </u>
+
+                <u who="#AW" xml:id="AW296" synch="#TS594"/>
+                    era della <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice><pause/> personale <del type="falseStart"><del type="repetition">non</del> non era</del><pause/> <del type="reformulation">non vi</del> partecipavano i <roleName><foreign xml:lang="de">kapò</foreign></roleName>
+                </u>
+
+                <u who="#LPF" xml:id="LPF297" synch="#TS595"/>
+                    senta ci furono visite di ispezione del capo campo
+                </u>
+
+                <u who="#AW" xml:id="AW297" synch="#TS596"/>
+                    dunque<pause/> le visite di ispezione avvenivano ogni giorno<pause/> per vedere se le baracche erano a posto se i giacigli<pause/> erano costruiti secondo le disposizioni<pause/> senza avvallamenti<pause/> senzaa <pause/> irregolarità<pause/> e poi<pause/> venivano a controllare<pause/> se<pause/> le stoviglie<pause/> con le quali mangiavamo erano pulite o meno
+                </u>
+
+                <u who="#LPF" xml:id="LPF298" synch="#TS597"/>
+                    chi le puliva
+                </u>
+
+                <u who="#AW" xml:id="AW298" synch="#TS598"/>
+                    noi
+                </u>
+
+                <u who="#LPF" xml:id="LPF299" synch="#TS599"/>
+                    con che acqua
+                </u>
+
+                <u who="#AW" xml:id="AW299" synch="#TS600"/>
+                    con l'acqua che c'era nelle fontanelle
+                </u><!-- 1:29:36 -->
             </div>
 
         </body>
@@ -4233,38 +4435,6 @@
 </TEI>
 
 <!--
-L.P: e questo allora nell'orario, al di là dell'orario di lavoro?
-A.W: (dice qualcosa) al di là dell'orario di lavoro.
-L.P: ed eravate sempre diciamo a loro disposizione?
-A.W: si.
-L.P: anche dopo il lavoro?
-A.W: anche dopo il lavoro.
-L.P: e questo successe parecchie volte?
-A.W: parecchie volte, questo ad Auschwitz, a Varsavia no.
-L.P: ee prendevano un gruppo di voi oppure tutta baracca doveva farlo?
-A.W: prendevano tutta la baracca.
-L.P: tutta la baracca doveva farlo.
-A.W: tutta la baracca, prendevano a gruppi.
-L.P: eee lei vide morire qualcuno nella sua baracca?
-A.W: nella mia baracca ne morì uno subito dopo laa la doccia in quanto non si poteva rivestirsi perché i vestiti erano mandati alla disinfezione e bisognava aspettare che ritornassero. Quindi rimanemmo in piedi fuori dalla baracca con il freddo che faceva e uno dei miei compagni cadde mort-, adesso mi sfugge il nome però...
-L.P: era(?) un italiano?
-A.W: era un italiano si. Che poi dopo mi ricordo, una scena straziante, che bisognava portarlo con una carriola il cadavere fino alla porta del campo perché lì arrivavano i camion che li trasportavano poi al crematorio.
-L.P: li trasportavano al crematorio che era all'interno del campo?
-A.W: (dice qualcosa ma non si capisce) che era(?) all'interno del campo.
-L.P: era così lontano che era necessario un camion?
-A.W: no ehm (balbetta) così lontano no però naturalmente non era neanche vicino.
-L.P: era un camion che era addetto a questo scopo?
-A.W: addetto a questo, ne trovavano purtroppo ogni giorno diversi.
-L.P: lei ha visto qualcuno prendere delle botte in modo(?) particolare?
-A.W: si diversi, questo succedeva se per esempio, appunto durante la ginnastica, qualcuno non si lanciava per terra immediatamente subito dopo l'ordine ricevuto, maaa ho visto dar botte moltissimo nel caso dei lavori interni(?) che facevamo, di sterro, di canalizzazione etc, se qualcuno non si muoveva sollecitamente veniva subito punito con unn ehm manganello di gomma che avevano in mano ma questo succedeva particolarmente dalla sorveglianza dei Kapò, non della SS, perché come dissi prima, la SS lasciava fare tutto ai Kapò.
-L.P: eee llla ginnastica era... della SS...
-A.W: era invece, era della SS, personale, non non era (riformulazione) non vi partecipavano i Kapò.
-L.P: senta ci fuori visite di ispezione del capo campo?
-A.W: dunque, le visite di ispezione avvenivano ogni giorno per vedere se le baracche erano a posto, se i giacigli erano costruiti secondo le disposizioni senza avvallamenti, senzaa (pausa) irregolarità, e poi venivano a controllare se le stoviglie con le quali mangiavamo erano pulite o meno...
-L.P: chi le puliva?
-A.W: noi.
-L.P: con che acqua?
-A.W: con l'acqua che c'era nelle fontanelle.
 L.P: senza sapone naturalmente...
 A.W: senza sapone, con un po' di sabbia.
 L.P: lei vide ancora Hoss dopo la sua ingresso nel campo?
