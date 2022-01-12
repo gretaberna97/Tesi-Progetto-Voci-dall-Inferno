@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+  
+ 
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+
+                <title>
+                    <!-- Insert title for this digital text -->
+                </title>
+
+            </titleStmt>
+
+            <publicationStmt>
+                <p>
+                    <!-- Insert information about the publication of this digital text -->
+                </p>
+
+            </publicationStmt>
+
+            <sourceDesc>
+                <p>
+                    <!-- Insert a bibliographic description of the source for this digital text -->
+                </p>
+
+                <listPerson>
+                        <head>Lista persone</head>
+
+                        <!--Arminio Wachsberger-->
+                        <person xml:id="AW" sameAs="https://viaf.org/viaf/160339198/#Wachsberger,_Arminio,_1913-2002">   
+    
+                                <persName role="sopravvissuto">
+                                    <ref target="https://it.wikipedia.org/wiki/Arminio_Wachsberger http://digital-library.cdec.it/cdec-web/persone/detail/person-8295/wachsberger-arminio.html"/>
+                                    <foreName type="given">Arminio</foreName>
+                                    <foreName type="religious"><foreign xml:lang="he">Meir Zvi</foreign></foreName>
+                                    <surname><foreign xml:lang="dach">Wachsberger</foreign></surname>
+                                    <addName type="nickname"><foreign xml:lang="he">Hashi</foreign></addName>
+                                    <addName type="nickname"><foreign xml:lang="de">Dolmetscher</foreign></addName>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1913-11-04" cert="high">4 Novembre 1913</date>
+                                    <placeName ref="TEI-ListPlace#Fiume">
+                                        <settlement type="municipality">Fiume</settlement>
+                                        <country key="HR">Croazia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="2002-04-24" cert="high">24 Aprile 2002</date>
+                                        <placeName ref="TEI-ListPlace#Milano">
+                                            <settlement type="municipality">Milano</settlement>
+                                            <country key="IT">Italia</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Liliana Picciotto-->
+                        <person xml:id="LPF" sameAs="https://viaf.org/viaf/68983409/#Picciotto_Fargion,_Liliana">  
+                                
+                                <persName role="storica">
+                                    <ref target="http://www.lilianapicciotto.it https://it.wikipedia.org/wiki/Liliana_Picciotto"/>
+                                    <foreName>Liliana</foreName>
+                                    <foreName>Graziella</foreName>
+                                    <surname type="combine">Picciotto Fargion</surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1947" cert="high">1947</date>
+                                    <placeName>
+                                        <settlement type="municipality">Il Cairo</settlement>
+                                        <country key="EG">Egitto</country>
+                                    </placeName>
+                                </birth>
+
+                        </person>
+
+                        <!--David Wachsberger-->
+                        <person xml:id="DavideW">   
+    
+                                <persName role="rabbino">
+                                    <ref target="https://www.rabbini.it/david-wachsberger/ http://digital-library.cdec.it/cdec-web/persone/detail/person-21375/wachsberger-davide.html"/>
+                                    <foreName>Arminio</foreName>
+                                    <surname><foreign xml:lang="dach">Wachsberger</foreign></surname>
+                                    <roleName type="religious">Rabbino capo della comunità ortodossa di Fiume</roleName>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1881-04-08" cert="high">8 Aprile 1881</date>
+                                    <placeName>
+                                        <settlement type="municipality">Gruszow</settlement>
+                                        <country key="PL">Polonia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1942-07" cert="medium">Luglio 1942</date>
+                                    <placeName ref="TEI-ListPlace#Fiume">
+                                        <settlement type="municipality">Fiume</settlement>
+                                        <country key="HR">Croazia</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Miriam Gellis-->
+                        <person xml:id="MiriamG">   
+    
+                                <persName>
+                                    <ref target="https://www.geni.com/people/Matilde-Miriam-Gellis-Wachsberger/6000000112460675917 http://digital-library.cdec.it/cdec-web/persone/detail/person-3999/gellis-matilde-miriam.html"/>
+                                    <foreName>Matilde</foreName>
+                                    <foreName>Miriam</foreName>
+                                    <surname><foreign>Gellis</foreign></surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1884-12-11" cert="high">11 Dicembre 1884</date>
+                                    <placeName>
+                                        <settlement type="municipality">Sopron</settlement>
+                                        <country key="HU">Ungheria</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1944-04-30" cert="high">40 Aprile 1944</date>
+                                    <note resp="#GB">Desumo dalle parole di Arminio Wachsberger e dalle fonti che sia morta ad Auschwitz</note>
+                                    <placeName>
+                                        <settlement type="municipality">Auschwitz</settlement>
+                                        <country key="PL">Polonia</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--ReginaPolacco-->
+                        <person xml:id="ReginaP">   
+    
+                                <persName>
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-6270/polacco-regina.html"/>
+                                    <foreName>Regina</foreName>
+                                    <surname>Polacco</surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1912-12-01" cert="high">1° Dicembre 1912</date>
+                                    <placeName> <!-- da inserire ref perché Venezia è citata -->
+                                        <settlement type="municipality">Venezia</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1944-04-30" cert="high">40 Aprile 1944</date>
+                                    <placeName>
+                                        <settlement type="municipality">Auschwitz</settlement>
+                                        <country key="PL">Polonia</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Olga Wiener-->
+                        <person xml:id="OlgaW">   
+    
+                                <persName>
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-107/wiener-olga.html"/>
+                                    <foreName>Olga</foreName>
+                                    <surname><foreign>Wiener</foreign></surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1923-09-15" cert="high">15 Settembre 1923</date>
+                                    <note resp="#GB">La data di nascita è stata gentilmente fornita dalle figlie</note>
+                                    <placeName>
+                                        <settlement type="municipality">Sighet</settlement>
+                                        <country key="RO">Romania</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="2015-05-17" cert="high">17 Maggio 2015</date>
+                                    <note resp="#GB">La data di morte è stata gentilmente fornita dalle figlie</note>
+                                    <placeName>
+                                        <settlement type="municipality">Milano</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Clara Wachsberger HERE-->
+                        <person xml:id="ClaraW">   
+    
+                                <persName>
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-107/wiener-olga.html"/>
+                                    <foreName>Olga</foreName>
+                                    <surname><foreign>Wiener</foreign></surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1923-09-15" cert="high">15 Settembre 1923</date>
+                                    <note resp="#GB">La data di nascita è stata gentilmente fornita dalle figlie</note>
+                                    <placeName>
+                                        <settlement type="municipality">Sighet</settlement>
+                                        <country key="RO">Romania</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="2015-05-17" cert="high">17 Maggio 2015</date>
+                                    <note resp="#GB">La data di morte è stata gentilmente fornita dalle figlie</note>
+                                    <placeName>
+                                        <settlement type="municipality">Milano</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+                        <!-- Lista delle relazioni -->
+                        <listRelation>
+                            <!-- Davide Wachsberger e Miriam Gellis erano sposati -->
+                            <relation name="spouse" mutual="#DavideW #MiriamG"/>
+                            <!-- Arminio Wachsberger e Regina Polacco erano sposati -->
+                            <relation name="spouse" mutual="#AW #ReginaP"/>
+                            <!-- Arminio Wachsberger e Olga Wiener erano sposati -->
+                            <relation name="spouse" mutual="#AW #OlgaW"/>
+                            <!-- Arminio Wachsberger era il figlio di Davide Wachsberger e Miriam Gellis-->
+                            <relation name="parent" active="#DavideW #MiriamG" passive="AW"/>
+					</listRelation>
+                </listPerson>
+            
+            </sourceDesc>
+
+        </fileDesc>
+
+    </teiHeader>
+</TEI>
