@@ -87,7 +87,7 @@
     
                                 <persName role="rabbino">
                                     <ref target="https://www.rabbini.it/david-wachsberger/ http://digital-library.cdec.it/cdec-web/persone/detail/person-21375/wachsberger-davide.html"/>
-                                    <foreName>Arminio</foreName>
+                                    <foreName>Davide</foreName>
                                     <surname><foreign xml:lang="dach">Wachsberger</foreign></surname>
                                     <roleName type="religious">Rabbino capo della comunità ortodossa di Fiume</roleName>
                                 </persName>
@@ -135,7 +135,7 @@
                                 <death>
                                     <date when="1944-04-30" cert="high">40 Aprile 1944</date>
                                     <note resp="#GB">Desumo dalle parole di Arminio Wachsberger e dalle fonti che sia morta ad Auschwitz</note>
-                                    <placeName>
+                                    <placeName ref="TEI-ListPlace#Au">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
@@ -164,7 +164,7 @@
 
                                 <death>
                                     <date when="1944-04-30" cert="high">40 Aprile 1944</date>
-                                    <placeName>
+                                    <placeName ref="TEI-ListPlace#Au">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
@@ -186,7 +186,7 @@
                                 <birth>
                                     <date when="1923-09-15" cert="high">15 Settembre 1923</date>
                                     <note resp="#GB">La data di nascita è stata gentilmente fornita dalle figlie</note>
-                                    <placeName>
+                                    <placeName ref="TEI-ListPlace#Sighet">
                                         <settlement type="municipality">Sighet</settlement>
                                         <country key="RO">Romania</country>
                                     </placeName>
@@ -195,7 +195,7 @@
                                 <death>
                                     <date when="2015-05-17" cert="high">17 Maggio 2015</date>
                                     <note resp="#GB">La data di morte è stata gentilmente fornita dalle figlie</note>
-                                    <placeName>
+                                    <placeName ref="TEI-ListPlace#Milano">
                                         <settlement type="municipality">Milano</settlement>
                                         <country key="IT">Italia</country>
                                     </placeName>
@@ -203,46 +203,197 @@
 
                         </person>
 
-                        <!--Clara Wachsberger HERE-->
+                        <!--Clara Wachsberger-->
                         <person xml:id="ClaraW">   
     
                                 <persName>
-                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-107/wiener-olga.html"/>
-                                    <foreName>Olga</foreName>
-                                    <surname><foreign>Wiener</foreign></surname>
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-8243/wachsberger-clara.html http://www.nomidellashoah.it/1scheda.asp?nome=Clara&cognome=Wachsberger&id=8243"/>
+                                    <foreName>Clara</foreName>
+                                    <surname><foreign xml:lang="dach">Wachsberger</foreign></surname>
                                 </persName>
 
                                 <sex>F</sex>
 
                                 <birth>
-                                    <date when="1923-09-15" cert="high">15 Settembre 1923</date>
-                                    <note resp="#GB">La data di nascita è stata gentilmente fornita dalle figlie</note>
-                                    <placeName>
-                                        <settlement type="municipality">Sighet</settlement>
-                                        <country key="RO">Romania</country>
+                                    <date when="1938-02-11" cert="high">11 Febbraio 1938</date>
+                                    <placeName ref="TEI-ListPlace#Roma">
+                                        <settlement type="municipality">Roma</settlement>
+                                        <country key="IT">Italia</country>
                                     </placeName>
                                 </birth>
 
                                 <death>
-                                    <date when="2015-05-17" cert="high">17 Maggio 2015</date>
-                                    <note resp="#GB">La data di morte è stata gentilmente fornita dalle figlie</note>
-                                    <placeName>
-                                        <settlement type="municipality">Milano</settlement>
-                                        <country key="IT">Italia</country>
+                                    <date when="1943-10-23" cert="high">23 Ottobre 1943</date>
+                                    <placeName ref="TEI-ListPlace#Au">
+                                        <settlement type="municipality">Auschwitz</settlement>
+                                        <country key="PL">Polonia</country>
                                     </placeName>
                                 </death>
 
                         </person>
+
+                        <!--Moisè Polacco-->
+                        <person xml:id="MoiseP">   
+    
+                                <persName role="rigattiere">
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-6266/polacco-moise.html"/>
+                                    <foreName>Moisé</foreName>
+                                    <surname>Polacco</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1875-12-11" cert="high">11 Dicembre 1875</date>
+                                    <placeName> <!-- ref Venezia -->
+                                        <settlement type="municipality">Venezia</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1943-10-23" cert="high">23 Ottobre 1943</date>
+                                    <placeName ref="TEI-ListPlace#Au">
+                                        <settlement type="municipality">Auschwitz</settlement>
+                                        <country key="PL">Polonia</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Carlotta Cesana-->
+                        <person xml:id="CarlottaP">   
+    
+                                <persName>
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-1394/cesana-carlotta.html"/>
+                                    <foreName>Carlotta</foreName>
+                                    <surname type="birth">Cesana</surname>
+                                    <surname type="married">Polacco</surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1876-04-11" cert="high">11 Arpile 1876</date>
+                                    <placeName> <!-- ref Venezia -->
+                                        <settlement type="municipality">Venezia</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1943-10-23" cert="high">23 Ottobre 1943</date>
+                                    <placeName ref="TEI-ListPlace#Au">
+                                        <settlement type="municipality">Auschwitz</settlement>
+                                        <country key="PL">Polonia</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Abraham Schreiber-->
+                        <person xml:id="Schreiber">   
+    
+                                <persName>
+                                    <ref target="https://books.google.it/books?id=uN1TDgAAQBAJ&pg=PT49&lpg=PT49&dq=Abraham+Schreiber+fiume&source=bl&ots=HrviHbo-dB&sig=ACfU3U3il67zd3zec3ncYrSXG44762XScQ&hl=it&sa=X&ved=2ahUKEwi-2uSizr31AhVF7rsIHc8UDecQ6AF6BAgCEAM#v=onepage&q=Abraham%20Schreiber%20fiume&f=false"/>
+                                    <foreName>Abraham</foreName>
+                                    <surname><foreign>Schreiber</foreign></surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1897" cert="high">1897</date>
+                                    <!-- trattare la bibliografia diversamente? -->
+                                    <note resp="#GB">Informazioni dal libro L'interprete di Auschwitz di Gabriele Rigano</note>
+                                    <placeName>
+                                        <settlement type="municipality">Eger</settlement>
+                                        <country key="HU">Ungheria</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1982" cert="high">1982</date>
+                                    <!-- trattare la bibliografia diversamente? -->
+                                    <note resp="#GB">Informazioni dal libro L'interprete di Auschwitz di Gabriele Rigano</note>
+                                    <placeName>
+                                        <settlement type="municipality">Gerusalemme</settlement>
+                                        <country key="IL">Israele</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Maria: sono sprovvista di informazioni-->
+                        <person xml:id="Maria">   
+    
+                                <persName> <!-- role = domestica ?-->
+                                    <ref target=""/>
+                                    <foreName>Maria</foreName>
+                                    <surname></surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="" cert=""></date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" cert=""></date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Benito Mussolini-->
+                        <person xml:id="Mussolini">   
+                            <persName role="politico">
+                                <ref target="https://it.wikipedia.org/wiki/Benito_Mussolini"/>
+                                <foreName>Benito</foreName>
+                                <foreName>Amilcare</foreName>
+                                <foreName>Andrea</foreName>
+                                <surname>Mussolini</surname>
+                                <addName type="nickname">il Duce</addName>
+                            </persName> <!-- sono mancanti tutte le onorificenze -->
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1883-07-29" cert="high">29 Luglio 1883</date>
+                                <placeName>
+                                    <settlement type="municipality">Dovia di predappio</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="1945-04-28" cert="high">28 aprile 1945</date>
+                                <placeName>
+                                    <settlement type="municipality">Giulino</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </death>
+                        </person>
+                        
                         <!-- Lista delle relazioni -->
                         <listRelation>
-                            <!-- Davide Wachsberger e Miriam Gellis erano sposati -->
                             <relation name="spouse" mutual="#DavideW #MiriamG"/>
-                            <!-- Arminio Wachsberger e Regina Polacco erano sposati -->
                             <relation name="spouse" mutual="#AW #ReginaP"/>
-                            <!-- Arminio Wachsberger e Olga Wiener erano sposati -->
                             <relation name="spouse" mutual="#AW #OlgaW"/>
-                            <!-- Arminio Wachsberger era il figlio di Davide Wachsberger e Miriam Gellis-->
-                            <relation name="parent" active="#DavideW #MiriamG" passive="AW"/>
+                            <relation name="parent" active="#DavideW #MiriamG" passive="#AW"/>
+                            <relation name="parent" active="#AW #ReginaP" passive="#ClaraW"/>
+                            <relation name="parent" active="#MoiseP #CarlottaP" passive="#ReginaP"/>
+                            <relation name="parents-in-law" active="#MoiseP #CarlottaP" passive="#AW"/>
+                            <relation name="parents-in-law" active="#DavideW #MiriamG" passive="#ReginaP"/>
+                            <relation name="employers" active="#AW #OlgaW" passive="#Maria" cert="low"/>
 					</listRelation>
                 </listPerson>
             
