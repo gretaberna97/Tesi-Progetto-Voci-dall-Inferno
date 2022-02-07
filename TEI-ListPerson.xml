@@ -30,7 +30,7 @@
                         <head>Lista persone</head>
 
                         <!--Arminio Wachsberger-->
-                        <person xml:id="AW" sameAs="https://viaf.org/viaf/160339198/#Wachsberger,_Arminio,_1913-2002">   
+                        <person xml:id="AW" sameAs="https://viaf.org/viaf/160339198">   
     
                                 <persName role="sopravvissuto">
                                     <ref target="https://it.wikipedia.org/wiki/Arminio_Wachsberger http://digital-library.cdec.it/cdec-web/persone/detail/person-8295/wachsberger-arminio.html"/>
@@ -61,7 +61,7 @@
                         </person>
 
                         <!--Liliana Picciotto-->
-                        <person xml:id="LPF" sameAs="https://viaf.org/viaf/68983409/#Picciotto_Fargion,_Liliana">  
+                        <person xml:id="LPF" sameAs="https://viaf.org/viaf/68983409">  
                                 
                                 <persName role="storica">
                                     <ref target="http://www.lilianapicciotto.it https://it.wikipedia.org/wiki/Liliana_Picciotto"/>
@@ -354,7 +354,7 @@
                         </person>
 
                         <!--Benito Mussolini-->
-                        <person xml:id="Mussolini">   
+                        <person xml:id="Mussolini" sameAs="https://viaf.org/viaf/90162262">   
                             <persName role="politico">
                                 <ref target="https://it.wikipedia.org/wiki/Benito_Mussolini"/>
                                 <foreName>Benito</foreName>
@@ -382,6 +382,177 @@
                                 </placeName>
                             </death>
                         </person>
+
+                        <!-- Vittorio Polacco -->
+                        <person xml:id="VittorioP">   
+                            <persName>
+                                <ref target=""/>
+                                <foreName>Vittorio</foreName>
+                                <surname>Polacco</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1941" cert="medium">1941</date>
+                                <note resp="#GB">Ricostruzione dalla testimonianza Arminio, il quale afferma che Vittorio Polacco nel 1943 aveva due anni</note>
+                                <placeName>
+                                    <settlement type=""></settlement>
+                                    <country key=""></country>
+                                </placeName>
+                            </birth>
+                        </person>
+
+                        <!--Elio Polacco-->
+                        <person xml:id="ElioP">   
+    
+                                <persName>
+                                    <ref target=""/>
+                                    <foreName>Elio</foreName>
+                                    <surname>Polacco</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="" cert=""></date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" cert=""></date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Assunta Fratini-->
+                        <person xml:id="AssuntaF">   
+    
+                                <persName>
+                                    <ref target=""/>
+                                    <foreName>Assunta</foreName>
+                                    <surname>Fratini</surname>
+                                    <!-- bibliografia da trattare diversamente -->
+                                    <note resp="#GB">Nome desunto dal libro "Sabato Nero" di Robert Katz. Arminio afferma che lei fosse la portinaia dell'edificio dove abitava il cognato ma in realtà era una inquilina</note>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="" cert=""></date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" cert=""></date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Settimio Sorani-->
+                        <person xml:id="SettimioS" sameAs="https://viaf.org/viaf/40737003">   
+    
+                                <persName role="presidente">
+                                    <ref target="https://it.wikipedia.org/wiki/Settimio_Sorani http://digital-library.cdec.it/cdec-web/persone/detail/person-it-cdec-eaccpf0001-016362/sorani-settimio.html"/>
+                                    <foreName>Settimio</foreName>
+                                    <surname>Sorani</surname>
+                                    <roleName type="office">Presidente della sezione romana della DELASEM</roleName>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1899-12-09" cert="high">9 Dicembre 1899</date>
+                                    <placeName ref="TEI-ListPlace#Roma">
+                                        <settlement type="municipality">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1982-07-29" cert="high">29 Luglio 1982</date>
+                                    <placeName>
+                                        <settlement type="municipality">Firenze</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Theodor Dannecker-->
+                        <person xml:id="Dannecker" sameAs="https://viaf.org/viaf/821715">   
+    
+                                <persName role="militare tedesco">
+                                    <ref target="https://it.wikipedia.org/wiki/Theodor_Dannecker https://www.treccani.it/enciclopedia/johann-heinrich-von-dannecker_%28Enciclopedia-Italiana%29/"/>
+                                    <foreName><foreign>Theodor</foreign></foreName>
+                                    <surname><foreign>Dannecker</foreign></surname>
+                                    <roleName type="military">Capitano, <foreign xml:lang="de">SS-Hauptsturmführer</foreign></roleName>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1913-03-27" cert="high">27 Marzo 1913</date>
+                                    <placeName>
+                                        <settlement type="municipality">Tubinga</settlement>
+                                        <country key="DE">Germania</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1945-12-10" cert="high">10 Dicembre 1945</date>
+                                    <placeName>
+                                        <settlement type="municipality">Bad Tolz</settlement>
+                                        <country key="DE">Germania</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Vincenzo Moranzoni-->
+                        <person xml:id="VincenzoM" sameAs="https://viaf.org/viaf/821715">   
+    
+                                <persName>
+                                    <ref target=""/>
+                                    <foreName>Vincenzo</foreName>
+                                    <surname>Moranzoni</surname>
+                                    <!--bibliografia-->
+                                    <note resp="#GB">Informazioni desunte dal libro "L'interprete di Auschwitz" di Gabriele Rigano</note>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="" cert=""></date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" cert=""></date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </death>
+
+                        </person>
                         
                         <!-- Lista delle relazioni -->
                         <listRelation>
@@ -391,9 +562,16 @@
                             <relation name="parent" active="#DavideW #MiriamG" passive="#AW"/>
                             <relation name="parent" active="#AW #ReginaP" passive="#ClaraW"/>
                             <relation name="parent" active="#MoiseP #CarlottaP" passive="#ReginaP"/>
-                            <relation name="parents-in-law" active="#MoiseP #CarlottaP" passive="#AW"/>
-                            <relation name="parents-in-law" active="#DavideW #MiriamG" passive="#ReginaP"/>
-                            <relation name="employers" active="#AW #OlgaW" passive="#Maria" cert="low"/>
+                            <relation name="parent-in-law" active="#MoiseP #CarlottaP" passive="#AW"/>
+                            <relation name="parent-in-law" active="#DavideW #MiriamG" passive="#ReginaP"/>
+                            <relation name="employer" active="#AW #OlgaW" passive="#Maria" cert="low"/>
+                            <relation name="uncle" active="#AW #ReginaP" passive="#VittorioP"/>
+                            <relation name="parent" active="#ElioP" passive="#VittorioP"/>
+                            <relation name="sibling" mutual="#ElioP #ReginaP"/>
+                            <relation name="brother-in-law" active="#ElioP" passive="#AW"/>
+                            <relation name="neighbour" mutual="#AssuntaF #ElioP" cert="medium"/>
+                            <relation name="neighbour" mutual="#AW #SettimioS"/>
+                            <relation name="business-partner" mutual="#AW #VincenzoM"/>
 					</listRelation>
                 </listPerson>
             

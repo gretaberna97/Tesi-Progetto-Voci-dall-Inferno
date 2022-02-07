@@ -87,6 +87,16 @@
                         <country key="GR">Grecia</country>
                     </place>
 
+                    <place xml:id="Russia">
+                        <placeName ref="https://www.geonames.org/2017370 https://www.treccani.it/enciclopedia/russia/">Russia</placeName>
+                        <country key="RU">Russia</country>
+                    </place>
+
+                    <place xml:id="DE">
+                        <placeName ref="https://www.geonames.org/2921044 https://www.treccani.it/enciclopedia/germania/">Germania</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
+
                 </listPlace>
             
             </sourceDesc>
