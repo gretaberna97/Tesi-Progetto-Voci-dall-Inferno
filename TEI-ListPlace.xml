@@ -97,6 +97,26 @@
                         <country key="DE">Germania</country>
                     </place>
 
+                    <place xml:id="Venezia">
+                        <placeName ref="https://www.geonames.org/3164603 https://www.treccani.it/enciclopedia/venezia/">Venezia</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="BEL">
+                        <placeName ref="https://www.geonames.org/2802361 https://www.treccani.it/enciclopedia/bruxelles/">Belgio</placeName>
+                        <country key="BE">Belgio</country>
+                    </place>
+
+                    <place xml:id="ISR">
+                        <placeName ref="https://www.geonames.org/294640 https://www.treccani.it/enciclopedia/israele/">Israele</placeName>
+                        <country key="IL">Israele</country>
+                    </place>
+
+                    <place xml:id="WA">
+                        <placeName ref="https://www.geonames.org/756135 https://www.treccani.it/enciclopedia/varsavia/">Varsavia</placeName>
+                        <country key="PL">Polonia</country>
+                    </place>
+                    
                 </listPlace>
             
             </sourceDesc>

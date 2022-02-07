@@ -156,7 +156,7 @@
 
                                 <birth>
                                     <date when="1912-12-01" cert="high">1° Dicembre 1912</date>
-                                    <placeName> <!-- da inserire ref perché Venezia è citata -->
+                                    <placeName ref="TEI-ListPlace#Venezia">
                                         <settlement type="municipality">Venezia</settlement>
                                         <country key="IT">Italia</country>
                                     </placeName>
@@ -245,7 +245,7 @@
 
                                 <birth>
                                     <date when="1875-12-11" cert="high">11 Dicembre 1875</date>
-                                    <placeName> <!-- ref Venezia -->
+                                    <placeName ref="TEI-ListPlace#Venezia">
                                         <settlement type="municipality">Venezia</settlement>
                                         <country key="IT">Italia</country>
                                     </placeName>
@@ -275,7 +275,7 @@
 
                                 <birth>
                                     <date when="1876-04-11" cert="high">11 Arpile 1876</date>
-                                    <placeName> <!-- ref Venezia -->
+                                    <placeName ref="TEI-ListPlace#Venezia">
                                         <settlement type="municipality">Venezia</settlement>
                                         <country key="IT">Italia</country>
                                     </placeName>
@@ -496,7 +496,7 @@
                         <!--Theodor Dannecker-->
                         <person xml:id="Dannecker" sameAs="https://viaf.org/viaf/821715">   
     
-                                <persName role="militare tedesco">
+                                <persName role="militare">
                                     <ref target="https://it.wikipedia.org/wiki/Theodor_Dannecker https://www.treccani.it/enciclopedia/johann-heinrich-von-dannecker_%28Enciclopedia-Italiana%29/"/>
                                     <foreName><foreign>Theodor</foreign></foreName>
                                     <surname><foreign>Dannecker</foreign></surname>
@@ -553,6 +553,167 @@
                                 </death>
 
                         </person>
+
+                        <!--Sig.ra Disegni: non ho informazioni a riguardo-->
+                        <person xml:id="DisegniSig">   
+    
+                                <persName>
+                                    <ref target=""/>
+                                    <foreName></foreName>
+                                    <surname>Disegni</surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="" cert=""></date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" cert=""></date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Nella Gesuà sive Salvadori: moglie di Angelo Dina con il quale non ha avuto due figlie, come ha detto Arminio, ma due figli -->
+                        <person xml:id="NellaGSS">   
+    
+                                <persName>
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-1075/gesua-sive-salvadori-nella.html "/>
+                                    <foreName>Nella</foreName>
+                                    <surname type="combine">Gesuà sive Salvadori</surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1912" cert="high">1912</date>
+                                    <placeName ref="TEI-ListPlace#Venezia">
+                                        <settlement type="municipality">Venezia</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1989" cert="high">1989</date>
+                                    <placeName ref="TEI-ListPlace#Venezia">
+                                        <settlement type="municipality">Venezia</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Augusto Capon-->
+                        <person xml:id="AugustoC" sameAs="http://viaf.org/viaf/65633489">   
+    
+                                <persName role="ammiraglio in pensione">
+                                    <ref target="https://it.wikipedia.org/wiki/Augusto_Capon http://digital-library.cdec.it/cdec-web/persone/detail/person-1344/capon-augusto.html"/>
+                                    <foreName>Augusto</foreName>
+                                    <surname><foreign>Capon</foreign></surname>
+                                    <addName type="nickname">Adriacus</addName>
+                                    <roleName type="military">Ammiraglio di squadra</roleName>
+                                    <roleName type="honorific">Croce al merito di guerra</roleName>
+                                    <roleName type="honorific">Cavaliere dell'Ordine della Corona d'Italia</roleName>
+                                    <roleName type="honorific">Ufficiale dell'Ordine della Corona d'Italia</roleName>
+                                    <roleName type="honorific">Medaglia commemorativa della guerra italo-turca</roleName>
+                                    <roleName type="honorific">Medaglia commemorativa della guerra italo-austriaca 1915 - 18</roleName>
+                                    <roleName type="honorific">Medaglia commemorativa dell'Unità d'Italia</roleName>
+                                    <roleName type="honorific">Medaglia commemorativa italiana della vittoria</roleName>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1872-11-03" cert="high">3 Novembre 1872</date>
+                                    <placeName ref="TEI-ListPlace#Venezia">
+                                        <settlement type="municipality">Venezia</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1943-10-23" cert="high">23 Ottobre 1943</date>
+                                    <placeName ref="TEI-ListPlace#Au">
+                                        <settlement type="municipality">Auschwitz</settlement>
+                                        <country key="PL">Polonia</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Alina Cavalieri-->
+                        <person xml:id="AlinaC" sameAs="http://viaf.org/viaf/307361731">   
+    
+                                <persName role="direttrice">
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-1137/cavalieri-alina.html http://www.nomidellashoah.it/1scheda.asp?nome=Alina&cognome=Cavalieri&id=1137"/>
+                                    <foreName>Alina</foreName>
+                                    <surname>Cavalieri</surname>
+                                    <roleName type="health">Direttrice della Croce Rossa fino al 1938</roleName>
+                                    <!--bibliografia-->
+                                    <note resp="#GB">Informazioni desunte dal libro "L'interprete di Auschwitz" di Gabriele Rigano</note>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1882-09-02" cert="high">2 Settembre 1882</date>
+                                    <placeName>
+                                        <settlement type="municipality">Como</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1943-10-23" cert="high">23 Ottobre 1943</date>
+                                    <placeName ref="TEI-ListPlace#Au" cert="medium">
+                                        <settlement type="municipality">Auschwitz</settlement>
+                                        <country key="PL">Polonia</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Sig.ra Rotschild-->
+                        <person xml:id="Rotschild">   
+    
+                                <persName>
+                                    <ref target=""/>
+                                    <foreName></foreName>
+                                    <surname>Rotschild</surname>
+                                    <!--bibliografia-->
+                                    <note resp="#GB">Informazioni desunte dal libro "L'interprete di Auschwitz" di Gabriele Rigano</note>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="" cert=""></date>
+                                    <note resp="#GB">Informazioni desunte dal libro "L'interprete di Auschwitz" di Gabriele Rigano: Arminio afferma che la donna avesse origini tedesche</note>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key="DE">Germania</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1943-10-18" cert="high">18 Ottobre 1943</date>
+                                    <placeName>
+                                        <note resp="#GB">Informazioni desunte dalla testimonianza di Arminio: la donna è morta durante il tragitto all'interno del convoglio diretto verso Auschwitz</note>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </death>
+
+                        </person>
                         
                         <!-- Lista delle relazioni -->
                         <listRelation>
@@ -572,6 +733,8 @@
                             <relation name="neighbour" mutual="#AssuntaF #ElioP" cert="medium"/>
                             <relation name="neighbour" mutual="#AW #SettimioS"/>
                             <relation name="business-partner" mutual="#AW #VincenzoM"/>
+                            <relation name="helper" active="#AW" passive="#DisegniSig #NellaGSS"/>
+                            <relation name="deportee-from-Rome" mutual="#AW #AugustoC #AlinaC #Rotschild"/>
 					</listRelation>
                 </listPerson>
             
