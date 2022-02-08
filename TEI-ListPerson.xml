@@ -930,6 +930,35 @@
 
                         </person>
 
+                        <!--Rudolf Vrba-->
+                        <person xml:id="RudolfV" sameAs="http://viaf.org/viaf/24623213">   
+    
+                                <persName role="scrittore">
+                                    <ref target="https://it.wikipedia.org/wiki/Rudolf_Vrba"/>
+                                    <foreName>Rudolf</foreName>
+                                    <surname>Vrba</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1924-09-11" cert="high">11 Settembre 1924</date>
+                                    <placeName>
+                                        <settlement type="municipality">Topoľčany</settlement>
+                                        <country key="SK">Slovacchia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="2006-03-27" cert="high">27 Marzo 2006</date>
+                                    <placeName>
+                                        <settlement type="municipality">Vancouver</settlement>
+                                        <country key="CA">Canada</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
                         <!-- Lista delle relazioni -->
                         <listRelation>
                             <relation name="spouse" mutual="#DavideW #MiriamG"/>
@@ -954,6 +983,7 @@
                             <relation name="deportee-Auschwitz" mutual="#AW #NathanG #GiancarloDS #LeonelloDS"/>
                             <relation name="parent" active="#LeonelloDS" passive="#GiancarloDS"/>
                             <relation name="survivor" mutual="#AW #SettimiaS"/>
+                            <relation name="writer" active="#RudolfV" mutual="#AW"/>
 					</listRelation>
                 </listPerson>
             

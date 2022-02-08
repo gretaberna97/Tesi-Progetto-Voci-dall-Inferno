@@ -136,6 +136,11 @@
                         <placeName ref="https://www.geonames.org/7701596 https://www.treccani.it/enciclopedia/birkenau/">Birkenau</placeName>
                         <country key="PL">Polonia</country>
                     </place>
+
+                    <place xml:id="Canada">
+                        <placeName ref="https://www.geonames.org/6251999 https://www.treccani.it/enciclopedia/canada/">Canada</placeName>
+                        <country key="CA">Canada</country>
+                    </place>
                 </listPlace>
             
             </sourceDesc>
