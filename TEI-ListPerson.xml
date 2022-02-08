@@ -36,7 +36,7 @@
                                     <ref target="https://it.wikipedia.org/wiki/Arminio_Wachsberger http://digital-library.cdec.it/cdec-web/persone/detail/person-8295/wachsberger-arminio.html"/>
                                     <foreName type="given">Arminio</foreName>
                                     <foreName type="religious"><foreign xml:lang="he">Meir Zvi</foreign></foreName>
-                                    <surname><foreign xml:lang="dach">Wachsberger</foreign></surname>
+                                    <surname>Wachsberger</surname>
                                     <addName type="nickname"><foreign xml:lang="he">Hashi</foreign></addName>
                                     <addName type="nickname"><foreign xml:lang="de">Dolmetscher</foreign></addName>
                                 </persName>
@@ -88,7 +88,7 @@
                                 <persName role="rabbino">
                                     <ref target="https://www.rabbini.it/david-wachsberger/ http://digital-library.cdec.it/cdec-web/persone/detail/person-21375/wachsberger-davide.html"/>
                                     <foreName>Davide</foreName>
-                                    <surname><foreign xml:lang="dach">Wachsberger</foreign></surname>
+                                    <surname>Wachsberger</surname>
                                     <roleName type="religious">Rabbino capo della comunità ortodossa di Fiume</roleName>
                                 </persName>
 
@@ -119,7 +119,7 @@
                                     <ref target="https://www.geni.com/people/Matilde-Miriam-Gellis-Wachsberger/6000000112460675917 http://digital-library.cdec.it/cdec-web/persone/detail/person-3999/gellis-matilde-miriam.html"/>
                                     <foreName>Matilde</foreName>
                                     <foreName>Miriam</foreName>
-                                    <surname><foreign>Gellis</foreign></surname>
+                                    <surname>Gellis</surname>
                                 </persName>
 
                                 <sex>F</sex>
@@ -178,7 +178,7 @@
                                 <persName>
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-107/wiener-olga.html"/>
                                     <foreName>Olga</foreName>
-                                    <surname><foreign>Wiener</foreign></surname>
+                                    <surname>Wiener</surname>
                                 </persName>
 
                                 <sex>F</sex>
@@ -209,7 +209,7 @@
                                 <persName>
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-8243/wachsberger-clara.html http://www.nomidellashoah.it/1scheda.asp?nome=Clara&cognome=Wachsberger&id=8243"/>
                                     <foreName>Clara</foreName>
-                                    <surname><foreign xml:lang="dach">Wachsberger</foreign></surname>
+                                    <surname>Wachsberger</surname>
                                 </persName>
 
                                 <sex>F</sex>
@@ -297,7 +297,7 @@
                                 <persName>
                                     <ref target="https://books.google.it/books?id=uN1TDgAAQBAJ&pg=PT49&lpg=PT49&dq=Abraham+Schreiber+fiume&source=bl&ots=HrviHbo-dB&sig=ACfU3U3il67zd3zec3ncYrSXG44762XScQ&hl=it&sa=X&ved=2ahUKEwi-2uSizr31AhVF7rsIHc8UDecQ6AF6BAgCEAM#v=onepage&q=Abraham%20Schreiber%20fiume&f=false"/>
                                     <foreName>Abraham</foreName>
-                                    <surname><foreign>Schreiber</foreign></surname>
+                                    <surname>Schreiber</surname>
                                 </persName>
 
                                 <sex>M</sex>
@@ -305,7 +305,7 @@
                                 <birth>
                                     <date when="1897" cert="high">1897</date>
                                     <!-- trattare la bibliografia diversamente? -->
-                                    <note resp="#GB">Informazioni dal libro L'interprete di Auschwitz di Gabriele Rigano</note>
+                                    <note resp="#GB">Informazioni dal libro "L'interprete di Auschwitz" di Gabriele Rigano</note>
                                     <placeName>
                                         <settlement type="municipality">Eger</settlement>
                                         <country key="HU">Ungheria</country>
@@ -315,7 +315,7 @@
                                 <death>
                                     <date when="1982" cert="high">1982</date>
                                     <!-- trattare la bibliografia diversamente? -->
-                                    <note resp="#GB">Informazioni dal libro L'interprete di Auschwitz di Gabriele Rigano</note>
+                                    <note resp="#GB">Informazioni dal libro "L'interprete di Auschwitz" di Gabriele Rigano</note>
                                     <placeName>
                                         <settlement type="municipality">Gerusalemme</settlement>
                                         <country key="IL">Israele</country>
@@ -498,9 +498,9 @@
     
                                 <persName role="militare">
                                     <ref target="https://it.wikipedia.org/wiki/Theodor_Dannecker https://www.treccani.it/enciclopedia/johann-heinrich-von-dannecker_%28Enciclopedia-Italiana%29/"/>
-                                    <foreName><foreign>Theodor</foreign></foreName>
-                                    <surname><foreign>Dannecker</foreign></surname>
-                                    <roleName type="military">Capitano, <foreign xml:lang="de">SS-Hauptsturmführer</foreign></roleName>
+                                    <foreName>Theodor</foreName>
+                                    <surname>Dannecker</surname>
+                                    <roleName type="military">Capitano <foreign xml:lang="de">SS-Hauptsturmführer</foreign></roleName>
                                 </persName>
 
                                 <sex>M</sex>
@@ -618,7 +618,7 @@
                                 <persName role="ammiraglio in pensione">
                                     <ref target="https://it.wikipedia.org/wiki/Augusto_Capon http://digital-library.cdec.it/cdec-web/persone/detail/person-1344/capon-augusto.html"/>
                                     <foreName>Augusto</foreName>
-                                    <surname><foreign>Capon</foreign></surname>
+                                    <surname>Capon</surname>
                                     <addName type="nickname">Adriacus</addName>
                                     <roleName type="military">Ammiraglio di squadra</roleName>
                                     <roleName type="honorific">Croce al merito di guerra</roleName>
@@ -714,7 +714,222 @@
                                 </death>
 
                         </person>
+
+                        <!--Aldo Muggia-->
+                        <person xml:id="AldoM">   
+    
+                                <persName role="ingegnere">
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-5627/muggia-aldo.html"/>
+                                    <foreName>Aldo</foreName>
+                                    <surname>Muggia</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1909-05-06" cert="high">6 Maggio 1909</date>
+                                    <placeName>
+                                        <settlement type="municipality">Cremona</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1943-11-30" cert="high">30 Novembre 1943</date>
+                                    <placeName ref="TEI-ListPlace#Au">
+                                        <settlement type="municipality">Auschwitz</settlement>
+                                        <country key="PL">Polonia</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Josef Mengele-->
+                        <person xml:id="Mengele" sameAs="http://viaf.org/viaf/20476549">   
+    
+                                <persName role="medico">
+                                    <ref target="https://it.wikipedia.org/wiki/Josef_Mengele https://www.treccani.it/enciclopedia/josef-mengele/"/>
+                                    <foreName>Josef</foreName>
+                                    <foreName>Rudolf</foreName>
+                                    <surname>Mengele</surname>
+                                    <roleName type="military">Capitano <foreign xml:lang="de">SS-Hauptsturmführer</foreign></roleName>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1911-03-16" cert="high">16 Marzo 1911</date>
+                                    <placeName>
+                                        <settlement type="municipality">Gunzburg</settlement>
+                                        <country key="DE">Germania</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1979-02-07" cert="medium">7 Febbraio 1979</date>
+                                    <placeName>
+                                        <settlement type="municipality">Bertioga</settlement>
+                                        <country key="BR">Brasile</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Rudolf Hoss-->
+                        <person xml:id="Hoss" sameAs="http://viaf.org/viaf/36959026">   
+    
+                                <persName role="militare">
+                                    <ref target="https://it.wikipedia.org/wiki/Rudolf_Höß https://www.tempi.it/storia-della-conversione-di-hoss-lanimale-di-auschwitz/"/>
+                                    <foreName>Rudolf</foreName>
+                                    <foreName>Franz</foreName>
+                                    <foreName>Ferdinand</foreName>
+                                    <surname>Höss</surname>
+                                    <roleName type="military"><foreign xml:lang="de">SS-Obersturmbannführer</foreign></roleName>
+                                    <addName type="nickname">Animale</addName>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1901-11-25" cert="high">25 Novembre 1901</date>
+                                    <placeName>
+                                        <settlement type="municipality">Baden-Baden</settlement>
+                                        <country key="DE">Germania</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1947-04-16" cert="high">16 Aprile 1947</date>
+                                    <placeName ref="TEI-ListPlace#Au">
+                                        <settlement type="municipality">Auschwitz</settlement>
+                                        <country key="PL">Polonia</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
                         
+                        <!--Nathan Gerovitsch: ho poche informazioni-->
+                        <person xml:id="NathanG">   
+    
+                                <persName>
+                                    <ref target=""/>
+                                    <foreName>Nathan</foreName>
+                                    <surname>Gerovitsch</surname>
+                                    <roleName><foreign xml:lang="de">Kapò</foreign> dei tatuatori ad Auschwitz</roleName>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="" cert=""></date>
+                                    <placeName>
+                                        <note resp="#GB">Desumo dalle parole di Arminio Wachsberger che l'uomo fosse un ebreo polacco</note>
+                                        <settlement type=""></settlement>
+                                        <country key="PL">Polonia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" cert=""></date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Giancarlo della Seta-->
+                        <person xml:id="GiancarloDS">   
+    
+                                <persName>
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-1945/della-seta-giovanni-carlo.html http://www.chieracostui.com/costui/docs/search/schedaoltre.asp?ID=16044"/>
+                                    <foreName>Giovanni</foreName>
+                                    <foreName>Carlo</foreName>
+                                    <surname type="combine">Della Seta</surname>
+                                    <addName type="nickname" cert="low">Giancarlo</addName>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1927-06-24" cert="high">24 Giugno 1927</date>
+                                    <placeName ref="TEI-ListPlace#Roma">
+                                        <settlement type="municipality">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1943-12-31" cert="medium">31 Dicembre 1943</date>
+                                    <placeName ref="TEI-ListPlace#WA" cert="medium">
+                                        <note resp="#GB">Desumo dalle parole di Arminio Wachsberger che l'uomo morì a Varsavia di differite</note>
+                                        <settlement type="municipality">Varsavia</settlement>
+                                        <country key="PL">Polonia</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Leonello della Seta-->
+                        <person xml:id="LeonelloDS">   
+    
+                                <persName>
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-1947/della-seta-leonello.html http://www.chieracostui.com/costui/docs/search/schedaoltre.asp?ID=16045"/>
+                                    <foreName>Leonello</foreName>
+                                    <surname type="combine">Della Seta</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1891-04-06" cert="high">6 Aprile 1891</date>
+                                    <placeName ref="TEI-ListPlace#Roma">
+                                        <settlement type="municipality">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1943-12-31" cert="medium">31 Dicembre 1943</date>
+                                    <placeName ref="TEI-ListPlace#WA" cert="medium">
+                                        <note resp="#GB">Desumo dalle parole di Arminio Wachsberger che l'uomo morì a Varsavia di tifo</note>
+                                        <settlement type="municipality">Varsavia</settlement>
+                                        <country key="PL">Polonia</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Settimia Spizzichino-->
+                        <person xml:id="SettimiaS" sameAs="http://viaf.org/viaf/29240711">   
+    
+                                <persName role="sopravvissuta">
+                                    <ref target="https://it.wikipedia.org/wiki/Settimia_Spizzichino http://digital-library.cdec.it/cdec-web/persone/detail/person-7695/spizzichino-settimia.html"/>
+                                    <foreName>Settimia</foreName>
+                                    <surname>Spizzichino</surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1921-04-15" cert="high">15 Aprile 1921</date>
+                                    <placeName ref="TEI-ListPlace#Roma">
+                                        <settlement type="municipality">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="2000-07-03" cert="high">3 Luglio 2000</date>
+                                    <placeName ref="TEI-ListPlace#Roma">
+                                        <settlement type="municipality">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
                         <!-- Lista delle relazioni -->
                         <listRelation>
                             <relation name="spouse" mutual="#DavideW #MiriamG"/>
@@ -734,7 +949,11 @@
                             <relation name="neighbour" mutual="#AW #SettimioS"/>
                             <relation name="business-partner" mutual="#AW #VincenzoM"/>
                             <relation name="helper" active="#AW" passive="#DisegniSig #NellaGSS"/>
-                            <relation name="deportee-from-Rome" mutual="#AW #AugustoC #AlinaC #Rotschild"/>
+                            <relation name="deportee-from-Rome" mutual="#AW #ReginaP #MoiseP #CarlottaP #ClaraW #AugustoC #AlinaC #Rotschild #AldoM"/>
+                            <relation name="oppressor" active="#Mengele #Hoss" passive="#AW"/>
+                            <relation name="deportee-Auschwitz" mutual="#AW #NathanG #GiancarloDS #LeonelloDS"/>
+                            <relation name="parent" active="#LeonelloDS" passive="#GiancarloDS"/>
+                            <relation name="survivor" mutual="#AW #SettimiaS"/>
 					</listRelation>
                 </listPerson>
             

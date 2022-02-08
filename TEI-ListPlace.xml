@@ -117,6 +117,25 @@
                         <country key="PL">Polonia</country>
                     </place>
                     
+                    <place xml:id="Padova">
+                        <placeName ref="https://www.geonames.org/3171728 https://www.treccani.it/enciclopedia/padova/">Padova</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="Furth">
+                        <placeName ref="https://www.geonames.org/2923544 https://www.treccani.it/enciclopedia/furth_%28Enciclopedia-Italiana%29/">Furth</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
+
+                    <place xml:id="BY">
+                        <placeName ref="https://www.geonames.org/2951839 https://www.treccani.it/enciclopedia/baviera/">Baviera</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
+
+                    <place xml:id="Birkenau">
+                        <placeName ref="https://www.geonames.org/7701596 https://www.treccani.it/enciclopedia/birkenau/">Birkenau</placeName>
+                        <country key="PL">Polonia</country>
+                    </place>
                 </listPlace>
             
             </sourceDesc>
