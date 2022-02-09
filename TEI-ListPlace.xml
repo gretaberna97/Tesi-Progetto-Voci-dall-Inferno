@@ -141,6 +141,24 @@
                         <placeName ref="https://www.geonames.org/6251999 https://www.treccani.it/enciclopedia/canada/">Canada</placeName>
                         <country key="CA">Canada</country>
                     </place>
+
+                    <place xml:id="YU"><!--Jugoslavia: stato non più esistente-->
+                        <placeName ref="https://www.geonames.org/7500737 https://www.treccani.it/enciclopedia/iugoslavia/">Jugoslavia</placeName>
+                        <country notAfter="2003">Jugoslavia</country>
+                        <note resp="#GB">Stato esistito tra il 1929 e il 2003</note>
+                    </place>
+
+                    <place xml:id="CS"><!--Cecoslovacchia: stato non più esistente-->
+                        <placeName ref="https://www.geonames.org/8505031 https://www.treccani.it/enciclopedia/cecoslovacchia/">Cecoslovacchia</placeName>
+                        <country notAfter="1992">Cecoslovacchia</country>
+                        <note resp="#GB">Stato esistito tra il 1918 e il 1992</note>
+                    </place>
+
+                    <place xml:id="IAU"><!--Impero Austro-Ungarico: stato non più esistente che non sono riuscita a trovare su geonames.org e su treccani.it-->
+                        <placeName ref="https://it.wikipedia.org/wiki/Impero_austro-ungarico">Austria-Ungheria</placeName>
+                        <country notAfter="1919">Austria-Ungheria</country>
+                        <note resp="#GB">Stato esistito tra il 1867 e il 1919</note>
+                    </place>
                 </listPlace>
             
             </sourceDesc>
