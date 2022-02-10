@@ -145,7 +145,6 @@
                     <list>
                             <item synch="#TR1">
                                 <persName ref="TEI-ListPerson.xml#AW">Arminio Wachsberger</persName> fornisce le sue generalità: era residente a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, nacque a <placeName ref="TEI-ListPlace.xml#Fiume">Fiume</placeName> il <date when="1913-11-04">4 novembre 1913</date>, ed era figlio del <persName ref="TEI-ListPerson.xml#DavideW">rabbino ortodosso, Davide</persName>, di origine polacca, e <persName ref="TEI-ListPerson.xml#MiriamG">Miriam Gellis</persName>, di origine ungherese. 
-                                
                                 In gioventù studiò per <date dur="P5Y" from="1928" to="1933" cert="medium" resp="#GB">5 anni</date> come studente al collegio rabbinico di <placeName ref="TEI-ListPlace.xml#Gorizia">Gorizia</placeName> dal <persName ref="TEI-ListPerson.xml#Schreiber">rabbino Schreiber</persName>, arrivato da <placeName ref="TEI-ListPlace.xml#Corfu">Corfù</placeName> nel <date when="1928">1928</date>, e successivamente venne trasferito per il servizio militare a <placeName ref="TEI-ListPlace.xml#Foggia">Foggia</placeName>, a <placeName ref="TEI-ListPlace.xml#Napoli">Napoli</placeName> e infine a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> dove si stabilì.
                                 
                                 Abitava a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> con la  <persName ref="TEI-ListPerson.xml#ReginaP">moglie Regina Polacco</persName>, la  <persName ref="TEI-ListPerson.xml#ClaraW">figlia Clara</persName> e i suoceri <persName ref="TEI-ListPerson.xml#MoiseP">Moisè<persName> e <persName ref="TEI-ListPerson.xml#CarlottaP">Carlotta Cesana<persName>. Era un giovane fascista e aveva la tessera del fascio fino al <date when="1938">1938</del>, quando vennero emanate le leggi razziali. Afferma che la popolazione nutriva un sentimento generale a favore degli ebrei: dopo esser stato licenziato da una azienda di prodotti fotografici divenne maggiordomo nella casa della ricca famiglia Coen, in <placeName type="street">via del Tritone</placeName>, salvo poi essere nuovamente licenziato perché la famiglia potè riprendere domestici non ebrei.<!--famiglia Coen-->
@@ -186,10 +185,52 @@
                                 <date dur="P6D" when="1943-10-22">Dopo sei giorni</date>, di <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time>, arrivarono alle porte di <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName>. <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> sollevò <rs ref="TEI-ListPerson.xml#ClaraW" resp="#GB">la figlia</rs> all'interno del vagone per permetterle di vedere al di fuori ma una <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> le lanciò un sasso. 
                                 Aprirono i vagoni, circa una ventina, direttamente il <date when="1943-10-23">giorno successivo</date>: i sonderkommando li aiutarono a scendere senza permetterli di recuperare le loro valige. Alla stazione erano presenti sia il <persName ref="TEI-ListPerson.xml#Mengele">dottor Mengele</persName> che il  <persName ref="TEI-ListPerson.xml#Hoss">comandante Hoss</persName>.
                                 <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> fece di nuovo da interprete: erano arrivati in un campo di lavoro e solo gli uomini avrebbero lavorato. Avvenne dunque la prima selezione e successivamente la seconda: chi fosse stanco da non poter fare <measure><num>10</num> <unit>km</unit></measure> a piedi si sarebbe potuto aggiungere alle persone sul camion. Così dei 300 ne rimasero solo 200. 
-                                Arrivarono all'entrata di <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName> solo dopo <time dur="P10M">dieci minuti</time>.
+
+                                Arrivarono all'entrata di <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName> solo dopo <time dur="P10M">dieci minuti</time> per poi essere avviati in una baracca dove si sarebbero dovuti spogliare. In quell'occasione <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> regalò il paio di scarpe di camoscio che aveva ai piedi ad un sergente della <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice>, mnetre riuscì a trattenere la cintura di cuoio e gli occhiali con il relativo astuccio. Mentre gli altri prigionieri nascosero i pochi beni che ancora avevano nelle piastrelle della baracca, <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> nascose due anelli nella fodera degli occhiali mascherandoli di fronte alla perquisizione successiva con della carta.
+
+                                Ai prigionieri vennero fatti tagliare i capelli e i peli del corpo, vennero tatuati con una macchinetta a orologeria e, dopo <time dur="P1H">un'ora circa</time> dal loro arrivo, venne fatta loro una doccia collettiva con dell'acqua calda ma senza sapone: <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> lasciò l'astuccio con gli anelli al <foreign xml:lang="de">kapò</foreign> dei tatuatori, <persName ref="TEI-ListPerson.xml#NathanG">Nathan Gerovitsch</persName>, che successivamente glielo restituì. Andarono in un'altra baracca dove altri prigionieri, con i vestiti zebrati e con l'aria più sana, gli dettero degli indumenti vari che non calzavano precisamente: <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> seppe in seguito che quelli erano gli indumenti dei gassificati.
+
+                                Nel campo di <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName> c'era un campo maschile ed uno femminile divisi: gli uomini non videro più le 50 donne sopravvissute alla selezione. Molti ebrei romani desideravano conoscere la sorte della propria famiglia: alcuni prigionieri precedenti mentirono dicendo loro che le famiglie perdute sostavano nei campi in lontananza, quello femminile e quello degli zingari; altri prigionieri raccontarono la verità a cui nessuno inizialmente volle credere. <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> seppe che le persone selezionate furono gassificate la <date when="1943-10-23" resp="#GB"><time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> del loro arrivo</date> traducendo le parole di due medici ebrei polacchi che parlavano in <lang>yiddish</lang>.
+
+                                Vennero portati alla <place type="area">baracca 13 del <term ref="#quarantena"><foreign xml:lang="de">quarantänelager</foreign></term></place>, il campo della quarantena. All'interno c'erano letti a castello di legno con un po' di paglia e da 4 piani sui quali si corivano 4 persone per piano. La <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> era spiacevole perché se una persona trascinava la coperto gli altri rimanevano scoperti.
+                                Le baracche potevano contenere dalle 500 alle 2000 persone: nella <place type="sub-area">baracca 13 </place> rimasero compatti i 150 uomini romani.
                             </item>
 
-                            <!-- sono a quando dice "non mi ricordo"-->
+                            <item synch="#TR6">
+                                Nei <date notBefore="1943-10-23">giorni successivi</date> i prigionieri rimasero in baracca oppure li mandarono fuori, all'interno di <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName>, tutti insieme, in attesa di essere trasferiti in altri campi di lavoro: la baracca veniva svuotata. 
+
+                                Il <date when="1943-11-04">4 novembre 1943</date> uscirono da <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName> dirigendosi nei boschi vicini per recuperare del legname per il riscaldamento: <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> vide la <soCalled>casa bianca</soCalled> dove, come gli raccontò un vecchio prigionero, i nazisti fecero le prime prove di gassificazione con dei russi.
+
+                                La baracca era riscaldata grazie ad un lavoro in muratura composto da due stufe ma il freddo rimaneva molto intenso perchè la baracca era enorme e il calore non riusciva a scaldarla interamente. 
+
+                                All'interno della baracca c'era il <term ref="#blockaltester"><foreing xml:lang="de">blockaltester</foreign></term> (il prigioniero più anziano della baracca), lo <term ref="#schreiber"><foreing xml:lang="de">schreiber</foreign></term> (lo scrivano) e poi degli aiutanti. Il capobaracca provvedeva, con l'aiuto dei due aiutanti, a distribuire il pane e il caffè. La minestra, invece, gli veniva servita fuori, in un recipiente. Lo scrivano assegnava i compiti ai prigionieri chiamandoli per numero oppure provvedeva per il ritiro delle razioni di pane, di marmellata e di margarina che davano.
+
+                                I prigionieri subirono le sevizie maggiormente da parte dei <foreign xml:lang="de">kapò</foreign> mentre le <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> supervisionavano: lo facevano per salvare loro stessi e perché dovevano velocizzare i prigionieri prima dell'appello fatto da una <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice>.
+
+                                Potevano lavarsi solo nelle latrine e mai interi, i vestiti non venivano cambiati e quindi andavano nei letti a castello con i vestiti laceri e sporchi ogni giorno. Quei vestiti, non zebrati, avevano cucito sulla schiena della giacca un settore a forme di croce con un pezzetto di stoffa zebrato per riconoscere i possibili fuggitivi: alcuni avevano i vestiti zebrati, altri no. Indossavano anche un copricapo sempre della stessa stoffa. Sul lato sinistro della giacca c'era una <term>stella di David</term> formata da due triangoli, uno rosso e uno giallo, e con sopra scritte le iniziali della nazionalità del prigioniero. Non vi era stato cucito sul vestito il numero di matricola. 
+
+                                Il numero di matricola di <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> era 158.639.
+
+                                Per quanto riguarda il cibo la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> veniva servito una specie di <soCalled>tè caldo</soCalled> che veniva cucinato nella cucina centrale di <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> e poi distribuito nelle varie baracche. A <time from="12:00:00" to="14:00:00" resp="#GB" cert="medium">pranzo</time> c'era una zuppa di rape, quelle destinate al bestiame, e la <time from="18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time> di nuovo il tè, del pane da dividere in 5 parti, un cucchiaio di marmellata e un cucchiaio di margarina. I prigionieri avevano talmente fame che alcuni mangiavano subito il pane per paura che qualcuno durante la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> lo rubasse e altri invece lo rubarono ai propri familiari.
+
+                                Alle <time when="04:00:00">4 di mattina</time> c'era la sveglia, alle <time when="04:30:00">4 e mezza</time> l'appello e verso le <time when="05:00:00">5</time>, <time when="05:30:00">5 e mezza</time>, la formazione dei comandi di lavoro che uscivano dal campo per andare nelle fabbriche. Il rientro avveniva tra le <time from="17:00:00" to="18:00:00">17 e le 18</time> e veniva fatto un nuovo appello.
+
+                                L'appello veniva fatto davanti alla baracca e dovevano parteciparvi tutti anche moribondi e i morti. All'inizio veniva fatto dal capo baracca e successivamente dal <term ref="#rapportfuhrer"><foreing xml:lang="de">rapportfuhrer</foreign></term> che verificava se i dati dati dal capo baracca corrispondevano: se ciò non accadeva dovevano ricominciare la conta. L'appello durava molto: terminava velocemente in giornate limpide ma non in quelle nebbiose dove la probabilità che i prigionieri tentassero la fuga era maggiore. Dovevano stare in piedi stremati fino all'uscita dal campo della <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice>. Altro motivo per cui l'appello durava molto: c'era un solo controllore per ogni campo. In caso di fuga c'era un allarme, tutto si bloccava fino alla ripresa del prigioniero o della constatazione che non era più possibile riprenderlo.
+                                Le probabilità di fuga erano maggiori fuori dal campo: <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> ricorda <persName ref="TEI-ListPerson.xml#RudolfV">Vrba</persName>, prigionero fuggito da <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName>.
+
+                                Nella baracca l'illuminazione era appena sufficiente, durante la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> ognuno doveva rimanere nel proprio giaciglio: tra le <time from="22:00:00" to="23:00:00">22 e le 23</time> tutti dovevano essere nei propri giacigli con una coperta per 5.
+
+                               <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> ricorda la sadica sevizia fatta dalle <choice><abbr>SS</abbr><expan resp="#GB">Schutzstaffel</expan></choice> nell'obbligare i prigionieri di tutta una baracca a fare la cosiddetta <soCalled>ginnastica</soCalled> nel fango alto di <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName>: li distruggeva, alcuni morirono e altri venivano puniti perché non seguivano immediatamente gli ordini. <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> ricorda un altro uomo che morì dopo la disinfezione a causa del freddo: dovettero portare il cadavere fino alla porta del campo dove lo avrebbero trasportato con i camion al crematorio. Altra violenza la subirono dei campi di lavoro interni da parte dei <foreign xml:lang="de">kapò</foreign>.
+                               C'erano visite di ispezione che avveniva quotidianamente.
+                            </item>
+
+                            <item synch="#TR7">
+                                Il <date when="1943-10-24">giorno dopo l'arrivo degli ebrei romani al campo</date>, <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName> iniziò a parlare con <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> in quanto era particolarmente interessato a conoscere la situazione sanitaria a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> e agli ebrei romani in generale. <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> si mostrò informato e gli raccontò ciò che avvenne il <date when="1943-07-25" resp="#GB" cert="high">25 luglio</date>. Proseguirono il colloquio la <time from="18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time>: <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> voleva spaventarlo.
+                                Si incontrarono altre volte, ma una <time from="18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time> in particolare <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> ebbe il coraggio di chiedere a <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName> dove fosse la sua famiglia. <rs ref="TEI-ListPerson.xml#Mengele">Lui</rs> rispose dicendo che erano morti perché avevano bisogno di persone in grado di lavorare. Per convincerlo delle sue parole <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName> gli mostrò la sua scheda e successivamente si mise a cercare nell'archivio quella della <rs ref="TEI-ListPerson.xml#ReginaP" resp="#GB">moglie</rs> e della <rs ref="TEI-ListPerson.xml#ClaraW" resp="#GB">la figlia</rs>: non le trovò e questo dimostrava che non gli era stato assegnato un numero di matricola, che non erano mai entrate al campo. <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> a quel punto chiese perché avevano ucciso anche persone adatte al lavoro solo perché avevano accettato il trasporto tramite il camion: <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName> rispose dicendo che costoro si erano dimostrati pigri.
+
+                                Secondo <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> questo sarebbe potuto essere un altro capo di imputazione contro <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName>: era andato oltre le disposizioni naziste.
+                            </item>
+
                             <item>
                                 Con altri prigionieri Arminio Wachsberger fu mandato a Varsavia per recuperare il legname e i mattoni dalle rovine del ghetto.  Con l'avvicinarsi dei russi a Varsavia il campo fu evacuato quasi completamente; furono fatti marciare per 70 km fino a Kutno, quindi condotti in carro bestiame a Dachau; con lui c'erano Isacco Sermoneta e Lello Di Segni. Arminio Wachsberger fu mandato al Waldlager V; lavorò alla fabbrica sotterranea di V1 e V2. Fece da interprete al gruppo di prigionieri italiani dell'organizzazione TODT. In seguito furono evacuati sui carri bestiame attraverso le alpi bavaresi. Furono liberati a Tutzing.  Oltre alla moglie, alla figlia ed ai suoceri, Arminio Wacshberger perse nella Shoah anche la madre, deportata da Trieste, due sorelle e altri parenti deportati dall'Europa centrale.
                             </item>
@@ -207,715 +248,717 @@
 <standOff>
         <!--Timeline regesto -->
         <timeline xml:id="TL1">
-            <when xml:id="TR1" absolute="0:00:22"/> 
-            <when xml:id="TR2" absolute="0:13:13"/> 
-            <when xml:id="TR3" absolute="0:18:33"/> 
-            <when xml:id="TR4" absolute="0:33:30"/> 
-            <when xml:id="TR5" absolute="0:43:38"/>
+            <when xml:id="TR1" absolute="0:00:22"/> <!--generalità di Arminio e biografia-->
+            <when xml:id="TR2" absolute="0:13:13"/> <!--racconto 16 ottobre 1943-->
+            <when xml:id="TR3" absolute="0:18:33"/> <!--racconto sosta al collegio militare: 17-18 ottobre 1943-->
+            <when xml:id="TR4" absolute="0:33:30"/> <!--racconto viaggio in treno fino ad Aushwitz-->
+            <when xml:id="TR5" absolute="0:43:38"/> <!--racconto dell'arrivo a Birkenau dalle selezioni all'assegnamento della baracca-->
+            <when xml:id="TR6" absolute="01:06:19"/> <!--racconto quotidianeità nel campo-->
+            <when xml:id="TR7" absolute="01:29:58"/> <!--racconto incontro con Mengele-->
         </timeline>
 
 
         <!--Timeline body momenti di sovrapposizione dei due parlanti (e le interruzioni)-->
         <timeline xml:id="TL2" unit="s"> 
 
-            <when xml:id="TT01" absolute="1:27" synch="#lpf-1"/> <!--synch punta all'id dell'ancora-->
+            <when xml:id="TT01" absolute="00:01:27" synch="#lpf-1"/> <!--synch punta all'id dell'ancora-->
             <when xml:id="TT02" since="#TT01" interval="1"/>
 
-            <when xml:id="TT03" absolute="2:14" synch="#lpf-3"/> 
+            <when xml:id="TT03" absolute="00:02:14" synch="#lpf-3"/> 
             <when xml:id="TT04" since="#TT03" interval="1"/>
 
-            <when xml:id="TT05" absolute="2:30" synch="#lpf-5"/> 
+            <when xml:id="TT05" absolute="00:02:30" synch="#lpf-5"/> 
             <when xml:id="TT06" since="#TT05" interval="1"/>
 
-            <when xml:id="TT07" absolute="2:34" synch="#lpf-7"/> 
-            <when xml:id="TT08" since="#TT07" interval="1"/>
+            <when xml:id="TT07" absolute="00:02:34" synch="#lpf-7"/> 
+            <when xml:id="TT08" since="#TT07" interval="2"/>
 
-            <when xml:id="TT09" absolute="3:17" synch="#lpf-9"/> 
+            <when xml:id="TT09" absolute="00:03:17" synch="#lpf-9"/> 
             <when xml:id="TT10" since="#TT09" interval="1"/>
 
-            <when xml:id="TT11" absolute="3:20" synch="#arm-9"/> 
+            <when xml:id="TT11" absolute="00:03:20" synch="#arm-9"/> 
             <when xml:id="TT12" since="#TT11" interval="1"/>
 
-            <when xml:id="TT13" absolute="4:22" synch="#lpf-13"/> 
+            <when xml:id="TT13" absolute="00:04:22" synch="#lpf-13"/> 
             <when xml:id="TT14" since="#TT13" interval="1"/>
 
-            <when xml:id="TT15" absolute="4:47" synch="#lpf-15"/> 
+            <when xml:id="TT15" absolute="00:04:47" synch="#lpf-15"/> 
             <when xml:id="TT16" since="#TT15" interval="1"/>
 
-            <when xml:id="TT17" absolute="5:11" synch="#lpf-17"/> 
+            <when xml:id="TT17" absolute="00:05:11" synch="#lpf-17"/> 
             <when xml:id="TT18" since="#TT17" interval="1"/>
 
-            <when xml:id="TT19" absolute="6:21" synch="#lpf-19"/> 
+            <when xml:id="TT19" absolute="00:06:21" synch="#lpf-19"/> 
             <when xml:id="TT20" since="#TT19" interval="1"/>
 
-            <when xml:id="TT21" absolute="6:22" synch="#lpf-21"/> 
+            <when xml:id="TT21" absolute="00:06:22" synch="#lpf-21"/> 
             <when xml:id="TT22" since="#TT21" interval="1"/>
 
-            <when xml:id="TT23" absolute="6:23" synch="#arm-23"/> 
-            <when xml:id="TT24" since="#TT23" interval="1"/>
+            <when xml:id="TT23" absolute="00:06:23" synch="#arm-23"/> 
+            <when xml:id="TT24" since="#TT23" interval="1"/> 
 
-            <when xml:id="TT25" absolute="6:30" synch="#lpf-25"/> 
+            <when xml:id="TT25" absolute="00:06:30" synch="#lpf-25"/> 
             <when xml:id="TT26" since="#TT25" interval="1"/>
 
-            <when xml:id="TT27" absolute="8:07" synch="#lpf-27"/> 
-            <when xml:id="TT28" since="#TT27" interval="1"/>
+            <when xml:id="TT27" absolute="00:08:07" synch="#lpf-27"/> 
+            <when xml:id="TT28" since="#TT27" interval="2"/>
 
-            <when xml:id="TT29" absolute="8:43" synch="#lpf-29"/> 
-            <when xml:id="TT30" since="#TT29" interval="1"/>
+            <when xml:id="TT29" absolute="00:08:43" synch="#lpf-29"/> 
+            <when xml:id="TT30" since="#TT29" interval="2"/>
 
-            <when xml:id="TT31" absolute="9:02" synch="#lpf-31"/> 
+            <when xml:id="TT31" absolute="00:09:02" synch="#lpf-31"/> 
             <when xml:id="TT32" since="#TT31" interval="1"/>
 
-            <when xml:id="TT33" absolute="9:12" synch="#lpf-33"/> 
+            <when xml:id="TT33" absolute="00:09:12" synch="#lpf-33"/> 
             <when xml:id="TT34" since="#TT33" interval="1"/>
 
-            <when xml:id="TT35" absolute="10:56" synch="#lpf-35"/> 
+            <when xml:id="TT35" absolute="00:10:56" synch="#lpf-35"/> 
             <when xml:id="TT36" since="#TT35" interval="1"/>
 
-            <when xml:id="TT37" absolute="11:39" synch="#lpf-37"/> 
-            <when xml:id="TT38" since="#TT37" interval="1"/>
+            <when xml:id="TT37" absolute="00:11:39" synch="#lpf-37"/> 
+            <when xml:id="TT38" since="#TT37" interval="2"/>
 
-            <when xml:id="TT39" absolute="11:59" synch="#lpf-39"/> 
-            <when xml:id="TT40" since="#TT39" interval="1"/>
+            <when xml:id="TT39" absolute="00:11:59" synch="#lpf-39"/> 
+            <when xml:id="TT40" since="#TT39" interval="3"/>
 
-            <when xml:id="TT41" absolute="12:30" synch="#lpf-41"/> 
+            <when xml:id="TT41" absolute="00:12:30" synch="#lpf-41"/> 
             <when xml:id="TT42" since="#TT41" interval="1"/>
 
-            <when xml:id="TT43" absolute="13:00" synch="#lpf-43"/> 
+            <when xml:id="TT43" absolute="00:13:00" synch="#lpf-43"/> 
             <when xml:id="TT44" since="#TT43" interval="1"/>
 
-            <when xml:id="TT45" absolute="13:02" synch="#lpf-45"/> 
+            <when xml:id="TT45" absolute="00:13:02" synch="#lpf-45"/> 
             <when xml:id="TT46" since="#TT45" interval="1"/>
 
-            <when xml:id="TT47" absolute="15:43" synch="#arm-47"/> 
+            <when xml:id="TT47" absolute="00:15:43" synch="#arm-47"/> 
             <when xml:id="TT48" since="#TT47" interval="1"/>
 
-            <when xml:id="TT49" absolute="16:21" synch="#lpf-49"/> 
+            <when xml:id="TT49" absolute="00:16:21" synch="#lpf-49"/> 
             <when xml:id="TT50" since="#TT49" interval="1"/>
 
-            <when xml:id="TT51" absolute="17:43" synch="#arm-51"/> 
+            <when xml:id="TT51" absolute="00:17:43" synch="#arm-51"/> 
             <when xml:id="TT52" since="#TT51" interval="1"/>
 
-            <when xml:id="TT53" absolute="17:52" synch="#lpf-53"/> 
+            <when xml:id="TT53" absolute="00:17:52" synch="#lpf-53"/> 
             <when xml:id="TT54" since="#TT53" interval="1"/>
 
-            <when xml:id="TT55" absolute="17:55" synch="#arm-55"/> 
+            <when xml:id="TT55" absolute="00:17:55" synch="#arm-55"/> 
             <when xml:id="TT56" since="#TT55" interval="1"/>
 
-            <when xml:id="TT57" absolute="18:01" synch="#lpf-57"/> 
+            <when xml:id="TT57" absolute="00:18:01" synch="#lpf-57"/> 
             <when xml:id="TT58" since="#TT57" interval="1"/>
 
-            <when xml:id="TT59" absolute="18:11" synch="#lpf-59"/> 
+            <when xml:id="TT59" absolute="00:18:11" synch="#lpf-59"/> 
             <when xml:id="TT60" since="#TT59" interval="1"/>
 
-            <when xml:id="TT61" absolute="18:19" synch="#arm-61"/> 
+            <when xml:id="TT61" absolute="00:18:19" synch="#arm-61"/> 
             <when xml:id="TT62" since="#TT61" interval="1"/>
 
-            <when xml:id="TT63" absolute="18:22" synch="#arm-63"/> 
+            <when xml:id="TT63" absolute="00:18:22" synch="#arm-63"/> 
             <when xml:id="TT64" since="#TT63" interval="1"/>
 
-            <when xml:id="TT65" absolute="18:32" synch="#lpf-65"/> 
+            <when xml:id="TT65" absolute="00:18:32" synch="#lpf-65"/> 
             <when xml:id="TT66" since="#TT65" interval="2"/>
 
-            <when xml:id="TT67" absolute="19:52" synch="#arm-67"/> 
+            <when xml:id="TT67" absolute="00:19:52" synch="#arm-67"/> 
             <when xml:id="TT68" since="#TT67" interval="1"/>
 
-            <when xml:id="TT69" absolute="19:54" synch="#arm-69"/> 
+            <when xml:id="TT69" absolute="00:19:54" synch="#arm-69"/> 
             <when xml:id="TT70" since="#TT69" interval="1"/>
 
-            <when xml:id="TT71" absolute="20:12" synch="#lpf-71"/> 
-            <when xml:id="TT72" since="#TT71" interval="1"/>
+            <when xml:id="TT71" absolute="00:20:12" synch="#lpf-71"/> 
+            <when xml:id="TT72" since="#TT71" interval="2"/>
 
-            <when xml:id="TT73" absolute="20:15" synch="#lpf-73"/> 
+            <when xml:id="TT73" absolute="00:20:15" synch="#lpf-73"/> 
             <when xml:id="TT74" since="#TT73" interval="2"/>
 
-            <when xml:id="TT75" absolute="20:28" synch="#lpf-75"/> 
+            <when xml:id="TT75" absolute="00:20:28" synch="#lpf-75"/> 
             <when xml:id="TT76" since="#TT75" interval="1"/>
 
-            <when xml:id="TT77" absolute="20:32" synch="#lpf-77"/> 
+            <when xml:id="TT77" absolute="00:20:32" synch="#lpf-77"/> 
             <when xml:id="TT78" since="#TT77" interval="1"/>
 
-            <when xml:id="TT79" absolute="20:45" synch="#lpf-79"/> 
+            <when xml:id="TT79" absolute="00:20:45" synch="#lpf-79"/> 
             <when xml:id="TT80" since="#TT79" interval="1"/>
 
-            <when xml:id="TT81" absolute="20:47" synch="#lpf-81"/> 
+            <when xml:id="TT81" absolute="00:20:47" synch="#lpf-81"/> 
             <when xml:id="TT82" since="#TT81" interval="1"/>
 
-            <when xml:id="TT83" absolute="20:58" synch="#arm-83"/> 
-            <when xml:id="TT84" since="#TT83" interval="1"/>
+            <when xml:id="TT83" absolute="00:20:58" synch="#arm-83"/> 
+            <when xml:id="TT84" since="#TT83" interval="2"/>
 
-            <when xml:id="TT85" absolute="23:31" synch="#arm-85"/> 
+            <when xml:id="TT85" absolute="00:23:31" synch="#arm-85"/> 
             <when xml:id="TT86" since="#TT85" interval="1"/>
 
-            <when xml:id="TT87" absolute="23:58" synch="#lpf-87"/> 
-            <when xml:id="TT88" since="#TT87" interval="1"/>
+            <when xml:id="TT87" absolute="00:23:58" synch="#lpf-87"/> 
+            <when xml:id="TT88" since="#TT87" interval="2"/>
 
-            <when xml:id="TT89" absolute="23:58" synch="#lpf-89"/> 
-            <when xml:id="TT90" since="#TT89" interval="1"/>
+            <when xml:id="TT89" absolute="00:24:58" synch="#lpf-89"/> 
+            <when xml:id="TT90" since="#TT89" interval="2"/>
 
-            <when xml:id="TT91" absolute="24:59" synch="#lpf-91"/> 
+            <when xml:id="TT91" absolute="00:25:03" synch="#lpf-91"/> 
             <when xml:id="TT92" since="#TT91" interval="1"/>
 
-            <when xml:id="TT93" absolute="25:18" synch="#arm-93"/> 
+            <when xml:id="TT93" absolute="00:25:18" synch="#arm-93"/> 
             <when xml:id="TT94" since="#TT93" interval="1"/>
     
-            <when xml:id="TT95" absolute="25:19" synch="#lpf-95"/> 
+            <when xml:id="TT95" absolute="00:25:19" synch="#lpf-95"/> 
             <when xml:id="TT96" since="#TT95" interval="1"/>
 
-            <when xml:id="TT97" absolute="26:47" synch="#arm-97"/> 
+            <when xml:id="TT97" absolute="00:26:47" synch="#arm-97"/> 
             <when xml:id="TT98" since="#TT97" interval="1"/>
 
-            <when xml:id="TT99" absolute="27:30" synch="#lpf-99"/> 
+            <when xml:id="TT99" absolute="00:27:30" synch="#lpf-99"/> 
             <when xml:id="TT100" since="#TT99" interval="1"/>
 
-            <when xml:id="TT101" absolute="28:10" synch="#lpf-101"/> 
+            <when xml:id="TT101" absolute="00:28:10" synch="#lpf-101"/> 
             <when xml:id="TT102" since="#TT101" interval="1"/>
 
-            <when xml:id="TT103" absolute="28:57" synch="#arm-103"/> 
+            <when xml:id="TT103" absolute="00:28:57" synch="#arm-103"/> 
             <when xml:id="TT104" since="#TT103" interval="1"/>
 
-            <when xml:id="TT105" absolute="29:31" synch="#lpf-105"/> 
-            <when xml:id="TT106" since="#TT105" interval="1"/>
+            <when xml:id="TT105" absolute="00:29:31" synch="#lpf-105"/> 
+            <when xml:id="TT106" since="#TT105" interval="2"/>
 
-            <when xml:id="TT107" absolute="29:34" synch="#lpf-107"/> 
+            <when xml:id="TT107" absolute="00:29:34" synch="#lpf-107"/> 
             <when xml:id="TT108" since="#TT107" interval="1"/>
 
-            <when xml:id="TT109" absolute="29:53" synch="#lpf-109"/> 
+            <when xml:id="TT109" absolute="00:29:53" synch="#lpf-109"/> 
             <when xml:id="TT110" since="#TT110" interval="1"/>
 
-            <when xml:id="TT111" absolute="30:03" synch="#lpf-111"/> 
+            <when xml:id="TT111" absolute="00:30:03" synch="#lpf-111"/> 
             <when xml:id="TT112" since="#TT112" interval="1"/>
 
-            <when xml:id="TT113" absolute="30:37" synch="#lpf-113"/> 
+            <when xml:id="TT113" absolute="00:30:37" synch="#lpf-113"/> 
             <when xml:id="TT114" since="#TT113" interval="1"/>
 
-            <when xml:id="TT115" absolute="30:40" synch="#arm-115"/> 
+            <when xml:id="TT115" absolute="00:30:40" synch="#arm-115"/> 
             <when xml:id="TT116" since="#TT115" interval="1"/>
 
-            <when xml:id="TT117" absolute="32:16" synch="#arm-117"/> 
+            <when xml:id="TT117" absolute="00:32:16" synch="#arm-117"/> 
             <when xml:id="TT118" since="#TT117" interval="1"/>
 
-            <when xml:id="TT119" absolute="32:24" synch="#lpf-119"/> 
+            <when xml:id="TT119" absolute="00:32:24" synch="#lpf-119"/> 
             <when xml:id="TT120" since="#TT119" interval="1"/>
 
-            <when xml:id="TT121" absolute="32:26" synch="#lpf-121"/> 
+            <when xml:id="TT121" absolute="00:32:26" synch="#lpf-121"/> 
             <when xml:id="TT122" since="#TT121" interval="1"/>
 
-            <when xml:id="TT123" absolute="32:29" synch="#arm-123"/> 
+            <when xml:id="TT123" absolute="00:32:29" synch="#arm-123"/> 
             <when xml:id="TT124" since="#TT123" interval="1"/>
 
-            <when xml:id="TT125" absolute="33:11" synch="#lpf-125"/> 
-            <when xml:id="TT126" since="#TT126" interval="1"/>
+            <when xml:id="TT125" absolute="00:33:11" synch="#lpf-125"/> 
+            <when xml:id="TT126" since="#TT126" interval="2"/>
 
-            <when xml:id="TT127" absolute="33:17" synch="#arm-127"/> 
+            <when xml:id="TT127" absolute="00:33:17" synch="#arm-127"/> 
             <when xml:id="TT128" since="#TT127" interval="1"/>
 
-            <when xml:id="TT129" absolute="33:18" synch="#arm-129"/> 
+            <when xml:id="TT129" absolute="00:33:18" synch="#arm-129"/> 
             <when xml:id="TT130" since="#TT129" interval="1"/>
 
-            <when xml:id="TT131" absolute="33:20" synch="#lpf-131"/> 
+            <when xml:id="TT131" absolute="00:33:20" synch="#lpf-131"/> 
             <when xml:id="TT132" since="#TT131" interval="1"/>
 
-            <when xml:id="TT133" absolute="33:22" synch="#arm-133"/> 
+            <when xml:id="TT133" absolute="00:33:22" synch="#arm-133"/> 
             <when xml:id="TT134" since="#TT133" interval="1"/>
 
-            <when xml:id="TT135" absolute="33:33" synch="#arm-135"/> 
+            <when xml:id="TT135" absolute="00:33:33" synch="#arm-135"/> 
             <when xml:id="TT136" since="#TT135" interval="1"/>
 
-            <when xml:id="TT137" absolute="33:48" synch="#lpf-137"/> 
+            <when xml:id="TT137" absolute="00:33:48" synch="#lpf-137"/> 
             <when xml:id="TT138" since="#TT137" interval="1"/>
 
-            <when xml:id="TT139" absolute="33:59" synch="#arm-139"/> 
-            <when xml:id="TT140" since="#TT139" interval="1"/>
+            <when xml:id="TT139" absolute="00:33:59" synch="#arm-139"/> 
+            <when xml:id="TT140" since="#TT139" interval="2"/><!--here-->
 
-            <when xml:id="TT141" absolute="34:13" synch="#arm-141"/> 
+            <when xml:id="TT141" absolute="00:34:13" synch="#arm-141"/> 
             <when xml:id="TT142" since="#TT141" interval="1"/>
 
-            <when xml:id="TT143" absolute="34:19" synch="#lpf-143"/> 
+            <when xml:id="TT143" absolute="00:34:19" synch="#lpf-143"/> 
             <when xml:id="TT144" since="#TT143" interval="1"/>
 
-            <when xml:id="TT145" absolute="34:21" synch="#arm-145"/> 
+            <when xml:id="TT145" absolute="00:34:21" synch="#arm-145"/> 
             <when xml:id="TT146" since="#TT145" interval="1"/>
 
-            <when xml:id="TT147" absolute="34:23" synch="#arm-147"/> 
+            <when xml:id="TT147" absolute="00:34:23" synch="#arm-147"/> 
             <when xml:id="TT148" since="#TT147" interval="1"/>
 
-            <when xml:id="TT149" absolute="34:28" synch="#lpf-149"/> 
+            <when xml:id="TT149" absolute="00:34:28" synch="#lpf-149"/> 
             <when xml:id="TT150" since="#TT149" interval="1"/>
 
-            <when xml:id="TT151" absolute="34:37" synch="#lpf-151"/> 
+            <when xml:id="TT151" absolute="00:34:37" synch="#lpf-151"/> 
             <when xml:id="TT152" since="#TT151" interval="1"/>
 
-            <when xml:id="TT153" absolute="34:44" synch="#arm-153"/> 
+            <when xml:id="TT153" absolute="00:34:44" synch="#arm-153"/> 
             <when xml:id="TT154" since="#TT153" interval="1"/>
 
-            <when xml:id="TT155" absolute="35:20" synch="#arm-155"/> 
+            <when xml:id="TT155" absolute="00:35:20" synch="#arm-155"/> 
             <when xml:id="TT156" since="#TT155" interval="1"/>
 
-            <when xml:id="TT157" absolute="35:30" synch="#arm-157"/> 
+            <when xml:id="TT157" absolute="00:35:30" synch="#arm-157"/> 
             <when xml:id="TT158" since="#TT157" interval="1"/>
 
-            <when xml:id="TT159" absolute="35:32" synch="#arm-159"/> 
+            <when xml:id="TT159" absolute="00:35:32" synch="#arm-159"/> 
             <when xml:id="TT160" since="#TT159" interval="1"/>
 
-            <when xml:id="TT161" absolute="35:56" synch="#lpf-161"/> 
+            <when xml:id="TT161" absolute="00:35:56" synch="#lpf-161"/> 
             <when xml:id="TT162" since="#TT161" interval="1"/>
 
-            <when xml:id="TT163" absolute="36:21" synch="#lpf-165"/> 
+            <when xml:id="TT163" absolute="00:36:21" synch="#lpf-165"/> 
             <when xml:id="TT164" since="#TT163" interval="1"/><!--?-->
 
-            <when xml:id="TT165" absolute="36:47" synch="#lpf-165"/> 
+            <when xml:id="TT165" absolute="00:36:47" synch="#lpf-165"/> 
             <when xml:id="TT166" since="#TT165" interval="1"/><!--?-->
 
-            <when xml:id="TT167" absolute="37:24" synch="#lpf-167"/> 
+            <when xml:id="TT167" absolute="00:37:24" synch="#lpf-167"/> 
             <when xml:id="TT168" since="#TT167" interval="1"/>
 
-            <when xml:id="TT169" absolute="37:31" synch="#lpf-169"/> 
+            <when xml:id="TT169" absolute="00:37:31" synch="#lpf-169"/> 
             <when xml:id="TT170" since="#TT169" interval="1"/>
 
-            <when xml:id="TT171" absolute="37:36" synch="#lpf-171"/> 
+            <when xml:id="TT171" absolute="00:37:36" synch="#lpf-171"/> 
             <when xml:id="TT172" since="#TT171" interval="1"/>
 
-            <when xml:id="TT173" absolute="37:38" synch="#arm-173"/> 
+            <when xml:id="TT173" absolute="00:37:38" synch="#arm-173"/> 
             <when xml:id="TT174" since="#TT173" interval="1"/>
 
-            <when xml:id="TT175" absolute="38:04" synch="#lpf-175"/> 
+            <when xml:id="TT175" absolute="00:38:04" synch="#lpf-175"/> 
             <when xml:id="TT176" since="#TT175" interval="1"/>
 
-            <when xml:id="TT177" absolute="38:05" synch="#arm-177"/> 
+            <when xml:id="TT177" absolute="00:38:05" synch="#arm-177"/> 
             <when xml:id="TT178" since="#TT177" interval="1"/>
 
-            <when xml:id="TT179" absolute="38:08" synch="#lpf-179"/> 
+            <when xml:id="TT179" absolute="00:38:08" synch="#lpf-179"/> 
             <when xml:id="TT180" since="#TT179" interval="1"/>
 
-            <when xml:id="TT181" absolute="38:42" synch="#arm-181"/> 
+            <when xml:id="TT181" absolute="00:38:42" synch="#arm-181"/> 
             <when xml:id="TT182" since="#TT181" interval="1"/>
 
-            <when xml:id="TT183" absolute="38:56" synch="#lpf-183"/> 
+            <when xml:id="TT183" absolute="00:38:56" synch="#lpf-183"/> 
             <when xml:id="TT184" since="#TT183" interval="1"/>
 
-            <when xml:id="TT185" absolute="39:22" synch="#lpf-185"/> 
+            <when xml:id="TT185" absolute="00:39:22" synch="#lpf-185"/> 
             <when xml:id="TT186" since="#TT185" interval="1"/>
 
-            <when xml:id="TT187" absolute="39:24" synch="#arm-187"/> 
+            <when xml:id="TT187" absolute="00:39:24" synch="#arm-187"/> 
             <when xml:id="TT188" since="#TT187" interval="1"/>
 
-            <when xml:id="TT189" absolute="38:27" synch="#arm-189"/> 
+            <when xml:id="TT189" absolute="00:38:27" synch="#arm-189"/> 
             <when xml:id="TT190" since="#TT189" interval="1"/>
 
-            <when xml:id="TT191" absolute="39:39" synch="#lpf-191"/> 
+            <when xml:id="TT191" absolute="00:39:39" synch="#lpf-191"/> 
             <when xml:id="TT192" since="#TT191" interval="1"/>
 
-            <when xml:id="TT193" absolute="41:35" synch="#arm-193"/> 
+            <when xml:id="TT193" absolute="00:41:35" synch="#arm-193"/> 
             <when xml:id="TT194" since="#TT193" interval="1"/>
 
-            <when xml:id="TT195" absolute="41:41" synch="#arm-195"/> 
+            <when xml:id="TT195" absolute="00:41:41" synch="#arm-195"/> 
             <when xml:id="TT196" since="#TT195" interval="1"/>
 
-            <when xml:id="TT197" absolute="41:49" synch="#lpf-197"/> 
+            <when xml:id="TT197" absolute="00:41:49" synch="#lpf-197"/> 
             <when xml:id="TT198" since="#TT197" interval="1"/>
 
-            <when xml:id="TT199" absolute="41:55" synch="#lpf-199"/> 
+            <when xml:id="TT199" absolute="00:41:55" synch="#lpf-199"/> 
             <when xml:id="TT200" since="#TT199" interval="1"/>
 
-            <when xml:id="TT201" absolute="42:06" synch="#lpf-201"/> 
+            <when xml:id="TT201" absolute="00:42:06" synch="#lpf-201"/> 
             <when xml:id="TT202" since="#TT201" interval="1"/>
 
-            <when xml:id="TT203" absolute="42:07" synch="#arm-203"/> 
+            <when xml:id="TT203" absolute="00:42:07" synch="#arm-203"/> 
             <when xml:id="TT204" since="#TT203" interval="1"/>
 
-            <when xml:id="TT205" absolute="42:10" synch="#lpf-205"/> 
+            <when xml:id="TT205" absolute="00:42:10" synch="#lpf-205"/> 
             <when xml:id="TT206" since="#TT205" interval="1"/>
 
-            <when xml:id="TT207" absolute="42:40" synch="#lpf-207"/> 
+            <when xml:id="TT207" absolute="00:42:40" synch="#lpf-207"/> 
             <when xml:id="TT208" since="#TT207" interval="1"/>
 
-            <when xml:id="TT209" absolute="42:47" synch="#lpf-209"/> 
+            <when xml:id="TT209" absolute="00:42:47" synch="#lpf-209"/> 
             <when xml:id="TT210" since="#TT209" interval="1"/>
 
-            <when xml:id="TT211" absolute="43:17" synch="#arm-211"/> 
+            <when xml:id="TT211" absolute="00:43:17" synch="#arm-211"/> 
             <when xml:id="TT212" since="#TT211" interval="1"/>
 
-            <when xml:id="TT213" absolute="43:19" synch="#arm-213"/> 
+            <when xml:id="TT213" absolute="00:43:19" synch="#arm-213"/> 
             <when xml:id="TT214" since="#TT213" interval="1"/>
 
-            <when xml:id="TT215" absolute="44:39" synch="#lpf-215"/> 
+            <when xml:id="TT215" absolute="00:44:39" synch="#lpf-215"/> 
             <when xml:id="TT216" since="#TT215" interval="1"/>
 
-            <when xml:id="TT217" absolute="44:49" synch="#arm-217"/> 
+            <when xml:id="TT217" absolute="00:44:49" synch="#arm-217"/> 
             <when xml:id="TT218" since="#TT217" interval="1"/>
 
-            <when xml:id="TT219" absolute="44:52" synch="#arm-219"/> 
+            <when xml:id="TT219" absolute="00:44:52" synch="#arm-219"/> 
             <when xml:id="TT220" since="#TT219" interval="1"/>
 
-            <when xml:id="TT221" absolute="44:56" synch="#lpf-221"/> 
+            <when xml:id="TT221" absolute="00:44:56" synch="#lpf-221"/> 
             <when xml:id="TT222" since="#TT221" interval="1"/>
 
-            <when xml:id="TT223" absolute="45:18" synch="#lpf-223"/> 
+            <when xml:id="TT223" absolute="00:45:18" synch="#lpf-223"/> 
             <when xml:id="TT224" since="#TT223" interval="1"/>
 
-            <when xml:id="TT225" absolute="46:44" synch="#arm-225"/> 
+            <when xml:id="TT225" absolute="00:46:44" synch="#arm-225"/> 
             <when xml:id="TT226" since="#TT225" interval="1"/>
 
-            <when xml:id="TT227" absolute="47:37" synch="#arm-227"/> 
+            <when xml:id="TT227" absolute="00:47:37" synch="#arm-227"/> 
             <when xml:id="TT228" since="#TT227" interval="1"/>
 
-            <when xml:id="TT229" absolute="47:39" synch="#arm-229"/> 
+            <when xml:id="TT229" absolute="00:47:39" synch="#arm-229"/> 
             <when xml:id="TT230" since="#TT230" interval="1"/>
 
-            <when xml:id="TT231" absolute="47:49" synch="#lpf-231"/> 
+            <when xml:id="TT231" absolute="00:47:49" synch="#lpf-231"/> 
             <when xml:id="TT232" since="#TT231" interval="1"/>
 
-            <when xml:id="TT233" absolute="47:58" synch="#arm-232"/> 
+            <when xml:id="TT233" absolute="00:47:58" synch="#arm-232"/> 
             <when xml:id="TT234" since="#TT234" interval="1"/>
 
-            <when xml:id="TT235" absolute="48:03" synch="#arm-235"/> 
+            <when xml:id="TT235" absolute="00:48:03" synch="#arm-235"/> 
             <when xml:id="TT236" since="#TT235" interval="1"/>
 
-            <when xml:id="TT237" absolute="48:05" synch="#arm-237"/> 
+            <when xml:id="TT237" absolute="00:48:05" synch="#arm-237"/> 
             <when xml:id="TT238" since="#TT237" interval="1"/>
 
-            <when xml:id="TT239" absolute="48:24" synch="#arm-239"/> 
+            <when xml:id="TT239" absolute="00:48:24" synch="#arm-239"/> 
             <when xml:id="TT240" since="#TT239" interval="1"/>
 
-            <when xml:id="TT241" absolute="48:31" synch="#lpf-241"/> 
+            <when xml:id="TT241" absolute="00:48:31" synch="#lpf-241"/> 
             <when xml:id="TT242" since="#TT241" interval="1"/>
 
-            <when xml:id="TT243" absolute="48:53" synch="#arm-243"/> 
+            <when xml:id="TT243" absolute="00:48:53" synch="#arm-243"/> 
             <when xml:id="TT244" since="#TT243" interval="1"/>
 
-            <when xml:id="TT245" absolute="49:39" synch="#arm-245"/> 
+            <when xml:id="TT245" absolute="00:49:39" synch="#arm-245"/> 
             <when xml:id="TT246" since="#TT245" interval="1"/>
 
-            <when xml:id="TT247" absolute="50:25" synch="#lpf-247"/> 
+            <when xml:id="TT247" absolute="00:50:25" synch="#lpf-247"/> 
             <when xml:id="TT248" since="#TT247" interval="1"/>
 
-            <when xml:id="TT249" absolute="50:27" synch="#arm-249"/> 
+            <when xml:id="TT249" absolute="00:50:27" synch="#arm-249"/> 
             <when xml:id="TT250" since="#TT249" interval="1"/>
 
-            <when xml:id="TT251" absolute="50:53" synch="#arm-251"/> 
+            <when xml:id="TT251" absolute="00:50:53" synch="#arm-251"/> 
             <when xml:id="TT252" since="#TT251" interval="1"/>
 
-            <when xml:id="TT253" absolute="50:55" synch="#lpf-253"/> 
+            <when xml:id="TT253" absolute="00:50:55" synch="#lpf-253"/> 
             <when xml:id="TT254" since="#TT253" interval="1"/>
 
-            <when xml:id="TT255" absolute="50:59" synch="#lpf-255"/> 
+            <when xml:id="TT255" absolute="00:50:59" synch="#lpf-255"/> 
             <when xml:id="TT256" since="#TT255" interval="1"/>
 
-            <when xml:id="TT257" absolute="51:04" synch="#arm-257"/> 
+            <when xml:id="TT257" absolute="00:51:04" synch="#arm-257"/> 
             <when xml:id="TT258" since="#TT257" interval="1"/>
 
-            <when xml:id="TT259" absolute="54:58" synch="#arm-259"/> 
+            <when xml:id="TT259" absolute="00:54:58" synch="#arm-259"/> 
             <when xml:id="TT260" since="#TT259" interval="1"/>
 
-            <when xml:id="TT261" absolute="55:08" synch="#lpf-261"/> 
+            <when xml:id="TT261" absolute="00:55:08" synch="#lpf-261"/> 
             <when xml:id="TT262" since="#TT261" interval="1"/>
 
-            <when xml:id="TT263" absolute="55:14" synch="#arm-263"/> 
+            <when xml:id="TT263" absolute="00:55:14" synch="#arm-263"/> 
             <when xml:id="TT264" since="#TT263" interval="1"/>
 
-            <when xml:id="TT265" absolute="56:22" synch="#lpf-265"/> 
+            <when xml:id="TT265" absolute="00:56:22" synch="#lpf-265"/> 
             <when xml:id="TT266" since="#TT265" interval="1"/>
 
-            <when xml:id="TT267" absolute="56:45" synch="#arm-267"/> 
+            <when xml:id="TT267" absolute="00:56:45" synch="#arm-267"/> 
             <when xml:id="TT268" since="#TT267" interval="1"/>
 
-            <when xml:id="TT269" absolute="57:31" synch="#lpf-269"/> 
+            <when xml:id="TT269" absolute="00:57:31" synch="#lpf-269"/> 
             <when xml:id="TT270" since="#TT269" interval="1"/>
 
-            <when xml:id="TT271" absolute="57:36" synch="#arm-271"/> 
+            <when xml:id="TT271" absolute="00:57:36" synch="#arm-271"/> 
             <when xml:id="TT272" since="#TT271" interval="1"/>
 
-            <when xml:id="TT273" absolute="57:37" synch="#arm-273"/> 
+            <when xml:id="TT273" absolute="00:57:37" synch="#arm-273"/> 
             <when xml:id="TT274" since="#TT273" interval="1"/>
 
-            <when xml:id="TT275" absolute="57:39" synch="#lpf-275"/> 
+            <when xml:id="TT275" absolute="00:57:39" synch="#lpf-275"/> 
             <when xml:id="TT276" since="#TT275" interval="1"/>
 
-            <when xml:id="TT277" absolute="57:42" synch="#arm-277"/> 
+            <when xml:id="TT277" absolute="00:57:42" synch="#arm-277"/> 
             <when xml:id="TT278" since="#TT277" interval="1"/>
 
-            <when xml:id="TT279" absolute="57:47" synch="#arm-279"/> 
+            <when xml:id="TT279" absolute="00:57:47" synch="#arm-279"/> 
             <when xml:id="TT280" since="#TT279" interval="1"/>
 
-            <when xml:id="TT281" absolute="57:52" synch="#lpf-281"/> 
+            <when xml:id="TT281" absolute="00:57:52" synch="#lpf-281"/> 
             <when xml:id="TT282" since="#TT281" interval="1"/>
 
-            <when xml:id="TT283" absolute="57:56" synch="#arm-283"/> 
+            <when xml:id="TT283" absolute="00:57:56" synch="#arm-283"/> 
             <when xml:id="TT284" since="#TT283" interval="1"/>
 
-            <when xml:id="TT285" absolute="58:06" synch="#lpf-285"/> 
+            <when xml:id="TT285" absolute="00:58:06" synch="#lpf-285"/> 
             <when xml:id="TT286" since="#TT285" interval="1"/>
 
-            <when xml:id="TT287" absolute="58:35" synch="#lpf-287"/> 
+            <when xml:id="TT287" absolute="00:58:35" synch="#lpf-287"/> 
             <when xml:id="TT288" since="#TT287" interval="1"/>
 
-            <when xml:id="TT289" absolute="58:37" synch="#arm-279"/> 
+            <when xml:id="TT289" absolute="00:58:37" synch="#arm-279"/> 
             <when xml:id="TT290" since="#TT290" interval="1"/>
 
-            <when xml:id="TT291" absolute="59:48" synch="#lpf-291"/> 
+            <when xml:id="TT291" absolute="00:59:48" synch="#lpf-291"/> 
             <when xml:id="TT292" since="#TT291" interval="1"/>
 
-            <when xml:id="TT293" absolute="59:55" synch="#lpf-293"/> 
+            <when xml:id="TT293" absolute="00:59:55" synch="#lpf-293"/> 
             <when xml:id="TT294" since="#TT293" interval="1"/>
 
-            <when xml:id="TT295" absolute="1:01:32" synch="#lpf-295"/> 
+            <when xml:id="TT295" absolute="01:01:32" synch="#lpf-295"/> 
             <when xml:id="TT296" since="#TT295" interval="1"/>
 
-            <when xml:id="TT297" absolute="1:01:35" synch="#lpf-297"/> 
+            <when xml:id="TT297" absolute="01:01:35" synch="#lpf-297"/> 
             <when xml:id="TT298" since="#TT297" interval="1"/>
 
-            <when xml:id="TT299" absolute="1:01:46" synch="#lpf-299"/> 
+            <when xml:id="TT299" absolute="01:01:46" synch="#lpf-299"/> 
             <when xml:id="TT300" since="#TT299" interval="1"/>
 
-            <when xml:id="TT301" absolute="1:01:52" synch="#arm-301"/> 
+            <when xml:id="TT301" absolute="01:01:52" synch="#arm-301"/> 
             <when xml:id="TT302" since="#TT301" interval="1"/>
 
-            <when xml:id="TT303" absolute="1:01:57" synch="#arm-303"/> 
+            <when xml:id="TT303" absolute="01:01:57" synch="#arm-303"/> 
             <when xml:id="TT304" since="#TT303" interval="1"/>
 
-            <when xml:id="TT305" absolute="1:02:42" synch="#arm-305"/> 
+            <when xml:id="TT305" absolute="01:02:42" synch="#arm-305"/> 
             <when xml:id="TT306" since="#TT305" interval="1"/>
 
-            <when xml:id="TT307" absolute="1:02:50" synch="#arm-307"/> 
+            <when xml:id="TT307" absolute="01:02:50" synch="#arm-307"/> 
             <when xml:id="TT308" since="#TT308" interval="1"/>
 
-            <when xml:id="TT309" absolute="1:04:31" synch="#lpf-309"/> 
+            <when xml:id="TT309" absolute="01:04:31" synch="#lpf-309"/> 
             <when xml:id="TT310" since="#TT309" interval="1"/>
 
-            <when xml:id="TT311" absolute="1:04:34" synch="#lpf-311"/> 
+            <when xml:id="TT311" absolute="01:04:34" synch="#lpf-311"/> 
             <when xml:id="TT312" since="#TT311" interval="1"/>
 
-            <when xml:id="TT313" absolute="1:04:36" synch="#lpf-313"/> 
+            <when xml:id="TT313" absolute="01:04:36" synch="#lpf-313"/> 
             <when xml:id="TT314" since="#TT313" interval="1"/>
 
-            <when xml:id="TT315" absolute="1:04:41" synch="#lpf-315"/> 
+            <when xml:id="TT315" absolute="01:04:41" synch="#lpf-315"/> 
             <when xml:id="TT316" since="#TT315" interval="1"/>
 
-            <when xml:id="TT317" absolute="1:04:44" synch="#lpf-317"/> 
+            <when xml:id="TT317" absolute="01:04:44" synch="#lpf-317"/> 
             <when xml:id="TT318" since="#TT318" interval="1"/>
 
-            <when xml:id="TT319" absolute="1:05:06" synch="#lpf-319"/> 
+            <when xml:id="TT319" absolute="01:05:06" synch="#lpf-319"/> 
             <when xml:id="TT320" since="#TT319" interval="1"/>
 
-            <when xml:id="TT321" absolute="1:05:09" synch="#arm-321"/> 
+            <when xml:id="TT321" absolute="01:05:09" synch="#arm-321"/> 
             <when xml:id="TT322" since="#TT321" interval="1"/>
 
-            <when xml:id="TT323" absolute="1:05:19" synch="#lpf-323"/> 
+            <when xml:id="TT323" absolute="01:05:19" synch="#lpf-323"/> 
             <when xml:id="TT324" since="#TT323" interval="1"/>
 
-            <when xml:id="TT325" absolute="1:05:26" synch="#lpf-325"/> 
+            <when xml:id="TT325" absolute="01:05:26" synch="#lpf-325"/> 
             <when xml:id="TT326" since="#TT325" interval="1"/>
 
-            <when xml:id="TT327" absolute="1:05:29" synch="#lpf-327"/> 
+            <when xml:id="TT327" absolute="01:05:29" synch="#lpf-327"/> 
             <when xml:id="TT328" since="#TT327" interval="1"/>
 
-            <when xml:id="TT329" absolute="1:06:05" synch="#lpf-329"/> 
+            <when xml:id="TT329" absolute="01:06:05" synch="#lpf-329"/> 
             <when xml:id="TT330" since="#TT329" interval="1"/>
 
-            <when xml:id="TT331" absolute="1:06:09" synch="#lpf-331"/> 
+            <when xml:id="TT331" absolute="01:06:09" synch="#lpf-331"/> 
             <when xml:id="TT332" since="#TT331" interval="1"/>
 
-            <when xml:id="TT333" absolute="1:06:19" synch="#arm-333"/> 
+            <when xml:id="TT333" absolute="01:06:19" synch="#arm-333"/> 
             <when xml:id="TT334" since="#TT333" interval="1"/>
 
-            <when xml:id="TT335" absolute="1:09:01" synch="#lpf-335"/> 
+            <when xml:id="TT335" absolute="01:09:01" synch="#lpf-335"/> 
             <when xml:id="TT336" since="#TT335" interval="1"/>
 
-            <when xml:id="TT337" absolute="1:09:33" synch="#lpf-337"/> 
+            <when xml:id="TT337" absolute="01:09:33" synch="#lpf-337"/> 
             <when xml:id="TT338" since="#TT337" interval="1"/>
 
-            <when xml:id="TT339" absolute="1:10:16" synch="#lpf-339"/> 
+            <when xml:id="TT339" absolute="01:10:16" synch="#lpf-339"/> 
             <when xml:id="TT340" since="#TT339" interval="1"/>
 
-            <when xml:id="TT341" absolute="1:10:44" synch="#lpf-341"/> 
+            <when xml:id="TT341" absolute="01:10:44" synch="#lpf-341"/> 
             <when xml:id="TT342" since="#TT341" interval="1"/>
 
-            <when xml:id="TT343" absolute="1:11:07" synch="#arm-343"/> 
+            <when xml:id="TT343" absolute="01:11:07" synch="#arm-343"/> 
             <when xml:id="TT344" since="#TT343" interval="1"/>
 
-            <when xml:id="TT345" absolute="1:11:28" synch="#arm-345"/> 
+            <when xml:id="TT345" absolute="01:11:28" synch="#arm-345"/> 
             <when xml:id="TT346" since="#TT345" interval="1"/>
 
-            <when xml:id="TT347" absolute="1:13:13" synch="#lpf-347"/> 
+            <when xml:id="TT347" absolute="01:13:13" synch="#lpf-347"/> 
             <when xml:id="TT348" since="#TT348" interval="1"/>
 
-            <when xml:id="TT349" absolute="1:13:19" synch="#lpf-349"/> 
+            <when xml:id="TT349" absolute="01:13:19" synch="#lpf-349"/> 
             <when xml:id="TT350" since="#TT349" interval="1"/>
 
-            <when xml:id="TT351" absolute="1:13:13" synch="#lpf-351"/> 
+            <when xml:id="TT351" absolute="01:13:13" synch="#lpf-351"/> 
             <when xml:id="TT352" since="#TT351" interval="1"/>
 
-            <when xml:id="TT353" absolute="1:13:27" synch="#lpf-353"/> 
+            <when xml:id="TT353" absolute="01:13:27" synch="#lpf-353"/> 
             <when xml:id="TT354" since="#TT354" interval="1"/>
 
-            <when xml:id="TT355" absolute="1:13:28" synch="#arm-355"/> 
+            <when xml:id="TT355" absolute="01:13:28" synch="#arm-355"/> 
             <when xml:id="TT356" since="#TT355" interval="1"/>
 
-            <when xml:id="TT357" absolute="1:14:02" synch="#lpf-357"/> 
+            <when xml:id="TT357" absolute="01:14:02" synch="#lpf-357"/> 
             <when xml:id="TT358" since="#TT358" interval="1"/>
 
-            <when xml:id="TT359" absolute="1:14:05" synch="#lpf-359"/> 
+            <when xml:id="TT359" absolute="01:14:05" synch="#lpf-359"/> 
             <when xml:id="TT360" since="#TT359" interval="1"/>
 
-            <when xml:id="TT361" absolute="1:14:09" synch="#lpf-361"/> 
+            <when xml:id="TT361" absolute="01:14:09" synch="#lpf-361"/> 
             <when xml:id="TT362" since="#TT361" interval="1"/>
 
-            <when xml:id="TT363" absolute="1:15:28" synch="#lpf-363"/> 
+            <when xml:id="TT363" absolute="01:15:28" synch="#lpf-363"/> 
             <when xml:id="TT364" since="#TT363" interval="1"/>
 
-            <when xml:id="TT365" absolute="1:17:45" synch="#lpf-365"/> 
+            <when xml:id="TT365" absolute="01:17:45" synch="#lpf-365"/> 
             <when xml:id="TT366" since="#TT365" interval="1"/>
 
-            <when xml:id="TT367" absolute="1:17:48" synch="#lpf-367"/> 
+            <when xml:id="TT367" absolute="01:17:48" synch="#lpf-367"/> 
             <when xml:id="TT368" since="#TT368" interval="1"/>
 
-            <when xml:id="TT369" absolute="1:17:49" synch="#lpf-369"/> 
+            <when xml:id="TT369" absolute="01:17:49" synch="#lpf-369"/> 
             <when xml:id="TT370" since="#TT369" interval="1"/>
 
-            <when xml:id="TT371" absolute="1:17:54" synch="#lpf-371"/> 
+            <when xml:id="TT371" absolute="01:17:54" synch="#lpf-371"/> 
             <when xml:id="TT372" since="#TT371" interval="1"/>
 
-            <when xml:id="TT373" absolute="1:18:37" synch="#lpf-373"/> 
+            <when xml:id="TT373" absolute="01:18:37" synch="#lpf-373"/> 
             <when xml:id="TT374" since="#TT373" interval="1"/>
 
-            <when xml:id="TT375" absolute="1:18:42" synch="#lpf-373"/> 
+            <when xml:id="TT375" absolute="01:18:42" synch="#lpf-373"/> 
             <when xml:id="TT376" since="#TT375" interval="1"/>
 
-            <when xml:id="TT377" absolute="1:19:12" synch="#lpf-377"/> 
+            <when xml:id="TT377" absolute="01:19:12" synch="#lpf-377"/> 
             <when xml:id="TT378" since="#TT377" interval="1"/>
 
-            <when xml:id="TT379" absolute="1:19:18" synch="#lpf-379"/> 
+            <when xml:id="TT379" absolute="01:19:18" synch="#lpf-379"/> 
             <when xml:id="TT380" since="#TT379" interval="1"/>
 
-            <when xml:id="TT381" absolute="1:20:19" synch="#lpf-381"/> 
+            <when xml:id="TT381" absolute="01:20:19" synch="#lpf-381"/> 
             <when xml:id="TT382" since="#TT381" interval="1"/>
 
-            <when xml:id="TT383" absolute="1:20:23" synch="#arm-383"/> 
+            <when xml:id="TT383" absolute="01:20:23" synch="#arm-383"/> 
             <when xml:id="TT384" since="#TT383" interval="1"/>
 
-            <when xml:id="TT385" absolute="1:20:25" synch="#lpf-385"/> 
+            <when xml:id="TT385" absolute="01:20:25" synch="#lpf-385"/> 
             <when xml:id="TT386" since="#TT385" interval="1"/>
 
-            <when xml:id="TT387" absolute="1:20:34" synch="#lpf-387"/> 
+            <when xml:id="TT387" absolute="01:20:34" synch="#lpf-387"/> 
             <when xml:id="TT388" since="#TT387" interval="1"/>
 
-            <when xml:id="TT389" absolute="1:20:57" synch="#lpf-389"/> 
+            <when xml:id="TT389" absolute="01:20:57" synch="#lpf-389"/> 
             <when xml:id="TT390" since="#TT389" interval="1"/>
 
-            <when xml:id="TT391" absolute="1:21:01" synch="#lpf-391"/> 
+            <when xml:id="TT391" absolute="01:21:01" synch="#lpf-391"/> 
             <when xml:id="TT392" since="#TT391" interval="1"/>
 
-            <when xml:id="TT393" absolute="1:21:12" synch="#lpf-393"/> 
+            <when xml:id="TT393" absolute="01:21:12" synch="#lpf-393"/> 
             <when xml:id="TT394" since="#TT393" interval="1"/>
 
-            <when xml:id="TT395" absolute="1:21:27" synch="#lpf-395"/> 
+            <when xml:id="TT395" absolute="01:21:27" synch="#lpf-395"/> 
             <when xml:id="TT396" since="#TT395" interval="1"/>
 
-            <when xml:id="TT397" absolute="1:21:33" synch="#arm-397"/> 
+            <when xml:id="TT397" absolute="01:21:33" synch="#arm-397"/> 
             <when xml:id="TT398" since="#TT397" interval="1"/>
 
-            <when xml:id="TT399" absolute="1:21:36" synch="#lpf-399"/> 
+            <when xml:id="TT399" absolute="01:21:36" synch="#lpf-399"/> 
             <when xml:id="TT400" since="#TT399" interval="1"/>
 
-            <when xml:id="TT401" absolute="1:21:39" synch="#lpf-401"/> 
+            <when xml:id="TT401" absolute="01:21:39" synch="#lpf-401"/> 
             <when xml:id="TT402" since="#TT401" interval="1"/>
 
-            <when xml:id="TT403" absolute="1:21:41" synch="#lpf-403"/> 
+            <when xml:id="TT403" absolute="01:21:41" synch="#lpf-403"/> 
             <when xml:id="TT404" since="#TT403" interval="1"/>
 
-            <when xml:id="TT405" absolute="1:22:14" synch="#lpf-405"/> 
+            <when xml:id="TT405" absolute="01:22:14" synch="#lpf-405"/> 
             <when xml:id="TT406" since="#TT385" interval="1"/>
 
-            <when xml:id="TT407" absolute="1:22:16" synch="#lpf-407"/> 
+            <when xml:id="TT407" absolute="01:22:16" synch="#lpf-407"/> 
             <when xml:id="TT408" since="#TT407" interval="1"/>
 
-            <when xml:id="TT409" absolute="1:22:16" synch="#lpf-409"/> 
+            <when xml:id="TT409" absolute="01:22:16" synch="#lpf-409"/> 
             <when xml:id="TT410" since="#TT409" interval="1"/>
 
-            <when xml:id="TT411" absolute="1:22:43" synch="#lpf-411"/> 
+            <when xml:id="TT411" absolute="01:22:43" synch="#lpf-411"/> 
             <when xml:id="TT412" since="#TT411" interval="1"/>
 
-            <when xml:id="TT413" absolute="1:22:47" synch="#lpf-413"/> 
+            <when xml:id="TT413" absolute="01:22:47" synch="#lpf-413"/> 
             <when xml:id="TT414" since="#TT413" interval="1"/>
 
-            <when xml:id="TT415" absolute="1:23:00" synch="#lpf-415"/> 
+            <when xml:id="TT415" absolute="01:23:00" synch="#lpf-415"/> 
             <when xml:id="TT416" since="#TT415" interval="1"/>
 
-            <when xml:id="TT417" absolute="1:23:44" synch="#lpf-417"/> 
+            <when xml:id="TT417" absolute="01:23:44" synch="#lpf-417"/> 
             <when xml:id="TT418" since="#TT417" interval="1"/>
 
-            <when xml:id="TT419" absolute="1:24:18" synch="#lpf-419"/> 
+            <when xml:id="TT419" absolute="01:24:18" synch="#lpf-419"/> 
             <when xml:id="TT420" since="#TT419" interval="1"/>
 
-            <when xml:id="TT421" absolute="1:24:24" synch="#lpf-421"/> 
+            <when xml:id="TT421" absolute="01:24:24" synch="#lpf-421"/> 
             <when xml:id="TT422" since="#TT421" interval="1"/>
 
-            <when xml:id="TT423" absolute="1:24:30" synch="#lpf-423"/> 
+            <when xml:id="TT423" absolute="01:24:30" synch="#lpf-423"/> 
             <when xml:id="TT424" since="#TT423" interval="1"/>
 
-            <when xml:id="TT425" absolute="1:24:36" synch="#lpf-425"/> 
+            <when xml:id="TT425" absolute="01:24:36" synch="#lpf-425"/> 
             <when xml:id="TT426" since="#TT425" interval="1"/>
 
-            <when xml:id="TT427" absolute="1:24:37" synch="#lpf-427"/> 
+            <when xml:id="TT427" absolute="01:24:37" synch="#lpf-427"/> 
             <when xml:id="TT428" since="#TT427" interval="1"/>
 
-            <when xml:id="TT429" absolute="1:24:53" synch="#lpf-429"/> 
+            <when xml:id="TT429" absolute="01:24:53" synch="#lpf-429"/> 
             <when xml:id="TT430" since="#TT429" interval="1"/>
 
-            <when xml:id="TT431" absolute="1:24:55" synch="#lpf-431"/> 
+            <when xml:id="TT431" absolute="01:24:55" synch="#lpf-431"/> 
             <when xml:id="TT432" since="#TT431" interval="1"/>
 
-            <when xml:id="TT433" absolute="1:25:02" synch="#lpf-433"/> 
+            <when xml:id="TT433" absolute="01:25:02" synch="#lpf-433"/> 
             <when xml:id="TT434" since="#TT433" interval="1"/>
 
-            <when xml:id="TT435" absolute="1:25:06" synch="#lpf-435"/> 
+            <when xml:id="TT435" absolute="01:25:06" synch="#lpf-435"/> 
             <when xml:id="TT436" since="#TT435" interval="1"/>
 
-            <when xml:id="TT437" absolute="1:26:14" synch="#lpf-437"/> 
+            <when xml:id="TT437" absolute="01:26:14" synch="#lpf-437"/> 
             <when xml:id="TT438" since="#TT437" interval="1"/>
 
-            <when xml:id="TT439" absolute="1:26:16" synch="#lpf-439"/> 
+            <when xml:id="TT439" absolute="01:26:16" synch="#lpf-439"/> 
             <when xml:id="TT440" since="#TT439" interval="1"/>
 
-            <when xml:id="TT441" absolute="1:26:28" synch="#lpf-441"/> 
+            <when xml:id="TT441" absolute="01:26:28" synch="#lpf-441"/> 
             <when xml:id="TT442" since="#TT441" interval="1"/>
 
-            <when xml:id="TT443" absolute="1:26:37" synch="#lpf-443"/> 
+            <when xml:id="TT443" absolute="01:26:37" synch="#lpf-443"/> 
             <when xml:id="TT444" since="#TT443" interval="1"/>
 
-            <when xml:id="TT445" absolute="1:26:49" synch="#lpf-445"/> 
+            <when xml:id="TT445" absolute="01:26:49" synch="#lpf-445"/> 
             <when xml:id="TT446" since="#TT445" interval="1"/>
 
-            <when xml:id="TT447" absolute="1:26:51" synch="#lpf-447"/> 
+            <when xml:id="TT447" absolute="01:26:51" synch="#lpf-447"/> 
             <when xml:id="TT448" since="#TT447" interval="1"/>
 
-            <when xml:id="TT449" absolute="1:27:46" synch="#lpf-449"/> 
+            <when xml:id="TT449" absolute="01:27:46" synch="#lpf-449"/> 
             <when xml:id="TT450" since="#TT449" interval="1"/>
 
-            <when xml:id="TT451" absolute="1:28:00" synch="#lpf-451"/> 
+            <when xml:id="TT451" absolute="01:28:00" synch="#lpf-451"/> 
             <when xml:id="TT452" since="#TT451" interval="1"/>
 
-            <when xml:id="TT453" absolute="1:29:38" synch="#lpf-453"/> 
+            <when xml:id="TT453" absolute="01:29:38" synch="#lpf-453"/> 
             <when xml:id="TT454" since="#TT453" interval="1"/>
 
-            <when xml:id="TT455" absolute="1:29:45" synch="#lpf-455"/> 
+            <when xml:id="TT455" absolute="01:29:45" synch="#lpf-455"/> 
             <when xml:id="TT456" since="#TT455" interval="1"/>
 
-            <when xml:id="TT457" absolute="1:29:55" synch="#arm-457"/> 
+            <when xml:id="TT457" absolute="01:29:55" synch="#arm-457"/> 
             <when xml:id="TT458" since="#TT457" interval="1"/>
 
-            <when xml:id="TT459" absolute="1:34:03" synch="#lpf-459"/> 
+            <when xml:id="TT459" absolute="01:34:03" synch="#lpf-459"/> 
             <when xml:id="TT460" since="#TT459" interval="1"/>
 
-            <when xml:id="TT461" absolute="1:34:38" synch="#lpf-461"/> 
+            <when xml:id="TT461" absolute="01:34:38" synch="#lpf-461"/> 
             <when xml:id="TT462" since="#TT451" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
         <timeline xml:id="TL3" unit="s">                
 
-            <when xml:id="TS01" synch="#LPF1" absolute="0:00"/>
+            <when xml:id="TS01" synch="#LPF1" absolute="00:00:00"/><!--here 00:-->
             <when xml:id="TS02" synch="#AW1" absolute="0:22"/>
             <when xml:id="TS03" synch="#LPF2" absolute="0:41"/>
             <when xml:id="TS04" synch="#AW2" absolute="0:43"/>
@@ -925,12 +968,12 @@
             <when xml:id="TS08" synch="#AW4" absolute="0:55"/>
             <when xml:id="TS09" synch="#LPF5" absolute="0:55"/>
             <when xml:id="TS10" synch="#AW5" absolute="0:57"/>
-            <when xml:id="TS11" synch="#LPF6" absolute="1:16"/>
-            <when xml:id="TS12" synch="#AW6" absolute="1:19"/>
-            <when xml:id="TS13" synch="#LPF7" absolute="1:25"/>
-            <when xml:id="TS14" synch="#AW7" absolute="1:27"/>
-            <when xml:id="TS15" synch="#LPF8" absolute="1:39"/>
-            <when xml:id="TS16" synch="#AW8" absolute="1:42"/>
+            <when xml:id="TS11" synch="#LPF6" absolute="01:16"/>
+            <when xml:id="TS12" synch="#AW6" absolute="01:19"/>
+            <when xml:id="TS13" synch="#LPF7" absolute="01:25"/>
+            <when xml:id="TS14" synch="#AW7" absolute="01:27"/>
+            <when xml:id="TS15" synch="#LPF8" absolute="01:39"/>
+            <when xml:id="TS16" synch="#AW8" absolute="01:42"/>
             <when xml:id="TS17" synch="#LPF9" absolute="2:04"/>
             <when xml:id="TS18" synch="#AW9" absolute="2:07"/>
             <when xml:id="TS19" synch="#LPF10" absolute="2:11"/>
@@ -1301,238 +1344,238 @@
             <when xml:id="TS384" synch="#AW191" absolute="58:35"/>
             <when xml:id="TS385" synch="#LPF192" absolute="59:45"/>
             <when xml:id="TS386" synch="#AW192" absolute="59:55"/>
-            <when xml:id="TS387" synch="#LPF193" absolute="1:00:56"/>
-            <when xml:id="TS388" synch="#AW193" absolute="1:00:58"/>
-            <when xml:id="TS389" synch="#LPF194" absolute="1:01:24"/>
-            <when xml:id="TS390" synch="#AW194" absolute="1:01:25"/>
-            <when xml:id="TS391" synch="#LPF195" absolute="1:01:28"/>
-            <when xml:id="TS392" synch="#AW195" absolute="1:01:29"/>
-            <when xml:id="TS393" synch="#LPF196" absolute="1:01:30"/>
-            <when xml:id="TS394" synch="#AW196" absolute="1:01:38"/>
-            <when xml:id="TS395" synch="#LPF197" absolute="1:01:39"/>
-            <when xml:id="TS396" synch="#AW197" absolute="1:01:42"/>
-            <when xml:id="TS397" synch="#LPF198" absolute="1:01:45"/>
-            <when xml:id="TS398" synch="#AW198" absolute="1:01:46"/>
-            <when xml:id="TS399" synch="#LPF199" absolute="1:03:24"/>
-            <when xml:id="TS400" synch="#AW199" absolute="1:03:26"/>
-            <when xml:id="TS401" synch="#LPF200" absolute="1:03:32"/>
-            <when xml:id="TS402" synch="#AW200" absolute="1:03:33"/>
-            <when xml:id="TS403" synch="#LPF201" absolute="1:03:35"/>
-            <when xml:id="TS404" synch="#AW201" absolute="1:03:37"/>
-            <when xml:id="TS405" synch="#LPF202" absolute="1:03:42"/>
-            <when xml:id="TS406" synch="#AW202" absolute="1:03:44"/>
-            <when xml:id="TS407" synch="#LPF203" absolute="1:04:02"/>
-            <when xml:id="TS408" synch="#AW203" absolute="1:04:09"/>
-            <when xml:id="TS409" synch="#LPF204" absolute="1:04:28"/>
-            <when xml:id="TS410" synch="#AW204" absolute="1:04:31"/>
-            <when xml:id="TS411" synch="#LPF205" absolute="1:04:33"/>
-            <when xml:id="TS412" synch="#AW205" absolute="1:04:51"/>
-            <when xml:id="TS413" synch="#LPF206" absolute="1:05:01"/>
-            <when xml:id="TS414" synch="#AW206" absolute="1:05:06"/>
-            <when xml:id="TS415" synch="#LPF207" absolute="1:05:18"/>
-            <when xml:id="TS416" synch="#AW207" absolute="1:05:31"/>
-            <when xml:id="TS417" synch="#LPF208" absolute="1:06:05"/>
-            <when xml:id="TS418" synch="#AW208" absolute="1:06:05"/>
-            <when xml:id="TS419" synch="#LPF209" absolute="1:06:12"/>
-            <when xml:id="TS420" synch="#AW209" absolute="1:06:18"/>
-            <when xml:id="TS421" synch="#LPF210" absolute="1:07:22"/>
-            <when xml:id="TS422" synch="#AW210" absolute="1:07:25"/>
-            <when xml:id="TS423" synch="#LPF211" absolute="1:08:06"/>
-            <when xml:id="TS424" synch="#AW211" absolute="1:08:09"/>
-            <when xml:id="TS425" synch="#LPF212" absolute="1:08:16"/>
-            <when xml:id="TS426" synch="#AW212" absolute="1:08:19"/>
-            <when xml:id="TS427" synch="#LPF213" absolute="1:08:59"/>
-            <when xml:id="TS428" synch="#AW213" absolute="1:09:01"/>
-            <when xml:id="TS429" synch="#LPF214" absolute="1:09:32"/>
-            <when xml:id="TS430" synch="#AW214" absolute="1:09:33"/>
-            <when xml:id="TS431" synch="#LPF215" absolute="1:09:35"/>
-            <when xml:id="TS432" synch="#AW215" absolute="1:09:36"/>
-            <when xml:id="TS433" synch="#LPF216" absolute="1:09:37"/>
-            <when xml:id="TS434" synch="#AW216" absolute="1:09:38"/>
-            <when xml:id="TS435" synch="#LPF217" absolute="1:09:39"/>
-            <when xml:id="TS436" synch="#AW217" absolute="1:09:40"/>
-            <when xml:id="TS437" synch="#LPF218" absolute="1:10:07"/>
-            <when xml:id="TS438" synch="#AW218" absolute="1:10:08"/>
-            <when xml:id="TS439" synch="#LPF219" absolute="1:10:13"/>
-            <when xml:id="TS440" synch="#AW219" absolute="1:10:16"/>
-            <when xml:id="TS441" synch="#LPF220" absolute="1:10:34"/>
-            <when xml:id="TS442" synch="#AW220" absolute="1:10:37"/>
-            <when xml:id="TS443" synch="#LPF221" absolute="1:10:47"/>
-            <when xml:id="TS444" synch="#AW221" absolute="1:10:48"/>
-            <when xml:id="TS445" synch="#LPF222" absolute="1:11:05"/>
-            <when xml:id="TS446" synch="#AW222" absolute="1:11:07"/>
-            <when xml:id="TS447" synch="#LPF223" absolute="1:11:15"/>
-            <when xml:id="TS448" synch="#AW223" absolute="1:11:18"/>
-            <when xml:id="TS449" synch="#LPF224" absolute="1:11:25"/>
-            <when xml:id="TS450" synch="#AW224" absolute="1:11:28"/>
-            <when xml:id="TS451" synch="#LPF225" absolute="1:11:37"/>
-            <when xml:id="TS452" synch="#AW225" absolute="1:11:39"/>
-            <when xml:id="TS453" synch="#LPF226" absolute="1:11:46"/>
-            <when xml:id="TS454" synch="#AW226" absolute="1:11:48"/>
-            <when xml:id="TS455" synch="#LPF227" absolute="1:11:50"/>
-            <when xml:id="TS456" synch="#AW227" absolute="1:11:52"/>
-            <when xml:id="TS457" synch="#LPF228" absolute="1:12:07"/>
-            <when xml:id="TS458" synch="#AW228" absolute="1:12:10"/>
-            <when xml:id="TS459" synch="#LPF229" absolute="1:12:55"/>
-            <when xml:id="TS460" synch="#AW229" absolute="1:12:59"/>
-            <when xml:id="TS461" synch="#LPF230" absolute="1:13:08"/>
-            <when xml:id="TS462" synch="#AW230" absolute="1:13:19"/>
-            <when xml:id="TS463" synch="#LPF231" absolute="1:13:22"/>
-            <when xml:id="TS464" synch="#AW231" absolute="1:13:27"/>
-            <when xml:id="TS465" synch="#LPF232" absolute="1:13:31"/>
-            <when xml:id="TS466" synch="#AW232" absolute="1:13:34"/>
-            <when xml:id="TS467" synch="#LPF233" absolute="1:14:00"/>
-            <when xml:id="TS468" synch="#AW233" absolute="1:14:11"/>
-            <when xml:id="TS469" synch="#LPF234" absolute="1:14:13"/>
-            <when xml:id="TS470" synch="#AW234" absolute="1:14:16"/>
-            <when xml:id="TS471" synch="#LPF235" absolute="1:14:19"/>
-            <when xml:id="TS472" synch="#AW235" absolute="1:14:23"/>
-            <when xml:id="TS473" synch="#LPF236" absolute="1:14:28"/>
-            <when xml:id="TS474" synch="#AW236" absolute="1:14:33"/>
-            <when xml:id="TS475" synch="#LPF237" absolute="1:14:57"/>
-            <when xml:id="TS476" synch="#AW237" absolute="1:15:00"/>
-            <when xml:id="TS477" synch="#LPF238" absolute="1:15:17"/>
-            <when xml:id="TS478" synch="#AW238" absolute="1:15:19"/>
-            <when xml:id="TS479" synch="#LPF239" absolute="1:15:25"/>
-            <when xml:id="TS480" synch="#AW239" absolute="1:15:28"/>
-            <when xml:id="TS481" synch="#LPF240" absolute="1:16:40"/>
-            <when xml:id="TS482" synch="#AW240" absolute="1:16:44"/>
-            <when xml:id="TS483" synch="#LPF241" absolute="1:17:31"/>
-            <when xml:id="TS484" synch="#AW241" absolute="1:17:32"/>
-            <when xml:id="TS485" synch="#LPF242" absolute="1:17:41"/>
-            <when xml:id="TS486" synch="#AW242" absolute="1:17:45"/>
-            <when xml:id="TS487" synch="#LPF243" absolute="1:17:46"/>
-            <when xml:id="TS488" synch="#AW243" absolute="1:17:54"/>
-            <when xml:id="TS489" synch="#LPF244" absolute="1:18:15"/>
-            <when xml:id="TS490" synch="#AW244" absolute="1:18:17"/>
-            <when xml:id="TS491" synch="#LPF245" absolute="1:18:19"/>
-            <when xml:id="TS492" synch="#AW245" absolute="1:18:20"/>
-            <when xml:id="TS493" synch="#LPF246" absolute="1:18:35"/>
-            <when xml:id="TS494" synch="#AW246" absolute="1:18:37"/>
-            <when xml:id="TS495" synch="#LPF247" absolute="1:18:39"/>
-            <when xml:id="TS496" synch="#AW247" absolute="1:18:42"/>
-            <when xml:id="TS497" synch="#LPF248" absolute="1:19:03"/>
-            <when xml:id="TS498" synch="#AW248" absolute="1:19:03"/>
-            <when xml:id="TS499" synch="#LPF249" absolute="1:19:10"/>
-            <when xml:id="TS500" synch="#AW249" absolute="1:19:18"/>
-            <when xml:id="TS501" synch="#LPF250" absolute="1:20:02"/>
-            <when xml:id="TS502" synch="#AW250" absolute="1:20:06"/>
-            <when xml:id="TS503" synch="#LPF251" absolute="1:20:09"/>
-            <when xml:id="TS504" synch="#AW251" absolute="1:20:09"/>
-            <when xml:id="TS505" synch="#LPF252" absolute="1:20:14"/>
-            <when xml:id="TS506" synch="#AW252" absolute="1:20:21"/>
-            <when xml:id="TS507" synch="#LPF253" absolute="1:20:23"/>
-            <when xml:id="TS508" synch="#AW253" absolute="1:20:25"/>
-            <when xml:id="TS509" synch="#LPF254" absolute="1:20:33"/>
-            <when xml:id="TS510" synch="#AW254" absolute="1:20:34"/>
-            <when xml:id="TS511" synch="#LPF255" absolute="1:20:55"/>
-            <when xml:id="TS512" synch="#AW255" absolute="1:20:58"/>
-            <when xml:id="TS513" synch="#LPF256" absolute="1:21:00"/>
-            <when xml:id="TS514" synch="#AW256" absolute="1:21:01"/>
-            <when xml:id="TS515" synch="#LPF257" absolute="1:21:03"/>
-            <when xml:id="TS516" synch="#AW257" absolute="1:21:05"/>
-            <when xml:id="TS517" synch="#LPF258" absolute="1:21:06"/>
-            <when xml:id="TS518" synch="#AW258" absolute="1:21:07"/>
-            <when xml:id="TS519" synch="#LPF259" absolute="1:21:09"/>
-            <when xml:id="TS520" synch="#AW259" absolute="1:21:13"/>
-            <when xml:id="TS521" synch="#LPF260" absolute="1:21:17"/>
-            <when xml:id="TS522" synch="#AW260" absolute="1:21:24"/>
-            <when xml:id="TS523" synch="#LPF261" absolute="1:21:26"/>
-            <when xml:id="TS524" synch="#AW261" absolute="1:21:28"/>
-            <when xml:id="TS525" synch="#LPF262" absolute="1:21:33"/>
-            <when xml:id="TS526" synch="#AW262" absolute="1:21:34"/>
-            <when xml:id="TS527" synch="#LPF263" absolute="1:21:35"/>
-            <when xml:id="TS528" synch="#AW263" absolute="1:21:36"/>
-            <when xml:id="TS529" synch="#LPF264" absolute="1:21:39"/>
-            <when xml:id="TS530" synch="#AW264" absolute="1:21:41"/>
-            <when xml:id="TS531" synch="#LPF265" absolute="1:22:10"/>
-            <when xml:id="TS532" synch="#AW265" absolute="1:22:14"/>
-            <when xml:id="TS533" synch="#LPF266" absolute="1:22:15"/>
-            <when xml:id="TS534" synch="#AW266" absolute="1:22:16"/>
-            <when xml:id="TS535" synch="#LPF267" absolute="1:22:39"/>
-            <when xml:id="TS536" synch="#AW267" absolute="1:22:43"/>
-            <when xml:id="TS537" synch="#LPF268" absolute="1:22:44"/>
-            <when xml:id="TS538" synch="#AW268" absolute="1:22:47"/>
-            <when xml:id="TS539" synch="#LPF269" absolute="1:23:07"/>
-            <when xml:id="TS540" synch="#AW269" absolute="1:23:15"/>
-            <when xml:id="TS541" synch="#LPF270" absolute="1:23:31"/>
-            <when xml:id="TS542" synch="#AW270" absolute="1:23:34"/>
-            <when xml:id="TS543" synch="#LPF271" absolute="1:23:39"/>
-            <when xml:id="TS544" synch="#AW271" absolute="1:23:40"/>
-            <when xml:id="TS545" synch="#LPF272" absolute="1:23:42"/>
-            <when xml:id="TS546" synch="#AW272" absolute="1:23:44"/>
-            <when xml:id="TS547" synch="#LPF273" absolute="1:23:52"/>
-            <when xml:id="TS548" synch="#AW273" absolute="1:23:54"/>
-            <when xml:id="TS549" synch="#LPF274" absolute="1:23:58"/>
-            <when xml:id="TS550" synch="#AW274" absolute="1:24:05"/>
-            <when xml:id="TS551" synch="#LPF275" absolute="1:24:17"/>
-            <when xml:id="TS552" synch="#AW275" absolute="1:24:18"/>
-            <when xml:id="TS553" synch="#LPF276" absolute="1:24:21"/>
-            <when xml:id="TS554" synch="#AW276" absolute="1:24:32"/>
-            <when xml:id="TS555" synch="#LPF277" absolute="1:24:33"/>
-            <when xml:id="TS556" synch="#AW277" absolute="1:24:38"/>
-            <when xml:id="TS557" synch="#LPF278" absolute="1:24:47"/>
-            <when xml:id="TS558" synch="#AW278" absolute="1:24:53"/>
-            <when xml:id="TS559" synch="#LPF279" absolute="1:24:55"/>
-            <when xml:id="TS560" synch="#AW279" absolute="1:24:56"/>
-            <when xml:id="TS561" synch="#LPF280" absolute="1:24:59"/>
-            <when xml:id="TS562" synch="#AW280" absolute="1:25:06"/>
-            <when xml:id="TS563" synch="#LPF281" absolute="1:25:08"/>
-            <when xml:id="TS564" synch="#AW281" absolute="1:25:12"/>
-            <when xml:id="TS565" synch="#LPF282" absolute="1:25:17"/>
-            <when xml:id="TS566" synch="#AW282" absolute="1:25:21"/>
-            <when xml:id="TS567" synch="#LPF283" absolute="1:26:13"/>
-            <when xml:id="TS568" synch="#AW283" absolute="1:26:16"/>
-            <when xml:id="TS569" synch="#LPF284" absolute="1:26:26"/>
-            <when xml:id="TS570" synch="#AW284" absolute="1:26:30"/>
-            <when xml:id="TS571" synch="#LPF285" absolute="1:26:32"/>
-            <when xml:id="TS572" synch="#AW285" absolute="1:26:35"/>
-            <when xml:id="TS573" synch="#LPF286" absolute="1:26:36"/>
-            <when xml:id="TS574" synch="#AW286" absolute="1:26:37"/>
-            <when xml:id="TS575" synch="#LPF287" absolute="1:26:39"/>
-            <when xml:id="TS576" synch="#AW287" absolute="1:26:42"/>
-            <when xml:id="TS577" synch="#LPF288" absolute="1:26:46"/>
-            <when xml:id="TS578" synch="#AW288" absolute="1:26:52"/>
-            <when xml:id="TS579" synch="#LPF289" absolute="1:26:54"/>
-            <when xml:id="TS580" synch="#AW289" absolute="1:26:57"/>
-            <when xml:id="TS581" synch="#LPF290" absolute="1:27:24"/>
-            <when xml:id="TS582" synch="#AW290" absolute="1:27:25"/>
-            <when xml:id="TS583" synch="#LPF291" absolute="1:27:45"/>
-            <when xml:id="TS584" synch="#AW291" absolute="1:27:48"/>
-            <when xml:id="TS585" synch="#LPF292" absolute="1:27:49"/>
-            <when xml:id="TS586" synch="#AW292" absolute="1:27:52"/>
-            <when xml:id="TS587" synch="#LPF293" absolute="1:27:58"/>
-            <when xml:id="TS588" synch="#AW293" absolute="1:28:00"/>
-            <when xml:id="TS589" synch="#LPF294" absolute="1:28:05"/>
-            <when xml:id="TS590" synch="#AW294" absolute="1:28:09"/>
-            <when xml:id="TS591" synch="#LPF295" absolute="1:28:50"/>
-            <when xml:id="TS592" synch="#AW295" absolute="1:28:53"/>
-            <when xml:id="TS593" synch="#LPF296" absolute="1:28:54"/>
-            <when xml:id="TS594" synch="#AW296" absolute="1:28:55"/>
-            <when xml:id="TS595" synch="#LPF297" absolute="1:29:01"/>
-            <when xml:id="TS596" synch="#AW297" absolute="1:29:04"/>
-            <when xml:id="TS597" synch="#LPF298" absolute="1:29:31"/>
-            <when xml:id="TS598" synch="#AW298" absolute="1:29:32"/>
-            <when xml:id="TS599" synch="#LPF299" absolute="1:29:33"/>
-            <when xml:id="TS600" synch="#AW299" absolute="1:29:34"/>
-            <when xml:id="TS601" synch="#LPF300" absolute="1:29:38"/>
-            <when xml:id="TS602" synch="#AW300" absolute="1:29:39"/>
-            <when xml:id="TS603" synch="#LPF301" absolute="1:29:42"/>
-            <when xml:id="TS604" synch="#AW301" absolute="1:29:45"/>
-            <when xml:id="TS605" synch="#LPF302" absolute="1:29:55"/>
-            <when xml:id="TS606" synch="#AW302" absolute="1:29:56"/>
-            <when xml:id="TS607" synch="#LPF303" absolute="1:31:37"/>
-            <when xml:id="TS608" synch="#AW303" absolute="1:31:38"/>
-            <when xml:id="TS609" synch="#LPF304" absolute="1:33:54"/>
-            <when xml:id="TS610" synch="#AW304" absolute="1:33:58"/>
-            <when xml:id="TS611" synch="#LPF305" absolute="1:34:01"/>
-            <when xml:id="TS612" synch="#AW305" absolute="1:34:03"/>
-            <when xml:id="TS613" synch="#LPF306" absolute="1:34:04"/>
-            <when xml:id="TS614" synch="#AW306" absolute="1:34:05"/>
-            <when xml:id="TS615" synch="#LPF307" absolute="1:34:08"/>
-            <when xml:id="TS616" synch="#AW307" absolute="1:34:14"/>
-            <when xml:id="TS617" synch="#LPF308" absolute="1:34:36"/>
-            <when xml:id="TS618" synch="#AW308" absolute="1:34:38"/>
+            <when xml:id="TS387" synch="#LPF193" absolute="01:00:56"/>
+            <when xml:id="TS388" synch="#AW193" absolute="01:00:58"/>
+            <when xml:id="TS389" synch="#LPF194" absolute="01:01:24"/>
+            <when xml:id="TS390" synch="#AW194" absolute="01:01:25"/>
+            <when xml:id="TS391" synch="#LPF195" absolute="01:01:28"/>
+            <when xml:id="TS392" synch="#AW195" absolute="01:01:29"/>
+            <when xml:id="TS393" synch="#LPF196" absolute="01:01:30"/>
+            <when xml:id="TS394" synch="#AW196" absolute="01:01:38"/>
+            <when xml:id="TS395" synch="#LPF197" absolute="01:01:39"/>
+            <when xml:id="TS396" synch="#AW197" absolute="01:01:42"/>
+            <when xml:id="TS397" synch="#LPF198" absolute="01:01:45"/>
+            <when xml:id="TS398" synch="#AW198" absolute="01:01:46"/>
+            <when xml:id="TS399" synch="#LPF199" absolute="01:03:24"/>
+            <when xml:id="TS400" synch="#AW199" absolute="01:03:26"/>
+            <when xml:id="TS401" synch="#LPF200" absolute="01:03:32"/>
+            <when xml:id="TS402" synch="#AW200" absolute="01:03:33"/>
+            <when xml:id="TS403" synch="#LPF201" absolute="01:03:35"/>
+            <when xml:id="TS404" synch="#AW201" absolute="01:03:37"/>
+            <when xml:id="TS405" synch="#LPF202" absolute="01:03:42"/>
+            <when xml:id="TS406" synch="#AW202" absolute="01:03:44"/>
+            <when xml:id="TS407" synch="#LPF203" absolute="01:04:02"/>
+            <when xml:id="TS408" synch="#AW203" absolute="01:04:09"/>
+            <when xml:id="TS409" synch="#LPF204" absolute="01:04:28"/>
+            <when xml:id="TS410" synch="#AW204" absolute="01:04:31"/>
+            <when xml:id="TS411" synch="#LPF205" absolute="01:04:33"/>
+            <when xml:id="TS412" synch="#AW205" absolute="01:04:51"/>
+            <when xml:id="TS413" synch="#LPF206" absolute="01:05:01"/>
+            <when xml:id="TS414" synch="#AW206" absolute="01:05:06"/>
+            <when xml:id="TS415" synch="#LPF207" absolute="01:05:18"/>
+            <when xml:id="TS416" synch="#AW207" absolute="01:05:31"/>
+            <when xml:id="TS417" synch="#LPF208" absolute="01:06:05"/>
+            <when xml:id="TS418" synch="#AW208" absolute="01:06:05"/>
+            <when xml:id="TS419" synch="#LPF209" absolute="01:06:12"/>
+            <when xml:id="TS420" synch="#AW209" absolute="01:06:18"/>
+            <when xml:id="TS421" synch="#LPF210" absolute="01:07:22"/>
+            <when xml:id="TS422" synch="#AW210" absolute="01:07:25"/>
+            <when xml:id="TS423" synch="#LPF211" absolute="01:08:06"/>
+            <when xml:id="TS424" synch="#AW211" absolute="01:08:09"/>
+            <when xml:id="TS425" synch="#LPF212" absolute="01:08:16"/>
+            <when xml:id="TS426" synch="#AW212" absolute="01:08:19"/>
+            <when xml:id="TS427" synch="#LPF213" absolute="01:08:59"/>
+            <when xml:id="TS428" synch="#AW213" absolute="01:09:01"/>
+            <when xml:id="TS429" synch="#LPF214" absolute="01:09:32"/>
+            <when xml:id="TS430" synch="#AW214" absolute="01:09:33"/>
+            <when xml:id="TS431" synch="#LPF215" absolute="01:09:35"/>
+            <when xml:id="TS432" synch="#AW215" absolute="01:09:36"/>
+            <when xml:id="TS433" synch="#LPF216" absolute="01:09:37"/>
+            <when xml:id="TS434" synch="#AW216" absolute="01:09:38"/>
+            <when xml:id="TS435" synch="#LPF217" absolute="01:09:39"/>
+            <when xml:id="TS436" synch="#AW217" absolute="01:09:40"/>
+            <when xml:id="TS437" synch="#LPF218" absolute="01:10:07"/>
+            <when xml:id="TS438" synch="#AW218" absolute="01:10:08"/>
+            <when xml:id="TS439" synch="#LPF219" absolute="01:10:13"/>
+            <when xml:id="TS440" synch="#AW219" absolute="01:10:16"/>
+            <when xml:id="TS441" synch="#LPF220" absolute="01:10:34"/>
+            <when xml:id="TS442" synch="#AW220" absolute="01:10:37"/>
+            <when xml:id="TS443" synch="#LPF221" absolute="01:10:47"/>
+            <when xml:id="TS444" synch="#AW221" absolute="01:10:48"/>
+            <when xml:id="TS445" synch="#LPF222" absolute="01:11:05"/>
+            <when xml:id="TS446" synch="#AW222" absolute="01:11:07"/>
+            <when xml:id="TS447" synch="#LPF223" absolute="01:11:15"/>
+            <when xml:id="TS448" synch="#AW223" absolute="01:11:18"/>
+            <when xml:id="TS449" synch="#LPF224" absolute="01:11:25"/>
+            <when xml:id="TS450" synch="#AW224" absolute="01:11:28"/>
+            <when xml:id="TS451" synch="#LPF225" absolute="01:11:37"/>
+            <when xml:id="TS452" synch="#AW225" absolute="01:11:39"/>
+            <when xml:id="TS453" synch="#LPF226" absolute="01:11:46"/>
+            <when xml:id="TS454" synch="#AW226" absolute="01:11:48"/>
+            <when xml:id="TS455" synch="#LPF227" absolute="01:11:50"/>
+            <when xml:id="TS456" synch="#AW227" absolute="01:11:52"/>
+            <when xml:id="TS457" synch="#LPF228" absolute="01:12:07"/>
+            <when xml:id="TS458" synch="#AW228" absolute="01:12:10"/>
+            <when xml:id="TS459" synch="#LPF229" absolute="01:12:55"/>
+            <when xml:id="TS460" synch="#AW229" absolute="01:12:59"/>
+            <when xml:id="TS461" synch="#LPF230" absolute="01:13:08"/>
+            <when xml:id="TS462" synch="#AW230" absolute="01:13:19"/>
+            <when xml:id="TS463" synch="#LPF231" absolute="01:13:22"/>
+            <when xml:id="TS464" synch="#AW231" absolute="01:13:27"/>
+            <when xml:id="TS465" synch="#LPF232" absolute="01:13:31"/>
+            <when xml:id="TS466" synch="#AW232" absolute="01:13:34"/>
+            <when xml:id="TS467" synch="#LPF233" absolute="01:14:00"/>
+            <when xml:id="TS468" synch="#AW233" absolute="01:14:11"/>
+            <when xml:id="TS469" synch="#LPF234" absolute="01:14:13"/>
+            <when xml:id="TS470" synch="#AW234" absolute="01:14:16"/>
+            <when xml:id="TS471" synch="#LPF235" absolute="01:14:19"/>
+            <when xml:id="TS472" synch="#AW235" absolute="01:14:23"/>
+            <when xml:id="TS473" synch="#LPF236" absolute="01:14:28"/>
+            <when xml:id="TS474" synch="#AW236" absolute="01:14:33"/>
+            <when xml:id="TS475" synch="#LPF237" absolute="01:14:57"/>
+            <when xml:id="TS476" synch="#AW237" absolute="01:15:00"/>
+            <when xml:id="TS477" synch="#LPF238" absolute="01:15:17"/>
+            <when xml:id="TS478" synch="#AW238" absolute="01:15:19"/>
+            <when xml:id="TS479" synch="#LPF239" absolute="01:15:25"/>
+            <when xml:id="TS480" synch="#AW239" absolute="01:15:28"/>
+            <when xml:id="TS481" synch="#LPF240" absolute="01:16:40"/>
+            <when xml:id="TS482" synch="#AW240" absolute="01:16:44"/>
+            <when xml:id="TS483" synch="#LPF241" absolute="01:17:31"/>
+            <when xml:id="TS484" synch="#AW241" absolute="01:17:32"/>
+            <when xml:id="TS485" synch="#LPF242" absolute="01:17:41"/>
+            <when xml:id="TS486" synch="#AW242" absolute="01:17:45"/>
+            <when xml:id="TS487" synch="#LPF243" absolute="01:17:46"/>
+            <when xml:id="TS488" synch="#AW243" absolute="01:17:54"/>
+            <when xml:id="TS489" synch="#LPF244" absolute="01:18:15"/>
+            <when xml:id="TS490" synch="#AW244" absolute="01:18:17"/>
+            <when xml:id="TS491" synch="#LPF245" absolute="01:18:19"/>
+            <when xml:id="TS492" synch="#AW245" absolute="01:18:20"/>
+            <when xml:id="TS493" synch="#LPF246" absolute="01:18:35"/>
+            <when xml:id="TS494" synch="#AW246" absolute="01:18:37"/>
+            <when xml:id="TS495" synch="#LPF247" absolute="01:18:39"/>
+            <when xml:id="TS496" synch="#AW247" absolute="01:18:42"/>
+            <when xml:id="TS497" synch="#LPF248" absolute="01:19:03"/>
+            <when xml:id="TS498" synch="#AW248" absolute="01:19:03"/>
+            <when xml:id="TS499" synch="#LPF249" absolute="01:19:10"/>
+            <when xml:id="TS500" synch="#AW249" absolute="01:19:18"/>
+            <when xml:id="TS501" synch="#LPF250" absolute="01:20:02"/>
+            <when xml:id="TS502" synch="#AW250" absolute="01:20:06"/>
+            <when xml:id="TS503" synch="#LPF251" absolute="01:20:09"/>
+            <when xml:id="TS504" synch="#AW251" absolute="01:20:09"/>
+            <when xml:id="TS505" synch="#LPF252" absolute="01:20:14"/>
+            <when xml:id="TS506" synch="#AW252" absolute="01:20:21"/>
+            <when xml:id="TS507" synch="#LPF253" absolute="01:20:23"/>
+            <when xml:id="TS508" synch="#AW253" absolute="01:20:25"/>
+            <when xml:id="TS509" synch="#LPF254" absolute="01:20:33"/>
+            <when xml:id="TS510" synch="#AW254" absolute="01:20:34"/>
+            <when xml:id="TS511" synch="#LPF255" absolute="01:20:55"/>
+            <when xml:id="TS512" synch="#AW255" absolute="01:20:58"/>
+            <when xml:id="TS513" synch="#LPF256" absolute="01:21:00"/>
+            <when xml:id="TS514" synch="#AW256" absolute="01:21:01"/>
+            <when xml:id="TS515" synch="#LPF257" absolute="01:21:03"/>
+            <when xml:id="TS516" synch="#AW257" absolute="01:21:05"/>
+            <when xml:id="TS517" synch="#LPF258" absolute="01:21:06"/>
+            <when xml:id="TS518" synch="#AW258" absolute="01:21:07"/>
+            <when xml:id="TS519" synch="#LPF259" absolute="01:21:09"/>
+            <when xml:id="TS520" synch="#AW259" absolute="01:21:13"/>
+            <when xml:id="TS521" synch="#LPF260" absolute="01:21:17"/>
+            <when xml:id="TS522" synch="#AW260" absolute="01:21:24"/>
+            <when xml:id="TS523" synch="#LPF261" absolute="01:21:26"/>
+            <when xml:id="TS524" synch="#AW261" absolute="01:21:28"/>
+            <when xml:id="TS525" synch="#LPF262" absolute="01:21:33"/>
+            <when xml:id="TS526" synch="#AW262" absolute="01:21:34"/>
+            <when xml:id="TS527" synch="#LPF263" absolute="01:21:35"/>
+            <when xml:id="TS528" synch="#AW263" absolute="01:21:36"/>
+            <when xml:id="TS529" synch="#LPF264" absolute="01:21:39"/>
+            <when xml:id="TS530" synch="#AW264" absolute="01:21:41"/>
+            <when xml:id="TS531" synch="#LPF265" absolute="01:22:10"/>
+            <when xml:id="TS532" synch="#AW265" absolute="01:22:14"/>
+            <when xml:id="TS533" synch="#LPF266" absolute="01:22:15"/>
+            <when xml:id="TS534" synch="#AW266" absolute="01:22:16"/>
+            <when xml:id="TS535" synch="#LPF267" absolute="01:22:39"/>
+            <when xml:id="TS536" synch="#AW267" absolute="01:22:43"/>
+            <when xml:id="TS537" synch="#LPF268" absolute="01:22:44"/>
+            <when xml:id="TS538" synch="#AW268" absolute="01:22:47"/>
+            <when xml:id="TS539" synch="#LPF269" absolute="01:23:07"/>
+            <when xml:id="TS540" synch="#AW269" absolute="01:23:15"/>
+            <when xml:id="TS541" synch="#LPF270" absolute="01:23:31"/>
+            <when xml:id="TS542" synch="#AW270" absolute="01:23:34"/>
+            <when xml:id="TS543" synch="#LPF271" absolute="01:23:39"/>
+            <when xml:id="TS544" synch="#AW271" absolute="01:23:40"/>
+            <when xml:id="TS545" synch="#LPF272" absolute="01:23:42"/>
+            <when xml:id="TS546" synch="#AW272" absolute="01:23:44"/>
+            <when xml:id="TS547" synch="#LPF273" absolute="01:23:52"/>
+            <when xml:id="TS548" synch="#AW273" absolute="01:23:54"/>
+            <when xml:id="TS549" synch="#LPF274" absolute="01:23:58"/>
+            <when xml:id="TS550" synch="#AW274" absolute="01:24:05"/>
+            <when xml:id="TS551" synch="#LPF275" absolute="01:24:17"/>
+            <when xml:id="TS552" synch="#AW275" absolute="01:24:18"/>
+            <when xml:id="TS553" synch="#LPF276" absolute="01:24:21"/>
+            <when xml:id="TS554" synch="#AW276" absolute="01:24:32"/>
+            <when xml:id="TS555" synch="#LPF277" absolute="01:24:33"/>
+            <when xml:id="TS556" synch="#AW277" absolute="01:24:38"/>
+            <when xml:id="TS557" synch="#LPF278" absolute="01:24:47"/>
+            <when xml:id="TS558" synch="#AW278" absolute="01:24:53"/>
+            <when xml:id="TS559" synch="#LPF279" absolute="01:24:55"/>
+            <when xml:id="TS560" synch="#AW279" absolute="01:24:56"/>
+            <when xml:id="TS561" synch="#LPF280" absolute="01:24:59"/>
+            <when xml:id="TS562" synch="#AW280" absolute="01:25:06"/>
+            <when xml:id="TS563" synch="#LPF281" absolute="01:25:08"/>
+            <when xml:id="TS564" synch="#AW281" absolute="01:25:12"/>
+            <when xml:id="TS565" synch="#LPF282" absolute="01:25:17"/>
+            <when xml:id="TS566" synch="#AW282" absolute="01:25:21"/>
+            <when xml:id="TS567" synch="#LPF283" absolute="01:26:13"/>
+            <when xml:id="TS568" synch="#AW283" absolute="01:26:16"/>
+            <when xml:id="TS569" synch="#LPF284" absolute="01:26:26"/>
+            <when xml:id="TS570" synch="#AW284" absolute="01:26:30"/>
+            <when xml:id="TS571" synch="#LPF285" absolute="01:26:32"/>
+            <when xml:id="TS572" synch="#AW285" absolute="01:26:35"/>
+            <when xml:id="TS573" synch="#LPF286" absolute="01:26:36"/>
+            <when xml:id="TS574" synch="#AW286" absolute="01:26:37"/>
+            <when xml:id="TS575" synch="#LPF287" absolute="01:26:39"/>
+            <when xml:id="TS576" synch="#AW287" absolute="01:26:42"/>
+            <when xml:id="TS577" synch="#LPF288" absolute="01:26:46"/>
+            <when xml:id="TS578" synch="#AW288" absolute="01:26:52"/>
+            <when xml:id="TS579" synch="#LPF289" absolute="01:26:54"/>
+            <when xml:id="TS580" synch="#AW289" absolute="01:26:57"/>
+            <when xml:id="TS581" synch="#LPF290" absolute="01:27:24"/>
+            <when xml:id="TS582" synch="#AW290" absolute="01:27:25"/>
+            <when xml:id="TS583" synch="#LPF291" absolute="01:27:45"/>
+            <when xml:id="TS584" synch="#AW291" absolute="01:27:48"/>
+            <when xml:id="TS585" synch="#LPF292" absolute="01:27:49"/>
+            <when xml:id="TS586" synch="#AW292" absolute="01:27:52"/>
+            <when xml:id="TS587" synch="#LPF293" absolute="01:27:58"/>
+            <when xml:id="TS588" synch="#AW293" absolute="01:28:00"/>
+            <when xml:id="TS589" synch="#LPF294" absolute="01:28:05"/>
+            <when xml:id="TS590" synch="#AW294" absolute="01:28:09"/>
+            <when xml:id="TS591" synch="#LPF295" absolute="01:28:50"/>
+            <when xml:id="TS592" synch="#AW295" absolute="01:28:53"/>
+            <when xml:id="TS593" synch="#LPF296" absolute="01:28:54"/>
+            <when xml:id="TS594" synch="#AW296" absolute="01:28:55"/>
+            <when xml:id="TS595" synch="#LPF297" absolute="01:29:01"/>
+            <when xml:id="TS596" synch="#AW297" absolute="01:29:04"/>
+            <when xml:id="TS597" synch="#LPF298" absolute="01:29:31"/>
+            <when xml:id="TS598" synch="#AW298" absolute="01:29:32"/>
+            <when xml:id="TS599" synch="#LPF299" absolute="01:29:33"/>
+            <when xml:id="TS600" synch="#AW299" absolute="01:29:34"/>
+            <when xml:id="TS601" synch="#LPF300" absolute="01:29:38"/>
+            <when xml:id="TS602" synch="#AW300" absolute="01:29:39"/>
+            <when xml:id="TS603" synch="#LPF301" absolute="01:29:42"/>
+            <when xml:id="TS604" synch="#AW301" absolute="01:29:45"/>
+            <when xml:id="TS605" synch="#LPF302" absolute="01:29:55"/>
+            <when xml:id="TS606" synch="#AW302" absolute="01:29:56"/>
+            <when xml:id="TS607" synch="#LPF303" absolute="01:31:37"/>
+            <when xml:id="TS608" synch="#AW303" absolute="01:31:38"/>
+            <when xml:id="TS609" synch="#LPF304" absolute="01:33:54"/>
+            <when xml:id="TS610" synch="#AW304" absolute="01:33:58"/>
+            <when xml:id="TS611" synch="#LPF305" absolute="01:34:01"/>
+            <when xml:id="TS612" synch="#AW305" absolute="01:34:03"/>
+            <when xml:id="TS613" synch="#LPF306" absolute="01:34:04"/>
+            <when xml:id="TS614" synch="#AW306" absolute="01:34:05"/>
+            <when xml:id="TS615" synch="#LPF307" absolute="01:34:08"/>
+            <when xml:id="TS616" synch="#AW307" absolute="01:34:14"/>
+            <when xml:id="TS617" synch="#LPF308" absolute="01:34:36"/>
+            <when xml:id="TS618" synch="#AW308" absolute="01:34:38"/>
         </timeline>
         
     </standOff>
@@ -3412,7 +3455,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW191" synch="#TS384"/><!--campi che si vedevano?; parlano?-->
-                    <anchor xml:id="arm-287" synch="#TT287"/><del type="repetition">no<pause/> no<pause/></del><anchor xml:id="arm-288" synch="#TT288"/> no<pause/> furono normali<anchor xml:id="arm-289" synch="#TT289"/><pause/> solo<anchor xml:id="arm-290" synch="#TT290"/> che alcuni ci <unclear reason="inaudible" resp="#GB" cert="low"><del type="truncation">ri</del></unclear> riferirono subito<pause/> <vocal>ehm</vocal> cos'era successo con le nostre famiglie<pause/> e altri che li smentivano che dicevano che sono matti<pause/> a raccontare <unclear reason="inaudible" resp="#GB" cert="medium">che</unclear> le nostre famiglie sono<pause/> in quei campi che si vedeva da <unclear reason="inaudible" resp="#GB" cert="medium">lì</unclear> in lontananza che era il campo femminile<pause/> e il campo degli zingari<pause/> dove si vedevano<pause/> non si poteva <unclear reason="inaudible" resp="#GB" cert="medium"><distinct type="archaic">discernere</distinct></unclear> che c'erano anche i bambini<pause/> ma si vedeva che c'era una massa di <distinct type="slang">gente</distinct><pause/> dicevano <q type="spoken"><gap reason="inaudible" resp="#GB" extent="1 word"/> sono di là le vostre famiglie son tutte di là</q><pause/> altri invece volevano metterci subito al corrente di ciò che era successo<pause/> eee <unclear reason="inaudible" resp="#GB" cert="low">per ora</unclear> in preponderanza eravamo<pause/> quasi convinti che fosse vero<pause/> ciò che ci avevano detto alcuni di loro e cioè che le nostre famiglie vivevano<pause/> in un secondo campo<pause/> purtroppo<pause/> ioo<pause/> ebbi occasione più tardi di sentire il discorso<pause/> di due<pause/> <!--<persName><roleName>-->medici<!--</roleName>--> ebrei polacchi<!--</persName>--><pause/> che non<pause/> potendo immaginare che io <choice><sic>capira a loro</sic><corr resp="#GB">capivo</corr></choice> come parlano stavano parlando in yiddish<pause/> e stavano dicendo <q type="spoken">guarda questi qui<pause/> durante la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> son stati<pause/> gassificati<pause/> tutto il <del type="truncation">rest</del></q><incident><desc>rumore della sedia che si piega</desc></incident>
+                    <anchor xml:id="arm-287" synch="#TT287"/><del type="repetition">no<pause/> no<pause/></del><anchor xml:id="arm-288" synch="#TT288"/> no<pause/> furono normali<anchor xml:id="arm-289" synch="#TT289"/><pause/> solo<anchor xml:id="arm-290" synch="#TT290"/> che alcuni ci <unclear reason="inaudible" resp="#GB" cert="low"><del type="truncation">ri</del></unclear> riferirono subito<pause/> <vocal>ehm</vocal> cos'era successo con le nostre famiglie<pause/> e altri che li smentivano che dicevano che sono matti<pause/> a raccontare <unclear reason="inaudible" resp="#GB" cert="medium">che</unclear> le nostre famiglie sono<pause/> in quei campi che si vedeva da <unclear reason="inaudible" resp="#GB" cert="medium">lì</unclear> in lontananza che era il campo femminile<pause/> e il campo degli zingari<pause/> dove si vedevano<pause/> non si poteva <unclear reason="inaudible" resp="#GB" cert="medium"><distinct type="archaic">discernere</distinct></unclear> che c'erano anche i bambini<pause/> ma si vedeva che c'era una massa di <distinct type="slang">gente</distinct><pause/> dicevano <q type="spoken"><gap reason="inaudible" resp="#GB" extent="1 word"/> sono di là le vostre famiglie son tutte di là</q><pause/> altri invece volevano metterci subito al corrente di ciò che era successo<pause/> eee <unclear reason="inaudible" resp="#GB" cert="low">per ora</unclear> in preponderanza eravamo<pause/> quasi convinti che fosse vero<pause/> ciò che ci avevano detto alcuni di loro e cioè che le nostre famiglie vivevano<pause/> in un secondo campo<pause/> purtroppo<pause/> ioo<pause/> ebbi occasione più tardi di sentire il discorso<pause/> di due<pause/> <!--<persName><roleName>-->medici<!--</roleName>--> ebrei polacchi<!--</persName>--><pause/> che non<pause/> potendo immaginare che io <choice><sic>capira a loro</sic><corr resp="#GB">capivo</corr></choice> come parlano stavano parlando in <lang>yiddish</lang><pause/> e stavano dicendo <q type="spoken">guarda questi qui<pause/> durante la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> son stati<pause/> gassificati<pause/> tutto il <del type="truncation">rest</del></q><incident><desc>rumore della sedia che si piega</desc></incident>
                 </u>
 
                 <u who="#LPF"/>
