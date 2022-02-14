@@ -164,6 +164,11 @@
                         <placeName ref="https://www.geonames.org/3064268 https://www.treccani.it/enciclopedia/terezin/">Theresienstadt</placeName>
                         <country key="CZ">Repubblica Ceca</country>
                     </place>
+
+                    <place xml:id="Jaworzno"><!--wikipedia: su treccani.it non c'è la voce-->
+                        <placeName ref="https://www.geonames.org/3097333 https://it.wikipedia.org/wiki/Jaworzno">Jaworzno</placeName>
+                        <country key="PL">Polonia</country>
+                    </place>
                 </listPlace>
             
             </sourceDesc>
