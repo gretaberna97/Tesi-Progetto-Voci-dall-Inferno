@@ -159,6 +159,11 @@
                         <country notAfter="1919">Austria-Ungheria</country>
                         <note resp="#GB">Stato esistito tra il 1867 e il 1919</note>
                     </place>
+
+                    <place xml:id="Terezin">
+                        <placeName ref="https://www.geonames.org/3064268 https://www.treccani.it/enciclopedia/terezin/">Theresienstadt</placeName>
+                        <country key="CZ">Repubblica Ceca</country>
+                    </place>
                 </listPlace>
             
             </sourceDesc>
