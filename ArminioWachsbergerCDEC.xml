@@ -211,16 +211,16 @@
 
                                 Il numero di matricola di <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> era 158.639.
 
-                                Per quanto riguarda il cibo la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> veniva servito una specie di <soCalled>tè caldo</soCalled> che veniva cucinato nella cucina centrale di <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> e poi distribuito nelle varie baracche. A <time from="12:00:00" to="14:00:00" resp="#GB" cert="medium">pranzo</time> c'era una zuppa di rape, quelle destinate al bestiame, e la <time from="18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time> di nuovo il tè, del pane da dividere in 5 parti, un cucchiaio di marmellata e un cucchiaio di margarina. I prigionieri avevano talmente fame che alcuni mangiavano subito il pane per paura che qualcuno durante la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> lo rubasse e altri invece lo rubarono ai propri familiari.
+                                Per quanto riguarda il cibo la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> veniva servito una specie di <soCalled>tè caldo</soCalled> che veniva cucinato nella cucina centrale di <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> e poi distribuito nelle varie baracche. A <time from="12:00:00" to="14:00:00" resp="#GB" cert="medium">pranzo</time> c'era una zuppa di rape, quelle destinate al bestiame, e la <time from="18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time> di nuovo il tè, del pane da dividere in 5 parti, un cucchiaio di marmellata e un cucchiaio di margarina. I prigionieri avevano talmente fame che alcuni mangiavano subito il pane per paura che qualcuno durante la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> lo rubasse e altri invece lo rubarono ai propri familiari.
 
                                 Alle <time when="04:00:00">4 di mattina</time> c'era la sveglia, alle <time when="04:30:00">4 e mezza</time> l'appello e verso le <time when="05:00:00">5</time>, <time when="05:30:00">5 e mezza</time>, la formazione dei comandi di lavoro che uscivano dal campo per andare nelle fabbriche. Il rientro avveniva tra le <time from="17:00:00" to="18:00:00">17 e le 18</time> e veniva fatto un nuovo appello.
 
                                 L'appello veniva fatto davanti alla baracca e dovevano parteciparvi tutti anche moribondi e i morti. All'inizio veniva fatto dal capo baracca e successivamente dal <term ref="#rapportfuhrer"><foreing xml:lang="de">rapportfuhrer</foreing></term> che verificava se i dati dati dal capo baracca corrispondevano: se ciò non accadeva dovevano ricominciare la conta. L'appello durava molto: terminava velocemente in giornate limpide ma non in quelle nebbiose dove la probabilità che i prigionieri tentassero la fuga era maggiore. Dovevano stare in piedi stremati fino all'uscita dal campo della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice>. Altro motivo per cui l'appello durava molto: c'era un solo controllore per ogni campo. In caso di fuga c'era un allarme, tutto si bloccava fino alla ripresa del prigioniero o della constatazione che non era più possibile riprenderlo.
-                                Le probabilità di fuga erano maggiori fuori dal campo: <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> ricorda <persName ref="TEI-ListPerson.xml#RudolfV">Vrba</persName>, prigionero fuggito da <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName>.
+                                Le probabilità di fuga erano maggiori fuori dal campo: <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> ricorda <persName ref="TEI-ListPerson.xml#RudolfV">Vrba</persName>, prigionero fuggito da <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName>.
 
                                 Nella baracca l'illuminazione era appena sufficiente, durante la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> ognuno doveva rimanere nel proprio giaciglio: tra le <time from="22:00:00" to="23:00:00">22 e le 23</time> tutti dovevano essere nei propri giacigli con una coperta per 5.
 
-                               <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> ricorda la sadica sevizia fatta dalle <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> nell'obbligare i prigionieri di tutta una baracca a fare la cosiddetta <soCalled>ginnastica</soCalled> nel fango alto di <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName>: li distruggeva, alcuni morirono e altri venivano puniti perché non seguivano immediatamente gli ordini. <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> ricorda un altro uomo che morì dopo la disinfezione a causa del freddo: dovettero portare il cadavere fino alla porta del campo dove lo avrebbero trasportato con i camion al crematorio. Altra violenza la subirono dei campi di lavoro interni da parte dei <foreing xml:lang="de">kapò</foreing>.
+                               <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> ricorda la sadica sevizia fatta dalle <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> nell'obbligare i prigionieri di tutta una baracca a fare la cosiddetta <soCalled>ginnastica</soCalled> nel fango alto di <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName>: li distruggeva, alcuni morirono e altri venivano puniti perché non seguivano immediatamente gli ordini. <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> ricorda un altro uomo che morì dopo la disinfezione a causa del freddo: dovettero portare il cadavere fino alla porta del campo dove lo avrebbero trasportato con i camion al crematorio. Altra violenza la subirono dei campi di lavoro interni da parte dei <foreing xml:lang="de">kapò</foreing>.
                                C'erano visite di ispezione che avveniva quotidianamente.
                             </item>
 
@@ -1000,11 +1000,65 @@
             <when xml:id="TT491" absolute="00:06:49" synch="#arm-491"/> 
             <when xml:id="TT492" since="#TT491" interval="2"/>
 
-            <when xml:id="TT493" absolute="00:09:52" synch="#lpf-493"/> 
+            <when xml:id="TT493" absolute="00:09:56" synch="#lpf-493"/> 
             <when xml:id="TT494" since="#TT493" interval="2"/>
 
-            <when xml:id="TT495" absolute="00:06:56" synch="#lpf-495"/> 
+            <when xml:id="TT495" absolute="00:09:52" synch="#lpf-495"/> 
             <when xml:id="TT496" since="#TT495" interval="2"/>
+
+            <when xml:id="TT497" absolute="00:10:26" synch="#lpf-497"/> 
+            <when xml:id="TT498" since="#TT497" interval="1"/>
+
+            <when xml:id="TT499" absolute="00:11:02" synch="#lpf-499"/> 
+            <when xml:id="TT500" since="#TT499" interval="1"/>
+
+            <when xml:id="TT501" absolute="00:11:09" synch="#arm-501"/> 
+            <when xml:id="TT502" since="#TT501" interval="1"/>
+
+            <when xml:id="TT503" absolute="00:11:26" synch="#lpf-503"/> 
+            <when xml:id="TT504" since="#TT503" interval="1"/>
+
+            <when xml:id="TT505" absolute="00:11:33" synch="#lpf-505"/> 
+            <when xml:id="TT506" since="#TT505" interval="1"/>
+
+            <when xml:id="TT507" absolute="00:11:48" synch="#lpf-507"/> 
+            <when xml:id="TT508" since="#TT507" interval="1"/>
+
+            <when xml:id="TT509" absolute="00:11:51" synch="#lpf-509"/> 
+            <when xml:id="TT510" since="#TT509" interval="1"/>
+
+            <when xml:id="TT511" absolute="00:12:07" synch="#lpf-511"/> 
+            <when xml:id="TT512" since="#TT511" interval="1"/>
+
+            <when xml:id="TT513" absolute="00:12:33" synch="#lpf-513"/> 
+            <when xml:id="TT514" since="#TT513" interval="1"/>
+
+            <when xml:id="TT515" absolute="00:12:35" synch="#lpf-515"/> 
+            <when xml:id="TT516" since="#TT515" interval="1"/>
+
+            <when xml:id="TT517" absolute="00:13:02" synch="#arm-517"/> 
+            <when xml:id="TT518" since="#TT517" interval="1"/>
+
+            <when xml:id="TT519" absolute="00:13:05" synch="#lpf-519"/> 
+            <when xml:id="TT520" since="#TT519" interval="1"/>
+
+            <when xml:id="TT521" absolute="00:13:07" synch="#lpf-521"/> 
+            <when xml:id="TT522" since="#TT521" interval="2"/>
+
+            <when xml:id="TT523" absolute="00:13:12" synch="#lpf-523"/> 
+            <when xml:id="TT524" since="#TT523" interval="1"/>
+
+            <when xml:id="TT525" absolute="00:13:20" synch="#lpf-525"/> 
+            <when xml:id="TT526" since="#TT525" interval="1"/>
+
+            <when xml:id="TT527" absolute="00:13:29" synch="#lpf-527"/> 
+            <when xml:id="TT528" since="#TT527" interval="1"/>
+
+            <when xml:id="TT529" absolute="00:13:33" synch="#lpf-529"/> 
+            <when xml:id="TT530" since="#TT529" interval="2"/>
+
+            <when xml:id="TT531" absolute="00:13:40" synch="#lpf-531"/> 
+            <when xml:id="TT532" since="#TT531" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -1693,6 +1747,54 @@
             <when xml:id="TS680" synch="#AW339" absolute="00:09:56"/>
             <when xml:id="TS681" synch="#LPF340" absolute="00:10:20"/>
             <when xml:id="TS682" synch="#AW340" absolute="00:10:26"/>
+            <when xml:id="TS683" synch="#LPF341" absolute="00:10:51"/>
+            <when xml:id="TS684" synch="#AW341" absolute="00:10:56"/>
+            <when xml:id="TS685" synch="#LPF342" absolute="00:10:59"/>
+            <when xml:id="TS686" synch="#AW342" absolute="00:11:02"/>
+            <when xml:id="TS687" synch="#LPF343" absolute="00:11:09"/>
+            <when xml:id="TS688" synch="#AW343" absolute="00:11:13"/>
+            <when xml:id="TS689" synch="#LPF344" absolute="00:11:17"/>
+            <when xml:id="TS690" synch="#AW344" absolute="00:11:18"/>
+            <when xml:id="TS691" synch="#LPF345" absolute="00:11:22"/>
+            <when xml:id="TS692" synch="#AW345" absolute="00:11:26"/>
+            <when xml:id="TS693" synch="#LPF346" absolute="00:11:30"/>
+            <when xml:id="TS694" synch="#AW346" absolute="00:11:34"/>
+            <when xml:id="TS695" synch="#LPF347" absolute="00:11:35"/>
+            <when xml:id="TS696" synch="#AW347" absolute="00:11:37"/>
+            <when xml:id="TS697" synch="#LPF348" absolute="00:11:46"/>
+            <when xml:id="TS698" synch="#AW348" absolute="00:11:48"/>
+            <when xml:id="TS699" synch="#LPF349" absolute="00:11:49"/>
+            <when xml:id="TS700" synch="#AW349" absolute="00:11:52"/>
+            <when xml:id="TS701" synch="#LPF350" absolute="00:11:54"/>
+            <when xml:id="TS702" synch="#AW350" absolute="00:11:57"/>
+            <when xml:id="TS703" synch="#LPF351" absolute="00:12:05"/>
+            <when xml:id="TS704" synch="#AW351" absolute="00:12:09"/>
+            <when xml:id="TS705" synch="#LPF352" absolute="00:12:11"/>
+            <when xml:id="TS706" synch="#AW352" absolute="00:12:12"/>
+            <when xml:id="TS707" synch="#LPF353" absolute="00:12:30"/>
+            <when xml:id="TS708" synch="#AW353" absolute="00:12:33"/>
+            <when xml:id="TS709" synch="#LPF354" absolute="00:12:34"/>
+            <when xml:id="TS710" synch="#AW354" absolute="00:12:35"/>
+            <when xml:id="TS711" synch="#LPF355" absolute="00:12:39"/>
+            <when xml:id="TS712" synch="#AW355" absolute="00:12:42"/>
+            <when xml:id="TS713" synch="#LPF356" absolute="00:12:43"/>
+            <when xml:id="TS714" synch="#AW356" absolute="00:12:48"/>
+            <when xml:id="TS715" synch="#LPF357" absolute="00:12:51"/>
+            <when xml:id="TS716" synch="#AW357" absolute="00:12:55"/>
+            <when xml:id="TS717" synch="#LPF358" absolute="00:13:04"/>
+            <when xml:id="TS718" synch="#AW358" absolute="00:13:13"/>
+            <when xml:id="TS719" synch="#LPF359" absolute="00:13:17"/>
+            <when xml:id="TS720" synch="#AW359" absolute="00:13:20"/>
+            <when xml:id="TS721" synch="#LPF360" absolute="00:13:25"/>
+            <when xml:id="TS722" synch="#AW360" absolute="00:13:26"/>
+            <when xml:id="TS723" synch="#LPF361" absolute="00:13:27"/>
+            <when xml:id="TS724" synch="#AW361" absolute="00:13:29"/>
+            <when xml:id="TS725" synch="#LPF362" absolute="00:13:30"/>
+            <when xml:id="TS726" synch="#AW362" absolute="00:13:35"/>
+            <when xml:id="TS727" synch="#LPF363" absolute="00:13:37"/>
+            <when xml:id="TS728" synch="#AW363" absolute="00:13:40"/>
+            <when xml:id="TS729" synch="#LPF364" absolute="00:13:42"/>
+            <when xml:id="TS730" synch="#AW364" absolute="00:13:46"/>
         </timeline>
         
     </standOff>
@@ -1740,7 +1842,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW5" synch="#TS10">
-                    coniugato<pause/> due volte la prima con<pause/> <persName ref="TEI-ListPerson.xml#ReginaP">Regina Polacco</persName><pause/> purtroppo scomparsa ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName><pause/> e attualmente coniugato con<pause/> <persName ref="TEI-ListPerson.xml#OlgaW">Olga Wiener</persName><pause/> nata a <placeName ref="TEI-ListPlace.xml#Sighet">Sighet</placeName> in <placeName ref="TEI-ListPlace.xml#Rou"><choice><sic>Rumania</sic><corr resp="#GB">Romania</corr></choice></placeName>
+                    coniugato<pause/> due volte la prima con<pause/> <persName ref="TEI-ListPerson.xml#ReginaP">Regina Polacco</persName><pause/> purtroppo scomparsa ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName><pause/> e attualmente coniugato con<pause/> <persName ref="TEI-ListPerson.xml#OlgaW">Olga Wiener</persName><pause/> nata a <placeName ref="TEI-ListPlace.xml#Sighet">Sighet</placeName> in <placeName ref="TEI-ListPlace.xml#ROU"><choice><sic>Rumania</sic><corr resp="#GB">Romania</corr></choice></placeName>
                 </u>
                 
                 <pause/>
@@ -2045,7 +2147,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW36" synch="#TS73">
-                   <choice><sic>si tedeschi</sic><corr resp="#GB">si di tedeschi</corr></choice> era piena <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName><pause/> anzi <del type="falseStart">i</del> <del type="reformulation">siccome io</del> contemporaneamente lavoravo<pause/> sempre nel negozio di ottica fotografia<pause/> avevo molti clienti tedeschi<pause/> dai quali<pause/> sentivo raccontare<pause/> ciò che stava succedendo in <placeName ref="TEI-ListPlace.xml#Russia">Russia</placeName><pause/> persino contro gli ebrei<pause/> ma ritenevo che fosse solo <distinct type="political">propaganda</distinct>
+                   <choice><sic>si tedeschi</sic><corr resp="#GB">si di tedeschi</corr></choice> era piena <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName><pause/> anzi <del type="falseStart">i</del> <del type="reformulation">siccome io</del> contemporaneamente lavoravo<pause/> sempre nel negozio di ottica fotografia<pause/> avevo molti clienti tedeschi<pause/> dai quali<pause/> sentivo raccontare<pause/> ciò che stava succedendo in <placeName ref="TEI-ListPlace.xml#RU">Russia</placeName><pause/> persino contro gli ebrei<pause/> ma ritenevo che fosse solo <distinct type="political">propaganda</distinct>
                 </u>
 
                 <pause/>
@@ -2781,7 +2883,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW109" synch="#TS220">
-                    <del type="repetition">si</del> si <del type="repetition">era</del> era anziana e morì durante il viaggio e<pause/> abbiamo dovuto tenerla con noi<pause/> fino ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName>
+                    <del type="repetition">si</del> si <del type="repetition">era</del> era anziana e morì durante il viaggio e<pause/> abbiamo dovuto tenerla con noi<pause/> fino ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName>
                 </u>
 
                 <u who="#LPF" xml:id="LPF110" synch="#TS221">
@@ -2813,7 +2915,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW113" synch="#TS228">
-                    <anchor xml:id="arm-163" synch="#TT163"/>assolutamente <del type="truncation">spera</del> <del type="correction">noi<anchor xml:id="arm-164" synch="#TT164"/> speravamo</del> che il <orgName>vaticano</orgName> <del type="truncation">a</del> facesse qualche cosa<pause/> <unclear reason="inaudible" resp="#GB" cert="low">solo che sia</unclear> che quando eravamo poi<pause/> a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName><pause/> nel campo di concentramento<pause/> una volta <vocal>ehm</vocal> <del type="truncation">s</del> siamo andati alla <place type="station">stazione <del type="repetition">di</del> di<pause/> <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName></place> per dei lavori da eseguire<pause/> e vedemmo dei preti<pause/> e noi pensavamo <q type="thought">ecco che adesso i preti verranno a salvarci</q> <pause/>ma<pause/> inutilmente
+                    <anchor xml:id="arm-163" synch="#TT163"/>assolutamente <del type="truncation">spera</del> <del type="correction">noi<anchor xml:id="arm-164" synch="#TT164"/> speravamo</del> che il <orgName>vaticano</orgName> <del type="truncation">a</del> facesse qualche cosa<pause/> <unclear reason="inaudible" resp="#GB" cert="low">solo che sia</unclear> che quando eravamo poi<pause/> a <placeName ref="TEI-ListPlace.xml#Wa">Varsavia</placeName><pause/> nel campo di concentramento<pause/> una volta <vocal>ehm</vocal> <del type="truncation">s</del> siamo andati alla <place type="station">stazione <del type="repetition">di</del> di<pause/> <placeName ref="TEI-ListPlace.xml#Wa">Varsavia</placeName></place> per dei lavori da eseguire<pause/> e vedemmo dei preti<pause/> e noi pensavamo <q type="thought">ecco che adesso i preti verranno a salvarci</q> <pause/>ma<pause/> inutilmente
                 </u>
                 
                 <u who="#LPF" xml:id="LPF114" synch="#TS229">
@@ -2821,7 +2923,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW114" synch="#TS230">
-                    <anchor xml:id="arm-165" synch="#TT165"/>si <del type="repetition">era la nostra speranza</del><pause/> era la nostra speranza<anchor xml:id="arm-166" synch="#TT166"/><pause/> si ne parlavamo fra di noi<pause/> e come ripeto appunto a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName> <unclear reason="inaudible" resp="#GB" cert="medium">abbiamemo</unclear> <del type="truncation">a</del><pause/> <del type="correction">abbiamo</del> avuto occasione di parlare con un prete<pause/> e <unclear reason="inaudible" resp="#GB" cert="medium">quello ci disse</unclear> <q type="spoken">ma come<pause/> se il <orgName>Vaticano</orgName> non può fare niente per i nostri fratelli<pause/> che sono rinchiusi nei campi di concentramento<pause/> figuriamoci se ha tempo di pensare agli ebrei</q>
+                    <anchor xml:id="arm-165" synch="#TT165"/>si <del type="repetition">era la nostra speranza</del><pause/> era la nostra speranza<anchor xml:id="arm-166" synch="#TT166"/><pause/> si ne parlavamo fra di noi<pause/> e come ripeto appunto a <placeName ref="TEI-ListPlace.xml#Wa">Varsavia</placeName> <unclear reason="inaudible" resp="#GB" cert="medium">abbiamemo</unclear> <del type="truncation">a</del><pause/> <del type="correction">abbiamo</del> avuto occasione di parlare con un prete<pause/> e <unclear reason="inaudible" resp="#GB" cert="medium">quello ci disse</unclear> <q type="spoken">ma come<pause/> se il <orgName>Vaticano</orgName> non può fare niente per i nostri fratelli<pause/> che sono rinchiusi nei campi di concentramento<pause/> figuriamoci se ha tempo di pensare agli ebrei</q>
                 </u>
 
                 <pause/>
@@ -3165,7 +3267,7 @@
                 <pause/>
 
                 <u who="#LPF" xml:id="LPF150" synch="#TS301">
-                    e<pause/> che giorno arrivaste ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName>
+                    e<pause/> che giorno arrivaste ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName>
                 </u>
 
                 <u who="#AW" xml:id="AW150" synch="#TS302"><!-- in realtà arrivò ad Auschwitz il 23 -->
@@ -3183,7 +3285,7 @@
                 <pause/>
 
                 <u who="#LPF" xml:id="LPF152" synch="#TS305">
-                    era <place type="station"><placeName ref="TEI-ListPlace.xml#Au">Auschwitz<anchor xml:id="lpf-215" synch="#TT215"/><pause/> stazione</placeName></place><anchor xml:id="lpf-216" synch="#TT216"/>
+                    era <place type="station"><placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz<anchor xml:id="lpf-215" synch="#TT215"/><pause/> stazione</placeName></place><anchor xml:id="lpf-216" synch="#TT216"/>
                 </u>
 
                 <u who="#AW" xml:id="AW152" synch="#TS306">
@@ -3208,7 +3310,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW154" synch="#TS310">
-                    una <anchor xml:id="arm-221" synch="#TT221"/><distinct type="technical">banchina</distinct> di <del type="truncation">arr</del><pause/> direttamente a <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName><anchor xml:id="arm-222" synch="#TT222"/><pause/> perché <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> è a <measure><num>4</num> <unit>km</unit></measure> da <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName>
+                    una <anchor xml:id="arm-221" synch="#TT221"/><distinct type="technical">banchina</distinct> di <del type="truncation">arr</del><pause/> direttamente a <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName><anchor xml:id="arm-222" synch="#TT222"/><pause/> perché <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> è a <measure><num>4</num> <unit>km</unit></measure> da <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName>
                 </u>
 
                 <pause/>
@@ -3396,7 +3498,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW174" synch="#TS350">
-                    non mi ricordo<pause/> e lì<pause/> <vocal>ehm</vocal><pause/> dato che mi sta chiedendo anche i particolari<pause/> personali<pause/> io avevo con me un<pause/> nuovo paio di scarpe di camoscio<pause/> che in tempo di guerra <unclear reason="inaudible" resp="#GB" cert="medium">erano</unclear> una rarità<pause/> e mi ricordo che un sergente della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> che stava dentro con noi nella baracca<pause/> mi chiese<pause/> se gliele regalavo<pause/> e io dissi <q type="spoken" who="#AW">tanto me le prendono lo stesso se <unclear reason="inaudible" resp="#GB" cert="medium"><del type="truncation">s</del></unclear><pause/> le prenda pure</q> e lui si prese queste scarpe<pause/> molti di noi<pause/> avevano ancora con sé dei gioielli<pause/> che erano riusciti a trattenere<pause/> durante la perquisizione<pause/> a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName><pause/> e nascosero questi gioielli sotto delle piastrelle che erano nella baracca<pause/> io invece<pause/> avevo con me perché l'unica cosa che si poteva trattenere <del type="truncation">o</del> dopo essersi spogliati<pause/> era<pause/> cinture di cuoio<pause/> occhiali<pause/> e<pause/> l'astuccio per gli occhiali<pause/> a proposito di <unclear reason="inaudible" resp="#GB" cert="high">astucci</unclear> per occhiali<pause/> io sono l'unico ad esser riuscito a <emph>riportare</emph> da <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName><pause/> una cosa che avevo portato ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> <unclear reason="inaudible" resp="#GB" cert="high">è</unclear> l'astuccio degli occhiali<pause/> ce l'ho ancora con me come ricordo<pause/> e <vocal>ehm</vocal> presi i due anelli <unclear reason="inaudible" resp="#GB" cert="low">che <del type="truncation">d</del> <del type="falseStart">di</del></unclear> <del type="correction">d'oro</del> che avevo con me<pause/> l'orologio nel frattempo mi era stato<pause/> tolto da unn sottufficiale<pause/> no da un<pause/> <emph><foreing xml:lang="de">kapò</foreing></emph><pause/> prigioniero
+                    non mi ricordo<pause/> e lì<pause/> <vocal>ehm</vocal><pause/> dato che mi sta chiedendo anche i particolari<pause/> personali<pause/> io avevo con me un<pause/> nuovo paio di scarpe di camoscio<pause/> che in tempo di guerra <unclear reason="inaudible" resp="#GB" cert="medium">erano</unclear> una rarità<pause/> e mi ricordo che un sergente della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> che stava dentro con noi nella baracca<pause/> mi chiese<pause/> se gliele regalavo<pause/> e io dissi <q type="spoken" who="#AW">tanto me le prendono lo stesso se <unclear reason="inaudible" resp="#GB" cert="medium"><del type="truncation">s</del></unclear><pause/> le prenda pure</q> e lui si prese queste scarpe<pause/> molti di noi<pause/> avevano ancora con sé dei gioielli<pause/> che erano riusciti a trattenere<pause/> durante la perquisizione<pause/> a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName><pause/> e nascosero questi gioielli sotto delle piastrelle che erano nella baracca<pause/> io invece<pause/> avevo con me perché l'unica cosa che si poteva trattenere <del type="truncation">o</del> dopo essersi spogliati<pause/> era<pause/> cinture di cuoio<pause/> occhiali<pause/> e<pause/> l'astuccio per gli occhiali<pause/> a proposito di <unclear reason="inaudible" resp="#GB" cert="high">astucci</unclear> per occhiali<pause/> io sono l'unico ad esser riuscito a <emph>riportare</emph> da <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName><pause/> una cosa che avevo portato ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> <unclear reason="inaudible" resp="#GB" cert="high">è</unclear> l'astuccio degli occhiali<pause/> ce l'ho ancora con me come ricordo<pause/> e <vocal>ehm</vocal> presi i due anelli <unclear reason="inaudible" resp="#GB" cert="low">che <del type="truncation">d</del> <del type="falseStart">di</del></unclear> <del type="correction">d'oro</del> che avevo con me<pause/> l'orologio nel frattempo mi era stato<pause/> tolto da unn sottufficiale<pause/> no da un<pause/> <emph><foreing xml:lang="de">kapò</foreing></emph><pause/> prigioniero
                 </u>
 
                 <u who="#LPF" xml:id="LPF175" synch="#TS351">
@@ -3590,7 +3692,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW192" synch="#TS386">
-                    <anchor xml:id="arm-293" synch="#TT293"/>dopo il vestiario<anchor xml:id="arm-294" synch="#TT294"/> ci portarono alla <place type="area">baracca 13<pause/> del<pause/> <term ref="#quarantena"><foreing xml:lang="de">quarantänelager</foreing></term></place> sarebbe il <gloss xml:id="quarantena">campo della quarantena</gloss><pause/> perché generalmente<pause/> i prigionieri rimanevano <date dur="P1M">un mese</date><pause/> a <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName><pause/> prima di venir smistati nei vari campi di lavoro della <placeName ref="TEI-ListPlace.xml#DE">Germania</placeName><pause/> o della <placeName ref="TEI-ListPlace.xml#PL">Polonia</placeName><pause/> e <del type="falseStart">nalla</del> <del type="reformulation">al</del> <place type="area"><term ref="#quarantena"><foreing xml:lang="de">quarantänelager</foreing></term></place><pause/> c'era anche<pause/> la<pause/> <vocal>ehm</vocal> baracca con le docce<pause/> separata da quella dell'arrivo<pause/> poi<pause/> le latrine<pause/> che sono state già descritte è inutile che le descriva io attualmente<pause/> che venivano<pause/> <vocal>ehm</vocal> guardate da <distinct type="technical">sentinelle</distinct><pause/> che erano ufficiali russi prigionieri<pause/> i quali dai loro campi di prigionia militare erano scappati<pause/> e ripresi dai tedeschi per punizione<pause/> portati ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName><pause/> a pulire le latrine
+                    <anchor xml:id="arm-293" synch="#TT293"/>dopo il vestiario<anchor xml:id="arm-294" synch="#TT294"/> ci portarono alla <place type="area">baracca 13<pause/> del<pause/> <term ref="#quarantena"><foreing xml:lang="de">quarantänelager</foreing></term></place> sarebbe il <gloss xml:id="quarantena">campo della quarantena</gloss><pause/> perché generalmente<pause/> i prigionieri rimanevano <date dur="P1M">un mese</date><pause/> a <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName><pause/> prima di venir smistati nei vari campi di lavoro della <placeName ref="TEI-ListPlace.xml#DE">Germania</placeName><pause/> o della <placeName ref="TEI-ListPlace.xml#PL">Polonia</placeName><pause/> e <del type="falseStart">nalla</del> <del type="reformulation">al</del> <place type="area"><term ref="#quarantena"><foreing xml:lang="de">quarantänelager</foreing></term></place><pause/> c'era anche<pause/> la<pause/> <vocal>ehm</vocal> baracca con le docce<pause/> separata da quella dell'arrivo<pause/> poi<pause/> le latrine<pause/> che sono state già descritte è inutile che le descriva io attualmente<pause/> che venivano<pause/> <vocal>ehm</vocal> guardate da <distinct type="technical">sentinelle</distinct><pause/> che erano ufficiali russi prigionieri<pause/> i quali dai loro campi di prigionia militare erano scappati<pause/> e ripresi dai tedeschi per punizione<pause/> portati ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName><pause/> a pulire le latrine
                 </u>
                 
                 <pause/>
@@ -3765,7 +3867,7 @@
                 <pause/>
 
                 <u who="#LPF" xml:id="LPF209" synch="#TS419">
-                    <vocal><desc>sospira</desc></vocal><pause/>qualcuno era anche smistato e poteva andare nel campo di <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> a lavorare
+                    <vocal><desc>sospira</desc></vocal><pause/>qualcuno era anche smistato e poteva andare nel campo di <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> a lavorare
                 </u>
 
                 <u who="#AW" xml:id="AW209" synch="#TS420">
@@ -3917,7 +4019,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW224" synch="#TS450">
-                    <anchor xml:id="arm-345" synch="#TT345"/>una parte del corpo mai <del type="repetition">intero</del><anchor xml:id="arm-346" synch="#TT346"/> intero <unclear reason="inaudible" resp="#GB" cert="high">e</unclear> ci fecero fare in tutto<pause/> due docce<pause/> in tutto il periodo che siamo stati ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> 
+                    <anchor xml:id="arm-345" synch="#TT345"/>una parte del corpo mai <del type="repetition">intero</del><anchor xml:id="arm-346" synch="#TT346"/> intero <unclear reason="inaudible" resp="#GB" cert="high">e</unclear> ci fecero fare in tutto<pause/> due docce<pause/> in tutto il periodo che siamo stati ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> 
                 </u>
                 
                 <pause/>
@@ -3927,7 +4029,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW225" synch="#TS452">
-                    no <unclear reason="inaudible" resp="#GB" cert="medium">i</unclear> vestiti non venivano cambiati<pause/> solo più tardi a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName><pause/> ci diedero i vestiti zebrati
+                    no <unclear reason="inaudible" resp="#GB" cert="medium">i</unclear> vestiti non venivano cambiati<pause/> solo più tardi a <placeName ref="TEI-ListPlace.xml#Wa">Varsavia</placeName><pause/> ci diedero i vestiti zebrati
                 </u>
 
                 <u who="#LPF" xml:id="LPF226" synch="#TS453">
@@ -4001,7 +4103,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW232" synch="#TS466">
-                    no <del type="falseStart"><vocal>umh</vocal> c'era <vocal>ehm</vocal></del> si portava sul lato sinistro<pause/> della giacca<pause/> una <mentioned>stella</mentioned><pause/> gialla<pause/> con dentro <del type="falseStart">un i</del><pause/> <del type="reformulation">un<pause/> triangolo rosso</del> e con sopra scritto le iniziali<pause/> della nazionalità a cui apparteneva il prigioniero<pause/> per esempio per l'<placeName ref="TEI-ListPlace.xml#IT">Italia</placeName> c'era una i maiuscola<pause/> <placeName ref="TEI-ListPlace.xml#Russia">Russia</placeName> una r maiuscola e così via
+                    no <del type="falseStart"><vocal>umh</vocal> c'era <vocal>ehm</vocal></del> si portava sul lato sinistro<pause/> della giacca<pause/> una <mentioned>stella</mentioned><pause/> gialla<pause/> con dentro <del type="falseStart">un i</del><pause/> <del type="reformulation">un<pause/> triangolo rosso</del> e con sopra scritto le iniziali<pause/> della nazionalità a cui apparteneva il prigioniero<pause/> per esempio per l'<placeName ref="TEI-ListPlace.xml#IT">Italia</placeName> c'era una i maiuscola<pause/> <placeName ref="TEI-ListPlace.xml#RU">Russia</placeName> una r maiuscola e così via
                 </u>
 
                 <u who="#LPF" xml:id="LPF233" synch="#TS467">
@@ -4065,7 +4167,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW238" synch="#TS478">
-                    cucinato nella cucina centrale <del type="falseStart">della</del><pause/> <del type="correction">di</del> <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> <pause/> veniva distribuito nelle varie baracche
+                    cucinato nella cucina centrale <del type="falseStart">della</del><pause/> <del type="correction">di</del> <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> <pause/> veniva distribuito nelle varie baracche
                 </u>
 
                 <u who="#LPF" xml:id="LPF239" synch="#TS479">
@@ -4085,7 +4187,7 @@
                 <pause/>
 
                 <u who="#AW" xml:id="AW240" synch="#TS482">
-                    gli orari <choice><sic>era</sic><corr resp="#GB">erano</corr></choice><pause/> verso le <time when="04:00:00">4</time> <choice><sic>era</sic><corr resp="#GB">c'era</corr></choice> la <vocal>amh</vocal><pause/> <emph>sveglia</emph><pause/> alle <time when="04:30:00">4 e mezza del mattino</time><pause/> c'era l'appello<pause/> <time when="05:00:00">dopo verso le 5</time><pause/> si formavano i comandi di lavoro<pause/> perché <vocal>ehm</vocal><pause/> nell'interno ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> c'erano solo lavori di manutenzione<pause/> ma fuori <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> c'erano diverse fabbriche<pause/> dove lavoravano i prigionieri<pause/> e la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> appunto alle <time when="05:30:00">5 e mezza</time><pause/> veniva dato l'ordine <q type="spoken"><foreing xml:lang="de">arbeitskommando formieren</foreing></q> che significa<pause/> formare <distinct type="technical">centurie</distinct> destinate al lavoro <pause/>e le <distinct type="technical">centurie</distinct> uscivano dal campo per andare<pause/> nelle varie fabbriche di <del type="truncation">lavor</del>
+                    gli orari <choice><sic>era</sic><corr resp="#GB">erano</corr></choice><pause/> verso le <time when="04:00:00">4</time> <choice><sic>era</sic><corr resp="#GB">c'era</corr></choice> la <vocal>amh</vocal><pause/> <emph>sveglia</emph><pause/> alle <time when="04:30:00">4 e mezza del mattino</time><pause/> c'era l'appello<pause/> <time when="05:00:00">dopo verso le 5</time><pause/> si formavano i comandi di lavoro<pause/> perché <vocal>ehm</vocal><pause/> nell'interno ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> c'erano solo lavori di manutenzione<pause/> ma fuori <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> c'erano diverse fabbriche<pause/> dove lavoravano i prigionieri<pause/> e la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> appunto alle <time when="05:30:00">5 e mezza</time><pause/> veniva dato l'ordine <q type="spoken"><foreing xml:lang="de">arbeitskommando formieren</foreing></q> che significa<pause/> formare <distinct type="technical">centurie</distinct> destinate al lavoro <pause/>e le <distinct type="technical">centurie</distinct> uscivano dal campo per andare<pause/> nelle varie fabbriche di <del type="truncation">lavor</del>
                 </u>
 
                 <u who="#LPF" xml:id="LPF241" synch="#TS483">
@@ -4285,7 +4387,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW261" synch="#TS524">
-                    e poi da lì venimmo <vocal>ehm</vocal><pause/> trasferiti a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName><anchor xml:id="arm-397" synch="#TT397"/><pause/> <del type="truncation">direttam</del><anchor xml:id="arm-398" synch="#TT398"/>
+                    e poi da lì venimmo <vocal>ehm</vocal><pause/> trasferiti a <placeName ref="TEI-ListPlace.xml#Wa">Varsavia</placeName><anchor xml:id="arm-397" synch="#TT397"/><pause/> <del type="truncation">direttam</del><anchor xml:id="arm-398" synch="#TT398"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF262" synch="#TS525">
@@ -4313,7 +4415,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW264" synch="#TS530">
-                    <anchor xml:id="arm-403" synch="#TT403"/><del type="truncation">du</del> durava<anchor xml:id="arm-404" synch="#TT404"/> <date dur="PT40D">40 giorni</date> solo da noi italiani<pause/> in quanto <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName> aveva stabilito che non c'erano<pause/> casi di epidemia a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName><pause/> quindi non sussisteva il pericolo che noi potessimo<pause/> <unclear reason="inaudible" resp="#GB" cert="medium"><del type="truncation">i</del></unclear> infettare altri prigionieri<pause/> quando <vocal>ehm</vocal> fu necessario<pause/> preparare <distinct type="informal">gente</distinct> per<pause/> il <placeName ref="TEI-ListPlace.xml#WA"><district type="area">ghetto</district> di Varsavia</placeName><pause/> prese direttamente gli italiani dal campo della<incident iterated="true"><desc>rumori di auto in sottofondo</desc></incident> <del type="truncation">quarante</del>
+                    <anchor xml:id="arm-403" synch="#TT403"/><del type="truncation">du</del> durava<anchor xml:id="arm-404" synch="#TT404"/> <date dur="PT40D">40 giorni</date> solo da noi italiani<pause/> in quanto <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName> aveva stabilito che non c'erano<pause/> casi di epidemia a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName><pause/> quindi non sussisteva il pericolo che noi potessimo<pause/> <unclear reason="inaudible" resp="#GB" cert="medium"><del type="truncation">i</del></unclear> infettare altri prigionieri<pause/> quando <vocal>ehm</vocal> fu necessario<pause/> preparare <distinct type="informal">gente</distinct> per<pause/> il <placeName ref="TEI-ListPlace.xml#Wa"><district type="area">ghetto</district> di Varsavia</placeName><pause/> prese direttamente gli italiani dal campo della<incident iterated="true"><desc>rumori di auto in sottofondo</desc></incident> <del type="truncation">quarante</del>
                 </u>
                 
                 <pause/>
@@ -4493,11 +4595,11 @@
                 <pause/>
                 
                 <u who="#LPF" xml:id="LPF282" synch="#TS565">
-                    e allora <vocal>ehm</vocal> come accadde che foste trasferiti a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName>
+                    e allora <vocal>ehm</vocal> come accadde che foste trasferiti a <placeName ref="TEI-ListPlace.xml#Wa">Varsavia</placeName>
                 </u>
 
                 <u who="#AW" xml:id="AW282" synch="#TS566">
-                    dunque prima vorrei raccontare qualche cosa in merito ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> stessa<pause/> un divertimento particolare <del type="falseStart">della</del> <del type="reformulation">questo era della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice></del> non dei capi <pause/> era di farci fare la cosiddetta <soCalled>ginnastica</soCalled><pause/> che consisteva<pause/> nell'<pause/> improvvisamente gettarsi in terra<pause/> e saltare come le rane<pause/> oppure di<pause/> <distinct type="infrequent">coricarsi</distinct> ed alzarsi<pause/> e questo per una <time dur="PT30M">mezz'ora</time> continua<pause/> dentro al fango <unclear reason="inaudible" resp="#GB" cert="low">e</unclear> alla melma di <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> famosa<pause/> per esser alta fino alle caviglie<pause/> questa <soCalled>ginnastica</soCalled> ci<pause/> distruggeva completamente molti rimasero per terra senza potersi più alzare<pause/> questa era una semplice cattiveria da parte<pause/> dei <distinct type="technical">militi</distinct> della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice>
+                    dunque prima vorrei raccontare qualche cosa in merito ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> stessa<pause/> un divertimento particolare <del type="falseStart">della</del> <del type="reformulation">questo era della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice></del> non dei capi <pause/> era di farci fare la cosiddetta <soCalled>ginnastica</soCalled><pause/> che consisteva<pause/> nell'<pause/> improvvisamente gettarsi in terra<pause/> e saltare come le rane<pause/> oppure di<pause/> <distinct type="infrequent">coricarsi</distinct> ed alzarsi<pause/> e questo per una <time dur="PT30M">mezz'ora</time> continua<pause/> dentro al fango <unclear reason="inaudible" resp="#GB" cert="low">e</unclear> alla melma di <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> famosa<pause/> per esser alta fino alle caviglie<pause/> questa <soCalled>ginnastica</soCalled> ci<pause/> distruggeva completamente molti rimasero per terra senza potersi più alzare<pause/> questa era una semplice cattiveria da parte<pause/> dei <distinct type="technical">militi</distinct> della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice>
                 </u>
 
                 <pause/>
@@ -4551,7 +4653,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW287" synch="#TS576">
-                    <distinct type="informal">parecchie</distinct> volte questo ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName> no
+                    <distinct type="informal">parecchie</distinct> volte questo ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> a <placeName ref="TEI-ListPlace.xml#Wa">Varsavia</placeName> no
                 </u>
 
                 <pause/>
@@ -4700,7 +4802,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW303" synch="#TS608">
-                    i malati oppure quelli arrivati<pause/> <del type="repetition">alla alla</del> alla rampa <unclear reason="inaudible" resp="#GB" cert="medium">del</unclear> binario<pause/> e<pause/> una <time from="18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time> gli chiesi<pause/> dove era la mia famiglia<pause/> cioè <rs ref="TEI-ListPerson.xml#ReginaP" resp="#GB">mia moglie</rs> <del type="falseStart">miee</del> <rs ref="TEI-ListPerson.xml#ClaraW" resp="#GB"><del type="correction">mia</del> figlia</rs> e i miei suoceri<pause/> e <rs ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</rs> mi disse <pause/><q type="spoken" who="TEI-ListPerson.xml#Mengele"><foreing xml:lang="de">kaput</foreing></q><pause/> li domandai <q type="spoken" who="#AW">ma come mai perché</q><pause/> <q type="spoken" who="TEI-ListPerson.xml#Mengele">perché<pause/> noi abbiamo bisogno solo di <distinct type="informal">gente</distinct> <choice><sic>di lavoro</sic><corr resp="#GB">da lavoro</corr></choice><pause/> e<pause/> questi non sono<pause/> adatti al lavoro</q><pause/> bambini e così via <pause/>siccome non volevo credere a quanto mi stava dicendo disse <q type="spoken" who="TEI-ListPerson.xml#Mengele">vieni qua<pause/> fammi vedere il tuo numero sul braccio</q><pause/> andò e nell'archivio trovò la mia scheda <q type="spoken" who="TEI-ListPerson.xml#Mengele">dunque vedi tu ci sei perché sei vivo<pause/> dammi <del type="repetition">il</del> il nome<pause/> o di <rs ref="TEI-ListPerson.xml#ReginaP" resp="#GB">tua moglie</rs> <unclear reason="inaudible" resp="#GB" cert="low">e</unclear> di <rs ref="TEI-ListPerson.xml#ClaraW" resp="#GB">tua figlia</rs></q><pause/> ma non potevo dar <unclear reason="inaudible" resp="#GB" cert="low">il</unclear> numero perché non era entrata nel campo <pause/> guardò a lungo nell'archivio e non lo trovò disse <q type="spoken" who="TEI-ListPerson.xml#Mengele">vedi questa <vocal>ehm</vocal> è una dimostrazione<pause/> che non sono più <del type="truncation">viv</del></q><pause/> e allora gli chiesi se<pause/> a <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> potevano rimanere solo quelli adatti al lavoro<pause/> come mai<pause/> avevano mandato al gas<pause/> una parte di quelli già<pause/> selezionati robusti<pause/> e che non entrarono nel campo solo perché venne detto loro<pause/> che il campo era lontano <measure><num>dieci</num><unit> chilometri</unit></measure><pause/> <rs ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</rs> mi rispose <pause/><q type="spoken" who="TEI-ListPerson.xml#Mengele" xml:id="q1">se questi erano pigri di fare <measure><num>dieci</num><unit> chilometri</unit></measure></q> che poi non erano dieci ma solo forse 1 <pause/> <q type="spoken" who="TEI-ListPerson.xml#Mengele" xml:id="q2">non valevano la pena di essere</q><join target="#q1 #q2" result="q" type="quotation" scope="branches"></join> <pause/><vocal><desc>si schiarisce la gola</desc></vocal><pause/> e quindi<pause/> in un certo qual modo <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName> stesso<pause/> in caso di un nuovo processo<pause/> potrebbe venire<pause/> imputato di<pause/> <emph>omicidio</emph><pause/> in quanto non era<pause/> il fatto <del type="falseStart">di quelli che si erano <del type="truncation">salva</del></del> <del type="correction">di quelli che erano</del><pause/> selezionati<pause/> e robusti <pause/>in quanto era fuori dalla norma la norma era di mandare i vecchi i malati e i bambini<pause/> e <rs ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</rs> invece aveva <pause/> fatto più di quanto era<pause/> stato costretto a fare <del type="truncation">normalment</del>
+                    i malati oppure quelli arrivati<pause/> <del type="repetition">alla alla</del> alla rampa <unclear reason="inaudible" resp="#GB" cert="medium">del</unclear> binario<pause/> e<pause/> una <time from="18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time> gli chiesi<pause/> dove era la mia famiglia<pause/> cioè <rs ref="TEI-ListPerson.xml#ReginaP" resp="#GB">mia moglie</rs> <del type="falseStart">miee</del> <rs ref="TEI-ListPerson.xml#ClaraW" resp="#GB"><del type="correction">mia</del> figlia</rs> e i miei suoceri<pause/> e <rs ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</rs> mi disse <pause/><q type="spoken" who="TEI-ListPerson.xml#Mengele"><foreing xml:lang="de">kaput</foreing></q><pause/> li domandai <q type="spoken" who="#AW">ma come mai perché</q><pause/> <q type="spoken" who="TEI-ListPerson.xml#Mengele">perché<pause/> noi abbiamo bisogno solo di <distinct type="informal">gente</distinct> <choice><sic>di lavoro</sic><corr resp="#GB">da lavoro</corr></choice><pause/> e<pause/> questi non sono<pause/> adatti al lavoro</q><pause/> bambini e così via <pause/>siccome non volevo credere a quanto mi stava dicendo disse <q type="spoken" who="TEI-ListPerson.xml#Mengele">vieni qua<pause/> fammi vedere il tuo numero sul braccio</q><pause/> andò e nell'archivio trovò la mia scheda <q type="spoken" who="TEI-ListPerson.xml#Mengele">dunque vedi tu ci sei perché sei vivo<pause/> dammi <del type="repetition">il</del> il nome<pause/> o di <rs ref="TEI-ListPerson.xml#ReginaP" resp="#GB">tua moglie</rs> <unclear reason="inaudible" resp="#GB" cert="low">e</unclear> di <rs ref="TEI-ListPerson.xml#ClaraW" resp="#GB">tua figlia</rs></q><pause/> ma non potevo dar <unclear reason="inaudible" resp="#GB" cert="low">il</unclear> numero perché non era entrata nel campo <pause/> guardò a lungo nell'archivio e non lo trovò disse <q type="spoken" who="TEI-ListPerson.xml#Mengele">vedi questa <vocal>ehm</vocal> è una dimostrazione<pause/> che non sono più <del type="truncation">viv</del></q><pause/> e allora gli chiesi se<pause/> a <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> potevano rimanere solo quelli adatti al lavoro<pause/> come mai<pause/> avevano mandato al gas<pause/> una parte di quelli già<pause/> selezionati robusti<pause/> e che non entrarono nel campo solo perché venne detto loro<pause/> che il campo era lontano <measure><num>dieci</num><unit> chilometri</unit></measure><pause/> <rs ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</rs> mi rispose <pause/><q type="spoken" who="TEI-ListPerson.xml#Mengele" xml:id="q1">se questi erano pigri di fare <measure><num>dieci</num><unit> chilometri</unit></measure></q> che poi non erano dieci ma solo forse 1 <pause/> <q type="spoken" who="TEI-ListPerson.xml#Mengele" xml:id="q2">non valevano la pena di essere</q><join target="#q1 #q2" result="q" type="quotation" scope="branches"></join> <pause/><vocal><desc>si schiarisce la gola</desc></vocal><pause/> e quindi<pause/> in un certo qual modo <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName> stesso<pause/> in caso di un nuovo processo<pause/> potrebbe venire<pause/> imputato di<pause/> <emph>omicidio</emph><pause/> in quanto non era<pause/> il fatto <del type="falseStart">di quelli che si erano <del type="truncation">salva</del></del> <del type="correction">di quelli che erano</del><pause/> selezionati<pause/> e robusti <pause/>in quanto era fuori dalla norma la norma era di mandare i vecchi i malati e i bambini<pause/> e <rs ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</rs> invece aveva <pause/> fatto più di quanto era<pause/> stato costretto a fare <del type="truncation">normalment</del>
                 </u>
 
                 <u who="#LPF" xml:id="LPF304" synch="#TS609">
@@ -4824,7 +4926,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW317" synch="#TS636">
-                    <choice><sic>questo non mi ricordo più</sic><corr resp="#GB">questo non me lo ricordo più</corr></choice><pause/> è successo una <time from="18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time> sola<pause/> in <time dur="PT30M">mezz'ora</time> <gap reason="inaudible" atLeast="2 words" atMost="3 words" resp="#GB"/><pause/> è difficile rammentare tutto<pause/> voglio dire anche per esempio <del type="falseStart">a <del type="truncation">Vars</del> a <del type="truncation">Varsa</del></del> <del type="reformulation">no <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName><pause/> ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName></del><pause/> vidi una volta<pause/> 11 prigionieri polacchi<pause/> tornati da lavoro<pause/> <distinct type="infrequent">estenuati</distinct> dalla fatica e dalle <distinct type="informal">botte</distinct> che ricevevano<pause/> lanciarsi<pause/> tutti contemporaneamente contro il filo spinato <del type="repetition">il quale era</del> il quale era attraversato da <incident iterated="true"><desc>rumore di una penna che scrive</desc></incident>corrente ad alta tensione<pause/> in quanto <distinct type="common_saying">non ne potevano più</distinct><pause/> e decisero in questa maniera di<pause/> suicidarsi
+                    <choice><sic>questo non mi ricordo più</sic><corr resp="#GB">questo non me lo ricordo più</corr></choice><pause/> è successo una <time from="18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time> sola<pause/> in <time dur="PT30M">mezz'ora</time> <gap reason="inaudible" atLeast="2 words" atMost="3 words" resp="#GB"/><pause/> è difficile rammentare tutto<pause/> voglio dire anche per esempio <del type="falseStart">a <del type="truncation">Vars</del> a <del type="truncation">Varsa</del></del> <del type="reformulation">no <placeName ref="TEI-ListPlace.xml#Wa">Varsavia</placeName><pause/> ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName></del><pause/> vidi una volta<pause/> 11 prigionieri polacchi<pause/> tornati da lavoro<pause/> <distinct type="infrequent">estenuati</distinct> dalla fatica e dalle <distinct type="informal">botte</distinct> che ricevevano<pause/> lanciarsi<pause/> tutti contemporaneamente contro il filo spinato <del type="repetition">il quale era</del> il quale era attraversato da <incident iterated="true"><desc>rumore di una penna che scrive</desc></incident>corrente ad alta tensione<pause/> in quanto <distinct type="common_saying">non ne potevano più</distinct><pause/> e decisero in questa maniera di<pause/> suicidarsi
                 </u>
 
                 <pause/>
@@ -4902,7 +5004,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW326" synch="#TS654">
-                    vedevamo altre baracche<anchor xml:id="arm-473" synch="#TT473"/><pause/> con <distinct type="informal">gente</distinct> <del type="repetition">che si</del><anchor xml:id="arm-474" synch="#TT474"/> che si muoveva nelle baracche<pause/> <del type="falseStart">ma non abbiam visto</del><pause/> <del type="reformulation"><choice><sic>si abbiamo visto donne</sic><corr resp="#GB">si abbiamo visto delle donne</corr></choice></del> quelle del<pause/> <placeName ref="TEI-ListPlace.xml#Terezin"><foreing xml:lang="de">lager</foreing> di<pause/> Theresienstadt</placeName><pause/> <vocal>hmm</vocal> <choice><sic>che erano state trasferiti</sic><corr resp="#GB">dal quale erano stati trasferiti</corr></choice> ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName><pause/> in famiglie intere <del type="reformulation">cioè non son stati decimati</del><pause/> e non portavano vestiti zebrati<pause/> bensì <vocal>ehm</vocal> normali<pause/> civili<pause/> e c'erano in mezzo anche donne bambini vecchi anziani<pause/> e siccome<pause/> <del type="falseStart">il</del> <del type="reformulation">la</del> <placeName ref="TEI-ListPlace.xml#Terezin">baracca di Theresienstadt</placeName><pause/> non occorre che racconti cosa è <placeName ref="TEI-ListPlace.xml#Terezin">Theresienstadt</placeName><anchor xml:id="arm-475" synch="#TT475"/> no<anchor xml:id="arm-476" synch="#TT476"/><pause/> e era proprio accanto alla <place type="sub-area" resp="#GB"><distinct type="informal">baracca nostra</distinct> alla 13</place><pause/> noi li vedevamo <vocal>mm</vocal> giornalmente ricevere pasti speciali rispetto a noi<pause/> <vocal>hmm</vocal> <choice><orig>giuochi</orig><reg resp="#GB">giochi</reg></choice> per i bambini <pause/>altalene e così avanti <pause/>e non <unclear reason="inaudible" resp="#GB" cert="medium">riuscivamo</unclear> mai a capire<pause/> perché succedeva questo<pause/> delle volte <emph>loro</emph> aiutavano <choice><sic>a noi</sic><corr resp="#GB">noi</corr></choice><pause/> dandoci attraverso il filo spinato che ci divideva<pause/> delle <vocal>ehm</vocal><pause/> croste di pane e cose <del type="truncation">avan</del><pause/> poi<pause/> un giorno improvvisamente<pause/> diedero l'ordine di<pause/> <term ref="lagersperre"><foreing xml:lang="de">lagersperre</foreing></term> che significa<pause/> <gloss xml:id="lagersperre">tutti dentro nelle baracche nessuno fuori</gloss><pause/> e io da uno spiraglio dalla <vocal>mm</vocal> <pause/> <place type="sub-area">baracca 13</place><pause/> vidi arrivare<indicent><desc>rumore di una penna che scrive</desc></incident> un gruppo di ufficiali della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> e<pause/> altri<pause/> <del type="falseStart">incivili</del><pause/> <del type="reformulation">cioè <del type="repetition">in</del> in<pause/> vestito civile</del><pause/> che portavano sul braccio la fascia della <orgName>croce rossa</orgName><pause/> entrò anche un <pause/><del type="falseStart">operaio</del> <del type="reformulation">no operaio non è la parola adatta <pause/>uno che <del type="truncation">r</del> faceva riprese cinematografiche</del><pause/> e un altro fotografo<pause/> e<pause/> poi dopo una <time dur="PT30M">mezz'<distinct type="diminutive">oretta</distinct></time><pause/> tutti questi funzionari se ne andarono<pause/> la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> dopo<pause/> purtroppo<pause/> tutta<pause/> la colonia di <placeName ref="TEI-ListPlace.xml#Terezin">Theresienstadt</placeName><pause/> venne <choice><sic>inviata ai gas</sic><corr resp="#GB">inviata al gas</corr></choice><pause/> una volta un <pause/><choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> un po' <distinct type="informal">brillo</distinct><pause/> mi spiegò questo arcano<pause/> <del type="repetition">la</del> la scena <del type="falseStart">dei</del> <del type="correction">di</del> <placeName ref="TEI-ListPlace.xml#Terezin">Theresienstadt</placeName> serviva solo<pause/> per <emph><distinct type="political">propaganda</distinct></emph><pause/> i tedeschi volevano far vedere al mondo come loro trattano bene<pause/> i prigionieri politici <gap reason="inaudible" resp="#GB" atleast="1 word" atMost="2 words"/><pause/> ma poi avevano bisogno della stessa baracca per successivi arrivi<pause/> di <distinct type="informal">gente</distinct> da<pause/> <placeName ref="TEI-ListPlace.xml#Terezin">Theresienstadt</placeName> <!--non è scorretta grammaticalmente questa ultima frase ma concettualmente intende "a T." e non "da T."-->
+                    vedevamo altre baracche<anchor xml:id="arm-473" synch="#TT473"/><pause/> con <distinct type="informal">gente</distinct> <del type="repetition">che si</del><anchor xml:id="arm-474" synch="#TT474"/> che si muoveva nelle baracche<pause/> <del type="falseStart">ma non abbiam visto</del><pause/> <del type="reformulation"><choice><sic>si abbiamo visto donne</sic><corr resp="#GB">si abbiamo visto delle donne</corr></choice></del> quelle del<pause/> <placeName ref="TEI-ListPlace.xml#Terezin"><foreing xml:lang="de">lager</foreing> di<pause/> Theresienstadt</placeName><pause/> <vocal>hmm</vocal> <choice><sic>che erano state trasferiti</sic><corr resp="#GB">dal quale erano stati trasferiti</corr></choice> ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName><pause/> in famiglie intere <del type="reformulation">cioè non son stati decimati</del><pause/> e non portavano vestiti zebrati<pause/> bensì <vocal>ehm</vocal> normali<pause/> civili<pause/> e c'erano in mezzo anche donne bambini vecchi anziani<pause/> e siccome<pause/> <del type="falseStart">il</del> <del type="reformulation">la</del> <placeName ref="TEI-ListPlace.xml#Terezin">baracca di Theresienstadt</placeName><pause/> non occorre che racconti cosa è <placeName ref="TEI-ListPlace.xml#Terezin">Theresienstadt</placeName><anchor xml:id="arm-475" synch="#TT475"/> no<anchor xml:id="arm-476" synch="#TT476"/><pause/> e era proprio accanto alla <place type="sub-area" resp="#GB"><distinct type="informal">baracca nostra</distinct> alla 13</place><pause/> noi li vedevamo <vocal>mm</vocal> giornalmente ricevere pasti speciali rispetto a noi<pause/> <vocal>hmm</vocal> <choice><orig>giuochi</orig><reg resp="#GB">giochi</reg></choice> per i bambini <pause/>altalene e così avanti <pause/>e non <unclear reason="inaudible" resp="#GB" cert="medium">riuscivamo</unclear> mai a capire<pause/> perché succedeva questo<pause/> delle volte <emph>loro</emph> aiutavano <choice><sic>a noi</sic><corr resp="#GB">noi</corr></choice><pause/> dandoci attraverso il filo spinato che ci divideva<pause/> delle <vocal>ehm</vocal><pause/> croste di pane e cose <del type="truncation">avan</del><pause/> poi<pause/> un giorno improvvisamente<pause/> diedero l'ordine di<pause/> <term ref="lagersperre"><foreing xml:lang="de">lagersperre</foreing></term> che significa<pause/> <gloss xml:id="lagersperre">tutti dentro nelle baracche nessuno fuori</gloss><pause/> e io da uno spiraglio dalla <vocal>mm</vocal> <pause/> <place type="sub-area">baracca 13</place><pause/> vidi arrivare<incident iterated="true"><desc>rumore di una penna che scrive</desc></incident> un gruppo di ufficiali della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> e<pause/> altri<pause/> <del type="falseStart">incivili</del><pause/> <del type="reformulation">cioè <del type="repetition">in</del> in<pause/> vestito civile</del><pause/> che portavano sul braccio la fascia della <orgName>croce rossa</orgName><pause/> entrò anche un <pause/><del type="falseStart">operaio</del> <del type="reformulation">no operaio non è la parola adatta <pause/>uno che <del type="truncation">r</del> faceva riprese cinematografiche</del><pause/> e un altro fotografo<pause/> e<pause/> poi dopo una <time dur="PT30M">mezz'<distinct type="diminutive">oretta</distinct></time><pause/> tutti questi funzionari se ne andarono<pause/> la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> dopo<pause/> purtroppo<pause/> tutta<pause/> la colonia di <placeName ref="TEI-ListPlace.xml#Terezin">Theresienstadt</placeName><pause/> venne <choice><sic>inviata ai gas</sic><corr resp="#GB">inviata al gas</corr></choice><pause/> una volta un <pause/><choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> un po' <distinct type="informal">brillo</distinct><pause/> mi spiegò questo arcano<pause/> <del type="repetition">la</del> la scena <del type="falseStart">dei</del> <del type="correction">di</del> <placeName ref="TEI-ListPlace.xml#Terezin">Theresienstadt</placeName> serviva solo<pause/> per <emph><distinct type="political">propaganda</distinct></emph><pause/> i tedeschi volevano far vedere al mondo come loro trattano bene<pause/> i prigionieri politici <gap reason="inaudible" resp="#GB" atleast="1 word" atMost="2 words"/><pause/> ma poi avevano bisogno della stessa baracca per successivi arrivi<pause/> di <distinct type="informal">gente</distinct> da<pause/> <placeName ref="TEI-ListPlace.xml#Terezin">Theresienstadt</placeName> <!--non è scorretta grammaticalmente questa ultima frase ma concettualmente intende "a T." e non "da T."-->
                 </u>
 
                 <u who="#LPF">
@@ -4994,7 +5096,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW334" synch="#TS670">
-                    in preponderanza però <del type="falseStart">eran</del> ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> erano ebrei
+                    in preponderanza però <del type="falseStart">eran</del> ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> erano ebrei
                 </u>
 
                 <pause/>
@@ -5020,7 +5122,7 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF337" synch="#TS675">
-                    questa è la <anchor xml:id="lpf-491" synch="#TT491"/>differenza <vocal>ehm</vocal><anchor xml:id="lpf-492" synch="#TT492"/> diciamo sostanziale<pause/> allora come avvenne che <anchor xml:id="lpf-493" synch="#TT493"/><vocal>eh</vocal> foste trasferiti a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName><anchor xml:id="lpf-494" synch="#TT494"/>
+                    questa è la <anchor xml:id="lpf-491" synch="#TT491"/>differenza <vocal>ehm</vocal><anchor xml:id="lpf-492" synch="#TT492"/> diciamo sostanziale<pause/> allora come avvenne che <anchor xml:id="lpf-493" synch="#TT493"/><vocal>eh</vocal> foste trasferiti a <placeName ref="TEI-ListPlace.xml#Wa">Varsavia</placeName><anchor xml:id="lpf-494" synch="#TT494"/>
                 </u>
 
                 <u who="#AW">
@@ -5028,33 +5130,262 @@
                 </u>
 
                 <u who="#AW" xml:id="AW337" synch="#TS676">
-                    <anchor xml:id="arm-493" synch="#TT493"/>dunque <vocal>ehm</vocal> <del type="falseStart">avvenne con</del><anchor xml:id="arm-494" synch="#TT494"/> <del type="reformulation">un giorno</del> <vocal>emhh</vocal> arrivò<pause/> <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName><pause/> con un medico polacco ebreo<pause/> in baracca<pause/> e fece la cernita<pause/> <choice><sic>per campo di lavoro</sic><corr resp="#GB">per un campo di lavoro</corr></choice> noi non sapevamo<pause/> dove si andasse<pause/> e<pause/> con me c'era fra l'altro<pause/> il <persName ref="TEI-ListPerson.xml#LeonelloDS"><roleName type="honorific">signor</roleName> Lionello Della Seta</persName> e suo figlio <persName ref="TEI-ListPerson.xml#GiancarloDS">Giancarlo</persName><pause/> i quali<pause/> il <rs ref="TEI-ListPerson.xml#LeonelloDS" resp="#GB">padre</rs><pause/> non venne prescelto mentre il <rs ref="TEI-ListPerson.xml#GiancarloDS" resp="#GB"> figlio</rs><pause/> venne pure <rs ref="TEI-ListPerson.xml#GiancarloDS" resp="#GB">lui</rs> destinato a questo campo<pause/> naturalmente alla fine volevo <pause/>presentarmi <choice><orig>anch'io</orig><reg resp="#GB">anche io</reg></choice> per<pause/> uscire da <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName><pause/> e il medico polacco mi disse <q type="spoken">non andartene<pause/> perché questo trasporto<pause/> è destinato alle <place type="mine">miniere di carbone</place> di <placeName ref="TEI-ListPlace.xml#Jaworzno">Jaworzno</placeName><pause/> dove la resistenza massima è di <date dur="P14D">due settimane</date></q><pause/> e così non mi presentai<pause/> rimanemmo in pochi<pause/> precisamente in 42<pause/> dei 150 che siamo entrati<pause/> e<pause/> questo gruppo<pause/> venne destinato in seguito<pause/> a<pause/> <del type="repetition"><placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName></del><pause/> <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName> dopo la <pause/>ribellione del <place><district type="area">ghetto</district></place><pause/> era rimasta esente da ebrei<pause/> ma<pause/> <choice><sic>c'erano ancora da<pause/> recuperare <pause/>moltissimo</sic><corr resp="#GB">c'era ancora da<pause/> recuperare <pause/>moltissimo</corr></choice><pause/> e la <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> aveva destinato<pause/> un gruppo di<pause/> prigionieri<pause/> per appunto il recupero di<pause/> ciò che era possibile ancora recuperare<pause/> fra questi eravamo appunto 42 italiani<pause/> i vari nomi li si trova <choice><sic>nella</sic><corr resp="#GB">nell'</corr></choice> elenco che feci per il <orgName>centro<pause/> di ricerche ebraiche</orgName><pause/> che ora non ricordo più<pause/> <del type="falseStart">arrivati</del><pause/> <del type="reformulation">cioè prima di arrivare</del><pause/> usciti da <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName><pause/> <del type="falseStart">fummo</del><pause/> <del type="reformulation">dovemmo</del> consegnare le scarpe<pause/> di cuoio che avevamo <distinct type="informal">addosso</distinct><pause/> e ci diedero in cambio gli zoccoli olandesi quelli di legno<pause/> e dovemmo <pause/>andare a piedi da <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName> fino ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> in quanto<pause/> i trasporti<pause/> si preparavano<pause/> ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> <unclear reason="inaudible" resp="#GB">stessa</unclear><pause/> ci si può immaginare<pause/> cosa significasse questa<pause/> <soCalled>passeggiata</soCalled> da <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName> ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName><pause/> <choice><orig>colle</orig><reg resp="#GB">con le</reg></choice> scarpe di legno<pause/> e sotto l'incalzare dei cani<pause/> e della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> arrivammo ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> che eravamo sfiniti<pause/> ci fecero fare la doccia
+                    <anchor xml:id="arm-493" synch="#TT493"/>dunque <vocal>ehm</vocal> <del type="falseStart">avvenne con</del><anchor xml:id="arm-494" synch="#TT494"/> <del type="reformulation">un giorno</del> <vocal>emhh</vocal> arrivò<pause/> <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName><pause/> con un medico polacco ebreo<pause/> in baracca<pause/> e fece la cernita<pause/> <choice><sic>per campo di lavoro</sic><corr resp="#GB">per un campo di lavoro</corr></choice> noi non sapevamo<pause/> dove si andasse<pause/> e<pause/> con me c'era fra l'altro<pause/> il <persName ref="TEI-ListPerson.xml#LeonelloDS"><roleName type="honorific">signor</roleName> Lionello Della Seta</persName> e suo figlio <persName ref="TEI-ListPerson.xml#GiancarloDS">Giancarlo</persName><pause/> i quali<pause/> il <rs ref="TEI-ListPerson.xml#LeonelloDS" resp="#GB">padre</rs><pause/> non venne prescelto mentre il <rs ref="TEI-ListPerson.xml#GiancarloDS" resp="#GB"> figlio</rs><pause/> venne pure <rs ref="TEI-ListPerson.xml#GiancarloDS" resp="#GB">lui</rs> destinato a questo campo<pause/> naturalmente alla fine volevo <pause/>presentarmi <choice><orig>anch'io</orig><reg resp="#GB">anche io</reg></choice> per<pause/> uscire da <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName><pause/> e il medico polacco mi disse <q type="spoken">non andartene<pause/> perché questo trasporto<pause/> è destinato alle <place type="mine">miniere di carbone</place> di <placeName ref="TEI-ListPlace.xml#Jaworzno">Jaworzno</placeName><pause/> dove la resistenza massima è di <date dur="P14D">due settimane</date></q><pause/> e così non mi presentai<pause/> rimanemmo in pochi<pause/> precisamente in 42<pause/> dei 150 che siamo entrati<pause/> e<pause/> questo gruppo<pause/> venne destinato in seguito<pause/> a<pause/> <del type="repetition"><placeName ref="TEI-ListPlace.xml#Wa">Varsavia</placeName></del><pause/> <placeName ref="TEI-ListPlace.xml#Wa">Varsavia</placeName> dopo la <pause/>ribellione del <place><district type="area">ghetto</district></place><pause/> era rimasta esente da ebrei<pause/> ma<pause/> <choice><sic>c'erano ancora da<pause/> recuperare <pause/>moltissimo</sic><corr resp="#GB">c'era ancora da<pause/> recuperare <pause/>moltissimo</corr></choice><pause/> e la <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> aveva destinato<pause/> un gruppo di<pause/> prigionieri<pause/> per appunto il recupero di<pause/> ciò che era possibile ancora recuperare<pause/> fra questi eravamo appunto 42 italiani<pause/> i vari nomi li si trova <choice><sic>nella</sic><corr resp="#GB">nell'</corr></choice> elenco che feci per il <orgName>centro<pause/> di ricerche ebraiche</orgName><pause/> che ora non ricordo più<pause/> <del type="falseStart">arrivati</del><pause/> <del type="reformulation">cioè prima di arrivare</del><pause/> usciti da <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName><pause/> <del type="falseStart">fummo</del><pause/> <del type="reformulation">dovemmo</del> consegnare le scarpe<pause/> di cuoio che avevamo <distinct type="informal">addosso</distinct><pause/> e ci diedero in cambio gli zoccoli olandesi quelli di legno<pause/> e dovemmo <pause/>andare a piedi da <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName> fino ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> in quanto<pause/> i trasporti<pause/> si preparavano<pause/> ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> <unclear reason="inaudible" resp="#GB">stessa</unclear><pause/> ci si può immaginare<pause/> cosa significasse questa<pause/> <soCalled>passeggiata</soCalled> da <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName> ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName><pause/> <choice><orig>colle</orig><reg resp="#GB">con le</reg></choice> scarpe di legno<pause/> e sotto l'incalzare dei cani<pause/> e della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> arrivammo ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> che eravamo sfiniti<pause/> ci fecero fare la doccia
                 </u>
 
                 <u who="#LPF" xml:id="LPF338" synch="#TS677">
-                    ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> stessa
+                    ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> stessa
                 </u>
                 
                 <u who="#AW" xml:id="AW338" synch="#TS678">
-                    ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> stessa<pause/> <vocal>eehm</vocal><pause/> <del type="truncation">r</del> rivestiti nuovamente con<pause/> abiti<pause/> freschi<pause/> sempre<pause/> <emph>zebrati</emph><pause/> <del type="falseStart">lì ci <anchor xml:id="arm-495" synch="#TT495"/>diedero</del><pause/> <del type="reformulation">questa volta ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> c'erano<pause/><anchor xml:id="arm-496" synch="#TT496"/> <unclear reason="inaudible" resp="#GB" cert="low">quelli</unclear> zebrati</del> si
+                    ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> stessa<pause/> <vocal>eehm</vocal><pause/> <del type="truncation">r</del> rivestiti nuovamente con<pause/> abiti<pause/> freschi<pause/> sempre<pause/> <emph>zebrati</emph><pause/> <del type="falseStart">lì ci <anchor xml:id="arm-495" synch="#TT495"/>diedero</del><pause/> <del type="reformulation">questa volta ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> c'erano<pause/><anchor xml:id="arm-496" synch="#TT496"/> <unclear reason="inaudible" resp="#GB" cert="low">quelli</unclear> zebrati</del> si
                 </u>
 
                 <u who="#LPF" xml:id="LPF339" synch="#TS679">
-                    <anchor xml:id="lpf-495" synch="#TT495"/>questa volta ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName><anchor xml:id="lpf-496" synch="#TT496"/> c'erano<pause/> quelli zebrati
+                    <anchor xml:id="lpf-495" synch="#TT495"/>questa volta ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName><anchor xml:id="lpf-496" synch="#TT496"/> c'erano<pause/> quelli zebrati
                 </u>
 
                 <u who="#AW" xml:id="AW339" synch="#TS680">
-                    ci diedero questi zebrati<pause/> e <del type="truncation">t</del><pause/> trascorremmo la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> in piedi<pause/> non era posto per noi per<pause/> <del type="falseStart">giacigli</del> <del type="reformulation">per dormire</del><pause/> la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> dopo un lungo<pause/> appello<pause/> fummo<pause/> caricati su dei<pause/> vagoni ferroviari e trasferiti<pause/> in una <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> intera<pause/> fino a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName>
+                    ci diedero questi zebrati<pause/> e <del type="truncation">t</del><pause/> trascorremmo la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> in piedi<pause/> non era posto per noi per<pause/> <del type="falseStart">giacigli</del> <del type="reformulation">per dormire</del><pause/> la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> dopo un lungo<pause/> appello<pause/> fummo<pause/> caricati su dei<pause/> vagoni ferroviari e trasferiti<pause/> in una <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> intera<pause/> fino a <placeName ref="TEI-ListPlace.xml#Wa">Varsavia</placeName>
                 </u>
 
                 <u who="#LPF" xml:id="LPF340" synch="#TS681">
-                    e<pause/> ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> <del type="falseStart">quando arrivaste</del> <del type="correction">quando arrivò</del><pause/> ebbe la sensazione di qualche cosa di meglio<pause/> di <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName>
+                    e<pause/> ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> <del type="falseStart">quando arrivaste</del> <del type="correction">quando arrivò</del><pause/> ebbe la sensazione di qualche cosa di meglio<pause/> di <anchor xml:id="lpf-497" synch="#TT497"/><placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName><anchor xml:id="lpf-498" synch="#TT498"/>
                 </u>
 
                 <u who="#AW" xml:id="AW340" synch="#TS682">
-                    si effettivamente <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> era meglio di <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName> anzitutto<pause/> erano<pause/> <distinct type="technical">caseggiati in muratura</distinct><pause/> secondariamente avevano<pause/> <del type="repetition">delle</del> delle brande<pause/> per<pause/> dormire<pause/> non dei giacigli come noi a <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName><pause/> e per quanto riguarda<pause/> il <vocal>mm</vocal> mangiare non posso<pause/> ricordarmi se era migliore rispetto a quello di <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName> ma comunque
+                    <anchor xml:id="arm-497" synch="#TT497"/>si effettivamente<anchor xml:id="arm-498" synch="#TT498"/> <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> era meglio di <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName> anzitutto<pause/> erano<pause/> <distinct type="technical">caseggiati in muratura</distinct><pause/> secondariamente avevano<pause/> <del type="repetition">delle</del> delle brande<pause/> per<pause/> dormire<pause/> non dei giacigli come noi a <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName><pause/> e per quanto riguarda<pause/> il <vocal>mm</vocal> mangiare non posso<pause/> ricordarmi se era migliore rispetto a quello di <placeName ref="TEI-ListPlace.xml#Birkenau">Birkenau</placeName> ma comunque
                 </u>
-                <!--10:50 ULTIMA FRASE TS681 SI SOVRAPPONE CON L'INIZIO DELLA SUCCESSIVA-->
+
+                <u who="#LPF" xml:id="LPF341" synch="#TS683"><!--?-->
+                    i prigionieri avevano l'aria un po' <vocal>ehm</vocal> <choice><sic>meglio</sic><corr resp="#GB">migliore</corr></choice> <vocal>ehm</vocal> <del type="truncation">me</del>
+                </u>
+
+                <u who="#AW" xml:id="AW341" synch="#TS684">
+                    si vedeva che effettivamente <unclear reason="inaudible" resp="#GB" cert="low">che</unclear> stavano meglio di noi
+                </u>
+
+                <u who="#LPF" xml:id="LPF342" synch="#TS685">
+                    <del type="truncation">s</del> si vedeva<pause/> intanto erano tutti in divisa mi sembra <anchor xml:id="lpf-499" synch="#TT499"/>ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName><anchor xml:id="lpf-500" synch="#TT500"/>
+                </u>
+
+                <u who="#AW" xml:id="AW342" synch="#TS686">
+                    <anchor xml:id="arm-499" synch="#TT499"/>si eran<anchor xml:id="arm-500" synch="#TT500"/> tutti in <vocal>mm</vocal> divisa<pause/> zebrata<pause/> giunti a<pause/> <placeName ref="TEI-ListPlace.xml#Wa">Varsavia</placeName>
+                </u>
+
+                <u who="#LPF" xml:id="LPF343" synch="#TS687">
+                    <vocal>hmm</vocal> un attimo da <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> <vocal>ehm</vocal> andaste quindi fino alla stazione ferroviaria
+                </u>
+
+                <u who="#AW" xml:id="AW343" synch="#TS688">
+                    <del type="falseStart">e <del type="truncation">ll</del></del> entrava dentro ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> <del type="reformulation">entrava dentro il treno</del>
+                </u>
+                
+                <pause/>
+                
+                <u who="#LPF" xml:id="LPF344" synch="#TS689">
+                    sul fianco
+                </u>
+
+                <u who="#AW" xml:id="AW344" synch="#TS690">
+                    sul fianco <emph>si</emph><anchor xml:id="arm-501" synch="#TT501"/><pause/> senza<anchor xml:id="arm-502" synch="#TT502"/> dover camminare fuori dal campo
+                </u>
+
+                <u who="#LPF">
+                    <anchor xml:id="lpf-501" synch="#TT501"/><vocal><desc>annuisce</desc></vocal><anchor xml:id="lpf-502" synch="#TT502"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF345" synch="#TS691">
+                    <choice><orig>mi pare</orig><reg resp="#GB">mi sembra</reg></choice> che sia sul fianco ma fuori dalla cinta del muro <del type="repetition">la</del> <pause/>la <anchor xml:id="lpf-503" synch="#TT503"/>rotaia<anchor xml:id="lpf-504" synch="#TT504"/>
+                </u>
+
+                <u who="#AW" xml:id="AW345" synch="#TS692"><!--era da camminare?-->
+                    <anchor xml:id="arm-503" synch="#TT503"/>questo<pause/><anchor xml:id="arm-504" synch="#TT504"/> piccolo particolare non lo rammento più so che però non era da camminare <unclear reason="inaudible" resp="#GB" cert="medium">a lungo</unclear>
+                </u>
+
+                <u who="#LPF" xml:id="LPF346" synch="#TS693">
+                    <vocal><desc>annuisce</desc></vocal><pause/> <unclear reason="inaudible" resp="#GB" cert="low">ma</unclear> foste caricati su dei <anchor xml:id="lpf-505" synch="#TT505"/>treni<anchor xml:id="lpf-506" synch="#TT506"/> <emph>normali</emph>
+                </u>
+
+                <u who="#AW">
+                    <anchor xml:id="arm-505" synch="#TT505"/><del type="truncation"><del type="repetition">s</del> s</del><anchor xml:id="arm-506" synch="#TT506"/>
+                </u>
+
+                <u who="#AW" xml:id="AW346" synch="#TS694">
+                    no <emph>vagoni</emph> bestiame
+                </u>
+
+                <u who="#LPF" xml:id="LPF347" synch="#TS695">
+                    vagoni <del type="truncation">bestiam</del> eravate in molti
+                </u>
+
+                <u who="#AW" xml:id="AW347" synch="#TS696">
+                    il <distinct type="informal">gruppo nostro</distinct> del vagone era composto da 42 italiani<pause/> il resto<pause/> circa una 40ina di ebrei olandesi
+                </u>
+                
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF348" synch="#TS697">
+                    <vocal>ah</vocal> quindi era<pause/> circa 80 persone in un <anchor xml:id="lpf-507" synch="#TT507"/>vagone<anchor xml:id="lpf-508" synch="#TT508"/>
+                </u>
+
+                <u who="#AW" xml:id="AW348" synch="#TS698">
+                    <anchor xml:id="arm-507" synch="#TT507"/>in un<anchor xml:id="arm-508" synch="#TT508"/> vagone si
+                </u>
+
+                <u who="#LPF" xml:id="LPF349" synch="#TS699">
+                    quindi senza possibilità di sedersi 80 <anchor xml:id="lpf-509" synch="#TT509"/>persone in un vagone<anchor xml:id="lpf-510" synch="#TT510"/>
+                </u>
+
+                <u who="#AW" xml:id="AW349" synch="#TS700">
+                    <anchor xml:id="arm-509" synch="#TT509"/>praticamente<anchor xml:id="arm-510" synch="#TT510"/> no
+                </u>
+                
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF350" synch="#TS701">
+                    e<pause/> <del type="falseStart"><del type="truncation">tut</del></del> <del type="reformulation">il</del> treno fu riempito tutto
+                </u>
+
+                <u who="#AW" xml:id="AW350" synch="#TS702">
+                    riempito completamente<pause/> ma arrivati <del type="falseStart">ad <del type="truncation"><placeName ref="TEI-ListPlace.xml#Auschwitz">Ausch</placeName></del></del> <del type="reformulation">a <placeName ref="TEI-ListPlace.xml#Wa">Varsavia</placeName></del> trovammo già dei prigionieri<pause/> di un<pause/> trasporto precedente
+                </u>
+
+                <u who="#LPF" xml:id="LPF351" synch="#TS703">
+                    a <placeName ref="TEI-ListPlace.xml#Wa">Varsavia</placeName> dove arrivaste alla <anchor xml:id="lpf-511" synch="#TT511"/>stazione<pause/><anchor xml:id="lpf-512" synch="#TT512"/> si
+                </u>
+
+                <u who="#AW">
+                    <anchor xml:id="arm-511" synch="#TT511"/>alla stazione<anchor xml:id="arm-512" synch="#TT512"/>
+                </u>
+
+                <u who="#AW" xml:id="AW351" synch="#TS704">
+                    non centrale una stazione
+                </u>
+
+                <u who="#LPF" xml:id="LPF352" synch="#TS705">
+                    dentro la <rs ref="TEI-ListPlace.xml#Wa" resp="#GB">città</rs>
+                </u>
+
+                <u who="#AW" xml:id="AW352" synch="#TS706">
+                    dentro la <rs ref="TEI-ListPlace.xml#Wa" resp="#GB">città</rs><pause/> e da lì a piedi<pause/> <del type="repetition">fummo</del><pause/> fummo<pause/> trasferiti<pause/> al <placeName ref="TEI-ListPlace.xml#Wa"><district type="area">ghetto</district> di Varsavia</placeName> attraversammo il <soCalled>famoso muro</soCalled><pause/> ed entrammo nella <distinct type="technical">baraccopoli</distinct><pause/> predisposta per noi<pause/> internamente<pause/> nel<pause/> ex <place><district type="area">ghetto</district></place>
+                </u>
+
+                <u who="#LPF" xml:id="LPF353" synch="#TS707">
+                    <del type="falseStart">marciasse</del> <del type="correction">marciaste</del> in mezzo alla popolazione <anchor xml:id="lpf-513" synch="#TT513"/>civile<anchor xml:id="lpf-514" synch="#TT514"/>
+                </u>
+
+                <u who="#AW" xml:id="AW353" synch="#TS708">
+                    <anchor xml:id="arm-513" synch="#TT513"/>in mezzo alla<anchor xml:id="arm-514" synch="#TT514"/> popolazione civile si
+                </u>
+
+                <u who="#LPF" xml:id="LPF354" synch="#TS709">
+                    vi guardavano <anchor xml:id="lpf-515" synch="#TT515"/>erano incuriositi<anchor xml:id="lpf-516" synch="#TT516"/>
+                </u>
+
+                <u who="#AW" xml:id="AW354" synch="#TS710">
+                    <anchor xml:id="arm-515" synch="#TT515"/>si ma loro erano già abituati<anchor xml:id="arm-516" synch="#TT516"/> <del type="reformulation"><unclear reason="inaudible" resp="#GB" cert="medium">i</unclear> polacchi erano già abituati a vedere <del type="truncation">quest</del></del>
+                </u>
+
+                <u who="#LPF" xml:id="LPF355" synch="#TS711">
+                    questa scena<pause/> avevate la vostra <mentioned>stella</mentioned> ancora sul
+                </u>
+
+                <u who="#AW" xml:id="AW355" synch="#TS712">
+                    avevamo tutto a<distinct type="informal">addosso</distinct>. 
+                </u>
+
+                <u who="#LPF" xml:id="LPF356" synch="#TS713">
+                    tutto <distinct type="informal">addosso</distinct><pause/> erano solo ebrei quelli che son stati trasferiti a <placeName ref="TEI-ListPlace.xml#Wa">Varsavia</placeName> o di tutto
+                </u>
+
+                <pause/>
+
+                <u who="#AW" xml:id="AW356" synch="#TS714">
+                    <vocal>mm</vocal> la <unclear reason="inaudible" resp="#GB" cert="low">più</unclear> parte erano ebrei
+                </u>
+
+                <incident iterated="true"><desc>rumore di una penna che scrive</desc></incident>
+
+                <u who="#LPF" xml:id="LPF357" synch="#TS715">
+                    e<pause/> <rs ref="TEI-ListPlace.xml#Wa" resp="#GB">lì</rs> foste in qualche modo immatricolati di nuovo o no
+                </u>
+
+                <u who="#AW" xml:id="AW357" synch="#TS716">
+                    si <vocal>ahm</vocal> ricevemmo un nuovo numero<pause/> non mi ricordo bene 88 mila o qualcosa di simile<pause/> <anchor xml:id="arm-517" synch="#TT517"/>ma <del type="repetition">senza</del><anchor xml:id="arm-518" synch="#TT518"/><pause/> senza più tatuaggio
+                </u>
+
+                <u who="#LPF">
+                    <anchor xml:id="lpf-517" synch="#TT517"/><vocal>ehmm</vocal><anchor xml:id="lpf-518" synch="#TT518"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF358" synch="#TS717"><!--?-->
+                    senza più <del type="truncation">tatuag</del> <anchor xml:id="lpf-519" synch="#TT519"/><del type="truncation">ta</del><anchor xml:id="lpf-520" synch="#TT520"/> <del type="falseStart">il suo numero tatuato</del> <del type="reformulation">qual era il suo numero <anchor xml:id="lpf-521" synch="#TT521"/>tatuato<pause/> ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName></del><anchor xml:id="lpf-522" synch="#TT522"/><pause/> lo ha detto già<pause/> e qui 88 mila non si <anchor xml:id="lpf-523" synch="#TT523"/>ricorda<anchor xml:id="lpf-524" synch="#TT524"/>
+                </u>
+
+                <u who="#AW">
+                    <anchor xml:id="arm-519" synch="#TT519"/>si<anchor xml:id="arm-520" synch="#TT520"/>
+                    <anchor xml:id="arm-521" synch="#TT521"/>l'avevo già detto prima<anchor xml:id="arm-522" synch="#TT522"/>
+                </u>
+
+                <u who="#AW" xml:id="AW358" synch="#TS718">
+                    <anchor xml:id="arm-523" synch="#TT523"/>non mi ricordo più<anchor xml:id="arm-524" synch="#TT524"/> era qualcosa di simile<pause/> lo stesso avvenne poi a <placeName ref="TEI-ListPlace.xml#Dachau">Dachau</placeName> anche <rs ref="TEI-ListPlace.xml#Dachau" resp="#GB">lì</rs> ci diedero dei numeri
+                </u>
+
+                <u who="#LPF" xml:id="LPF359" synch="#TS719">
+                    si<pause/> cioè vi diedero nel senso <anchor xml:id="lpf-525" synch="#TT525"/>che<anchor xml:id="lpf-526" synch="#TT526"/>
+                </u>
+
+                <u who="#AW" xml:id="AW359" synch="#TS720"><!-- da ricontrollare i mentioned-->
+                    <anchor xml:id="arm-525" synch="#TT525"/><unclear reason="inaudible" resp="#GB" cert="medium">che</unclear> il numero<anchor xml:id="arm-526" synch="#TT526"/> veniva assegnato<pause/> <del type="falseStart"><del type="truncation">so</del></del> <del type="reformulation">dentro</del> nel <mentioned>triangolo</mentioned><pause/> che portavamo sul la giacca
+                </u>
+
+                <u who="#LPF" xml:id="LPF360" synch="#TS721">
+                    anche a <placeName ref="TEI-ListPlace.xml#Wa">Varsavia</placeName>
+                </u>
+
+                <u who="#AW" xml:id="AW360" synch="#TS722">
+                    anche a <placeName ref="TEI-ListPlace.xml#Wa">Varsavia</placeName>
+                </u>
+
+                <u who="#LPF" xml:id="LPF361" synch="#TS723">
+                    <vocal>ehm</vocal> a <placeName ref="TEI-ListPlace.xml#Wa">Varsavia</placeName> vi<pause/> dettero dei <anchor xml:id="lpf-527" synch="#TT527"/>nuovi vestiti<anchor xml:id="lpf-528" synch="#TT528"/>
+                </u>
+
+                <u who="#AW" xml:id="AW361" synch="#TS724">
+                    <anchor xml:id="arm-527" synch="#TT527"/><del type="repetition">dei numeri</del><pause/> dei nuovi<anchor xml:id="arm-528" synch="#TT528"/> numeri
+                </u>
+
+                <u who="#LPF" xml:id="LPF362" synch="#TS725">
+                    <vocal>ah</vocal> solo i numeri <emph>da</emph> cucire<anchor xml:id="lpf-529" synch="#TT529"/><pause/> <del type="truncation">s</del> sui vestiti che vi avevano <unclear reason="inaudible" resp="#GB" cert="medium"><choice><sic>dati</sic><corr resp="#GB">dato</corr></choice></unclear> ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName><anchor xml:id="lpf-530" synch="#TT530"/>
+                </u>
+
+                <u who="#AW">
+                    <anchor xml:id="arm-529" synch="#TT529"/>no<pause/> da cucire <del type="repetition">si</del><pause/> si<anchor xml:id="arm-530" synch="#TT530"/>
+                </u>
+
+                <u who="#AW" xml:id="AW362" synch="#TS726">
+                    <del type="repetition">si si si</del> si
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF363" synch="#TS727">
+                    allora ci metteste tutta la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> perché sono <measure><num>300</num><unit> <anchor xml:id="lpf-531" synch="#TT531"/>km</unit></measure> da<anchor xml:id="lpf-532" synch="#TT532"/>
+                </u>
+
+                <u who="#AW" xml:id="AW363" synch="#TS728">
+                    <anchor xml:id="arm-531" synch="#TT531"/>si lo so ma ci<anchor xml:id="arm-532" synch="#TT532"/> mettemmo una <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> intera
+                </u>
+
+                <u who="#LPF" xml:id="LPF364" synch="#TS729">
+                    <unclear reason="inaudible" resp="#GB" cert="medium">certo</unclear> <vocal><desc>sospira</desc></vocal><pause/> e come foste trattati a <placeName ref="TEI-ListPlace.xml#Wa">Varsavia</placeName>
+                </u>
+
+                <!--13:45-->
+                <u who="#AW" xml:id="AW364" synch="#TS730">
+                    <vocal>ah</vocal><pause/> incominciarono con le <distinct type="informal">botte</distinct> all'uscita dei vagoni<pause/> e <didstinct type="infrequent">scudisciate</distinct> e a <vocal>mm</vocal> <placeName ref="TEI-ListPlace.xml#Wa">Varsavia</placeName> oltre che <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> c'erano anche gli ucraini<pause/> e i lituani<pause/> che <pause/>erano<pause/> in forza<pause/> alla <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> per i campi<pause/> di concentrament<pause/>. Comunque interessante fu che a Varsavia<pause/> appena rientrati<pause/> venimmo controllati perr vedere se avevamo dei denti d'oro<pause/> in quanto serviva loro, in caso di morte, per estrarli<pause/> e recuperarli come già facevano ad Auschwitz per i morti<pause/> Eee<pause/> in qualità di interprete a me non guardarono in bocca, così mi rimasero due ponti d'oro che avevo che mi servirono in seguito come racconterò. Eee improvvisamente si avvicina a noi un prigioniero... zebrato che cominciò a parlare italiano con noi, era Saul Segnor(?), unnn prigioniero di Salonicco che aveva frequentato a Salonicco la scuola italiana, lui aveva l'incarico dii sorvegliare e distribuire il vestiario alla SS e quindi ahh ebbe subito simpatia per noi e cominciò a portarci anzitutto un po' di pane per rifocilarci e in seguito quando poteva cercò sempre di aiutarci. Poi s- più tardi purtroppo venne impiccato - non so se può interessare il motivo
+                </u>
             </div>
 
         </body>
@@ -5065,60 +5396,6 @@
 </TEI>
 
 <!--
-L.P: i prigionieri avevano l'aria un poooo' ehm meglio, megl-...
-A.W: si vedeva che effettivamente (che) stavano meglio di noi.
-L.P: si vedeva. Intanto erano tutti in divisa, mi sembra, ad Auschwitz.
-A.W: si, eran tutti in divisa zebrata. GGiunti a Varsavia...
-L.P: un attimo, da Auschwitz andaste quindi fino alla stazione ferroviaria?
-A.W: ll, entrava dentro ad Auschwitz, entrava dentro il treno...
-L.P: sul fianco?
-A.W: sul fianco si. Senza dover camminare fuori dal campo.
-L.P: mi pare che sia sul fianco ma fuori dalla cinta del muro llla la rotaia.
-A.W: questo piccolo particolare non lo rammento più, so che però non era da camminare (a)lungo...
-L.P: ehm foste caricati su dei treni normali?
-A.W: no vagoni bestiame.
-L.P: vagoni bestiam-. Eravate in molti?
-A.W: il gruppo nostro del vagone era composto da 42 italiani, il resto, circa una 4oina di ebrei olandesi.
-L.P: ah quindi era circa 80 persone in un vagone?
-A.W: in un vagone si.
-L.P: quindi senza possibilità di sedersi 80 persone in un vagone.
-A.W: praticamente no.
-L.P: ee tut- il treno fu riempito tutto?
-A.W: riempito completamente ma ehh arrivati ad Ausch- a Varsavia trovammo già dei prigionieri di unn trasporto precedente.
-L.P: a Varsavia dove arrivaste? Alla stazione?
-A.W: alla stazione.
-L.P: si.
-A.W: non centrale, una stazione...
-L.P: dentro la città?
-A.W: dentro la città, e da lì a piedi fummo fummoo trasferiti al ghetto di Varsavia, attraversammo il famoso muro ed entrammo nellla baraccopoli predisposta per noi internamente nell ex ghetto.
-L.P: marciasse (riformulazione) marciaste in mezzo alla popolazione civile?
-A.W: in mezzo alla popolazione civile, si.
-L.P: vi guardavano, erano incuriosit-?
-A.W: si ma loro erano già abituati, (i) polacchi erano già abituati a vedere quest-.
-L.P: questa scena. Avevate la vostra stella ancora sul..?
-A.W: avevamo tutto a<distinct type="informal">addosso</distinct>.
-L.P: tutto <distinct type="informal">addosso</distinct>. Erano solo ebrei quelli che son stati trasferiti a Varsavia o di tutto?
-A.W: (non si capisce) parte erano ebrei.
-L.P: eee lì foste in qualche modo immatricolati di nuovo o no?
-A.W: si, ehm ricevemmo un nuovo numero, non mi ricordo bene 88 mila o qualcosa di simile, ma senza.. senza più tatuaggio.
-L.P: senza più tatuag- tatuaggio. Il suo numero tatuato, qual era il suo numero tatuato... Ad Auschwitz?
-A.W: (glie)lo avevo già detto prima.
-L.P: lo ha detto già. e qui 88 mila non si ricorda?
-A.W: non mi ricordo più, era qualcosa di simile... lo stesso avvenne poi a Dachau, anche lì ci diedero dei numeri.
-L.P: si, cioè vi "diedero" nel senso che...?
-A.W: che(?) il numero veniva ssegnato so- dentro nel triangolo che portavamo sulla giacca.
-L.P: anche a Varsavia?
-A.W: anche a Varsavia.
-L.P: ehm a Varsavia vi dettero dei nuovi vestiti?
-A.W: dei numeri... dei nuovi numeri.
-L.P: ah, solo i numeri da cucire?
-A.W: no... da cucire si.
-L.P: sui vestiti che vi avevano dato(i) ad Auschwitz?
-A.W: ah si si si si.
-L.P: allora(se lo mangia un po'?) ci metteste tutta la notte perché sono 300 km daa...
-A.W: si lo so ma ci mettemmo una(o la?) notte intera.
-L.P: e comeee foste trattati a Varsavia?
-A.W: ah, incominciarono con le <distinct type="informal">botte</distinct> all'uscita dei vagoni eee scudisciate, aa ehm Varsavia oltre che SS c'erano anche gli ucraini e i lituani che eranooo in forza alla SS per i campii di concentrament-. Comunque interessante fu che a Varsavia appena rientrati venimmo controllati perr vedere se avevamo dei denti d'oro, in quanto serviva loro, in caso di morte, per estrarli e recuperarli come già facevano ad Auschwitz per i morti. Eee in qualità di interprete a me non guardarono in bocca, così mi rimasero due ponti d'oro che avevo che mi servirono in seguito come racconterò. Eee improvvisamente si avvicina a noi un prigioniero... zebrato che cominciò a parlare italiano con noi, era Saul Segnor(?), unnn prigioniero di Salonicco che aveva frequentato a Salonicco la scuola italiana, lui aveva l'incarico dii sorvegliare e distribuire il vestiario alla SS e quindi ahh ebbe subito simpatia per noi e cominciò a portarci anzitutto un po' di pane per rifocilarci e in seguito quando poteva cercò sempre di aiutarci. Poi s- più tardi purtroppo venne impiccato - non so se può interessare il motivo...
 L.P: si.
 A.W: la causa e così avan- - eee la lavanderia non c'era nel campo e quindi per lavare gli indumenti della SS si recavano aa nella zona ariana di Varsavia e portavano con sé gli indumenti sporchi e ritiravano quelli puliti e questo Saul accompagnava sempre illl l'autista della SS che andava alla lavanderia. Nella lavanderia stessa c'era una ragazza ebrea però non riconosciuta come ebrea che si era nascosta - non "nascosta", nel senso che aveva documenti falsi -
 L.P: clandestina.

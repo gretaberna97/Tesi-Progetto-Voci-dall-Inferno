@@ -959,6 +959,36 @@
 
                         </person>
 
+                        <!--Isaac Saul Senor-->
+                        <person xml:id="IsaacSS"> 
+                            <note resp="#GB">Desumo dalle parole di Arminio Wachsberger le informazioni riguardarti questo uomo</note>  
+    
+                                <persName>
+                                    <ref target=""/>
+                                    <foreName>Isaac</foreName>
+                                    <foreName>Saul</foreName>
+                                    <surname>Senor</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="" cert=""></date>
+                                    <placeName><!--xml:id salonicco-->
+                                        <settlement type="municipality">Salonicco</settlement>
+                                        <country key="GR">Grecia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" cert="" notBefore="1943-11-27"></date>
+                                    <placeName ref="TEI-ListPlace#Wa">
+                                        <settlement type="municipality">Varsavia</settlement>
+                                        <country key="PL">Polonia</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
                         <!-- Lista delle relazioni -->
                         <listRelation>
                             <relation name="spouse" mutual="#DavideW #MiriamG"/>
