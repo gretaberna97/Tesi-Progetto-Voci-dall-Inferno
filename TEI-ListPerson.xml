@@ -135,7 +135,7 @@
                                 <death>
                                     <date when="1944-04-30" cert="high">40 Aprile 1944</date>
                                     <note resp="#GB">Desumo dalle parole di Arminio Wachsberger e dalle fonti che sia morta ad Auschwitz</note>
-                                    <placeName ref="TEI-ListPlace#Au">
+                                    <placeName ref="TEI-ListPlace#Auschwitz">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
@@ -164,7 +164,7 @@
 
                                 <death>
                                     <date when="1944-04-30" cert="high">40 Aprile 1944</date>
-                                    <placeName ref="TEI-ListPlace#Au">
+                                    <placeName ref="TEI-ListPlace#Auschwitz">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
@@ -224,7 +224,7 @@
 
                                 <death>
                                     <date when="1943-10-23" cert="high">23 Ottobre 1943</date>
-                                    <placeName ref="TEI-ListPlace#Au">
+                                    <placeName ref="TEI-ListPlace#Auschwitz">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
@@ -253,7 +253,7 @@
 
                                 <death>
                                     <date when="1943-10-23" cert="high">23 Ottobre 1943</date>
-                                    <placeName ref="TEI-ListPlace#Au">
+                                    <placeName ref="TEI-ListPlace#Auschwitz">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
@@ -283,7 +283,7 @@
 
                                 <death>
                                     <date when="1943-10-23" cert="high">23 Ottobre 1943</date>
-                                    <placeName ref="TEI-ListPlace#Au">
+                                    <placeName ref="TEI-ListPlace#Auschwitz">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
@@ -642,7 +642,7 @@
 
                                 <death>
                                     <date when="1943-10-23" cert="high">23 Ottobre 1943</date>
-                                    <placeName ref="TEI-ListPlace#Au">
+                                    <placeName ref="TEI-ListPlace#Auschwitz">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
@@ -674,7 +674,7 @@
 
                                 <death>
                                     <date when="1943-10-23" cert="high">23 Ottobre 1943</date>
-                                    <placeName ref="TEI-ListPlace#Au" cert="medium">
+                                    <placeName ref="TEI-ListPlace#Auschwitz" cert="medium">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
@@ -736,7 +736,7 @@
 
                                 <death>
                                     <date when="1943-11-30" cert="high">30 Novembre 1943</date>
-                                    <placeName ref="TEI-ListPlace#Au">
+                                    <placeName ref="TEI-ListPlace#Auschwitz">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
@@ -800,7 +800,7 @@
 
                                 <death>
                                     <date when="1947-04-16" cert="high">16 Aprile 1947</date>
-                                    <placeName ref="TEI-ListPlace#Au">
+                                    <placeName ref="TEI-ListPlace#Auschwitz">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
@@ -862,7 +862,7 @@
 
                                 <death>
                                     <date when="1943-12-31" cert="medium">31 Dicembre 1943</date>
-                                    <placeName ref="TEI-ListPlace#WA" cert="medium">
+                                    <placeName ref="TEI-ListPlace#Varsavia" cert="medium">
                                         <note resp="#GB">Desumo dalle parole di Arminio Wachsberger che l'uomo morì a Varsavia di differite</note>
                                         <settlement type="municipality">Varsavia</settlement>
                                         <country key="PL">Polonia</country>
@@ -892,7 +892,7 @@
 
                                 <death>
                                     <date when="1943-12-31" cert="medium">31 Dicembre 1943</date>
-                                    <placeName ref="TEI-ListPlace#WA" cert="medium">
+                                    <placeName ref="TEI-ListPlace#Varsavia" cert="medium">
                                         <note resp="#GB">Desumo dalle parole di Arminio Wachsberger che l'uomo morì a Varsavia di tifo</note>
                                         <settlement type="municipality">Varsavia</settlement>
                                         <country key="PL">Polonia</country>
@@ -974,7 +974,7 @@
 
                                 <birth>
                                     <date when="" cert=""></date>
-                                    <placeName><!--xml:id salonicco-->
+                                    <placeName ref="TEI-ListPlace#Sal">
                                         <settlement type="municipality">Salonicco</settlement>
                                         <country key="GR">Grecia</country>
                                     </placeName>
@@ -982,7 +982,7 @@
 
                                 <death>
                                     <date when="" cert="" notBefore="1943-11-27"></date>
-                                    <placeName ref="TEI-ListPlace#Wa">
+                                    <placeName ref="TEI-ListPlace#Varsavia">
                                         <settlement type="municipality">Varsavia</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
@@ -1014,6 +1014,7 @@
                             <relation name="parent" active="#LeonelloDS" passive="#GiancarloDS"/>
                             <relation name="survivor" mutual="#AW #SettimiaS"/>
                             <relation name="writer" active="#RudolfV" mutual="#AW"/>
+                            <relation name="deportee-Varsavia" mutual="#AW #IsaacSS"/>
 					</listRelation>
                 </listPerson>
             

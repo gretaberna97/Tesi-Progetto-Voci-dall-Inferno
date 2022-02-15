@@ -112,7 +112,7 @@
                         <country key="IL">Israele</country>
                     </place>
 
-                    <place xml:id="Wa">
+                    <place xml:id="Varsavia">
                         <placeName ref="https://www.geonames.org/756135 https://www.treccani.it/enciclopedia/varsavia/">Varsavia</placeName>
                         <country key="PL">Polonia</country>
                     </place>
@@ -166,12 +166,22 @@
                     </place>
 
                     <place xml:id="Jaworzno"><!--wikipedia: su treccani.it non c'è la voce-->
-                        <placeName ref="https://www.geonames.org/3097333 https://it.wikipedia.org/wiki/Jaworzno">Jaworzno</placeName>
+                        <placeName ref="https://www.geonames.org/3097333 https://it.wikipedia.org/wiki/Jaworzno/">Jaworzno</placeName>
                         <country key="PL">Polonia</country>
                     </place>
 
                     <place xml:id="Dachau">
-                        <placeName ref="http://www.geonames.org/2939623 https://www.treccani.it/enciclopedia/dachau">Dachau</placeName>
+                        <placeName ref="http://www.geonames.org/2939623 https://www.treccani.it/enciclopedia/dachau/">Dachau</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
+
+                    <place xml:id="Sal">
+                        <placeName ref="https://www.geonames.org/734077 https://www.treccani.it/enciclopedia/salonicco/">Salonicco</placeName>
+                        <country key="GR">Grecia</country>
+                    </place>
+
+                    <place xml:id="Berlino">
+                        <placeName ref="https://www.geonames.org/2950159 https://www.treccani.it/enciclopedia/berlino/">Berlino</placeName>
                         <country key="DE">Germania</country>
                     </place>
                 </listPlace>
