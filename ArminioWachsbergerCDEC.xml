@@ -1128,6 +1128,9 @@
 
             <when xml:id="TT577" absolute="00:34:08" synch="#lpf-577"/> 
             <when xml:id="TT578" since="#TT577" interval="1"/>
+
+            <when xml:id="TT579" absolute="00:34:40" synch="#lpf-579"/> 
+            <when xml:id="TT580" since="#TT580" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -1907,27 +1910,34 @@
             <when xml:id="TS771" synch="#LPF386" absolute="00:31:35"/>
             <when xml:id="TS772" synch="#AW386" absolute="00:31:38"/>
             <when xml:id="TS773" synch="#LPF387" absolute="00:31:42"/>
-            <when xml:id="TS774" synch="#AW376" absolute="00:31:43"/>
-            <when xml:id="TS775" synch="#LPF378" absolute="00:32:34"/>
-            <when xml:id="TS776" synch="#AW378" absolute="00:32:35"/>
-            <when xml:id="TS777" synch="#LPF379" absolute="00:32:37"/>
-            <when xml:id="TS778" synch="#AW379" absolute="00:32:47"/>
-            <when xml:id="TS779" synch="#LPF380" absolute="00:32:49"/>
-            <when xml:id="TS780" synch="#AW380" absolute="00:32:52"/>
-            <when xml:id="TS781" synch="#LPF381" absolute="00:32:53"/>
-            <when xml:id="TS782" synch="#AW381" absolute="00:32:55"/>
-            <when xml:id="TS783" synch="#LPF382" absolute="00:32:56"/>
-            <when xml:id="TS784" synch="#AW382" absolute="00:32:57"/>
-            <when xml:id="TS785" synch="#LPF383" absolute="00:32:57"/>
-            <when xml:id="TS786" synch="#AW383" absolute="00:32:59"/>
-            <when xml:id="TS787" synch="#LPF384" absolute="00:33:00"/>
-            <when xml:id="TS788" synch="#AW384" absolute="00:33:01"/>
-            <when xml:id="TS789" synch="#LPF385" absolute="00:33:06"/>
-            <when xml:id="TS790" synch="#AW385" absolute="00:33:10"/>
-            <when xml:id="TS791" synch="#LPF386" absolute="00:33:13"/>            
-            <when xml:id="TS792" synch="#AW386" absolute="00:33:19"/>
-            <when xml:id="TS793" synch="#LPF387" absolute="00:34:06"/>            
-            <when xml:id="TS794" synch="#AW387" absolute="00:34:08"/>
+            <when xml:id="TS774" synch="#AW386" absolute="00:31:43"/>
+            <when xml:id="TS775" synch="#LPF388" absolute="00:32:34"/>
+            <when xml:id="TS776" synch="#AW388" absolute="00:32:35"/>
+            <when xml:id="TS777" synch="#LPF389" absolute="00:32:37"/>
+            <when xml:id="TS778" synch="#AW389" absolute="00:32:47"/>
+            <when xml:id="TS779" synch="#LPF390" absolute="00:32:49"/>
+            <when xml:id="TS780" synch="#AW390" absolute="00:32:52"/>
+            <when xml:id="TS781" synch="#LPF391" absolute="00:32:53"/>
+            <when xml:id="TS782" synch="#AW391" absolute="00:32:55"/>
+            <when xml:id="TS783" synch="#LPF392" absolute="00:32:56"/>
+            <when xml:id="TS784" synch="#AW392" absolute="00:32:57"/>
+            <when xml:id="TS785" synch="#LPF393" absolute="00:32:57"/>
+            <when xml:id="TS786" synch="#AW393" absolute="00:32:59"/>
+            <when xml:id="TS787" synch="#LPF394" absolute="00:33:00"/>
+            <when xml:id="TS788" synch="#AW394" absolute="00:33:01"/>
+            <when xml:id="TS789" synch="#LPF395" absolute="00:33:06"/>
+            <when xml:id="TS790" synch="#AW395" absolute="00:33:10"/>
+            <when xml:id="TS791" synch="#LPF396" absolute="00:33:13"/>            
+            <when xml:id="TS792" synch="#AW396" absolute="00:33:19"/>
+            <when xml:id="TS793" synch="#LPF397" absolute="00:34:06"/>            
+            <when xml:id="TS794" synch="#AW397" absolute="00:34:08"/>
+            <when xml:id="TS795" synch="#LPF398" absolute="00:34:33"/>
+            <when xml:id="TS796" synch="#AW398" absolute="00:34:40"/>
+            <when xml:id="TS797" synch="#LPF399" absolute="00:34:41"/>
+            <when xml:id="TS798" synch="#AW399" absolute="00:34:42"/>
+            <when xml:id="TS799" synch="#LPF400" absolute="00:34:32"/>
+            <when xml:id="TS800" synch="#AW400" absolute="00:34:45"/>
+            <when xml:id="TS801" synch="#LPF401" absolute="00:35:12"/> 
         </timeline>
         
     </standOff>
@@ -4292,7 +4302,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW237" synch="#TS476">
-                    il cibo<pause/> consisteva<pause/> in questo la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time><pause/> ci davano una <distinct type="informal">specie</distinct><pause/> di <soCalled>tè caldo</soCalled> ma che naturalmente non era tè bensì<pause/> foglie qualsiasi del bosco<pause/> semplicemente bollite
+                    il cibo<pause/> consisteva<pause/> in questo la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time><pause/> ci davano una specie<pause/> di <soCalled>tè caldo</soCalled> ma che naturalmente non era tè bensì<pause/> foglie qualsiasi del bosco<pause/> semplicemente bollite
                 </u>
 
                 <u who="#LPF" xml:id="LPF238" synch="#TS477">
@@ -5843,10 +5853,43 @@
                     ci furono delle fughe durante la<pause/> <anchor xml:id="lpf-577" synch="#TT577"/>evacuazione<anchor xml:id="lpf-578" synch="#TT578"/>
                 </u>
 
+                <incident iterated="true"><desc>brusio elettronico</desc></incident>
+                
                 <u who="#AW" xml:id="AW397" synch="#TS794">
                     <anchor xml:id="arm-577" synch="#TT577"/>durante <del type="truncation">ll</del> il<anchor xml:id="arm-578" synch="#TT578"/> trasferimento a piedi avvennero delle fughe<pause/> perché una la so c'era <dfel type="repetition">un</del><pause/> un grosso <distinct type="technical">cilindro di cemento</distinct><pause/> che serviva per canalizzazione<pause/> e mentre camminavamo un prigioniero <emph>greco</emph><pause/> si nascose dentro questo cilindro nessuno osservò la scena<pause/> io la vidi ma <del type="repetition">non più</del> non più di tanto<pause/> e quello <emph>probabilmente</emph> non lo so<pause/> si salvò
                 </u>
-                <!--34:32-->
+
+                <u who="#LPF" xml:id="LPF398" synch="#TS795">
+                    ma <vocal>ehm</vocval> avevate sempre <del type="falseStart"><del type="repetition">un</del> <vocal>ehm</vocal> un</del> <del type="correction">una</del> specie di divisa o <del type="truncation">de</del> dei vestiti con le strisce oppure a questo <anchor xml:id="lpf-579" synch="#TT579"/>punto<anchor xml:id="lpf-580" synch="#TT580"/>
+                </u>
+
+                <u who="#AW" xml:id="AW398" synch="#TS796">
+                    <anchor xml:id="arm-579" synch="#TT579"/>eravamo sempre<anchor xml:id="arm-580" synch="#TT580"/> zebrati
+                </u>
+
+                <u who="#LPF" xml:id="LPF399" synch="#TS797">
+                    <vocal>ah</vocal> sempre zebrati
+                </u>
+
+                <u who="#AW" xml:id="AW399" synch="#TS798">
+                    sempre <del type="truncation">zebra</del>
+                </u>
+
+                <u who="#LPF" xml:id="LPF400" synch="#TS799">
+                    quindi c'era un po' di pericolo
+                </u>
+
+                <pause/>
+
+                <u who="#AW" xml:id="AW400" synch="#TS800">
+                    si c'era pericolo <unclear reason="inaudible" resp="#GB" cert="low">di vale a dire</unclear><gap reason="lost" extent="3 seconds"/> mi ricordo che a <vocal>mm</vocal><pause/> <placeName ref="TEI-ListPlace.xml#Dachau">Dachau</placeName> <vocal>ehm</vocal> non c'era posto per noi per dormire<pause/> e ci fecero stare tutti <choice><sic>nella<pause/> piazzale</sic><corr resp="#GB">nel piazzale</corr></choice> dell'<emph>appello</emph><pause/> dove incontrai un ebreo ungherese già<pause/> prigioniero a <placeName ref="TEI-ListPlace.xml#Dachau">Dachau</placeName><pause/> che mi regalò una <emph>rapa</emph><pause/> ancora oggi ricordo il sapore di quella rapa
+                </u>
+
+                <u who="#LPF" xml:id="LPF401" synch="#TS801">
+                    <vocal>ehm</vocal> come arrivaste a <placeName ref="TEI-ListPlace.xml#Dachau">Dachau</placeName> <del type="falseStart">foste</del> <pause/><del type="reformulation">passaste</del> <del type="falseStart">dalla <del type="truncation">se</del></del> <del type="reformulation">dall'amministrazione</del><pause/> arrivando
+                </u>
+
+                <!--35:15-->
             </div>
 
         </body>
@@ -5856,14 +5899,7 @@
 </TEI>
 
 <!-- 
-L.P: ma ehm avevate sempre un ehm una specie di divisa, o de- dei vestiti con le strisce oppure a questo punto...?
-A.W: eravamo sempre zebrati.
-L.P: ah sempre zebrati.
-A.W: sempre zebrati.
-L.P: quindi c'era un po' di pericolo...
-A.W: si c'era pericolo, vale a dire...[buco: non su capisce] mi ricordo che aa Dachau non c'era posto per noi per dormire e ci fecero stare tutti nellaa piazzale dell'appello dove incontrai un ebreo ungherese già prigioniero a Dachau che mi regalò una rapa - ancora oggi ricordo il sapore di quella rapa -.
-L.P: ehm come arrivaste a Dachau? ehm foste (riformulazione) passaste dalla ss- dall'amministrazione? Arrivando?
-A.W: arrivando venimmo inn- registrati appunto come nuovi prigionieri di Dachau e ci diedero un numero da mettere sulla giacca.
+A.W: ss<pause/> arrivando venimmo inn- registrati appunto come nuovi prigionieri di Dachau e ci diedero un numero da mettere sulla giacca.
 L.P: con nome e cognome questa volta o no?
 A.W: nono, no, no.
 L.P: niente, mai.
