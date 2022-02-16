@@ -1070,7 +1070,7 @@
             <when xml:id="TT538" since="#TT537" interval="1"/>
 
             <when xml:id="TT539" absolute="00:17:53" synch="#lpf-539"/> 
-            <when xml:id="TT540" since="#TT549" interval="2"/>
+            <when xml:id="TT540" since="#TT539" interval="2"/>
 
             <when xml:id="TT541" absolute="00:18:07" synch="#lpf-541"/> 
             <when xml:id="TT542" since="#TT541" interval="2"/>
@@ -1083,6 +1083,27 @@
 
             <when xml:id="TT547" absolute="00:19:06" synch="#arm-547"/> 
             <when xml:id="TT548" since="#TT547" interval="1"/>
+
+            <when xml:id="TT549" absolute="00:20:16" synch="#lpf-549"/> 
+            <when xml:id="TT550" since="#TT549" interval="1"/>
+
+            <when xml:id="TT551" absolute="00:20:31" synch="#lpf-551"/> 
+            <when xml:id="TT552" since="#TT551" interval="2"/>
+
+            <when xml:id="TT553" absolute="00:20:37" synch="#arm-553"/> 
+            <when xml:id="TT554" since="#TT553" interval="1"/>
+
+            <when xml:id="TT555" absolute="00:20:49" synch="#arm-555"/> 
+            <when xml:id="TT556" since="#TT555" interval="1"/>
+
+            <when xml:id="TT557" absolute="00:21:19" synch="#lpf-557"/> 
+            <when xml:id="TT558" since="#TT557" interval="1"/>
+
+            <when xml:id="TT559" absolute="00:22:53" synch="#lpf-559"/> 
+            <when xml:id="TT560" since="#TT559" interval="1"/>
+
+            <when xml:id="TT561" absolute="00:24:06" synch="#arm-561"/> 
+            <when xml:id="TT562" since="#TT561" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -1831,6 +1852,28 @@
             <when xml:id="TS740" synch="#AW369" absolute="00:18:25"/>
             <when xml:id="TS741" synch="#LPF370" absolute="00:19:02"/>
             <when xml:id="TS742" synch="#AW370" absolute="00:19:06"/>
+            <when xml:id="TS743" synch="#LPF371" absolute="00:20:04"/>
+            <when xml:id="TS744" synch="#AW371" absolute="00:20:06"/>
+            <when xml:id="TS745" synch="#LPF372" absolute="00:20:11"/>
+            <when xml:id="TS746" synch="#AW372" absolute="00:20:16"/>
+            <when xml:id="TS747" synch="#LPF373" absolute="00:20:29"/>
+            <when xml:id="TS748" synch="#AW373" absolute="00:20:33"/>
+            <when xml:id="TS749" synch="#LPF374" absolute="00:20:34"/>
+            <when xml:id="TS750" synch="#AW374" absolute="00:20:35"/>
+            <when xml:id="TS751" synch="#LPF375" absolute="00:21:17"/>
+            <when xml:id="TS752" synch="#AW375" absolute="00:21:19"/>
+            <when xml:id="TS753" synch="#LPF376" absolute="00:21:28"/>
+            <when xml:id="TS754" synch="#AW376" absolute="00:21:29"/>
+            <when xml:id="TS755" synch="#LPF378" absolute="00:22:14"/>
+            <when xml:id="TS756" synch="#AW378" absolute="00:22:16"/>
+            <when xml:id="TS757" synch="#LPF379" absolute="00:22:23"/>
+            <when xml:id="TS758" synch="#AW379" absolute="00:22:26"/>
+            <when xml:id="TS759" synch="#LPF380" absolute="00:23:11"/>
+            <when xml:id="TS760" synch="#AW380" absolute="00:23:14"/>
+            <when xml:id="TS761" synch="#LPF381" absolute="00:23:44"/>
+            <when xml:id="TS762" synch="#AW381" absolute="00:23:47"/>
+            <when xml:id="TS763" synch="#LPF382" absolute="00:23:51"/>
+            <when xml:id="TS764" synch="#AW382" absolute="00:23:53"/>
         </timeline>
         
     </standOff>
@@ -5482,15 +5525,121 @@
                 <u who="#AW">
                     <anchor xml:id="arm-545" synch="#TT545"/>all'interno del campo<anchor xml:id="arm-546" synch="#TT546"/>
                 </u>
-                <!--19:00-->
+                
                 <u who="#AW" xml:id="AW370" synch="#TS742">
-                    <anchor xml:id="arm-547" synch="#TT547"/>in<anchor xml:id="arm-548" synch="#TT548"/> seguito invece lll ill campo di lavoro, nostro, in particolare, quello(?) degli(?) italiani era il recupero dei mattoni. Anche qui sarebbe lungo da raccontare: una parte doveva andar su sulle case diroccate e col piccone rompere le mura per far sì che precipitassero giù ii mattoni. Un altro gruppo doveva sedersi per terra e con dei martelletti pulire questi mattoni. Poi un altro gruppo ancora doveva costituire delle pile di mattoni da 250 pezzi. Questi mattoni venivano venduti ai polacchi perr i propri fabbisogni, quindi, come ho detto prima, si recuperava tutto quello che era recuperabile... c'era un gruppo dii ooperai, cioè di prigionieri che si recavano nelle cantine perr recuperare oro, argento, brillanti, dollari, tutto ciò che era... possibile.
+                    <anchor xml:id="arm-547" synch="#TT547"/>in<anchor xml:id="arm-548" synch="#TT548"/> seguito invece<pause/> <del type="truncation">lll</del> il campo di lavoro<pause/> nostro in particolare <unclear reason="inaudible" resp="#GB" cert="medium">quello degli</unclear> italiani era il <choice><sic>ricupero</sic><corr resp="#GB">recupero</corr></choice> dei <emph>mattoni</emph><pause/> anche qui sarebbe lungo da raccontare<pause/> <vocal>ehm</vocal> una parte doveva andar su sulle case diroccate<pause/> e <choice><orig>col</orig><reg resp="#GB">con il</reg></choice> piccone<pause/> rompere <pause/>le mura per far sì che precipitassero giù i<pause/> mattoni un altro gruppo<pause/> doveva<pause/> sedersi per terra e con dei <distinct type="diminutive">martelletti</distinct> <pause/>pulire questi mattoni<pause/> poi un altro gruppo ancora doveva<pause/> costituire delle <emph>pile</emph> di mattoni da 250 pezzi<pause/> questi mattoni venivano venduti<pause/> ai polacchi<pause/> per<pause/> i propri fabbisogni<pause/> quindi come ho detto prima si <choice><sic>ricuperava</sic><corr resp="#GB">recuperava</corr></choice> tutto quello che era recuperabile<pause/> c'era un gruppo di <pause/><del type="truncation">o</del> operai cioè di prigionieri che si recavano nelle cantine<pause/> per <choice><sic>ricuperare</sic><corr resp="#GB">recuperare</corr></choice> oro argento brillanti dollari<pause/> tutto ciò che era<pause/>possibile
                 </u>
 
                 <u who="#LPF">
                     <anchor xml:id="lpf-547" synch="#TT547"/>e<anchor xml:id="lpf-548" synch="#TT548"/>
                 </u>
 
+                <u who="#LPF" xml:id="LPF371" synch="#TS743">
+                    furon trovati anche dei corpi
+                </u>
+
+                <u who="#AW" xml:id="AW371" synch="#TS744">
+                    furono trovati dei corpi moltissimi<pause/> di <distinct type="informal">gente</distinct> che era già <del type="truncation">mort</del> 
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF372" synch="#TS745">
+                    <vocal>eehm</vocal><pause/> voi sapeste della avvenuta rivolta <pause/>eravate al <anchor xml:id="lpf-549" synch="#TT549"/>corrente<anchor xml:id="lpf-550" synch="#TT550"/>
+                </u>
+
+                <u who="#AW" xml:id="AW372" synch="#TS746">
+                    <anchor xml:id="arm-549" synch="#TT549"/><del type="falseStart">questo è<anchor xml:id="arm-550" synch="#TT550"/> era</del> <del type="reformulation">eravamo al corrente</del> esattamente di ciò che era successo<pause/> perché appunto <del type="falseStart">nel</del> <del type="reformulation">durante</del> la lavorazione incontravamo come lei aveva chiesto prima<pause/> dei cadaveri<pause/> dei cadaveri semi bruciati
+                </u>
+
+                <u who="#LPF" xml:id="LPF373" synch="#TS747">
+                    quindi ve lo immaginaste o <anchor xml:id="lpf-551" synch="#TT551"/><gap reason="inaudible" resp="#GB" atLeast="1 words" atMost="2 words"/>qualcuno<pause/><anchor xml:id="lpf-552" synch="#TT552"/> chi
+                </u>
+
+                <u who="#AW">
+                    <anchor xml:id="arm-551" synch="#TT551"/>no poi ci raccontarono<anchor xml:id="arm-552" synch="#TT552"/>
+                </u>
+
+                <u who="#AW" xml:id="AW373" synch="#TS748">
+                    <del type="falseStart">i</del> <del type="correction">li</del> stessi polacchi
+                </u>
+
+                <u who="#LPF" xml:id="LPF374" synch="#TS749">
+                    li stessi polacchi
+                </u>
+
+                <u who="#AW" xml:id="AW374" synch="#TS750"><!--la glossa è giusta?; per noi-->
+                    perché i polacchi che venivano erano <emph>civili</emph><anchor xml:id="arm-553" synch="#TT553"/><pause/><anchor xml:id="arm-554" synch="#TT554"/> venivano <unclear reason="inaudible" resp="#GB" cert="medium">all</unclear>'interno solo<pause/> o per portar via<pause/> i <emph>mattoni</emph><pause/> oppure per farci da <term ref="#maester"><foreing xml:lang="de">maester</foreing></term> cioè da<pause/> da <gloss xml:id="maester">capi sorveglianti</gloss><anchor xml:id="arm-555" synch="#TT555"/><pause/> trovammo<anchor xml:id="arm-556" synch="#TT556"/> anche<pause/> un gruppo di<pause/> ex cantanti dell'<place type="opera">opera<pause/> di <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName></place><pause/> che era stata distrutta<pause/> <del type="reformulation">cioè l'edificio dell'opera era stato distrutto</del> e questi<pause/> facevano da <term ref="#maester"><foreing xml:lang="de">maester</foreing></term> per noi<pause/> e siccome erano<pause/> amanti della musica<pause/> noi cantavamo per loro in <lang>italiano</lang> mi ricordo per esempio la canzone <bibl type="song"><title type="main" level="m">mamma</title></bibl><pause/> e loro in cambio ci davano un po' di pane<pause/> e questo significava la vita
+                </u>
+
+                <u who="#LPF">
+                    <anchor xml:id="lpf-553" synch="#TT553"/><vocal><desc>annuisce</desc></vocal><anchor xml:id="lpf-554" synch="#TT554"/>
+                    <anchor xml:id="lpf-555" synch="#TT555"/>e<anchor xml:id="lpf-556" synch="#TT556"/>
+                </u>
+                
+                <u who="#LPF" xml:id="LPF375" synch="#TS751">
+                    e l'atteggiamento in generale dei <anchor xml:id="lpf-557" synch="#TT557"/>polacchi<anchor xml:id="lpf-558" synch="#TT558"/>
+                </u>
+
+                <u who="#AW" xml:id="AW375" synch="#TS752">
+                    <anchor xml:id="arm-557" synch="#TT557"/>era<anchor xml:id="arm-558" synch="#TT558"/> <vocal>ehm</vocal> molto ostile contro gli ebrei<pause/> io non vorrei generalizzare<pause/> ma <vocal>hm</vocal> molti polacchi si sono dimostrati crudeli con noi
+                </u>
+
+                <u who="#LPF" xml:id="LPF376" synch="#TS753">
+                    in quell'occasione
+                </u>
+
+                <u who="#AW" xml:id="AW376" synch="#TS754">
+                    in<pause/> quelle occasioni sia a lavoro<pause/> sia fuori<pause/> mi ricordo che<pause/> il campo <del type="falseStart">dei</del> <del type="correction">del</del> <place><district type="area">ghetto</district></place><pause/> era come si sa diviso <del type="repetition">da un</del> da un<pause/> <emph>muro</emph><pause/> la<pause/> parte esterna del muro c'erano le case civili dei polacchi<pause/> bene qualche rara volta <pause/>buttavano dalla finestra qualche pezzo di crosta di pane<pause/> ma non lo facevano mai quando erano<pause/> un <emph>paio</emph> di prigionieri <unclear reason="inaudible" resp="#GB" cert="high">vicino</unclear> al muro<pause/> perché almeno si sarebbero <vocal>ehm</vocal> <vocal>saziati</vocal><pause/> <emph>no</emph> buttavano il pane solo quando vedevano una <emph>massa</emph> di prigionieri<pause/> perché<pause/> per <choice><sic>ricuperare</sic><corr resp="#GB">recuperare</corr></choice> <choice><sic>quel po'</sic><corr resp="#GB">quel poco</corr></choice> di pane<pause/> ci si <distinct type="infrequent">azzuffava</distinct><pause/> fra di noi<pause/> e questo era un divertimento per i polacchi che guardavano dalle finestre
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF377" synch="#TS755">
+                    quanto rimase a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName>
+                </u>
+
+                <u who="#AW" xml:id="AW377" synch="#TS756">
+                    A <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName> rimasi dal <date when="1943-11">novembre del 43</date><pause/> fino all'<date when="1944-08">agosto del<pause/> <emph>44</emph></date>
+                </u>
+
+                <u who="#LPF" xml:id="LPF378" synch="#TS757">
+                    <vocal>ehm</vocal> era completato il lavoro quando lei andò via
+                </u>
+
+                <u who="#AW" xml:id="AW379" synch="#TS758"><!--avessero -> avrebbero-->
+                    <del type="repetition">no no no no</del> no era successo<pause/> che <vocal>ehm</vocal> i russi<pause/> erano arrivati fino alle porte di <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><pause/> e sembrava<pause/> che l'avessero occupata entro brevissimo tempo<pause/> venne deciso perciò la evacuazione del campo<pause/> <vocal>eeehm</vocal><pause/> anche <rs ref="TEI-ListPlace.xml#Varsavia" resp="#GB">lì</rs> cose strane che son successe<pause/> c'era con noi<pause/> un italiano<pause/> <persName ref="TEI-ListPerson.xml#MarioDV">Di Veroli</persName> si chiamava <pause/>il quale era<pause/>gravemente <unclear reason="inaudible" resp="#GB" cert="medium">malato</unclear><pause/> e quando <pause/>preparammo le <distinct type="technical"><choice><sic>cinturie</sic><corr resp="#GB">centurie</corr></choice></distinct> per l'uscita dal campo a <emph>piedi</emph><pause/> <rs ref="TEI-ListPerson.xml#MarioDV">lui</rs><pause/> <vocal>ehm</vocal> dichiarò di essere troppo debole per poter<pause/> uscire
+                </u>
+
+                <u who="#LPF" xml:id="LPF380" synch="#TS759">
+                    sapendo<pause/> la sorte che
+                </u>
+
+                <u who="#AW" xml:id="AW380" synch="#TS760">
+                    no <del type="falseStart">si</del> sembrava che noi si andasse in un altro campo<pause/> e come <rs ref="TEI-ListPerson.xml#MarioDV">lui</rs> anche altri <unclear reason="inaudible" resp="#GB" cert="medium">e</unclear> specialmente ebrei ungheresi<pause/> decisero di rimanere<pause/> nella baracca degli ammalati<pause/> <choice><sic>e la <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice>li tranquillizzarono</sic><corr resp="#GB">e la <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice>li tranquillizzò</corr></choice><pause/> dicendo che<pause/> sarebbero stati<pause/> presi in consegna dalla <orgName>croce rossa polacca</orgName><pause/> viceversa appena usciti dal campo sentimmo il <distinct type="infrequent">crepitare</distinct> <del type="truncation">de</del><pause/> <unclear reason="inaudible" resp="#GB" cert="low"><foreing xml:lang="de">maschinekestol</foreing></unclear> con i quali furono<pause/> sterminati
+                </u>
+
+                <u who="#LPF" xml:id="LPF381" synch="#TS761">
+                    come si chiamava di nome se lo ricorda Di Veroli
+                </u>
+
+                <u who="#AW" xml:id="AW381" synch="#TS762">
+                    <vocal>eh</vocal> non mi ricordo più
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF382" synch="#TS763">
+                    <unclear reason="inaudible" resp="#GB" cert="low">e</unclear> lei rimase sempre unito ai suoi compagni anche <anchor xml:id="lpf-559" synch="#TT559"/>a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><anchor xml:id="lpf-560" synch="#TT560"/>
+                </u>
+
+                <u who="#AW" xml:id="AW382" synch="#TS764">
+                    <anchor xml:id="arm-559" synch="#TT559"/><unclear reason="inaudible" resp="#GB" cert="medium"><del type="falseStart">era</del></unclear><anchor xml:id="arm-560" synch="#TT560"/><pause/> a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName> eravamo sempre uniti<pause/> solo che man mano purtroppo<pause/> stavano morendo<pause/> e io prima avevo cominciato a raccontare<pause/> di <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><pause/> che non avevo finito<pause/> <vocal>ehm</vocal> posso riprenderlo <anchor xml:id="arm-561" synch="#TT561"/>perché<anchor xml:id="arm-562" synch="#TT562"/> altrimenti sfugge <pause/><del type="falseStart">che</del><pause/> <del type="reformulation">quando</del><pause/> venne decisa la partenza per <placeName ref="TEI-ListPlace.xml#Jaworzno">Jaworzno</placeName> del <rs ref="TEI-ListPerson.xml#GiancarloDS">figlio</rs> <del type="falseStart">del</del><pause/> <del type="correction">dei</del> <emph>Della Seta</emph><pause/> <unclear reason="inaudible" resp="#GB" cert="medium">e</del> il <rs ref="TEI-ListPerson.xml#LeonelloDS">padre</rs><pause/> quasi impazzì dal dolore perché si sarebbe diviso dal <rs ref="TEI-ListPerson.xml#GiancarloDS">figlio</rs><pause/> e allora io<pause/> presi i due anelli<pause/> che ero riuscito <del type="falseStart">ad <vocal>amh</vocal></del><pause/> <del type="correction">a</del> <emph>contrabbandare</emph> nel campo<pause/> e li diedi a un medico polacco ebreo<pause/> che a sua volta lo diede<pause/> a un sottufficiale della sanità<pause/> <del type="falseStart"><del type="truncation">vu</del> <vocal>ehm</vocal></del> <unclear reason="inaudible" resp="#GB" cert="low"><del type="reformulation">della</del></unclear> <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> e per questi due anelli lui ci diede due pillole<pause/> per far salire la febbre<pause/> di chi le prendeva<pause/> così è successo che<pause/> <persName ref="TEI-ListPerson.xml#GiancarloDS">Giancarlo</persName> prese le pillole<pause/> <del type="repetition">e</del><pause/> e la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time><pause/> quando era<pause/> tutto pronto per la partenza per <placeName ref="TEI-ListPlace.xml#Jaworzno">Jaworzno</placeName><pause/> aveva una <distinct type="common_saying">febbre da cavallo</distinct><pause/> ora la <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> quando qualcuno aveva la febbre alta<pause/>preferiva lasciarlo<pause/> ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> anziché trasportarlo a <placeName ref="TEI-ListPlace.xml#Jaworzno">Jaworzno</placeName><pause/> febbricitante<pause/> in questa maniera <pause/><persName ref="TEI-ListPerson.xml#GiancarloDS">Giancarlo</persName> si salvò<pause/> il <rs ref="TEI-ListPerson.xml#LeonelloDS">padre</rs> mi era molto grato <choice><sic>per questo che avevo fatto</sic><corr resp="#GB">per quello che avevo fatto</sic></corr></choice> <del type="reformulation">che avevo deciso di<pause/> utilizzare questi due anelli</del><pause/> e mi volle<pause/> lasciare un testamento<pause/> nel senso che<pause/> <del type="falseStart">tornati a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName></del><pause/> <del type="reformulation">cioè<pause/> io tornato a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName></del> <rs ref="TEI-ListPerson.xml#LeonelloDS">lui</rs> no perché era già anziano<pause/> e io perché parlavo <lang>tedesco<lang> pensava che mi sarei salvato<pause/> e non avendo carta da scrivere<pause/> si tolse dalla giacca<pause/> che era appunto un abito civile<pause/> una fodera <pause/>e su quella<pause/> con<pause/> una <distinct type="infrequent">punzecchiatura</distinct> con un ago <del type="falseStart">sul</del><pause/> <del type="correction">sulla</del> punta delle dita<pause/> scrisse sopra<pause/> <q type="written" who="#LeonelloDS">non dimenticherò mai ciò che <persName ref="TEI-ListPerson.xml#AW"><choice><sic>Erminio</sic><corr resp="#GB">Arminio</corr></choice></persName><pause/> fece per me</q> <pause/>e<pause/> voleva darmi questo io non lo volevo accettare<pause/> ma <vocal>ehm</vocal> <rs ref="TEI-ListPerson.xml#LeonelloDS">lui</rs> tanto insistette che io lo presi<pause/> con me<pause/> e poi naturalmente persi questo a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><pause/> a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName> <del type="truncation">s</del> durante la nostra permanenza<pause/> scoppiò<pause/> una<pause/> epidemia di <distinct type="technical">tifo petecchiale</distinct><pause/> e il <rs ref="TEI-ListPerson.xml#LeonelloDS">padre</rs><pause/> fu <choice><sic>in fettato</sic><corr resp="#GB">infettato</corr></choice><pause/> e il <rs ref="TEI-ListPerson.xml#GiancarloDS">figlio</rs> invece<pause/> era in un'altra baracca<pause/> con<pause/> <emph>diarrea</emph><pause/> e io in qualità di <del type="falseStart">prigioniero potevo</del> <del type="reformulation">di interprete</del> volevo dire potevo<pause/> spostarmi nell'interno del campo<pause/> visitavo il <rs ref="TEI-ListPerson.xml#LeonelloDS">padre</rs><pause/> e lo<pause/> consolavo dicendo che il <rs ref="TEI-ListPerson.xml#GiancarloDS">figlio</rs> stava meglio<pause/> e al <rs ref="TEI-ListPerson.xml#GiancarloDS">figlio</rs> lo stesso parlando del <rs ref="TEI-ListPerson.xml#LeonelloDS">padre</rs> ma viceversa tutti e due erano moribondi<pause/> e morirono tutti e due<pause dur="3 seconds"/> <del type="falseStart">a</del> <persName ref="TEI-ListPerson.xml#GiancarloDS">Giancarlo</persName><pause/> era poi un caso<pause/> ancora più tragico perché<pause/> soffriva di<pause/> <distinct type="technical">distrofia muscolare</distinct><pause/> a guardarlo <distinct type="figure_of_speech">sembrava <del type="repetition">un</del> un ercole</distinct><pause/> ma in realtà non aveva forza<pause/> e durante il lavoro di recupero dei <del type="truncation">m</del> mattoni<pause/> riuscì a convincere il <foreing xml:lang="de">kapò</foreing><pause/> a farlo ammettere nel gruppo<pause/> che puliva i mattoni <choice><orig>col</orig><reg resp="#GB">con il</reg></choice> <distinct type="diminutive">martelletto</distinct> <del type="reformulation">cioè <pause/> <choice><sic>di non sovraccarsi ai</sic><corr resp="#GB">a non sovraccaricarlo con i</corr></choice> lavori più<pause/> gravosi</del><pause/><!--27:20--> quindi<pause/> a un certo momento<pause/> rimanemmo in tutto<pause/> in 3 soli<pause/> superstiti<pause/> dei 42 che eravamo arrivati a Varsavia<pause/> io<pause/> Lello<pause/> Di Segni <pause/>eee Isacco Sermoneta<pause/> così che quando il campo venne evacuato eravamo noi soli del(nel?) gruppo degli italiani. C'era con noi anche un ebreo polacco il quale m'aveva tolto i denti d'oro con una comune tenaglia da... falegname; con quell'oro riuscì a farmi dare attraverso i polacchi un po' di pane, un po' di marmellata, un po' dii... margarina. Quindi questo mi servì per rifocillarmi e per riprendere un po' di forze. Strano è questo, che... a un certo momento la SS disse "dal gruppo che partiva" - eravamo in 6000, come le dissi prima - "rimangono qui iii professionisti" - cioè i falegnamii, i meccanici e così avanti - per recuperare anche le parti delle baracche da portar via in Germania, cosicché ne rimasero 300 ma non ammalati perché gli ammalati come dissi prima vennero sterminati subito. Questi 300 rimasti vivi avrebbero dovuto ricuperare ancora ciò che era possibile. Giuntii in Germania, a Dachau ee campi limitrofi, non se- non sapemmo più nulla di questi 300 che sono rimasti a Varsavia. Eee (pausa) già dopo la liberazione, una sera, a Feldafing, che è in Germania vicino a Monaco di Baviera, stavo raccontando la storia di questoo mio amico eehm falegname che ... era riuscito a infiltrarsi nel gruppo di quelli che uscivano dal campo ma a sulla porta ehm ci ripensò e ritornò indietro - quindi stavo dicendo "guarda un po', era già... pronto a vivere insieme a noi e invece ritornò volontario alla morte" -. Mentre stavo raccontando questo fenomeno battono alla porta e chi era? Era lui ee lui mi raccontò ciò che era successo con i 300 di Varsavia eee mi disse che lle... erano rimaste poche SS e i 300 si ribellarono contro le SS e lì ci fu un eccidio ee i partigiani polacchi intervennero e ee distrussero quelle poche SS che erano rimaste eee i dei 300 i superstiti furono radunati in una scuola. La scuola venne bombardata dai russi eee anche in quella occasione ne morirono diversi, alcuni si salvarono e tra questi il mio amico... falegname.
+                </u>
+
+                <u who="#LPF">
+                    <anchor xml:id="lpf-561" synch="#TT561"/>certo<anchor xml:id="lpf-562" synch="#TT562"/>
+                </u>
             </div>
 
         </body>
@@ -5501,34 +5650,6 @@
 </TEI>
 
 <!--
-L.P: furon trovati anche dei corpi?
-A.W: furon trovati dei corpi, moltissimi, di gente che era già mort-. 
-L.P: eehm voi sapeste dellaa avvenuta rivolta... eravate al corrente?
-A.W: questo è era ehm eravamo al corrente esattamente di ciò che era successo, perché appunto nelll, durante la lavorazione incontravamo, come lei aveva chiesto prima, dei cadaveri, dei cadaveri semii bruciati.
-L.P: quindi ve lo immaginaste o (dice qualcosa che non capisco)...?
-A.W: no, poi ce lo (ci?) raccontarono.
-L.P: chi?
-A.W: ii gli stessi polacchi.
-L.P: gli stessi polacchi.
-A.W: perché i polacchi che venivano erano civili, venivano all(dall)'interno solo o per portar via ii mattoni oppure per farci da maester, cioè da da capi sorveglianti.
-L.P: ee...
-A.W: trovammo anche un gruppo di ex cantanti dell'opera di Varsavia che era stata distrutta - cioè l'edificio dell'opera era stato distrutto - e questi facevano da maester per noi ee siccome erano amanti della musica noi cantavamo per loro in italiano... mi ricordo per esempio la canzone "mamma" eee loro in cambio ci davano un po' di pane, e questo significava la vita.
-L.P: e l'atteggiamento in generale dei polacchi...?
-A.W: era ehm molto ostile contro gli ebrei, io non vorrei generalizzare ma molti polacchi si sono dimostrati crudeli con noi.
-L.P: in quell'occasione...
-A.W: in quelle occasioni, sia a lavoro, sia fuori. Mi ricordo che ill campo deii del ghetto, era come si sa diviso da un da un... muro, laa parte esterna del muro c'erano le case civili dei polacchi, bene, qualche rara volta buttavano dalla finestra qualche pezzo di crosta di pane, ma non lo facevano mai quando erano un paio di prigionieri vicino al muro perché almeno si sarebbero ehm saziati, no, buttavano il pane solo quando vedevano una massa di prigionieri, perché? Per ricuperare quel po' di pane ci si azzuffava fra di noi e questo era un divertimento per i polacchi che guardavano dalle finestre.
-L.P: quanto rimase a Varsavia?
-A.W: A Varsavia rimasi dall novembre del 43 fino all'agosto dell... 44.
-L.P: eee era completato il lavoro quando lei andò via?
-A.W: no! No no no no, era successo che ehm i russi erano arrivati fino alle porte di Varsavia e sembrava che l'avessero occupata entro brevissimo tempo. Venne deciso perciò la evacuazione del campo eee (pausa) anche lì cose strane che son successe... c'era con noi un italiano Diveroli?? Si chiamava il quale eraa (pausa) gravemente malato e quando (pausa) preparammo lee cinturie per l'uscita dal campo a piedi lui ehm dichiarò di essere troppo debole per poter... uscire.
-L.P: sapendo... la sorte che...
-A.W: no, si- sembrava che noi si andasse in un altro campo ee come lui anche altri, (e) specialmente ebrei ungheresi, decisero di rimanere nella baracca degli ammalati ee la SS li tranquillizzarono dicendo che sarebbero stati presi in consegna dalla croce rossa polacca. Viceversa, appena usciti dal campo, sentimmo il crepitare de (nome in tedesco) con i quali furono stermina-.
-L.P: come si chiamava di nome? Se lo ricorda? Diveroli...?
-A.W: eh non me lo ricordo più (si capisce pochissimo che dice questo)
-L.P: lei rimase sempre unito ai suoi compagni anche a Varsavia?
-A.W: (dice qualcosa all'inizio che non si capisce) a Varsavia eravamo sempre uniti, solo che man mano purtroppo stavano morendo ee io prima avevo cominciato a raccontare... di Varsavia che non avevo finito... posso ehm riprenderlo perché altrimenti sfugge?
-L.P: certo.
-A.W: che... quandoo venne decisa la partenza per Jaworzno del figlio del dei Della Sete, (e) il padre quasi impazzì dal dolore perché si sarebbe diviso dal figlio. E allora io... presi i due anelli che ero riuscito aaad a a contrabbandare nel campo e li diedi a unnn medico polacco, ebreo, che a sua volta lo diede a un sotto ufficiale della sanità vv- ehm della? SS e per questi due anelli lui ci diede due pillole per far salire la febbre dii chi le prendeva, così è successo che Giancarlo prese le pillole e e la mattina, quando era tutto pronto per la partenza per Jaworzno, aveva una febbre da cavallo. Ora la SS, quando qualcuno aveva la febbre alta, preferiva lasciarlo ad Auschwitz anziché trasportarlo a Jaworzno febbricitante. In questa maniera Giancarlo si salvò, iill padre mi era molto grato per questo che avevo fatto, che avevo deciso di utilizzare questi due anelli ee mi volle lasciare un testamento, nel senso cheee tornati a Roma - cioè "io tornato a Roma", lui no perché era già anziano e io perché parlavo tedesco ehm pensava che mi sarei salvato - e non avendo carta da scrivere si tolse dalla giacca, che era appunto un abito civile, unna fodera e su quella conn una punzecchiatura con un ago sul sulla punta delle dita scrisse sopra "non dimenticherò mai ciò che Arminio fece per me" e voleva darmi questo, io non lo volevo accettare ma ehm lui tanto insistette che io lo presi, con me, e poi naturalmente persi questo a Varsavia. A Varsavia d- durante la nostra permanenza scoppiò unna epidemia di tifo (micidiale???) eee il padre fu iinnfettato e il figlio invece era in un'altra baracca conn... diarrea. Ee io in qualità di prigioniero potevo (riformulazione) di interprete volevo dire, potevo spostarmi nell'interno del campo, visitavo il padre eee loo... consolavo dicendo che il figlio stava meglio e al figlio lo stesso parlando del padre, mah viceversa, tutti e due erano moribondi e morirono tutti e due. Aaa Giancarlo era poi un caso ancora più tragico perché soffriva dii distrofia muscolare: a guardarlo sembrava un un ercole ma in realtà non aveva forza e durante il lavoro dii recupero dem(di?) mattoni riuscì a convincere il Kapò a farlo ammettere nel gruppo che puliva i mattoni col martelletto, cioè di non sovraccarsi(?) ai lavori più gravosi. Quindi a un certo momento rimanemmo in tutto in 3 soli superstiti dei 42 che eravamo arrivati a Varsavia: io... Lello Di Segni eee Isacco Sermoneta; così che quando il campo venne evacuato eravamo noi soli del(nel?) gruppo degli italiani. C'era con noi anche un ebreo polacco il quale m'aveva tolto i denti d'oro con una comune tenaglia da... falegname; con quell'oro riuscì a farmi dare attraverso i polacchi un po' di pane, un po' di marmellata, un po' dii... margarina. Quindi questo mi servì per rifocillarmi e per riprendere un po' di forze. Strano è questo, che... a un certo momento la SS disse "dal gruppo che partiva" - eravamo in 6000, come le dissi prima - "rimangono qui iii professionisti" - cioè i falegnamii, i meccanici e così avanti - per recuperare anche le parti delle baracche da portar via in Germania, cosicché ne rimasero 300 ma non ammalati perché gli ammalati come dissi prima vennero sterminati subito. Questi 300 rimasti vivi avrebbero dovuto ricuperare ancora ciò che era possibile. Giuntii in Germania, a Dachau ee campi limitrofi, non se- non sapemmo più nulla di questi 300 che sono rimasti a Varsavia. Eee (pausa) già dopo la liberazione, una sera, a Feldafing, che è in Germania vicino a Monaco di Baviera, stavo raccontando la storia di questoo mio amico eehm falegname che ... era riuscito a infiltrarsi nel gruppo di quelli che uscivano dal campo ma a sulla porta ehm ci ripensò e ritornò indietro - quindi stavo dicendo "guarda un po', era già... pronto a vivere insieme a noi e invece ritornò volontario alla morte" -. Mentre stavo raccontando questo fenomeno battono alla porta e chi era? Era lui ee lui mi raccontò ciò che era successo con i 300 di Varsavia eee mi disse che lle... erano rimaste poche SS e i 300 si ribellarono contro le SS e lì ci fu un eccidio ee i partigiani polacchi intervennero e ee distrussero quelle poche SS che erano rimaste eee i dei 300 i superstiti furono radunati in una scuola. La scuola venne bombardata dai russi eee anche in quella occasione ne morirono diversi, alcuni si salvarono e tra questi il mio amico... falegname.
 L.P: allora si tratta di una seconda rivolta di Varsavia.
 A.W: la seconda mah naturalmente furono minori (non capiscono bene questa frase).
 L.P: ee che data poteva essere?

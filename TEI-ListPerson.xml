@@ -32,7 +32,7 @@
                         <!--Arminio Wachsberger-->
                         <person xml:id="AW" sameAs="https://viaf.org/viaf/160339198">   
     
-                                <persName role="sopravvissuto">
+                                <persName>
                                     <ref target="https://it.wikipedia.org/wiki/Arminio_Wachsberger http://digital-library.cdec.it/cdec-web/persone/detail/person-8295/wachsberger-arminio.html"/>
                                     <foreName type="given">Arminio</foreName>
                                     <foreName type="religious"><foreign xml:lang="he">Meir Zvi</foreign></foreName>
@@ -904,7 +904,7 @@
                         <!--Settimia Spizzichino-->
                         <person xml:id="SettimiaS" sameAs="http://viaf.org/viaf/29240711">   
     
-                                <persName role="sopravvissuta">
+                                <persName>
                                     <ref target="https://it.wikipedia.org/wiki/Settimia_Spizzichino http://digital-library.cdec.it/cdec-web/persone/detail/person-7695/spizzichino-settimia.html"/>
                                     <foreName>Settimia</foreName>
                                     <surname>Spizzichino</surname>
@@ -989,6 +989,87 @@
                                 </death>
 
                         </person>
+
+                        <!--Mario Di Veroli-->
+                        <person xml:id="MarioDV"> 
+    
+                                <persName role="venditore_ambulante">
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-2292/di-veroli-mario.html "/>
+                                    <foreName>Mario</foreName>
+                                    <surname type="combine">Di Veroli</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1911-02-10" cert="high">10 Febbraio 1911</date>
+                                    <placeName ref="TEI-ListPlace#Roma">
+                                        <settlement type="municipality">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1944-07-25" cert="high">25 Luglio 1944</date>
+                                    <placeName ref="TEI-ListPlace#Varsavia">
+                                        <note resp="##GB">Desumo il luogo della sua morte dalle parole di Arminio</note>
+                                        <settlement type="municipality">Varsavia</settlement>
+                                        <country key="PL">Polonia</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Lello Di Segni-->
+                        <person xml:id="LelloDS"> 
+    
+                                <persName>
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-2379/di-segni-lello.html"/>
+                                    <foreName>Lello</foreName>
+                                    <surname type="combine">Di Segni</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1926-11-04" cert="high">4 Novembre 1926</date>
+                                    <placeName ref="TEI-ListPlace#Roma">
+                                        <settlement type="municipality">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="2018-10-26" cert="high">26 Ottobre 2018</date>
+                                    <placeName ref="TEI-ListPlace#Roma">
+                                        <settlement type="municipality">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Isacco Sermoneta-->
+                        <person xml:id="LelloDS"> 
+    
+                                <persName role="venditore_ambulante">
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-7670/sermoneta-isacco.html"/>
+                                    <foreName>Isacco</foreName>
+                                    <surname>Sermoneta</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1912-03-08" cert="high">8 Marzo 1912</date>
+                                    <placeName ref="TEI-ListPlace#Roma">
+                                        <settlement type="municipality">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                        </person>
+
                         <!-- Lista delle relazioni -->
                         <listRelation>
                             <relation name="spouse" mutual="#DavideW #MiriamG"/>
@@ -1012,9 +1093,9 @@
                             <relation name="oppressor" active="#Mengele #Hoss" passive="#AW"/>
                             <relation name="deportee-Auschwitz" mutual="#AW #NathanG #GiancarloDS #LeonelloDS"/>
                             <relation name="parent" active="#LeonelloDS" passive="#GiancarloDS"/>
-                            <relation name="survivor" mutual="#AW #SettimiaS"/>
+                            <relation name="survivor" mutual="#AW #SettimiaS #LelloDS #IsaccoS"/>
                             <relation name="writer" active="#RudolfV" mutual="#AW"/>
-                            <relation name="deportee-Varsavia" mutual="#AW #IsaacSS"/>
+                            <relation name="deportee-Varsavia" mutual="#AW #IsaacSS #MarioDV #LelloDS #IsaccoS"/>
 					</listRelation>
                 </listPerson>
             
