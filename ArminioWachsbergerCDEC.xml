@@ -248,11 +248,11 @@
 <standOff>
         <!--Timeline regesto -->
         <timeline xml:id="TL1">
-            <when xml:id="TR1" absolute="00:00:00:22"/> <!--generalità di Arminio e biografia-->
-            <when xml:id="TR2" absolute="00:00:13:13"/> <!--racconto 16 ottobre 1943-->
-            <when xml:id="TR3" absolute="00:00:18:33"/> <!--racconto sosta al collegio militare: 17-18 ottobre 1943-->
-            <when xml:id="TR4" absolute="00:00:33:30"/> <!--racconto viaggio in treno fino ad Aushwitz-->
-            <when xml:id="TR5" absolute="00:00:43:38"/> <!--racconto dell'arrivo a Birkenau dalle selezioni all'assegnamento della baracca-->
+            <when xml:id="TR1" absolute="00:00:22"/> <!--generalità di Arminio e biografia-->
+            <when xml:id="TR2" absolute="00:13:13"/> <!--racconto 16 ottobre 1943-->
+            <when xml:id="TR3" absolute="00:18:33"/> <!--racconto sosta al collegio militare: 17-18 ottobre 1943-->
+            <when xml:id="TR4" absolute="00:33:30"/> <!--racconto viaggio in treno fino ad Aushwitz-->
+            <when xml:id="TR5" absolute="00:43:38"/> <!--racconto dell'arrivo a Birkenau dalle selezioni all'assegnamento della baracca-->
             <when xml:id="TR6" absolute="01:06:19"/> <!--racconto quotidianeità nel campo-->
             <when xml:id="TR7" absolute="01:29:58"/> <!--racconto incontro con Mengele-->
         </timeline>
@@ -312,394 +312,394 @@
             <when xml:id="TT33" absolute="00:00:09:12" synch="#lpf-33"/> 
             <when xml:id="TT34" since="#TT33" interval="1"/>
 
-            <when xml:id="TT35" absolute="00:00:10:56" synch="#lpf-35"/> 
+            <when xml:id="TT35" absolute="00:10:56" synch="#lpf-35"/> 
             <when xml:id="TT36" since="#TT35" interval="1"/>
 
-            <when xml:id="TT37" absolute="00:00:11:39" synch="#lpf-37"/> 
+            <when xml:id="TT37" absolute="00:11:39" synch="#lpf-37"/> 
             <when xml:id="TT38" since="#TT37" interval="2"/>
 
-            <when xml:id="TT39" absolute="00:00:11:59" synch="#lpf-39"/> 
+            <when xml:id="TT39" absolute="00:11:59" synch="#lpf-39"/> 
             <when xml:id="TT40" since="#TT39" interval="3"/>
 
-            <when xml:id="TT41" absolute="00:00:12:30" synch="#lpf-41"/> 
+            <when xml:id="TT41" absolute="00:12:30" synch="#lpf-41"/> 
             <when xml:id="TT42" since="#TT41" interval="1"/>
 
-            <when xml:id="TT43" absolute="00:00:13:00" synch="#lpf-43"/> 
+            <when xml:id="TT43" absolute="00:13:00" synch="#lpf-43"/> 
             <when xml:id="TT44" since="#TT43" interval="1"/>
 
-            <when xml:id="TT45" absolute="00:00:13:02" synch="#lpf-45"/> 
+            <when xml:id="TT45" absolute="00:13:02" synch="#lpf-45"/> 
             <when xml:id="TT46" since="#TT45" interval="1"/>
 
-            <when xml:id="TT47" absolute="00:00:15:43" synch="#arm-47"/> 
+            <when xml:id="TT47" absolute="00:15:43" synch="#arm-47"/> 
             <when xml:id="TT48" since="#TT47" interval="1"/>
 
-            <when xml:id="TT49" absolute="00:00:16:21" synch="#lpf-49"/> 
+            <when xml:id="TT49" absolute="00:16:21" synch="#lpf-49"/> 
             <when xml:id="TT50" since="#TT49" interval="1"/>
 
-            <when xml:id="TT51" absolute="00:00:17:43" synch="#arm-51"/> 
+            <when xml:id="TT51" absolute="00:17:43" synch="#arm-51"/> 
             <when xml:id="TT52" since="#TT51" interval="1"/>
 
-            <when xml:id="TT53" absolute="00:00:17:52" synch="#lpf-53"/> 
+            <when xml:id="TT53" absolute="00:17:52" synch="#lpf-53"/> 
             <when xml:id="TT54" since="#TT53" interval="1"/>
 
-            <when xml:id="TT55" absolute="00:00:17:55" synch="#arm-55"/> 
+            <when xml:id="TT55" absolute="00:17:55" synch="#arm-55"/> 
             <when xml:id="TT56" since="#TT55" interval="1"/>
 
-            <when xml:id="TT57" absolute="00:00:18:01" synch="#lpf-57"/> 
+            <when xml:id="TT57" absolute="00:18:01" synch="#lpf-57"/> 
             <when xml:id="TT58" since="#TT57" interval="1"/>
 
-            <when xml:id="TT59" absolute="00:00:18:11" synch="#lpf-59"/> 
+            <when xml:id="TT59" absolute="00:18:11" synch="#lpf-59"/> 
             <when xml:id="TT60" since="#TT59" interval="1"/>
 
-            <when xml:id="TT61" absolute="00:00:18:19" synch="#arm-61"/> 
+            <when xml:id="TT61" absolute="00:18:19" synch="#arm-61"/> 
             <when xml:id="TT62" since="#TT61" interval="1"/>
 
-            <when xml:id="TT63" absolute="00:00:18:22" synch="#arm-63"/> 
+            <when xml:id="TT63" absolute="00:18:22" synch="#arm-63"/> 
             <when xml:id="TT64" since="#TT63" interval="1"/>
 
-            <when xml:id="TT65" absolute="00:00:18:32" synch="#lpf-65"/> 
+            <when xml:id="TT65" absolute="00:18:32" synch="#lpf-65"/> 
             <when xml:id="TT66" since="#TT65" interval="2"/>
 
-            <when xml:id="TT67" absolute="00:00:19:52" synch="#arm-67"/> 
+            <when xml:id="TT67" absolute="00:19:52" synch="#arm-67"/> 
             <when xml:id="TT68" since="#TT67" interval="1"/>
 
-            <when xml:id="TT69" absolute="00:00:19:54" synch="#arm-69"/> 
+            <when xml:id="TT69" absolute="00:19:54" synch="#arm-69"/> 
             <when xml:id="TT70" since="#TT69" interval="1"/>
 
-            <when xml:id="TT71" absolute="00:00:20:12" synch="#lpf-71"/> 
+            <when xml:id="TT71" absolute="00:20:12" synch="#lpf-71"/> 
             <when xml:id="TT72" since="#TT71" interval="2"/>
 
-            <when xml:id="TT73" absolute="00:00:20:15" synch="#lpf-73"/> 
+            <when xml:id="TT73" absolute="00:20:15" synch="#lpf-73"/> 
             <when xml:id="TT74" since="#TT73" interval="2"/>
 
-            <when xml:id="TT75" absolute="00:00:20:28" synch="#lpf-75"/> 
+            <when xml:id="TT75" absolute="00:20:28" synch="#lpf-75"/> 
             <when xml:id="TT76" since="#TT75" interval="1"/>
 
-            <when xml:id="TT77" absolute="00:00:20:32" synch="#lpf-77"/> 
+            <when xml:id="TT77" absolute="00:20:32" synch="#lpf-77"/> 
             <when xml:id="TT78" since="#TT77" interval="1"/>
 
-            <when xml:id="TT79" absolute="00:00:20:45" synch="#lpf-79"/> 
+            <when xml:id="TT79" absolute="00:20:45" synch="#lpf-79"/> 
             <when xml:id="TT80" since="#TT79" interval="1"/>
 
-            <when xml:id="TT81" absolute="00:00:20:47" synch="#lpf-81"/> 
+            <when xml:id="TT81" absolute="00:20:47" synch="#lpf-81"/> 
             <when xml:id="TT82" since="#TT81" interval="1"/>
 
-            <when xml:id="TT83" absolute="00:00:20:58" synch="#arm-83"/> 
+            <when xml:id="TT83" absolute="00:20:58" synch="#arm-83"/> 
             <when xml:id="TT84" since="#TT83" interval="2"/>
 
-            <when xml:id="TT85" absolute="00:00:23:31" synch="#arm-85"/> 
+            <when xml:id="TT85" absolute="00:23:31" synch="#arm-85"/> 
             <when xml:id="TT86" since="#TT85" interval="1"/>
 
-            <when xml:id="TT87" absolute="00:00:23:58" synch="#lpf-87"/> 
+            <when xml:id="TT87" absolute="00:23:58" synch="#lpf-87"/> 
             <when xml:id="TT88" since="#TT87" interval="2"/>
 
-            <when xml:id="TT89" absolute="00:00:24:58" synch="#lpf-89"/> 
+            <when xml:id="TT89" absolute="00:24:58" synch="#lpf-89"/> 
             <when xml:id="TT90" since="#TT89" interval="2"/>
 
-            <when xml:id="TT91" absolute="00:00:25:03" synch="#lpf-91"/> 
+            <when xml:id="TT91" absolute="00:25:03" synch="#lpf-91"/> 
             <when xml:id="TT92" since="#TT91" interval="1"/>
 
-            <when xml:id="TT93" absolute="00:00:25:18" synch="#arm-93"/> 
+            <when xml:id="TT93" absolute="00:25:18" synch="#arm-93"/> 
             <when xml:id="TT94" since="#TT93" interval="1"/>
     
-            <when xml:id="TT95" absolute="00:00:25:19" synch="#lpf-95"/> 
+            <when xml:id="TT95" absolute="00:25:19" synch="#lpf-95"/> 
             <when xml:id="TT96" since="#TT95" interval="1"/>
 
-            <when xml:id="TT97" absolute="00:00:26:47" synch="#arm-97"/> 
+            <when xml:id="TT97" absolute="00:26:47" synch="#arm-97"/> 
             <when xml:id="TT98" since="#TT97" interval="1"/>
 
-            <when xml:id="TT99" absolute="00:00:27:30" synch="#lpf-99"/> 
+            <when xml:id="TT99" absolute="00:27:30" synch="#lpf-99"/> 
             <when xml:id="TT100" since="#TT99" interval="1"/>
 
-            <when xml:id="TT101" absolute="00:00:28:10" synch="#lpf-101"/> 
+            <when xml:id="TT101" absolute="00:28:10" synch="#lpf-101"/> 
             <when xml:id="TT102" since="#TT101" interval="1"/>
 
-            <when xml:id="TT103" absolute="00:00:28:57" synch="#arm-103"/> 
+            <when xml:id="TT103" absolute="00:28:57" synch="#arm-103"/> 
             <when xml:id="TT104" since="#TT103" interval="1"/>
 
-            <when xml:id="TT105" absolute="00:00:29:31" synch="#lpf-105"/> 
+            <when xml:id="TT105" absolute="00:29:31" synch="#lpf-105"/> 
             <when xml:id="TT106" since="#TT105" interval="2"/>
 
-            <when xml:id="TT107" absolute="00:00:29:34" synch="#lpf-107"/> 
+            <when xml:id="TT107" absolute="00:29:34" synch="#lpf-107"/> 
             <when xml:id="TT108" since="#TT107" interval="1"/>
 
-            <when xml:id="TT109" absolute="00:00:29:53" synch="#lpf-109"/> 
+            <when xml:id="TT109" absolute="00:29:53" synch="#lpf-109"/> 
             <when xml:id="TT110" since="#TT110" interval="1"/>
 
-            <when xml:id="TT111" absolute="00:00:30:03" synch="#lpf-111"/> 
+            <when xml:id="TT111" absolute="00:30:03" synch="#lpf-111"/> 
             <when xml:id="TT112" since="#TT112" interval="1"/>
 
-            <when xml:id="TT113" absolute="00:00:30:37" synch="#lpf-113"/> 
+            <when xml:id="TT113" absolute="00:30:37" synch="#lpf-113"/> 
             <when xml:id="TT114" since="#TT113" interval="1"/>
 
-            <when xml:id="TT115" absolute="00:00:30:40" synch="#arm-115"/> 
+            <when xml:id="TT115" absolute="00:30:40" synch="#arm-115"/> 
             <when xml:id="TT116" since="#TT115" interval="1"/>
 
-            <when xml:id="TT117" absolute="00:00:32:16" synch="#arm-117"/> 
+            <when xml:id="TT117" absolute="00:32:16" synch="#arm-117"/> 
             <when xml:id="TT118" since="#TT117" interval="1"/>
 
-            <when xml:id="TT119" absolute="00:00:32:24" synch="#lpf-119"/> 
+            <when xml:id="TT119" absolute="00:32:24" synch="#lpf-119"/> 
             <when xml:id="TT120" since="#TT119" interval="1"/>
 
-            <when xml:id="TT121" absolute="00:00:32:26" synch="#lpf-121"/> 
+            <when xml:id="TT121" absolute="00:32:26" synch="#lpf-121"/> 
             <when xml:id="TT122" since="#TT121" interval="1"/>
 
-            <when xml:id="TT123" absolute="00:00:32:29" synch="#arm-123"/> 
+            <when xml:id="TT123" absolute="00:32:29" synch="#arm-123"/> 
             <when xml:id="TT124" since="#TT123" interval="1"/>
 
-            <when xml:id="TT125" absolute="00:00:33:11" synch="#lpf-125"/> 
+            <when xml:id="TT125" absolute="00:33:11" synch="#lpf-125"/> 
             <when xml:id="TT126" since="#TT126" interval="2"/>
 
-            <when xml:id="TT127" absolute="00:00:33:17" synch="#arm-127"/> 
+            <when xml:id="TT127" absolute="00:33:17" synch="#arm-127"/> 
             <when xml:id="TT128" since="#TT127" interval="1"/>
 
-            <when xml:id="TT129" absolute="00:00:33:18" synch="#arm-129"/> 
+            <when xml:id="TT129" absolute="00:33:18" synch="#arm-129"/> 
             <when xml:id="TT130" since="#TT129" interval="1"/>
 
-            <when xml:id="TT131" absolute="00:00:33:20" synch="#lpf-131"/> 
+            <when xml:id="TT131" absolute="00:33:20" synch="#lpf-131"/> 
             <when xml:id="TT132" since="#TT131" interval="1"/>
 
-            <when xml:id="TT133" absolute="00:00:33:22" synch="#arm-133"/> 
+            <when xml:id="TT133" absolute="00:33:22" synch="#arm-133"/> 
             <when xml:id="TT134" since="#TT133" interval="1"/>
 
-            <when xml:id="TT135" absolute="00:00:33:33" synch="#arm-135"/> 
+            <when xml:id="TT135" absolute="00:33:33" synch="#arm-135"/> 
             <when xml:id="TT136" since="#TT135" interval="1"/>
 
-            <when xml:id="TT137" absolute="00:00:33:48" synch="#lpf-137"/> 
+            <when xml:id="TT137" absolute="00:33:48" synch="#lpf-137"/> 
             <when xml:id="TT138" since="#TT137" interval="1"/>
 
-            <when xml:id="TT139" absolute="00:00:33:59" synch="#arm-139"/> 
+            <when xml:id="TT139" absolute="00:33:59" synch="#arm-139"/> 
             <when xml:id="TT140" since="#TT139" interval="2"/>
 
-            <when xml:id="TT141" absolute="00:00:34:13" synch="#arm-141"/> 
+            <when xml:id="TT141" absolute="00:34:13" synch="#arm-141"/> 
             <when xml:id="TT142" since="#TT141" interval="1"/>
 
-            <when xml:id="TT143" absolute="00:00:34:19" synch="#lpf-143"/> 
+            <when xml:id="TT143" absolute="00:34:19" synch="#lpf-143"/> 
             <when xml:id="TT144" since="#TT143" interval="1"/>
 
-            <when xml:id="TT145" absolute="00:00:34:21" synch="#arm-145"/> 
+            <when xml:id="TT145" absolute="00:34:21" synch="#arm-145"/> 
             <when xml:id="TT146" since="#TT145" interval="1"/>
 
-            <when xml:id="TT147" absolute="00:00:34:23" synch="#arm-147"/> 
+            <when xml:id="TT147" absolute="00:34:23" synch="#arm-147"/> 
             <when xml:id="TT148" since="#TT147" interval="1"/>
 
-            <when xml:id="TT149" absolute="00:00:34:28" synch="#lpf-149"/> 
+            <when xml:id="TT149" absolute="00:34:28" synch="#lpf-149"/> 
             <when xml:id="TT150" since="#TT149" interval="1"/>
 
-            <when xml:id="TT151" absolute="00:00:34:37" synch="#lpf-151"/> 
+            <when xml:id="TT151" absolute="00:34:37" synch="#lpf-151"/> 
             <when xml:id="TT152" since="#TT151" interval="1"/>
 
-            <when xml:id="TT153" absolute="00:00:34:44" synch="#arm-153"/> 
+            <when xml:id="TT153" absolute="00:34:44" synch="#arm-153"/> 
             <when xml:id="TT154" since="#TT153" interval="1"/>
 
-            <when xml:id="TT155" absolute="00:00:35:20" synch="#arm-155"/> 
+            <when xml:id="TT155" absolute="00:35:20" synch="#arm-155"/> 
             <when xml:id="TT156" since="#TT155" interval="1"/>
 
-            <when xml:id="TT157" absolute="00:00:35:30" synch="#arm-157"/> 
+            <when xml:id="TT157" absolute="00:35:30" synch="#arm-157"/> 
             <when xml:id="TT158" since="#TT157" interval="1"/>
 
-            <when xml:id="TT159" absolute="00:00:35:32" synch="#arm-159"/> 
+            <when xml:id="TT159" absolute="00:35:32" synch="#arm-159"/> 
             <when xml:id="TT160" since="#TT159" interval="1"/>
 
-            <when xml:id="TT161" absolute="00:00:35:56" synch="#lpf-161"/> 
+            <when xml:id="TT161" absolute="00:35:56" synch="#lpf-161"/> 
             <when xml:id="TT162" since="#TT161" interval="2"/>
 
-            <when xml:id="TT163" absolute="00:00:36:20" synch="#lpf-165"/> 
+            <when xml:id="TT163" absolute="00:36:20" synch="#lpf-165"/> 
             <when xml:id="TT164" since="#TT163" interval="2"/>
 
-            <when xml:id="TT165" absolute="00:00:36:47" synch="#lpf-165"/> 
+            <when xml:id="TT165" absolute="00:36:47" synch="#lpf-165"/> 
             <when xml:id="TT166" since="#TT165" interval="3"/>
 
-            <when xml:id="TT167" absolute="00:00:37:24" synch="#lpf-167"/> 
+            <when xml:id="TT167" absolute="00:37:24" synch="#lpf-167"/> 
             <when xml:id="TT168" since="#TT167" interval="1"/>
 
-            <when xml:id="TT169" absolute="00:00:37:31" synch="#lpf-169"/> 
+            <when xml:id="TT169" absolute="00:37:31" synch="#lpf-169"/> 
             <when xml:id="TT170" since="#TT169" interval="1"/>
 
-            <when xml:id="TT171" absolute="00:00:37:36" synch="#lpf-171"/> 
+            <when xml:id="TT171" absolute="00:37:36" synch="#lpf-171"/> 
             <when xml:id="TT172" since="#TT171" interval="1"/>
 
-            <when xml:id="TT173" absolute="00:00:37:38" synch="#arm-173"/> 
+            <when xml:id="TT173" absolute="00:37:38" synch="#arm-173"/> 
             <when xml:id="TT174" since="#TT173" interval="1"/>
 
-            <when xml:id="TT175" absolute="00:00:38:04" synch="#lpf-175"/> 
+            <when xml:id="TT175" absolute="00:38:04" synch="#lpf-175"/> 
             <when xml:id="TT176" since="#TT175" interval="1"/>
 
-            <when xml:id="TT177" absolute="00:00:38:05" synch="#arm-177"/> 
+            <when xml:id="TT177" absolute="00:38:05" synch="#arm-177"/> 
             <when xml:id="TT178" since="#TT177" interval="1"/>
 
-            <when xml:id="TT179" absolute="00:00:38:08" synch="#lpf-179"/> 
+            <when xml:id="TT179" absolute="00:38:08" synch="#lpf-179"/> 
             <when xml:id="TT180" since="#TT179" interval="1"/>
 
-            <when xml:id="TT181" absolute="00:00:38:42" synch="#arm-181"/> 
+            <when xml:id="TT181" absolute="00:38:42" synch="#arm-181"/> 
             <when xml:id="TT182" since="#TT181" interval="1"/>
 
-            <when xml:id="TT183" absolute="00:00:38:56" synch="#lpf-183"/> 
+            <when xml:id="TT183" absolute="00:38:56" synch="#lpf-183"/> 
             <when xml:id="TT184" since="#TT183" interval="1"/>
 
-            <when xml:id="TT185" absolute="00:00:39:22" synch="#lpf-185"/> 
+            <when xml:id="TT185" absolute="00:39:22" synch="#lpf-185"/> 
             <when xml:id="TT186" since="#TT185" interval="1"/>
 
-            <when xml:id="TT187" absolute="00:00:39:24" synch="#arm-187"/> 
+            <when xml:id="TT187" absolute="00:39:24" synch="#arm-187"/> 
             <when xml:id="TT188" since="#TT187" interval="1"/>
 
-            <when xml:id="TT189" absolute="00:00:39:27" synch="#arm-189"/> 
+            <when xml:id="TT189" absolute="00:39:27" synch="#arm-189"/> 
             <when xml:id="TT190" since="#TT189" interval="1"/>
 
-            <when xml:id="TT191" absolute="00:00:39:39" synch="#lpf-191"/> 
+            <when xml:id="TT191" absolute="00:39:39" synch="#lpf-191"/> 
             <when xml:id="TT192" since="#TT191" interval="1"/>
 
-            <when xml:id="TT193" absolute="00:00:41:35" synch="#arm-193"/> 
+            <when xml:id="TT193" absolute="00:41:35" synch="#arm-193"/> 
             <when xml:id="TT194" since="#TT193" interval="1"/>
 
-            <when xml:id="TT195" absolute="00:00:41:41" synch="#arm-195"/> 
+            <when xml:id="TT195" absolute="00:41:41" synch="#arm-195"/> 
             <when xml:id="TT196" since="#TT195" interval="1"/>
 
-            <when xml:id="TT197" absolute="00:00:41:49" synch="#lpf-197"/> 
+            <when xml:id="TT197" absolute="00:41:49" synch="#lpf-197"/> 
             <when xml:id="TT198" since="#TT197" interval="1"/>
 
-            <when xml:id="TT199" absolute="00:00:41:55" synch="#lpf-199"/> 
+            <when xml:id="TT199" absolute="00:41:55" synch="#lpf-199"/> 
             <when xml:id="TT200" since="#TT199" interval="1"/>
 
-            <when xml:id="TT201" absolute="00:00:42:05" synch="#lpf-201"/> 
+            <when xml:id="TT201" absolute="00:42:05" synch="#lpf-201"/> 
             <when xml:id="TT202" since="#TT201" interval="1"/>
 
-            <when xml:id="TT203" absolute="00:00:42:07" synch="#arm-203"/> 
+            <when xml:id="TT203" absolute="00:42:07" synch="#arm-203"/> 
             <when xml:id="TT204" since="#TT203" interval="1"/>
 
-            <when xml:id="TT205" absolute="00:00:42:10" synch="#lpf-205"/> 
+            <when xml:id="TT205" absolute="00:42:10" synch="#lpf-205"/> 
             <when xml:id="TT206" since="#TT205" interval="1"/>
 
-            <when xml:id="TT207" absolute="00:00:42:40" synch="#lpf-207"/> 
+            <when xml:id="TT207" absolute="00:42:40" synch="#lpf-207"/> 
             <when xml:id="TT208" since="#TT207" interval="1"/>
 
-            <when xml:id="TT209" absolute="00:00:42:47" synch="#lpf-209"/> 
+            <when xml:id="TT209" absolute="00:42:47" synch="#lpf-209"/> 
             <when xml:id="TT210" since="#TT209" interval="1"/>
 
-            <when xml:id="TT211" absolute="00:00:43:17" synch="#arm-211"/> 
+            <when xml:id="TT211" absolute="00:43:17" synch="#arm-211"/> 
             <when xml:id="TT212" since="#TT211" interval="1"/>
 
-            <when xml:id="TT213" absolute="00:00:43:19" synch="#arm-213"/> 
+            <when xml:id="TT213" absolute="00:43:19" synch="#arm-213"/> 
             <when xml:id="TT214" since="#TT213" interval="1"/>
 
-            <when xml:id="TT215" absolute="00:00:44:38" synch="#lpf-215"/> 
+            <when xml:id="TT215" absolute="00:44:38" synch="#lpf-215"/> 
             <when xml:id="TT216" since="#TT215" interval="1"/>
 
-            <when xml:id="TT217" absolute="00:00:44:49" synch="#arm-217"/> 
+            <when xml:id="TT217" absolute="00:44:49" synch="#arm-217"/> 
             <when xml:id="TT218" since="#TT217" interval="1"/>
 
-            <when xml:id="TT219" absolute="00:00:44:52" synch="#arm-219"/> 
+            <when xml:id="TT219" absolute="00:44:52" synch="#arm-219"/> 
             <when xml:id="TT220" since="#TT219" interval="1"/>
 
-            <when xml:id="TT221" absolute="00:00:44:56" synch="#lpf-221"/> 
+            <when xml:id="TT221" absolute="00:44:56" synch="#lpf-221"/> 
             <when xml:id="TT222" since="#TT221" interval="1"/>
 
-            <when xml:id="TT223" absolute="00:00:45:18" synch="#lpf-223"/> 
+            <when xml:id="TT223" absolute="00:45:18" synch="#lpf-223"/> 
             <when xml:id="TT224" since="#TT223" interval="2"/>
 
-            <when xml:id="TT225" absolute="00:00:46:44" synch="#arm-225"/> 
+            <when xml:id="TT225" absolute="00:46:44" synch="#arm-225"/> 
             <when xml:id="TT226" since="#TT225" interval="1"/>
 
-            <when xml:id="TT227" absolute="00:00:47:37" synch="#arm-227"/> 
+            <when xml:id="TT227" absolute="00:47:37" synch="#arm-227"/> 
             <when xml:id="TT228" since="#TT227" interval="1"/>
 
-            <when xml:id="TT229" absolute="00:00:47:39" synch="#arm-229"/> 
+            <when xml:id="TT229" absolute="00:47:39" synch="#arm-229"/> 
             <when xml:id="TT230" since="#TT230" interval="1"/>
 
-            <when xml:id="TT231" absolute="00:00:47:49" synch="#lpf-231"/> 
+            <when xml:id="TT231" absolute="00:47:49" synch="#lpf-231"/> 
             <when xml:id="TT232" since="#TT231" interval="1"/>
 
-            <when xml:id="TT233" absolute="00:00:47:58" synch="#arm-232"/> 
+            <when xml:id="TT233" absolute="00:47:58" synch="#arm-232"/> 
             <when xml:id="TT234" since="#TT234" interval="1"/>
 
-            <when xml:id="TT235" absolute="00:00:48:03" synch="#arm-235"/> 
+            <when xml:id="TT235" absolute="00:48:03" synch="#arm-235"/> 
             <when xml:id="TT236" since="#TT235" interval="1"/>
 
-            <when xml:id="TT237" absolute="00:00:48:05" synch="#arm-237"/> 
+            <when xml:id="TT237" absolute="00:48:05" synch="#arm-237"/> 
             <when xml:id="TT238" since="#TT237" interval="1"/>
 
-            <when xml:id="TT239" absolute="00:00:48:24" synch="#arm-239"/> 
+            <when xml:id="TT239" absolute="00:48:24" synch="#arm-239"/> 
             <when xml:id="TT240" since="#TT239" interval="2"/>
 
-            <when xml:id="TT241" absolute="00:00:48:31" synch="#lpf-241"/> 
+            <when xml:id="TT241" absolute="00:48:31" synch="#lpf-241"/> 
             <when xml:id="TT242" since="#TT241" interval="1"/>
 
-            <when xml:id="TT243" absolute="00:00:48:53" synch="#arm-243"/> 
+            <when xml:id="TT243" absolute="00:48:53" synch="#arm-243"/> 
             <when xml:id="TT244" since="#TT243" interval="1"/>
 
-            <when xml:id="TT245" absolute="00:00:49:39" synch="#arm-245"/> 
+            <when xml:id="TT245" absolute="00:49:39" synch="#arm-245"/> 
             <when xml:id="TT246" since="#TT245" interval="2"/>
 
-            <when xml:id="TT247" absolute="00:00:50:25" synch="#lpf-247"/> 
+            <when xml:id="TT247" absolute="00:50:25" synch="#lpf-247"/> 
             <when xml:id="TT248" since="#TT247" interval="1"/>
 
-            <when xml:id="TT249" absolute="00:00:50:27" synch="#arm-249"/> 
+            <when xml:id="TT249" absolute="00:50:27" synch="#arm-249"/> 
             <when xml:id="TT250" since="#TT249" interval="1"/>
 
-            <when xml:id="TT251" absolute="00:00:50:53" synch="#arm-251"/> 
+            <when xml:id="TT251" absolute="00:50:53" synch="#arm-251"/> 
             <when xml:id="TT252" since="#TT251" interval="1"/>
 
-            <when xml:id="TT253" absolute="00:00:50:55" synch="#lpf-253"/> 
+            <when xml:id="TT253" absolute="00:50:55" synch="#lpf-253"/> 
             <when xml:id="TT254" since="#TT253" interval="1"/>
 
-            <when xml:id="TT255" absolute="00:00:50:59" synch="#lpf-255"/> 
+            <when xml:id="TT255" absolute="00:50:59" synch="#lpf-255"/> 
             <when xml:id="TT256" since="#TT255" interval="1"/>
 
-            <when xml:id="TT257" absolute="00:00:51:04" synch="#arm-257"/> 
+            <when xml:id="TT257" absolute="00:51:04" synch="#arm-257"/> 
             <when xml:id="TT258" since="#TT257" interval="1"/>
 
-            <when xml:id="TT259" absolute="00:00:54:58" synch="#arm-259"/> 
+            <when xml:id="TT259" absolute="00:54:58" synch="#arm-259"/> 
             <when xml:id="TT260" since="#TT259" interval="1"/>
 
-            <when xml:id="TT261" absolute="00:00:55:08" synch="#lpf-261"/> 
+            <when xml:id="TT261" absolute="00:55:08" synch="#lpf-261"/> 
             <when xml:id="TT262" since="#TT261" interval="1"/>
 
-            <when xml:id="TT263" absolute="00:00:55:14" synch="#arm-263"/> 
+            <when xml:id="TT263" absolute="00:55:14" synch="#arm-263"/> 
             <when xml:id="TT264" since="#TT263" interval="1"/>
 
-            <when xml:id="TT265" absolute="00:00:56:22" synch="#lpf-265"/> 
+            <when xml:id="TT265" absolute="00:56:22" synch="#lpf-265"/> 
             <when xml:id="TT266" since="#TT265" interval="2"/>
 
-            <when xml:id="TT267" absolute="00:00:56:45" synch="#arm-267"/> 
+            <when xml:id="TT267" absolute="00:56:45" synch="#arm-267"/> 
             <when xml:id="TT268" since="#TT267" interval="1"/>
 
-            <when xml:id="TT269" absolute="00:00:57:31" synch="#lpf-269"/> 
+            <when xml:id="TT269" absolute="00:57:31" synch="#lpf-269"/> 
             <when xml:id="TT270" since="#TT269" interval="1"/>
 
-            <when xml:id="TT271" absolute="00:00:57:36" synch="#arm-271"/> 
+            <when xml:id="TT271" absolute="00:57:36" synch="#arm-271"/> 
             <when xml:id="TT272" since="#TT271" interval="1"/>
 
-            <when xml:id="TT273" absolute="00:00:57:37" synch="#arm-273"/> 
+            <when xml:id="TT273" absolute="00:57:37" synch="#arm-273"/> 
             <when xml:id="TT274" since="#TT273" interval="1"/>
 
-            <when xml:id="TT275" absolute="00:00:57:41" synch="#lpf-275"/> 
+            <when xml:id="TT275" absolute="00:57:41" synch="#lpf-275"/> 
             <when xml:id="TT276" since="#TT275" interval="1"/>
 
-            <when xml:id="TT277" absolute="00:00:57:42" synch="#arm-277"/> 
+            <when xml:id="TT277" absolute="00:57:42" synch="#arm-277"/> 
             <when xml:id="TT278" since="#TT277" interval="1"/>
 
-            <when xml:id="TT279" absolute="00:00:57:47" synch="#arm-279"/> 
+            <when xml:id="TT279" absolute="00:57:47" synch="#arm-279"/> 
             <when xml:id="TT280" since="#TT279" interval="1"/>
 
-            <when xml:id="TT281" absolute="00:00:57:52" synch="#lpf-281"/> 
+            <when xml:id="TT281" absolute="00:57:52" synch="#lpf-281"/> 
             <when xml:id="TT282" since="#TT281" interval="1"/>
 
-            <when xml:id="TT283" absolute="00:00:57:56" synch="#arm-283"/> 
+            <when xml:id="TT283" absolute="00:57:56" synch="#arm-283"/> 
             <when xml:id="TT284" since="#TT283" interval="1"/>
 
-            <when xml:id="TT285" absolute="00:00:58:06" synch="#lpf-285"/> 
+            <when xml:id="TT285" absolute="00:58:06" synch="#lpf-285"/> 
             <when xml:id="TT286" since="#TT285" interval="1"/>
 
-            <when xml:id="TT287" absolute="00:00:58:35" synch="#lpf-287"/> 
+            <when xml:id="TT287" absolute="00:58:35" synch="#lpf-287"/> 
             <when xml:id="TT288" since="#TT287" interval="1"/>
 
-            <when xml:id="TT289" absolute="00:00:58:37" synch="#arm-279"/> 
+            <when xml:id="TT289" absolute="00:58:37" synch="#arm-279"/> 
             <when xml:id="TT290" since="#TT290" interval="1"/>
 
-            <when xml:id="TT291" absolute="00:00:59:48" synch="#lpf-291"/> 
+            <when xml:id="TT291" absolute="00:59:48" synch="#lpf-291"/> 
             <when xml:id="TT292" since="#TT291" interval="2"/>
 
-            <when xml:id="TT293" absolute="00:00:59:55" synch="#lpf-293"/> 
+            <when xml:id="TT293" absolute="00:59:55" synch="#lpf-293"/> 
             <when xml:id="TT294" since="#TT293" interval="2"/>
 
             <when xml:id="TT295" absolute="01:01:32" synch="#lpf-295"/> 
@@ -955,13 +955,13 @@
             <when xml:id="TT462" since="#TT461" interval="1"/>
 
             <!--parte II-->
-            <when xml:id="TT463" absolute="00:00:12" synch="#lpf-463"/> 
+            <when xml:id="TT463" absolute="00:12" synch="#lpf-463"/> 
             <when xml:id="TT464" since="#TT463" interval="1"/>
 
-            <when xml:id="TT465" absolute="00:00:14" synch="#arm-465"/> 
+            <when xml:id="TT465" absolute="00:14" synch="#arm-465"/> 
             <when xml:id="TT466" since="#TT465" interval="1"/>
 
-            <when xml:id="TT467" absolute="00:00:17" synch="#arm-467"/> 
+            <when xml:id="TT467" absolute="00:17" synch="#arm-467"/> 
             <when xml:id="TT468" since="#TT467" interval="1"/>
 
             <when xml:id="TT469" absolute="00:01:38" synch="#lpf-469"/> 
@@ -1104,17 +1104,41 @@
 
             <when xml:id="TT561" absolute="00:24:06" synch="#arm-561"/> 
             <when xml:id="TT562" since="#TT561" interval="1"/>
+
+            <when xml:id="TT563" absolute="00:30:58" synch="#arm-563"/> 
+            <when xml:id="TT564" since="#TT564" interval="1"/>
+
+            <when xml:id="TT565" absolute="00:32:41" synch="#lpf-565"/> 
+            <when xml:id="TT566" since="#TT565" interval="1"/>
+
+            <when xml:id="TT567" absolute="00:32:47" synch="#lpf-567"/> 
+            <when xml:id="TT568" since="#TT567" interval="1"/>
+
+            <when xml:id="TT569" absolute="00:32:59" synch="#lpf-569"/> 
+            <when xml:id="TT570" since="#TT569" interval="1"/>
+
+            <when xml:id="TT571" absolute="00:33:07" synch="#lpf-571"/> 
+            <when xml:id="TT572" since="#TT571" interval="1"/>
+
+            <when xml:id="TT573" absolute="00:33:17" synch="#lpf-573"/> 
+            <when xml:id="TT574" since="#TT574" interval="1"/>
+
+            <when xml:id="TT575" absolute="00:33:20" synch="#arm-575"/> 
+            <when xml:id="TT576" since="#TT575" interval="1"/>
+
+            <when xml:id="TT577" absolute="00:34:08" synch="#lpf-577"/> 
+            <when xml:id="TT578" since="#TT577" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
         <timeline xml:id="TL3" unit="s">                
             <!--parte I-->
             <when xml:id="TS01" synch="#LPF1" absolute="00:00:00"/>
-            <when xml:id="TS02" synch="#AW1" absolute="00:00:22"/>
-            <when xml:id="TS03" synch="#LPF2" absolute="00:00:41"/>
-            <when xml:id="TS04" synch="#AW2" absolute="00:00:43"/>
-            <when xml:id="TS05" synch="#LPF3" absolute="00:00:45"/>
-            <when xml:id="TS06" synch="#AW3" absolute="00:00:48"/>
+            <when xml:id="TS02" synch="#AW1" absolute="00:22"/>
+            <when xml:id="TS03" synch="#LPF2" absolute="00:41"/>
+            <when xml:id="TS04" synch="#AW2" absolute="00:43"/>
+            <when xml:id="TS05" synch="#LPF3" absolute="00:45"/>
+            <when xml:id="TS06" synch="#AW3" absolute="00:48"/>
             <when xml:id="TS07" synch="#LPF4" absolute="00:00:51"/>
             <when xml:id="TS08" synch="#AW4" absolute="00:00:55"/>
             <when xml:id="TS09" synch="#LPF5" absolute="00:00:55"/>
@@ -1874,6 +1898,36 @@
             <when xml:id="TS762" synch="#AW381" absolute="00:23:47"/>
             <when xml:id="TS763" synch="#LPF382" absolute="00:23:51"/>
             <when xml:id="TS764" synch="#AW382" absolute="00:23:53"/>
+            <when xml:id="TS765" synch="#LPF383" absolute="00:30:35"/>
+            <when xml:id="TS766" synch="#AW383" absolute="00:30:38"/>
+            <when xml:id="TS767" synch="#LPF384" absolute="00:30:41"/>
+            <when xml:id="TS768" synch="#AW384" absolute="00:30:43"/>
+            <when xml:id="TS769" synch="#LPF385" absolute="00:30:48"/>
+            <when xml:id="TS770" synch="#AW385" absolute="00:30:52"/>
+            <when xml:id="TS771" synch="#LPF386" absolute="00:31:35"/>
+            <when xml:id="TS772" synch="#AW386" absolute="00:31:38"/>
+            <when xml:id="TS773" synch="#LPF387" absolute="00:31:42"/>
+            <when xml:id="TS774" synch="#AW376" absolute="00:31:43"/>
+            <when xml:id="TS775" synch="#LPF378" absolute="00:32:34"/>
+            <when xml:id="TS776" synch="#AW378" absolute="00:32:35"/>
+            <when xml:id="TS777" synch="#LPF379" absolute="00:32:37"/>
+            <when xml:id="TS778" synch="#AW379" absolute="00:32:47"/>
+            <when xml:id="TS779" synch="#LPF380" absolute="00:32:49"/>
+            <when xml:id="TS780" synch="#AW380" absolute="00:32:52"/>
+            <when xml:id="TS781" synch="#LPF381" absolute="00:32:53"/>
+            <when xml:id="TS782" synch="#AW381" absolute="00:32:55"/>
+            <when xml:id="TS783" synch="#LPF382" absolute="00:32:56"/>
+            <when xml:id="TS784" synch="#AW382" absolute="00:32:57"/>
+            <when xml:id="TS785" synch="#LPF383" absolute="00:32:57"/>
+            <when xml:id="TS786" synch="#AW383" absolute="00:32:59"/>
+            <when xml:id="TS787" synch="#LPF384" absolute="00:33:00"/>
+            <when xml:id="TS788" synch="#AW384" absolute="00:33:01"/>
+            <when xml:id="TS789" synch="#LPF385" absolute="00:33:06"/>
+            <when xml:id="TS790" synch="#AW385" absolute="00:33:10"/>
+            <when xml:id="TS791" synch="#LPF386" absolute="00:33:13"/>            
+            <when xml:id="TS792" synch="#AW386" absolute="00:33:19"/>
+            <when xml:id="TS793" synch="#LPF387" absolute="00:34:06"/>            
+            <when xml:id="TS794" synch="#AW387" absolute="00:34:08"/>
         </timeline>
         
     </standOff>
@@ -5462,7 +5516,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW364" synch="#TS730"><!-- della au autista-->
-                    <vocal>ah</vocal><pause/> incominciarono con le <distinct type="informal">botte</distinct> all'uscita dei vagoni<pause/> e <didstinct type="infrequent">scudisciate</distinct> e a <vocal>mm</vocal> <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName> oltre che <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> c'erano anche gli ucraini<pause/> e i lituani<pause/> che <pause/>erano<pause/> <distinct type="technical">in forza</distinct><pause/> alla <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> per i campi<pause/> di <del type="truncation">concentrament</del><pause/> comunque<pause/> interessante fu che a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><pause/> appena rientrati<pause/> venimmo controllati per vedere se avevamo dei denti d'oro<pause/> in quanto serviva loro<pause/> in caso di morte per estrarli<pause/> e recuperarli come già facevano ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> per i morti<pause/> ee<pause/> in qualità di interprete<pause/> a me non guardarono in bocca così mi rimasero<pause/> due ponti d'oro che avevo<pause/> che mi servirono in seguito come racconterò<pause/> e improvvisamente si avvicina a noi un <rs ref="TEI-ListPerson.xml#IsaacSS" resp="#GB">prigioniero</rs><pause/> zebrato<pause/> che cominciò a parlare <lang>italiano</lang> con noi<pause/> era <persName ref="TEI-ListPerson.xml#IsaacSS">Saul Senor</persName><pause/> un<pause/> prigioniero di <placeName ref="TEI-ListPlace#Sal">Salonicco</placeName><pause/> che aveva frequentato a <placeName ref="TEI-ListPlace#Sal">Salonicco</placeName><pause/> la scuola italiana<pause/> <rs ref="TEI-ListPerson.xml#IsaacSS" resp="#GB">lui</rs> aveva l'incarico<pause/> di sorvegliare e distribuire<pause/> il vestiario alla <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> e quindi<pause/> <vocal>ahh</vocal> ebbe subito simpatia per noi<pause/> e cominciò a portarci anzitutto un po' di pane<pause/> per <distinct type="infrequent">rifocilarci</distinct><pause/> e in seguito quando poteva<pause/> cercò sempre di aiutarci<pause/> poi <del type="falseStart">in <del type="truncation">s</del></del><pause/> <del type="reformulation">più tardi</del> purtroppo venne impiccato non so se può interessare<anchor xml:id="arm-533" synch="#TT533"/><pause/> il<anchor xml:id="arm-534" synch="#TT534"/> motivo la causa e così <del type="truncation">ava</del><pause/> <vocal>ehmm</vocal><pause/> la lavanderia<pause/> non c'era nel campo<pause/> e quindi per lavare gli indumenti <unclear reason="inaudible" resp="#GB" cert="high">delle</unclear> <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> si recavano <del type="falseStart">a <vocal>mm</vocal></del> nella zona<pause/> <distinct type="technical">ariana</distinct> di <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><pause/> e portavano con sé gli indumenti sporchi e ritiravano <unclear reason="inaudible" resp="#GB" cert="low">a</unclear> quelli puliti<pause/> e questo <persName ref="TEI-ListPerson.xml#IsaacSS">Saul</persName><pause/> accompagnava sempre<pause/> <del type="falseStart">il</del><pause/> <choice><sic><del type="reformulation">la</del> autista</sic><corr resp="#GB">l'autista</corr></choice> della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> che andava alla lavanderia<pause/> nella lavanderia stessa<pause/> c'era una ragazza ebrea<pause/> però<pause/> non riconosciuta come ebrea che si era nascosta <pause/><del type="reformulation">non nascosta nel senso che <anchor xml:id="arm-535" synch="#TT535"/>aveva documenti<anchor xml:id="arm-536" synch="#TT536"/> falsi</del><pause/> e questo <persName ref="TEI-ListPerson.xml#IsaacSS">Saul</persName> si innamorò di questa ragazza<pause/> e decisero di fuggire<pause/> e un giorno<pause/> <persName ref="TEI-ListPerson.xml#IsaacSS">Saul</persName><pause/> tentò di ubriacare dando da bere <choice><sic>alla autista</sic><corr resp="#GB">all'autista</corr></choice><pause/> e<pause/> stava in procinto di fuggire<pause/> quando l'autista<pause/> riuscì a <choice><sic>ricuperare</sic><corr resp="#GB">recuperare</corr></choice> un po' di forze<pause/> e <pause/>cercò di <distinct type="infrequent">divincolarsi</distinct> da <persName ref="TEI-ListPerson.xml#IsaacSS">Saul</persName><pause/> e <persName ref="TEI-ListPerson.xml#IsaacSS">Saul</persName> <choice><orig>col</orig><reg resp="#GB">con il</reg></choice> pugnale della <del type="truncation">au</del> autista<pause/> lo colpì<pause/> ma non lo uccise<pause/> però rimase gravemente ferito<pause/> e <persName ref="TEI-ListPerson.xml#IsaacSS">Saul</persName> non riuscì purtroppo a fuggire<pause/> e venne condannato dal tribunale<pause/> a impiccagione<pause/> <vocal>eeehm</vocal> dentro il campo di <del type="truncation">Va</del> di <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName> una <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time><pause/> ci misero tutti in quadrato nel piazzale a<pause/> osservare<pause/> l'impiccagione di <persName ref="TEI-ListPerson.xml#IsaacSS">Saul Senor</persName>
+                    <vocal>ah</vocal><pause/> incominciarono con le <distinct type="informal">botte</distinct> all'uscita dei vagoni<pause/> e <distinct type="infrequent">scudisciate</distinct> e a <vocal>mm</vocal> <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName> oltre che <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> c'erano anche gli ucraini<pause/> e i lituani<pause/> che <pause/>erano<pause/> <distinct type="technical">in forza</distinct><pause/> alla <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> per i campi<pause/> di <del type="truncation">concentrament</del><pause/> comunque<pause/> interessante fu che a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><pause/> appena rientrati<pause/> venimmo controllati per vedere se avevamo dei denti d'oro<pause/> in quanto serviva loro<pause/> in caso di morte per estrarli<pause/> e recuperarli come già facevano ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> per i morti<pause/> ee<pause/> in qualità di interprete<pause/> a me non guardarono in bocca così mi rimasero<pause/> due ponti d'oro che avevo<pause/> che mi servirono in seguito come racconterò<pause/> e improvvisamente si avvicina a noi un <rs ref="TEI-ListPerson.xml#IsaacSS" resp="#GB">prigioniero</rs><pause/> zebrato<pause/> che cominciò a parlare <lang>italiano</lang> con noi<pause/> era <persName ref="TEI-ListPerson.xml#IsaacSS">Saul Senor</persName><pause/> un<pause/> prigioniero di <placeName ref="TEI-ListPlace#Sal">Salonicco</placeName><pause/> che aveva frequentato a <placeName ref="TEI-ListPlace#Sal">Salonicco</placeName><pause/> la scuola italiana<pause/> <rs ref="TEI-ListPerson.xml#IsaacSS" resp="#GB">lui</rs> aveva l'incarico<pause/> di sorvegliare e distribuire<pause/> il vestiario alla <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> e quindi<pause/> <vocal>ahh</vocal> ebbe subito simpatia per noi<pause/> e cominciò a portarci anzitutto un po' di pane<pause/> per <distinct type="infrequent">rifocilarci</distinct><pause/> e in seguito quando poteva<pause/> cercò sempre di aiutarci<pause/> poi <del type="falseStart">in <del type="truncation">s</del></del><pause/> <del type="reformulation">più tardi</del> purtroppo venne impiccato non so se può interessare<anchor xml:id="arm-533" synch="#TT533"/><pause/> il<anchor xml:id="arm-534" synch="#TT534"/> motivo la causa e così <del type="truncation">ava</del><pause/> <vocal>ehmm</vocal><pause/> la lavanderia<pause/> non c'era nel campo<pause/> e quindi per lavare gli indumenti <unclear reason="inaudible" resp="#GB" cert="high">delle</unclear> <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> si recavano <del type="falseStart">a <vocal>mm</vocal></del> nella zona<pause/> <distinct type="technical">ariana</distinct> di <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><pause/> e portavano con sé gli indumenti sporchi e ritiravano <unclear reason="inaudible" resp="#GB" cert="low">a</unclear> quelli puliti<pause/> e questo <persName ref="TEI-ListPerson.xml#IsaacSS">Saul</persName><pause/> accompagnava sempre<pause/> <del type="falseStart">il</del><pause/> <choice><sic><del type="reformulation">la</del> autista</sic><corr resp="#GB">l'autista</corr></choice> della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> che andava alla lavanderia<pause/> nella lavanderia stessa<pause/> c'era una ragazza ebrea<pause/> però<pause/> non riconosciuta come ebrea che si era nascosta <pause/><del type="reformulation">non nascosta nel senso che <anchor xml:id="arm-535" synch="#TT535"/>aveva documenti<anchor xml:id="arm-536" synch="#TT536"/> falsi</del><pause/> e questo <persName ref="TEI-ListPerson.xml#IsaacSS">Saul</persName> si innamorò di questa ragazza<pause/> e decisero di fuggire<pause/> e un giorno<pause/> <persName ref="TEI-ListPerson.xml#IsaacSS">Saul</persName><pause/> tentò di ubriacare dando da bere <choice><sic>alla autista</sic><corr resp="#GB">all'autista</corr></choice><pause/> e<pause/> stava in procinto di fuggire<pause/> quando l'autista<pause/> riuscì a <choice><sic>ricuperare</sic><corr resp="#GB">recuperare</corr></choice> un po' di forze<pause/> e <pause/>cercò di <distinct type="infrequent">divincolarsi</distinct> da <persName ref="TEI-ListPerson.xml#IsaacSS">Saul</persName><pause/> e <persName ref="TEI-ListPerson.xml#IsaacSS">Saul</persName> <choice><orig>col</orig><reg resp="#GB">con il</reg></choice> pugnale della <del type="truncation">au</del> autista<pause/> lo colpì<pause/> ma non lo uccise<pause/> però rimase gravemente ferito<pause/> e <persName ref="TEI-ListPerson.xml#IsaacSS">Saul</persName> non riuscì purtroppo a fuggire<pause/> e venne condannato dal tribunale<pause/> a impiccagione<pause/> <vocal>eeehm</vocal> dentro il campo di <del type="truncation">Va</del> di <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName> una <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time><pause/> ci misero tutti in quadrato nel piazzale a<pause/> osservare<pause/> l'impiccagione di <persName ref="TEI-ListPerson.xml#IsaacSS">Saul Senor</persName>
                 </u>
 
                 <u who="#LPF">
@@ -5479,7 +5533,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW365" synch="#TS732">
-                    <del type="falseStart">perché <del type="truncation">ll</del> la</del><pause/> sarebbe troppo lunga <unclear reason="inaudible" resp="#GB" cert="high">da</unclear> raccontare<pause/> <del type="falseStart">il</del><pause/> <del type="reformulation"><persName ref="TEI-ListPerson.xml#IsaacSS">Saul</persName></del> insieme <choice><orig>col</orig><reg resp="#GB">con il</corr></choice> comandante del campo<pause/> facevano delle ruberie<pause/> come al solito dappertutto<pause/> il comandante del campo naturalmente era a favore di <persName ref="TEI-ListPerson.xml#IsaacSS">Saul</persName> non voleva<pause/> che venisse<pause/> punito<pause/> ma la <distinct type="technical">sentinella</distinct><pause/> <del type="reformulation">quell'autista che era stato colpito</del><pause/> <del type="falseStart">fece una <del type="truncation">te</del> testimonianza </del><del type="reformulation">scrisse una testimonianza</del><pause/> di quello che era successo e la mandò a <placeName ref="TEI-ListPlace.xml#Berlino">Berlino</placeName><pause/> <placeName ref="TEI-ListPlace.xml#Berlino">Berlino</placeName> quindi decise<pause/> la morte di <persName ref="TEI-ListPerson.xml#IsaacSS">Saul</persName>
+                    <del type="falseStart">perché <del type="truncation">ll</del> la</del><pause/> sarebbe troppo lunga <unclear reason="inaudible" resp="#GB" cert="high">da</unclear> raccontare<pause/> <del type="falseStart">il</del><pause/> <del type="reformulation"><persName ref="TEI-ListPerson.xml#IsaacSS">Saul</persName></del> insieme <choice><orig>col</orig><reg resp="#GB">con il</reg></choice> comandante del campo<pause/> facevano delle ruberie<pause/> come al solito dappertutto<pause/> il comandante del campo naturalmente era a favore di <persName ref="TEI-ListPerson.xml#IsaacSS">Saul</persName> non voleva<pause/> che venisse<pause/> punito<pause/> ma la <distinct type="technical">sentinella</distinct><pause/> <del type="reformulation">quell'autista che era stato colpito</del><pause/> <del type="falseStart">fece una <del type="truncation">te</del> testimonianza </del><del type="reformulation">scrisse una testimonianza</del><pause/> di quello che era successo e la mandò a <placeName ref="TEI-ListPlace.xml#Berlino">Berlino</placeName><pause/> <placeName ref="TEI-ListPlace.xml#Berlino">Berlino</placeName> quindi decise<pause/> la morte di <persName ref="TEI-ListPerson.xml#IsaacSS">Saul</persName>
                 </u>
                 
                 <pause/>
@@ -5634,58 +5688,174 @@
                 </u>
 
                 <u who="#AW" xml:id="AW382" synch="#TS764">
-                    <anchor xml:id="arm-559" synch="#TT559"/><unclear reason="inaudible" resp="#GB" cert="medium"><del type="falseStart">era</del></unclear><anchor xml:id="arm-560" synch="#TT560"/><pause/> a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName> eravamo sempre uniti<pause/> solo che man mano purtroppo<pause/> stavano morendo<pause/> e io prima avevo cominciato a raccontare<pause/> di <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><pause/> che non avevo finito<pause/> <vocal>ehm</vocal> posso riprenderlo <anchor xml:id="arm-561" synch="#TT561"/>perché<anchor xml:id="arm-562" synch="#TT562"/> altrimenti sfugge <pause/><del type="falseStart">che</del><pause/> <del type="reformulation">quando</del><pause/> venne decisa la partenza per <placeName ref="TEI-ListPlace.xml#Jaworzno">Jaworzno</placeName> del <rs ref="TEI-ListPerson.xml#GiancarloDS">figlio</rs> <del type="falseStart">del</del><pause/> <del type="correction">dei</del> <emph>Della Seta</emph><pause/> <unclear reason="inaudible" resp="#GB" cert="medium">e</del> il <rs ref="TEI-ListPerson.xml#LeonelloDS">padre</rs><pause/> quasi impazzì dal dolore perché si sarebbe diviso dal <rs ref="TEI-ListPerson.xml#GiancarloDS">figlio</rs><pause/> e allora io<pause/> presi i due anelli<pause/> che ero riuscito <del type="falseStart">ad <vocal>amh</vocal></del><pause/> <del type="correction">a</del> <emph>contrabbandare</emph> nel campo<pause/> e li diedi a un medico polacco ebreo<pause/> che a sua volta lo diede<pause/> a un sottufficiale della sanità<pause/> <del type="falseStart"><del type="truncation">vu</del> <vocal>ehm</vocal></del> <unclear reason="inaudible" resp="#GB" cert="low"><del type="reformulation">della</del></unclear> <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> e per questi due anelli lui ci diede due pillole<pause/> per far salire la febbre<pause/> di chi le prendeva<pause/> così è successo che<pause/> <persName ref="TEI-ListPerson.xml#GiancarloDS">Giancarlo</persName> prese le pillole<pause/> <del type="repetition">e</del><pause/> e la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time><pause/> quando era<pause/> tutto pronto per la partenza per <placeName ref="TEI-ListPlace.xml#Jaworzno">Jaworzno</placeName><pause/> aveva una <distinct type="common_saying">febbre da cavallo</distinct><pause/> ora la <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> quando qualcuno aveva la febbre alta<pause/>preferiva lasciarlo<pause/> ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> anziché trasportarlo a <placeName ref="TEI-ListPlace.xml#Jaworzno">Jaworzno</placeName><pause/> febbricitante<pause/> in questa maniera <pause/><persName ref="TEI-ListPerson.xml#GiancarloDS">Giancarlo</persName> si salvò<pause/> il <rs ref="TEI-ListPerson.xml#LeonelloDS">padre</rs> mi era molto grato <choice><sic>per questo che avevo fatto</sic><corr resp="#GB">per quello che avevo fatto</sic></corr></choice> <del type="reformulation">che avevo deciso di<pause/> utilizzare questi due anelli</del><pause/> e mi volle<pause/> lasciare un testamento<pause/> nel senso che<pause/> <del type="falseStart">tornati a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName></del><pause/> <del type="reformulation">cioè<pause/> io tornato a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName></del> <rs ref="TEI-ListPerson.xml#LeonelloDS">lui</rs> no perché era già anziano<pause/> e io perché parlavo <lang>tedesco<lang> pensava che mi sarei salvato<pause/> e non avendo carta da scrivere<pause/> si tolse dalla giacca<pause/> che era appunto un abito civile<pause/> una fodera <pause/>e su quella<pause/> con<pause/> una <distinct type="infrequent">punzecchiatura</distinct> con un ago <del type="falseStart">sul</del><pause/> <del type="correction">sulla</del> punta delle dita<pause/> scrisse sopra<pause/> <q type="written" who="#LeonelloDS">non dimenticherò mai ciò che <persName ref="TEI-ListPerson.xml#AW"><choice><sic>Erminio</sic><corr resp="#GB">Arminio</corr></choice></persName><pause/> fece per me</q> <pause/>e<pause/> voleva darmi questo io non lo volevo accettare<pause/> ma <vocal>ehm</vocal> <rs ref="TEI-ListPerson.xml#LeonelloDS">lui</rs> tanto insistette che io lo presi<pause/> con me<pause/> e poi naturalmente persi questo a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><pause/> a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName> <del type="truncation">s</del> durante la nostra permanenza<pause/> scoppiò<pause/> una<pause/> epidemia di <distinct type="technical">tifo petecchiale</distinct><pause/> e il <rs ref="TEI-ListPerson.xml#LeonelloDS">padre</rs><pause/> fu <choice><sic>in fettato</sic><corr resp="#GB">infettato</corr></choice><pause/> e il <rs ref="TEI-ListPerson.xml#GiancarloDS">figlio</rs> invece<pause/> era in un'altra baracca<pause/> con<pause/> <emph>diarrea</emph><pause/> e io in qualità di <del type="falseStart">prigioniero potevo</del> <del type="reformulation">di interprete</del> volevo dire potevo<pause/> spostarmi nell'interno del campo<pause/> visitavo il <rs ref="TEI-ListPerson.xml#LeonelloDS">padre</rs><pause/> e lo<pause/> consolavo dicendo che il <rs ref="TEI-ListPerson.xml#GiancarloDS">figlio</rs> stava meglio<pause/> e al <rs ref="TEI-ListPerson.xml#GiancarloDS">figlio</rs> lo stesso parlando del <rs ref="TEI-ListPerson.xml#LeonelloDS">padre</rs> ma viceversa tutti e due erano moribondi<pause/> e morirono tutti e due<pause dur="3 seconds"/> <del type="falseStart">a</del> <persName ref="TEI-ListPerson.xml#GiancarloDS">Giancarlo</persName><pause/> era poi un caso<pause/> ancora più tragico perché<pause/> soffriva di<pause/> <distinct type="technical">distrofia muscolare</distinct><pause/> a guardarlo <distinct type="figure_of_speech">sembrava <del type="repetition">un</del> un ercole</distinct><pause/> ma in realtà non aveva forza<pause/> e durante il lavoro di recupero dei <del type="truncation">m</del> mattoni<pause/> riuscì a convincere il <foreing xml:lang="de">kapò</foreing><pause/> a farlo ammettere nel gruppo<pause/> che puliva i mattoni <choice><orig>col</orig><reg resp="#GB">con il</reg></choice> <distinct type="diminutive">martelletto</distinct> <del type="reformulation">cioè <pause/> <choice><sic>di non sovraccarsi ai</sic><corr resp="#GB">a non sovraccaricarlo con i</corr></choice> lavori più<pause/> gravosi</del><pause/><!--27:20--> quindi<pause/> a un certo momento<pause/> rimanemmo in tutto<pause/> in 3 soli<pause/> superstiti<pause/> dei 42 che eravamo arrivati a Varsavia<pause/> io<pause/> Lello<pause/> Di Segni <pause/>eee Isacco Sermoneta<pause/> così che quando il campo venne evacuato eravamo noi soli del(nel?) gruppo degli italiani. C'era con noi anche un ebreo polacco il quale m'aveva tolto i denti d'oro con una comune tenaglia da... falegname; con quell'oro riuscì a farmi dare attraverso i polacchi un po' di pane, un po' di marmellata, un po' dii... margarina. Quindi questo mi servì per rifocillarmi e per riprendere un po' di forze. Strano è questo, che... a un certo momento la SS disse "dal gruppo che partiva" - eravamo in 6000, come le dissi prima - "rimangono qui iii professionisti" - cioè i falegnamii, i meccanici e così avanti - per recuperare anche le parti delle baracche da portar via in Germania, cosicché ne rimasero 300 ma non ammalati perché gli ammalati come dissi prima vennero sterminati subito. Questi 300 rimasti vivi avrebbero dovuto ricuperare ancora ciò che era possibile. Giuntii in Germania, a Dachau ee campi limitrofi, non se- non sapemmo più nulla di questi 300 che sono rimasti a Varsavia. Eee (pausa) già dopo la liberazione, una sera, a Feldafing, che è in Germania vicino a Monaco di Baviera, stavo raccontando la storia di questoo mio amico eehm falegname che ... era riuscito a infiltrarsi nel gruppo di quelli che uscivano dal campo ma a sulla porta ehm ci ripensò e ritornò indietro - quindi stavo dicendo "guarda un po', era già... pronto a vivere insieme a noi e invece ritornò volontario alla morte" -. Mentre stavo raccontando questo fenomeno battono alla porta e chi era? Era lui ee lui mi raccontò ciò che era successo con i 300 di Varsavia eee mi disse che lle... erano rimaste poche SS e i 300 si ribellarono contro le SS e lì ci fu un eccidio ee i partigiani polacchi intervennero e ee distrussero quelle poche SS che erano rimaste eee i dei 300 i superstiti furono radunati in una scuola. La scuola venne bombardata dai russi eee anche in quella occasione ne morirono diversi, alcuni si salvarono e tra questi il mio amico... falegname.
+                    <anchor xml:id="arm-559" synch="#TT559"/><unclear reason="inaudible" resp="#GB" cert="medium"><del type="falseStart">era</del></unclear><anchor xml:id="arm-560" synch="#TT560"/><pause/> a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName> eravamo sempre uniti<pause/> solo che man mano purtroppo<pause/> stavano morendo<pause/> e io prima avevo cominciato a raccontare<pause/> di <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><pause/> che non avevo finito<pause/> <vocal>ehm</vocal> posso riprenderlo <anchor xml:id="arm-561" synch="#TT561"/>perché<anchor xml:id="arm-562" synch="#TT562"/> altrimenti sfugge <pause/><del type="falseStart">che</del><pause/> <del type="reformulation">quando</del><pause/> venne decisa la partenza per <placeName ref="TEI-ListPlace.xml#Jaworzno">Jaworzno</placeName> del <rs ref="TEI-ListPerson.xml#GiancarloDS">figlio</rs> <del type="falseStart">del</del><pause/> <del type="correction">dei</del> <emph>Della Seta</emph><pause/> <unclear reason="inaudible" resp="#GB" cert="medium">e</unclear> il <rs ref="TEI-ListPerson.xml#LeonelloDS">padre</rs><pause/> quasi impazzì dal dolore perché si sarebbe diviso dal <rs ref="TEI-ListPerson.xml#GiancarloDS">figlio</rs><pause/> e allora io<pause/> presi i due anelli<pause/> che ero riuscito <del type="falseStart">ad <vocal>amh</vocal></del><pause/> <del type="correction">a</del> <emph>contrabbandare</emph> nel campo<pause/> e li diedi a un medico polacco ebreo<pause/> che a sua volta lo diede<pause/> a un sottufficiale della sanità<pause/> <del type="falseStart"><del type="truncation">vu</del> <vocal>ehm</vocal></del> <unclear reason="inaudible" resp="#GB" cert="low"><del type="reformulation">della</del></unclear> <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> e per questi due anelli lui ci diede due pillole<pause/> per far salire la febbre<pause/> di chi le prendeva<pause/> così è successo che<pause/> <persName ref="TEI-ListPerson.xml#GiancarloDS">Giancarlo</persName> prese le pillole<pause/> <del type="repetition">e</del><pause/> e la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time><pause/> quando era<pause/> tutto pronto per la partenza per <placeName ref="TEI-ListPlace.xml#Jaworzno">Jaworzno</placeName><pause/> aveva una <distinct type="common_saying">febbre da cavallo</distinct><pause/> ora la <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> quando qualcuno aveva la febbre alta<pause/>preferiva lasciarlo<pause/> ad <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> anziché trasportarlo a <placeName ref="TEI-ListPlace.xml#Jaworzno">Jaworzno</placeName><pause/> febbricitante<pause/> in questa maniera <pause/><persName ref="TEI-ListPerson.xml#GiancarloDS">Giancarlo</persName> si salvò<pause/> il <rs ref="TEI-ListPerson.xml#LeonelloDS">padre</rs> mi era molto grato <choice><sic>per questo che avevo fatto</sic><corr resp="#GB">per quello che avevo fatt</corr></choice> <del type="reformulation">che avevo deciso di<pause/> utilizzare questi due anelli</del><pause/> e mi volle<pause/> lasciare un testamento<pause/> nel senso che<pause/> <del type="falseStart">tornati a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName></del><pause/> <del type="reformulation">cioè<pause/> io tornato a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName></del> <rs ref="TEI-ListPerson.xml#LeonelloDS">lui</rs> no perché era già anziano<pause/> e io perché parlavo <lang>tedesco</lang> pensava che mi sarei salvato<pause/> e non avendo carta da scrivere<pause/> si tolse dalla giacca<pause/> che era appunto un abito civile<pause/> una fodera <pause/>e su quella<pause/> con<pause/> una <distinct type="infrequent">punzecchiatura</distinct> con un ago <del type="falseStart">sul</del><pause/> <del type="correction">sulla</del> punta delle dita<pause/> scrisse sopra<pause/> <q type="written" who="#LeonelloDS">non dimenticherò mai ciò che <persName ref="TEI-ListPerson.xml#AW"><choice><sic>Erminio</sic><corr resp="#GB">Arminio</corr></choice></persName><pause/> fece per me</q> <pause/>e<pause/> voleva darmi questo io non lo volevo accettare<pause/> ma <vocal>ehm</vocal> <rs ref="TEI-ListPerson.xml#LeonelloDS">lui</rs> tanto insistette che io lo presi<pause/> con me<pause/> e poi naturalmente persi questo a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><pause/> a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName> <del type="truncation">s</del> durante la nostra permanenza<pause/> scoppiò<pause/> una<pause/> epidemia di <distinct type="technical">tifo petecchiale</distinct><pause/> e il <rs ref="TEI-ListPerson.xml#LeonelloDS">padre</rs><pause/> fu <del type="truncation" xml:id="infettato0">in</del> <del type="truncation" xml:id="infettato1">fettato</del><join target="#infettato0 #infettato1" type="word"></join> <pause/> e il <rs ref="TEI-ListPerson.xml#GiancarloDS">figlio</rs> invece<pause/> era in un'altra baracca<pause/> con<pause/> <emph>diarrea</emph><pause/> e io in qualità di <del type="falseStart">prigioniero potevo</del> <del type="reformulation">di interprete</del> volevo dire potevo<pause/> spostarmi nell'interno del campo<pause/> visitavo il <rs ref="TEI-ListPerson.xml#LeonelloDS">padre</rs><pause/> e lo<pause/> consolavo dicendo che il <rs ref="TEI-ListPerson.xml#GiancarloDS">figlio</rs> stava meglio<pause/> e al <rs ref="TEI-ListPerson.xml#GiancarloDS">figlio</rs> lo stesso parlando del <rs ref="TEI-ListPerson.xml#LeonelloDS">padre</rs> ma viceversa tutti e due erano moribondi<pause/> e morirono tutti e due<pause dur="3 seconds"/> <del type="falseStart">a</del> <persName ref="TEI-ListPerson.xml#GiancarloDS">Giancarlo</persName><pause/> era poi un caso<pause/> ancora più tragico perché<pause/> soffriva di<pause/> <distinct type="technical">distrofia muscolare</distinct><pause/> a guardarlo <distinct type="figure_of_speech">sembrava <del type="repetition">un</del> un ercole</distinct><pause/> ma in realtà non aveva forza<pause/> e durante il lavoro di recupero dei <del type="truncation">m</del> mattoni<pause/> riuscì a convincere il <foreing xml:lang="de">kapò</foreing><pause/> a farlo ammettere nel gruppo<pause/> che puliva i mattoni <choice><orig>col</orig><reg resp="#GB">con il</reg></choice> <distinct type="diminutive">martelletto</distinct> <del type="reformulation">cioè <pause/> <choice><sic>di non sovraccarsi ai</sic><corr resp="#GB">a non sovraccaricarlo con i</corr></choice> lavori più<pause/> gravosi</del><pause/> quindi<pause/> a un certo momento<pause/> rimanemmo in tutto<pause/> in 3 soli<pause/> superstiti<pause/> dei 42 che eravamo arrivati a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><pause/> <rs ref="TEI-ListPerson.xml#AW">io</rs><pause/> <persName ref="TEI-ListPerson.xml#LelloDS">Lello<pause/> Di Segni </persName><pause/>e <persName ref="TEI-ListPerson.xml#IsaccoS">Isacco Sermoneta</persName><pause/> così che quando il campo<pause/> venne evacuato<pause/> eravamo noi soli<pause/> <unclear reason="inaudible" resp="#GB" cert="medium">del</unclear> gruppo degli italiani<pause/> c'era<pause/> con noi anche un ebreo polacco<pause/> il quale<pause/> <choice><orig>m'aveva</orig><reg resp="#GB">mi aveva</reg></choice> tolto i denti d'oro<pause/> con una comune<pause/> <distinct type="technical">tenaglia</distinct> da<pause/> <emph>falegname</emph><pause/> con quell'oro riuscì a farmi dare attraverso i polacchi<pause/> un po' di pane un po' di marmellata un po' di<pause/> margarina<pause/> quindi questo mi servì per <distinct type="infrequent">rifocillarmi</distinct> e per riprendere un po'<pause/> di forze<pause/> strano è questo<pause/> che<pause/> a un certo momento la <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> disse<pause/> <q type="spoken" xml:id="#q3">dal gruppo che partiva</q> eravamo in 6000 come le dissi prima<pause/> <q type="spoken" xml:id="q4">rimangono qui i<pause/> professionisti</q><join target="#q3 #q4" result="q" type="quotation" scope="branches"></join> cioè i falegnami<pause/> i meccanici<pause/> e così avanti <pause/>per <choice><sic>ricuperare</sic><corr resp="#GB">recuperare</corr></choice> anche le parti delle baracche da portar via in <placeName ref="TEI-ListPlace.xml#DE">Germania</placeName><pause/> cosicché ne rimasero <emph>300</emph><pause/> ma non ammalati perché gli ammalati come dissi prima<pause/> vennero sterminati subito<pause/> questi 300 rimasti vivi avrebbero dovuto <choice><sic>ricuperare</sic><corr resp="#GB">recuperare</corr></choice> ancora ciò che era possibile<pause/> giunti in <placeName ref="TEI-ListPlace.xml#DE">Germania</placeName> a <placeName ref="TEI-ListPlace.xml#Dachau">Dachau</placeName> e<pause/> campi limitrofi<pause/> <del type="falseStart">non <del type="truncation">se</del></del> non sapemmo più nulla<pause/> di questi 300<pause/> che sono rimasti a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><pause/> e <pause/>già dopo la liberazione<pause/> una <time from="18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time><pause/> a <placeName ref="TEI-ListPlace.xml#Feldafing">Feldafing</placeName> che è in <placeName ref="TEI-ListPlace.xml#DE">Germania</placeName> vicino a <placeName ref="TEI-ListPlace.xml#Munich">Monaco di Baviera</placeName><pause/> stavo raccontando la storia di questo mio amico<pause/> <vocal>eehm</vocal><pause/> falegname<pause/> che <pause/>era riuscito a infiltrarsi nel gruppo di quelli che uscivano dal campo<pause/> ma <del type="falseStart">a</del> <del type="reformulation">sulla</del> porta<pause/> <vocal>ehm</vocal> ci ripensò e ritornò <emph>indietro</emph> <pause/>quindi stavo dicendo <q type="spoken" who="#AW">guarda un po'<pause/> era già<pause/> pronto a vivere insieme a noi<pause/> e invece ritornò volontario alla morte</q> <pause/>mentre stavo raccontando questo fenomeno battono alla porta<pause/> e chi era<pause/> era lui<pause/> e lui mi raccontò ciò che era successo con i 300 <pause/>di <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><pause/> e mi disse che<pause/> <del type="falseStart">le</del><pause/> erano rimaste poche <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> e i 300 si ribellarono contro le <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> e <rs ref="TEI-ListPlace.xml#Varsavia" resp="#GB">lì</rs> ci fu un <emph>eccidio</emph><pause/> e i partigiani polacchi intervennero<pause/> e<pause/> <vocal>eehm</vocal><pause/> distrussero quelle poche <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> che erano rimaste<pause/> e<pause/> <del type="falseStart">i</del> <del type="reformulation">dei</del> 300 i superstiti<pause/> furono radunati in una scuola<pause/> la scuola venne bombardata dai russi<pause/> e<pause/> anche in quella occasione ne morirono diversi<pause/> alcuni si salvarono e tra questi<pause/> il mio amico<pause/> falegname
                 </u>
 
                 <u who="#LPF">
                     <anchor xml:id="lpf-561" synch="#TT561"/>certo<anchor xml:id="lpf-562" synch="#TT562"/>
                 </u>
+
+                <u who="#LPF" xml:id="LPF383" synch="#TS765">
+                    allora si tratta di una seconda rivolta di <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName>
+                </u>
+
+                <u who="#AW" xml:id="AW383" synch="#TS766"><!--fu la minore-->
+                    la seconda ma <vocal>ehm</vocal> naturalmente <vocal>ehm</vocal><pause/> <unclear reason="inaudible" resp="#GB" cert="medium">furono minori</unclear>
+                </u>
+
+                <u who="#LPF" xml:id="LPF384" synch="#TS767">
+                    <vocal>ehm</vocal> che data poteva essere
+                </u>
+
+                <u who="#AW" xml:id="AW384" synch="#TS768">
+                    <del type="falseStart">era il</del> <del type="reformulation"><date notBefore="1944-07-31" notAfter="1944-08-07" resp="#GB">primi di agosto del<pause/> 44</date></del>
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF385" synch="#TS769">
+                    <vocal>ehm</vocal><pause/> può raccontare come avvenne l'evacuazione dal <del type="truncation">camp</del>
+                </u>
+
+                <u who="#AW" xml:id="AW385" synch="#TS770"><!--cavalleria contro-->
+                    dunque dal campo fummo evacuati come ho detto prima a <emph>piedi</emph><pause/> e facemmo <emph>70</emph> km<pause/> <anchor xml:id="arm-563" synch="#TT563"/><del type="falseStart">fino<anchor xml:id="arm-564" synch="#TT564"/> a</del> <pause/><emph>a piedi</emph><pause/> non in un solo giorno naturalmente<pause/> per arrivare fino a <emph><placeName ref="TEI-ListPlace#Kutno">Kutno</placeName></emph><pause/> <placeName ref="TEI-ListPlace#Kutno">Kutno</placeName> è una cittadina polacca<pause/> <emph>famosa</emph><pause/> per il fatto che in <vocal>mm</vocal> quella <rs ref="TEI-ListPlace#Kutno" resp="#GB">località</rs><pause/> si svolse una battaglia fra <distinct type="technical">cavalleria</distinct> polacca contro <vocal><desc>ride</desc></vocal>carri armati<pause/> tedeschi<pause/> e naturalmente i polacchi persero<pause/> <vocal>ehm</vocal> solo che era strano che la <distinct type="technical">cavalleria</distinct> contro i carri armati<pause/> a <placeName ref="TEI-ListPlace#Kutno">Kutno</placeName><pause/> fummo<pause/> fatti salire su dei vagoni<pause/> <vocal>ehm</vocal><pause/> di bestiame<pause/>eee lentamente ci portarono fino a <placeName ref="TEI-ListPlace.xml#Dachau">Dachau</placeName> in <placeName ref="TEI-ListPlace.xml#BY">Baviera</placeName><pause/> vicino a <placeName ref="TEI-ListPlace.xml#Munich">Monaco</placeName>
+                </u>
+
+                <u who="#LPF">
+                    <anchor xml:id="lpf-563" synch="#TT563"/>a piedi<anchor xml:id="lpf-564" synch="#TT564"/>
+                <u>
+
+                <u who="#LPF" xml:id="LPF386" synch="#TS771">
+                    avevate sempre i vostri zoccoli
+                </u>
+
+                <pause/>
+
+                <u who="#AW" xml:id="AW386" synch="#TS772">
+                    <del type="repetition">no</del> no gli zoccoli ce li avevano tolti <del type="repetition">a</del><pause/> a <placeName ref="TEI-ListPlace.xml#Auschwitz">Auschwitz</placeName> <unclear reason="inaudible" resp="#GB" cert="low"><rs ref="TEI-ListPlace.xml#Varsavia" resp="#GB">lì</rs></unclear> ci avevano dato scarpe
+                </u>
+
+                <u who="#LPF" xml:id="LPF387" synch="#TS773">
+                    <vocal>ah</vocal>
+                </u>
+                
+                <gap reason="lost" extent="unknown"/>
+
+                <u who="#AW" xml:id="AW387" synch="#TS774">
+                    di <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><pause/> si posso raccontare un fatto<pause/> un giorno <rs ref="TEI-ListPerson.xml#AW">io</rs> e <del type="falseStart">Lillo Della Seta <pause/>non Lillo Della Seta<pause/> Lillo<pause/></del> <del type="reformulation">non mi ricordo più</del><pause/> eravamo<pause/> su una <distint type="diminutive">montagnola</distinct><pause/> di mattoni <pause/>e<pause/> dato che eravamo <del type="truncation">ss</del><pause/> stremati dal lavoro<pause/> ci <emph>addormentammo</emph><pause/> improvvisamente fummo svegliati<pause/> da <pause/>due ufficiali della <orgName><foreing xml:lang="de">Wehrmacht</foreing></orgName><pause/> che <pause/>incominciarono a interrogarci e noi<pause/> naturalmente<pause/> <distinct type="archaic">ebbimo</distinct> una paura tremenda<pause/> di venire puniti<pause/> questi invece caso strano<pause/> anziché denunciarci <pause/>ci diedero una scatoletta di <del type="truncation">carn</del><pause dur="3 seconds"/> sono quei singoli casi di
+                </u>
+
+                <u who="#LPF" xml:id="LPF388" synch="#TS775">
+                    si
+                </u>
+
+                <u who="#AW" xml:id="AW388" synch="#TS776">
+                    comportamento umano
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF389" synch="#TS777">
+                    <vocal>ehm</vocal> no riguardo alla <vocal><desc>tossisce</desc></vocal> rivolta di cui ha parlato prima<anchor xml:id="lpf-565" synch="#TT565"/><pause/> quella<anchor xml:id="lpf-566" synch="#TT566"/> <vocal>ehm</vocal><pause/> mini rivolta comunque rivolta ci fu<pause/> <vocal>ehm</vocal> erano in generale ebrei quelli che erano a <anchor xml:id="lpf-567" synch="#TT567"/> <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><anchor xml:id="lpf-568" synch="#TT568"/> 
+                </u>
+
+                <u who="#AW">
+                    <anchor xml:id="arm-565" synch="#TT565"/>si<anchor xml:id="arm-566" synch="#TT566"/>
+                </u>
+
+                <u who="#AW" xml:id="AW389" synch="#TS778">
+                    <anchor xml:id="arm-567" synch="#TT567"/>la maggior parte<anchor xml:id="arm-568" synch="#TT568"/> erano ebrei
+                </u>
+
+                <u who="#LPF" xml:id="LPF390" synch="#TS779">
+                    per la maggior parte ebrei quindi <choice><orig>m'ha</orig><reg resp="#GB">mi ha</reg></choice> detto<pause/> olandesi italiani
+                </u>
+
+                <u who="#AW" xml:id="AW390" synch="#TS780">
+                    ungheresi
+                </u>
+
+                <u who="#LPF" xml:id="LPF391" synch="#TS781">
+                    ungheresi
+                </u>
+
+                <pause/>
+
+                <u who="#AW" xml:id="AW391" synch="#TS782">
+                    belgi<pause/> francesi
+                </u>
+
+                <u who="#LPF" xml:id="LPF392" synch="#TS783">
+                    un po' di tutto
+                </u>
+
+                <u who="#AW" xml:id="AW392" synch="#TS784">
+                    un po' di tutto
+                </u>
+
+                <u who="#LPF" xml:id="LPF393" synch="#TS785">
+                    in prevalenza <placeName ref="TEI-ListPlace.xml#EU">Europa</placeName> occidentale <anchor xml:id="lpf-569" synch="#TT569"/>o<anchor xml:id="lpf-570" synch="#TT570"/>
+                </u>
+
+                <u who="#AW" xml:id="AW393" synch="#TS786">
+                    <anchor xml:id="arm-569" synch="#TT569"/><placeName ref="TEI-ListPlace.xml#EU">Europa</placeName><anchor xml:id="arm-570" synch="#TT570"/> occidentale
+                </u>
+
+                <u who="#LPF" xml:id="LPF394" synch="#TS787">
+                    in prevalenza
+                </u>
+
+                <u who="#AW" xml:id="AW394" synch="#TS788">
+                    in prevalenza<pause/> c'erano i greci<pause/> quelli di <placeName ref="TEI-ListPlace#Sal">Salonicco</placeName>
+                </u>
+
+                <u who="#LPF" xml:id="LPF395" synch="#TS789">
+                    allora arrivaste <del type="falseStart">in</del> <del type="reformulation">a</del> <placeName ref="TEI-ListPlace.xml#Dachau">Dachau</placeName><anchor xml:id="lpf-571" synch="#TT571"/><pause/> più o meno<anchor xml:id="lpf-572" synch="#TT572"/> in quanti
+                </u>
+
+                <u who="#AW">
+                    <anchor xml:id="arm-571" synch="#TT571"/>a <placeName ref="TEI-ListPlace.xml#Dachau">Dachau</placeName><anchor xml:id="arm-572" synch="#TT572"/>
+                </u>
+
+                <u who="#AW" xml:id="AW395" synch="#TS790">
+                    neanche la metà<pause/> dei 6000 che uscimmo
+                </u>
+
+                <u who="#LPF" xml:id="LPF396" synch="#TS791">
+                    <del type="falseStart">fosti <del type="truncation">fa</del></del> <del type="correction">foste <distinct type="infrequent">falcidiati</distinct></del> dalle <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> oppure dalle <anchor xml:id="lpf-573" synch="#TT573"/>condizioni<anchor xml:id="lpf-574" synch="#TT574"/> della marcia
+                </u>
+
+                <u who="#AW">
+                    <anchor xml:id="arm-573" synch="#TT573"/>anche<anchor xml:id="arm-574" synch="#TT574"/>
+                </u>
+
+                <u who="#AW" xml:id="AW396" synch="#TS792">
+                    le condizioni della marcia<anchor xml:id="arm-575" synch="#TT575"/><pause/><anchor xml:id="arm-576" synch="#TT576"/> <distinct type="infrequent">falcidiati</distinct> dalle <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> e<pause/> mentre marciavamo chi rimaneva indietro chi non ce la faceva più veniva subito<pause/> colpito<pause/> alla nuca<pause/> arrivammo <del type="repetition">a un</del> a un fiume<pause/> e avevamo tutti sete<pause/> <choice><sic>ci lasciarono andarci ad abbeverare</sic><corr resp="#GB">ci lasciaro andare ad abbeverarci</corr></choice> <pause/>nel fiume<pause/> uno prigioniero<pause/> ungherese<pause/> fuoriuscì un po'<pause/> <del type="falseStart">da <vocal>ahm</vocal></del> <del type="correction">dalla</del> vista <del type="repetition">dell</del> dell'<choice><sic>ci lasciarono andarci ad abbeverare</sic><corr resp="#GB">ci lasciaro andare ad abbeverarci</corr></choice><pause/> e<pause/> loro<pause/> lo colpirono<pause/> con una fucilata<pause/> e l'acqua naturalmente <del type="repetition">si</del><pause/> si riempì di sangue<pause/> e noi<pause/> avemmo<pause/> tanta sete<pause/> e fummo costretti persino a bere quell'acqua<pause/> insanguinata
+                </u>
+
+                <u who="#LPF">
+                    <anchor xml:id="lpf-575" synch="#TT575"/><vocal><desc>si schiarisce la voce</desc></vocal><anchor xml:id="lpf-576" synch="#TT576"/>
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF397" synch="#TS793">
+                    ci furono delle fughe durante la<pause/> <anchor xml:id="lpf-577" synch="#TT577"/>evacuazione<anchor xml:id="lpf-578" synch="#TT578"/>
+                </u>
+
+                <u who="#AW" xml:id="AW397" synch="#TS794">
+                    <anchor xml:id="arm-577" synch="#TT577"/>durante <del type="truncation">ll</del> il<anchor xml:id="arm-578" synch="#TT578"/> trasferimento a piedi avvennero delle fughe<pause/> perché una la so c'era <dfel type="repetition">un</del><pause/> un grosso <distinct type="technical">cilindro di cemento</distinct><pause/> che serviva per canalizzazione<pause/> e mentre camminavamo un prigioniero <emph>greco</emph><pause/> si nascose dentro questo cilindro nessuno osservò la scena<pause/> io la vidi ma <del type="repetition">non più</del> non più di tanto<pause/> e quello <emph>probabilmente</emph> non lo so<pause/> si salvò
+                </u>
+                <!--34:32-->
             </div>
 
         </body>
 
     </text>
 
-
 </TEI>
 
-<!--
-L.P: allora si tratta di una seconda rivolta di Varsavia.
-A.W: la seconda mah naturalmente furono minori (non capiscono bene questa frase).
-L.P: ee che data poteva essere?
-A.W: era ill primi di Agosto dell... 44.
-L.P: ehmh può raccontare come avvenne l'evacuazione dal camp-?
-A.W: Dunque, dal campo fummo evacuati, come ho detto prima, a piedi e facemmo 70 km...fino a...
-L.P: a piedi?
-A.W: a piedi, non in un solo giorno naturalmente, per arrivare fino a Kutno. Kutno è una cittadina polacca, famosa per il fatto che inn quella località si svolse una battaglia fra cavalleria polacca contro carri armati (ridacchia poco) tedeschi e naturalmente i polacchi persero, ehm solo che era strano che la cavalleria contro i carri armati. A Kutno fummo... fatti salire su dei vagoni, ehm, di bestiame eee lentamente ci portarono fino a Dachau in Baviera, vicino a Monaco.
-L.P: avevate sempre i vostri zoccoli?
-A.W: no no, gli zoccoli ce li avevano tolti a a Auschwitz, ci avevano dato scarpe.
-L.P: ah
-A.W: (dice qualcosa prima ma è come se la registrazione fosse stata per un attimo interrotta) di Varsavia... Si, posso raccontare un fattoo: un giorno io e Lillo Della Seta -... non Lillo Della Seta, Lillo... non mi ricordo più - eravamo su una montagnola di mattoni eee dato che eravamo ss- stremati dal lavoro ci addormentammo, improvvisamente fummo svegliati daa due ufficiali della Wehrmacht chee incominciarono a interrogarci e noi naturalmente ebbimo una paura tremenda di venire puniti, questi invece, caso strano, anziché denunciarci ci diedero una scatoletta di carn-. Sono quei singoli casi di...
-L.P: si...
-A.W: comportamento umano.
-L.P: ehm no riguardo alla ehm (si schiarisce la voce) rivolta di cui ha parlato prima...
-A.W: si.
-L.P: quella... mini rivolta, comunque rivolta ci fu, ee erano in generale ebrei quelli che erano a Varsavia?
-A.W: la maggior parte erano ebrei.
-L.P: per la maggior parte ebrei, quindi m'ha detto... olandesi, italiani.
-A.W: uungheresi.
-L.P: ungheresi.
-A.W: belgi, francesi...
-L.P: un po' di tutto?
-A.W: un po' di tutto.
-L.P: in prevalenza Europa occidentale o...?
-A.W: Europa-Occidentale.
-L.P: in prevalenza.
-A.W: in prevalenza. C'erano i greci, quelli di <placeName ref="TEI-ListPlace#Sal">Salonicco</placeName>.
-L.P: allora arrivaste in a Dachau..
-A.W: a Dachau.
-L.P: ... più o meno in quanti?
-A.W: neanche la metà dei 6000 che uscimmo.
-L.P: foste fa- foste falcidiati dalle SS oppure dalle condizioni della marcia?
-A.W: anche... le condizioni della marcia, falcidiate dalle(dalle?) SS eee mentre marciavamo, chi rimaneva indietro, chi non ce la faceva più, veniva subito colpito alla nuca. Arrivammo a a un fiume e avevamo tutti sete, ci lasciarono andarci ad abbeverare nel fiume, uno prigioniero ungherese fuoriuscì un po' da ehm dalla vista dell dell'SS ee loro lo colpirono con una fucilata ee l'acqua naturalmente si... riempì di sangue e noi avemmo tanta sete che fummo costretti persino a bere quell'acqua insanguinata.
-L.P: ci furonoo delle fughe durante laa (non si capisce l'ultima parola)?
-A.W: durante il trasferimento aa piedi avvennero delle fughe, perché una la(lo?) so, c'era unn un grosso cilindro di cemento che serviva per canalizzazione e mentre camminavamo un prigioniero, greco, si nascose dentro questo cilindro. Nessuno osservò la scena, io la vidi ma non più ehm non più di tanto, e quello probabilmente, non lo so, si salvò.
+<!-- 
 L.P: ma ehm avevate sempre un ehm una specie di divisa, o de- dei vestiti con le strisce oppure a questo punto...?
 A.W: eravamo sempre zebrati.
 L.P: ah sempre zebrati.

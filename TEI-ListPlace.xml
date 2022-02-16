@@ -184,6 +184,25 @@
                         <placeName ref="https://www.geonames.org/2950159 https://www.treccani.it/enciclopedia/berlino/">Berlino</placeName>
                         <country key="DE">Germania</country>
                     </place>
+
+                    <place xml:id="Feldafing"><!--no informazioni su treccani.it-->
+                        <placeName ref="https://www.geonames.org/2927464 https://en.wikipedia.org/wiki/Feldafing">Feldafing</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
+
+                    <place xml:id="Munich">
+                        <placeName ref="https://www.geonames.org/2867714 https://www.treccani.it/enciclopedia/monaco-di-baviera/">Monaco di Baviera</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
+
+                    <place xml:id="Kutno"><!--no informazioni su treccani.it-->
+                        <placeName ref="https://www.geonames.org/3094170 https://it.wikipedia.org/wiki/Kutno">Kutno</placeName>
+                        <country key="PL">Polonia</country>
+                    </place>
+
+                    <place xml:id="EU">
+                        <placeName ref="https://www.geonames.org/6255148 https://www.treccani.it/enciclopedia/europa/">Europa</placeName>
+                    </place>
                 </listPlace>
             
             </sourceDesc>
