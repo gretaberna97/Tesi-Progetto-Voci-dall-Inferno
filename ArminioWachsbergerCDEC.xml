@@ -259,57 +259,57 @@
 
 
         <!--Timeline body momenti di sovrapposizione dei due parlanti (e le interruzioni)-->
-        <timeline xml:id="TL2" unit="s"> 
+        <timeline xml:id="TL2I" unit="s"> 
             <!--parte I-->
-            <when xml:id="TT01" absolute="00:00:01:27" synch="#lpf-1"/> <!--synch punta all'id dell'ancora-->
+            <when xml:id="TT01" absolute="00:01:27" synch="#lpf-1"/> <!--synch punta all'id dell'ancora-->
             <when xml:id="TT02" since="#TT01" interval="1"/>
 
-            <when xml:id="TT03" absolute="00:00:02:14" synch="#lpf-3"/> 
+            <when xml:id="TT03" absolute="00:02:14" synch="#lpf-3"/> 
             <when xml:id="TT04" since="#TT03" interval="1"/>
 
-            <when xml:id="TT05" absolute="00:00:02:30" synch="#lpf-5"/> 
+            <when xml:id="TT05" absolute="00:02:30" synch="#lpf-5"/> 
             <when xml:id="TT06" since="#TT05" interval="1"/>
 
-            <when xml:id="TT07" absolute="00:00:02:34" synch="#lpf-7"/> 
+            <when xml:id="TT07" absolute="00:02:34" synch="#lpf-7"/> 
             <when xml:id="TT08" since="#TT07" interval="2"/>
 
-            <when xml:id="TT09" absolute="00:00:03:17" synch="#lpf-9"/> 
+            <when xml:id="TT09" absolute="00:03:17" synch="#lpf-9"/> 
             <when xml:id="TT10" since="#TT09" interval="1"/>
 
-            <when xml:id="TT11" absolute="00:00:03:20" synch="#arm-9"/> 
+            <when xml:id="TT11" absolute="00:03:20" synch="#arm-9"/> 
             <when xml:id="TT12" since="#TT11" interval="1"/>
 
-            <when xml:id="TT13" absolute="00:00:04:22" synch="#lpf-13"/> 
+            <when xml:id="TT13" absolute="00:04:22" synch="#lpf-13"/> 
             <when xml:id="TT14" since="#TT13" interval="1"/>
 
-            <when xml:id="TT15" absolute="00:00:04:47" synch="#lpf-15"/> 
+            <when xml:id="TT15" absolute="00:04:47" synch="#lpf-15"/> 
             <when xml:id="TT16" since="#TT15" interval="1"/>
 
-            <when xml:id="TT17" absolute="00:00:05:11" synch="#lpf-17"/> 
+            <when xml:id="TT17" absolute="00:05:11" synch="#lpf-17"/> 
             <when xml:id="TT18" since="#TT17" interval="1"/>
 
-            <when xml:id="TT19" absolute="00:00:06:21" synch="#lpf-19"/> 
+            <when xml:id="TT19" absolute="00:06:21" synch="#lpf-19"/> 
             <when xml:id="TT20" since="#TT19" interval="1"/>
 
-            <when xml:id="TT21" absolute="00:00:06:22" synch="#lpf-21"/> 
+            <when xml:id="TT21" absolute="00:06:22" synch="#lpf-21"/> 
             <when xml:id="TT22" since="#TT21" interval="1"/>
 
-            <when xml:id="TT23" absolute="00:00:06:23" synch="#arm-23"/> 
+            <when xml:id="TT23" absolute="00:06:23" synch="#arm-23"/> 
             <when xml:id="TT24" since="#TT23" interval="1"/> 
 
-            <when xml:id="TT25" absolute="00:00:06:30" synch="#lpf-25"/> 
+            <when xml:id="TT25" absolute="00:06:30" synch="#lpf-25"/> 
             <when xml:id="TT26" since="#TT25" interval="1"/>
 
-            <when xml:id="TT27" absolute="00:00:08:07" synch="#lpf-27"/> 
+            <when xml:id="TT27" absolute="00:08:07" synch="#lpf-27"/> 
             <when xml:id="TT28" since="#TT27" interval="2"/>
 
-            <when xml:id="TT29" absolute="00:00:08:43" synch="#lpf-29"/> 
+            <when xml:id="TT29" absolute="00:08:43" synch="#lpf-29"/> 
             <when xml:id="TT30" since="#TT29" interval="2"/>
 
-            <when xml:id="TT31" absolute="00:00:09:02" synch="#lpf-31"/> 
+            <when xml:id="TT31" absolute="00:09:02" synch="#lpf-31"/> 
             <when xml:id="TT32" since="#TT31" interval="1"/>
 
-            <when xml:id="TT33" absolute="00:00:09:12" synch="#lpf-33"/> 
+            <when xml:id="TT33" absolute="00:09:12" synch="#lpf-33"/> 
             <when xml:id="TT34" since="#TT33" interval="1"/>
 
             <when xml:id="TT35" absolute="00:10:56" synch="#lpf-35"/> 
@@ -954,7 +954,10 @@
             <when xml:id="TT461" absolute="01:34:38" synch="#lpf-461"/> 
             <when xml:id="TT462" since="#TT461" interval="1"/>
 
-            <!--parte II-->
+        </timeline>
+        
+        <timeline xml:id="TL2II" unit="s"> 
+        <!--parte II-->
             <when xml:id="TT463" absolute="00:12" synch="#lpf-463"/> 
             <when xml:id="TT464" since="#TT463" interval="1"/>
 
@@ -1185,14 +1188,14 @@
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
-        <timeline xml:id="TL3" unit="s">                
+        <timeline xml:id="TL3I" unit="s">                
             <!--parte I-->
             <when xml:id="TS01" synch="#LPF1" absolute="00:00:00"/>
-            <when xml:id="TS02" synch="#AW1" absolute="00:22"/>
-            <when xml:id="TS03" synch="#LPF2" absolute="00:41"/>
-            <when xml:id="TS04" synch="#AW2" absolute="00:43"/>
-            <when xml:id="TS05" synch="#LPF3" absolute="00:45"/>
-            <when xml:id="TS06" synch="#AW3" absolute="00:48"/>
+            <when xml:id="TS02" synch="#AW1" absolute="00:00:22"/>
+            <when xml:id="TS03" synch="#LPF2" absolute="00:00:41"/>
+            <when xml:id="TS04" synch="#AW2" absolute="00:00:43"/>
+            <when xml:id="TS05" synch="#LPF3" absolute="00:00:45"/>
+            <when xml:id="TS06" synch="#AW3" absolute="00:00:48"/>
             <when xml:id="TS07" synch="#LPF4" absolute="00:00:51"/>
             <when xml:id="TS08" synch="#AW4" absolute="00:00:55"/>
             <when xml:id="TS09" synch="#LPF5" absolute="00:00:55"/>
@@ -1805,6 +1808,9 @@
             <when xml:id="TS616" synch="#AW307" absolute="01:34:14"/>
             <when xml:id="TS617" synch="#LPF308" absolute="01:34:36"/>
             <when xml:id="TS618" synch="#AW308" absolute="01:34:38"/>
+        </timeline>
+
+        <timeline xml:id="TL3II" unit="s">      
             <!--parteII-->
             <when xml:id="TS619" synch="#LPF309" absolute="00:00:00"/>
             <when xml:id="TS620" synch="#AW309" absolute="00:00:01"/>
