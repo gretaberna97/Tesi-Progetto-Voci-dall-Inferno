@@ -203,6 +203,16 @@
                     <place xml:id="EU">
                         <placeName ref="https://www.geonames.org/6255148 https://www.treccani.it/enciclopedia/europa/">Europa</placeName>
                     </place>
+
+                    <place xml:id="Muhldorf"><!--no informazioni su treccani.it-->
+                        <placeName ref="https://www.geonames.org/2868506 https://it.wikipedia.org/wiki/Mühldorf_am_Inn">Mühldorf am Inn</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
+
+                    <place xml:id="Torino">
+                        <placeName ref="https://www.geonames.org/3165524 https://www.treccani.it/enciclopedia/torino/">Torino</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
                 </listPlace>
             
             </sourceDesc>

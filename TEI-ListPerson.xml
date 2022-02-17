@@ -1070,6 +1070,35 @@
 
                         </person>
 
+                        <!--Trieste Vitta Zelman in Belfiore-->
+                        <person xml:id="TriesteB"> 
+    
+                                <persName>
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-8236/vitta-zelman-trieste.html?persone=%22Vitta+Zelman%2C+Trieste%22"/>
+                                    <foreName>Trieste</foreName>
+                                    <surname type="combine">Vitta Zelman</surname>
+                                    <surname type="married">Belfiore</surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1902-09-03" cert="high">3 Settembre 1902</date>
+                                    <placeName ref="TEI-ListPlace#Milano">
+                                        <settlement type="municipality">Milano</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" cert="" notBefore="1945-06-23"></date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </death>
+
+                        </person>
                         <!-- Lista delle relazioni -->
                         <listRelation>
                             <relation name="spouse" mutual="#DavideW #MiriamG"/>
@@ -1093,9 +1122,10 @@
                             <relation name="oppressor" active="#Mengele #Hoss" passive="#AW"/>
                             <relation name="deportee-Auschwitz" mutual="#AW #NathanG #GiancarloDS #LeonelloDS"/>
                             <relation name="parent" active="#LeonelloDS" passive="#GiancarloDS"/>
-                            <relation name="survivor" mutual="#AW #SettimiaS #LelloDS #IsaccoS"/>
+                            <relation name="survivor" mutual="#AW #SettimiaS #LelloDS #IsaccoS #TriesteB"/>
                             <relation name="writer" active="#RudolfV" mutual="#AW"/>
                             <relation name="deportee-Varsavia" mutual="#AW #IsaacSS #MarioDV #LelloDS #IsaccoS"/>
+                            <relation name="deportee-Muldhorf" mutual="#AW #LelloDS #IsaccoS #TriesteB"/>
 					</listRelation>
                 </listPerson>
             
