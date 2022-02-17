@@ -213,6 +213,11 @@
                         <placeName ref="https://www.geonames.org/3165524 https://www.treccani.it/enciclopedia/torino/">Torino</placeName>
                         <country key="IT">Italia</country>
                     </place>
+
+                    <place xml:id="Zangberg"><!--no informazioni su treccani.it-->
+                        <placeName ref="https://www.geonames.org/2805261 https://it.wikipedia.org/wiki/Zangberg">Zangberg</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
                 </listPlace>
             
             </sourceDesc>

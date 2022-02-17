@@ -1151,7 +1151,7 @@
             <when xml:id="TT592" since="#TT591" interval="1"/>
 
             <when xml:id="TT593" absolute="00:40:24" synch="#lpf-593"/> 
-            <when xml:id="TT594" since="#TT594" interval="1"/>
+            <when xml:id="TT594" since="#TT593" interval="1"/>
 
             <when xml:id="TT595" absolute="00:41:04" synch="#lpf-595"/> 
             <when xml:id="TT596" since="#TT595" interval="1"/>
@@ -1161,6 +1161,27 @@
 
             <when xml:id="TT599" absolute="00:42:31" synch="#lpf-599"/> 
             <when xml:id="TT600" since="#TT599" interval="1"/>
+
+            <when xml:id="TT601" absolute="00:42:32" synch="#arm-601"/> 
+            <when xml:id="TT602" since="#TT601" interval="1"/>
+
+            <when xml:id="TT603" absolute="00:44:38" synch="#arm-603"/> 
+            <when xml:id="TT604" since="#TT603" interval="1"/>
+
+            <when xml:id="TT605" absolute="00:44:49" synch="#lpf-605"/> 
+            <when xml:id="TT606" since="#TT605" interval="1"/>
+
+            <when xml:id="TT607" absolute="00:45:05" synch="#lpf-607"/> 
+            <when xml:id="TT608" since="#TT607" interval="1"/>
+
+            <when xml:id="TT609" absolute="00:45:18" synch="#lpf-609"/> 
+            <when xml:id="TT610" since="#TT609" interval="5"/>
+
+            <when xml:id="TT611" absolute="00:45:26" synch="#lpf-611"/> 
+            <when xml:id="TT612" since="#TT611" interval="1"/>
+
+            <when xml:id="TT613" absolute="00:45:29" synch="#arm-613"/> 
+            <when xml:id="TT614" since="#TT613" interval="2"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -1997,12 +2018,21 @@
             <when xml:id="TS828" synch="#AW414" absolute="00:42:14"/>
             <when xml:id="TS829" synch="#LPF415" absolute="00:42:27"/>
             <when xml:id="TS830" synch="#AW415" absolute="00:42:31"/>
-            <!---->
-            <when xml:id="TS831" synch="#LPF406" absolute="00:35:47"/>
-            <when xml:id="TS832" synch="#AW406" absolute="00:35:50"/>
-            <when xml:id="TS833" synch="#LPF407" absolute="00:35:50"/>
-            <when xml:id="TS834" synch="#AW407" absolute="00:35:52"/>
-            <when xml:id="TS835" synch="#LPF403" absolute="00:35:30"/>
+            <when xml:id="TS831" synch="#LPF416" absolute="00:44:31"/>
+            <when xml:id="TS832" synch="#AW416" absolute="00:44:34"/>
+            <when xml:id="TS833" synch="#LPF417" absolute="00:44:45"/>
+            <when xml:id="TS834" synch="#AW417" absolute="00:44:47"/>
+            <when xml:id="TS835" synch="#LPF418" absolute="00:44:48"/>
+            <when xml:id="TS836" synch="#AW418" absolute="00:44:49"/>
+            <when xml:id="TS837" synch="#LPF419" absolute="00:45:00"/>
+            <when xml:id="TS838" synch="#AW419" absolute="00:45:02"/>
+            <when xml:id="TS839" synch="#LPF420" absolute="00:45:03"/>
+            <when xml:id="TS840" synch="#AW420" absolute="00:45:10"/>
+            <when xml:id="TS841" synch="#LPF421" absolute="00:45:11"/>
+            <when xml:id="TS842" synch="#AW421" absolute="00:45:25"/>
+            <when xml:id="TS843" synch="#LPF422" absolute="00:45:29"/>
+            <when xml:id="TS844" synch="#AW422" absolute="00:45:33"/>
+            <when xml:id="TS845" synch="#LPF423" absolute="00:45:36"/>
         </timeline>
         
     </standOff>
@@ -6017,7 +6047,7 @@
                 <u who="#AW" xml:id="AW407" synch="#TS814"><!--invisibili dagli, fabbrica, aerei-->
                     si e<pause/> a <placeName ref="TEI-ListPlace.xml#Dachau">Dachau</placeName><pause/> fummo <choice><sic>distribuiti a</sic><corr resp="#GB">distribuiti nei</corr></choice> vari campi <unclear reason="inaudible" resp="#GB" cert="low">di cignori</unclear><pause/> uno di questi era a<pause/> <placeName ref="TEI-ListPlace.xml#Muhldorf">Muhldorf</placeName><pause/> un <vocal>mm</vocal> paese vicino a <placeName ref="TEI-ListPlace.xml#Dachau">Dachau</placeName><pause/> <del type="falseStart">venimmo</del><pause/> <del type="reformulation">fummo</del> trasferiti <vocal>eh am</vocal> appunto anche noi tre ebrei italiani a <placeName ref="TEI-ListPlace.xml#Muhldorf">Muhldorf</placeName><pause/> dove rimanemmo<pause/> solo per brevissimo tempo<pause/> in quanto<pause/> <del type="truncation">ss</del><pause/> ci trasferirono immediatamente<pause/> a un nuovo campo vicino<pause/> che si chiamava <placeName type="concentration_camp"><emph>Waldlager</emph><pause/> numero <num>5</num></placeName><pause/> costituito<pause/> da <vocal>mm</vocal> baracche <emph>interrate</emph><pause/> in maniera da <del type="truncation" xml:id="essere0">esser</del> <del type="truncation" xml:id="essere1">e</del><join target="#essere0 #essere1" type="word"></join> invisibili<pause/> dagli aerei<pause/> americani<pause/> e il compito dei prigionieri di <placeName type="concentration_camp">Waldlager</placeName><pause/> era di lavorare<pause/> alla <pause/><unclear reason="inaudible" resp="#GB" cert="low"><placeName type="factory"><foreing xml:lang="de">autbaustelle</foreing></placeName></unclear><pause/> che sarebbe<pause/> la fabbrica <del type="falseStart">di</del> sotterranea<pause/> di <vocal>mm</vocal><pause/> aerei V1 V2 <pause/>e V3 adesso non mi ricordo quanti erano<pause/> anche la fabbrica <choice><sic>veniva appena<pause/> costruita</sic><corr resp="#GB">era stata appena costruita</corr></choice> <pause/>e<pause/> dal<pause/> <placeName type="concentration_camp">Waldlager</placeName> la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time><pause/> tutti<pause/> si <choice><sic>recavano<pause/> a</sic><corr resp="#GB">recavano in</corr></choice> questa <soCalled>fabbrica</soCalled><pause/> che era a circa <measure><num>6</num> <unit>km</unit></measure> di distanza<pause/> a piedi<pause/> io <pause/>teoricamente non avevo più <choice><sic>a che fare</sic><corr resp="#GB">da fare</corr></choice><pause/> da interprete in quanto <emph>non c'erano più italiani</emph><pause/> e mentre il <date when="1944-08-10" resp="#GB">primo giorno</date> stavo già per recarmi<pause/> insieme agli altri alla <pause/><emph>fabbrica sotterranea</emph><pause/> arrivò un gruppo di<pause/> circa 200 <emph>italiani</emph><pause/> non prigionieri<pause/> bensì quelli della<pause/> <orgName>organizzazione Todt</orgName><pause/> che lavoravano in <placeName ref="TEI-ListPlace.xml#DE">Germania</placeName><pause/> che avevano un proprio campo ma un campo <emph>libero</emph> <del type="falseStart">nel qua</del> <del type="reformulation">dal quale</del> potevano assentarsi<pause/> solo che la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> dovevano ritirarsi in questo <del type="truncation">camp</del><pause/> questi italiani<pause/> vennero adibiti<pause/> a vari lavori<pause/> e non <choice><orig>c'avevano</orig><reg resp="#GB">avevano</reg></choice> interprete<pause/> allora la <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> mi <emph>prestò</emph> alla <orgName>organizzazione Todt</orgName> come interprete per questi italiani<pause/> <del type="falseStart">ebbi</del> in questa maniera<pause/> non<pause/> ebbi più<pause/> il compito di recarmi alla fabbrica sotterranea<pause/> mi ricordo<pause/> che<pause/> un giorno <vocal>ehm</vocal> i prigionieri italiani<pause/> si erano recati per dei lavori<pause/> lontani dal nostro campo<pause/> e allora<pause/> fui obbligato <choice><orig>anch'io</orig><reg resp="#GB">anche io</reg></choice> <choice><sic>di recarmi</sic><corr resp="#GB">a recarmi</corr></choice> in fabbrica<pause/> e<pause/> in fabbrica c'erano <emph>italiani</emph><pause/> anche loro provenienti dall'<placeName ref="TEI-ListPlace.xml#IT">Italia</placeName> ma non<pause/> <emph>prigionieri</emph><pause/> <del type="falseStart">e</del> svolgevano lavori un po' più semplici rispetto agli altri<pause/> <vocal>eeehm</vocal><pause/> io avevo una fascia sul braccio sul quale c'era scritto <term ref="#dolmetscher"><foreing xml:lang="de">dolmetscher</foreing></term> che significa <gloss xml:id="dolmetscher">interprete</gloss><pause/> con le bandierine delle lingue che conoscevo<pause/> un giorno <choice><orig>s'avvicinò</orig><reg resp="#GB">si avvicinò</reg></choice><pause/> un ufficiale della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> <vocal>ehm</vocal> mi chiese cosa facessi<pause/> risposi <q type="spoken" who="#AW">faccio l'interprete per il gruppo degli italiani</q><pause/> dice <q type="spoken">fa veder le mani</q><pause/> feci <unclear reason="inaudible" resp="#GB" cert="high">veder</unclear> le mani <pause/>non c'erano <emph>calli</emph> <pause/>dice <q type="spoken">come tu non lavori</q><pause/> dico <q type="spoken" who="#AW">io lavoro <unclear reason="inaudible" resp="#GB" cert="medium"><choice><orig>colla</orig><reg resp="#GB">con la</reg></choice></unclear> bocca</q><pause/> mi prese e mi <emph>spinse</emph><pause/> contro<pause/> il muro e mi disse <q type="spoken">adesso vai a lavorare e <unclear reason="inaudible" resp="#GB" cert="low">a</unclear> portare il cemento come gli altri</q><pause/> così dovetti<pause/> trasportare cemento ogni giorno<pause/> <del type="reformulation">no questo<pause/> avvenne<pause/> per un giorno solo</del><pause/> pensi che quell'ufficiale nel dopo guerra venne arrestato<pause/> e a <placeName ref="TEI-ListPlace.xml#Dachau">Dachau</placeName> quando c'erano i<pause/> processi <pause/>contro<pause/> i tedeschi<pause/> noi eravamo <rs ref="TEI-ListPlace.xml#Dachau" resp="#GB">lì</rs> dei testimoni<pause/> e lui<pause/> si difese come tutti quanti<pause/> dichiarando di essere <del type="falseStart"><emph>obbligato</emph><pause/> e a cioè di e <del type="truncation">er</del></del><pause/> <del type="correction">era stato obbligato</del> a fare quello che fece<pause/> e io <del type="falseStart">gli <del type="truncation">r</del></del> <del type="correction">gli ricordai</del> il mio caso particolare<pause/> naturalmente non aprì più bocca<pause/> ritornando<pause/> su <placeName ref="TEI-ListPlace.xml#Muhldorf">Muhldorf</placeName> e cioè sul <placeName type="concentration_camp">Waldlager</placeName><pause/> <rs ref="TEI-ListPlace.xml#Muhldorf" resp="#GB">lì</rs><pause/> fummo una volta<pause/> <vocal>ehm</vocal> <emph>bombardati</emph> da aerei<pause/> americani <vocal>ehm</vocal> i quali naturalmente non potevano sapere<pause/> che le baracche sottostanti erano <del type="truncation">pu</del> per prigionieri ebrei<pause/> e<pause/> molti di noi purtroppo <emph>perirono</emph>
                 </u>
-                <!--40:08-->
+                
                 <u who="#LPF" xml:id="LPF408" synch="#TS815">
                     ma c'erano<pause/> molti ebrei anche <rs ref="TEI-ListPlace.xml#Muhldorf" resp="#GB">lì</rs>
                 </u>
@@ -6092,11 +6122,89 @@
                 </u>
 
                 <u who="#AW" xml:id="AW415" synch="#TS830">
-                    <anchor xml:id="arm-599" synch="#TT599"/>con il tempo<anchor xml:id="arm-600" synch="#TT600"/> stava peggiorando <unclear reason="inaudible" resp="#GB" cert="low">quanto</unclear><pause/> la guerra<pause/> mi viene in mente adesso il fatto di <persName ref="TEI-ListPerson.xml#IsaccoS">Isacco Sermoneta</persName><pause/> <vocal>ehmm</vocal> accanto al nostro campo c'era un secondo campo femminile<pause/> in questo secondo campo femminile c'era<pause/> una ebrea di <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName> <distinct type="informal">la <persName ref="TEI-ListPerson.xml#TriesteB">Trieste <emph>Belfiore</emph></persName></distinct><pause/> e<pause/> una partigiana<pause/> proveniente da <placeName ref="TEI-ListPlace.xml#Torino">Torino</placeName><pause/> e <emph>non ebrea</emph><pause/><!--42:57--> Eee cercavamo di mantenerci uniti il più possibile<pause/> Una volta Isacco Sermoneta scappò dal campo in quanto s'era procurato abiti civili, ma venne ripreso e riportato nel campo, e durante la notte lo misero in un bunker, cioè sarebbe una cella sotterranea, e la Trieste Belfiore(?) gli portò da mangiare. La mattina dopo, durante l'appello, ill comandante, quello della Wehrmacht, s'avvicinò e disse che avrebbe ammazzato Isacco Sermoneta perché era stato f- perché era fuggito e l'avevano ripreso, ma solo in ricordo di quanto ll'interprete gli aveva raccontato e cioè che Isacco Sermoneta era già a Roma pazzo, via, gli salvava la vita - naturalmente questo non era vero, lo avevo raccontato io solamente per fargli del bene(?). IIsacco Sermoneta fu munito di un disco rosso sulle sspalle perr far capire che era un prigioniero pericoloso perché appunto era fuggito una volt- e lo mandarono a Dachau. Ee Dachau lì incontrò Isacco Sermoneta incontrò - se non mi ricordo, personalmente - ee Enzo Sereni, di cui si sa la storia ee ebbe occasione di conoscerlo prima che venisse ucciso.
+                    <anchor xml:id="arm-599" synch="#TT599"/>con il tempo<anchor xml:id="arm-600" synch="#TT600"/> stava peggiorando <anchor xml:id="arm-601" synch="#TT601"/><unclear reason="inaudible" resp="#GB" cert="low">quanto</unclear><anchor xml:id="arm-602" synch="#TT602"/><pause/> la guerra<pause/> mi viene in mente adesso il fatto di <persName ref="TEI-ListPerson.xml#IsaccoS">Isacco Sermoneta</persName><pause/> <vocal>ehmm</vocal> accanto al nostro campo c'era un secondo campo femminile<pause/> in questo secondo campo femminile c'era<pause/> una ebrea di <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName> <distinct type="informal">la <persName ref="TEI-ListPerson.xml#TriesteB">Trieste <emph>Belfiore</emph></persName></distinct><pause/> e<pause/> una partigiana<pause/> proveniente da <placeName ref="TEI-ListPlace.xml#Torino">Torino</placeName><pause/> e <emph>non ebrea</emph><pause/> e cercavamo di mantenerci uniti il più possibile<pause/> una volta <persName ref="TEI-ListPerson.xml#IsaccoS">Isacco Sermoneta</persName><pause/> scappò dal campo<pause/> in quanto <choice><orig>s'era</orig><reg resp="#GB">si era</reg></choice> procurato abiti civili<pause/> ma venne ripreso<pause/> e riportato nel campo<pause/> e durante la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> lo misero in un <term ref="#bunker"><foreing xml:lang="de"><emph>bunker</emph></foreing></term><pause/> cioè sarebbe una <gloss xml:id="bunker">cella sotterranea</gloss><pause/> e <distinct type="informal">la <persName ref="TEI-ListPerson.xml#TriesteB">Trieste <emph>Belfiore</emph></persName></distinct> gli portò<pause/> da mangiare<pause/> la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> dopo<pause/> durante l'appello<pause/> il comandante<pause/> quello della <orgName><foreing xml:lang="de">Wehrmacht</foreing></orgName><pause/> <choice><orig>s'avvicinò</orig><reg resp="#GB">si avvicinò</reg></choice><pause/> e disse<pause/> che avrebbe ammazzato <persName ref="TEI-ListPerson.xml#IsaccoS">Isacco Sermoneta</persName> <del type="falseStart">perché era stato<pause/> <unclear reason="inaudible" resp="#GB" cert="medium"><del type="truncation">fu</del></unclear></del> <del type="reformulation">perché era fuggito</del> e l'avevano ripreso<pause/> ma solo in ricordo di quanto <del type="falseStart">il</del><pause/> <del type="correction">l'</del>interprete gli aveva raccontato e cioè<pause/> che <persName ref="TEI-ListPerson.xml#IsaccoS">Isacco Sermoneta</persName> era già a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> pazzo<pause/> via gli salvava la vita<pause/> naturalmente questo non era vero lo avevo raccontato io solamente per<pause/> fargli<pause/> del <emph>bene</emph><pause/> <persName ref="TEI-ListPerson.xml#IsaccoS">Isacco Sermoneta</persName> fu munito<pause/> di un <mentioned>disco</mentioned> rosso sulle spalle<pause/> per<pause/> far capire che era un prigioniero pericoloso perché appunto era fuggito una volta<pause/> e lo mandarono<pause/> a <placeName ref="TEI-ListPlace.xml#Dachau">Dachau</placeName><pause/> ae <del type="falseStart"><placeName ref="TEI-ListPlace.xml#Dachau">Dachau</placeName> lì <vocal>mm</vocal> incontrò</del> <del type="reformulation"><persName ref="TEI-ListPerson.xml#IsaccoS">Isacco Sermoneta</persName> incontrò</del> se non mi ricordo<pause/> personalmente<pause/> <vocal>ehm</vocal> <persName ref="TEI-ListPerson.xml#EnzoS">Enzo Sereni</persName><pause/> di cui si sa la storia <pause/>e ebbe occasione di conoscerlo<pause/> prima che venisse ucciso
                 </u>
 
                 <u who="#LPF">
-                    <gap reason="inaudible" resp="#GB" atLeast="1 word" atMost="2 words"/>
+                    <anchor xml:id="lpf-601" synch="#TT601"/><gap reason="inaudible" resp="#GB" atLeast="1 word" atMost="2 words"/><anchor xml:id="lpf-602" synch="#TT602"/>
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF416" synch="#TS831">
+                    e come fu ucciso <persName ref="TEI-ListPerson.xml#EnzoS">Enzo Sereni</persName>
+                </u>
+
+                <u who="#AW" xml:id="AW416" synch="#TS832">
+                    <persName ref="TEI-ListPerson.xml#EnzoS">Enzo Sereni</persName> <del type="repeititon">era stato</del> <vocal>mm ehm</vocal><pause/> era stato<pause/> paracadutato in <anchor xml:id="arm-603" synch="#TT603"/><placeName ref="TEI-ListPlace.xml#IT">Italia</placeName><pause/> venne preso<anchor xml:id="arm-604" synch="#TT604"/> a <placeName ref="TEI-ListPlace.xml#Dachau">Dachau</placeName> <del type="falseStart">non <del type="truncation">c</del></del> <del type="reformulation">non riuscì</del> a fuggire<pause/> era <persName ref="TEI-ListPerson.xml#IsaccoS">Isacco Sermoneta</persName> che era fuggito dal <placeName type="concentration_camp">Waldlager</placeName>
+                </u>
+
+                <u who="#LPF">
+                    <anchor xml:id="lpf-603" synch="#TT603"/>si lo so ma a <placeName ref="TEI-ListPlace.xml#Dachau">Dachau</placeName><anchor xml:id="lpf-604" synch="#TT604"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF417" synch="#TS833">
+                    si ma a <placeName ref="TEI-ListPlace.xml#Dachau">Dachau</placeName> lei sa come fu
+                </u>
+
+                <u who="#AW" xml:id="AW417" synch="#TS834">
+                    <del type="falseStart">non fu</del> <del type="reformulation">non fuggì</del><pause/> venne
+                </u>
+
+                <u who="#LPF" xml:id="LPF418" synch="#TS835">
+                    no come fu ucciso a <anchor xml:id="lpf-605" synch="#TT605"/><placeName ref="TEI-ListPlace.xml#Dachau">Dachau</placeName><anchor xml:id="lpf-606" synch="#TT606"/>
+                </u>
+
+                <u who="#AW" xml:id="AW418" synch="#TS836">
+                    <anchor xml:id="arm-605" synch="#TT605"/><vocal>ah</vocal> come fu<anchor xml:id="arm-606" synch="#TT606"/> ucciso a <placeName ref="TEI-ListPlace.xml#Dachau">Dachau</placeName> non lo so<pause/> probabilmente <vocal>ehm</vocal><pause/> con un colpo alla nuca<pause/> a <del type="truncation">da</del> <placeName ref="TEI-ListPlace.xml#Dachau">Dachau</placeName> <del type="falseStart">c'era</del> <del type="reformulation">non c'eran</del> <unclear reason="inaudible" resp="#GB" cert="medium">le</unclear> camera a gas a <placeName ref="TEI-ListPlace.xml#Dachau">Dachau</placeName> c'era<pause/> solo il crematorio
+                </u>
+
+                <u who="#LPF" xml:id="LPF419" synch="#TS837">
+                    <gap reason="inaudible" resp="#GB" extent="1 word"/> colpo alla nuca punitivo
+                </u>
+
+                <u who="#AW" xml:id="AW419" synch="#TS838">
+                    <unclear reason="inaudible" resp="#GB" cert="high">punitivo</unclear> si
+                </u>
+
+                <u who="#LPF" xml:id="LPF420" synch="#TS839">
+                    <del type="falseStart">non <vocal>nn</vocal></del> <del type="reformulation">diciamo<pause/> non per selezione all'<anchor xml:id="lpf-607" synch="#TT607"/>arrivo<anchor xml:id="lpf-608" synch="#TT608"/></del><pause/><vocal><desc>sospira</desc></vocal> voi avevate sempre <vocal>ehm</vocal> la vostra <mentioned>stella</mentioned> gialla o no
+                </u>
+
+                <u who="#AW">
+                    <anchor xml:id="arm-607" synch="#TT607"/>no<anchor xml:id="arm-608" synch="#TT608"/>
+                </u>
+
+                <u who="#AW" xml:id="AW420" synch="#TS840">
+                    sempre
+                </u>
+
+                <u who="#LPF" xml:id="LPF421" synch="#TS841">
+                    sempre<pause/> e<pause/> però <vocal>ehm</vocal> ormai diciamo che il panorama era per la maggioranza<pause/> senza <mentioned>stelle</mentioned> gialle<pause/> o ce ne <anchor xml:id="lpf-609" synch="#TT609"/>erano ancora <del type="truncation">tant</del><pause/> si appunto voglio dire nel complesso<anchor xml:id="lpf-610" synch="#TT610"/> <del type="truncation"><del type="repetition">de</del> de</del> del nuovo campo<anchor xml:id="lpf-611" synch="#TT611"/><pause/> c'erano<anchor xml:id="lpf-612" synch="#TT612"/>
+                </u>
+
+                <u who="#AW">
+                    <anchor xml:id="arm-609" synch="#TT609"/>gli altri portavano solo il <mentioned>triangolo</mentioned><pause/> rosso o<pause/> o rosa<anchor xml:id="arm-610" synch="#TT610"/>
+                </u>
+
+                <u who="#AW" xml:id="AW421" synch="#TS842">
+                    <anchor xml:id="arm-611" synch="#TT611"/>si<pause/> <del type="repetition">rimaneva invariata</del><anchor xml:id="arm-612" synch="#TT612"/> rimaneva invariata<pause/> <del type="repetition">la</del> la segnalazione<anchor xml:id="arm-613" synch="#TT613"/><pause/> se si era ebreo o non ebreo<anchor xml:id="arm-614" synch="#TT614"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF422" synch="#TS843">
+                    <anchor xml:id="lpf-613" synch="#TT613"/>si<pause/> ma c'eran in maggioranza<anchor xml:id="lpf-614" synch="#TT614"/> gli altri direi no
+                </u>
+
+                <u who="#AW" xml:id="AW422" synch="#TS844">
+                    no eravamo<pause/> purtroppo sempre dappertutto in maggioranza ebrei
+                </u>
+
+                <u who="#LPF" xml:id="LPF423" synch="#TS845">
+                    <vocal>ah</vocal> <pause/>quanto rimaneste <rs ref="TEI-ListPlace.xml#Muhldorf" resp="#GB">lì</rs>
+                </u>
+
+                <u who="#AW" xml:id="AW423" synch="#TS846">
+                    nel <placeName type="concentration_camp">Waldlager</placeName> rimanemmo fino<pause/> <date notAfter="1945-04">all'aprile del 45</date><pause/> e<pause/> una volta<pause/> la <place type="station">stazione <del type="repetition">di</del><pause/> di <placeName ref="TEI-ListPlace.xml#Muhldorf">Muhldorf</placeName></place> venne bombardata<pause/> e<pause/> a noi diedero l'incarico di<pause/> <choice><sic>ricuperare</sic><corr resp="#GB">recuperare</corr></choice> tutto ciò che era possibile<pause/> e il nostro gruppo <pause/>aveva<pause/> trovato dello zucchero<pause/> ci riempimmo <pause/>le tasche<pause/> di zucchero<pause/> e anche nei pantaloni<pause/> chiudendoli nel basso<pause/> in maniera<pause/> che non sfuggisse<pause/> lo zucchero<pause/> e con questo<pause/> tornammo nel campo<pause/> i primi passarono<pause/> perché non si accorsero le <distinct type="technical">sentinelle</distinct><pause/> in seguito le <distinct type="technical">sentinelle</distinct> si accorsero che i prigionieri trasportavano zucchero<pause/> incominciarono a <vocal>mm</vocal><pause/> metterli in disparte<pause/> per poi punirli<pause/> quelli successivi <pause/>aprirono<pause/> i <choice><sic>calzori</sic><corr resp="#GB">calzoni</corr></choice><pause/> <unclear reason="inaudible" resp="#GB" cert="high">e</unclear> cosicché lo zucchero <emph>fuoriuscì</emph> e<pause/> fece una strada di zucchero <pause/>davanti al <del type="truncation">camp</del><pause/> io <del type="falseStart">a</del> <del type="reformulation">in</del> qualità di interprete ero riuscito a passare<pause/> e con quello zucchero<pause/> feci un gesto<pause/> interessante<pause/> perché una parte del campo<pause/> venne<pause/> destinata ad un lavoro in un <place type="castle"><emph>castello</emph> si chiamava <pause/><placeName ref="TEI-ListPlace.xml#Zangberg">Zangberg</placeName></place><pause/> in questo castello<pause/><vocal><desc>deglutisce</desc></vocal> avevano messo delle croci rosse sul tetto come per dire che fosse<pause/> un'ospedale<pause/> viceversa era un'officina meccanica<pause/> per costruire armi<pause/> e a noi ci portarono a svolgere diverse attività di lavoro<pause/> siccome<pause/> <del type="truncation">s</del> una <distinct type="informal">vecchia</distinct> leggenda raccontava<pause/> che in quel castello<pause/> avevano nascosto dei tesori<pause/> cosicché la<pause/> <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> prese un gruppo di<pause/> prigionieri<pause/> per<pause/> scavare<pause/> sotto le mura<pause/> alla ricerca<pause/> di questo tesoro<!--47:44--> Ora, il cunicolo era stretto, e più di 10 persone per volta non potevano neanche entrare, solo che ill sottufficiale della... organizzazione Todt - che era in divisa della organizzazione, non della SS - ne chiese 20 (frase in tedesco), cioè disse "ho bisogno di 20 prigionieri", e 10 lavoravano e gli altri 10 stavano fuori seduti e dopo mezz'ora davamo ehm il cambio. E improvvisamente una mattina capitò ill comando Fuher, cioè quelli dell della SS che controllavano il lavoro anche della organizzazione Todt, e vide dodic- 10 prigionieri seduti senza muoversi. Chiese a quello della organizzazione Todt "come mai? Cos'era successo..." E lui rispose "io... più di 10 non riescono ad entrare nel campo"... l'ufficiale della SS gli disse "va bene, potevate prenderne solo 10, perché ne avete presi 20?" "Perché", dice, "in questa maniera sarebbero morti dopo...una settimana perciò (balbetta) intercalando(li) una parte prima, una parte dopo, sarebbero sopravvissuti". Questo ufficiale cominciò a gridare controoo quello della organizzazione (se lo mangia) Todt dicendogli che l'avrebbe mandato al tribunale del popolo se fosse successo ancora una volta. Il giorno dopo lui richiese 10 anziché 20 prigionieri però da un suo collega che ne aveva 100 si fece prestare 10 prigionieri, cioè... continuammo a rimanere 10 fuori e 10 dentro ehm e mettemmo delle sentinelle per vedere se si avvina qualche(quello?) ufficiale della SS o meno. Eee in questa maniera si salvarono tutti e 20. Nel dopo guerra avevo l'indirizzo di questo della SS ee...
                 </u>
             </div>
             
@@ -6107,28 +6215,6 @@
 </TEI>
 
 <!-- 
-L.P: e come fu ucciso Enzo Sereni?
-A.W: Enzo Sereni era stato ehm (balbetta) era statoo paracadutato in Italia...
-L.P: si, lo so, ma da Dacha-?? (Non si capisce)
-A.W: venne preso.. a Dachau... non riuscì a fuggire, era Isacco Sermoneta che era fuggito dal Waldlager.
-L.P: si ma a Dachau lei sa come fuu...
-A.W: non fu- fuggì, venne...
-L.P: no, come fu ucciso a Dachau...
-A.W: ah come fu ucciso a Dachau, non lo so, probabilmente ehm con un colpo alla nuca. A Dachau c'era (balbetta) non c'eran le(?) camera a gas, a Dachau c'era solo il crematorio.
-L.P: (non si capisce) colpo alla nuca punitivo?
-A.W: punitivo si.
-L.P: non diciamo... non per selezione all'arrivo?
-A.W: no.
-L.P: voi avevate sempre la vostra stella gialla o no?
-A.W: sempre.
-L.P: sempre. Eee però ormai diciamo che il panorama era per la maggioranza senza stelle gialle? O ce ne erano ancora tant-?
-A.W: gli altri portavano solo il triangolo... rosso... o o ros-(?).
-L.P: si appunto, voglio dire nel complesso de de del nuovo campo c'erano...
-A.W: si, rimaneva invariata... rimaneva invariata la la segnalazione se si era ebreo... (non si capisce perché si sovrappongono molto)
-L.P: si, ma c'eran (qui si capisce poco) in maggioranza gli altri direi no?
-A.W: no, eravamo... purtroppo sempre dappertutto in maggioranza ebrei.
-L.P: ah. Quanto rimaneste lì?
-A.W: nell Waldlager rimanemmo fino allll'aprile del 45. Eee... una volta, la stazione di Muhldorf venne bombardata eee a noi diedero l'incarico di ricuperare tutto ciò che era possibile eee il nostro gruppo... aveva... trovato dello zucchero. Ci riempimmo le tasche di zucchero e anche nei pantaloni chiudendoli nel basso in maniera che non sfuggisse lo zucchero. E con questo... tornammo nel campo. I primi passarono perché non si accorsero le sentinelle, in seguito le sentinelle si accorsero che i prigionieri trasportavano zucchero, incominciarono aaa metterli in disparte per poi punirli. Quelli successivi aprirono i calzori(?) (e) cosicché lo zucchero fuoriuscì e fece una... sstrada di zucchero davanti al camp-. Io, iin qualità di interprete, ero riuscito a passare, e con quello zucchero feci un gesto interessante perché una parte del campo venne... destinata ad un lavoro in un castello - si chiamava Sandberg(?) -. In questo castello avevano messo delle croci rosse sul tetto come per dire che fosse un'ospedale, viceversa era un'officina meccanica perr costruire armi ee a noi ci portarono a svolgere diverse attività di lavoro. Siccome s- una vecchia leggenda raccontava che in quell castello avevano nascosto dei tesori cosicché la... SS prese un gruppo dii prigionieri per... scavare sotto le mura alla ricerca di questo tesoro. Ora, il cunicolo era stretto, e più di 10 persone per volta non potevano neanche entrare, solo che ill sottufficiale della... organizzazione Todt - che era in divisa della organizzazione, non della SS - ne chiese 20 (frase in tedesco), cioè disse "ho bisogno di 20 prigionieri", e 10 lavoravano e gli altri 10 stavano fuori seduti e dopo mezz'ora davamo ehm il cambio. E improvvisamente una mattina capitò ill comando Fuher, cioè quelli dell della SS che controllavano il lavoro anche della organizzazione Todt, e vide dodic- 10 prigionieri seduti senza muoversi. Chiese a quello della organizzazione Todt "come mai? Cos'era successo..." E lui rispose "io... più di 10 non riescono ad entrare nel campo"... l'ufficiale della SS gli disse "va bene, potevate prenderne solo 10, perché ne avete presi 20?" "Perché", dice, "in questa maniera sarebbero morti dopo...una settimana perciò (balbetta) intercalando(li) una parte prima, una parte dopo, sarebbero sopravvissuti". Questo ufficiale cominciò a gridare controoo quello della organizzazione (se lo mangia) Todt dicendogli che l'avrebbe mandato al tribunale del popolo se fosse successo ancora una volta. Il giorno dopo lui richiese 10 anziché 20 prigionieri però da un suo collega che ne aveva 100 si fece prestare 10 prigionieri, cioè... continuammo a rimanere 10 fuori e 10 dentro ehm e mettemmo delle sentinelle per vedere se si avvina qualche(quello?) ufficiale della SS o meno. Eee in questa maniera si salvarono tutti e 20. Nel dopo guerra avevo l'indirizzo di questo della SS ee...
 L.P: della Todt?
 A.W: della T-... della organizzazione Todt, pardon. Eee mi fece avere dei generi alimentari e vestiario e così avan-.
 L.P: ehm (si rischiara la voce) si ricorda il numero che ebbe a Dachau?
