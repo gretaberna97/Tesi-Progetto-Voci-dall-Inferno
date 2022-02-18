@@ -218,6 +218,21 @@
                         <placeName ref="https://www.geonames.org/2805261 https://it.wikipedia.org/wiki/Zangberg">Zangberg</placeName>
                         <country key="DE">Germania</country>
                     </place>
+
+                    <place xml:id="Stoccanda">
+                        <placeName ref="https://www.geonames.org/2825297 https://www.treccani.it/enciclopedia/stoccarda/">Stoccarda</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
+
+                    <place xml:id="Poing"><!--no informazioni su treccani.it-->
+                        <placeName ref="https://www.geonames.org/6556158 https://it.wikipedia.org/wiki/Poing">Stoccarda</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
+
+                    <place xml:id="Augsburg">
+                        <placeName ref="https://www.geonames.org/2954172 https://www.treccani.it/enciclopedia/augusta/">Augsburg</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
                 </listPlace>
             
             </sourceDesc>

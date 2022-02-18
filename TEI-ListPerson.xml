@@ -1100,7 +1100,7 @@
 
                         </person>
 
-                        <!--EnzoS-->
+                        <!-- Enzo Sereni -->
                         <person xml:id="EnzoS" sameAs="http://viaf.org/viaf/24782324"> 
     
                                 <persName role="attivista">
@@ -1124,6 +1124,36 @@
                                     <placeName ref="TEI-ListPlace#Dachau">
                                         <settlement type="municipality">Dachau</settlement>
                                         <country key="DE">Germania</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!-- Capitano Blasi -->
+                        <person xml:id="CapBlasi"> 
+    
+                                <persName role="vice_comandante_wehrmacht">
+                                    <ref target=""/>
+                                    <foreName>Enzo</foreName>
+                                    <surname>Blasi</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="" cert=""></date>
+                                    <placeName ref="">
+                                    <note resp="#GB">Desumo dalle parole di Arminio Wachsberger che fosse tedesco</note>
+                                        <settlement type=""></settlement>
+                                        <country key="DE">Germania</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" cert=""></date>
+                                    <placeName ref="">
+                                        <settlement type="municipality"></settlement>
+                                        <country key=""></country>
                                     </placeName>
                                 </death>
 
