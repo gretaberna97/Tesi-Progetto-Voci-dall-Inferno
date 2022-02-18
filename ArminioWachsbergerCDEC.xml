@@ -1197,6 +1197,24 @@
 
             <when xml:id="TT621" absolute="00:58:10" synch="#lpf-621"/> 
             <when xml:id="TT622" since="#TT621" interval="2"/>
+
+            <when xml:id="TT623" absolute="01:01:45" synch="#arm-623"/> 
+            <when xml:id="TT624" since="#TT623" interval="1"/>
+
+            <when xml:id="TT625" absolute="01:03:22" synch="#arm-625"/> 
+            <when xml:id="TT626" since="#TT625" interval="1"/>
+
+            <when xml:id="TT627" absolute="01:06:03" synch="#lpf-627"/> 
+            <when xml:id="TT628" since="#TT627" interval="5"/>
+
+            <when xml:id="TT629" absolute="01:06:24" synch="#arm-629"/> 
+            <when xml:id="TT630" since="#TT629" interval="1"/>
+
+            <when xml:id="TT631" absolute="01:06:28" synch="#arm-631"/> 
+            <when xml:id="TT632" since="#TT631" interval="1"/>
+
+            <when xml:id="TT633" absolute="01:06:31" synch="#arm-633"/> 
+            <when xml:id="TT634" since="#TT633" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -2072,6 +2090,28 @@
             <when xml:id="TS864" synch="#AW432" absolute="00:57:35"/>
             <when xml:id="TS865" synch="#LPF433" absolute="00:58:09"/>
             <when xml:id="TS866" synch="#AW433" absolute="00:58:10"/>
+            <when xml:id="TS867" synch="#LPF434" absolute="00:58:58"/>
+            <when xml:id="TS868" synch="#AW434" absolute="00:58:59"/>
+            <when xml:id="TS869" synch="#LPF435" absolute="01:01:44"/>
+            <when xml:id="TS870" synch="#AW435" absolute="01:01:47"/>
+            <when xml:id="TS871" synch="#LPF436" absolute="01:01:51"/>
+            <when xml:id="TS872" synch="#AW436" absolute="01:01:52"/>
+            <when xml:id="TS873" synch="#LPF437" absolute="01:03:35"/>
+            <when xml:id="TS874" synch="#AW437" absolute="01:03:37"/>
+            <when xml:id="TS875" synch="#LPF438" absolute="01:05:28"/>
+            <when xml:id="TS876" synch="#AW438" absolute="01:05:33"/>
+            <when xml:id="TS877" synch="#LPF439" absolute="01:05:55"/>
+            <when xml:id="TS878" synch="#AW439" absolute="01:06:00"/>
+            <when xml:id="TS879" synch="#LPF440" absolute="01:06:17"/>
+            <when xml:id="TS880" synch="#AW440" absolute="01:06:22"/>
+            <when xml:id="TS881" synch="#LPF441" absolute="01:06:26"/>
+            <when xml:id="TS882" synch="#AW441" absolute="01:06:28"/>
+            <when xml:id="TS883" synch="#LPF442" absolute="01:06:31"/>
+            <when xml:id="TS884" synch="#AW442" absolute="01:06:33"/>
+            <when xml:id="TS885" synch="#LPF443" absolute="01:06:49"/>
+            <when xml:id="TS886" synch="#AW443" absolute="01:06:51"/>
+            <when xml:id="TS887" synch="#LPF444" absolute="01:07:13"/>
+            <when xml:id="TS888" synch="#AW444" absolute="01:07:15"/>
         </timeline>
         
     </standOff>
@@ -6327,7 +6367,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW432" synch="#TS864">
-                    tutto il gruppo <del type="repetition">del</del> del <placeName type="concentration_camp">Waldlager</placeName> venne evacuato e tutto i gruppo partì<pause/> giunti a un certo momento<pause/> a una cittadina che si chiama <placeName ref="TEI-ListPlace.xml#Poing">Poing</placeName> strano che mi rimangano ancora in memoria i nomi<pause/> <choice><sic>un certo momento</sic><corr resp="#GB">a un certo momento</corr></choice> il comandante<pause/> che era uno della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> e il vice comandante era il<pause/> capitano <emph><persName ref="TEI-ListPerson.xml#CapBlasi">Blasi</persName></emph><pause/> quello che proveniva<pause/> <del type="repetition">da <vocal>ehm</vocal></del><pause/> da <vocal>ehm</vocal><pause/> <del type="falseStart"><del type="truncation">au</del> Augsberg<del><pause/> <del type="reformulation"><placeName ref="TEI-ListPlace.xml#Augsburg">Augsburg</placeName></del><pause/> da <placeName ref="TEI-ListPlace.xml#Augsburg">Augsburg</placeName> quello che aveva portato con sé le prigioniere ebree
+                    tutto il gruppo <del type="repetition">del</del> del <placeName type="concentration_camp">Waldlager</placeName> venne evacuato e tutto i gruppo partì<pause/> giunti a un certo momento<pause/> a una cittadina che si chiama <placeName ref="TEI-ListPlace.xml#Poing">Poing</placeName> strano che mi rimangano ancora in memoria i nomi<pause/> <choice><sic>un certo momento</sic><corr resp="#GB">a un certo momento</corr></choice> il comandante<pause/> che era uno della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> e il vice comandante era il<pause/> capitano <emph><persName ref="TEI-ListPerson.xml#CapBlasi">Blasi</persName></emph><pause/> quello che proveniva<pause/> <del type="repetition">da <vocal>ehm</vocal></del><pause/> da <vocal>ehm</vocal><pause/> <del type="falseStart"><del type="truncation">au</del> Augsberg</del><pause/> <del type="reformulation"><placeName ref="TEI-ListPlace.xml#Augsburg">Augsburg</placeName></del><pause/> da <placeName ref="TEI-ListPlace.xml#Augsburg">Augsburg</placeName> quello che aveva portato con sé le prigioniere ebree
                 </u>
 
                 <pause/>
@@ -6337,10 +6377,109 @@
                 </u>
 
                 <u who="#AW" xml:id="AW433" synch="#TS866">
-                    <anchor xml:id="arm-621" synch="#TT621"/>era tedesco <unclear reason="inaudible" resp="#GB" cert="low"><del type="repetition">si</del> si</unclear><pause/> per caso ha un nome<anchor xml:id="arm-622" synch="#TT622"/> italiano ma era tedesco<pause/> era della <placeName ref="TEI-ListPlace.xml#BY">Baviera</placeName> quindi in <placeName ref="TEI-ListPlace.xml#BY">Baviera</placeName> ci sono diversi che hanno dei nomi<pause/> <del type="truncation">italia</del> <vocal><desc>tossisce</desc></vocal> italiani<pause/> quando<pause/> <unclear reason="inaudible" resp="#GB" cert="low">a</unclear> un certo momento a <placeName ref="TEI-ListPlace.xml#Poing">Poing</placeName><pause/> fecero aprire<pause/> le porte <del type="falseStart">dei <del type="truncation">ca</del></del> <del type="reformulation">dei carri</del> bestiame<pause/> e ci dissero<pause/> che eravamo liberi<pause/><unclear reason="inaudible" resp="#GB" cert="medium">perché</unclear> la guerra era finita<pause/> <unclear reason="inaudible" resp="#GB" cert="low">il</unclear> la stazione era lontana <measure><num>un</num> <unit>chilometro</unit></measure> circa dal paese<pause/> noi ci incamminammo felici e giulivi<pause/> verso il paese per <choice><sic>ricuperare</sic><corr resp="#GB">recuperare</corr></choice> qualche<pause/> alimento da mangiare<pause/> e c'era con me appunto anche la <persName ref="TEI-ListPerson.xml#TriesteB">Trieste Belfiore</persName><pause/> e <choice><orig>ch'avevamo</orig><reg resp="#GB">perché avevamo</reg></choice> deciso di tornare in <placeName ref="TEI-ListPlace.xml#IT">Italia</placeName> a piedi
+                    <anchor xml:id="arm-621" synch="#TT621"/>era tedesco <unclear reason="inaudible" resp="#GB" cert="low"><del type="repetition">si</del> si</unclear><pause/> per caso ha un nome<anchor xml:id="arm-622" synch="#TT622"/> italiano ma era tedesco<pause/> era della <placeName ref="TEI-ListPlace.xml#BY">Baviera</placeName> quindi in <placeName ref="TEI-ListPlace.xml#BY">Baviera</placeName> ci sono diversi che hanno dei nomi<pause/> <del type="truncation">italia</del> <vocal><desc>tossisce</desc></vocal> italiani<pause/> quando<pause/> <unclear reason="inaudible" resp="#GB" cert="low">a</unclear> un certo momento a <placeName ref="TEI-ListPlace.xml#Poing">Poing</placeName><pause/> fecero aprire<pause/> le porte <del type="falseStart">dei <del type="truncation">ca</del></del> <del type="reformulation">dei carri</del> bestiame<pause/> e ci dissero<pause/> che eravamo liberi<pause/><unclear reason="inaudible" resp="#GB" cert="medium">perché</unclear> la guerra era finita<pause/> <unclear reason="inaudible" resp="#GB" cert="low">il</unclear> la stazione era lontana <measure><num>un</num> <unit>chilometro</unit></measure> circa dal paese<pause/> noi ci incamminammo felici e giulivi<pause/> verso il paese per <choice><sic>ricuperare</sic><corr resp="#GB">recuperare</corr></choice> qualche<pause/> alimento da mangiare<pause/> e c'era con me appunto anche <distinct type="informal">la <persName ref="TEI-ListPerson.xml#TriesteB">Trieste Belfiore</persName></distinct><pause/> e <choice><orig>ch'avevamo</orig><reg resp="#GB">perché avevamo</reg></choice> deciso di tornare in <placeName ref="TEI-ListPlace.xml#IT">Italia</placeName> a piedi
                 </u>
 
-                <!--58:58-->
+                <u who="#LPF" xml:id="LPF434" synch="#TS867">
+                    che data era
+                </u>
+
+                <u who="#AW" xml:id="AW434" synch="#TS868">
+                    era il<pause/> <date when="1945-04-28" resp="#GB">28</date> o <date when="1945-04-29">29 aprile<pause/> 45</date><pause/> quando la guerra stava per terminare<pause/> e mentre camminavamo<pause/> in mezzo ai campi in mezzo alla strada<pause/> improvvisamente sentimmo dei colpi<pause/> <del type="truncation">sparat</del><pause/> ci voltammo e vedemmo le <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> quelle stesse che prima ci avevano dato la libertà<pause/> che sparavano contro di noi e c'erano anche degli <distinct type="technical"><emph>avieri</emph></distinct> di un campo d'<distinct type="technical">aviazione</distinct> vicino<pause/> dove<pause/> il <vocal>ehm</vocal> comandante della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> aveva detto che<pause/> noi prigionieri ci eravamo <del type="truncation">l</del> <vocal>ehm</vocal><pause/> <emph>ribellati</emph> a loro<pause/> i sarti con le forbici <del type="falseStart">gli <del type="truncation">o</del></del><pause/> <vocal>ehm</vocal> i barbieri con i rasoi e cose avanti<pause/> e che loro adesso per punizione<pause/> ci<pause/> stavano<pause/> sterminando<pause/> e<pause/> a un certo momento, arrivammo<pause/> <vocal>beh</vocal> racconto prima il <distinct type="informal">caso mio</distinct> particolare<pause/> si io e <distinct type="informal">la<pause/> <persName ref="TEI-ListPerson.xml#TriesteB">Trieste Belfiore</persName></distinct> ci buttammo per terra come se fossimo già morti<pause/> e passando <choice><sic>uno sottufficiale</sic><corr resp="#GB">un sottufficiale</corr></choice> della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> disse <q type="spoken">ecco<pause/> anche l'interprete non avrà più da <emph>interpretare</emph></q><pause/> perché sembrava che fossi <del type="truncation">mor</del><pause/> poi la sparatoria terminò<pause/> in quanto la popolazione civile <del type="falseStart">del</del> <del type="correction">della</del> cittadina<pause/> <vocal>ehm</vocal> rimase meravigliata di ciò che stava succedendo<pause/> e allora<pause/> ci fecero riunire<pause/> nella piazza<pause/> della cittadina<pause/> e il<pause/> comandante della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> disse al sindaco che eravamo dei banditi <unclear reason="inaudible" resp="#GB" cert="medium">che</unclear> <choice><orig>c'eravamo</orig><reg resp="#GB">ci eravamo</reg></choice> ribellati<pause/> e lo avrebbe dimostrato<pause/> ci fecero mettere in fila<pause/> e lui insieme al sindaco passavano<pause/> e se trovavano qualcuno con una forbice<pause/> o un rasoio<pause/> o un coltello o un martello<pause/> lo tirava fuori e gli dava un colpo alla nuca<pause/> ora io avevo con me<pause/> una carta geografica della zona che mi aveva regalato quello <del type="repetition">della</del><pause/> della <vocal>ehm</vocal><pause/> <orgName>organizzazione Todt</orgName><pause/> e un <emph>rasoio</emph> che mi aveva regalato un <emph>altro</emph><pause/> della <orgName>organizzazione Todt</orgName><pause/> e avevo questo nascosto nel taschino<pause/> della giacca<pause/> per fortuna che la piazza<pause/> era <emph>erbosa</emph><pause/> e io<pause/> <choice><orig>colla</orig><reg resp="#GB">con la</reg></choice> bocca estrassi il<pause/> rasoio lo feci scivolare in terra<pause/> e lo ricopersi<pause/> <choice><orig>colla</orig><reg resp="#GB">con la</reg></choice> scarpa<pause/> la carta invece che era nello stesso taschino io pian piano sminuzzandola con la bocca<pause/> la mangiai<pause/> cosicché quando arrivò <del type="truncation">l</del> il mio turno non trovarono più nulla<pause/> finito questa specie di<pause/> perquisizione<pause/> fummo<pause/> costretti a ritornare<pause/> ai vagoni <del type="reformulation">a rientrare nei vagoni</del><pause/> per far <del type="truncation">s</del> proseguire<anchor xml:id="arm-623" synch="#TT623"/><pause/> il <unclear reason="inaudible" resp="#GB" cert="low">cammino</unclear><anchor xml:id="arm-624" synch="#TT624"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF435" synch="#TS869">
+                    <anchor xml:id="lpf-623" synch="#TT623"/>questo in pratica a<anchor xml:id="lpf-624" synch="#TT624"/> guerra finita
+                </u>
+
+                <u who="#AW" xml:id="AW435" synch="#TS870">
+                    <unclear reason="inaudible" resp="#GB" cert="medium">c'è</unclear> non ancora<pause/> completamente finita ma <emph>quasi</emph> finita
+                </u>
+
+                <u who="#LPF" xml:id="LPF436" synch="#TS871">
+                    <vocal><desc>annuisce</desc></vocal>
+                </u>
+                
+                <u who="#AW" xml:id="AW436" synch="#TS872">
+                    e<pause/> non so se raccontare anche questo particolare<pause/> attraversammo un<pause/> bosco<pause/> per ritornare<pause/> <del type="falseStart">al</del> <del type="reformulation">ai</del> vagoni<pause/> e <unclear reason="inaudible" resp="#GB" cert="low">a</unclear> un certo momento il comandante diede l'ordine di fermarci<pause/> quelli <unclear reason="inaudible" resp="#GB" cert="medium">della</unclear> <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> si misero<pause/> <del type="truncation">d</del> <emph>dietro a noi</emph> sentimmo il caricare<pause/> di <distinct type="technical">moschetti</distinct><pause/> e qualcuno cercava di <del type="truncation">riv</del> rivoltare la testa per vedere cosa succede<pause/> e <unclear reason="inaudible" resp="#GB" cert="medium">il</unclear> comandante gridò <q type="spoken"><unclear reason="inaudible" resp="#GB" cert="medium"><foreing xml:lang="de">de musik spiel von vorne</foreing></unclear></q><pause/> la musica suona<pause/> al davanti cioè<pause/> <del type="reformulation">di guadare <emph>avanti</emph><pause/> non voltare la testa</del><pause/> <del type="falseStart">chissà perché</del><pause/> <del type="reformulation">dunque</del> era chiaro che volevano sterminarci<pause/> chissà perché <vocal>ehm</vocal> invece <del type="truncation">die</del> <vocal>ehm</vocal><pause/> diede di nuovo l'ordine alle<choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> di riprendere il loro posto<pause/> e di continuare a marciare<pause/> io so<pause/> l'ho saputo in seguito<pause/> che diversi gruppi<pause/> di <unclear reason="inaudible" resp="#GB" cert="medium">ebree</unclear> ungheresi<pause/> son <choice><sic>state sterminati</sic><corr resp="#GB">state sterminate</corr></choice> in questa maniera<pause/> nello stesso bosco<pause/> non volevano più lasciar traccia di <unclear reason="inaudible" resp="#GB" cert="medium">noi</unclear><pause/> arrivati<pause/> alle <vocal>tsk</vocal><pause/> <distinct type="informal">ai carri ferroviari nostri</distinct><pause/> bisognava<pause/> attraversare come in ogni stazione<pause/> ci sono quei <emph>fili</emph><pause/> che servono per manovrare<pause/> <del type="falseStart">i <vocal>ehm</vocal> <del type="truncation">l</del></del><pause/> come si chiamano<pause/> <del type="falseStart">i <del type="truncation">li</del> i livelli delle</del> <anchor xml:id="arm-625" synch="#TT625"/><pause/> come si chiamano<anchor xml:id="arm-626" synch="#TT626"/><pause/> adesso mi sfugge<pause/> <emph>comunque</emph><pause/> volevamo <vocal>ehm</vocal> passare sorpassando questi fili<pause/> e la <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> ci comandava invece di <emph>strisciare</emph> sotto i fili<pause/> <unclear reason="inaudible" resp="#GB" cert="medium">anche se</unclear> per umiliarci
+                </u>
+
+                <u who="LPF">
+                    <anchor xml:id="lpf-625" synch="#TT625"/><vocal>ehm</vocal><anchor xml:id="lpf-626" synch="#TT626"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF437" synch="#TS873">
+                    del passaggio a livello
+                </u>
+
+                <u who="#AW" xml:id="AW437" synch="#TS874">
+                    del passaggio a livello <del type="reformulation">sono i fili che comandano il passaggio a livello</del> che sono<pause/> a una altezza di circa<pause/> <measure><num>50</num> <num>60</num> <unit>cm</unit></measure><pause/> e lì mi ricordo<pause/> uno<pause/> stentava a passare<pause/> e quello <del type="falseStart">della sotto <del type="repetition">della</del></del><pause/> <del type="reformulation">della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice></del><pause/> <choice><orig>cola</orig><reg resp="#GB">con la</reg></choice> pistola<pause/> lo ammazzò<pause/> e purtroppo di scene simili ne abbiamo<pause/> viste diverse<pause/> <emph>ora</emph><pause/> <vocal>ehm</vocal><pause/> le donne erano già tutte<pause/> rientrate <del type="falseStart">nell<pause/> nelle loro<pause/></del> <del type="correction">nei loro</del> vagoni<pause/> ed erano già pieni i vagoni ed gli altri vagoni servivano per i maschi<pause/> e <choice><sic>quel stesso</sic><corr resp="#GB">quello stesso</corr></choice> sottufficiale<pause/> incominciò a gridare<pause/> <q type="spoken">solo nei vagoni<pause/> maschili</q><pause/> io ero rimasto<pause/> fra gli ultimi<pause/> <vocal>ehm</vocal><pause/> capendo che non posso più entrare nel vagone <del type="truncation">mel</del><pause/> <del type="truncation">mm</del> maschile<pause/> mi intrufolai in un vagone femminile<pause/> c'erano ebree ungheresi<pause/> ora io un po' di <lang>ungherese</lang> lo so perché <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mia madre</rs> era ungherese<pause/> e dissi loro <q type="spoken">nascondetemi</q><pause/> quelle <del type="falseStart">mi<pause/> <del type="truncation">distr</del></del> <del type="reformulation">mi posero</del> per terra <del type="reformulation">cioè <del type="repetition">mi</del> mi posi per terra</del><pause/> e loro si sedettero sopra di me<pause/> un <emph>gruppo</emph><pause/> <unclear reason="inaudible" resp="#GB" cert="medium">a quel</unclear> sottufficiale della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> gli era sembrato di avermi visto entrare<pause/> nel vagone delle donne<pause/> e montò su anche <emph>lui</emph><pause/> <del type="falseStart">e</del> cercandomi<pause/> ma non mi trovò<pause/> quando stava avvicinandosi <del type="repetition">a</del><pause/> a me<pause/> le ungheresi dissero<pause/> <q type="spoken"><unclear reason="inaudible" resp="#GB" cert="medium"><foreing xml:lang="de"><del type="repetition">flectibus</del> flectibus</foreing></unclear></q> che significa <distinct type="technical">tifo petecchiale</distinct><pause/> lui quando sentì questa parola<pause/> <distinct type="common_saying">tagliò la corda</distinct> immediatamente perché aveva una <distinct type="common_saying">paura matta</distinct><pause/> del tifo<pause/> in questa maniera queste ragazze <pause/>mi salvarono la vita<pause/> e <del type="falseStart">pochi</del> <del type="correction">poche</del> <vocal>ehm</vocal> ore più tardi<pause/> eravamo talmente abituati al pericolo che cominciammo<pause/> a cantare canzoni <del type="truncation">italian</del>
+                </u>
+
+                <u who="#LPF" xml:id="LPF438" synch="#TS875">
+                    ma <vocal>ehm</vocal> come si spiega che allora vi lasciarono in un primo tempo scendere dal treno dicendo che eravate liberi
+                </u>
+
+                <u who="#AW" xml:id="AW438" synch="#TS876">
+                    <unclear reason="inaudible" resp="#GB" cert="medium">no</unclear> perché lui voleva in questa maniera <emph>sterminarci completamente</emph><pause/> e non lasciar più tracce di noi<pause/> perché se <choice><sic>s'avesse</sic><corr resp="#GB">ci avesse</corr></choice> sterminato dentro nei vagoni<pause/> la popolazione civile avrebbe chiesto come mai e perché invece con la scusa che noi<pause/> li abbiamo attaccati li abbiamo aggrediti<pause/> aveva ragione di<pause/> sterminarci
+                </u>
+
+                <u who="#LPF" xml:id="LPF439" synch="#TS877">
+                    questa <del type="falseStart">è la <vocal>ehm</vocal></del><pause/> <del type="reformulation">non era</del> la prima volta che veniva in contatto con popolazione civile<pause/> <anchor xml:id="lpf-627" synch="#TT627"/>tedesca perché era già stata <vocal>mm</vocal><pause/> in contatto in precedenza nel castello <choice><orig>m'ha</orig><reg resp="#GB">mi ha</reg></choice> detto<anchor xml:id="lpf-628" synch="#TT628"/>
+                </u>
+
+                <u who="#AW" xml:id="AW439" synch="#TS878">
+                    <anchor xml:id="arm-627" synch="#TT627"/><unclear reason="inaudible" resp="#GB" cert="low">no</unclear> tedesca<pause/> <del type="falseStart">dunque<pause/> in precedenza</del><anchor xml:id="arm-628" synch="#TT628"/> dunque vediamo un po' popolazione civile<pause/> c'era nel <place type="castle">castello di <placeName ref="TEI-ListPlace.xml#Zangberg">Zangberg</placeName></place><pause/> praticamente no<pause/> eravamo in contatto con la <orgName>organizzazione Todt</orgName> questo si
+                </u>
+
+                <u who="#LPF" xml:id="LPF440" synch="#TS879">
+                    <vocal><desc>annuisce</desc> eeh</vocal> la popolazione civile ebbe modo di veder le vostre condizioni
+                </u>
+
+                <u who="#AW" xml:id="AW440" synch="#TS880">
+                    le nostre condizioni<pause/> <emph>si</emph> per forza<anchor xml:id="arm-629" synch="#TT629"/><pause/> vedevano<anchor xml:id="arm-630" synch="#TT630"/> com'eravamo
+                </u>
+
+                <u who="#LPF">
+                    <anchor xml:id="lpf-629" synch="#TT629"/><vocal><desc>annuisce</desc></vocal><anchor xml:id="lpf-630" synch="#TT630"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF441" synch="#TS881">
+                    <vocal>ehh</vocal> aveste modo di parlare di<pause/> raccontare o <anchor xml:id="lpf-631" synch="#TT231"/>no<anchor xml:id="lpf-632" synch="#TT632"/>
+                </u>
+
+                <u who="#AW" xml:id="AW441" synch="#TS882">
+                    <anchor xml:id="arm-631" synch="#TT631"/>persino<anchor xml:id="arm-632" synch="#TT632"/> raccontare anche<pause/> <anchor xml:id="arm-633" synch="#TT633"/>ma <gap reason="inaudible" resp="#GB" extent="1 word"/><anchor xml:id="arm-634" synch="#TT634"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF442" synch="#TS883">
+                    <anchor xml:id="lpf-633" synch="#TT633"/>e rimasero<anchor xml:id="lpf-634" synch="#TT634"/> stupiti
+                </u>
+                
+                <pause/>
+                
+                <u who="#AW" xml:id="AW442" synch="#TS884">
+                    qualcuno rimase stupito qualcun altro <emph>no</emph><pause/> avevamo i <term ref="#maester"><foreing xml:lang="de">maester</foreing></term> tedeschi per esempio<pause/> che sarebbero i capi <emph>squadra</emph><pause/> erano tedeschi civili<pause/> e loro<pause/> vedevano in quale situazione eravamo
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF443" synch="#TS885">
+                    <vocal><desc>si schiarisce la voce</desc></vocal> e dopo che risaliste sui vagoni
+                </u>
+
+                <u who="#AW" xml:id="AW443" synch="#TS886">
+                    risaliti sul vagone il treno<pause/> continuò<pause/> e<pause/> giungemmo a un<pause/> <emph>punto</emph> dove<pause/> c'era già la <orgName>croce rossa<pause/> svizzera</orgName><pause/> la quale ci <distinct type="infrequent">rifocillò</distinct> nei modi<pause/> <emph>possibili</emph><pause/> e di nuovo dentro al treno
+                </u>
+
+                <u who="#LPF" xml:id="LPF444" synch="#TS887">
+                    e non sa in che punto
+                </u>
+
+                <u who="#AW" xml:id="AW444" synch="#TS888">
+                    in che punto questo vicino a <placeName ref="TEI-ListPlace.xml#Poing">Poing</placeName> era questo<pause/> <del type="falseStart">in a</del> <del type="reformulation">in <placeName ref="TEI-ListPlace.xml#BY">Baviera</placeName></del><pause/> in <unclear reason="inaudible" resp="#GB" cert="medium">la</unclear> <placeName ref="TEI-ListPlace.xml#BY">Baviera</placeName> del Sud<pause/> <emph>poi</emph><pause/> il treno <pause/>arrivò<pause/> a <placeName ref="TEI-ListPlace.xml#Waltershausen" cert="low" resp="#GB">Waltershausen</placeName><pause/> nomi lunghi tedeschi<pause/> e<pause/> <emph>si fermò</emph><pause/> e io guardai fuori dal finestrino e vidi un soldato in divisa italiana<pause/> era <unclear reason="inaudible" resp="#GB" cert="low">fra</unclear> i prigionieri italiani<pause/> <del type="reformulation">prigionieri militari</del><pause/> ai quali <vocal>mm</vocal><pause/> i tedeschi davano dei lavori da svolgere<pause/> in diversi posti <pause/>sentivamo il <distinct type="infrequent">crepitio</distinct><pause/> di<pause/> <del type="truncation">mitra</del> mitraglie e gli chiesi <q type="spoken" who="#AW"><vocal>mah</vocal> <del type="falseStart">i</del> <del type="reformulation">gli</del> americani sono già così vicini che si sente il <distinct type="infrequent">crepitio</distinct></q><pause/> mi rispose <q type="spoken" xml:id="q9">no questo<pause/> <del type="falseStart">sono il</del> <del type="reformulation"><unclear reason="inaudible" resp="#GB" cert="low">è</unclear> la <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice></del><pause/> che<pause/> uccide<pause/> i vari prigionieri<pause/> ebrei<pause/> che arrivano al <placeName ref="TEI-ListPlace.xml#Kochelsee">lago di Kochel</placeName></q><pause/> un lago <vocal>ehm</vocal><pause/> in <placeName ref="TEI-ListPlace.xml#BY">Baviera</placeName><pause/> vicino a <placeName ref="TEI-ListPlace.xml#Waltershausen" cert="low" resp="#GB">Waltershausen</placeName><pause/> <q type="spoken" xml:id="q10">e la stessa sorte succederà con voi se puoi <distinct type="common_saying">tagliar la corda</distinct> <distinct type="common_saying">taglia la corda</distinct></q><join target="#q9 #q10" result="q" type="quotation" scope="branches"></join><pause/> era facile per lui dirlo<pause/> perché lui era <emph>libero</emph><pause/> mentre io ero dentro chiuso <unclear reason="inaudible" resp="#GB" cert="medium">nel</unclear> <del type="truncation">vagon</del>
+                </u>
+                <!--1:08:23-->
             </div>
             
         </body>
@@ -6350,26 +6489,6 @@
 </TEI>
 
 <!-- 
-L.P: che data era?
-A.W: era ill... 28 o 29 aprile, 45. Quando la guerra stava per terminare. Eee mentre camminavamo, in mezzo ai campi, in mezzo alla strada ,improvvisamente sentimmo dei colpi, sparat-. Ci voltammo e vedemmo le SS, quelle stesse che prima ci avevano dato la libertà, che sparavano contro di noi, e c'erano anche degli avieri di un campo di aviazione vicino. Dove... il comandante della SS aveva detto che noi prigionieri ci eravamo ehm ribellati a loro, i sarti con le forbici, gli oo- i barbieri con i rasoi e cose avanti, e che loro adesso per punizione ci stavano sterminando. Eee... a un certo momento, arrivammo... beh racconto prima il caso mio particolare: si, io e la Belfiore ci buttammo per terra come se fossimo già morti ee passando uno sottufficiale della SS disse  "ecco anche l'interprete non avrà più da interpretare" perché sembrava che fossi mor-. Poi la sparatoria terminò in quanto la popolazione civile del- della cittadina ehm rimase meravigliata di ciò che stava succedendo e allora ci fecero riunire nella piazza della cittadina eee ill comandante della SS disse al sindaco che eravamo dei banditi, che(?) c'eravamo ribellati e lo avrebbe dimostrato. Ci fecero mettere in fila e lui insieme al sindaco passavano e se trovavano qualcuno con una forbice o un rasoio o un coltello o un martello lo tirava fuori e gli dava un colpo alla nuca. Ora io avevo con me una carta geografica della zona che mi aveva regalato quello della della ehm organizzazione Todt, e un rasoio, che mi aveva regalato un altro della organizzazione Todt e avevo questo nascosto nel taschino della giacca. Per fortuna che la piazza era era vuota e io colla bocca estrassi il ... rasoio, lo feci scivolare in terra e lo ricopersi colla scarpa. La carta, invece che era nello stesso taschino, io pian piano sminuzzandola con la bocca la mangiai cosicché quando arrivò il mio turno non trovarono più nulla. Finito questa specie diii perquisizione fummo costretti a ritornare ai vagoni, a rientrare nei vagoni per far s- proseguire il (non capisce?).
-L.P: questo in pratica a guerra finita?
-A.W: c'è(cioè?) non ancora completamente finita ma quasi finita. Eee... non so se raccontare anche questo particolare: attraversammo un ... bosco per ritornare all ai vagoni eee un certo momento il comandante diede l'ordine di fermarci, quelli delle SS si misero dietro a noi, sentimmo il caricare di moschetti eee qualcuno cercava di riv- rivoltarsi la testa per vedere cosa succede eee il(?) comandante gridò (frase in tedesco) "la musica suona al davanti", cioè di guadare avanti, non voltare la testa. Chissà perché - dunque, era chiaro che volevano sterminarci - chissà perché ehm invece die- diede di nuovo l'ordine alle SS di riprendere il loro posto e di continuare a marciare. Io so - l'ho saputo in seguito - che diversi gruppi di ebree/i(?) ungheresi son state(?) sterminati in questa maniera nello stesso bosco: non volevano più lasciar traccia di noi(loro?). Arrivati allle (pausa) ai carri ferroviari nostri bisognava attraversare, come in ogni stazione, ci sono quei fili che servono per manovrare iii ehm, come si chiamano?, (balbetta) i livelli delle (balbetta)... come si chiamano? Adesso mi sfugge. Comunque, volevamo ehm passare sorpassando questi fili, e la SS ci comandava invece di strisciare sotto i fili anche se per umiliarci(?).
-L.P: del passaggio a livello?
-A.W: del passaggio a livello, sono i fili che comandano il passaggio a livello che sono a una altezza di circa 50-60 cm. E lì mi ricordo.. uno stentava a passare e quello della (balbetta) della SS cola pistola lo ammazzò: e purtroppo di scene simili ne abbiamo viste diverse. Ora, eehm le donne erano già tutte rientrate nell nelle nei loro vagoni ed erano già pieni i vagoni, e gli altri vagoni servivano per i maschi e quello stesso sottufficiale incominciò a gridare "solo nei vagoni maschili", io ero rimasto fra gli ultimi ehm capendo che non posso più entrare nel vagone (balbetta) m- mmaschile mi intrufolai in un vagone femminile, c'erano ebree ungheresi - ora io un po' di ungherese lo so perché mia madre era ungherese - e dissi loro "nascondetemi" e(?) quelle(?) mi di- mi posero per terra, cioè mi posi per terra e loro si sedettero sopra di me, un gruppo. Quel(questo?) sottufficiale della SS era sembrato di avermi visto entrare nel vagone delle donne e montò su anche lui ee cercandomi ma non mi trovò. Quando stava avvicinandosi aaa a me lee ungheresi dissero "flectibus, flectibus" che significa "tifo ?". Lui quando sentì questa parola tagliò la corda immediatamente perché aveva una paura matta... del tifo. In questa maniera queste ragazze mi salvarono la vita. Eee pochi poche ehm ore più tardi, eravamo talmente abituati al pericolo che cominciammo a cantare canzoni italian-.
-L.P: ehm ma come si spiega che allora vi lasciaronoo in un primo tempo scendere dal treno dicendo che eravate liberi?
-A.W: no(?), perché lui voleva in questa maniera sterminarci completamente, e non lasciar più tracce di noi perché se s'avesse sterminato dentro, nei vagoni, la popolazione civile avrebbe chiesto come mai e perché, invece con la scusa che noi li abbiamo attaccati, li abbiamo aggrediti, aveva ragione di... sterminarci.
-L.P: questa è la ehm non è la prima volta che veniva in contatto con popolazione civile tedesca perché era già stata... in contatto in precedenza nel castello m'ha detto...?
-A.W: tedesca, dunque... In precedenza... dunque, vediamo un po', popolazione civile c'era nel castello di Sandberg(?)? praticamente no. Eravamo in contatto con la organizzazione Todt, questo si.
-L.P: eee la popolazione civile ebbe modo di veder le vostre condizioni?
-A.W: le nostre condizioni... si, per forza, vedevano com'eravamo.
-L.P: e aveste modo di parlare, di raccontare o no?
-A.W: persino raccontare anche... ma...
-L.P: e rimasero stupiti?
-A.W: qualcuno rimase stupito, qualcun altro no. Avevamo i maester(?) tedeschi, per esempio, che sarebbero ii capi squadra, erano tedeschi civili e loro vedevano in quale situazione eravamo.
-L.P: ehm e dopo che risaliste sui vagoni?
-A.W: risaliti sul vagone il treno continuò eee giungemmo aa un punto dove c'era già la croce rossa svizzera, la quale ci rifocillò neii modi ... possibili eee di nuovo dentro al treno.
-L.P: e non sa in che punto?
-A.W: in che punto questo... vicino a Poing era questo, in a in Baviera, in la(?) Baviera del Sud. Poi il treno arrivò a Waltershausen(?), nomi lunghi tedeschi(?), eee si fermò. E io guardai fuori dal finestrino e vidi un soldato in divisa italiana, era fra(?) i prigionieri italiani... prigionieri militari, ai quali ii tedeschi davano dei lavori da svolgere in diversi posti. Sentivamo il crepitio di ... miitra- mitraglie, e gli chiesi "mah ii gli americani sono così vicini che si sente il crepitio?", mi rispose "no, questo sono il la SS che... uccide i vari prigionieri ebrei che arrivano al lago di Kochel", un lago inn Baviera, vicino a Waltershausen(?), "e la stessa sorte succederà con voi, se puoi tagliar la corda taglia la corda", era facile per lui dirlo perché lui era libero, mentre io ero dentro chiuso nel(i?) vagon-.
 L.P: come libero? Lui era da solo lì?
 A.W: era da solo lì si, molti prigionieri italiani per esempio lavoravano nelle fattorie, in fabbriche... sto parlando di prigionieri militari, non erano...
 L.P: si, in divisa lavoravano?

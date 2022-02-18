@@ -233,6 +233,16 @@
                         <placeName ref="https://www.geonames.org/2954172 https://www.treccani.it/enciclopedia/augusta/">Augsburg</placeName>
                         <country key="DE">Germania</country>
                     </place>
+
+                    <place xml:id="Waltershausen"><!--info non certa + no informazioni su treccani.it-->
+                        <placeName ref="https://www.geonames.org/2814392 https://it.wikipedia.org/wiki/Waltershausen">Waltershausen</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
+
+                    <place xml:id="Kochelsee"><!--no informazioni su treccani.it-->
+                        <placeName ref="https://www.geonames.org/2886920 https://en.wikipedia.org/wiki/Kochelsee">Lago di Kochel</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
                 </listPlace>
             
             </sourceDesc>
