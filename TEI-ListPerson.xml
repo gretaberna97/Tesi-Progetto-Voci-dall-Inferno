@@ -207,7 +207,7 @@
                         <person xml:id="ClaraW">   
     
                                 <persName>
-                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-8243/wachsberger-clara.html http://www.nomidellashoah.it/1scheda.asp?nome=Clara&cognome=Wachsberger&id=8243"/>
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-8243/wachsberger-clara.html http://www.nomidellashoah.it/1scheda.asp?nome=Clara&amp;cognome=Wachsberger&amp;id=8243"/>
                                     <foreName>Clara</foreName>
                                     <surname>Wachsberger</surname>
                                 </persName>
@@ -295,7 +295,7 @@
                         <person xml:id="Schreiber">   
     
                                 <persName>
-                                    <ref target="https://books.google.it/books?id=uN1TDgAAQBAJ&pg=PT49&lpg=PT49&dq=Abraham+Schreiber+fiume&source=bl&ots=HrviHbo-dB&sig=ACfU3U3il67zd3zec3ncYrSXG44762XScQ&hl=it&sa=X&ved=2ahUKEwi-2uSizr31AhVF7rsIHc8UDecQ6AF6BAgCEAM#v=onepage&q=Abraham%20Schreiber%20fiume&f=false"/>
+                                    <ref target="https://books.google.it/books?id=uN1TDgAAQBAJ&amp;pg=PT49&amp;lpg=PT49&amp;dq=Abraham+Schreiber+fiume&amp;source=bl&amp;ots=HrviHbo-dB&amp;sig=ACfU3U3il67zd3zec3ncYrSXG44762XScQ&amp;hl=it&amp;sa=X&amp;ved=2ahUKEwi-2uSizr31AhVF7rsIHc8UDecQ6AF6BAgCEAM#v=onepage&amp;q=Abraham%20Schreiber%20fiume&amp;f=false"/>
                                     <foreName>Abraham</foreName>
                                     <surname>Schreiber</surname>
                                 </persName>
@@ -654,7 +654,7 @@
                         <person xml:id="AlinaC" sameAs="http://viaf.org/viaf/307361731">   
     
                                 <persName role="direttrice">
-                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-1137/cavalieri-alina.html http://www.nomidellashoah.it/1scheda.asp?nome=Alina&cognome=Cavalieri&id=1137"/>
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-1137/cavalieri-alina.html http://www.nomidellashoah.it/1scheda.asp?nome=Alina&amp;cognome=Cavalieri&amp;id=1137"/>
                                     <foreName>Alina</foreName>
                                     <surname>Cavalieri</surname>
                                     <roleName type="health">Direttrice della Croce Rossa fino al 1938</roleName>
@@ -1226,12 +1226,224 @@
 
                         </person>
 
+                        <!-- Massimo Adolfo Vitale -->
+                        <person xml:id="MassimoAV" sameAs="http://viaf.org/viaf/306388560"> 
+    
+                                <persName role="funzionario">
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-it-cdec-eaccpf0001-000527/vitale-massimo-adolfo.html https://it.wikipedia.org/wiki/Massimo_Adolfo_Vitale"/>
+                                    <foreName>Massimo</foreName>
+                                    <foreName>Adolfo</foreName>
+                                    <surname>Vitale</surname>
+                                    <roleName type="honorific">Medagli d'argento al valor militare</roleName>
+                                    <roleName type="honorific">Croce al merito di guerra</roleName>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1885-11-13" cert="high">13 Novembre 1885</date>
+                                    <placeName ref="TEI-ListPlace#TO">
+                                        <settlement type="municipality">Torino</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1968-04-05" cert="high">5 Aprile 1968</date>
+                                    <placeName>
+                                        <settlement type="municipality">Civitavecchia</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!-- Tibor Wachsberger: nessuna informazione su di lui -->
+                        <person xml:id="TiborW"> 
+    
+                                <persName role="comandante">
+                                    <ref target=""/>
+                                    <foreName>Tibor</foreName>
+                                    <surname>Wachsberger</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="" cert=""></date>
+                                    <placeName ref="TEI-ListPlace#CS">
+                                        <note resp="#GB">Deducato dalle parole di Arminio che fosse originario della Cecoslovacchia</note>
+                                        <settlement type="municipality">Cecoslovacchia</settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" cert=""></date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!-- Gino Eigenmann: nessuna informazione su di lui -->
+                        <person xml:id="GinoE"> 
+    
+                                <persName role="scienziato">
+                                    <ref target=""/>
+                                    <foreName>Gino</foreName>
+                                    <surname>Eigenmann</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1912" cert="high">1912</date>
+                                    <note resp="#GB">Informazioni dal libro "L'interprete di Auschwitz" di Gabriele Rigano</note>
+                                    <placeName ref="">
+                                        <district>Milanino</district>
+                                        <settlement type="municipality">Milano</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" cert=""></date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Giovanni Wachsberger-->
+                        <person xml:id="GiovanniW">   
+    
+                                <persName>
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-103/wachsberger-giovanni.html"/>
+                                    <foreName>Giovanni</foreName>
+                                    <surname>Wachsberger</surname>
+                                    <addName type="nickname"><foreign>Haimi</foreign></addName>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1925-04-11" cert="high">11 Aprile 1925</date>
+                                    <placeName ref="TEI-ListPlace#FM">
+                                        <settlement type="municipality">Fiume</settlement>
+                                        <country key="HR">Croazia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1997" cert="high">1997</date>
+                                    <note resp="#GB">Informazioni dal libro "L'interprete di Auschwitz" di Gabriele Rigano</note>
+                                        <placeName>
+                                            <settlement type=""></settlement>
+                                            <country key=""></country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Ester Brach: nessuna informazione su di lei-->
+                        <person xml:id="EsterB">   
+    
+                                <persName>
+                                    <ref target=""/>
+                                    <foreName>Ester</foreName>
+                                    <surname>Brach</surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="" cert=""></date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" cert=""></date>
+                                        <placeName>
+                                            <settlement type=""></settlement>
+                                            <country key=""></country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Martino Godelli-->
+                        <person xml:id="MartinoG">   
+    
+                                <persName>
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-7331/godelli-martino.html https://www.silviacuttin.it/tag/martino-godelli/"/>
+                                    <foreName>Martino</foreName>
+                                    <surname>Godelli</surname>
+                                    <surname type="alternative">Goldstein</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1922-12-31" cert="high">31 Dicembre 1922</date>
+                                    <placeName>
+                                        <settlement type="municipality">Petroseni</settlement>
+                                        <country key="ROU">Romania</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="2014-11-03" cert="high">3 Novembre 2014</date>
+                                        <placeName>
+                                            <settlement type="municipality">Kibbutz Netzer-Sereni</settlement>
+                                            <country key="IL">Israele</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Regina Wachsberger-->
+                        <person xml:id="ReginaW">   
+    
+                                <persName>
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-101/wachsberger-regina.html"/>
+                                    <foreName>Regina</foreName>
+                                    <surname type="birth">Wachsberger</surname>
+                                    <surname type="married">Cantori</surname>
+                                    <addName type="nickname">Rive</addName>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="" notBefore="1913-11-04" cert="">
+                                        <note resp="#GB">Desumo che sia nata dopo di lui</note>
+                                    </date>
+                                    <placeName ref="TEI-ListPlace#FM">
+                                        <settlement type="municipality">Fiume</settlement>
+                                        <country key="HR">Croazia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" cert=""></date>
+                                        <placeName>
+                                            <settlement type=""></settlement>
+                                            <country key=""></country>
+                                        </placeName>
+                                </death>
+                        </person>
+
                         <!-- Lista delle relazioni -->
                         <listRelation>
                             <relation name="spouse" mutual="#DavideW #MiriamG"/>
                             <relation name="spouse" mutual="#AW #ReginaP"/>
                             <relation name="spouse" mutual="#AW #OlgaW"/>
-                            <relation name="parent" active="#DavideW #MiriamG" passive="#AW"/>
+                            <relation name="parent" active="#DavideW #MiriamG" passive="#AW #GiovanniW #ReginaW"/>
                             <relation name="parent" active="#AW #ReginaP" passive="#ClaraW"/>
                             <relation name="parent" active="#MoiseP #CarlottaP" passive="#ReginaP"/>
                             <relation name="parent-in-law" active="#MoiseP #CarlottaP" passive="#AW"/>
@@ -1256,6 +1468,13 @@
                             <relation name="deportee-Muhldorf" mutual="#AW #LelloDS #IsaccoS #TriesteB #ErnstL"/>
                             <relation name="helper" active="#CapBlasi" passive="#AW #ErnstL #TriesteB"/>
                             <relation name="helper" active="#IrvingJS" passive="#AW #ErnstL #TriesteB"/>
+                            <relation name="collaborator" mutual="#AW #MassimoAV"/>
+                            <relation name="cousin" mutual="#AW #TiborW"/>
+                            <relation name="employer" active="#GinoE" passive="#AW"/>
+                            <relation name="sibling" mutual="#AW #GiovanniW"/>
+                            <relation name="parent" active="#EsterB" passive="#MiriamG"/>
+                            <relation name="grandmother" active="#EsterB" passive="#AW"/>
+                            <relation name="deportee-risieraSS" mutual="#GiovanniW #MartinoG"/>
 					</listRelation>
                 </listPerson>
             

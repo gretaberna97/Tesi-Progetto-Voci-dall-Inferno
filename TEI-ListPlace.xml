@@ -248,6 +248,51 @@
                         <placeName ref="https://www.geonames.org/2820692 https://it.wikipedia.org/wiki/Tutzing">Tutzing</placeName>
                         <country key="DE">Germania</country>
                     </place>
+
+                    <place xml:id="Tr">
+                        <placeName ref="https://www.geonames.org/664661 https://www.treccani.it/enciclopedia/transilvania/">Transilvania</placeName>
+                        <country key="ROU">Romania</country>
+                    </place>
+
+                    <place xml:id="HU">
+                        <placeName ref="https://www.geonames.org/719819 https://www.treccani.it/enciclopedia/ungheria/">Ungheria</placeName>
+                        <country key="HU">Ungheria</country>
+                    </place>
+
+                    <place xml:id="USA">
+                        <placeName ref="https://www.geonames.org/6252001 https://www.treccani.it/enciclopedia/stati-uniti-d-america/">Stati Uniti d'America</placeName>
+                        <country key="USA">Stati Uniti d'America</country>
+                    </place>
+
+                    <place xml:id="RisieraSS"><!--wikipedia-->
+                        <placeName ref="https://www.geonames.org/11127083 https://it.wikipedia.org/wiki/Risiera_di_San_Sabba">Risiera di San Sabba</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="TS">
+                        <placeName ref="https://www.geonames.org/3165185 https://www.treccani.it/enciclopedia/trieste/">Trieste</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="TI">
+                        <placeName ref="https://www.geonames.org/2659836 https://www.treccani.it/enciclopedia/lugano/">Lugano</placeName>
+                        <country key="CH">Svizzera</country>
+                    </place>
+
+                    <place xml:id="Re">
+                        <placeName ref="https://www.geonames.org/3169539 https://www.treccani.it/enciclopedia/recco/">Recco</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="GE">
+                        <placeName ref="https://www.geonames.org/6542282 https://www.treccani.it/enciclopedia/genova/">Genova</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="Friuli"><!--geonames del FVG-->
+                        <placeName ref="https://www.geonames.org/3176525 https://www.treccani.it/enciclopedia/friuli/">Friuli</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
                 </listPlace>
             
             </sourceDesc>

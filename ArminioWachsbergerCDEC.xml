@@ -1224,6 +1224,42 @@
 
             <when xml:id="TT639" absolute="01:14:37" synch="#arm-639"/> 
             <when xml:id="TT640" since="#TT639" interval="1"/>
+
+            <when xml:id="TT641" absolute="01:14:52" synch="#lpf-641"/> 
+            <when xml:id="TT642" since="#TT641" interval="1"/>
+
+            <when xml:id="TT643" absolute="01:14:53" synch="#lpf-643"/> 
+            <when xml:id="TT644" since="#TT643" interval="1"/>
+
+            <when xml:id="TT645" absolute="01:15:05" synch="#arm-645"/> 
+            <when xml:id="TT646" since="#TT645" interval="1"/>
+
+            <when xml:id="TT647" absolute="01:15:31" synch="#lpf-647"/> 
+            <when xml:id="TT648" since="#TT647" interval="1"/>
+
+            <when xml:id="TT649" absolute="01:16:28" synch="#arm-649"/> 
+            <when xml:id="TT650" since="#TT649" interval="1"/>
+
+            <when xml:id="TT651" absolute="01:17:32" synch="#arm-651"/> 
+            <when xml:id="TT652" since="#TT651" interval="1"/>
+
+            <when xml:id="TT653" absolute="01:18:10" synch="#lpf-653"/> 
+            <when xml:id="TT654" since="#TT653" interval="1"/>
+
+            <when xml:id="TT655" absolute="01:18:21" synch="#arm-655"/> 
+            <when xml:id="TT656" since="#TT655" interval="1"/>
+
+            <when xml:id="TT657" absolute="01:21:50" synch="#arm-657"/> 
+            <when xml:id="TT658" since="#TT657" interval="1"/>
+
+            <when xml:id="TT659" absolute="01:21:58" synch="#arm-659"/> 
+            <when xml:id="TT660" since="#TT659" interval="1"/>
+
+            <when xml:id="TT661" absolute="01:22:13" synch="#lpf-661"/> 
+            <when xml:id="TT662" since="#TT661" interval="1"/>
+
+            <when xml:id="TT663" absolute="01:23:41" synch="#lpf-663"/> 
+            <when xml:id="TT664" since="#TT663" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -2135,6 +2171,48 @@
             <when xml:id="TS900" synch="#AW450" absolute="01:14:18"/>
             <when xml:id="TS901" synch="#LPF451" absolute="01:14:30"/>
             <when xml:id="TS902" synch="#AW451" absolute="01:14:35"/>
+            <when xml:id="TS903" synch="#LPF452" absolute="01:14:41"/>
+            <when xml:id="TS904" synch="#AW452" absolute="01:14:45"/>
+            <when xml:id="TS905" synch="#LPF453" absolute="01:14:47"/>
+            <when xml:id="TS906" synch="#AW453" absolute="01:14:53"/>
+            <when xml:id="TS907" synch="#LPF454" absolute="01:15:31"/>
+            <when xml:id="TS908" synch="#AW454" absolute="01:15:31"/>
+            <when xml:id="TS909" synch="#LPF455" absolute="01:18:02"/>
+            <when xml:id="TS910" synch="#AW455" absolute="01:18:07"/>
+            <when xml:id="TS911" synch="#LPF456" absolute="01:18:08"/>
+            <when xml:id="TS912" synch="#AW456" absolute="01:18:12"/>
+            <when xml:id="TS913" synch="#LPF457" absolute="01:18:12"/>
+            <when xml:id="TS914" synch="#AW457" absolute="01:18:14"/>
+            <when xml:id="TS915" synch="#LPF458" absolute="01:18:21"/>
+            <when xml:id="TS916" synch="#AW458" absolute="01:18:24"/>
+            <when xml:id="TS917" synch="#LPF459" absolute="01:19:35"/>
+            <when xml:id="TS918" synch="#AW459" absolute="01:19:38"/>
+            <when xml:id="TS919" synch="#LPF460" absolute="01:21:43"/>
+            <when xml:id="TS920" synch="#AW460" absolute="01:21:45"/>
+            <when xml:id="TS921" synch="#LPF461" absolute="01:21:48"/>
+            <when xml:id="TS922" synch="#AW461" absolute="01:21:48"/>
+            <when xml:id="TS923" synch="#LPF462" absolute="01:21:50"/>
+            <when xml:id="TS924" synch="#AW462" absolute="01:21:51"/>
+            <when xml:id="TS925" synch="#LPF463" absolute="01:21:51"/>
+            <when xml:id="TS926" synch="#AW463" absolute="01:21:52"/>
+            <when xml:id="TS927" synch="#LPF464" absolute="01:22:00"/>
+            <when xml:id="TS928" synch="#AW464" absolute="01:22:03"/>
+            <when xml:id="TS929" synch="#LPF465" absolute="01:22:05"/>
+            <when xml:id="TS930" synch="#AW465" absolute="01:22:06"/>
+            <when xml:id="TS931" synch="#LPF466" absolute="01:22:08"/>
+            <when xml:id="TS932" synch="#AW466" absolute="01:22:13"/>
+            <when xml:id="TS933" synch="#LPF467" absolute="01:22:53"/>
+            <when xml:id="TS934" synch="#AW467" absolute="01:22:56"/>
+            <when xml:id="TS935" synch="#LPF468" absolute="01:23:02"/>
+            <when xml:id="TS936" synch="#AW468" absolute="01:23:05"/>
+            <when xml:id="TS937" synch="#LPF469" absolute="01:23:34"/>
+            <when xml:id="TS938" synch="#AW469" absolute="01:23:37"/>
+            <when xml:id="TS939" synch="#LPF470" absolute="01:23:38"/>
+            <when xml:id="TS940" synch="#AW470" absolute="01:23:42"/>
+            <when xml:id="TS941" synch="#LPF471" absolute="01:23:43"/>
+            <when xml:id="TS942" synch="#AW471" absolute="01:23:45"/>
+            <when xml:id="TS943" synch="#LPF472" absolute="01:23:47"/>
+            <when xml:id="TS944" synch="#AW472" absolute="01:23:49"/>
         </timeline>
         
     </standOff>
@@ -6569,7 +6647,220 @@
                     <anchor xml:id="lpf-639" synch="#TT639"/><vocal><desc>si schiarisce la voce</desc></vocal><anchor xml:id="lpf-640" synch="#TT640"/>
                 </u>
 
-                <!--1:14:40-->
+                <u who="#LPF" xml:id="LPF452" synch="#TS903">
+                    <vocal><desc>si schiarisce la voce</desc></vocal> a quel punto eravate in quanti del gruppo italiano
+                </u>
+
+                <pause/>
+
+                <u who="#AW" xml:id="AW452" synch="#TS904">
+                    del gruppo italiano ero io l'unico
+                </u>
+
+                <u who="#LPF" xml:id="LPF453" synch="#TS905">
+                    l'unico<pause/> <vocal><desc>si schiarisce la voce</desc></vocal> e dopo la liberazione lei si tenne in contatto con <anchor xml:id="lpf-641" synch="#TT641"/>gli americani<anchor xml:id="lpf-642" synch="#TT642"/> <anchor xml:id="lpf-643" synch="#TT643"/>con<anchor xml:id="lpf-644" synch="#TT644"/>
+                </u>
+
+                <u who="#AW">
+                    <anchor xml:id="arm-641" synch="#TT641"/>gnn<anchor xml:id="arm-642" synch="#TT642"/>
+                </u>
+
+                <u who="#AW" xml:id="AW453" synch="#TS906">
+                    <anchor xml:id="arm-643" synch="#TT643"/>rimasi<anchor xml:id="arm-644" synch="#TT644"/> <vocal>ehm</vocal> in contatto con gli americani<pause/> i quali in un primo tempo mi fecero<pause/> <vocal>mm</vocal> mettere come<pause/> anziano<pause/> cioè significa <emph>capo</emph><pause/> <del type="reformulation"><term ref="#altesten"><foreing xml:lang="de">altesten</foreing></term> in <lang>tedesco</lang> significa <gloss xml:id="altesten">il più anziano</gloss><anchor xml:id="arm-645" synch="#TT645"/><pause/><anchor xml:id="arm-646" synch="#TT646"/> ma praticamente<pause/> significa <emph>capo</emph><pause/> <choice><sic>della <vocal>mm</vocal><pause/> caseggiato</sic><corr resp="#GB">del caseggiato</corr></choice></del> dove erano<pause/> <vocal>ehm</vocal> alloggiati<pause/> gli ex prigionieri <emph>greci</emph><pause/> in quanto io ero interprete dei greci<pause/> perché parlavo<pause/> in<pause/> <emph><lang>spagnolo</lang></emph> con loro<pause/> e loro da <emph><placeName ref="TEI-ListPlace#Sal">Salonicco</placeName></emph> oltre al <lang>greco</lang> e al <lang>turco</lang><pause/> parlavano anche il <lang>giudeo spagnolo</lang>
+                </u>
+
+                <u who="LPF">
+                    <anchor xml:id="lpf-645" synch="#TT645"/><vocal><desc>si schiarisce la voce</desc></vocal><anchor xml:id="lpf-646" synch="#TT646"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF454" synch="#TS907">
+                    e <anchor xml:id="lpf-647" synch="#TT647"/>poi<anchor xml:id="lpf-648" synch="#TT648"/>
+                </u>
+
+                <u who="#AW" xml:id="AW454" synch="#TS908">
+                    <anchor xml:id="arm-647" synch="#TT647"/>e dopo<anchor xml:id="arm-648" synch="#TT648"/> un po' di tempo<pause/> mi fecero divenire direttore amministrativo<incident iterated="true"><desc>rumore del traffico</desc></incident><pause/> dell'ospedale<pause/> di <placeName ref="TEI-ListPlace.xml#Fe">Feldafing</placeName><pause/> che prima<pause/> serviva ai<pause/> soldati tedeschi<pause/> e adesso evacuato dai tedeschi venne adibito<pause/> <choice><sic>ai<pause/> <emph>ex</emph> prigionieri</sic><corr resp="#GB">agli</corr></choice> malati<pause/> o invalidi<pause/> e<pause/> il medico capo era un ebreo<pause/> e <del type="falseStart">l'amministratore era <del type="truncation">so</del></del> <del type="reformulation">l'amministrazione era sotto le mie <del type="truncation">diretti</del></del><pause/> e <rs ref="TEI-ListPlace.xml#Fe">lì</rs> successe che <vocal>ehm</vocal><pause/> mi recai varie volte a <placeName ref="TEI-ListPlace.xml#MC">Monaco di Baviera</placeName> <placeName ref="TEI-ListPlace.xml#Fe">Feldafing</placeName><pause/> è a <measure><num>35</num> <unit>km</unit></measure> da <placeName ref="TEI-ListPlace.xml#MC">Monaco di Baviera</placeName> <pause/>per <emph>testimoniare</emph><pause/> su morti <pause/>nei vari campi<pause/> richiesti dai parenti italiani<pause/> e io facevo la dichiarazione davanti al console italiano<pause/> e queste dichiarazioni venivano poi mandate al centro<pause/> <del type="falseStart">di</del> <del type="correction">del</del> <persName ref="TEI-ListPerson.xml#MassimoAV"><roleName type="military">colonnello</roleName> Vitale</persName><anchor xml:id="arm-649" synch="#TT649"/><pause/><anchor xml:id="arm-650" synch="#TT650"/> che<pause/> servì ai parenti per<pause/> i loro<pause/> diritti<pause/> di eredità e così avanti<pause/> strano anche il caso<pause/> che questi consoli<pause/> dei vari paesi<pause/> a <placeName ref="TEI-ListPlace.xml#MC">Monaco di Baviera</placeName><pause/> erano tutti quanti in un unico palazzo<pause/> comandati<pause/> da americani<pause/> <del type="reformulation">nel senso che <del tyope="falseStart">gl</del> gli americani sorvegliavano <emph>dall'alto</emph></del><pause/> l'attività di questi consoli stranieri<pause/><vocal><desc>sospira</desc></vocal> e una volta<pause/> che arrivai a <placeName ref="TEI-ListPlace.xml#MC">Monaco di Baviera</placeName> questo ero già libero no<pause/> e entro nel palazzo<pause/> e <vocal>ehm</vocal> naturalmente mi chiedono la tessera<pause/> <del type="falseStart">fecero</del> <del type="correction">feci</del> vedere la mia carta di identità<pause/> e il soldato che era a guardia mi disse <pause/><q type="spoken">lei è parente del nostro comandante</q> dico <q type="spoken" who="#AW">quale <del type="truncation">parent</del></q><pause/> dice <q type="spoken">del nostro <persName ref="TEI-ListPerson.xml#TiborW"><roleName type="military">comandante</roleName> <pause/>Tibor Wachsberger</persName></q><pause/> io rimango stupefatto<pause/> mi portano su<pause/> e vedo sul suo tavolo proprio<pause/> <unclear reason="inaudible" resp="#GB" cert="medium">come è d'uso</unclear> americano<pause/> <del type="falseStart">il</del> <del type="reformulation">una</del><pause/> <distinct type="diminutive">tavoletta</distinct> con sopra scritto <q type="written"><persName ref="TEI-ListPerson.xml#TiborW">Tibor <anchor xml:id="arm-651" synch="#TT651"/>Wachsberger</persName></q><pause/><anchor xml:id="arm-652" synch="#TT652"/> scritto con <distinct type="informal">la ci acca esse</distinct> cioè<pause/> contrariamente al <lang>tedesco</lang> che<pause/> è scritto <choice><orig>colla</orig><reg resp="#GB">con la</reg></choice> cappa<pause/> ci guardammo in <distinct type="informal">faccia</distinct><pause/> ci riconoscemmo era un mio <emph>cugino</emph><pause/> della <placeName ref="TEI-ListPlace.xml#CS">Cecoslovacchia</placeName><pause/> e era<pause/> stato arruolato dagli americani era scappato dalla <placeName ref="TEI-ListPlace.xml#CS">Cecoslovacchia</placeName><pause/> adesso aveva il <emph>compito</emph><pause/> di sorvegliare i vari consoli <unclear reason="inaudible" resp="#GB" cert="medium">tanto</unclear> parlava varie lingue<pause/> ed era adibito poi in seguito<pause/> alla ricerca di <emph>ex</emph> criminali<pause/> tedeschi
+                </u>
+
+                <u who="#LPF">
+                    <anchor xml:id="lpf-649" synch="#TT649"/><vocal>ehm</vocal><anchor xml:id="lpf-650" synch="#TT650"/>
+                    <anchor xml:id="lpf-651" synch="#TT651"/><vocal>ehm</vocal><anchor xml:id="lpf-652" synch="#TT652"/>
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF455" synch="#TS909">
+                    lei partecipò <del type="falseStart">al</del> in qualità di testimone al processo di <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName>
+                </u>
+
+                <u who="#AW" xml:id="AW455" synch="#TS910">
+                    come dice
+                </u>
+
+                <u who="#LPF" xml:id="LPF456" synch="#TS911">
+                    <vocal>ehm</vocal><pause/> partecipò in qualità di <anchor xml:id="lpf-653" synch="#TT653"/>testimone ai processi di <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName><anchor xml:id="lpf-654" synch="#TT654"/>
+                </u>
+
+                <u who="#AW">
+                    <anchor xml:id="arm-653" synch="#TT653"/>di testimone<pause/> si<anchor xml:id="arm-654" synch="#TT654"/>
+                </u>
+
+                <u who="#AW" xml:id="AW456" synch="#TS912">
+                    si
+                </u>
+
+                <u who="#LPF" xml:id="LPF457" synch="#TS913">
+                    che si svolsero in che anno
+                </u>
+
+                <u who="#AW" xml:id="AW457" synch="#TS914">
+                    nel <date when="1945">45</date><pause/> verso<pause/> aspetti se vuole posso farle vedere il mio<pause/> vado a <del type="truncation">prender</del>
+                </u>
+
+                <gap reason="lost" extent="unknown"/>
+
+                <u who="#LPF" xml:id="LPF458" synch="#TS915">
+                    <anchor xml:id="lpf-655" synch="#TT655"/>aveva intenzione<anchor xml:id="lpf-656" synch="#TT656"/> di ritornare in <placeName ref="TEI-ListPlace.xml#IT">Italia</placeName>
+                </u>
+
+                <u who="#AW">
+                    <anchor xml:id="arm-655" synch="#TT655"/><gap reason="inaudible" resp="#GB" extent="1 word"/><anchor xml:id="arm-656" synch="#TT656"/>
+                </u>
+
+                <u who="#AW" xml:id="AW458" synch="#TS916">
+                    no perché pensavo che tutta la mia famiglia fosse stata anche lei distrutta<pause/> e rimasi in <placeName ref="TEI-ListPlace.xml#DE">Germania</placeName><pause/> <vocal><desc>si schiarisce la voce</desc></vocal> <pause/>dove mi risposai<pause/> con una <rs ref="TEI-ListPerson.xml#OlgaW" resp="#GB">ex prigioniera</rs><pause/> della <placeName ref="TEI-ListPlace.xml#Tr">Transilvania</placeName> cioè <placeName ref="TEI-ListPlace.xml#HU">Ungheria</placeName> <placeName ref="TEI-ListPlace.xml#ROU">Romania</placeName><pause/> eehm<pause dur="4 seconds"/> fino che <unclear reason="inaudible" resp="#GB" cert="low">a</unclear> un certo momento nel<pause/> <date when="1949">49</date><pause/> il mio ex<pause/> proprietario dell'azienda <unclear reason="inaudible" resp="#GB" cert="low">da</unclear> dove lavoravo<pause/> mi telefonò<pause/> dicendo<pause/> che se volevo potevo tornare a lavorare da lui per il <persName ref="TEI-ListPerson.xml#GinoE"><roleName>dottor</roleName> Eigenmann</persName><pause/> della <orgName>Eighenmann &amp;<unclear reason="inaudible" resp="#GB" cert="high">Veronelli</unclear></orgName> di <placeName ref="TEI-ListPlace.xml#MI">Milano</placeName><pause/> io ero in realtà in procinto <unclear reason="inaudible" resp="#GB" cert="low">già</unclear> di partire per l'<placeName ref="TEI-ListPlace.xml#USA">America</placeName><pause/> e avevo gli <gap reason="inaudible" resp="#GB" atLeast="1 word" atMost="2 words"/><pause/> già pronti il visto pronto<pause/> <unclear reason="inaudible" resp="#GB" cert="medium">per</unclear> consolato americano<pause/> ma <vocal>ehm</vocal><pause/> preferì ritornare in <placeName ref="TEI-ListPlace.xml#IT">Italia</placeName><pause/> e così nel <date when="1949">49</date> tornato a <placeName ref="TEI-ListPlace.xml#MI">Milano</placeName> ripresi <del type="truncation">l</del>
+                </u>
+
+                <gap reason="lost" extent="14 seconds"/>
+
+                <u who="#LPF" xml:id="LPF459" synch="#TS917">
+                    ha avuto altri <vocal>ehm</vocal> parenti deportati
+                </u>
+
+                <u who="#AW" xml:id="AW459" synch="#TS918">
+                    si <unclear reason="inaudible" resp="#GB" cert="medium">di</unclear> parenti deportati furono<pause/> anzitutto <emph><rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mia madre</rs></emph><pause/> dalla <placeName ref="TEI-ListPlace.xml#RisieraSS">risiera di<pause/> San <choice><sic>Saba</sic><corr resp="#GB">Sabba</corr></choice></placeName> di <emph><placeName ref="TEI-ListPlace.xml#TS">Trieste</placeName></emph><pause/> le mie sorelle<pause/> <unclear reason="inaudible" resp="#GB" cert="low">con</unclear> relativi mariti e <choice><orig>figlioli</orig><reg resp="#GB">figli</reg></choice><pause/> dalla <placeName ref="TEI-ListPlace.xml#CS">Cecoslovacchia</placeName> dove abitavano<pause/> e <vocal>mm</vocal><pause/> numerosi altri parenti in <placeName ref="TEI-ListPlace.xml#PL">Polonia</placeName><pause/> ed <placeName ref="TEI-ListPlace.xml#HU">Ungheria</placeName><pause/> <vocal>ehm</vocal> nell'<placeName ref="TEI-ListPlace.xml#IT">Italia</placeName><pause/> ritrovai mio fratello<pause/> <persName ref="TEI-ListPerson.xml#GiovanniW"><addName type="nickname">Haimi</addName><pause/> Giovanni</persName><pause/> che era stato<pause/> alla <placeName ref="TEI-ListPlace.xml#RisieraSS">risiera di<pause/> <choice><sic>Saba</sic><corr resp="#GB">Sabba</corr></choice></placeName> di <placeName ref="TEI-ListPlace.xml#TS">Trieste</placeName><pause/> insieme con <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mia madre</rs><pause/> voglio riferire un fatto della <placeName ref="TEI-ListPlace.xml#RisieraSS">risiera di <choice><sic>Saba</sic><corr resp="#GB">Sabba</corr></choice></placeName><pause/> perché lo ritengo utile<pause/> ricordare<pause/> <rs ref="TEI-ListPerson.xml#GiovanniW" resp="#GB">mio fratello</rs> e <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mia madre</rs> vennero arrestati a <placeName ref="TEI-ListPlace.xml#FM">Fiume</placeName><pause/> e trasportati a <placeName ref="TEI-ListPlace.xml#TS">Trieste</placeName><pause/> dopo pochi giorni<pause/> stavano preparando<pause/> un trasporto<pause/> da <placeName ref="TEI-ListPlace.xml#TS">Trieste</placeName> ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName><pause/> <vocal>ehm</vocal><pause/> caricarono <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mia madre</rs> e <rs ref="TEI-ListPerson.xml#GiovanniW" resp="#GB">mio fratello</rs> <pause/>su di un camion<pause/> in procinto<pause/> di recarsi<pause/> alla stazione<pause/> <unclear reason="inaudible" resp="#GB" cert="low">a</unclear> un certo momento <pause/>uscì un <vocal>ehm</vocal><pause/> sottufficiale della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> e chiese<pause/> se qualcuno<pause/> era<pause/> di professione sarto<pause/> <rs ref="TEI-ListPerson.xml#GiovanniW" resp="#GB">mio fratello</rs> non era sarto aveva lavorato come fattorino in una sartoria<pause/> e <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mia madre</rs> disse<pause/> <q type="spoken" who="#MiriamG">dì che tu sei <del type="truncation">sart</del></q><pause/> e <rs ref="TEI-ListPerson.xml#GiovanniW" resp="#GB">mio fratello</rs> <del type="falseStart">disse</del><pause/> <del type="reformulation">riferì</del> questo alla<pause/> <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> <unclear reason="inaudible" resp="#GB" cert="low">e disse</unclear> <q type="spoken">scendi tu rimani <rs ref="TEI-ListPlace.xml#RisieraSS" resp="#GB">qua</rs></q><pause/> e <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mia madre</rs> venne invece deportata<pause/> ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName><pause/> ricordo questo per dire che <del type="falseStart"><rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mia madre</rs></del><pause/> <del type="reformulation">un'altra madre</del> <del type="falseStart">avrebbe</del><pause/> <del type="reformulation">anche se</del> il figlio fosse stato un sarto<pause/> non lo avrebbe dichiarato perché rimanga insieme con il figlio<pause/> ma <vocal>mm</vocal><pause/> viceversa <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mia madre</rs><pause/> pur di salvare almeno qualcuno<pause/> fece scendere <rs ref="TEI-ListPerson.xml#GiovanniW" resp="#GB">mio fratello</rs><pause/> e <rs ref="TEI-ListPerson.xml#GiovanniW" resp="#GB">mio fratello</rs> <emph>imparò</emph><pause/> il sarto<pause/> proprio dentro<pause/> a <placeName ref="TEI-ListPlace.xml#RisieraSS">San <choice><sic>Saba</sic><corr resp="#GB">Sabba</corr></choice> nella <del type="truncation">s</del><pause/> risiera</placeName>
+                </u>
+
+                <u who="#LPF" xml:id="LPF460" synch="#TS919">
+                    e qual è il nome di <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">sua mamma</rs>
+                </u>
+
+                <u who="#AW" xml:id="AW460" synch="#TS920">
+                    <persName ref="TEI-ListPerson.xml#MiriamG">Matilde<pause/> Miriam</persName>
+                </u>
+
+                <u who="#LPF" xml:id="LPF461" synch="#TS921">
+                    di
+                </u>
+
+                <u who="#AW" xml:id="AW461" synch="#TS922">
+                    <persName ref="TEI-ListPerson.xml#MiriamG">Gellis</persName><pause/> <anchor xml:id="arm-657" synch="#TT657"/>Gellis<anchor xml:id="arm-658" synch="#TT658"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF462" synch="#TS923">
+                    <anchor xml:id="lpf-657" synch="#TT657"/>figlia<anchor xml:id="lpf-658" synch="#TT658"/> di
+                </u>
+
+                <u who="#AW" xml:id="AW462" synch="#TS924">
+                    come
+                </u>
+
+                <u who="#LPF" xml:id="LPF463" synch="#TS925">
+                    figlia di
+                </u>
+
+                <u who="#AW" xml:id="AW463" synch="#TS926">
+                    figlia di <vocal>mm</vocal><pause/> non mi ricordo più<pause/> <anchor xml:id="arm-659" synch="#TT659"/><gap reason="inaudible" resp="#GB" atLeast="2 words" atMost="3 words"/><anchor xml:id="arm-660" synch="#TT660"/> questo mi ricordo<pause/> ebraico
+                </u>
+
+                <u who="#LPF">
+                    <anchor xml:id="lpf-659" synch="#TT659"/><gap reason="inaudible" resp="#GB" atLeast="1 word" atMost="2 words"/><anchor xml:id="lpf-660" synch="#TT660"/>
+                </u>
+
+                <u who="#LPF" xml:id="LPF464" synch="#TS927">
+                    e la <rs ref="TEI-ListPerson.xml#EsterB" resp="#GB">mamma <del type="falseStart">di de</del> <del type="correction">della</del> <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">sua mamma</rs></rs>
+                </u>
+
+                <u who="#AW" xml:id="AW464" synch="#TS928">
+                    no <unclear reason="inaudible" resp="#GB" cert="medium">il nome</unclear> non lo so
+                </u>
+
+                <u who="#LPF" xml:id="LPF465" synch="#TS929">
+                    neanche di famiglia
+                </u>
+
+                <u who="#AW" xml:id="AW465" synch="#TS930">
+                    no
+                </u>
+
+                <pause/>
+                
+                <u who="#LPF" xml:id="LPF466" synch="#TS931">
+                    <vocal>ehm</vocal><pause/> lei sa la data<pause/> di questo<pause/> <anchor xml:id="lpf-661" synch="#TT661"/><soCalled>trasporto</soCalled><anchor xml:id="lpf-662" synch="#TT662"/>
+                </u>
+
+                <u who="#AW" xml:id="AW466" synch="#TS932">
+                    <anchor xml:id="arm-661" synch="#TT661"/>questo era successo<anchor xml:id="arm-662" synch="#TT662"/> nel <date when="1944-05">maggio del 44</date><pause/> e di quel vagone dove c'erano questi<pause/> che da<pause/> <placeName ref="TEI-ListPlace.xml#TS">Trieste</placeName><pause/> andò ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> si son salvati solo 2<pause/> uno di questi è <unclear reason="inaudible" resp="#GB" cert="low">Crow</unclear><pause/> di <placeName ref="TEI-ListPlace.xml#TS">Trieste</placeName> che adesso abita a <placeName ref="TEI-ListPlace.xml#TI">Lugano</placeName> se non mi sbaglio<pause/> e<pause/> un secondo<pause/> fiumano<pause/> che adesso è in<pause/> <placeName ref="TEI-ListPlace.xml#ISR">Israele</placeName><pause/> il nome in questo attimo mi sfugge<pause/> <emph><persName ref="TEI-ListPerson.xml#MartinoG">Godelli</persName></emph> eccolo <persName ref="TEI-ListPerson.xml#MartinoG">Godelli</persName>
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF467" synch="#TS933">
+                    sa la data dell'arresto a <placeName ref="TEI-ListPlace.xml#FM">Fiume</placeName>
+                </u>
+
+                <pause/>
+
+                <u who="#AW" xml:id="AW467" synch="#TS934">
+                    era <date notAfter="1944-04-15" resp="#GB" cert="high">pochi giorni prima</date> <del type="falseStart">della</del><pause/> <del type="correction">del</del> <pause/><emph>trasporto</emph> per <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName>
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF468" synch="#TS935">
+                    <incident><desc>rumore di un clacson</desc></incident> e <rs ref="TEI-ListPerson.xml#GiovanniW" resp="#GB">suo fratello</rs> gli raccontò come andò l'arresto
+                </u>
+
+                <u who="#AW" xml:id="AW468" synch="#TS936">
+                    si mi raccontò tutto<pause/> e pensi che<pause/> io ho una sorella che<pause/> si chiama<pause/> <persName ref="TEI-ListPerson.xml#ReginaW"><del type="truncation">Re</del> Regina</persName><pause/> attualmente <del type="falseStart">Cantori</del> <del type="reformulation">sposata con Cantori</del> che sta a<pause/> <placeName ref="TEI-ListPlace.xml#Re">Recco</placeName> vicino a <placeName ref="TEI-ListPlace.xml#GE">Genova</placeName><pause/> era nascosta in <placeName ref="TEI-ListPlace.xml#Friuli">Friuli</placeName><pause/> e varie volte era venuta a <placeName ref="TEI-ListPlace.xml#FM">Fiume</placeName><pause/> per<pause/> portarsi via anche la <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mamma</rs> e la <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mamma</rs> non ha mai voluto<pause/> lasciare <placeName ref="TEI-ListPlace.xml#FM">Fiume</placeName><pause/> e venne arrestata <vocal>mm</vocal> insieme a molti altri ebrei fiumani
+                </u>
+
+                <u who="#LPF" xml:id="LPF469" synch="#TS937">
+                    sa se gli autori dell'arresto sono italiani o tedeschi
+                </u>
+
+                <u who="#AW" xml:id="AW469" synch="#TS938">
+                    come
+                </u>
+
+                <u who="#LPF" xml:id="LPF470" synch="#TS939">
+                    sa <del type="truncation">ss</del> chi siano gli autori dell'arresto di <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mamma</rs> e della <anchor xml:id="lpf-663" synch="#TT663"/>sua famiglia<anchor xml:id="lpf-664" synch="#TT664"/>
+                </u>
+
+                <u who="#AW">
+                    <anchor xml:id="arm-663" synch="#TT663"/>erano<anchor xml:id="arm-664" synch="#TT664"/>
+                </u>
+
+                <u who="#AW" xml:id="AW470" synch="#TS940">
+                    erano <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice>
+                </u>
+
+                <u who="#LPF" xml:id="LPF471" synch="#TS941">
+                    <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> non <dewl type="truncation">italian</del>
+                </u>
+
+                <u who="#AW" xml:id="AW471" synch="#TS942">
+                    no
+                </u>
+
+                <pause/>
+
+                <u who="#LPF" xml:id="LPF472" synch="#TS943">
+                    <vocal><desc>si rischiara la voce</desc></vocal> va bene la ringrazio
+                </u>
+
+                <u who="#AW" xml:id="AW472" synch="#TS944">
+                    bene
+                </u>
             </div>
             
         </body>
@@ -6577,47 +6868,3 @@
     </text>
 
 </TEI>
-
-<!-- 
-L.P: (si schiarisce la voce) a quel punto eravate in quanti del gruppo italiano?
-A.W: del gruppo italiano ero io l'unico.
-L.P: l'unico. (Si schiarisce la voce) e dopo la liberazione leii si tenne in contatto con gli americani con...?
-A.W: rimasi ehm in contatto con gli americani, i quali in un primo tempo mi fecero mettere come anziano, cioè significa "capo" (frase in tedesco)? In tedesco significa "il più anziano" ma praticamente significa "capo" della caseggiato dove erano ee alloggiati gli ex prigionieri greci in quanto io ero interprete dei greci perché parlavo in spagnolo con loro e loro da <placeName ref="TEI-ListPlace#Sal">Salonicco</placeName>, oltre al greco e al turco parlavano anche il giudeo spagnolo.
-L.P: e poi?
-A.W: e dopo un po' di tempo miii fecero divenire direttore amministrativo dell'ospedale di Feldafing che prima serviva ai soldati tedeschi e adesso, evacuato dai tedeschi, venne adibito ai ex prigionieri malati o invalidi eeee il medico capo era un ebreo e l'amministratore era (riformulazione) l'amministrazione era sotto le mie direttive. E lì successe che mi recai varie volte a Monaco di Baviera - Feldafing è a 35 km da Monaco di Baviera - per testimoniare su morti nei vari campi richiesti dai parenti italiani ee io facevo la dichiarazione davanti al console italiano e queste dichiarazioni venivano poi mandate al centro di del colonnello Vitale(?) che servì ai parenti per i loro diritti.. di eredità e cose avanti. Strano anche il caso che questi consoli deii vari paesi a Monaco di Baviera erano tutti quanti in un unico palazzo comandati da americani - nel senso che gli americani sorvegliavano dall'alto l'attività di questi consoli stranieri - e una volta che arrivai a Monaco di Baviera - questo ero già libero, no? - ee entro nel palazzo e ehm naturalmente mi chiedono la tessera, fecero (riformulazione) feci vedere la mia carta di identità ee il soldato che era a guardia mi disse "lei è parente del nostro comandante?" Dico "Quale parent-?", dice "Del nostro comandante Tibor? Wachsberger", io rimango stupefatto... Mi portano su e vedo sul suo tavolo proprio come(?) è d'uso (l'uso?) americano il... una tavoletta con sopra scritto "Tibor Wachsberger?" scritto con la "chs" cioè contrariamente al tedesco che è scritto colla "k". Ci guardammo in faccia, ci riconoscemmo, era un mio cugino della Cecoslovacchia, ed(che?) era stato arruolato dagli americani, era scappato dalla Cecoslovacchia, adesso aveva il compito dii sorvegliare i vari consoli tanto(?) parlava varie lingue ed era adibito poi in seguito alla ricerca di ex criminali... tedeschi. 
-L.P: lei partecipò al... in qualità di testimone al processo di Dachau?
-A.W: come dice?
-L.P: ehm partecipò in qualità di testimone ai processi di Dachau?
-A.W: di testimone... si si.
-L.P: che si svolsero in che anno?
-A.W: nel 45, versooo, aspetti, se vuole posso farle vedere il mio... vado a prender-.
-L.P: aveva intenzione di ritornare in Italia?
-A.W: no perché pensavo che tutta la mia famiglia fosse stata anche lei distrutta e rimasi in Germania (si schiarisce la voce) dove mi risposai con una ex prigioniera della Transylvania, cioè Ungheria Romania. Eee... fino che un certo momento, nel 49, il mio ex... proprietario dell'azienda da(?) dove lavoravo mi telefonò dicendo che se volevo potevo tornare a lavorare da lui per il dottor Eighenmann(?) della Eighenmann(non si capisce?) di Milano. Io ero in realtà in procinto di partire per l'America, e avevo gli (?) già pronti, il visto pronto per consolato americano maaa preferì ritornare in Italia e così nel 49 tornato a Milano ripresi l- [buco 1:19:20 → 1:19:35].
-L.P: - avuto altri parenti deportati?
-A.W: si, di(?) parenti deportati furono anzitutto mia madre dalla risiera di San Saba, di Trieste, le mie sorelle co- relativi mariti e figlioli dalla Cecoslovacchia dove abitavano eee... numerosi altri parenti in Polonia... ed Ungheria. ehm nell'Italia ritrovai mio fratello Aini(?), Giovanni, che era stato alllla risiera di San Saba di Trieste insieme con mia madre. Voglio riferire un fatto della risiera di San Saba perché lo ritengo utile ricordare: mio fratello e mia madre vennero arrestati a Fiume e trasportati a Trieste; dopo pochi giorni stavano preparando un trasporto da Trieste ad Auschwitz eee caricarono mia madre e mio fratello su di un camion in procinto di recarsi alla stazione. Un certo momento uscì un ehm sottufficiale della SS e chiese se qualcuno era di professione sarto - mio fratello non era sarto, aveva lavorato come fattorino in una sartoria - e mia madre disse "dì che tu sei sart-" e mio fratello disse riferì questo alla SS e disse (si mangia la frase?) "scendi, tu rimani qua" e mia madre venne invece deportata ad Auschwitz. Ricordo questo per dire che mia madre, un'altra madre avrebbe, anche se il figlio fosse stato un sarto, non lo avrebbe dichiarato perché rimanga insieme con il figlio maa viceversa mia madre pur di salvare almeno qualcuno fece scendere mio fratello e mio fratello imparò il sarto proprio dentro a San Saba nella s- risiera.
-L.P: ee qual è il nome di sua mamma?
-A.W: Matilde... Miriam
-L.P: di...?
-A.W: Gellis... Gel-...
-L.P: figlia di?
-A.W: come?
-L.P: figlia di?
-A.W: figlia di... non mi ricordo più, (nome che non capisco?) questo mi ricordo, ebraico.
-L.P: e la mamma di de della sua mamma?
-A.W: no il suo nome(o cognome?) non lo so.
-L.P: neanche di famiglia?
-A.W: no.
-L.P: ehm lei sa la data di questo trrasporto?
-A.W: questo era successo nel maggio del 44. E di quel vagone dove c'erano questi... che da... Trieste andò ad Auschwitz si son salvati solo 2, uno di questi è Croh(?) di Trieste che adesso abita a Lugano se non mi sbaglio e... un secondo...fiumano che adesso è in... Israele, il nome in questo attimo mi sfugge... Godelli(?)... eccolo Godelli(?).
-L.P: sa la data dell'arresto a Fiume?
-A.W: era pochi giorni prima della delll trasporto per Auschwi-
-L.P: e suo fratello gli raccontò come andò l'arresto?
-A.W: si mi raccontò tutto ee pensi che io ho una sorella chee si chiama Re- Regina, attualmente Cantori, sposata con Canton- che sta aaa Lecco(?), vicino a Genova, era nascosta in Friuli e varie volte era venuta a Fiume perr portarsi via anche la mamma e la mamma non ha mai voluto... lasciare Fiume e venne arrestata insieme a molti altri ebrei fiumani.
-L.P: sa see gli autori dell'arresto sono italiani o tedeschi?
-A.W: come?
-L.P: ss- sa chi siano gli autori dell'arresto di sua mamma e della sua famiglia?
-A.W: erano... erano SS.
-L.P: SS, non italian-?
-A.W: no.
-L.P: va bene la ringrazio.
--->
