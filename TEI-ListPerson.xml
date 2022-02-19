@@ -45,7 +45,7 @@
 
                                 <birth>
                                     <date when="1913-11-04" cert="high">4 Novembre 1913</date>
-                                    <placeName ref="TEI-ListPlace#Fiume">
+                                    <placeName ref="TEI-ListPlace#FM">
                                         <settlement type="municipality">Fiume</settlement>
                                         <country key="HR">Croazia</country>
                                     </placeName>
@@ -53,7 +53,7 @@
 
                                 <death>
                                     <date when="2002-04-24" cert="high">24 Aprile 2002</date>
-                                        <placeName ref="TEI-ListPlace#Milano">
+                                        <placeName ref="TEI-ListPlace#MI">
                                             <settlement type="municipality">Milano</settlement>
                                             <country key="IT">Italia</country>
                                         </placeName>
@@ -104,7 +104,7 @@
 
                                 <death>
                                     <date when="1942-07" cert="medium">Luglio 1942</date>
-                                    <placeName ref="TEI-ListPlace#Fiume">
+                                    <placeName ref="TEI-ListPlace#FM">
                                         <settlement type="municipality">Fiume</settlement>
                                         <country key="HR">Croazia</country>
                                     </placeName>
@@ -134,8 +134,8 @@
 
                                 <death>
                                     <date when="1944-04-30" cert="high">40 Aprile 1944</date>
+                                    <placeName ref="TEI-ListPlace#Au">
                                     <note resp="#GB">Desumo dalle parole di Arminio Wachsberger e dalle fonti che sia morta ad Auschwitz</note>
-                                    <placeName ref="TEI-ListPlace#Auschwitz">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
@@ -156,7 +156,7 @@
 
                                 <birth>
                                     <date when="1912-12-01" cert="high">1° Dicembre 1912</date>
-                                    <placeName ref="TEI-ListPlace#Venezia">
+                                    <placeName ref="TEI-ListPlace#VE">
                                         <settlement type="municipality">Venezia</settlement>
                                         <country key="IT">Italia</country>
                                     </placeName>
@@ -164,7 +164,7 @@
 
                                 <death>
                                     <date when="1944-04-30" cert="high">40 Aprile 1944</date>
-                                    <placeName ref="TEI-ListPlace#Auschwitz">
+                                    <placeName ref="TEI-ListPlace#Au">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
@@ -195,7 +195,7 @@
                                 <death>
                                     <date when="2015-05-17" cert="high">17 Maggio 2015</date>
                                     <note resp="#GB">La data di morte è stata gentilmente fornita dalle figlie</note>
-                                    <placeName ref="TEI-ListPlace#Milano">
+                                    <placeName ref="TEI-ListPlace#MI">
                                         <settlement type="municipality">Milano</settlement>
                                         <country key="IT">Italia</country>
                                     </placeName>
@@ -216,7 +216,7 @@
 
                                 <birth>
                                     <date when="1938-02-11" cert="high">11 Febbraio 1938</date>
-                                    <placeName ref="TEI-ListPlace#Roma">
+                                    <placeName ref="TEI-ListPlace#RO">
                                         <settlement type="municipality">Roma</settlement>
                                         <country key="IT">Italia</country>
                                     </placeName>
@@ -224,7 +224,7 @@
 
                                 <death>
                                     <date when="1943-10-23" cert="high">23 Ottobre 1943</date>
-                                    <placeName ref="TEI-ListPlace#Auschwitz">
+                                    <placeName ref="TEI-ListPlace#Au">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
@@ -245,7 +245,7 @@
 
                                 <birth>
                                     <date when="1875-12-11" cert="high">11 Dicembre 1875</date>
-                                    <placeName ref="TEI-ListPlace#Venezia">
+                                    <placeName ref="TEI-ListPlace#VE">
                                         <settlement type="municipality">Venezia</settlement>
                                         <country key="IT">Italia</country>
                                     </placeName>
@@ -253,7 +253,7 @@
 
                                 <death>
                                     <date when="1943-10-23" cert="high">23 Ottobre 1943</date>
-                                    <placeName ref="TEI-ListPlace#Auschwitz">
+                                    <placeName ref="TEI-ListPlace#Au">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
@@ -275,7 +275,7 @@
 
                                 <birth>
                                     <date when="1876-04-11" cert="high">11 Arpile 1876</date>
-                                    <placeName ref="TEI-ListPlace#Venezia">
+                                    <placeName ref="TEI-ListPlace#VE">
                                         <settlement type="municipality">Venezia</settlement>
                                         <country key="IT">Italia</country>
                                     </placeName>
@@ -283,7 +283,7 @@
 
                                 <death>
                                     <date when="1943-10-23" cert="high">23 Ottobre 1943</date>
-                                    <placeName ref="TEI-ListPlace#Auschwitz">
+                                    <placeName ref="TEI-ListPlace#Au">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
@@ -477,7 +477,7 @@
 
                                 <birth>
                                     <date when="1899-12-09" cert="high">9 Dicembre 1899</date>
-                                    <placeName ref="TEI-ListPlace#Roma">
+                                    <placeName ref="TEI-ListPlace#RO">
                                         <settlement type="municipality">Roma</settlement>
                                         <country key="IT">Italia</country>
                                     </placeName>
@@ -596,7 +596,7 @@
 
                                 <birth>
                                     <date when="1912" cert="high">1912</date>
-                                    <placeName ref="TEI-ListPlace#Venezia">
+                                    <placeName ref="TEI-ListPlace#VE">
                                         <settlement type="municipality">Venezia</settlement>
                                         <country key="IT">Italia</country>
                                     </placeName>
@@ -604,7 +604,7 @@
 
                                 <death>
                                     <date when="1989" cert="high">1989</date>
-                                    <placeName ref="TEI-ListPlace#Venezia">
+                                    <placeName ref="TEI-ListPlace#VE">
                                         <settlement type="municipality">Venezia</settlement>
                                         <country key="IT">Italia</country>
                                     </placeName>
@@ -634,7 +634,7 @@
 
                                 <birth>
                                     <date when="1872-11-03" cert="high">3 Novembre 1872</date>
-                                    <placeName ref="TEI-ListPlace#Venezia">
+                                    <placeName ref="TEI-ListPlace#VE">
                                         <settlement type="municipality">Venezia</settlement>
                                         <country key="IT">Italia</country>
                                     </placeName>
@@ -642,7 +642,7 @@
 
                                 <death>
                                     <date when="1943-10-23" cert="high">23 Ottobre 1943</date>
-                                    <placeName ref="TEI-ListPlace#Auschwitz">
+                                    <placeName ref="TEI-ListPlace#Au">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
@@ -674,7 +674,7 @@
 
                                 <death>
                                     <date when="1943-10-23" cert="high">23 Ottobre 1943</date>
-                                    <placeName ref="TEI-ListPlace#Auschwitz" cert="medium">
+                                    <placeName ref="TEI-ListPlace#Au" cert="medium">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
@@ -736,7 +736,7 @@
 
                                 <death>
                                     <date when="1943-11-30" cert="high">30 Novembre 1943</date>
-                                    <placeName ref="TEI-ListPlace#Auschwitz">
+                                    <placeName ref="TEI-ListPlace#Au">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
@@ -800,7 +800,7 @@
 
                                 <death>
                                     <date when="1947-04-16" cert="high">16 Aprile 1947</date>
-                                    <placeName ref="TEI-ListPlace#Auschwitz">
+                                    <placeName ref="TEI-ListPlace#Au">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
@@ -854,7 +854,7 @@
 
                                 <birth>
                                     <date when="1927-06-24" cert="high">24 Giugno 1927</date>
-                                    <placeName ref="TEI-ListPlace#Roma">
+                                    <placeName ref="TEI-ListPlace#RO">
                                         <settlement type="municipality">Roma</settlement>
                                         <country key="IT">Italia</country>
                                     </placeName>
@@ -862,7 +862,7 @@
 
                                 <death>
                                     <date when="1943-12-31" cert="medium">31 Dicembre 1943</date>
-                                    <placeName ref="TEI-ListPlace#Varsavia" cert="medium">
+                                    <placeName ref="TEI-ListPlace#WA" cert="medium">
                                         <note resp="#GB">Desumo dalle parole di Arminio Wachsberger che l'uomo morì a Varsavia di differite</note>
                                         <settlement type="municipality">Varsavia</settlement>
                                         <country key="PL">Polonia</country>
@@ -884,7 +884,7 @@
 
                                 <birth>
                                     <date when="1891-04-06" cert="high">6 Aprile 1891</date>
-                                    <placeName ref="TEI-ListPlace#Roma">
+                                    <placeName ref="TEI-ListPlace#RO">
                                         <settlement type="municipality">Roma</settlement>
                                         <country key="IT">Italia</country>
                                     </placeName>
@@ -892,7 +892,7 @@
 
                                 <death>
                                     <date when="1943-12-31" cert="medium">31 Dicembre 1943</date>
-                                    <placeName ref="TEI-ListPlace#Varsavia" cert="medium">
+                                    <placeName ref="TEI-ListPlace#WA" cert="medium">
                                         <note resp="#GB">Desumo dalle parole di Arminio Wachsberger che l'uomo morì a Varsavia di tifo</note>
                                         <settlement type="municipality">Varsavia</settlement>
                                         <country key="PL">Polonia</country>
@@ -914,7 +914,7 @@
 
                                 <birth>
                                     <date when="1921-04-15" cert="high">15 Aprile 1921</date>
-                                    <placeName ref="TEI-ListPlace#Roma">
+                                    <placeName ref="TEI-ListPlace#RO">
                                         <settlement type="municipality">Roma</settlement>
                                         <country key="IT">Italia</country>
                                     </placeName>
@@ -922,7 +922,7 @@
 
                                 <death>
                                     <date when="2000-07-03" cert="high">3 Luglio 2000</date>
-                                    <placeName ref="TEI-ListPlace#Roma">
+                                    <placeName ref="TEI-ListPlace#RO">
                                         <settlement type="municipality">Roma</settlement>
                                         <country key="IT">Italia</country>
                                     </placeName>
@@ -981,8 +981,10 @@
                                 </birth>
 
                                 <death>
-                                    <date when="" cert="" notBefore="1943-11-27"></date>
-                                    <placeName ref="TEI-ListPlace#Varsavia">
+                                    <date when="" cert="" notBefore="1943-11-27">
+                                        <note resp="#GB">Desumo che sia morto successivamente all'arrivo di Arminio nel ghetto di Varsavia</note>
+                                    </date>
+                                    <placeName ref="TEI-ListPlace#WA">
                                         <settlement type="municipality">Varsavia</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
@@ -1003,7 +1005,7 @@
 
                                 <birth>
                                     <date when="1911-02-10" cert="high">10 Febbraio 1911</date>
-                                    <placeName ref="TEI-ListPlace#Roma">
+                                    <placeName ref="TEI-ListPlace#RO">
                                         <settlement type="municipality">Roma</settlement>
                                         <country key="IT">Italia</country>
                                     </placeName>
@@ -1011,8 +1013,8 @@
 
                                 <death>
                                     <date when="1944-07-25" cert="high">25 Luglio 1944</date>
-                                    <placeName ref="TEI-ListPlace#Varsavia">
-                                        <note resp="##GB">Desumo il luogo della sua morte dalle parole di Arminio</note>
+                                    <placeName ref="TEI-ListPlace#WA">
+                                        <note resp="#GB">Desumo il luogo della sua morte dalle parole di Arminio</note>
                                         <settlement type="municipality">Varsavia</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
@@ -1033,7 +1035,7 @@
 
                                 <birth>
                                     <date when="1926-11-04" cert="high">4 Novembre 1926</date>
-                                    <placeName ref="TEI-ListPlace#Roma">
+                                    <placeName ref="TEI-ListPlace#RO">
                                         <settlement type="municipality">Roma</settlement>
                                         <country key="IT">Italia</country>
                                     </placeName>
@@ -1041,7 +1043,7 @@
 
                                 <death>
                                     <date when="2018-10-26" cert="high">26 Ottobre 2018</date>
-                                    <placeName ref="TEI-ListPlace#Roma">
+                                    <placeName ref="TEI-ListPlace#RO">
                                         <settlement type="municipality">Roma</settlement>
                                         <country key="IT">Italia</country>
                                     </placeName>
@@ -1062,7 +1064,7 @@
 
                                 <birth>
                                     <date when="1912-03-08" cert="high">8 Marzo 1912</date>
-                                    <placeName ref="TEI-ListPlace#Roma">
+                                    <placeName ref="TEI-ListPlace#RO">
                                         <settlement type="municipality">Roma</settlement>
                                         <country key="IT">Italia</country>
                                     </placeName>
@@ -1084,14 +1086,16 @@
 
                                 <birth>
                                     <date when="1902-09-03" cert="high">3 Settembre 1902</date>
-                                    <placeName ref="TEI-ListPlace#Milano">
+                                    <placeName ref="TEI-ListPlace#MI">
                                         <settlement type="municipality">Milano</settlement>
                                         <country key="IT">Italia</country>
                                     </placeName>
                                 </birth>
 
                                 <death>
-                                    <date when="" cert="" notBefore="1945-06-23"></date>
+                                    <date when="" cert="" notBefore="1945-06-23">
+                                        <note resp="#GB">Essendo rimpatriata il 23 Giugno 1945 desumo sia morta successivamente</note>
+                                    </date>
                                     <placeName>
                                         <settlement type=""></settlement>
                                         <country key=""></country>
@@ -1113,7 +1117,7 @@
 
                                 <birth>
                                     <date when="1905-04-17" cert="high">17 Aprile 1905</date>
-                                    <placeName ref="TEI-ListPlace#Roma">
+                                    <placeName ref="TEI-ListPlace#RO">
                                         <settlement type="municipality">Roma</settlement>
                                         <country key="IT">Italia</country>
                                     </placeName>
@@ -1121,7 +1125,7 @@
 
                                 <death>
                                     <date when="1944-11-18" cert="high">18 Novembre 1944</date>
-                                    <placeName ref="TEI-ListPlace#Dachau">
+                                    <placeName ref="TEI-ListPlace#DA">
                                         <settlement type="municipality">Dachau</settlement>
                                         <country key="DE">Germania</country>
                                     </placeName>
@@ -1134,7 +1138,7 @@
     
                                 <persName role="vice_comandante_wehrmacht">
                                     <ref target=""/>
-                                    <foreName>Enzo</foreName>
+                                    <foreName></foreName>
                                     <surname>Blasi</surname>
                                 </persName>
 
@@ -1152,7 +1156,70 @@
                                 <death>
                                     <date when="" cert=""></date>
                                     <placeName ref="">
-                                        <settlement type="municipality"></settlement>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!-- Ernst Landau -->
+                        <person xml:id="ErnstL"> 
+    
+                                <persName>
+                                    <ref target="https://collections.ushmm.org/search/catalog/vha31995"/>
+                                    <foreName>Ernst</foreName>
+                                    <surname>Landau</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1916" cert="high">1916</date>
+                                    <placeName>
+                                        <settlement type="municipality">Vienna</settlement>
+                                        <country key="AT">Austria</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" cert="" notBefore="1997-06-22">
+                                        <note resp="#GB">Desumo che sia morto successivamente alla sua ultima intervista rilasciata, ovvero dopo il 22 Giugno 1997</note>
+                                    </date>
+                                    <placeName ref="">
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!-- Irving J. Smith: informazioni non trovate -->
+                        <person xml:id="IrvingJS"> 
+    
+                                <persName role="tenente_armata_americana">
+                                    <ref target=""/>
+                                    <foreName>Irving</foreName>
+                                    <foreName>J.</foreName>
+                                    <surname>Smith</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="" cert=""></date>
+                                    <placeName>
+                                    <note resp="#GB">Deducato dalle parole di Arminio che fosse americano</note>
+                                        <settlement type=""></settlement>
+                                        <country key="USA">Stati Uniti d'America</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" cert="" notBefore="1997-06-22">
+                                    </date>
+                                    <placeName ref="">
+                                        <settlement type=""></settlement>
                                         <country key=""></country>
                                     </placeName>
                                 </death>
@@ -1185,7 +1252,10 @@
                             <relation name="survivor" mutual="#AW #SettimiaS #LelloDS #IsaccoS #TriesteB"/>
                             <relation name="writer" active="#RudolfV" mutual="#AW"/>
                             <relation name="deportee-Varsavia" mutual="#AW #IsaacSS #MarioDV #LelloDS #IsaccoS"/>
-                            <relation name="deportee-Muldhorf" mutual="#AW #LelloDS #IsaccoS #TriesteB"/>
+                            <!--relazione successiva giusta?-->
+                            <relation name="deportee-Muhldorf" mutual="#AW #LelloDS #IsaccoS #TriesteB #ErnstL"/>
+                            <relation name="helper" active="#CapBlasi" passive="#AW #ErnstL #TriesteB"/>
+                            <relation name="helper" active="#IrvingJS" passive="#AW #ErnstL #TriesteB"/>
 					</listRelation>
                 </listPerson>
             

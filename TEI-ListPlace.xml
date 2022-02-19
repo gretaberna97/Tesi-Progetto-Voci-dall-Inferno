@@ -27,22 +27,22 @@
 
                     <head>Lista dei luoghi</head>
 
-                    <place xml:id="Milano">
+                    <place xml:id="MI">
                         <placeName ref="https://www.geonames.org/3173435 https://www.treccani.it/enciclopedia/milano/">Milano</placeName>
                         <country key="IT">Italia</country>
                     </place>
 
-                    <place xml:id="Fiume">
+                    <place xml:id="FM">
                         <placeName ref="https://www.geonames.org/3191648 https://www.treccani.it/enciclopedia/fiume/">Fiume</placeName>
                         <country key="HR">Croazia</country>                        
                     </place>
 
-                    <place xml:id="Italia">
+                    <place xml:id="IT">
                         <placeName ref="https://www.geonames.org/3175395 https://www.treccani.it/enciclopedia/italia/">Italia</placeName>
                         <country key="IT">Italia</country>
                     </place>
 
-                    <place xml:id="Auschwitz">
+                    <place xml:id="Au">
                         <placeName ref="https://www.geonames.org/7701596 https://www.treccani.it/enciclopedia/auschwitz/">Auschwitz</placeName>
                         <country key="PL">Polonia</country>
                     </place>
@@ -57,12 +57,12 @@
                         <country key="ROU">Romania</country>
                     </place>
 
-                    <place xml:id="Roma">
+                    <place xml:id="R0">
                         <placeName ref="https://www.geonames.org/3169070 https://www.treccani.it/enciclopedia/roma">Roma</placeName>
                         <country key="IT">Italia</country>
                     </place>
 
-                    <place xml:id="Gorizia">
+                    <place xml:id="GO">
                         <placeName ref="https://www.geonames.org/3175986 https://www.treccani.it/enciclopedia/gorizia">Gorizia</placeName>
                         <country key="IT">Italia</country>
                     </place>
@@ -72,17 +72,17 @@
                         <country key="PL">Polonia</country>
                     </place>
 
-                    <place xml:id="Foggia">
+                    <place xml:id="FG">
                         <placeName ref="https://www.geonames.org/3176885 https://www.treccani.it/enciclopedia/foggia">Foggia</placeName>
                         <country key="IT">Italia</country>
                     </place>
 
-                    <place xml:id="Napoli">
+                    <place xml:id="NA">
                         <placeName ref="https://www.geonames.org/3172394 https://www.treccani.it/enciclopedia/napoli/">Napoli</placeName>
                         <country key="IT">Italia</country>
                     </place>
 
-                    <place xml:id="Corfu">
+                    <place xml:id="KY">
                         <placeName ref="https://www.geonames.org/2463679 https://www.treccani.it/enciclopedia/corfu/">Corfù</placeName>
                         <country key="GR">Grecia</country>
                     </place>
@@ -97,7 +97,7 @@
                         <country key="DE">Germania</country>
                     </place>
 
-                    <place xml:id="Venezia">
+                    <place xml:id="VE">
                         <placeName ref="https://www.geonames.org/3164603 https://www.treccani.it/enciclopedia/venezia/">Venezia</placeName>
                         <country key="IT">Italia</country>
                     </place>
@@ -112,17 +112,17 @@
                         <country key="IL">Israele</country>
                     </place>
 
-                    <place xml:id="Varsavia">
+                    <place xml:id="WA">
                         <placeName ref="https://www.geonames.org/756135 https://www.treccani.it/enciclopedia/varsavia/">Varsavia</placeName>
                         <country key="PL">Polonia</country>
                     </place>
                     
-                    <place xml:id="Padova">
+                    <place xml:id="PD">
                         <placeName ref="https://www.geonames.org/3171728 https://www.treccani.it/enciclopedia/padova/">Padova</placeName>
                         <country key="IT">Italia</country>
                     </place>
 
-                    <place xml:id="Furth">
+                    <place xml:id="FU">
                         <placeName ref="https://www.geonames.org/2923544 https://www.treccani.it/enciclopedia/furth_%28Enciclopedia-Italiana%29/">Furth</placeName>
                         <country key="DE">Germania</country>
                     </place>
@@ -132,12 +132,12 @@
                         <country key="DE">Germania</country>
                     </place>
 
-                    <place xml:id="Birkenau">
+                    <place xml:id="Bi">
                         <placeName ref="https://www.geonames.org/7701596 https://www.treccani.it/enciclopedia/birkenau/">Birkenau</placeName>
                         <country key="PL">Polonia</country>
                     </place>
 
-                    <place xml:id="Canada">
+                    <place xml:id="CA">
                         <placeName ref="https://www.geonames.org/6251999 https://www.treccani.it/enciclopedia/canada/">Canada</placeName>
                         <country key="CA">Canada</country>
                     </place>
@@ -160,17 +160,17 @@
                         <note resp="#GB">Stato esistito tra il 1867 e il 1919</note>
                     </place>
 
-                    <place xml:id="Terezin">
+                    <place xml:id="Te">
                         <placeName ref="https://www.geonames.org/3064268 https://www.treccani.it/enciclopedia/terezin/">Theresienstadt</placeName>
                         <country key="CZ">Repubblica Ceca</country>
                     </place>
 
-                    <place xml:id="Jaworzno"><!--wikipedia: su treccani.it non c'è la voce-->
+                    <place xml:id="Ja"><!--wikipedia: su treccani.it non c'è la voce-->
                         <placeName ref="https://www.geonames.org/3097333 https://it.wikipedia.org/wiki/Jaworzno/">Jaworzno</placeName>
                         <country key="PL">Polonia</country>
                     </place>
 
-                    <place xml:id="Dachau">
+                    <place xml:id="DA">
                         <placeName ref="http://www.geonames.org/2939623 https://www.treccani.it/enciclopedia/dachau/">Dachau</placeName>
                         <country key="DE">Germania</country>
                     </place>
@@ -180,22 +180,22 @@
                         <country key="GR">Grecia</country>
                     </place>
 
-                    <place xml:id="Berlino">
+                    <place xml:id="B">
                         <placeName ref="https://www.geonames.org/2950159 https://www.treccani.it/enciclopedia/berlino/">Berlino</placeName>
                         <country key="DE">Germania</country>
                     </place>
 
-                    <place xml:id="Feldafing"><!--no informazioni su treccani.it-->
+                    <place xml:id="Fe"><!--no informazioni su treccani.it-->
                         <placeName ref="https://www.geonames.org/2927464 https://en.wikipedia.org/wiki/Feldafing">Feldafing</placeName>
                         <country key="DE">Germania</country>
                     </place>
 
-                    <place xml:id="Munich">
+                    <place xml:id="MC">
                         <placeName ref="https://www.geonames.org/2867714 https://www.treccani.it/enciclopedia/monaco-di-baviera/">Monaco di Baviera</placeName>
                         <country key="DE">Germania</country>
                     </place>
 
-                    <place xml:id="Kutno"><!--no informazioni su treccani.it-->
+                    <place xml:id="EKU"><!--no informazioni su treccani.it-->
                         <placeName ref="https://www.geonames.org/3094170 https://it.wikipedia.org/wiki/Kutno">Kutno</placeName>
                         <country key="PL">Polonia</country>
                     </place>
@@ -204,43 +204,48 @@
                         <placeName ref="https://www.geonames.org/6255148 https://www.treccani.it/enciclopedia/europa/">Europa</placeName>
                     </place>
 
-                    <place xml:id="Muhldorf"><!--no informazioni su treccani.it-->
+                    <place xml:id="MU"><!--no informazioni su treccani.it-->
                         <placeName ref="https://www.geonames.org/2868506 https://it.wikipedia.org/wiki/Mühldorf_am_Inn">Mühldorf am Inn</placeName>
                         <country key="DE">Germania</country>
                     </place>
 
-                    <place xml:id="Torino">
+                    <place xml:id="TO">
                         <placeName ref="https://www.geonames.org/3165524 https://www.treccani.it/enciclopedia/torino/">Torino</placeName>
                         <country key="IT">Italia</country>
                     </place>
 
-                    <place xml:id="Zangberg"><!--no informazioni su treccani.it-->
+                    <place xml:id="Za"><!--no informazioni su treccani.it-->
                         <placeName ref="https://www.geonames.org/2805261 https://it.wikipedia.org/wiki/Zangberg">Zangberg</placeName>
                         <country key="DE">Germania</country>
                     </place>
 
-                    <place xml:id="Stoccanda">
+                    <place xml:id="S">
                         <placeName ref="https://www.geonames.org/2825297 https://www.treccani.it/enciclopedia/stoccarda/">Stoccarda</placeName>
                         <country key="DE">Germania</country>
                     </place>
 
-                    <place xml:id="Poing"><!--no informazioni su treccani.it-->
+                    <place xml:id="Po"><!--no informazioni su treccani.it-->
                         <placeName ref="https://www.geonames.org/6556158 https://it.wikipedia.org/wiki/Poing">Stoccarda</placeName>
                         <country key="DE">Germania</country>
                     </place>
 
-                    <place xml:id="Augsburg">
+                    <place xml:id="A">
                         <placeName ref="https://www.geonames.org/2954172 https://www.treccani.it/enciclopedia/augusta/">Augsburg</placeName>
                         <country key="DE">Germania</country>
                     </place>
 
-                    <place xml:id="Waltershausen"><!--info non certa + no informazioni su treccani.it-->
+                    <place xml:id="Wal"><!--info non certa + no informazioni su treccani.it-->
                         <placeName ref="https://www.geonames.org/2814392 https://it.wikipedia.org/wiki/Waltershausen">Waltershausen</placeName>
                         <country key="DE">Germania</country>
                     </place>
 
-                    <place xml:id="Kochelsee"><!--no informazioni su treccani.it-->
+                    <place xml:id="Ko"><!--no informazioni su treccani.it-->
                         <placeName ref="https://www.geonames.org/2886920 https://en.wikipedia.org/wiki/Kochelsee">Lago di Kochel</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
+
+                    <place xml:id="Tu"><!--info non certa + no informazioni su treccani.it-->
+                        <placeName ref="https://www.geonames.org/2820692 https://it.wikipedia.org/wiki/Tutzing">Tutzing</placeName>
                         <country key="DE">Germania</country>
                     </place>
                 </listPlace>
