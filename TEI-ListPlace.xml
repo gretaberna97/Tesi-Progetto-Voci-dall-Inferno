@@ -27,6 +27,16 @@
 
                     <head>Lista dei luoghi</head>
 
+                    <place xml:id="GhettoRO">
+                        <placeName ref="https://www.geonames.org/11822324 https://it.wikipedia.org/wiki/Ghetto_di_Roma">Ex ghetto di Roma</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="GhettoWA">
+                        <placeName ref="https://www.geonames.org/11524356 https://www.treccani.it/enciclopedia/tag/ghetto-di-varsavia/">Ex ghetto di Varsavia</placeName>
+                        <country key="PL">Polonia</country>
+                    </place>
+
                     <place xml:id="MI">
                         <placeName ref="https://www.geonames.org/3173435 https://www.treccani.it/enciclopedia/milano/">Milano</placeName>
                         <country key="IT">Italia</country>
@@ -59,6 +69,11 @@
 
                     <place xml:id="R0">
                         <placeName ref="https://www.geonames.org/3169070 https://www.treccani.it/enciclopedia/roma">Roma</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="StTib"><!--no info treccani-->
+                        <placeName ref="https://www.geonames.org/3169043 https://it.wikipedia.org/wiki/Stazione_di_Roma_Tiburtina">Stazione Tiburtina</placeName>
                         <country key="IT">Italia</country>
                     </place>
 
@@ -119,6 +134,11 @@
                     
                     <place xml:id="PD">
                         <placeName ref="https://www.geonames.org/3171728 https://www.treccani.it/enciclopedia/padova/">Padova</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="StCen"><!--no info treccani-->
+                        <placeName ref="https://www.geonames.org/7778933 https://it.wikipedia.org/wiki/Stazione_di_Padova">Stazione Padova Centrale</placeName>
                         <country key="IT">Italia</country>
                     </place>
 
@@ -205,7 +225,12 @@
                     </place>
 
                     <place xml:id="MU"><!--no informazioni su treccani.it-->
-                        <placeName ref="https://www.geonames.org/2868506 https://it.wikipedia.org/wiki/Mühldorf_am_Inn">Mühldorf am Inn</placeName>
+                        <placeName ref="https://www.geonames.org/2868506 https://it.wikipedia.org/wiki/Mühldorf_am_Inn">Muhldorf</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
+
+                    <place xml:id="WalV"><!--no informazioni su treccani.it-->
+                        <placeName ref="https://www.geonames.org/2814872 https://rememor.eu/wp-content/uploads/2015/06/p06_therkel_straede_EN.pdf">Waldlager</placeName>
                         <country key="DE">Germania</country>
                     </place>
 
@@ -244,7 +269,7 @@
                         <country key="DE">Germania</country>
                     </place>
 
-                    <place xml:id="Tu"><!--info non certa + no informazioni su treccani.it-->
+                    <place xml:id="Tu"><!--no informazioni su treccani.it-->
                         <placeName ref="https://www.geonames.org/2820692 https://it.wikipedia.org/wiki/Tutzing">Tutzing</placeName>
                         <country key="DE">Germania</country>
                     </place>
@@ -292,6 +317,18 @@
                     <place xml:id="Friuli"><!--geonames del FVG-->
                         <placeName ref="https://www.geonames.org/3176525 https://www.treccani.it/enciclopedia/friuli/">Friuli</placeName>
                         <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="Alpi">
+                        <placeName ref="https://www.geonames.org/2661786 https://www.treccani.it/enciclopedia/alpi/">Alpi</placeName>
+                        <country key="IT">Italia</country>
+                        <country key="AT">Austria</country>
+                        <country key="CH">Svizzera</country>
+                        <country key="DE">Germania</country>
+                        <country key="FR">Francia</country>
+                        <country key="LI">Liechtenstein</country>
+                        <country key="MC">Monaco</country>
+                        <country key="SI">Slovenia</country>
                     </place>
                 </listPlace>
             
