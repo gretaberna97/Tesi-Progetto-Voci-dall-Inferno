@@ -29,11 +29,13 @@
 
                     <place xml:id="GhettoRO">
                         <placeName ref="https://www.geonames.org/11822324 https://it.wikipedia.org/wiki/Ghetto_di_Roma">Ex ghetto di Roma</placeName>
+                        <district type="quartier" from="1555-07-12" to="1848-04-17">Ghetto di Roma</district>
                         <country key="IT">Italia</country>
                     </place>
 
                     <place xml:id="GhettoWA">
                         <placeName ref="https://www.geonames.org/11524356 https://www.treccani.it/enciclopedia/tag/ghetto-di-varsavia/">Ex ghetto di Varsavia</placeName>
+                        <district type="quartier" from="1940-10-16" to="1943-05-16">Ghetto di Varsavia</district>
                         <country key="PL">Polonia</country>
                     </place>
 
@@ -329,6 +331,11 @@
                         <country key="LI">Liechtenstein</country>
                         <country key="MC">Monaco</country>
                         <country key="SI">Slovenia</country>
+                    </place>
+
+                    <place xml:id="Tevere">
+                        <placeName ref="https://www.geonames.org/11856723 https://www.treccani.it/enciclopedia/tevere/">Tevere</placeName>
+                        <country key="IT">Italia</country>
                     </place>
                 </listPlace>
             
