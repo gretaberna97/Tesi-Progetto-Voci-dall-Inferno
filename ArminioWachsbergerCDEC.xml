@@ -2798,7 +2798,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW42" synch="#TS85">
-                    <anchor xml:id="arm-45" synch="#TT45"/>si<pause/> così<anchor xml:id="arm-46" synch="#TT46"/> almeno <del type="repetition">me</del> me lo stava dicendo <rs ref="TEI-ListPerson.xml#ReginaP" resp="#GB">mia moglie</rs> al <choice><sic><unclear reason="inaudible" resp="#GB" cert="medium"><del type="truncation">tele</del></sic><corr resp="#GB">telefono</corr></choice></unclear>
+                    <anchor xml:id="arm-45" synch="#TT45"/>si<pause/> così<anchor xml:id="arm-46" synch="#TT46"/> almeno <del type="repetition">me</del> me lo stava dicendo <rs ref="TEI-ListPerson.xml#ReginaP" resp="#GB">mia moglie</rs> al <choice><sic><unclear reason="inaudible" resp="#GB" cert="medium"><del type="truncation">tele</del></unclear></sic><corr resp="#GB">telefono</corr></choice>
                 </u>
 
                 <pause/>
