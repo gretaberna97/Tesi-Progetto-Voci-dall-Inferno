@@ -316,6 +316,11 @@
                         <country key="IT">Italia</country>
                     </place>
 
+                    <place xml:id="BYHM">
+                        <placeName ref="https://www.geonames.org/625144 https://www.treccani.it/enciclopedia/minsk/">Minsk</placeName>
+                        <country key="BY">Bielorussia</country>
+                    </place>
+
                     <place xml:id="Friuli"><!--geonames del FVG-->
                         <placeName ref="https://www.geonames.org/3176525 https://www.treccani.it/enciclopedia/friuli/">Friuli</placeName>
                         <country key="IT">Italia</country>
