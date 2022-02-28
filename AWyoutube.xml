@@ -65,7 +65,7 @@
                                     <title>Arminio Wachsberger "Spielburg"</title>
                                     <biblScope>Parte I di V</biblScope>
                                 </series>
-                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName>  e sul sito </note>   <!-- guardare -->
+                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#MI">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName> e sul sito </note>   <!-- guardare -->
                             </bibl> 
                         </broadcast>
 
@@ -104,7 +104,7 @@
                                     <title>Arminio Wachsberger "Spielburg"</title>
                                     <biblScope>Parte II di V</biblScope>
                                 </series>
-                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> e sul sito </note>   <!-- guardare -->
+                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#MI">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName> e sul sito </note>   <!-- guardare -->
                             </bibl> 
                         </broadcast>
 
@@ -143,7 +143,7 @@
                                     <title>Arminio Wachsberger "Spielburg"</title>
                                     <biblScope>Parte III di V</biblScope>
                                 </series>
-                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> e sul sito </note>   <!-- guardare -->
+                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#MI">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName> e sul sito </note>   <!-- guardare -->
                             </bibl> 
                         </broadcast>
 
@@ -182,7 +182,7 @@
                                     <title>Arminio Wachsberger "Spielburg"</title>
                                     <biblScope>Parte IV di V</biblScope>
                                 </series>
-                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> e sul sito </note>   <!-- guardare -->
+                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#MI">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName> e sul sito </note>   <!-- guardare -->
                             </bibl> 
                         </broadcast>
 
@@ -221,7 +221,7 @@
                                     <title>Arminio Wachsberger "Spielburg"</title>
                                     <biblScope>Parte V di V</biblScope>
                                 </series>
-                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> e sul sito </note>   <!-- guardare -->
+                                <note>Il video, registrato a <placeName ref="TEI-ListPlace.xml#MI">Milano</placeName>, è disponibile su YouTube ma è anche integralmente consultabile presso l'Archivio Centrale dello Stato di <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName> e sul sito </note>   <!-- guardare -->
                             </bibl> 
                         </broadcast>
 
@@ -253,7 +253,8 @@
                     <person xml:id="MA">
                         <persName>
                             <forename>Maurina</forename>
-                            <surname>Alazraki</surname>
+                            <surname type="birth" cert="medium">Schinasi</surname>
+                            <surname type="married" cert="medium">Alazraki</surname>
                         </persName>
                     </person>
 
@@ -270,7 +271,13 @@
 
 
             <langUsage>
-                <language ident="it">Italiano</language> 
+                <language ident="it">Italiano</language>
+                <!--
+                <language ident="de">Tedesco</language>
+                <language ident="he">Ebraico</language>
+                <language ident="fr">Francese</language>
+                <language ident="en">Inglese</language>
+                -->
             </langUsage>
 
 
@@ -310,16 +317,16 @@ City: Milan -->
         <!--Timeline body momenti di sovrapposizione dei due parlanti (e le interruzioni)-->
         <timeline xml:id="TL2" unit="s"> 
 
-            <when xml:id="TT01" absolute="0:34" synch="#amr-01"/> <!--synch punta all'id dell'ancora-->
+            <when xml:id="TT01" absolute="0:34" synch="#arm-01"/> <!--synch punta all'id dell'ancora-->
             <when xml:id="TT02" since="#TT01" interval="1"/>
 
             <when xml:id="TT03" absolute="1:15" synch="#arm-03"/>
             <when xml:id="TT04" since="#TT03" interval="1"/>
 
-            <when xml:id="TT05" absolute="1:17" synch="#int-05"/>
+            <when xml:id="TT05" absolute="1:17" synch="#ma-05"/>
             <when xml:id="TT06" since="#TT05" interval="1"/>
 
-            <when xml:id="TT07" absolute="1:25" synch="int-07"/>
+            <when xml:id="TT07" absolute="1:25" synch="ma-07"/>
             <when xml:id="TT08" since="#TT07" interval="1"/>
 
             <when xml:id="TT09" absolute="1:26" synch="amr-09"/>
@@ -328,22 +335,22 @@ City: Milan -->
             <when xml:id="TT11" absolute="1:33" synch="arm-11"/>
             <when xml:id="TT12" since="#TT11" interval="1"/>
 
-            <when xml:id="TT13" absolute="1:36" synch="int-13"/>
+            <when xml:id="TT13" absolute="1:36" synch="ma-13"/>
             <when xml:id="TT14" since="#TT13" interval="1"/>
 
-            <when xml:id="TT15" absolute="1:57" synch="int-15"/>
+            <when xml:id="TT15" absolute="1:57" synch="ma-15"/>
             <when xml:id="TT16" since="#TT15" interval="1"/>
 
-            <when xml:id="TT17" absolute="2:01" synch="int-17"/>
+            <when xml:id="TT17" absolute="2:01" synch="ma-17"/>
             <when xml:id="TT18" since="#TT17" interval="1"/>
 
-            <when xml:id="TT19" absolute="2:03" synch="int-19"/>
+            <when xml:id="TT19" absolute="2:03" synch="ma-19"/>
             <when xml:id="TT20" since="#TT19" interval="1"/>
 
             <when xml:id="TT21" absolute="2:50" synch="arm-21"/>
             <when xml:id="TT22" since="#TT21" interval="1"/>
 
-            <when xml:id="TT23" absolute="3:17" synch="int-23"/>
+            <when xml:id="TT23" absolute="3:17" synch="ma-23"/>
             <when xml:id="TT24" since="#TT23" interval="1"/>
 
             <when xml:id="TT25" absolute="3:36" synch="arm-25"/>
@@ -352,31 +359,31 @@ City: Milan -->
             <when xml:id="TT27" absolute="4:16" synch="arm-27"/>
             <when xml:id="TT28" since="#TT27" interval="1"/>
 
-            <when xml:id="TT29" absolute="4:31" synch="int-29"/>
+            <when xml:id="TT29" absolute="4:31" synch="ma-29"/>
             <when xml:id="TT30" since="#TT29" interval="1"/>
 
             <when xml:id="TT31" absolute="4:37" synch="arm-31"/>
             <when xml:id="TT32" since="#TT31" interval="1"/>
 
-            <when xml:id="TT33" absolute="4:44" synch="int-33"/>
+            <when xml:id="TT33" absolute="4:44" synch="ma-33"/>
             <when xml:id="TT34" since="#TT33" interval="1"/>
 
-            <when xml:id="TT35" absolute="4:49" synch="int-35"/>
+            <when xml:id="TT35" absolute="4:49" synch="ma-35"/>
             <when xml:id="TT36" since="#TT35" interval="1"/>
 
-            <when xml:id="TT37" absolute="5:16" synch="int-37"/>
+            <when xml:id="TT37" absolute="5:16" synch="ma-37"/>
             <when xml:id="TT38" since="#TT37" interval="1"/>
 
-            <when xml:id="TT39" absolute="5:36" synch="int-39"/>
+            <when xml:id="TT39" absolute="5:36" synch="ma-39"/>
             <when xml:id="TT40" since="#TT39" interval="1"/>
 
             <when xml:id="TT41" absolute="5:38" synch="arm-41"/>
             <when xml:id="TT42" since="#TT39" interval="1"/>
 
-            <when xml:id="TT43" absolute="5:40" synch="int-43"/>
+            <when xml:id="TT43" absolute="5:40" synch="ma-43"/>
             <when xml:id="TT44" since="#TT43" interval="1"/>
 
-            <when xml:id="TT45" absolute="6:22" synch="int-45"/>
+            <when xml:id="TT45" absolute="6:22" synch="ma-45"/>
             <when xml:id="TT46" since="#TT45" interval="1"/>
 
             <when xml:id="TT47" absolute="6:30" synch="arm-47"/>
@@ -388,7 +395,7 @@ City: Milan -->
             <when xml:id="TT51" absolute="7:14" synch="arm-51"/>
             <when xml:id="TT52" since="#TT51" interval="1"/>
 
-            <when xml:id="TT53" absolute="7:26" synch="int-53"/>
+            <when xml:id="TT53" absolute="7:26" synch="ma-53"/>
             <when xml:id="TT54" since="#TT53" interval="1"/>
 
             <when xml:id="TT55" absolute="8:12" synch="arm-55"/>
@@ -397,7 +404,7 @@ City: Milan -->
             <when xml:id="TT57" absolute="8:23" synch="arm-57"/>
             <when xml:id="TT58" since="#TT57" interval="1"/>
 
-            <when xml:id="TT59" absolute="8:26" synch="int-59"/>
+            <when xml:id="TT59" absolute="8:26" synch="ma-59"/>
             <when xml:id="TT60" since="#TT59" interval="1"/>
 
             <when xml:id="TT61" absolute="8:30" synch="arm-61"/>
@@ -409,13 +416,13 @@ City: Milan -->
             <when xml:id="TT65" absolute="9:24" synch="arm-65"/>
             <when xml:id="TT66" since="#TT65" interval="1"/>
 
-            <when xml:id="TT67" absolute="9:27" synch="int-67"/>
+            <when xml:id="TT67" absolute="9:27" synch="ma-67"/>
             <when xml:id="TT68" since="#TT67" interval="1"/>
 
-            <when xml:id="TT69" absolute="9:30" synch="int-69"/>
+            <when xml:id="TT69" absolute="9:30" synch="ma-69"/>
             <when xml:id="TT70" since="#TT69" interval="2"/>
 
-            <when xml:id="TT71" absolute="9:34" synch="int-71"/>
+            <when xml:id="TT71" absolute="9:34" synch="ma-71"/>
             <when xml:id="TT72" since="#TT71" interval="1"/>
 
             <when xml:id="TT73" absolute="9:49" synch="arm-73"/>
@@ -427,19 +434,19 @@ City: Milan -->
             <when xml:id="TT77" absolute="11:40" synch="arm-77"/>
             <when xml:id="TT78" since="#TT77" interval="1"/>
 
-            <when xml:id="TT79" absolute="11:42" synch="int-79"/>
+            <when xml:id="TT79" absolute="11:42" synch="ma-79"/>
             <when xml:id="TT80" since="#TT79" interval="1"/>
 
             <when xml:id="TT81" absolute="13:52" synch="arm-81"/>
             <when xml:id="TT82" since="#TT81" interval="1"/>
 
-            <when xml:id="TT83" absolute="13:54" synch="int-83"/>
+            <when xml:id="TT83" absolute="13:54" synch="ma-83"/>
             <when xml:id="TT84" since="#TT83" interval="1"/>
 
-            <when xml:id="TT83" absolute="13:54" synch="int-83"/>
+            <when xml:id="TT83" absolute="13:54" synch="ma-83"/>
             <when xml:id="TT84" since="#TT83" interval="1"/>
 
-            <when xml:id="TT85" absolute="15:16" synch="int-85"/>
+            <when xml:id="TT85" absolute="15:16" synch="ma-85"/>
             <when xml:id="TT86" since="#TT85" interval="1"/>
 
             <when xml:id="TT87" absolute="15:22" synch="arm-87"/>
@@ -448,16 +455,16 @@ City: Milan -->
             <when xml:id="TT89" absolute="15:28" synch="arm-89"/>
             <when xml:id="TT90" since="#TT89" interval="1"/>
 
-            <when xml:id="TT91" absolute="15:29" synch="int-91"/>
+            <when xml:id="TT91" absolute="15:29" synch="ma-91"/>
             <when xml:id="TT92" since="#TT91" interval="1"/>
 
-            <when xml:id="TT93" absolute="15:30" synch="int-93"/>
+            <when xml:id="TT93" absolute="15:30" synch="ma-93"/>
             <when xml:id="TT94" since="#TT93" interval="1"/>
 
             <when xml:id="TT95" absolute="16:44" synch="arm-94"/>
             <when xml:id="TT96" since="#TT95" interval="1"/>
 
-            <when xml:id="TT97" absolute="17:52" synch="int-97"/>
+            <when xml:id="TT97" absolute="17:52" synch="ma-97"/>
             <when xml:id="TT98" since="#TT97" interval="1"/>
 
             <when xml:id="TT99" absolute="17:56" synch="arm-99"/>
@@ -466,7 +473,7 @@ City: Milan -->
             <when xml:id="TT101" absolute="17:58" synch="arm-101"/>
             <when xml:id="TT102" since="#TT101" interval="1"/>
 
-            <when xml:id="TT103" absolute="18:01" synch="int-103"/>
+            <when xml:id="TT103" absolute="18:01" synch="ma-103"/>
             <when xml:id="TT104" since="#TT103" interval="1"/>
 
             <when xml:id="TT105" absolute="18:40" synch="arm-105"/>
@@ -560,50 +567,50 @@ City: Milan -->
 
         <body>
                        
-            <div type="testo"> <!-- Parte I -->
+            <div type="testo" ref="#parteI"> <!-- Parte I -->
 
                 <u who="#PF" xml:id="PF1" synch="#TS01">
-                    Okay quando volete <vocal><desc>sospira</desc></vocal>
+                    <foreign xml:lang="en">okay</foreing> quando volete <vocal><desc>sospira</desc></vocal>
                 </u>
 
                 <u who="#MA" xml:id="MA1" synch="#TS02">
-                    <date when="1998-03-04">4 Marzo 1998</date><pause/> cassetta numero cinque<pause/> intervisto il <persName ref="TEI-ListPerson.xml#AW"><roleName type="honorific">Signor</roleName>Arminio<pause/> <foreign xml:lang="de">Wachsberger</foreign></persName><pause/> Allora <persName ref="TEI-ListPerson.xml#AW"><roleName type="honorific">Signor</roleName> <foreign xml:lang="de">Wachsberger</foreign></persName> siamo arrivati alla quarantena mi ha raccontato 
+                    <date when="1998-03-04">4 Marzo 1998</date><pause/> cassetta numero cinque<pause/> intervisto il <persName ref="TEI-ListPerson.xml#AW"><roleName type="honorific">signor</roleName> Arminio<pause/> Wachsberger</persName><pause/> allora <persName ref="TEI-ListPerson.xml#AW"><roleName type="honorific">signor</roleName> Wachsberger</persName> siamo arrivati alla quarantena <del type="falseStart">mi ha raccontato</del>
                 </u>
 
-                <u who="#AW" xml:id="AW1" synch="#TS03"><!-- Allungamento sillabe -->
-                    Si <del type="falseStart"><del type="repetition">llla </del> lla </del><del type="reformulation">dunque</del> la <ancor xml:id="arm-01" synch="#TT01"/>baracca<ancor xml:id="amr-02" synch="#TT02"/>
+                <u who="#AW" xml:id="AW1" synch="#TS03"><!--frase non terminata? da unire a TS05?-->
+                    si <del type="falseStart"><del type="repetition">la</del> la</del><del type="reformulation">dunque</del> la <ancor xml:id="arm-01" synch="#TT01"/>baracca<ancor xml:id="amr-02" synch="#TT02"/>
                 </u>
 
                 <u who="#MA" xml:id="MA2" synch="#TS04">
-                    <anchor xml:id="int-01" synch="#TT01"/><del type="repetition">me la</del><ancor xml:id="int-02" synch="#TT02"/> me la descriva si
+                    <anchor xml:id="ma-01" synch="#TT01"/><del type="repetition">me la</del><ancor xml:id="ma-02" synch="#TT02"/> me la descriva si
                 </u>
                
                 <u who="#AW" xml:id="AW2" synch="#TS05">
-                    ecco <vocal>ehm</vocal><kinesic> l’avete visto sicuramente tante volte <desc>si accarezza la nuca con la sua mano destra</desc></kinesic> in fotografia <pause/> erano baracche di legno <pause/>senza finestre <pause/> che aveva <pause/> come <pause/><kinesic iterated="true"><desc>muove la sua mano destra (posta in orizzontale, con il palmo rivolto verso il basso) da destra verso sinistra per indicare i letti</desc></kinesic>  per dormire <pause/>tre piani di <kinesic><desc> muove entrambe le mani rivolte con il palmo verso il basso dal centro verso l'esterno</kinesic><del type="reformulation">semplicemente di</del> legno <pause/><kinesic><desc>porta le mani all'altezza della nuca e entrambi gli indici verso l'alto per indicare un inciso</desc></kinesic><del type="repetition">non</del> non letti a castello <pause/> ma bensì come se fossero letti a castello <kinesic iterated="true"><desc>muove la sua mano destra (posta in orizzontale, con il palmo rivolto verso il basso) da destra verso sinistra per indicare i letti e gestiscola</desc></kinesic>tre ripiani <pause/>Quindi chi era al pian terreno entrava facilmente <pause/><kinesic iterated="true"><desc>con le mani gesticola una arrampicata</desc></kinesic>gli altri dovevano arrampicarsi <pause/> Io stavo al terzo e quindi avevo davanti <pause/>non era una finestra<pause/><kinesic><desc>allarga le mani per simulare una fessura</desc></kinesci> una fessura così che serviva per <unclear reason="inaudible" resp="#GB">il</unclear> ricambio d’aria<pause/><kinesic><desc>gesticola</desc></kinesic> ecco da dove vedevo quelli della <del type="correction">di</del><ancor xml:id="arm-03" synch="#TT03"/><foreign xml:lang="de">Teresistan</foreign><ancor xml:id="arm-04" synch="#TT04"/><!-- Lista Luoghi: Theresienstadt -->
+                    ecco <vocal>ehm</vocal> l’avete visto sicuramente tante volte <kinesic><desc>si accarezza la nuca con la mano destra</desc></kinesic> in fotografia<pause/> erano baracche di legno<pause/> senza finestre<pause/> che <choice><sic>aveva</sic><corr resp="#GB">avevano</corr></choice><pause/> <del type="falseStart">come</del><pause/><kinesic iterated="true"><desc>muove la sua mano destra (posta in orizzontale, con il palmo rivolto verso il basso) da destra verso sinistra per indicare i letti</desc></kinesic> per dormire<pause/> tre piani <del type="falseStart">di</del><kinesic><desc> muove entrambe le mani rivolte con il palmo verso il basso dal centro verso l'esterno</kinesic> <del type="reformulation">semplicemente di</del> legno<pause/> <kinesic><desc>porta le mani all'altezza della nuca e entrambi gli indici verso l'alto per indicare un inciso</desc></kinesic> <del type="repetition">non</del> non letti a castello<pause/> ma bensì come se fossero letti a castello <kinesic iterated="true"><desc>muove la sua mano destra (posta in orizzontale, con il palmo rivolto verso il basso) da destra verso sinistra per indicare i letti e gestiscola</desc></kinesic> tre ripiani<pause/> quindi chi era al pian terreno entrava facilmente <pause/><kinesic iterated="true"><desc>con le mani gesticola una arrampicata</desc></kinesic> gli altri dovevano arrampicarsi<pause/> io stavo al terzo e quindi avevo davanti <pause/>non era una finestra<pause/><kinesic><desc>allarga le mani per simulare una fessura</desc></kinesic> una fessura così che serviva per <unclear reason="inaudible" resp="#GB" cert="medium">il</unclear> ricambio d’aria<pause/><kinesic><desc>gesticola</desc></kinesic> ecco da dove vedevo quelli <del type="falseStart">della</del> <del type="correction">di</del><ancor xml:id="arm-03" synch="#TT03"/><ancor xml:id="arm-04" synch="#TT04"/> <placeName ref="TEI-ListPlace.xml#Te">Theresienstadt</placeName>
                 </u>
 
                 <u who="#MA" xml:id="MA3" synch="#TS06"/>
-                    <anchor xml:id="int-03" synch="#TT03"/>in <anchor xml:id="int-04" synch="#TT04"/>quanti<vocal>ehm</vocal> dormivate <ancor xml:id="int-05" synch="#TT05"/>su questi <unclear reason="inaudible" cert="high">piani</unclear><ancor xml:id="int-06" synch="#TT06"/>
+                    <anchor xml:id="ma-03" synch="#TT03"/>in <anchor xml:id="ma-04" synch="#TT04"/>quanti <vocal>ehm</vocal> dormivate <ancor xml:id="ma-05" synch="#TT05"/>su questi <unclear reason="inaudible" cert="high">piani</unclear><ancor xml:id="ma-06" synch="#TT06"/>
                 </u>
                 
                 <u who="#AW" xml:id="AW3" synch="#TS07"/>
-                    <ancor xml:id="arm-05" synch="#TT05"/>Dunque <ancor xml:id="amr-06" synch="#TT06"/><choice><sic>c’era da cinquecento</sic><corr resp="#GB"> c'erano cinquecento persone</corr></choice><pause/> fino a mille in una baracca  <!-- NON CONVINTA -->
+                    <ancor xml:id="arm-05" synch="#TT05"/>dunque <ancor xml:id="amr-06" synch="#TT06"/><choice><sic>c’era da cinquecento</sic><corr resp="#GB"> c'erano cinquecento persone</corr></choice><pause/> fino a mille in una baracca
                 </u>
 
                 <u who="#MA" xml:id="MA4" synch="TS08"/>
-                    <del type="repetition">E </del>e <vocal>ehm</vocal><pause/> con lei proprio nel suo piano diciamo <anchor xml:id="int-07" synch="#TT07"/><del type="reformulation">nel terzo piano</del><anchor xml:id="int-08" synch="#TT08"/>
+                    <del type="repetition">e</del> e <vocal>ehm</vocal><pause/> con lei proprio nel suo piano diciamo <anchor xml:id="ma-07" synch="#TT07"/><del type="reformulation">nel terzo piano</del><anchor xml:id="ma-08" synch="#TT08"/>
                 </u>
 
                 <u who="#AW" xml:id="AW4" synch="TS09"/>
-                    <ancor xml:id="arm-07" synch="#TT07"/><del type="truncation"><del type="repetition">E</del> e</del> <kinesic><desc>alza le mani</desc></kinesic>eravamo<ancor xml:id="arm-08" synch="#TT08"/> in sei<ancor xml:id="arm-09" synch="#TT09"/> ogni di <ancor xml:id="arm-10" synch="#TT10"/> ogni<kinesic><desc>pone le mani una sopra l'altra simulando la vicinanza dei corpi</desc><kinesic> <del type="truncation">co</del> come le acciughe perché non si poteva <del type="correction">non potevi</del> voltarti durante la notte per il sonno perché <ancor xml:id="arm-11" synch="#TT11"/> altrimenti <kinesic><desc>muove la sua mano destra dal suo corpo verso l'intervistatrice<del type="truncation">vo</del><ancor xml:id="arm-12" synch="#TT12"/>
+                    <ancor xml:id="arm-07" synch="#TT07"/><del type="truncation"><del type="repetition">e</del> e</del> <kinesic><desc>alza le mani</desc></kinesic>eravamo<ancor xml:id="arm-08" synch="#TT08"/> in sei<ancor xml:id="arm-09" synch="#TT09"/> <del type="falseStart">ogni di <ancor xml:id="arm-10" synch="#TT10"/> ogni</del><kinesic><desc>pone le mani una sopra l'altra simulando la vicinanza dei corpi</desc><kinesic> <del type="truncation">co</del> come le acciughe perché <del type="falseStart">non si poteva</del> <del type="correction">non potevi</del> voltarti durante la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> per il sonno <del type="falseStart">perché <ancor xml:id="arm-11" synch="#TT11"/> altrimenti <kinesic><desc>muove la sua mano destra dal suo corpo verso l'intervistatrice</desc></kinesic><del type="truncation">vo</del><ancor xml:id="arm-12" synch="#TT12"/></del>
                 </u>
 
                 <u who="#MA"/>
-                    <ancor xml:id="int-09" synch="#TT09"/>in sei<ancor xml:id="int-10" synch="#TT10">
+                    <ancor xml:id="ma-09" synch="#TT09"/>in sei<ancor xml:id="ma-10" synch="#TT10">
                 </u>
 
                 <u who="#MA" xml:id="MA5" synch="TS10">
-                    <ancor xml:id="int-11" synch="#TT11"/>c'era un materasso<ancor xml:id="int-12" synch="#TT12"/>
+                    <ancor xml:id="ma-11" synch="#TT11"/>c'era un materasso<ancor xml:id="ma-12" synch="#TT12"/>
                 </u>
 
                 <u who="#AW"/>
@@ -611,11 +618,11 @@ City: Milan -->
                 </u>
                 
                 <u who="#MA" xml:id="MA6" synch="TS11">
-                    c'era un materasso <pause/> <ancor xml:id="int-13" synch="#TT13"/>qualcosa<ancor xml:id="int-14" synch="#TT14"/> non c'era niente
+                    c'era un materasso<pause/> <ancor xml:id="ma-13" synch="#TT13"/>qualcosa<ancor xml:id="ma-14" synch="#TT14"/> non c'era niente
                 </u>
 
                 <u who="#AW" xml:id="AW5" synch="TS12"/>
-                    ma che <ancor xml:id="arm-13" synch="#TT13"/>materasso<ancor xml:id="arm-14" synch="#TT13"/> c'era una specie <del type="repetition">di</del> di paglia c'era
+                    ma che <ancor xml:id="arm-13" synch="#TT13"/>materasso<ancor xml:id="arm-14" synch="#TT13"/> c'era una specie <del type="repetition">di</del> di paglia <del type="falseStart">c'era</del>
                 </u>
 
                 <u who="#MA">
@@ -623,46 +630,46 @@ City: Milan -->
                 </u>
 
                 <u who="#AW" xml:id="AW6" synch="TS13"/>
-                    una si una coperta <pause/> questa si <vocal>emh</vocal> era una coperta militare <vocal>emh</vocal> classica che <choice><sic>lo chiamavano</sic><corr resp="#GB">chiamavano</corr><pause/> </choice><soCalled><foreign xml:lang="de">kotzen</foreign></soCalled> <kinesic><desc>porta la mano sinistra in avanti</desc></kinesic>che <unclear resp="#GB" reason="inaudible"> è un</unclear> nome mezzo polacco
+                    <del type="falseStart">una <vocal>ehm</vocal></del> <del type="reformulation">si una coperta</del><pause/> questa si <vocal>emh</vocal> era una <gloss xml:id="kotzen">coperta militare</gloss> <vocal>emh</vocal> classica che <choice><sic>lo chiamavano</sic><corr resp="#GB">chiamavano</corr><pause/> </choice><term ref="#kotzen"><foreign xml:lang="de" xml:lang="pl">kotzen</foreign></term> <kinesic><desc>porta la mano sinistra in avanti</desc></kinesic> che <unclear resp="#GB" reason="inaudible"> è un</unclear> nome mezzo polacco
                 </u>
                     
                 <u who="#MA" xml:id="MA7" synch="TS14"/>
-                    c’era qualcuno con lei in questo momento che ancora era <pause/> con lei sul treno che <ancor xml:id="int-15" synch="#TT15"/>è venuto<ancor xml:id="int-16" synch="#TT16"/> con lei nella quarantena <pause/> 
-                    <ancor xml:id="int-17" synch="#TT17"/>però <unclear resp="#GB" reason="inaudible" cert="medium">dello</unclear> stesso trasporto <ancor xml:id="int-18" synch="#TT18"/> 
-                    <ancor xml:id="int-19" synch="#TT19"/>si<ancor xml:id="int-20" synch="#TT20"/>
+                    c’era qualcuno con lei in questo momento che ancora era<pause/> con lei sul treno che <ancor xml:id="ma-15" synch="#TT15"/>è venuto<ancor xml:id="ma-16" synch="#TT16"/> con lei nella quarantena <pause/> 
+                    <ancor xml:id="ma-17" synch="#TT17"/>però <unclear resp="#GB" reason="inaudible" cert="medium">dello</unclear> stesso trasporto <ancor xml:id="ma-18" synch="#TT18"/> 
+                    <ancor xml:id="ma-19" synch="#TT19"/>si<ancor xml:id="ma-20" synch="#TT20"/>
                 </u>
 
                 <u who="#AW"/>
                     <ancor xml:id="arm-15" synch="#TT15"/><vocal>ehm</vocal><ancor xml:id="arm-16" synch="#TT16"/> non nello stesso vagone
-                    <ancor xml:id="arm-17" synch="#TT17"/><vocal>ehm</vocal> però <ancor xml:id="arm-18" synch="#TT18"/><del type="repetition">si</del> si <pause/>  sto parlando di quelli <ancor xml:id="arm-19" synch="#TT19"/>là<ancor xml:id="arm-20" synch="#TT20"/>
+                    <ancor xml:id="arm-17" synch="#TT17"/><vocal>ehm</vocal> però <ancor xml:id="arm-18" synch="#TT18"/><del type="repetition">si</del> si <pause/> sto parlando di quelli <ancor xml:id="arm-19" synch="#TT19"/>là<ancor xml:id="arm-20" synch="#TT20"/>
                 </u>
 
                 <u who="#AW" xml:id="AW7" synch="TS15"/>
-                    <unclear resp="#GB" reason="inaudible">Ero</unclear> solo <del type="reformulation"><!--oppure correction?-->eravamo</del> circa 150 italiani
+                    <del type="falseStart"><unclear resp="#GB" reason="inaudible">ero</unclear> solo</del> <del type="reformulation">eravamo</del> circa 150 italiani
                 </u>
 
                 <u who="#MA" xml:id="MA8" synch="TS16"/>
-                    quindi <pause/> si ricorda qualche nome
+                    <del type="falseStart">quindi</del> si ricorda qualche nome
                 </u>
 
-                <u who="#AW" xml:id="AW8" synch="TS17"/> <!-- Lista luoghi: Roma, Varsavia --> <!-- Lista persone: medico livorese, Rosenthal (ha sbagliato cognome); vabbè un vocal? -->
-                    <pause dur="PT3S"/><vocal><desc>sospira</desc></vocal> <kinesic><desc>con l'indice della sua mano sinistra indica la telecamera</desc></kinesic>Dunque anzitutto come le dico <pause/><kinesic><desc>con il pollice della sua mano sinistra conta il numero uno</desc></kinesic>c’era un <pause/> medico livornese che stava a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> <pause/> un altro medico <pause/><kinesic><desc>si porta la mano sinistra alle tempie con lo sguardo rivolto verso il basso</desc></kinesic> di dove era <pause dur="PT3S"/><gap resp="#GB" reason="inaudible" atLeast="1" atMost="3" unit="words"/> <kinesic><desc>con l'indice della sua mano sinistra indica qualcosa lontano prima alla sua sinistra e poi a destra</desc></kinesic>questo medico livornese poi è morto a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName> eeeee <pause/> il tribunale di Livorno mi aveva chiamato una volta a fare una <kinesic><desc>muove l'indice della sua mano sinistra che indica verso la sua destra</desc></kinesic> dichiarazione di morte <pause/> non presunta <pause/> reale perché i suoi parenti che si son salvati <pause/>avevano bisogno di questa dichiarazione <kinesic><desc>si porta la sua mano sinistra sul volto in posizione pensante</desc></kinesic><vocal><desc>sospira</desc>ehm</vocal> Poi <vocal>ehm</vocal> <pause/><kinesic iterated="true"><desc>muove la sua mano sinistra</desc></kinesic> quella signorina che è morta in viaggio si chiamava <persName ref="TEI-ListPerson.xml#Rosenthal">Rosental</persName> <vocal>vabbè</vocal><pause/> mi è venuto in mente il <ancor xml:id="arm-21" synch="#TT21"/>nome <vocal><desc>sospira</desc></vocal><ancor xml:id="arm-22" synch="#TT22"/> eee <kinesic iterated="true" dur="PT7S"><desc>muove entrambi le mani (poste in orizzontale con i palmi rivolte verso il basso) da sinistra a destra</desc></kinesic>come le <choice><sic>dico</sic><corr resp="#GB">dicevo</corr> <pause/> c’erano questi <pause/> <del type="truncation">n</del> non so se chiamarli piani eee <vocal>ehm</vocal> per <del type="reformulation">in</del> ogni piano <kinesic iterated="true"><desc>avvicina i palmi di entrambe le sue mani</desc></kinesic><choice><sic>sei persone</sic><corr resp="#GB">c'erano sei persone</corr></choice> una attaccata all’altra <pause/> eee <vocal>ehm</vocal><kinesic><desc>si porta la sua mano sinistra sul volto in posizione pensante</desc></kinesic> era proibitissimo la notte uscire dalla baracca <pause/> quindi c’era il problema <pause/> di quando uno aveva necessità di bisogni fisiologici
+                <u who="#AW" xml:id="AW8" synch="TS17"/>
+                    <pause dur="PT3S"/><vocal><desc>sospira</desc></vocal> <kinesic><desc>con l'indice della sua mano sinistra indica la telecamera</desc></kinesic>dunque anzitutto come le dico<pause/><kinesic><desc>con il pollice della sua mano sinistra conta il numero uno</desc></kinesic> c’era un<pause/> medico livornese che stava a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName><pause/> un altro medico <pause/><kinesic><desc>si porta la mano sinistra alle tempie con lo sguardo rivolto verso il basso</desc></kinesic> di dove era<pause dur="PT3S"/><gap resp="#GB" reason="inaudible" atLeast="1" atMost="3" unit="words"/> <kinesic><desc>con l'indice della sua mano sinistra indica qualcosa lontano prima alla sua sinistra e poi a destra</desc></kinesic>questo medico livornese poi è morto a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName> e <pause/> il tribunale di <placeName ref="TEI-ListPlace.xml#LI">Livorno</placeName> mi aveva chiamato una volta a fare una <kinesic><desc>muove l'indice della sua mano sinistra che indica verso la sua destra</desc></kinesic> dichiarazione di morte<pause/> non presunta<pause/> reale perché i suoi parenti che si son salvati <pause/>avevano bisogno di questa dichiarazione <kinesic><desc>si porta la sua mano sinistra sul volto in posizione pensante</desc></kinesic><vocal><desc>sospira</desc>ehm</vocal> poi <vocal>ehm</vocal> <pause/><kinesic iterated="true"><desc>muove la sua mano sinistra</desc></kinesic> quella <rs ref="TEI-ListPerson.xml#Rotschild" resp="#GB">signorina</rs> che è morta in viaggio si chiamava Rosenthal <choice><orig>vabbè</orig><reg resp="#GB">va bene</reg></choice><pause/> mi è venuto in mente il <ancor xml:id="arm-21" synch="#TT21"/>nome <vocal><desc>sospira</desc></vocal><ancor xml:id="arm-22" synch="#TT22"/> e<kinesic iterated="true" dur="PT7S"><desc>muove entrambi le mani (poste in orizzontale con i palmi rivolte verso il basso) da sinistra a destra</desc></kinesic> come le dico<pause/> c’erano questi <pause/> <del type="truncation">n</del> non so se chiamarli piani e <vocal>ehm</vocal> per <del type="falseStart">in</del> ogni piano <kinesic iterated="true"><desc>avvicina i palmi di entrambe le sue mani</desc></kinesic>sei persone una attaccata all’altra <pause/> e <vocal>ehm</vocal><kinesic><desc>si porta la sua mano sinistra sul volto in posizione pensante</desc></kinesic> era proibitissimo la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> uscire dalla baracca<pause/> quindi c’era il problema<pause/> di quando uno aveva necessità di bisogni fisiologici
                 </u>
 
                 <u who="#MA"/>
-                    <ancor xml:id="int-21" synch="#TT21"/>importante si<ancor xml:id="int-22" synch="#TT22"/>
+                    <ancor xml:id="ma-21" synch="#TT21"/>importante si<ancor xml:id="ma-22" synch="#TT22"/>
                 </u>
 
                 <u who="#MA" xml:id="MA9" synch="TS18"/>
-                    perché le latrine dove <pause/> <ancor xml:id="int-23" synch="#TT23"/>stavano<ancor xml:id="int-24" synch="#TT24"/>
+                    perché le latrine dove<pause/> <ancor xml:id="ma-23" synch="#TT23"/>stavano<ancor xml:id="ma-24" synch="#TT24"/>
                 </u>
 
-                <u who="#AW" xml:id="AW9" synch="TS19"/>
-                    <ancor xml:id="arm-23" synch="#TT23"/>ecco<ancor xml:id="arm-24" synch="#TT24"/> <kinesic iterated="true"><desc>muove la sua mano destra verso la telecamera</desc></kinesic>c’era una <pause/><vocal>ehm</vocal> altra baracca la baracca delle latrine <pause/> la <foreign xml:lang="de">quarantene lager</foreign> aveva la sua baracca delle latrine <pause/>le latrine erano costituite da <kinesic><desc>muove le sue mani simulando un piano e poi simulando un foro</desc></kinesic> <pause/> banconi di legno con dei fori e <del type="truncation">c</del><kinesic iterated="true"><desc>gesticola</desc></kinesic> <choice><orig>si andava</orig><reg resp="#GB">andavamo</reg></choice> tutti lì <pause/>c’erano <gap reason="inaudible" extent="1 word"/> quello per uomini e quello <pause/> per donne <pause/> e semplicemente così<kinesic><desc>porta la sua mano sinistra verso la bocca</desc></kinesic> <ancor xml:id="arm-25" synch="#TT25"/><vocal>ehm</vocal><ancor xml:id="arm-26" synch="#TT26"/>
+                <u who="#AW" xml:id="AW9" synch="TS19"/><!--here-->
+                    <ancor xml:id="arm-23" synch="#TT23"/>ecco<ancor xml:id="arm-24" synch="#TT24"/><kinesic iterated="true"><desc>muove la sua mano destra verso la telecamera</desc></kinesic> c’era una <pause/><vocal>ehm</vocal> altra baracca la baracca delle latrine<pause/> la <term ref="#quarantena"><foreing xml:lang="de">quarantänelager</foreing></term> aveva la sua baracca delle latrine<pause/> le latrine erano costituite da <kinesic><desc>muove le sue mani simulando un piano e poi simulando un foro</desc></kinesic> <pause/> banconi di legno con dei fori e <del type="truncation">c</del><kinesic iterated="true"><desc>gesticola</desc></kinesic> <choice><orig>si andava</orig><reg resp="#GB">andavamo</reg></choice> tutti lì <pause/>c’erano <gap reason="inaudible" extent="1 word"/> quello per uomini e quello <pause/> per donne <pause/> e semplicemente così<kinesic><desc>porta la sua mano sinistra verso la bocca</desc></kinesic> <ancor xml:id="arm-25" synch="#TT25"/><vocal>ehm</vocal><ancor xml:id="arm-26" synch="#TT26"/>
                 </u>
 
                 <u who="#MA" xml:id="MA10" synch="TS20"/>
-                    <ancor xml:id="int-25" synch="#TT25"/>c'erano<ancor xml:id="int-26" synch="#TT26"/> anche dei lavandini
+                    <ancor xml:id="ma-25" synch="#TT25"/>c'erano<ancor xml:id="ma-26" synch="#TT26"/> anche dei lavandini
                 </u>
 
                 <u who="#AW" xml:id="AW10" synch="TS21"/>
@@ -680,19 +687,19 @@ City: Milan -->
                 </u>
 
                 <u who="#MA" xml:id="MA12" synch="TS24"/>
-                    e quindi potevate andare di giorno <pause/> ma di notte no
+                    e quindi potevate andare di giorno <pause/> ma di <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> no
                 </u>
 
                 <u who="#AW" xml:id="AW12" synch="TS25"/><!-- list: Birkenau -->
-                    Di notte non <choice><sic>si poteva</sic><corr resp="#GB">potevamo</corr></choice> uscire <kinesic><desc>alza l'indice della mano sinistra</desc></kinesica><ancor xml:id="arm-27" synch="#TT27"/>e non ci era<ancor xml:id="arm-28" synch="#TT28"/> come per esempio a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><pause/>che <vocal>ehm</vocal> <del type="reformulation">a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName> come le racconterò più tardi</del><pause/><kinesic iterated="true"><desc>con le mani simula un'apertura</desc></kinesic> fuori dalla baracca c’era un grosso <pause/><vocal>ehm</vocal> secchio dove <choice><sic>si poteva</sic><corr resp="#GB">potevamo</corr></choice> andare a fare i propri bisogni <pause/> a <kinesic><desc>porta la mano sinistra a sorreggere il mento</desc></kinesic>Birkenau no <!-- da codificare Birkenau (?)-->
+                    Di <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> non <choice><sic>si poteva</sic><corr resp="#GB">potevamo</corr></choice> uscire <kinesic><desc>alza l'indice della mano sinistra</desc></kinesica><ancor xml:id="arm-27" synch="#TT27"/>e non ci era<ancor xml:id="arm-28" synch="#TT28"/> come per esempio a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName><pause/>che <vocal>ehm</vocal> <del type="reformulation">a <placeName ref="TEI-ListPlace.xml#Varsavia">Varsavia</placeName> come le racconterò più tardi</del><pause/><kinesic iterated="true"><desc>con le mani simula un'apertura</desc></kinesic> fuori dalla baracca c’era un grosso <pause/><vocal>ehm</vocal> secchio dove <choice><sic>si poteva</sic><corr resp="#GB">potevamo</corr></choice> andare a fare i propri bisogni <pause/> a <kinesic><desc>porta la mano sinistra a sorreggere il mento</desc></kinesic>Birkenau no <!-- da codificare Birkenau (?)-->
                 </u>
 
                 <u who="#MA"/>
-                    <ancor xml:id="int-27" synch="#TT27"/>cosa avveniva<ancor xml:id="int-28" synch="#TT28"/>
+                    <ancor xml:id="ma-27" synch="#TT27"/>cosa avveniva<ancor xml:id="ma-28" synch="#TT28"/>
                 <u>
 
                 <u who="#MA" xml:id="MA13" synch="TS26"/>
-                    cosa avveniva di notte allora se <ancor xml:id="int-29" synch="#TT29"/>c’era<ancor xml:id="int-30" synch="#TT30"/>
+                    cosa avveniva di <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> allora se <ancor xml:id="ma-29" synch="#TT29"/>c’era<ancor xml:id="ma-30" synch="#TT30"/>
                 </u>
 
                 <u who="#AW" xml:id="AW13" synch="TS27"/>
@@ -700,7 +707,7 @@ City: Milan -->
                 </u>
 
                 <u who="#MA" xml:id="MA14" synch="TS28"/>
-                    <ancor xml:id="int-31" synch="#TT31"/><vocal>ehm</vocal>Adesso magari<ancor xml:id="int-32" synch="#TT32"/> ci fermiamo un attimo perché mi piacerebbe sapere nel frattempo <vocal>ehm</vocal><pause/> sua mamma, suo papa <pause/> e la sua famiglia <ancor xml:id="int-33" synch="#TT33"/><vocal>ehm</vocal><ancor xml:id="int-34" synch="#TT34"/>
+                    <ancor xml:id="ma-31" synch="#TT31"/><vocal>ehm</vocal>Adesso magari<ancor xml:id="ma-32" synch="#TT32"/> ci fermiamo un attimo perché mi piacerebbe sapere nel frattempo <vocal>ehm</vocal><pause/> sua mamma, suo papa <pause/> e la sua famiglia <ancor xml:id="ma-33" synch="#TT33"/><vocal>ehm</vocal><ancor xml:id="ma-34" synch="#TT34"/>
                 </u>
 
                 <u who="#AW" xml:id="AW14" synch="TS29"/>
@@ -708,15 +715,15 @@ City: Milan -->
                 </u>
 
                 <u who="#MA" xml:id="MA15" synch="TS30"/>
-                    no ma<vocal>ehm</vocal> in questo momento quando lei è stato deportato a <ancor xml:id="int-35" synch="#TT35"/>Birkenau<pause/> dov’erano<ancor xml:id="int-36" synch="#TT36"/> <!-- da codificare Birkenau (?)-->
+                    no ma<vocal>ehm</vocal> in questo momento quando lei è stato deportato a <ancor xml:id="ma-35" synch="#TT35"/>Birkenau<pause/> dov’erano<ancor xml:id="ma-36" synch="#TT36"/> <!-- da codificare Birkenau (?)-->
                 </u>
 
                 <u who="#AW" xml:id="AW15" synch="TS31"/> <!-- list person/persone: il padre + listPlace/luoghi Feltri, Roma-->
-                    <kinesic><desc>gesticola la sua mano sinistra</desc></kinesic><ancor xml:id="arm-35" synch="#TT35"/><vocal>ah</vocal> ecco <del type="falseStart">dunque mia <vocal>mm</vocal></del><ancor xml:id="arm-36" synch="#TT36"/> allora<pause/> mio papa era morto da un anno <pause/>lui era <del type="truncation">torn</del> tornato perché si è ammalato a<pause/> <del type="truncation">f</del> vicino a <placeName ref="TEI-ListPlace.xml#Feltri">Feltri</placeName><pause/> in un campo di internamento <pause/><kinesic><desc>con la sua mano destra indica qualcosa alla sua sinistra</desc></kinesic>non quello della fotografia <kinesic iterated="true"><desc>gesticola prima con la mano destra e poi con entrambe</desc></kinesic>perché son riuscito<pause/> a spostarlo<pause/> io ero a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName><pause/> a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> il ministero mi conoscevano<pause/> mi favorirono <pause/><q><del type="truncation">f</del> facciamo in maniera che si avvicinasse<pause/> alla casa materna</q><kinesic><desc>porta la mano sinistra vicino alla bocca</desc></kinesic>
+                    <kinesic><desc>gesticola la sua mano sinistra</desc></kinesic><ancor xml:id="arm-35" synch="#TT35"/><vocal>ah</vocal> ecco <del type="falseStart">dunque mia <vocal>mm</vocal></del><ancor xml:id="arm-36" synch="#TT36"/> allora<pause/> mio papa era morto da un anno <pause/>lui era <del type="truncation">torn</del> tornato perché si è ammalato a<pause/> <del type="truncation">f</del> vicino a <placeName ref="TEI-ListPlace.xml#Feltri">Feltri</placeName><pause/> in un campo di internamento <pause/><kinesic><desc>con la sua mano destra indica qualcosa alla sua sinistra</desc></kinesic>non quello della fotografia <kinesic iterated="true"><desc>gesticola prima con la mano destra e poi con entrambe</desc></kinesic>perché son riuscito<pause/> a spostarlo<pause/> io ero a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName><pause/> a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName> il ministero mi conoscevano<pause/> mi favorirono <pause/><q><del type="truncation">f</del> facciamo in maniera che si avvicinasse<pause/> alla casa materna</q><kinesic><desc>porta la mano sinistra vicino alla bocca</desc></kinesic>
                 </u>
 
                 <u who="#MA" xml:id="MA16" synch="TS32"/><!-- list person/persone: il padre-->
-                    è stato quindi arrestato a <placeName ref="TEI-ListPlace.xml#Fiume">Fiume</placeName><pause/> suo  <ancor xml:id="int-37" synch="#TT37"/>padre <ancor xml:id="int-38" synch="#TT38"/>
+                    è stato quindi arrestato a <placeName ref="TEI-ListPlace.xml#Fiume">Fiume</placeName><pause/> suo  <ancor xml:id="ma-37" synch="#TT37"/>padre <ancor xml:id="ma-38" synch="#TT38"/>
                 </u>
 
                 <u who="#AW" xml:id="AW16" synche="TS33"/><!-- lista luoghi: Campania?, Salerno e Fiume -->
@@ -724,7 +731,7 @@ City: Milan -->
                 </u>
 
                 <u who="#MA" xml:id="MA17" synch="TS34"/> <!-- list person: padre-->
-                    <ancor xml:id="int-39" synch="#TT39"/>quindi suo<ancor xml:id="int-40" synch="#TT40"/> papa è sepolto a <placeName ref="TEI-ListPlace.xml#Fiume">Fiume</placeName>
+                    <ancor xml:id="ma-39" synch="#TT39"/>quindi suo<ancor xml:id="ma-40" synch="#TT40"/> papa è sepolto a <placeName ref="TEI-ListPlace.xml#Fiume">Fiume</placeName>
                 </U>
 
                 <u who="#AW"/>
@@ -736,7 +743,7 @@ City: Milan -->
                 </u>
 
                 <u who="#MA" xml:id="MA18" synch="TS36"/>
-                    <ancor xml:id="int-41" synch="#TT41"/>ha avuto<ancor xml:id="int-42" synch="#TT42"/> una <ancor xml:id="int-43" synch="#TT43"/>sepolturaaa <pause dur="PT2S"/>regolare<ancor xml:id="int-44" synch="#TT44"/>
+                    <ancor xml:id="ma-41" synch="#TT41"/>ha avuto<ancor xml:id="ma-42" synch="#TT42"/> una <ancor xml:id="ma-43" synch="#TT43"/>sepolturaaa <pause dur="PT2S"/>regolare<ancor xml:id="ma-44" synch="#TT44"/>
                 </u>
 
                 <u who="#AW" xm:id="AW18" synch="TS37"/> <!-- foreign yeshivah e hesped, lista luoghi, unclear?-->
@@ -744,19 +751,19 @@ City: Milan -->
                 </u>
 
                 <u who="#MA" xml:id="MA19" synch="TS38"/>
-                    lei in occasione del funerale di suo papa è <ancor xml:id="int-45" synch="#TT45"/>tornato a <placeName ref="TEI-ListPlace.xml#Fiume">Fiume</placeName><ancor xml:id="int-46" synch="#TT46"/>
+                    lei in occasione del funerale di suo papa è <ancor xml:id="ma-45" synch="#TT45"/>tornato a <placeName ref="TEI-ListPlace.xml#Fiume">Fiume</placeName><ancor xml:id="ma-46" synch="#TT46"/>
                 </u>
 
                 <u who="#AW" xml:id="AW19" synch="TS39"/> <!-- list person persone: sorella-->
-                     <ancor xml:id="arm-45" synch="#TT45"/><del type="repetition">no no</del> no<ancor xml:id="arm-46" synch="#TT46"/> perché ero a <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName><kinesic iterated="true"><desc>muove la mano sinistra</desc></kinesic> e l’ho saputo con ritardo<pause/> perché mia sorella me l’ha<pause/> trasmesso sa che <choice><sic>dagli ebrei</sic><corr resp="#GB">per gli ebrei</corr></choice> bisogna <kinesic><desc>con entrambe le mani chiuse a pugno e gli indici alzati ruota i polsi dall'interno verso l'esterno</desc></kinesic>seppellire subito <ancor xml:id="arm-47" synch="#TT47"/><vocal><desc>ispira</desc></vocal><ancor xml:id="arm-48" synch="#TT48"/>quindi non sono arrivato in tempo per <ancor xml:id="arm-49" synch="#TT49"/><unclear reason="inaudible" cert="high">andarci</unclear><ancor xml:id="arm-50" synch="#TT50"/><kinesic><desc>porta la sua mano sinistra vicino al mento in posizione pensante</desc></kinesic>
+                     <ancor xml:id="arm-45" synch="#TT45"/><del type="repetition">no no</del> no<ancor xml:id="arm-46" synch="#TT46"/> perché ero a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName><kinesic iterated="true"><desc>muove la mano sinistra</desc></kinesic> e l’ho saputo con ritardo<pause/> perché mia sorella me l’ha<pause/> trasmesso sa che <choice><sic>dagli ebrei</sic><corr resp="#GB">per gli ebrei</corr></choice> bisogna <kinesic><desc>con entrambe le mani chiuse a pugno e gli indici alzati ruota i polsi dall'interno verso l'esterno</desc></kinesic>seppellire subito <ancor xml:id="arm-47" synch="#TT47"/><vocal><desc>ispira</desc></vocal><ancor xml:id="arm-48" synch="#TT48"/>quindi non sono arrivato in tempo per <ancor xml:id="arm-49" synch="#TT49"/><unclear reason="inaudible" cert="high">andarci</unclear><ancor xml:id="arm-50" synch="#TT50"/><kinesic><desc>porta la sua mano sinistra vicino al mento in posizione pensante</desc></kinesic>
                 </u>
 
                 <u who="#MA"/>
-                    <ancor xml:id="int-47" synch="#TT47"/>certo<ancor xml:id="int-48" synch="#TT48"/>
+                    <ancor xml:id="ma-47" synch="#TT47"/>certo<ancor xml:id="ma-48" synch="#TT48"/>
                 </u>
 
                 <u who="#MA" xml:id="MA20" synch="TS40"/>
-                    <ancor xml:id="int-49" synch="#TT49"/>e sua madre<ancor xml:id="int-50" synch="#TT50"/> nel frattempo
+                    <ancor xml:id="ma-49" synch="#TT49"/>e sua madre<ancor xml:id="ma-50" synch="#TT50"/> nel frattempo
                 </u>
 
                 <u who="#AW" xml:id="AW20" synch="TS41"/><!-- list person persone:madre, sorella Rive, marito di Rive, fratello più giovane; lista luoghi -->
@@ -764,25 +771,25 @@ City: Milan -->
                 </u>
 
                 <u who="#MA"/>
-                    <ancor xml:id="int-51" synch="#TT51"/><del type="repetition">si si si</del> si<ancor xml:id="int-52" synch="#TT52"/><pause/><del type="repetition">si si</del> si
+                    <ancor xml:id="ma-51" synch="#TT51"/><del type="repetition">si si si</del> si<ancor xml:id="ma-52" synch="#TT52"/><pause/><del type="repetition">si si</del> si
                 </u>
 
                 <pause/>
 
                 <u who="#MA" xml:id="MA21" synch="TS42"/>
-                    allora<pause/> torniamo alla <vocal>ehm</vocal><pause/> quarantena questa baracca che lei mi ha descritto<pause/> lei quando ha saputo<pause/><vocal>ehm</vocal> della sua <ancor xml:id="int-53" synch="#TT53"/>famiglia<pause/> dove erano <del type="truncation">fin</del><ancor xml:id="int-54" synch="#TT54"/>
+                    allora<pause/> torniamo alla <vocal>ehm</vocal><pause/> quarantena questa baracca che lei mi ha descritto<pause/> lei quando ha saputo<pause/><vocal>ehm</vocal> della sua <ancor xml:id="ma-53" synch="#TT53"/>famiglia<pause/> dove erano <del type="truncation">fin</del><ancor xml:id="ma-54" synch="#TT54"/>
                 </u>
 
                 <u who="#AW" xml:id="AW21" synch="TS43"/>
-                    <kinesic><desc>si sposta sul suo lato destro della poltrona</desc></kinesic><ancor xml:id="arm-53" synch="#TT53"/><del type="falseStart">Ecco adesso le devo</del><ancor xml:id="arm-54" synch="#TT54"/> questi sono <unclear reason="inaudible" resp="#GB" cert="low">i</unclear> particolari interessanti<pause/> <vocal>Eee</vocal><pause/><kinesic iterated="true"><desc>apre e chiude le dita della mano destra</desc></kinesic> dopo 5 minuti che eravamo nel <foreign xml:lang="de">lager</foreign> dentro<pause/> c’erano i<kinesic iterated="true"><desc>muove entrambe le mani e poi solo la sua mano destra</desc></kinesic><pause/> prigionieri precedenti<pause/> <mentioned>anziani</mentioned> chiamiamoli così <pause/><del type="truncation">c</del> c’erano quelli<pause/> <emph>pessimisti</emph> che ci dicevano la verità <q type="spoken">guardate quel fumo eccetera eccetera</q><pause/> c’erano altri prigionieri invece che<pause/> avevano pietà di noi <choice><sic>dice</sic><corr resp="#GB" cert="medium">e ci dicevano</corr></choice> <q>perché dire la verità</q> <unclear resp="#GB" reason="inaudible" cert="low"><choice><sic>dice</sic><corr resp="#GB">ci dicevano</corr></choice></unclear> <kinesic iterated="true"><desc>gesticola con la sua mano sinistra</desc></kinesic><q type="spoken">ma no li hanno mandati in un<pause/> altro campo <gap reason="inaudible" atLeast="1" atMost="2" unit="words"/> guardateli</q><pause/> era il <foreign xml:lang="de">Zigeuner lager</foreign> il campo degli zingari e lì c’erano donne bambini piccoli vecchi eccetera <pause/>Poi <q><del type="truncation">n</del> <unclear resp="°GB" reason="inaudible" cert="medium">tu</unclear> non ci credi<pause/> <kinesic><desc>con la sua mano sinistra indica qualcosa di lontano: simula il gesto di guardare lontano</desc></kinesic>guarda <vocal>um</vocal>il <foreign xml:lang="de">teresistan lager</foreign></q><kinesic><desc>avvicina le mani toccandosi il petto per indicare se stesso</desc></kinesic> quello accanto a noi<pause/> anche lì <pause/><kinesic iterated="true"><desc>gesticola con la mano destra</desc></kinesic> perché quello serviva per propaganda <ancor xml:id="arm-55" synch="#TT55"/>no<pause/> poi<ancor xml:id="arm-56" synch="#TT56"/> invece<pause/> sia quelli di<foreign xml:lang="de">teresistan</foreign> sia gli zingari<pause/> <unclear resp="#GB" reason="inaudible" cert="low">degli zingari</unclear> in una notte ne hanno ammazzati quaranta mila<pause/><kinesic><desc>muove i polsi di entrambe le mani facendole ruotare dall'interno verso l'esterno</desc></kinesic> più tardi<pause/> tutti quanti<pause/> mentre prima lasciavano in vita anche <ancor xml:id="arm-57" synch="#TT57"/>le donne<kinesic><desc>avvicina la sua mano destra all'orecchio destro</desc></kinesic> e i <unclear resp="#GB" reason="inaudible" cert="high">bambini</unclear><ancor xml:id="arm-58" synch="#TT58"/>
+                    <kinesic><desc>si sposta sul suo lato destro della poltrona</desc></kinesic><ancor xml:id="arm-53" synch="#TT53"/><del type="falseStart">Ecco adesso le devo</del><ancor xml:id="arm-54" synch="#TT54"/> questi sono <unclear reason="inaudible" resp="#GB" cert="low">i</unclear> particolari interessanti<pause/> <vocal>Eee</vocal><pause/><kinesic iterated="true"><desc>apre e chiude le dita della mano destra</desc></kinesic> dopo 5 minuti che eravamo nel <foreign xml:lang="de">lager</foreign> dentro<pause/> c’erano i<kinesic iterated="true"><desc>muove entrambe le mani e poi solo la sua mano destra</desc></kinesic><pause/> prigionieri precedenti<pause/> <mentioned>anziani</mentioned> chiamiamoli così <pause/><del type="truncation">c</del> c’erano quelli<pause/> <emph>pessimisti</emph> che ci dicevano la verità <q type="spoken">guardate quel fumo eccetera eccetera</q><pause/> c’erano altri prigionieri invece che<pause/> avevano pietà di noi <choice><sic>dice</sic><corr resp="#GB" cert="medium">e ci dicevano</corr></choice> <q>perché dire la verità</q> <unclear resp="#GB" reason="inaudible" cert="low"><choice><sic>dice</sic><corr resp="#GB">ci dicevano</corr></choice></unclear> <kinesic iterated="true"><desc>gesticola con la sua mano sinistra</desc></kinesic><q type="spoken">ma no li hanno mandati in un<pause/> altro campo <gap reason="inaudible" atLeast="1" atMost="2" unit="words"/> guardateli</q><pause/> era il <foreign xml:lang="de">Zigeuner lager</foreign> il campo degli zingari e lì c’erano donne bambini piccoli vecchi eccetera <pause/>Poi <q><del type="truncation">n</del> <unclear resp="°GB" reason="inaudible" cert="medium">tu</unclear> non ci credi<pause/> <kinesic><desc>con la sua mano sinistra indica qualcosa di lontano: simula il gesto di guardare lontano</desc></kinesic>guarda <vocal>um</vocal>il <foreign xml:lang="de">teresistan lager</foreign></q><kinesic><desc>avvicina le mani toccandosi il petto per indicare se stesso</desc></kinesic> quello accanto a noi<pause/> anche lì <pause/><kinesic iterated="true"><desc>gesticola con la mano destra</desc></kinesic> perché quello serviva per propaganda <ancor xml:id="arm-55" synch="#TT55"/>no<pause/> poi<ancor xml:id="arm-56" synch="#TT56"/> invece<pause/> sia quelli di<foreign xml:lang="de">teresistan</foreign> sia gli zingari<pause/> <unclear resp="#GB" reason="inaudible" cert="low">degli zingari</unclear> in una <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> ne hanno ammazzati quaranta mila<pause/><kinesic><desc>muove i polsi di entrambe le mani facendole ruotare dall'interno verso l'esterno</desc></kinesic> più tardi<pause/> tutti quanti<pause/> mentre prima lasciavano in vita anche <ancor xml:id="arm-57" synch="#TT57"/>le donne<kinesic><desc>avvicina la sua mano destra all'orecchio destro</desc></kinesic> e i <unclear resp="#GB" reason="inaudible" cert="high">bambini</unclear><ancor xml:id="arm-58" synch="#TT58"/>
                 </u>
 
                 <u who="#MA"/>
-                    <ancor xml:id="int-55" synch="#TT55"/><vocal>ehm</vocal><ancor xml:id="int-56" synch="#TT56"/>
+                    <ancor xml:id="ma-55" synch="#TT55"/><vocal>ehm</vocal><ancor xml:id="ma-56" synch="#TT56"/>
                 </u>
 
                 <u who="#MA" xml:id="MA22" synch="TS44"/><!-- non certa di "in" -->
-                    <ancor xml:id="int-57" synch="#TT57"/>lei<ancor xml:id="int-58" synch="#TT58"/> <vocal>ahh</vocal> era <del type="falseStart">in</del> li in quel periodo quando è <ancor xml:id="int-59" synch="#TT59"/>stato evacuato<ancor xml:id="int-60" synch="#TT60"/> il campo degli zingari
+                    <ancor xml:id="ma-57" synch="#TT57"/>lei<ancor xml:id="ma-58" synch="#TT58"/> <vocal>ahh</vocal> era <del type="falseStart">in</del> li in quel periodo quando è <ancor xml:id="ma-59" synch="#TT59"/>stato evacuato<ancor xml:id="ma-60" synch="#TT60"/> il campo degli zingari
                 </u>
 
                 <u who="#AW"/>
@@ -798,12 +805,12 @@ City: Milan -->
                 </u>
 
                 <u who="#MA"/>
-                    <ancor xml:id="int-61" synch="#TT61"/><vocal>eh</vocal><ancor xml:id="int-62" synch="#TT62"/>
-                    <ancor xml:id="int-63" synch="#TT63"/>si<ancor xml:id="int-64" synch="#TT64"/>
+                    <ancor xml:id="ma-61" synch="#TT61"/><vocal>eh</vocal><ancor xml:id="ma-62" synch="#TT62"/>
+                    <ancor xml:id="ma-63" synch="#TT63"/>si<ancor xml:id="ma-64" synch="#TT64"/>
                 </u>
 
                 <u who="#MA" xml:id="MA23" synch="TS46"/>
-                    <ancor xml:id="int-65" synch="#TT65"/>quindi<ancor xml:id="int-66" synch="#TT66"/> <persName ref="TEI-ListPerson.xml#Mengele"><foreign xml:lang="de">Mengele</foreign></persName> veniva nella <ancor xml:id="int-67" synch="#TT67"/>quarantena e<ancor xml:id="int-68" synch="#TT68"/> perché <del type="truncation">sa</del> <del type="reformulation">aveva saputo</del> che lei <ancor xml:id="int-69" synch="#TT69"/><vocal>ehm</vocal> sapeva<ancor xml:id="int-70" synch="#TT70"/> <ancor xml:id="int-71" synch="#TT71"/>e quindi<ancor xml:id="int-72" synch="#TT72"/> il giorno dopo diciamo è venuto a parlare con
+                    <ancor xml:id="ma-65" synch="#TT65"/>quindi<ancor xml:id="ma-66" synch="#TT66"/> <persName ref="TEI-ListPerson.xml#Mengele"><foreign xml:lang="de">Mengele</foreign></persName> veniva nella <ancor xml:id="ma-67" synch="#TT67"/>quarantena e<ancor xml:id="ma-68" synch="#TT68"/> perché <del type="truncation">sa</del> <del type="reformulation">aveva saputo</del> che lei <ancor xml:id="ma-69" synch="#TT69"/><vocal>ehm</vocal> sapeva<ancor xml:id="ma-70" synch="#TT70"/> <ancor xml:id="ma-71" synch="#TT71"/>e quindi<ancor xml:id="ma-72" synch="#TT72"/> il giorno dopo diciamo è venuto a parlare con
                 </u>
 
                 <u who="#AW" xml:id="AW23" synch="TS47"/><!-- traduzione di q?; who?? -->
@@ -815,12 +822,12 @@ City: Milan -->
                 </u>
 
                 <u who="#AW" xml:id="AW24" synch="TS49"/><!-- lista luoghi: auschwitz e birkenau? -->
-                    <kinesic><desc>si tocca con le mani la punta delle dita</desc></kinesic><del type="truncation">se</del> non lontano da noi <del type="repetition" cert="medium">una</del><kinesic iterated="true"><desc>allarga le braccia</desc></kinesic> una baracca adesso nei dintorni non mi ricordo <ancor xml:id="arm-73" synch="#TT73"/>con precisione<ancor xml:id="arm-74" synch="#TT74"/><kinesic><desc>con l'indice della mano destra si tocca ai lati del naso e appoggia la mano vicino al mento in posizione pensante</desc></kinesic> <pause/>E questo aveva un vantaggio per me<pause/><kinesic iterated="true"><desc>gesticola con la mano destra e poi con entrambe</desc></kinesic> perché dopo che <del type="truncation">l</del> mi interrogò<pause/> poi le racconterò i particolari<pause/> mi regalava o una fetta di pane o uno o due <vocal><desc>balbetta</desc></vocal> 2 patate o un <choice><sic>pezzino</sic><corr resp="#GB">pezzettino</corr></choice> <unclear reason="inaudible" resp="#GB" cert="low">nemmeno</unclear> di formaggio o di <distinct type="slang">sanguinaccio</distinct> perché lì <kinesic><desc>unisce le mani</desc></kinesic><del type="falseStart">non era</del><del type="reformulation"> ci davano</del><pause/> una volta ogni due giorni una fetta non era di salame ma <distinct type="slang">sanguinaccio</distinct> cioè riempito solo con <del type="truncation">san</del> <del type="reformulation">con sangue</del><pause/><kinesic><desc>appoggia il palmo della mano destra sulla guancia destra e rivolge lo sguardo verso il basso</desc></kinesic> e io mi ricordo come oggi<pause/> un ebreo di<pause/> <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName><pause/> che diceva <gap reason="inaudible" unit="words"/> ma d’altra parte non c’era altro da mangiare<pause/><kinesic><desc>con la mano destra si gratta la fronte</desc></kinesic> bisognava mangiare quello<pause/> eee<pause/> <ancor xml:id="arm-75" synch="#TT75"/><kinesic iterated="true"><desc>gesticola con la mano destra</desc></kinesic> adesso le racconto <ancor xml:id="arm-76" synch="#TT76"/> <unclear reason="inaudible" cert="low" resp="#GB">Meng</unclear> <persName ref="TEI-ListPerson.xml#Mengele"><foreign xml:lang="de">Mengele</foreign></persName> era capo sanitario <del type="repetition">di</del> di <vocal>mm</vocal> Auschwitz Birkenau
+                    <kinesic><desc>si tocca con le mani la punta delle dita</desc></kinesic><del type="truncation">se</del> non lontano da noi <del type="repetition" cert="medium">una</del><kinesic iterated="true"><desc>allarga le braccia</desc></kinesic> una baracca adesso nei dintorni non mi ricordo <ancor xml:id="arm-73" synch="#TT73"/>con precisione<ancor xml:id="arm-74" synch="#TT74"/><kinesic><desc>con l'indice della mano destra si tocca ai lati del naso e appoggia la mano vicino al mento in posizione pensante</desc></kinesic> <pause/>E questo aveva un vantaggio per me<pause/><kinesic iterated="true"><desc>gesticola con la mano destra e poi con entrambe</desc></kinesic> perché dopo che <del type="truncation">l</del> mi interrogò<pause/> poi le racconterò i particolari<pause/> mi regalava o una fetta di pane o uno o due <vocal><desc>balbetta</desc></vocal> 2 patate o un <choice><sic>pezzino</sic><corr resp="#GB">pezzettino</corr></choice> <unclear reason="inaudible" resp="#GB" cert="low">nemmeno</unclear> di formaggio o di <distinct type="slang">sanguinaccio</distinct> perché lì <kinesic><desc>unisce le mani</desc></kinesic><del type="falseStart">non era</del><del type="reformulation"> ci davano</del><pause/> una volta ogni due giorni una fetta non era di salame ma <distinct type="slang">sanguinaccio</distinct> cioè riempito solo con <del type="truncation">san</del> <del type="reformulation">con sangue</del><pause/><kinesic><desc>appoggia il palmo della mano destra sulla guancia destra e rivolge lo sguardo verso il basso</desc></kinesic> e io mi ricordo come oggi<pause/> un ebreo di<pause/> <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName><pause/> che diceva <gap reason="inaudible" unit="words"/> ma d’altra parte non c’era altro da mangiare<pause/><kinesic><desc>con la mano destra si gratta la fronte</desc></kinesic> bisognava mangiare quello<pause/> eee<pause/> <ancor xml:id="arm-75" synch="#TT75"/><kinesic iterated="true"><desc>gesticola con la mano destra</desc></kinesic> adesso le racconto <ancor xml:id="arm-76" synch="#TT76"/> <unclear reason="inaudible" cert="low" resp="#GB">Meng</unclear> <persName ref="TEI-ListPerson.xml#Mengele"><foreign xml:lang="de">Mengele</foreign></persName> era capo sanitario <del type="repetition">di</del> di <vocal>mm</vocal> Auschwitz Birkenau
                 </u>
 
                 <u who="#MA"/>
-                    <ancor xml:id="int-73" synch="#TT73"/>no certo<ancor xml:id="int-74" synch="#TT74"/>
-                    <ancor xml:id="int-75" synch="#TT75"/><persName ref="TEI-ListPerson.xml#Mengele"><foreign xml:lang="de">Mengele</foreign></persName> che <vocal>ehm</vocal><ancor xml:id="int-76" synch="#TT76"/>
+                    <ancor xml:id="ma-73" synch="#TT73"/>no certo<ancor xml:id="ma-74" synch="#TT74"/>
+                    <ancor xml:id="ma-75" synch="#TT75"/><persName ref="TEI-ListPerson.xml#Mengele"><foreign xml:lang="de">Mengele</foreign></persName> che <vocal>ehm</vocal><ancor xml:id="ma-76" synch="#TT76"/>
                 </u>
 
                 <u who="#MA" xml:id="MA25" synch="TS50"/>
@@ -840,7 +847,7 @@ City: Milan -->
                 </u>
 
                 <u who="#MA" xml:id="MA27" synch="TS54"/>
-                    <ancor xml:id="int-77" synch="#TT77"/><persName ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</persName><ancor xml:id="int-78" synch="#TT78"/> come era diviso <del type="correction">come <ancor xml:id="int-79" synch="#TT79"/>era vestito<ancor xml:id="int-80" synch="#TT80"/></del>
+                    <ancor xml:id="ma-77" synch="#TT77"/><persName ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</persName><ancor xml:id="ma-78" synch="#TT78"/> come era diviso <del type="correction">come <ancor xml:id="ma-79" synch="#TT79"/>era vestito<ancor xml:id="ma-80" synch="#TT80"/></del>
                 </u>
 
                 <u who="#AW" xml:id="AW27" synch="TS55"/><!-- mostrine? -->
@@ -856,7 +863,7 @@ City: Milan -->
                 </u>
 
                 <u who="#MA" xml:id="MA29" synch="TS58"/>
-                    <ancor xml:id="int-81" synch="#TT81"/>era ubriaco<ancor xml:id="int-82" synch="#TT82"/> allora<pause/> <ancor xml:id="int-83" synch="#TT83"/> spesso<ancor xml:id="int-84" synch="#TT84"/> 
+                    <ancor xml:id="ma-81" synch="#TT81"/>era ubriaco<ancor xml:id="ma-82" synch="#TT82"/> allora<pause/> <ancor xml:id="ma-83" synch="#TT83"/> spesso<ancor xml:id="ma-84" synch="#TT84"/> 
                 </u>
 
                 <u who="#AW" xml:id="AW29" synch="TS59"/><!-- la traduzione come la inserisco?; inciso con join?; persone: moglie e figlia; who?? -->
@@ -866,7 +873,7 @@ City: Milan -->
                 <pause/>
 
                 <u who="#MA" xml:id="MA30" synch="TS60"/>
-                    quindi lei ha avuto il coraggio di<pause/> fargli queste <ancor xml:id="int-85" synch="#TT85"/>domande<ancor xml:id="int-86" synch="#TT86"/>
+                    quindi lei ha avuto il coraggio di<pause/> fargli queste <ancor xml:id="ma-85" synch="#TT85"/>domande<ancor xml:id="ma-86" synch="#TT86"/>
                 </u>
 
                 <u who="#AW" xml:id="AW30" synch="TS61"/>
@@ -874,7 +881,7 @@ City: Milan -->
                 </u>
 
                 <u who="#MA" xml:id="MA31" synch="TS62"/>
-                    <ancor xml:id="int-87" synch="#TT87"/>e quando<ancor xml:id="int-88" synch="#TT88"/> stava nel suo ufficio che cosa doveva fare lei
+                    <ancor xml:id="ma-87" synch="#TT87"/>e quando<ancor xml:id="ma-88" synch="#TT88"/> stava nel suo ufficio che cosa doveva fare lei
                 </u>
 
                 <u who="#AW" xml:id="AW31" synch="TS63"/>
@@ -882,19 +889,19 @@ City: Milan -->
                 </u>
 
                 <u who="#MA" xml:id="MA32" synch="TS64"/>
-                    <ancor xml:id="int-89" synch="#TT89"/>no ma lei<ancor xml:id="int-90" synch="#TT90"/> <ancor xml:id="int-91" synch="#TT91"/>lei veniva<ancor xml:id="int-92" synch="#TT92"/> chiamato <ancor xml:id="int-93" synch="#TT93"/>perché da <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName><ancor xml:id="int-94" synch="#TT94"/>
+                    <ancor xml:id="ma-89" synch="#TT89"/>no ma lei<ancor xml:id="ma-90" synch="#TT90"/> <ancor xml:id="ma-91" synch="#TT91"/>lei veniva<ancor xml:id="ma-92" synch="#TT92"/> chiamato <ancor xml:id="ma-93" synch="#TT93"/>perché da <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName><ancor xml:id="ma-94" synch="#TT94"/>
                 </u>
 
                 <u who="#AW" xml:id="AW32" synch="TS65"/> <!-- traduzione e who? ; persone: moglie, figlia, suoceri Polacco e ammiraglio capon; luoghi:Auschwitz; revier glossa??-->
-                    <ancor xml:id="arm-91" synch="#TT91"/><kinesic><desc>con la mano destra si tocca la zona vicino alle scapole</desc></kinesic>ah no<ancor xml:id="arm-92" synch="#TT92"/><kinesic iterated="true"><desc>muove la mano destra</desc></kinesic> <ancor xml:id="int-93" synch="#TT93"/><del type="repetition">no</del> no io <ancor xml:id="arm-94" synch="#TT94"/><kinesic iterated="true"><desc>ruota il polso della sua mano destra chiusa a pugno e con l'indice alzato</desc></kinesic>mi chiamava la sera <choice><sic>dice</sic><corr resp="#GB">dicendo</corr></choice> <kinesic iterated="true"><desc>gesticola con la mano destra</desc></kinesic><q type="spoken" who="TEI-ListPerson.xml#Mengele"><foreign xml:lang="de">Komm heute abend zu mir</foreign></q> <!--traduzione--> stasera vieni da me<pause/> e io sapevo che a quell’ora <choice><sic>devo</sic><corr resp="#GB">dovevo</corr></choice> andar là<pause/> e <persName ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</persName> mi interrogava io rispondevo<pause/> <kinesic iterated="true"><desc>gesticola con entrambe le mani</desc></kinesic>e poi quando andavo via come ho detto prima mi regalava qualche<pause/> <distinct type="archaic">cosuccia</distinct> da mangiare che per noi era la vita <vocal><desc>tira su con il naso</desc></vocal><pause/> eee<kinesic iterated="true"><desc>muove la mano destra</desc></kinesic> perché la fame chi è che <vocal><desc>ride</desc></vocal> non l’ha <choice><sic>provato</sic><corr resp="#GB">provata</corr></choice> non la può capire no <gap resp="#GB" reason="inaudible" atLeast="1" atMost="3" unit="words"/> ho visto io dei genitori che rubavano il pane al figlio o il figlio che rubava il pane al padre <vocal><desc>espira</desc></vocal><pause/> <del type="falseStart">per non</del><pause/><kinesic><desc>con la mano destra si tocca la parte alta dell'orecchio</desc></kinesic> è una cattivissima consigliera<pause/> <vocal>ehm</vocal><pause/> allora le volevo solamente dire questo<pause/> <kinesic><desc>indica qualcosa con la mano destra</desc></kinesic><choice><sic>dice</sic><corr resp="#GB">disse</corr></choice> <q type="spoken" who="TEI-ListPerson.xml#Mengele">tu come ti chiami</q> <q type="spoken" who="#AW"><persName ref="TEI-ListPerson.xml#AW"><foreign xml:lang="de">Wachsberger</foreign> Arminio</persName></q> <kinesic><desc>con la mano destra si alza la manica del braccio sinistro</desc></kinesic><q type="spoken" who="TEI-ListPerson.xml#Mengele">fa vedere il numero qui</q><kinesic iterated="true"><desc>gesticola con le mani</desc></kinesic><gap resp="#GB" reason="inaudible" atLeast="1" atMost="2" unit="words"/> la mia scheda c’era<pause/> <q type="spoken" who="TEI-ListPerson.xml#Mengele">vedi perché tu sei in vita c’è la tua scheda<pause/> gli altri<pause/> <kinesic iterated="true"><desc>muove la mano sinistra facendo finta di sfogliare qualcosa</desc></kinesic>vediamo se c’è la scheda</q><kinesic iterated="true"><desc>si tocca i diti della mano destra partendo dal pollice</desc></kinesic> non c’era né mia moglie né mia figlia né i miei suoceri né l'<persName ref="TEI-ListPerson.xml#Capon"><roleName type="military">ammiraglio Capon</roleName></persName><pause/> perché <del type="truncation">no</del> non c’erano più<pause/><kinesic><desc>avvicina la mano destra al volto accarezzandosi il mento</desc></kinesic> eee <vocal><desc>sospira</desc></vocal><pause/> così che <vocal>ehm</vocal> fra di noi a nel <foreign xml:lang="de">lager</foreign> <choice><ori>si diceva</orig><reg resp="#GB">dicevamo</reg></choice><pause/><kinesic><desc>gesticola con entrambe le mani</desc></kinesic> nei limiti del possibile<pause/> sempre <choice><sic>andar</sic><corr resp="#GB">di andar</corr></choice> via da Auschwitz perché a Auschwitz non potevi mai sapere<pause/> se fra cinque minuti non eri nella camera a gas perché ogni sabato pomeriggio facevano la selezione interna<pause/> <kinesic iterated="true"><desc>indica qualcosa con la mano destra</desc></kinesic><ancor xml:id="arm-95" synch="#TT95"/>cioè quelli<ancor xml:id="arm-96" synch="#TT96"/> che erano nei <term xml:id="revier"><foreign xml:lang="de">revier</foreign></term> <del type="falseStart">con</del> <term xml:id="revier"><foreign xml:lang="de">revier</foreign></term> è un termine tedesco militare che <del type="falseStart">i</del> significa <gloss target="#revier">ospedale da campo</gloss><vocal><desc>espira</desc></vocal><pause/> <del type="falseStart">c’erano <del type="truncation">no</del> <del type="truncation">ospeda</del></del> pensi che a <del type="truncation">qu</del> quelli <unclear reason="inaudible" resp="#GB" cert="medium">dell'</unclear> ospedale del campo delle volte davano <kinesic><desc>con la mano destra si tocca la fronte con una espressione incredula</desc></kinesic>pane bianco<pause/> e dopo cinque minuti li mandavano alla morte<pause/> ma questo è un’altra faccenda <pause/>allora <choice><sic>quelli</sic><corr resp="#GB">da quelli</corr></choice> che erano all’ospedale <choice><orig>veniva</orig><reg resp="#GB">andava</reg></choice> <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName><pause/> dava un’occhiata a tutti quanti anche a mia moglie fra parentesi <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName><pause/> l’aveva già segnata per mandarla<pause/> al gas<pause/> ma questo glielo racconterà mia moglie <kinesic><desc>porta la mano destra alla bocca</desc></kinesic><pause/><vocal>eeehm</vocal><vocal><desc>deglutisce</desc></vocal><pause/> e <persName ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</persName> si dedicava a degli studi<pause/> sui<pause/><kinesic><desc>fa il numero due con la mano destra e gesticola</desc></kinesic> gemelli era la sua passione<pause/> perché mandava poi a un professore non mi ricordo più il nome non so in quale Università l’esito di queste sue prove<pause/> solo che dopo aver fatto <vocal>ehmm</vocal> diceva <q type="spoken" who="TEI-ListPerson.xml#Mengele">taglialo</q> <del type="falseStart">allora degli assistenti suoi che erano<pause/> medici ebrei<pause/><kinesic iterated="true"><desc>si gratta la mano destra con la sinistra</desc></kinesic> famosissimi al suo tempo </del><vocal>eeehm</vocal> era <del type="correction">c’era</del> un professore patologico <del type="correction">patologo</del> di <placeName ref="TEI-ListPlace.xml#Budapest">Budapest</placeName><kinesic><desc>viene avanti con la schiena spostandosi sul lato sinistro della poltrona</desc></kinesic> che era <vocal>ehm</vocal> quello che faceva<pause/> come si dice la <del type="truncation">lapa</del> <choice><sic><del type="correction">laparatomia</del></sic><corr resp="#GB" cert="high">laparotomia</corr></choice> eccetera <vocal><desc>si schiarisce la voce</desc></vocal>
+                    <ancor xml:id="arm-91" synch="#TT91"/><kinesic><desc>con la mano destra si tocca la zona vicino alle scapole</desc></kinesic>ah no<ancor xml:id="arm-92" synch="#TT92"/><kinesic iterated="true"><desc>muove la mano destra</desc></kinesic> <ancor xml:id="ma-93" synch="#TT93"/><del type="repetition">no</del> no io <ancor xml:id="arm-94" synch="#TT94"/><kinesic iterated="true"><desc>ruota il polso della sua mano destra chiusa a pugno e con l'indice alzato</desc></kinesic>mi chiamava la sera <choice><sic>dice</sic><corr resp="#GB">dicendo</corr></choice> <kinesic iterated="true"><desc>gesticola con la mano destra</desc></kinesic><q type="spoken" who="TEI-ListPerson.xml#Mengele"><foreign xml:lang="de">Komm heute abend zu mir</foreign></q> <!--traduzione--> stasera vieni da me<pause/> e io sapevo che a quell’ora <choice><sic>devo</sic><corr resp="#GB">dovevo</corr></choice> andar là<pause/> e <persName ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</persName> mi interrogava io rispondevo<pause/> <kinesic iterated="true"><desc>gesticola con entrambe le mani</desc></kinesic>e poi quando andavo via come ho detto prima mi regalava qualche<pause/> <distinct type="archaic">cosuccia</distinct> da mangiare che per noi era la vita <vocal><desc>tira su con il naso</desc></vocal><pause/> eee<kinesic iterated="true"><desc>muove la mano destra</desc></kinesic> perché la fame chi è che <vocal><desc>ride</desc></vocal> non l’ha <choice><sic>provato</sic><corr resp="#GB">provata</corr></choice> non la può capire no <gap resp="#GB" reason="inaudible" atLeast="1" atMost="3" unit="words"/> ho visto io dei genitori che rubavano il pane al figlio o il figlio che rubava il pane al padre <vocal><desc>espira</desc></vocal><pause/> <del type="falseStart">per non</del><pause/><kinesic><desc>con la mano destra si tocca la parte alta dell'orecchio</desc></kinesic> è una cattivissima consigliera<pause/> <vocal>ehm</vocal><pause/> allora le volevo solamente dire questo<pause/> <kinesic><desc>indica qualcosa con la mano destra</desc></kinesic><choice><sic>dice</sic><corr resp="#GB">disse</corr></choice> <q type="spoken" who="TEI-ListPerson.xml#Mengele">tu come ti chiami</q> <q type="spoken" who="#AW"><persName ref="TEI-ListPerson.xml#AW">Wachsberger Arminio</persName></q> <kinesic><desc>con la mano destra si alza la manica del braccio sinistro</desc></kinesic><q type="spoken" who="TEI-ListPerson.xml#Mengele">fa vedere il numero qui</q><kinesic iterated="true"><desc>gesticola con le mani</desc></kinesic><gap resp="#GB" reason="inaudible" atLeast="1" atMost="2" unit="words"/> la mia scheda c’era<pause/> <q type="spoken" who="TEI-ListPerson.xml#Mengele">vedi perché tu sei in vita c’è la tua scheda<pause/> gli altri<pause/> <kinesic iterated="true"><desc>muove la mano sinistra facendo finta di sfogliare qualcosa</desc></kinesic>vediamo se c’è la scheda</q><kinesic iterated="true"><desc>si tocca i diti della mano destra partendo dal pollice</desc></kinesic> non c’era né mia moglie né mia figlia né i miei suoceri né l'<persName ref="TEI-ListPerson.xml#Capon"><roleName type="military">ammiraglio Capon</roleName></persName><pause/> perché <del type="truncation">no</del> non c’erano più<pause/><kinesic><desc>avvicina la mano destra al volto accarezzandosi il mento</desc></kinesic> eee <vocal><desc>sospira</desc></vocal><pause/> così che <vocal>ehm</vocal> fra di noi a nel <foreign xml:lang="de">lager</foreign> <choice><ori>si diceva</orig><reg resp="#GB">dicevamo</reg></choice><pause/><kinesic><desc>gesticola con entrambe le mani</desc></kinesic> nei limiti del possibile<pause/> sempre <choice><sic>andar</sic><corr resp="#GB">di andar</corr></choice> via da Auschwitz perché a Auschwitz non potevi mai sapere<pause/> se fra cinque minuti non eri nella camera a gas perché ogni sabato pomeriggio facevano la selezione interna<pause/> <kinesic iterated="true"><desc>indica qualcosa con la mano destra</desc></kinesic><ancor xml:id="arm-95" synch="#TT95"/>cioè quelli<ancor xml:id="arm-96" synch="#TT96"/> che erano nei <term xml:id="revier"><foreign xml:lang="de">revier</foreign></term> <del type="falseStart">con</del> <term xml:id="revier"><foreign xml:lang="de">revier</foreign></term> è un termine tedesco militare che <del type="falseStart">i</del> significa <gloss target="#revier">ospedale da campo</gloss><vocal><desc>espira</desc></vocal><pause/> <del type="falseStart">c’erano <del type="truncation">no</del> <del type="truncation">ospeda</del></del> pensi che a <del type="truncation">qu</del> quelli <unclear reason="inaudible" resp="#GB" cert="medium">dell'</unclear> ospedale del campo delle volte davano <kinesic><desc>con la mano destra si tocca la fronte con una espressione incredula</desc></kinesic>pane bianco<pause/> e dopo cinque minuti li mandavano alla morte<pause/> ma questo è un’altra faccenda <pause/>allora <choice><sic>quelli</sic><corr resp="#GB">da quelli</corr></choice> che erano all’ospedale <choice><orig>veniva</orig><reg resp="#GB">andava</reg></choice> <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName><pause/> dava un’occhiata a tutti quanti anche a mia moglie fra parentesi <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName><pause/> l’aveva già segnata per mandarla<pause/> al gas<pause/> ma questo glielo racconterà mia moglie <kinesic><desc>porta la mano destra alla bocca</desc></kinesic><pause/><vocal>eeehm</vocal><vocal><desc>deglutisce</desc></vocal><pause/> e <persName ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</persName> si dedicava a degli studi<pause/> sui<pause/><kinesic><desc>fa il numero due con la mano destra e gesticola</desc></kinesic> gemelli era la sua passione<pause/> perché mandava poi a un professore non mi ricordo più il nome non so in quale Università l’esito di queste sue prove<pause/> solo che dopo aver fatto <vocal>ehmm</vocal> diceva <q type="spoken" who="TEI-ListPerson.xml#Mengele">taglialo</q> <del type="falseStart">allora degli assistenti suoi che erano<pause/> medici ebrei<pause/><kinesic iterated="true"><desc>si gratta la mano destra con la sinistra</desc></kinesic> famosissimi al suo tempo </del><vocal>eeehm</vocal> era <del type="correction">c’era</del> un professore patologico <del type="correction">patologo</del> di <placeName ref="TEI-ListPlace.xml#Budapest">Budapest</placeName><kinesic><desc>viene avanti con la schiena spostandosi sul lato sinistro della poltrona</desc></kinesic> che era <vocal>ehm</vocal> quello che faceva<pause/> come si dice la <del type="truncation">lapa</del> <choice><sic><del type="correction">laparatomia</del></sic><corr resp="#GB" cert="high">laparotomia</corr></choice> eccetera <vocal><desc>si schiarisce la voce</desc></vocal>
                 </u>
 
                 <u who="#MA">
-                    <ancor xml:id="int-95" synch="#TT95"/><unclear reason="inaudible" resp="#GB" cert="medium">e come si</unclear><ancor xml:id="int-96" synch="#TT96"/>
+                    <ancor xml:id="ma-95" synch="#TT95"/><unclear reason="inaudible" resp="#GB" cert="medium">e come si</unclear><ancor xml:id="ma-96" synch="#TT96"/>
                 </u>
 
                 <u who="#MA" xml:id="MA33" synch="TS66"/>
-                    ma quante volte lei è andato a<pause/> <ancor xml:id="int-97" synch="#TT97"/><distinct type="slang">chiacchierare</distinct> con <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName><ancor xml:id="int-98" synch="#TT98"/>
+                    ma quante volte lei è andato a<pause/> <ancor xml:id="ma-97" synch="#TT97"/><distinct type="slang">chiacchierare</distinct> con <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName><ancor xml:id="ma-98" synch="#TT98"/>
                 </u>
 
                 <u who="#AW" xml:id="AW33" synch="TS67"/>
@@ -902,19 +909,19 @@ City: Milan -->
                 </u>
 
                 <u who="#MA"/>
-                    <ancor xml:id="int-99" synch="#TT99"/>certo<ancor xml:id="int-100" synch="#TT100"/>
+                    <ancor xml:id="ma-99" synch="#TT99"/>certo<ancor xml:id="ma-100" synch="#TT100"/>
                 </u>
 
                 <u who="#MA" xml:id="MA34" synch="TS68"/>
-                    <ancor xml:id="int-101" synch="#TT101"/>e quindi<ancor xml:id="int-102" synch="#TT102"/> gli interessava il <del type="reformulation">la</del> situazione Italiana <ancor xml:id="int-103" synch="#TT103"/>per questo<ancor xml:id="int-104" synch="#TT104"/>
+                    <ancor xml:id="ma-101" synch="#TT101"/>e quindi<ancor xml:id="ma-102" synch="#TT102"/> gli interessava il <del type="reformulation">la</del> situazione Italiana <ancor xml:id="ma-103" synch="#TT103"/>per questo<ancor xml:id="ma-104" synch="#TT104"/>
                 </u>
 
                 <u who="#AW" xml:id="AW34" synch="TS69"/> <!-- luoghi:Italia, Toscana, Umbria; persone:bambina; who?? -->
-                    <ancor xml:id="arm-103" synch="#TT103"/>si la <del type="truncation">situa</del><ancor xml:id="arm-104" synch="#TT104"/> per <persName ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</persName> sempre era quello il suo chiodo fisso<pause/> voleva sapere come era la situazione in Italia <del type="repetition">eccetera</del> eccetera<pause/> allora io gli ho chiesto anche <q type="spoken" who="#AW">ma <vocal>ehm</vocal><pause/><kinesic><desc>avvicina le mani in posizione di preghiera</desc></kinesic> cosa ha fatto la mia bambina perché l'<del type="truncation">ama</del> <del type="correction">l’avete ammazzata</del></q><pause/> dice <q type="spoken" who="TEI-ListPerson.xml#Mengele">è ebrea <foreign xml:lang="de">und das genugt</foreign> e questo basta</q><pause/> <q type="spoken" who="#AW">E allora perché non l’avete ammazzata a<placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName> <del type="falseStart"><del type="truncation">perc</del></del> c’era bisogno di farla trascinare <del type="truncation">s</del><kinesic><desc>sposta le mani dalla sua destra a sinistra</desc></kinesic> sei giorni di viaggio portarla qui per ammazzarla qua</q> <q type="spoken" who="TEI-ListPerson.xml#Mengele"><vocal>Eh</vocal> no<pause/> fra la gente civile non possiamo fare questo</q> invece hanno fatto poi<pause/><kinesic iterated="true"><desc>muove il braccio e la mano destra</desc></kinesic> in Italia tutte le<pause/> <unclear reason="inaudible" resp="#GB" cert="low">ne</unclear><kinesic iterated="true"><desc>si tocca il suo orecchio sinistro con la mano sinistra</desc></kinesic> Toscana e <del type="repetition">in</del> in Umbria e cose avanti<pause/> si <choice><orig>va <vocal>beh</vocal></orig><reg resp="#GB">va bene</reg></choice> questa era già verso la fine della guerra quando <del type="repetition">non</del><pause/><kinesic iterated="true"><desc>con la mano sinistra tocca la gamba sinistra degli occhiali</desc></kinesic> non <ancor xml:id="arm-105" synch="#TT105"/>resistevano più<ancor xml:id="arm-106" synch="#TT106"/>
+                    <ancor xml:id="arm-103" synch="#TT103"/>si la <del type="truncation">situa</del><ancor xml:id="arm-104" synch="#TT104"/> per <persName ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</persName> sempre era quello il suo chiodo fisso<pause/> voleva sapere come era la situazione in Italia <del type="repetition">eccetera</del> eccetera<pause/> allora io gli ho chiesto anche <q type="spoken" who="#AW">ma <vocal>ehm</vocal><pause/><kinesic><desc>avvicina le mani in posizione di preghiera</desc></kinesic> cosa ha fatto la mia bambina perché l'<del type="truncation">ama</del> <del type="correction">l’avete ammazzata</del></q><pause/> dice <q type="spoken" who="TEI-ListPerson.xml#Mengele">è ebrea <foreign xml:lang="de">und das genugt</foreign> e questo basta</q><pause/> <q type="spoken" who="#AW">E allora perché non l’avete ammazzata a<placeName ref="TEI-ListPlace.xml#RO">Roma</placeName> <del type="falseStart"><del type="truncation">perc</del></del> c’era bisogno di farla trascinare <del type="truncation">s</del><kinesic><desc>sposta le mani dalla sua destra a sinistra</desc></kinesic> sei giorni di viaggio portarla qui per ammazzarla qua</q> <q type="spoken" who="TEI-ListPerson.xml#Mengele"><vocal>Eh</vocal> no<pause/> fra la gente civile non possiamo fare questo</q> invece hanno fatto poi<pause/><kinesic iterated="true"><desc>muove il braccio e la mano destra</desc></kinesic> in Italia tutte le<pause/> <unclear reason="inaudible" resp="#GB" cert="low">ne</unclear><kinesic iterated="true"><desc>si tocca il suo orecchio sinistro con la mano sinistra</desc></kinesic> Toscana e <del type="repetition">in</del> in Umbria e cose avanti<pause/> si <choice><orig>va <vocal>beh</vocal></orig><reg resp="#GB">va bene</reg></choice> questa era già verso la fine della guerra quando <del type="repetition">non</del><pause/><kinesic iterated="true"><desc>con la mano sinistra tocca la gamba sinistra degli occhiali</desc></kinesic> non <ancor xml:id="arm-105" synch="#TT105"/>resistevano più<ancor xml:id="arm-106" synch="#TT106"/>
                 </u>
 
                 <u who="#MA" xml:id="MA35" synch="TS70"/>
-                    <ancor xml:id="int-105" synch="#TT105"/>quindi lei<ancor xml:id="int-106" synch="#TT106"/> era in quarantena è statoo
+                    <ancor xml:id="ma-105" synch="#TT105"/>quindi lei<ancor xml:id="ma-106" synch="#TT106"/> era in quarantena è statoo
                 </u>
 
                 <u who="#AW" xml:id="AW35" synch="TS71"/>
@@ -930,11 +937,11 @@ City: Milan -->
                 </u>
 
                 <u who="#MA" xml:id="MA37" synch="TS74"/>
-                    che erano con lei <ancor xml:id="int-107" synch="#TT107"/>nella quarantena<ancor xml:id="int-108" synch="#TT108"/>
+                    che erano con lei <ancor xml:id="ma-107" synch="#TT107"/>nella quarantena<ancor xml:id="ma-108" synch="#TT108"/>
                 </u>
 
                 <u who="#AW" xml:id="AW37" synch="TS75"/><!-- luogo: Jawishowitz; 2 vocal vicini?; persone: Della Seta Giancarlo e padre -->
-                    <ancor xml:id="arm-107" synch="#TT107"/>che erano con <kinesic><desc>con la mano sinistra si tocca il petto</desc></kinesic><choice><sic>mi</sic><corr resp="#GB">me</corr></choice><ancor xml:id="arm-108" synch="#TT108"/> nella <del type="truncation">quarante</del> ma erano di più<kinesic iterated="true"><desc>agita le mani</desc></kinesic> eravamo 150 circa <vocal><desc>espira</desc></vocal> solo che in precedenza una parte<pause/> è stata mandata<kinesic><desc>indica qualcosa alla sua sinistra</desc></kinesic> nelle miniere di Jawishowitz che abbiamo visto sulla carta<pause/> che era a <measure><num>700</num> <unit>m</unit></measure> di profondità e <vocal>ehm</vocal> mi aveva detto poi le riferirò chi<pause/> più di due settimane<kinesic iterated="true"><desc>scuote la testa</desc></kinesic> non resistevano e morivano <kinesic iterated="true"><desc>agita entrambe le mani</desc></kinesic>salvo qualcuno che le eccezioni ci sono sempre<pause/><kinesic><desc>indica qualcosa alla sua sinistra</desc></kinesic> c’è uno che l’ho visto <del type="repetition" cert="low">nel</del> <unclear reason="inaudible" resp="#GB" cert="low">nel</unclear> film e l’ho riconosciuto<pause/> che invece si è salvato anche da Jawishowitz <choice><orig>va <vocal>beh</vocal></orig><reg resp="#GB">va bene</reg></choice> è capitato anche questo<pause/> allora<pause/><vocal><desc>deglutisce</desc></vocal> e quando è venuto <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName> per <vocal>ehm</vocal><kinesic iterated="true"><desc>ruota la mano sinistra chiusa a pugno e con l'indice alzato</desc></kinesic> fare la selezione di quelli da mandare a Jawishowitz<pause/> io ero suo interprete <persName ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</persName> ci ha fatti denudare tutti<pause/> <kinesic><desc>con la mano destra si tocca il petto</desc></kinesic>meno a me e <kinesic><desc>indica con la mano destra un percorso</desc></kinesic>gli ha fatti passare davanti a <persName ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</persName><pause/> <kinesic><desc>con la mano destra si tocca il polso sinistro come a simulare la presa di visione del numero</desc></kinesic><persName ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</persName> li guardava e poi diceva al <term xml:id="blockaltester"><foreign xml:lang="de">blockaltester</foreign></term> il <term xml:id="blockaltester"><foreign xml:lang="de">blockaltester</foreign></term> era il <gloss target="#blockaltester"> capo baracca prigioniero</gloss><pause/><kinesic><desc>con la mano destra si tocca il polso sinistra facendo finta di scrivere</desc></kinesic> di prendere nota del numero <vocal>ehm</vocal><vocal><desc>deglutisce</desc></vocal><pause/> io avevo fra gli italiani ci sono simpatie e antipatie<pause/> c’era <del type="falseStart">una</del> <del type="reformulation">la</del> famiglia Della Seta di <placeName ref="TEI-ListPlace.xml#Roma">Roma</placeName><pause/> questa famiglia Della Seta c’era il padre che aveva 52 anni però era giovanile <kinesic iterated="true"><desc>agita le mani</desc></kinesic>non si sono accorti che aveva quell’età<pause/> e un <persName ref="TEI-ListPerson.xml#GiancarloDS">figlio<pause/> Giancarlo</persName><pause/> questo <persName ref="TEI-ListPerson.xml#GiancarloDS">Giancarlo</persName><pause/><vocal><desc>deglutisce</desc></vocal> aveva 15 anni<pause/><kinesic><desc>simula una grossa corpuratura</desc></kinesic> però a guardarlo sembrava un colosso<pause/><kinesic iterated="true"><desc>scuote la testa</desc></kinesic> ma nessuno sapeva la verità<pause/> <persName ref="TEI-ListPerson.xml#GiancarloDS" resp="#GB">lui</persName> soffriva di distrofia muscolare<pause/> che certi momenti <kinesic iterated="true"><desc>apre le braccia per simulare la perdita di forze</desc></kinesic>perdeva completamente le forze<pause/> e cadeva per terra<pause/> non in continuazione succedeva anche questo<pause/> Allora ho avuto ancora pietà per lui e quindi io ero sempre in<pause/> contatto con questo questi due Della Seta, il padre che mi aveva raccontato in tempo di guerra, specialmente nel 43, la gente cercava di accaparrare i generi alimentari e li nascondeva in casa, questo era proibissimo e allora venivano delle squadre di ufficiali e di sottufficiali della finanza e andavano nelle varie case per vedere se qualcuno aveva accaparrato dei generi alimentari, poi venivano puniti, etc. Allora, loro, come tutti gli altri accaparravano, e l’avevano messo questi generi alimentari in una piccola stanzetta e questa stanzetta l’hanno chiusa con un armadio a muro come da Anna Frank all’incirca, e la mattina del 16 ottobre, nella stanza in sala c’era lui, della Seta e il figlio, invece, quando hanno suonato alla porta e hanno detto “ah ah, sono quelli della finanza che vengono a controlla…”, allora la moglie che adesso vive ancora, c’ha 93 anni, l’ho saputo da poco, e la sorella sua, sono andati dentro nello stanzino, loro hanno messo il, quella specie di armadio a muro, entrano ma invece della finanza erano delle SS, non si sono accorti di questo secondo e hanno arrestato solo lui e il figlio, invece la (ripetizione) la madre e la figlia si son salvate a Roma. Eee, adesso cosa succede? Che quando fanno questo controllo per mandare a Jaworzno io ho avuto l’impressione che non hanno preso il numero né del padre né del figlio, quando ho finito, dico (frase in tedesco) “Devo anche io svestirmi?”, cerco insieme con Mengele un medico polacco ebreo che lavorava insieme con Mengele che mi ha detto a me (frase in tedesco) “non dire che… rimani così, tanto lui non se n’è accorto, rimani così in piedi”, dice “perché tu non lo sai dove va a finire questa gente, va a finire a Jaworzno, nelle miniere, più di due settimane non resistono. Poi tornano qui per essere bruciati nei crematori” perché a Jaworzno non c’eran crematori, allora io son stato zitto. Quando poi, finito tutto, era verso le due del pomeriggio, non ne potevo più allora a questo di Segni, al padre, (parole che non si capiscono), ho detto “guarda siete fortunati”
+                    <ancor xml:id="arm-107" synch="#TT107"/>che erano con <kinesic><desc>con la mano sinistra si tocca il petto</desc></kinesic><choice><sic>mi</sic><corr resp="#GB">me</corr></choice><ancor xml:id="arm-108" synch="#TT108"/> nella <del type="truncation">quarante</del> ma erano di più<kinesic iterated="true"><desc>agita le mani</desc></kinesic> eravamo 150 circa <vocal><desc>espira</desc></vocal> solo che in precedenza una parte<pause/> è stata mandata<kinesic><desc>indica qualcosa alla sua sinistra</desc></kinesic> nelle miniere di Jawishowitz che abbiamo visto sulla carta<pause/> che era a <measure><num>700</num> <unit>m</unit></measure> di profondità e <vocal>ehm</vocal> mi aveva detto poi le riferirò chi<pause/> più di due settimane<kinesic iterated="true"><desc>scuote la testa</desc></kinesic> non resistevano e morivano <kinesic iterated="true"><desc>agita entrambe le mani</desc></kinesic>salvo qualcuno che le eccezioni ci sono sempre<pause/><kinesic><desc>indica qualcosa alla sua sinistra</desc></kinesic> c’è uno che l’ho visto <del type="repetition" cert="low">nel</del> <unclear reason="inaudible" resp="#GB" cert="low">nel</unclear> film e l’ho riconosciuto<pause/> che invece si è salvato anche da Jawishowitz <choice><orig>va <vocal>beh</vocal></orig><reg resp="#GB">va bene</reg></choice> è capitato anche questo<pause/> allora<pause/><vocal><desc>deglutisce</desc></vocal> e quando è venuto <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName> per <vocal>ehm</vocal><kinesic iterated="true"><desc>ruota la mano sinistra chiusa a pugno e con l'indice alzato</desc></kinesic> fare la selezione di quelli da mandare a Jawishowitz<pause/> io ero suo interprete <persName ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</persName> ci ha fatti denudare tutti<pause/> <kinesic><desc>con la mano destra si tocca il petto</desc></kinesic>meno a me e <kinesic><desc>indica con la mano destra un percorso</desc></kinesic>gli ha fatti passare davanti a <persName ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</persName><pause/> <kinesic><desc>con la mano destra si tocca il polso sinistro come a simulare la presa di visione del numero</desc></kinesic><persName ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</persName> li guardava e poi diceva al <term xml:id="blockaltester"><foreign xml:lang="de">blockaltester</foreign></term> il <term xml:id="blockaltester"><foreign xml:lang="de">blockaltester</foreign></term> era il <gloss target="#blockaltester"> capo baracca prigioniero</gloss><pause/><kinesic><desc>con la mano destra si tocca il polso sinistra facendo finta di scrivere</desc></kinesic> di prendere nota del numero <vocal>ehm</vocal><vocal><desc>deglutisce</desc></vocal><pause/> io avevo fra gli italiani ci sono simpatie e antipatie<pause/> c’era <del type="falseStart">una</del> <del type="reformulation">la</del> famiglia Della Seta di <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName><pause/> questa famiglia Della Seta c’era il padre che aveva 52 anni però era giovanile <kinesic iterated="true"><desc>agita le mani</desc></kinesic>non si sono accorti che aveva quell’età<pause/> e un <persName ref="TEI-ListPerson.xml#GiancarloDS">figlio<pause/> Giancarlo</persName><pause/> questo <persName ref="TEI-ListPerson.xml#GiancarloDS">Giancarlo</persName><pause/><vocal><desc>deglutisce</desc></vocal> aveva 15 anni<pause/><kinesic><desc>simula una grossa corpuratura</desc></kinesic> però a guardarlo sembrava un colosso<pause/><kinesic iterated="true"><desc>scuote la testa</desc></kinesic> ma nessuno sapeva la verità<pause/> <persName ref="TEI-ListPerson.xml#GiancarloDS" resp="#GB">lui</persName> soffriva di distrofia muscolare<pause/> che certi momenti <kinesic iterated="true"><desc>apre le braccia per simulare la perdita di forze</desc></kinesic>perdeva completamente le forze<pause/> e cadeva per terra<pause/> non in continuazione succedeva anche questo<pause/> Allora ho avuto ancora pietà per lui e quindi io ero sempre in<pause/> contatto con questo questi due Della Seta, il padre che mi aveva raccontato in tempo di guerra, specialmente nel 43, la gente cercava di accaparrare i generi alimentari e li nascondeva in casa, questo era proibissimo e allora venivano delle squadre di ufficiali e di sottufficiali della finanza e andavano nelle varie case per vedere se qualcuno aveva accaparrato dei generi alimentari, poi venivano puniti, etc. Allora, loro, come tutti gli altri accaparravano, e l’avevano messo questi generi alimentari in una piccola stanzetta e questa stanzetta l’hanno chiusa con un armadio a muro come da Anna Frank all’incirca, e la mattina del 16 ottobre, nella stanza in sala c’era lui, della Seta e il figlio, invece, quando hanno suonato alla porta e hanno detto “ah ah, sono quelli della finanza che vengono a controlla…”, allora la moglie che adesso vive ancora, c’ha 93 anni, l’ho saputo da poco, e la sorella sua, sono andati dentro nello stanzino, loro hanno messo il, quella specie di armadio a muro, entrano ma invece della finanza erano delle SS, non si sono accorti di questo secondo e hanno arrestato solo lui e il figlio, invece la (ripetizione) la madre e la figlia si son salvate a Roma. Eee, adesso cosa succede? Che quando fanno questo controllo per mandare a Jaworzno io ho avuto l’impressione che non hanno preso il numero né del padre né del figlio, quando ho finito, dico (frase in tedesco) “Devo anche io svestirmi?”, cerco insieme con Mengele un medico polacco ebreo che lavorava insieme con Mengele che mi ha detto a me (frase in tedesco) “non dire che… rimani così, tanto lui non se n’è accorto, rimani così in piedi”, dice “perché tu non lo sai dove va a finire questa gente, va a finire a Jaworzno, nelle miniere, più di due settimane non resistono. Poi tornano qui per essere bruciati nei crematori” perché a Jaworzno non c’eran crematori, allora io son stato zitto. Quando poi, finito tutto, era verso le due del pomeriggio, non ne potevo più allora a questo di Segni, al padre, (parole che non si capiscono), ho detto “guarda siete fortunati”
                 </u>
 
             </div>
@@ -1018,7 +1025,7 @@ A.W: si era vicino ma non Birkenau.
 M.S: non in stazione?
 A.W: non in stazione no, era una rampa fatta apposta per loro e la sentinella ogni tanto batteva col calcio del fucile e diceva "steel steel"(?) di star zitti "sennò vi sparo" e così ci siamo un po' calmati. Arrivati a Varsavia...
 M.S: quanto è durato il viaggio?
-A.W: Una notte, una notte intera, non è molto distante. Arrivati a Varsavia ci aprono i gli sportelli e non sono, non c'è più la SS, a Varsavia c'era invece - mentre a Birkenau e a Auschwitz erano le SS pure che "totem comando" (?) si chiamava, comando della morte che portava il teschio qui - ma bensì erano degli ucraini, ucraini che i tedeschi avevano promesso loro la libertà dal comunismo e questi per guadagnare qualche cosa si erano iscritti a questa polizia ucraina.
+A.W: Una <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time>, una <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> intera, non è molto distante. Arrivati a Varsavia ci aprono i gli sportelli e non sono, non c'è più la SS, a Varsavia c'era invece - mentre a Birkenau e a Auschwitz erano le SS pure che "totem comando" (?) si chiamava, comando della morte che portava il teschio qui - ma bensì erano degli ucraini, ucraini che i tedeschi avevano promesso loro la libertà dal comunismo e questi per guadagnare qualche cosa si erano iscritti a questa polizia ucraina.
 M.S: e avevano delle divise diverse?
 A.W: avevano delle divise quasi identiche alle SS ma leggermente diverse per distinguerli, per far... e questi urlavano, sbraitavano "all'ero(?)" e avevano gli scudisci e con gli scudisci ci colpivano perché tutta la pratica delle SS era di infierire contro la gente per renderli incapaci, di non pensare e di non reagire, ma so per esempio che alcuni trasporti provenienti dal ghetto di Varsavia che li hanno portati a Birkenau per ucciderli, loro sapevano che andavano a morte si erano ribellati e hanno attaccato le SS e lì è successo dei grossi parapiglia. Lei sa, a proposito, salto da palo in frasca, che a Auschw- a Birkenau, quando son venuti gli ungheresi le cinque camere a gas erano insufficienti, allora hanno creato il "shaiten often"(?), cioè una fossa enorme dove hanno messo del petrolio in fondo e facevano avvicinare nudi quelli che dovevano perire e li facevano, li buttavano dentro nudi e venivano consumati da questo, poi sopra questi altri ancora.
 M.S: queste sono cose che lei ha saputo dopo perché non era lì quando è avvenuto?
@@ -1058,7 +1065,7 @@ A.W: Eee, il figlio è di mestiere biologo però non ha lavoro e quindi si cerca
 M.S: si, ritorniamo un attimo... allora siete in queste baracche nell'ex ghetto di Varsavia...
 A.W: Ex ghetto di Varsavia.
 M.S: Si.
-A.W: adesso cosa succede? Questo è un caso bisogna raccontarlo perché è interessante: c'erano ancora ebrei nascosti nei sotterranei del ghetto che venivano aiutati da polacchi che venivano la notte attraverso i canali per portar loro da mangiare, ma non per niente, per un- una pagnotta che chi- chiedevano chiedevano che so, un anello con brillante. 
+A.W: adesso cosa succede? Questo è un caso bisogna raccontarlo perché è interessante: c'erano ancora ebrei nascosti nei sotterranei del ghetto che venivano aiutati da polacchi che venivano la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> attraverso i canali per portar loro da mangiare, ma non per niente, per un- una pagnotta che chi- chiedevano chiedevano che so, un anello con brillante. 
 M.S: come vi siete accorti di questo?
 A.W: Aspetti che glielo dico... eee, noi la mattina, c'era il cors-, l'ordine "armais comando formire?" "Formare i gruppi di lavoro" in "underchaf" (?), vuol dire "a centinaia", sempre 100 100 cent- perché loro per numerarc- (riformulazione) controllarci facilmente, allora noi uscivamo - io era sempre dolmetscher interprete - e c'era sempre un kapò insieme con noi. Questo Kapò, quando si arrivava davanti la sentinella della SS, doveva uscire, levare il berretto e dire emh, indicava il proprio numero (frase in tedesco) vuol dire "altri 99" e si andava a lavoro. La sera quando si tornava avveniva il contrario, la sentinella controllava solo se eravamo 100 e/o non di meno. Una mattina questo Kapò non poté venire perché si era ammalato allora il comandante mi diceva "fai te" il kapò di questa centuria. Io vado, levo il berretto, e mi presento, questo era un sottufficiale che era della Transylvania, era tedesco della - sa che in Transylvania c'erano anche i tedeschi già 2 o 300 anni -. Dico in tedesco (frase in tedesco balbettando: dice "persone" + risposta in tedesco), "cosa hai detto? Persone?" E ha cominciato a darmi addosso pugni e calci. E io non sapevo perché allora siccome avevo gli occhiali, dico non voglio che mi rompa gli occhiali li ho levati e dice "perché togli gli occhiali?" "Li tolgo perché non voglio che si rompano perché poi non ci vedo" "ah si?", allora me li prende, li mette sotto, tac e li li sf- li sfascia completamente. Poi dopo finalmente mi dice (frase in tedesco) "voi non siete persone" (frase in tedesco) "voi siete animali di lavoro e quindi tu devi dire al massimo" (frase in tedesco) "non devi dire (persone in tedesco), non devi dire persone", vabbeh. La sera si torna indietro e dico "aiai, sarà uguale come a stamattina", però sapevo come dovevo dire, non più "menson" o persone ma dovevo dire "arbaistir", lui mi guarda e non mi fa niente, e dico "ma cosa è successo?". Non solo, dopo altre volte che ci incontravamo era sempre affabile e cortese, e delle volte invece capitava di colpo, mentre noi cercavamo di riposare un momentino capitava lui (frase in tedesco) "non ha lavorato" 25 emh frust- con la frusta sul- e io ma ero l'unico che lavorava, gli altri non, gli altri niente a me sì. Allora una volta che l'ho incontrato, dice "come here" "vieni qua" e mi ha detto "adesso ti racconto la mia storia: io ero insegnante di scuola elementare però io sono nato sadico, ho bisogno di soddisfare il mio fabbisogno di sadismo, solo dove lo posso fare, contro i bambini piccoli perché una persona normale non si lascia..." e allora cosa è successo? "Che sono venuti a sapere e mi hanno buttato fuori dalla scuola, allora sono andato nella legione straniera francese" ed è stato un paio di anni lì, anche lì po-
 
@@ -1078,7 +1085,7 @@ A.W: Le stavo dicendo dell'Ingegner Pontecorvo.
 M.S: si questo...
 A.W: l'Ingegner Pontecorvo era il primo in Italia ad aver applicato il microscopio elettronico, adesso è diventato una cosa abituale ma stiamo parlando del 43, questo Ingegner Pontecorvo è era era perché purtroppo non c'è più cugino del regista Pontecorvo, famoso in tutto il mondo no?
 M.S: era con lei aa Varsavia?
-A.W: Questo Ingegner Pontecorvo, ma suo cugino si è salvato in Italia, non so come... e allora quando eravamo sulla catena, lei mi aveva chiesto prima le ore, ore e ore che non si contavano più, e allora si cercava di ammazzare il tempo, allora mentre si buttava i mattoni uno all'altro io mi int- io parlavo con l'Ingegner Pontecorvo di argomenti di ottica, di fotografia, lui mi parlava di microscopi, mi spie- (riformulazione) cercava di spiegarmi - non è che abbia capito tutto - come funzionasse e altri c'erano due medici ancora e tutto - purtroppo (?) sono morti tutti eee adesso torno a parlare dei russi che sono vicini e dicono "adesso noi andiamo in Germania a piedi", allora io avevo conosciuto un ebreo polacco, che noi chiamavamo Ti-, non il numero ma neanche il nome, si diceva Tshirt, "Tshirt" vuol dire "falegname" perché lui era di professione falegname. Lui, quando mi son salvato dal tifo, che son rimasto vivo - lo sa il Signore Iddio perché - avevo bisogno di rif- rinforzarmi e allora io avevo un ponte d'oro, lui ha preso una tanaglia da falegname ed è riuscito a togliermi questo oro, questo ponte d'oro, l'ha dato ad un contadino polacco che entravano la mattina per prendere le stipe e lui ci ha portato del pane un bianco, un pezzo di salame - salame vero -, insomma son riuscito a rinforzarmi con questo oro che però era proibitissimo perché appena arrivati a Varsavia la prima cosa che ha fatto l'SS è guardare le bocche di tutti quanti per vedere quanti denti d'oro c'hanno e segnavano pr- prigioniero numero tarditali 2 denti d'oro in maniera che se quello moriva sapevano che prima di bruciarlo bisognava toglier l'oro.
+A.W: Questo Ingegner Pontecorvo, ma suo cugino si è salvato in Italia, non so come... e allora quando eravamo sulla catena, lei mi aveva chiesto prima le ore, ore e ore che non si contavano più, e allora si cercava di ammazzare il tempo, allora mentre si buttava i mattoni uno all'altro io mi ma- io parlavo con l'Ingegner Pontecorvo di argomenti di ottica, di fotografia, lui mi parlava di microscopi, mi spie- (riformulazione) cercava di spiegarmi - non è che abbia capito tutto - come funzionasse e altri c'erano due medici ancora e tutto - purtroppo (?) sono morti tutti eee adesso torno a parlare dei russi che sono vicini e dicono "adesso noi andiamo in Germania a piedi", allora io avevo conosciuto un ebreo polacco, che noi chiamavamo Ti-, non il numero ma neanche il nome, si diceva Tshirt, "Tshirt" vuol dire "falegname" perché lui era di professione falegname. Lui, quando mi son salvato dal tifo, che son rimasto vivo - lo sa il Signore Iddio perché - avevo bisogno di rif- rinforzarmi e allora io avevo un ponte d'oro, lui ha preso una tanaglia da falegname ed è riuscito a togliermi questo oro, questo ponte d'oro, l'ha dato ad un contadino polacco che entravano la mattina per prendere le stipe e lui ci ha portato del pane un bianco, un pezzo di salame - salame vero -, insomma son riuscito a rinforzarmi con questo oro che però era proibitissimo perché appena arrivati a Varsavia la prima cosa che ha fatto l'SS è guardare le bocche di tutti quanti per vedere quanti denti d'oro c'hanno e segnavano pr- prigioniero numero tarditali 2 denti d'oro in maniera che se quello moriva sapevano che prima di bruciarlo bisognava toglier l'oro.
 M.S: voglio chiederle una cosa, emh, lì nell'ex ghetto di Varsavia...
 A.W: Adesso...
 M.S: c'era l'appello anche lì ogni mattina?
@@ -1102,7 +1109,7 @@ A.W: un giorno, un giorno mentre sono sotto in questo canale, questo (balbetta) 
 M.S: era una persona sola? Un uomo?
 A.W: si, siamo tornati su con cesto vuoto. La SS dice "come in-? Non avete trovato niente?" "Eh no, in questo canale altri... no- non abbiamo trovato niente".
 M.S: erano le fogne?
-A.W: fogne si, ecco la parola esatta. Eee... vabbeh, non c'era niente, niente. La mattina dopo ecco - adesso viene il bello - (frase in tedesco) e invece di portarci lì avevamo noi nascosto qui sulla pancia delle pagnotte che davano a noi, una pagnotta in sei: noi abbiamo rinunciato a mangiare noi per portare a questo povero diavolo che era nascosto e le avevamo nascoste qui sulla pancia e invece di andare all pposto del ssolito questa volta la sentinella ci porta in un altro posto... che strano, adesso avevamo qui in pane per darglielo poveretto deve pensare a chissà che cosa, niente. La sera "seil Appel"(?) a Varsavia, a un certo momento viene il comandante e porta con sé una persona, era quello con la barba. Domandano (frase in tedesco) se lo conosciamo "non lo abbiamo mai visto" e invece l'avevo (avevamo?) visto eee... (frase in tedesco) "lui è (pausa) punito per la morte" e lo impiccano davanti a noi.
+A.W: fogne si, ecco la parola esatta. Eee... vabbeh, non c'era niente, niente. La mattina dopo ecco - adesso viene il bello - (frase in tedesco) e invece di portarci lì avevamo noi nascosto qui sulla pancia delle pag<time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> che davano a noi, una pagnotta in sei: noi abbiamo rinunciato a mangiare noi per portare a questo povero diavolo che era nascosto e le avevamo nascoste qui sulla pancia e invece di andare all pposto del ssolito questa volta la sentinella ci porta in un altro posto... che strano, adesso avevamo qui in pane per darglielo poveretto deve pensare a chissà che cosa, niente. La sera "seil Appel"(?) a Varsavia, a un certo momento viene il comandante e porta con sé una persona, era quello con la barba. Domandano (frase in tedesco) se lo conosciamo "non lo abbiamo mai visto" e invece l'avevo (avevamo?) visto eee... (frase in tedesco) "lui è (pausa) punito per la morte" e lo impiccano davanti a noi.
 M.S: avete assistito tutti insieme?
 A.W: Si, aaa insieme a questa impiccagione. Eee adesso poi più tardi si è saputo il perché: quello della SS, il nostro accompagnatore, quando ha visto che noi non abbiamo detto di non aver trovato nulla è andato lui giù e ha visto quello là e l'ha arrestato perché? Perché se qualcuno trovava un ebreo nascosto riceveva una licenza di due settimane (pausa) in più 500 marchi, quindi a lui ha fatto comodo denunciarlo e in questa maniera purtroppo lui è morto e noi siam-.
 M.S: un'altra cosa volevo chiedergli sempre di questo ex ghetto... emh... quindi ogni giorno c'erano gli appelli?
@@ -1164,7 +1171,7 @@ A.W: Si, erano i "blokkertest?".
 M.S: "blokkertest"?
 A.W: ebreo.
 M.S: ebreo.
-A.W: Si. Adesso le voglio solamente dire: a Varsavia c'era un kapò nostro che - la notte non si poteva uscire per andare a fare i proprio bisogni - e un ingegnere (riformulazione), un... cosa ? un ingegnere o un dottore? Dottore. Romano. Stava al terzo letto, al terzo piano, e la notte non ha potuto più, gli è scappata l'urina e questa urina è colata e gli altri si sono lamentati logicamente. Allora è venuto questo kapò che era cecoslovacco, gli ha dato tante di quelle botte che questo povero professore è morto dalle botte. Perché racconto questo particolare? Perché finita la guerra, la maggior parte di noi andavano, emigravano, o in Israele o in ai Stati Uniti d'America. Quelli che volevano andare in America c'era l'ACI [letto come acronimo lettera per lettera in inglese] cioè "intelligence service" che controllava se questi si erano comportati umanamente nei campi, allora è venuto questo cecoslovacco da me e mi ha detto "Arminio dolmetscher" Che no? Chiamarmi dolmetscher Che vuol dire "interprete" e dice "io lo so quello che ho fatto però tu lo sai, o facevi così o sennò morivi te e allora mors tua vita mea" (? Controllare) e dico "ma no, tu potevi anche punire quel povero professore ma sbranarlo di botte e di frustate per farlo morire... comunque io sono figlio di un rabbino ortodosso, sono ortodosso anch'io, io ti dichiaro che ti sei comportato umanamente" e lui è andato in America.
+A.W: Si. Adesso le voglio solamente dire: a Varsavia c'era un kapò nostro che - la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> non si poteva uscire per andare a fare i proprio bisogni - e un ingegnere (riformulazione), un... cosa ? un ingegnere o un dottore? Dottore. Romano. Stava al terzo letto, al terzo piano, e la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> non ha potuto più, gli è scappata l'urina e questa urina è colata e gli altri si sono lamentati logicamente. Allora è venuto questo kapò che era cecoslovacco, gli ha dato tante di quelle botte che questo povero professore è morto dalle botte. Perché racconto questo particolare? Perché finita la guerra, la maggior parte di noi andavano, emigravano, o in Israele o in ai Stati Uniti d'America. Quelli che volevano andare in America c'era l'ACI [letto come acronimo lettera per lettera in inglese] cioè "intelligence service" che controllava se questi si erano comportati umanamente nei campi, allora è venuto questo cecoslovacco da me e mi ha detto "Arminio dolmetscher" Che no? Chiamarmi dolmetscher Che vuol dire "interprete" e dice "io lo so quello che ho fatto però tu lo sai, o facevi così o sennò morivi te e allora mors tua vita mea" (? Controllare) e dico "ma no, tu potevi anche punire quel povero professore ma sbranarlo di botte e di frustate per farlo morire... comunque io sono figlio di un rabbino ortodosso, sono ortodosso anch'io, io ti dichiaro che ti sei comportato umanamente" e lui è andato in America.
 M.S: si, l'ha salvato.
 A.W: eee, adesso voglio finire Varsavia.
 M.S: si, voglio sapere ancora se...
@@ -1210,7 +1217,7 @@ A.W: A Dachau siamo rimasti un paio di giorni. Dachau era il primo campo di conc
 M.S: lei era sempre con questi 42 italiani?
 A.W: no di italiani non c'erano più, che solamente eravamo in 3.
 M.S: cosa è successo?
-A.W: morti. Morti d- di stenti, di tifo... eravamo rimasti: io, Lillo Di Segni e questo Isacco Sermoneta - che aveva un sacco di familiari - il quale una volta, dop-, nel campo dove eravamo al Waldlager aveva tagliato la corda però vestito ancora da prigioniero e naturalmente l'hanno ripreso e l'hanno riportato al campo. E il comandante era di Laverna(?), il comandante del Waldlager negli ultimi mesi, allora ha fatto montare la forca ee, la sera, sarebbe stato ammazza- stato impiccato la mattina dopo. Nel frattempo l'hanno messo nel bunker sotterraneo. Di italiani eravamo io, una milanese che si chiama - spero che viva ancora, che lei era ebrea, il marito cattolico, e c'ha il figlio, il marito e il figlio son rimasti a Milano vivi, lei è stata deportata a Birkenau - Hahim(?) è il cognome ma poi Hahim (?)ee il marito, portava anche il nome del marito, ed era italiana milanese, e in più c'era una partigiana piemontese, non ebrea - perché a Birkenau? Portavano anche i partigiani, non solamente ebrei. E allora noi, durante la giornata e la notte, portavamo da mangiare a questo povero Isacco Sermoneta. La mattina "Zahlappel", la forca è pronta, il comandante dice "io secondo le norme dovrei impiccarlo perché così così ha cercato di fuggire", allora io mi son rivolto al comandante e dico "signor comandante questo Isa-" - io Isacco Sermoneta prima non lo conoscevo, dico "lui da casa era già matto, prova (?) sia che è scappato vestito in uniforme, come si fa a scappare vestito con l'albero a stris- con la con il vestito a strisce, non sa quello che fa", allora dice "va bene, allora gli gli do salva la vita però lo mandiamo a Dachau" che non era lontano "con il segno rosso qui" - questo, chi portava questo segno rosso appena si avvicinava, non s- che fosse passato, ma si avvicinava alla, come si chiamava?
+A.W: morti. Morti d- di stenti, di tifo... eravamo rimasti: io, Lillo Di Segni e questo Isacco Sermoneta - che aveva un sacco di familiari - il quale una volta, dop-, nel campo dove eravamo al Waldlager aveva tagliato la corda però vestito ancora da prigioniero e naturalmente l'hanno ripreso e l'hanno riportato al campo. E il comandante era di Laverna(?), il comandante del Waldlager negli ultimi mesi, allora ha fatto montare la forca ee, la sera, sarebbe stato ammazza- stato impiccato la mattina dopo. Nel frattempo l'hanno messo nel bunker sotterraneo. Di italiani eravamo io, una milanese che si chiama - spero che viva ancora, che lei era ebrea, il marito cattolico, e c'ha il figlio, il marito e il figlio son rimasti a Milano vivi, lei è stata deportata a Birkenau - Hahim(?) è il cognome ma poi Hahim (?)ee il marito, portava anche il nome del marito, ed era italiana milanese, e in più c'era una partigiana piemontese, non ebrea - perché a Birkenau? Portavano anche i partigiani, non solamente ebrei. E allora noi, durante la giornata e la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time>, portavamo da mangiare a questo povero Isacco Sermoneta. La mattina "Zahlappel", la forca è pronta, il comandante dice "io secondo le norme dovrei impiccarlo perché così così ha cercato di fuggire", allora io mi son rivolto al comandante e dico "signor comandante questo Isa-" - io Isacco Sermoneta prima non lo conoscevo, dico "lui da casa era già matto, prova (?) sia che è scappato vestito in uniforme, come si fa a scappare vestito con l'albero a stris- con la con il vestito a strisce, non sa quello che fa", allora dice "va bene, allora gli gli do salva la vita però lo mandiamo a Dachau" che non era lontano "con il segno rosso qui" - questo, chi portava questo segno rosso appena si avvicinava, non s- che fosse passato, ma si avvicinava alla, come si chiamava?
 M.S: al recinto...
 A.W: al recinto, la SS aveva il diritto di sparare perché era un criminale riconosciuto, e lui non è scappato. Però lui a Dachau ha conosciuto quello che non ho conosciuto io: il lll, quello che... paracadutista che l'hanno lanciato... Sereni.
 M.S: ah.
@@ -1251,7 +1258,7 @@ M.S: e cosa costruivano con questo cemento lì sotto?
 A.W: si si, veniva costruito, già c'erano anche macchine dentro, tutto... per costruire la V2, perché la V2 veniva, la prima è stata Peenemunde, la prima che ha lanciato le la (balbetta) V1, poi la V2. "V" vuol dire Ve- Vergelt- Vergeltungswaffe, Vergeltungswaffe vuol dire vendetta. Eee, stavano costruendo questa qui. Per esempio, c'era un comando di ebrei, non italiani, che erano quello che ogni giorno cambiava il fogliame sopra per dare l'illusione a quelli che...
 M.S: che era fogliame fresco... e non, certo per camuffare tutto.
 A.W: si si, ee ecco lei ha detto la parola esatta, camuffare. Allora, adesso la guerra sta per finire, così finisco anch'io così: ee viene il comandante che era della SS e dice a noi del Waldlager (frase in tedesco) "la guerra è finita", eras il primo maggio mi pare. Eee (frase in tedesco) "siete liberi", fa aprire i vagoni "potete andar via", e questo era in un piccolo paese che si chiama Poing, in Baviera. Eee...
-M.S: la notte prima avevate sentito degli spari, qualcosa?
+M.S: la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> prima avevate sentito degli spari, qualcosa?
 A.W: si, adesso, mah... la guerra è finita. Noi ci avviciniamo per entrare nel paese, i russi, i prigionieri russi non ebrei, hanno preso una bella vendetta contro inermi tedeschi - poveretti, anche loro non c'entravano - ripensando quelli che hanno fatto i tedeschi a loro in Russia. Noi, invece l'unica cosa pensare (?) di procurare qualcosa da mangiare. Io ero insieme con questa partigiana torinese e con questa ebrea milanese eee... camminiamo, vediamo un campo di lavoro - campo di prigionieri di guerra americani -, io passo davanti eee c'è la sentinella e dico "ma se la guerra è finita..." E fra questi americani c'erano molti italo-americani a prescindere che potevo parlare anche in inglese ma non tanto bene ee parliamo in italiano... emh "la guerra, a noi non risulta che la guerra è finita".
 M.S: erano sempre tedeschi che tenevano questi prigionieri?
 A.W: prigionieri si, prigionieri di guerra però.

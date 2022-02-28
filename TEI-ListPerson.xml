@@ -82,6 +82,49 @@
 
                         </person>
 
+                        <!--Maurina Alazraki: non trovo informazioni-->
+                        <person xml:id="MA">  
+                                
+                                <persName>
+                                    <ref target=""/>
+                                    <foreName>Maurina</foreName>
+                                    <surname type="birth" cert="medium">Schinasi</surname>
+                                    <surname type="married" cert="medium">Alazraki</surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="" cert=""></date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </birth>
+
+                        </person>
+
+                        <!--Paolo Favaro-->
+                        <person xml:id="PF">  
+                                
+                                <persName role="montatore_video">
+                                    <ref target="https://www.fctp.it/professional_item.php?id=130"/>
+                                    <foreName>Paolo</foreName>
+                                    <surname>Favaro</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1961" cert="high">1961</date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </birth>
+
+                        </person>
+
                         <!--David Wachsberger-->
                         <person xml:id="DavideW">   
     
@@ -1440,6 +1483,7 @@
 
                         <!-- Lista delle relazioni -->
                         <listRelation>
+                            <relation name="interviewers" active="#LPF #MA #PF" passive="#AW"/>
                             <relation name="spouse" mutual="#DavideW #MiriamG"/>
                             <relation name="spouse" mutual="#AW #ReginaP"/>
                             <relation name="spouse" mutual="#AW #OlgaW"/>
@@ -1464,7 +1508,6 @@
                             <relation name="survivor" mutual="#AW #SettimiaS #LelloDS #IsaccoS #TriesteB"/>
                             <relation name="writer" active="#RudolfV" mutual="#AW"/>
                             <relation name="deportee-Varsavia" mutual="#AW #IsaacSS #MarioDV #LelloDS #IsaccoS"/>
-                            <!--relazione successiva giusta?-->
                             <relation name="deportee-Muhldorf" mutual="#AW #LelloDS #IsaccoS #TriesteB #ErnstL"/>
                             <relation name="helper" active="#CapBlasi" passive="#AW #ErnstL #TriesteB"/>
                             <relation name="helper" active="#IrvingJS" passive="#AW #ErnstL #TriesteB"/>
