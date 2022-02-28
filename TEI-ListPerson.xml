@@ -1481,6 +1481,37 @@
                                 </death>
                         </person>
 
+                        <!--Ludovico Liedermann: informazioni desunte dalla pagina della moglie-->
+                        <person xml:id="LudovicoL">   
+    
+                                <persName role="pasticcere">
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-101/wachsberger-regina.html"/>
+                                    <foreName>Ludovico</foreName>
+                                    <surname>Liedermann</surname>
+                                    <surname type="alternative">Cantori</surname>
+                                    <addName type="nickname">Loli</addName>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="" cert=""></date>
+                                    <placeName ref="TEI-ListPlace#HU-DE">
+                                        <settlement type="municipality">Debrecen</settlement>
+                                        <country key="HU">Ungheria</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <note resp="#GB">Informazioni dal libro "L'interprete di Auschwitz" di Gabriele Rigano</note>
+                                    <date when="" notBefore="1944-08" cert="high">dopo l'agosto 1944</date>
+                                    <placeName ref="TEI-ListPlace#Au">
+                                        <settlement type="municipality">Auschwitz</settlement>
+                                        <country key="PL">Polonia</country>
+                                    </placeName>
+                                </death>
+                        </person>
+
                         <!--Haim Zelikowitz-->
                         <person xml:id="HaimZ">   
     
@@ -1511,7 +1542,7 @@
                         </person>
 
                         <!--Goti Bauer-->
-                        <person xml:id="GotiB" sameAs="http:​/​/​viaf.​org/​viaf/​66373578">   
+                        <person xml:id="GotiB" sameAs="https://viaf.org/viaf/66373578">   
     
                                 <persName role="scrittrice">
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-3910/herskovits-agata.html https://it.wikipedia.org/wiki/Goti_Herskovits_Bauer"/>
@@ -1529,6 +1560,36 @@
                                         <country key="UA">Ucraina</country>
                                     </placeName>
                                 </birth>
+                        </person>
+
+                        <!--Ippocrate-->
+                        <person xml:id="Ippocrate">   
+    
+                                <persName role="medico">
+                                    <ref target="https://it.wikipedia.org/wiki/Ippocrate https://www.treccani.it/enciclopedia/ippocrate/"/>
+                                    <foreName>Ippocrate</foreName>
+                                    <surname>di Coo</surname>
+                                    <surname type="alternative">di Cos</surname>
+                                    <surname type="alternative">di Kos</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="-460" cert="high">460 a.C</date>
+                                    <placeName><!--dubbio-->
+                                        <settlement type="island">Coo</settlement>
+                                        <country key="GR">Grecia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="-377" cert="high">377 a.C</date>
+                                    <placeName>
+                                        <settlement type="municipality">Larissa</settlement>
+                                        <country key="GR">Grecia</country>
+                                    </placeName>
+                                </death>
                         </person>
 
                         <!-- Lista delle relazioni -->
@@ -1570,6 +1631,7 @@
                             <relation name="deportee-risieraSS" mutual="#GiovanniW #MartinoG"/>
                             <relation name="mate-yeshivah" mutual="#AW #HaimZ"/>
                             <relation name="deportee-Auschwitz" mutual="#HaimZ #GotiB"/>
+                            <relation name="spouse" mutual="#ReginaW #LudovicoL"/>
 					</listRelation>
                 </listPerson>
             

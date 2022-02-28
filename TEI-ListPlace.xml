@@ -351,6 +351,16 @@
                         <country key="HU">Ungheria</country>
                     </place>
 
+                    <place xml:id="AR">
+                        <placeName ref="https://www.geonames.org/3865483 https://www.treccani.it/enciclopedia/argentina/">Argentina</placeName>
+                        <country key="AR">Argentina</country>
+                    </place>
+
+                    <place xml:id="PY">
+                        <placeName ref="https://www.geonames.org/3437598 https://www.treccani.it/enciclopedia/paraguay/">Paraguay</placeName>
+                        <country key="PY">Paraguay</country>
+                    </place>
+
                     <place xml:id="Alpi">
                         <placeName ref="https://www.geonames.org/2661786 https://www.treccani.it/enciclopedia/alpi/">Alpi</placeName>
                         <country key="IT">Italia</country>

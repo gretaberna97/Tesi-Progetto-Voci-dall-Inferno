@@ -149,7 +149,7 @@
             <abstract> <!--regesto: ogni item rappresenta un blocco di esperienze da lui raccontate: punta con un when all&#39;interno di una timeline -->
                 <ab> 
                     <list>
-                            <item synch="#TR1"><!--generalit&#224; di Arminio e biografia-->
+                            <item synch="#TR1"><!--generalità di Arminio e biografia-->
                                 <persName ref="TEI-ListPerson.xml#AW">Arminio Wachsberger</persName> fornisce le sue generalit&#224;: residente a <placeName ref="TEI-ListPlace.xml#MI">Milano</placeName>, nasce a <placeName ref="TEI-ListPlace.xml#FM">Fiume</placeName> il <date when="1913-11-04">4 novembre 1913</date> come figlio del <persName ref="TEI-ListPerson.xml#DavideW"><roleName type="religion">rabbino ortodosso</roleName> Davide</persName>, di origine polacca, e <persName ref="TEI-ListPerson.xml#MiriamG">Miriam Gellis</persName>, di origine ungherese. 
                                 In giovent&#249; studi&#242; per <date dur="P5Y" from="1928" to="1933" cert="medium" resp="#GB">5 anni</date> come studente al collegio rabbinico di <placeName ref="TEI-ListPlace.xml#GO">Gorizia</placeName> dal <persName ref="TEI-ListPerson.xml#Schreiber"><roleName type="religion">rabbino</roleName> Schreiber</persName>, arrivato da <placeName ref="TEI-ListPlace.xml#KY">Corf&#249;</placeName> nel <date when="1928">1928</date>, e successivamente venne trasferito per il servizio militare a <placeName ref="TEI-ListPlace.xml#FG">Foggia</placeName>, a <placeName ref="TEI-ListPlace.xml#NA">Napoli</placeName> e infine a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName> dove si stabil&#236;.
                                 
@@ -202,7 +202,7 @@
                                 Le baracche potevano contenere dalle 500 alle 2000 persone: nella <place type="sub-area">baracca 13</place> rimasero compatti i 150 uomini romani.
                             </item>
 
-                            <item synch="#TR6"><!--quotidianeit&#224; nel campo-->
+                            <item synch="#TR6"><!--quotidianeità nel campo-->
                                 Nei <date notBefore="1943-10-23">giorni successivi</date> i prigionieri rimasero in baracca oppure li mandarono fuori, all&#39;interno di <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName>, tutti insieme, in attesa di essere trasferiti in altri campi di lavoro: la baracca veniva svuotata. 
 
                                 Il <date when="1943-11-04">4 novembre 1943</date> uscirono da <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName> dirigendosi nei boschi vicini per recuperare del legname per il riscaldamento: <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> vide la <soCalled>casa bianca</soCalled> dove, come gli raccont&#242; un <distinct type="informal">vecchio</distinct> prigionero, i nazisti fecero le prime prove di gassificazione con dei russi.
