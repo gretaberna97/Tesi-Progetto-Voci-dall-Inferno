@@ -1385,10 +1385,10 @@
                                 <death>
                                     <date when="1997" cert="high">1997</date>
                                     <note resp="#GB">Informazioni dal libro "L'interprete di Auschwitz" di Gabriele Rigano</note>
-                                        <placeName>
-                                            <settlement type=""></settlement>
-                                            <country key=""></country>
-                                        </placeName>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
                                 </death>
                         </person>
 
@@ -1413,10 +1413,10 @@
 
                                 <death>
                                     <date when="" cert=""></date>
-                                        <placeName>
-                                            <settlement type=""></settlement>
-                                            <country key=""></country>
-                                        </placeName>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
                                 </death>
                         </person>
 
@@ -1442,10 +1442,10 @@
 
                                 <death>
                                     <date when="2014-11-03" cert="high">3 Novembre 2014</date>
-                                        <placeName>
-                                            <settlement type="municipality">Kibbutz Netzer-Sereni</settlement>
-                                            <country key="IL">Israele</country>
-                                        </placeName>
+                                    <placeName>
+                                        <settlement type="municipality">Kibbutz Netzer-Sereni</settlement>
+                                        <country key="IL">Israele</country>
+                                    </placeName>
                                 </death>
                         </person>
 
@@ -1474,11 +1474,61 @@
 
                                 <death>
                                     <date when="" cert=""></date>
-                                        <placeName>
-                                            <settlement type=""></settlement>
-                                            <country key=""></country>
-                                        </placeName>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
                                 </death>
+                        </person>
+
+                        <!--Haim Zelikowitz-->
+                        <person xml:id="HaimZ">   
+    
+                                <persName>
+                                    <ref target=""/>
+                                    <foreName>Haim</foreName>
+                                    <surname>Zelikowitz</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="" cert=""></date>
+                                    <placeName ref="TEI-ListPlace#HU-DE">
+                                        <settlement type="municipality">Debrecen</settlement>
+                                        <country key="HU">Ungheria</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <note resp="#GB">Informazioni dal libro "L'interprete di Auschwitz" di Gabriele Rigano</note>
+                                    <date when="" notBefore="1944-08" cert="high">dopo l'agosto 1944</date>
+                                    <placeName ref="TEI-ListPlace#Au">
+                                        <settlement type="municipality">Auschwitz</settlement>
+                                        <country key="PL">Polonia</country>
+                                    </placeName>
+                                </death>
+                        </person>
+
+                        <!--Goti Bauer-->
+                        <person xml:id="GotiB" sameAs="http:​/​/​viaf.​org/​viaf/​66373578">   
+    
+                                <persName role="scrittrice">
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-3910/herskovits-agata.html https://it.wikipedia.org/wiki/Goti_Herskovits_Bauer"/>
+                                    <foreName>Agata</foreName>
+                                    <surname type="combine">Herskovits</surname>
+                                    <addName type="nickname">Goti</addName>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1924-07-29" cert="high">29 Luglio 1924</date>
+                                    <placeName>
+                                        <settlement type="municipality">Berehove</settlement>
+                                        <country key="UA">Ucraina</country>
+                                    </placeName>
+                                </birth>
                         </person>
 
                         <!-- Lista delle relazioni -->
@@ -1505,7 +1555,7 @@
                             <relation name="oppressor" active="#Mengele #Hoss" passive="#AW"/>
                             <relation name="deportee-Auschwitz" mutual="#AW #NathanG #GiancarloDS #LeonelloDS"/>
                             <relation name="parent" active="#LeonelloDS" passive="#GiancarloDS"/>
-                            <relation name="survivor" mutual="#AW #SettimiaS #LelloDS #IsaccoS #TriesteB"/>
+                            <relation name="survivor" mutual="#AW #SettimiaS #LelloDS #IsaccoS #TriesteB #GotiB"/>
                             <relation name="writer" active="#RudolfV" mutual="#AW"/>
                             <relation name="deportee-Varsavia" mutual="#AW #IsaacSS #MarioDV #LelloDS #IsaccoS"/>
                             <relation name="deportee-Muhldorf" mutual="#AW #LelloDS #IsaccoS #TriesteB #ErnstL"/>
@@ -1518,6 +1568,8 @@
                             <relation name="parent" active="#EsterB" passive="#MiriamG"/>
                             <relation name="grandmother" active="#EsterB" passive="#AW"/>
                             <relation name="deportee-risieraSS" mutual="#GiovanniW #MartinoG"/>
+                            <relation name="mate-yeshivah" mutual="#AW #HaimZ"/>
+                            <relation name="deportee-Auschwitz" mutual="#HaimZ #GotiB"/>
 					</listRelation>
                 </listPerson>
             
