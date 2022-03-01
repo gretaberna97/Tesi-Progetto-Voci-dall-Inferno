@@ -917,7 +917,7 @@
                         <!--Leonello della Seta-->
                         <person xml:id="LeonelloDS">   
     
-                                <persName>
+                                <persName role="commerciante">
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-1947/della-seta-leonello.html http://www.chieracostui.com/costui/docs/search/schedaoltre.asp?ID=16045"/>
                                     <foreName>Leonello</foreName>
                                     <surname type="combine">Della Seta</surname>
@@ -1259,7 +1259,7 @@
                                 </birth>
 
                                 <death>
-                                    <date when="" cert="" notBefore="1997-06-22">
+                                    <date when="" cert="" notBefore="1997-06-22"><!--?-->
                                     </date>
                                     <placeName ref="">
                                         <settlement type=""></settlement>
@@ -1463,7 +1463,7 @@
                                 <sex>F</sex>
 
                                 <birth>
-                                    <date when="" notBefore="1913-11-04" cert="">
+                                    <date when="" notBefore="1913-11-04" cert="medium">
                                         <note resp="#GB">Desumo che sia nata dopo di lui</note>
                                     </date>
                                     <placeName ref="TEI-ListPlace#FM">
@@ -1504,7 +1504,7 @@
 
                                 <death>
                                     <note resp="#GB">Informazioni dal libro "L'interprete di Auschwitz" di Gabriele Rigano</note>
-                                    <date when="" notBefore="1944-08" cert="high">dopo l'agosto 1944</date>
+                                    <date when="" notBefore="1944-08" cert="high">Dopo l'agosto 1944</date>
                                     <placeName ref="TEI-ListPlace#Au">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
@@ -1533,7 +1533,7 @@
 
                                 <death>
                                     <note resp="#GB">Informazioni dal libro "L'interprete di Auschwitz" di Gabriele Rigano</note>
-                                    <date when="" notBefore="1944-08" cert="high">dopo l'agosto 1944</date>
+                                    <date when="" notBefore="1944-08" cert="high">Dopo l'agosto 1944</date>
                                     <placeName ref="TEI-ListPlace#Au">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
@@ -1592,6 +1592,140 @@
                                 </death>
                         </person>
 
+                        <!--Anna Frank-->
+                        <person xml:id="AnnaF" sameAs="http://viaf.org/viaf/27064673">   
+    
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Anna_Frank https://biografieonline.it/biografia-anna-frank"/>
+                                    <foreName>Annelies</foreName>
+                                    <foreName>Marie</foreName>
+                                    <surname>Frank</surname>
+                                    <addName type="nickname">Anne</addName>
+                                    <addName type="italian_nickname">Anna</addName>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1929-06-12" cert="high">12 Giugno 1929</date>
+                                    <placeName>
+                                        <settlement type="municipality">Francoforte sul Meno</settlement>
+                                        <country key="DE">Germania</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" notBefore="1945-02" notAfter="1945-03" cert="high">Febbraio/Marzo 1945</date>
+                                    <placeName>
+                                        <settlement type="municipality">Bergen-Belsen</settlement>
+                                        <country key="DE">Germania</country>
+                                    </placeName>
+                                </death>
+                        </person>
+
+                        <!--Laura Modigliani-->
+                        <person xml:id="LauraM">   
+    
+                                <persName>
+                                    <ref target="https://www.geni.com/people/Laura-Modigliani-Della-Seta/6000000037148027939"/>
+                                    <foreName>Laura</foreName>
+                                    <surname type="birth">Modigliani</surname>
+                                    <surname type="married">Della Seta</surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1905" notBefore="1877" notAfter="1929" cert="medium">Tra il 1877 e il 1929 ma più presumibilmente intorno al 1905.
+                                        <note resp="#GB">Desumo dalle parole di Arminio che nel momento dell'intervista avesse 93 anni</note>
+                                    </date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" notBefore="1998-04-02" cert="high">
+                                        <note resp="#GB">Desumo dalle parole di Arminio che nel momento dell'intervista fosse ancora viva</note>
+                                    </date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </death>
+                        </person>
+
+                        <!--Paola Della Seta-->
+                        <person xml:id="PaolaDS">   
+    
+                                <persName>
+                                    <ref target="https://www.geni.com/people/Paola-Della-Seta/6000000021332004828 https://necrologie.ilmessaggero.it/necrologi/della_seta_paola_113813179.html"/>
+                                    <foreName>Paola</foreName>
+                                    <surname>Della Seta</surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="" notBefore="1896" notAfter="1956" cert="high">Tra il 1896 e il 1956</date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" notBefore="2020-04-05" cert="low">5 Aprile 2020</date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </death>
+                        </person>
+
+                        <!--Paul Ehrlich-->
+                        <person xml:id="PaulE" sameAs="http://viaf.org/viaf/22431555">   
+    
+                                <persName role="scienziato">
+                                    <ref target="https://it.wikipedia.org/wiki/Paul_Ehrlich https://www.treccani.it/enciclopedia/paul-ehrlich_%28Dizionario-di-Medicina%29/"/>
+                                    <foreName>Paul</foreName>
+                                    <surname>Ehrlich</surname>
+                                    <roleName type="honorific">Medaglia dell'ordine della Corona, seconda classe</roleName>
+                                    <roleName type="honorific">Ordine dell'aquila rossa, seconda classe</roleName>
+                                    <roleName type="honorific">Cavaliere della Croce di Bertoldo I di Zahringen</roleName>
+                                    <roleName type="honorific">Commendatore di seconda classe dell'Ordine del Dannebrog</roleName>
+                                    <roleName type="honorific">Commendatore dell'Ordine reale norvegese di Sant'Olav, seconda classe</roleName>
+                                    <roleName type="honorific">Gran croce dell'Ordine Civile di Alfonso XII con Stella e Croce</roleName>
+                                    <roleName type="honorific">Cavaliere di Gran Croce dell'Ordine di San Sava</roleName>
+                                    <roleName type="honorific">Medaglia dell'Ordine di Massimiliano per le Scienze e le Arti — 1912</roleName>
+                                    <roleName type="honorific">Ordine di Massimiliano, prima classe, con Diamanti, Stella e Croce</roleName>
+                                    <roleName type="honorific">Ordine del Busto di Bolivar, seconda classe con Pietre preziose</roleName>
+                                    <roleName type="honorific">Cavaliere dell'Ordine del Sol Levante, terza classe</roleName>
+                                    <roleName type="honorific">Croce per Meriti Sanitari, prima classe</roleName>
+                                </persName>
+
+                                <note resp="#GB">Per i suoi studi sull’immunità a E. venne conferito il premio Nobel per la medicina o la fisiologia nel 1908, insieme a I. Metchnikoff</note>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1854-03-14" cert="high">14 Marzo 1854</date>
+                                    <placeName>
+                                        <settlement type="municipality">Strehlen</settlement>
+                                        <country key="PL">Polonia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1915-08-20" cert="high">20 Agosto 1915</date>
+                                    <placeName>
+                                        <settlement type="municipality">Bad Homburg</settlement>
+                                        <country key="DE">Germania</country>
+                                    </placeName>
+                                </death>
+                        </person>
+
                         <!-- Lista delle relazioni -->
                         <listRelation>
                             <relation name="interviewers" active="#LPF #MA #PF" passive="#AW"/>
@@ -1615,8 +1749,11 @@
                             <relation name="deportee-from-Rome" mutual="#AW #ReginaP #MoiseP #CarlottaP #ClaraW #AugustoC #AlinaC #Rotschild #AldoM"/>
                             <relation name="oppressor" active="#Mengele #Hoss" passive="#AW"/>
                             <relation name="deportee-Auschwitz" mutual="#AW #NathanG #GiancarloDS #LeonelloDS"/>
-                            <relation name="parent" active="#LeonelloDS" passive="#GiancarloDS"/>
-                            <relation name="survivor" mutual="#AW #SettimiaS #LelloDS #IsaccoS #TriesteB #GotiB"/>
+                            <relation name="spouse" mutual="#LeonelloDS #LauraM"/>
+                            <relation name="parent" active="#LeonelloDS #LauraM" passive="#GiancarloDS #PaolaDS"/>
+                            <relation name="sibling" mutual="#PaolaDS #GiancarloDS"/>
+                            <relation name="deportee-survivor" mutual="#AW #SettimiaS #LelloDS #IsaccoS #TriesteB #GotiB"/>
+                            <relation name="survivor" mutual="#LauraM #PaolaDS"/>
                             <relation name="writer" active="#RudolfV" mutual="#AW"/>
                             <relation name="deportee-Varsavia" mutual="#AW #IsaacSS #MarioDV #LelloDS #IsaccoS"/>
                             <relation name="deportee-Muhldorf" mutual="#AW #LelloDS #IsaccoS #TriesteB #ErnstL"/>
