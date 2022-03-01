@@ -1094,6 +1094,35 @@
 
                         </person>
 
+                        <!--Lillo Di Segni: non trovo informazioni su di lui-->
+                        <person xml:id="LilloDS"> 
+    
+                                <persName>
+                                    <ref target=""/>
+                                    <foreName>Lello</foreName>
+                                    <surname type="combine">Di Segni</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="" cert=""></date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" cert=""></date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
                         <!--Isacco Sermoneta-->
                         <person xml:id="LelloDS"> 
     
@@ -1755,7 +1784,7 @@
                             <relation name="deportee-survivor" mutual="#AW #SettimiaS #LelloDS #IsaccoS #TriesteB #GotiB"/>
                             <relation name="survivor" mutual="#LauraM #PaolaDS"/>
                             <relation name="writer" active="#RudolfV" mutual="#AW"/>
-                            <relation name="deportee-Varsavia" mutual="#AW #IsaacSS #MarioDV #LelloDS #IsaccoS"/>
+                            <relation name="deportee-Varsavia" mutual="#AW #IsaacSS #MarioDV #LelloDS #IsaccoS #LilloDS"/>
                             <relation name="deportee-Muhldorf" mutual="#AW #LelloDS #IsaccoS #TriesteB #ErnstL"/>
                             <relation name="helper" active="#CapBlasi" passive="#AW #ErnstL #TriesteB"/>
                             <relation name="helper" active="#IrvingJS" passive="#AW #ErnstL #TriesteB"/>
