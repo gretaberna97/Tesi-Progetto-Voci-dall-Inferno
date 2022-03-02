@@ -1819,6 +1819,35 @@
                                 </death>
                         </person>
 
+                        <!--Papa Pio XII-->
+                        <person xml:id="PioXII" sameAs="http://viaf.org/viaf/63987052">   
+    
+                                <persName role="papa">
+                                    <ref target="https://it.wikipedia.org/wiki/Papa_Pio_XII https://www.treccani.it/enciclopedia/pio-xii-papa/"/>
+                                    <foreName>Eugenio Maria Giuseppe Giovanni</foreName>
+                                    <surname>Pacelli</surname>
+                                    <addName type="religious">Papa Pio XII</roleName>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1876-03-02" cert="high">2 Marzo 1876</date>
+                                    <placeName ref="TEI-ListPlace#RO">
+                                        <settlement type="municipality">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1958-10-09" cert="high">9 Ottobre 1958</date>
+                                    <placeName ref="TEI-ListPlace#RO">
+                                        <settlement type="municipality">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </death>
+                        </person>
+
                         <!-- Lista delle relazioni -->
                         <listRelation>
                             <relation name="interviewers" active="#LPF #MA #PF" passive="#AW"/>
