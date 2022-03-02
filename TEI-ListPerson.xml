@@ -1755,6 +1755,70 @@
                                 </death>
                         </person>
 
+                        <!--Vittoria Nenni-->
+                        <person xml:id="VittoriaN" sameAs="http://viaf.org/viaf/3645149919435406650007">   
+    
+                                <persName role="attivista">
+                                    <ref target="https://it.wikipedia.org/wiki/Vittoria_Nenni https://fondazionenenni.it/biografia-vittoria-nenni"/>
+                                    <foreName>Vittoria Gorizia</foreName>
+                                    <surname>Nenni</surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1915-10-31" cert="high">31 Ottobre 1915</date>
+                                    <placeName>
+                                        <settlement type="municipality">Ancona</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1943-07-15" cert="high">15 Luglio 1943</date>
+                                    <placeName ref="TEI-ListPlace#Au">
+                                        <settlement type="municipality">Auschwitz</settlement>
+                                        <country key="PL">Polonia</country>
+                                    </placeName>
+                                </death>
+                        </person>
+
+                        <!--Pietro Nenni-->
+                        <person xml:id="PietroN" sameAs="http://viaf.org/viaf/73865321">   
+    
+                                <persName role="politico">
+                                    <ref target="https://it.wikipedia.org/wiki/Pietro_Nenni https://www.treccani.it/enciclopedia/pietro-nenni/"/>
+                                    <foreName>Pietro</foreName>
+                                    <surname>Nenni</surname>
+                                    <roleName type="military">Caporale Comandante</roleName>
+                                    <roleName type="honorific">Croce di guerra al valor militare</roleName>
+                                    <roleName type="honorific">Croce al merito di guerra</roleName>
+                                    <roleName type="honorific">Medaglia commemorativa della guerra italo-austriaca 1915-1918</roleName>
+                                    <roleName type="honorific">Medaglia commemorativa dell'Unità d'Italia</roleName>
+                                    <roleName type="honorific">Medaglia commemorativa italiana della vittoria</roleName>
+                                </persName>
+
+                                <note resp="#GB">Vinse il Premio Lenin per la pace nel 1951</note>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1891-02-09" cert="high">9 Febbraio 1891</date>
+                                    <placeName>
+                                        <settlement type="municipality">Faenza</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1980-01-01" cert="high">Primo Gennaio 1980</date>
+                                    <placeName ref="TEI-ListPlace#RO">
+                                        <settlement type="municipality">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </death>
+                        </person>
+
                         <!-- Lista delle relazioni -->
                         <listRelation>
                             <relation name="interviewers" active="#LPF #MA #PF" passive="#AW"/>
@@ -1798,6 +1862,7 @@
                             <relation name="mate-yeshivah" mutual="#AW #HaimZ"/>
                             <relation name="deportee-Auschwitz" mutual="#HaimZ #GotiB"/>
                             <relation name="spouse" mutual="#ReginaW #LudovicoL"/>
+                            <relation name="parent" active="#PietroN" passive="#VittoriaN"/>
 					</listRelation>
                 </listPerson>
             

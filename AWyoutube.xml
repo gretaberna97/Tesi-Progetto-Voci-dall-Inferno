@@ -550,6 +550,51 @@ City: Milan -->
             <when xml:id="TT151" absolute="00:02:56" synch="arm-151"/>
             <when xml:id="TT152" since="#TT151" interval="1"/>
 
+            <when xml:id="TT153" absolute="00:03:38" synch="ma-153"/>
+            <when xml:id="TT154" since="#TT153" interval="1"/>
+
+            <when xml:id="TT155" absolute="00:03:39" synch="ma-155"/>
+            <when xml:id="TT156" since="#TT155" interval="2"/>
+
+            <when xml:id="TT157" absolute="00:03:49" synch="arm-157"/>
+            <when xml:id="TT158" since="#TT157" interval="1"/>
+
+            <when xml:id="TT159" absolute="00:05:09" synch="ma-159"/>
+            <when xml:id="TT160" since="#TT159" interval="1"/>
+
+            <when xml:id="TT161" absolute="00:05:27" synch="arm-161"/>
+            <when xml:id="TT162" since="#TT161" interval="1"/>
+
+            <when xml:id="TT163" absolute="00:06:01" synch="ma-163"/>
+            <when xml:id="TT164" since="#TT163" interval="1"/>
+
+            <when xml:id="TT165" absolute="00:06:08" synch="ma-165"/>
+            <when xml:id="TT166" since="#TT165" interval="1"/>
+
+            <when xml:id="TT167" absolute="00:06:10" synch="ma-167"/>
+            <when xml:id="TT168" since="#TT167" interval="1"/>
+
+            <when xml:id="TT169" absolute="00:06:22" synch="arm-169"/>
+            <when xml:id="TT170" since="#TT169" interval="1"/>
+
+            <when xml:id="TT171" absolute="00:06:45" synch="arm-171"/>
+            <when xml:id="TT172" since="#TT171" interval="1"/>
+
+            <when xml:id="TT173" absolute="00:06:50" synch="arm-173"/>
+            <when xml:id="TT174" since="#TT173" interval="1"/>
+
+            <when xml:id="TT175" absolute="00:07:03" synch="arm-175"/>
+            <when xml:id="TT176" since="#TT175" interval="1"/>
+
+            <when xml:id="TT177" absolute="00:07:05" synch="arm-177"/>
+            <when xml:id="TT178" since="#TT157" interval="1"/>
+
+            <when xml:id="TT179" absolute="00:07:08" synch="arm-179"/>
+            <when xml:id="TT180" since="#TT159" interval="1"/>
+
+            <when xml:id="TT181" absolute="00:07:18" synch="ma-181"/>
+            <when xml:id="TT182" since="#TT181" interval="1"/>
+
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -655,6 +700,38 @@ City: Milan -->
             <when xml:id="TS94" synch="#WA46" absolute="00:02:58"/>
             <when xml:id="TS95" synch="#MA47" absolute="00:02:59"/>
             <when xml:id="TS96" synch="#WA47" absolute="00:02:59"/>
+            <when xml:id="TS97" synch="#MA48" absolute="00:03:37"/>
+            <when xml:id="TS98" synch="#AW48" absolute="00:03:41"/>
+            <when xml:id="TS99" synch="#MA49" absolute="00:03:49"/>
+            <when xml:id="TS100" synch="#AW49" absolute="00:03:51"/>
+            <when xml:id="TS101" synch="#MA50" absolute="00:03:56"/>
+            <when xml:id="TS102" synch="#AW50" absolute="00:03:57"/>
+            <when xml:id="TS103" synch="#MA51" absolute="00:04:08"/>
+            <when xml:id="TS104" synch="#WA51" absolute="00:04:12"/>
+            <when xml:id="TS105" synch="#MA52" absolute="00:04:49"/>
+            <when xml:id="TS106" synch="#WA52" absolute="00:04:51"/>
+            <when xml:id="TS107" synch="#MA53" absolute="00:05:07"/>
+            <when xml:id="TS108" synch="#AW53" absolute="00:05:09"/>
+            <when xml:id="TS109" synch="#MA54" absolute="00:05:41"/>
+            <when xml:id="TS110" synch="#AW54" absolute="00:05:45"/>
+            <when xml:id="TS111" synch="#MA55" absolute="00:05:46"/>
+            <when xml:id="TS112" synch="#AW55" absolute="00:05:47"/>
+            <when xml:id="TS113" synch="#MA56" absolute="00:05:54"/>
+            <when xml:id="TS114" synch="#WA56" absolute="00:05:55"/>
+            <when xml:id="TS115" synch="#MA57" absolute="00:06:00"/>
+            <when xml:id="TS116" synch="#WA57" absolute="00:06:01"/>
+            <when xml:id="TS117" synch="#MA58" absolute="00:06:05"/>
+            <when xml:id="TS118" synch="#AW58" absolute="00:06:06"/>
+            <when xml:id="TS119" synch="#MA59" absolute="00:06:08"/>
+            <when xml:id="TS120" synch="#AW59" absolute="00:06:10"/>
+            <when xml:id="TS121" synch="#MA60" absolute="00:06:45"/>
+            <when xml:id="TS122" synch="#AW60" absolute="00:06:49"/>
+            <when xml:id="TS123" synch="#MA61" absolute="00:06:59"/>
+            <when xml:id="TS124" synch="#WA61" absolute="00:07:01"/>
+            <when xml:id="TS125" synch="#MA62" absolute="00:07:05"/>
+            <when xml:id="TS126" synch="#WA62" absolute="00:07:08"/>
+            <when xml:id="TS127" synch="#MA63" absolute="00:07:15"/>
+            <when xml:id="TS128" synch="#AW63" absolute="00:07:18"/>
         </timeline>
     </standOff>
 
@@ -1124,7 +1201,7 @@ City: Milan -->
                 </u>
 
                 <u who="#AW" xml:id="AW43" synch="#TS88">
-                    la giornata non passava mai<pause/> e <seg xml:id="phrase6">faceva</seg> <del type="truncation">fred</del> la <del type="truncation" xml:id="neve0">n</del> <del type="truncation" xml:id="neve1">eve</del><join target="#neve0 #neve1" type="word">neve</join> ancora non era venuta ma <seg xml:id="phrase7">un freddo da matti</seg><join target="#phrase6 #phrase7" type="phrase" scope="branches"></join><pause/> e abbiamo trovato il sistema di scardarci perché non potevamo rimanere in baracca ci buttavano sempre fuori<pause/> allora ci scaldavamo <choice><sic>uno</sic><corr resp="#GB">l'uno</corr></choice> con l’altro appiccicati così tanto il <del type="truncation">ca</del> calore <emph>umano</emph><pause/> <del type="falseStart">ci <del type="truncation">ser</del></del> <del type="reformulation">ci è servito</del> contro il freddo<pause/> comunque quando hanno detto<pause/> <q type="spoken">per <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> chi vuol<pause/> venire</q><pause/> <del type="truncation">e</del> eravamo in 42<pause/> e siamo<pause/> andati a piedi da <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName> fino ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName><pause/> perché i <emph>trasporti</emph> partivano da <emph><placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName></emph><pause/> non da <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName><pause/> quindi bisognava andare da <emph><placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName></emph> ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> naturalmente a piedi<pause/> son <measure><num>tre</num> <unit>chilometri</unit></measure> non è una gran cosa però con quelle<pause/> <emph>olandesi</emph> di legno<pause/> <del type="falseStart"><del type="falseStart">ci</del> <del type="reformulation">mi</del> hanno mangiato tutte le</del><pause/> <choice><orig>vabbè</orig><reg resp="#GB">va bene</reg></choice><pause/> <del type="falseStart">e siamo arrivati a</del>
+                    la giornata non passava mai<pause/> e <seg xml:id="phrase6">faceva</seg> <del type="truncation">fred</del> la <del type="truncation" xml:id="neve0">n</del> <del type="truncation" xml:id="neve1">eve</del><join target="#neve0 #neve1" type="word"></join> ancora non era venuta ma <seg xml:id="phrase7">un freddo da matti</seg><join target="#phrase6 #phrase7" type="phrase" scope="branches"></join><pause/> e abbiamo trovato il sistema di scardarci perché non potevamo rimanere in baracca ci buttavano sempre fuori<pause/> allora ci scaldavamo <choice><sic>uno</sic><corr resp="#GB">l'uno</corr></choice> con l’altro appiccicati così tanto il <del type="truncation">ca</del> calore <emph>umano</emph><pause/> <del type="falseStart">ci <del type="truncation">ser</del></del> <del type="reformulation">ci è servito</del> contro il freddo<pause/> comunque quando hanno detto<pause/> <q type="spoken">per <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> chi vuol<pause/> venire</q><pause/> <del type="truncation">e</del> eravamo in 42<pause/> e siamo<pause/> andati a piedi da <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName> fino ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName><pause/> perché i <emph>trasporti</emph> partivano da <emph><placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName></emph><pause/> non da <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName><pause/> quindi bisognava andare da <emph><placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName></emph> ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> naturalmente a piedi<pause/> son <measure><num>tre</num> <unit>chilometri</unit></measure> non è una gran cosa però con quelle<pause/> <emph>olandesi</emph> di legno<pause/> <del type="falseStart"><del type="falseStart">ci</del> <del type="reformulation">mi</del> hanno mangiato tutte le</del><pause/> <choice><orig>vabbè</orig><reg resp="#GB">va bene</reg></choice><pause/> <del type="falseStart">e siamo arrivati a</del>
                 </u>
 
                 <u who="#MA" xml:id="MA44" synch="#TS89">
@@ -1165,52 +1242,174 @@ City: Milan -->
                     si
                 </u>
 
-                <u who="#AW" xml:id="AW47" synch="#TS96"><!--3:08 here-->
-                    ecco<pause/> e<pause/> abbiamo detto <q type="thought">ma come <pause/>queste son case<pause/> non è un campo</q><pause/> <del type="falseStart">erano <del type="truncation">s</del></del><pause/> perché sono ex<pause/> la pe la ex polizia austroungarica quando era ancora austro-ungheria poi ehm è diventata Polonia, polacchi erano (balbetta), è stata costituita la polizia polacca, c’erano i poliziotti polacchi, sono arrivati i tedeschi, hanno buttato fuori i polacchi e loro sono diventati i padroni. Era più piccola di <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName> come grandezza però era nel centro della città di Ouschiwintz (?) E…
+                <u who="#AW" xml:id="AW47" synch="#TS96"><!--manca un verbo-->
+                    ecco<pause/> e<pause/> abbiamo detto <q type="thought">ma come <pause/>queste son case<pause/> non è un campo</q><pause/> <del type="falseStart">erano <del type="truncation">s</del><pause/> perché sono ex</del><pause/> <del type="falseStart">la <del type="truncation">pe</del></del> <del type="reformulation">la ex <orgName>polizia <emph>austroungarica</emph></orgName></del> quando era ancora <placeName ref="TEI-ListPlace.xml#IAU">austroungheria</placeName><pause/> poi <vocal>ehm</vocal> è diventata <placeName ref="TEI-ListPlace.xml#PL">Polonia</placeName><pause/> <del type="falseStart">i polacchi erano la <vocal>ehm</vocal></del><pause/> è stata costituita la <emph>polizia polacca</emph> c’erano i poliziotti polacchi<pause/> sono arrivati i tedeschi hanno buttato fuori i polacchi e loro sono diventati i padroni<pause/> era più piccola di <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName> come <emph>grandezza</emph><pause/> però era nel centro della città<pause/> di <placeName ref="TEI-ListPlace.xml#Au" xml:lang="pl">Oswiecim</placeName><pause/> <vocal>ehm</vocal>
                 </u>
+
+                <u who="#MA" xml:id="MA48" synch="#TS97">
+                    e quindi <anchor xml:id="ma-153" synch="#TT153"/>era<anchor xml:id="ma-154" synch="#TT154"/> in muratura<pause/> <anchor xml:id="ma-155" synch="#TT155"/>questo le ha fatto<pause/> impressione<anchor xml:id="ma-156" synch="#TT156"/>
+                </u>
+
+                <u who="AW">
+                    <anchor xml:id="arm-153" synch="#TT153"/>e<anchor xml:id="arm-154" synch="#TT154"/>
+                    <anchor xml:id="arm-155" synch="#TT155"/>era in muratura<pause/> si interessante<anchor xml:id="arm-156" synch="#TT156"/>
+                </u>
+
+                <u who="#AW" xml:id="AW48" synch="#TS98">
+                    ma ci ha fatto una impressione enorme rispetto alle baracche che avevamo visto <del type="falseStart">ad</del><pause/> non <emph>solo</emph><pause/> ma erano dei letti <del type="falseStart">a <del type="truncation">castel</del></del> ma <emph>letti</emph> a castello<pause/> <anchor xml:id="arm-157" synch="#TT157"/><gap reason="inaudible" resp="#GB" extent="1 word"/><anchor xml:id="arm-158" synch="#TT158"/>
+                </u>
+
+                <u who="#MA" xml:id="MA49" synch="#TS99">
+                    <unclear reason="inaudible" resp="#GB" cert="medium">e vi <anchor xml:id="ma-157" synch="#TT157"/>hanno</unclear> fatto<anchor xml:id="ma-158" synch="#TT158"/> entrare nel campo
+                </u>
+
+                <u who="#AW" xml:id="AW49" synch="#TS100">
+                    no <del type="truncation">n</del> noi siamo entrati<pause/> <del type="truncation">d</del> sotto <del type="truncation">l</del> <q type="written"><term ref="#amf" xml:lang="de">arbeit macht frei</term></q> no
+                </u>
+
+                <u who="#MA" xml:id="MA50" synch="#TS101">
+                    cos’era questo<pause/> un
+                </u>
+
+                <u who="#AW" xml:id="AW50" synch="#TS102">
+                    un arco con scritto <q type="written"><term ref="#amf" xml:lang="de">arbeit macht frei</term></q> che vuol dire<pause/> <gloss xml:id="amf">il lavoro rende liberi</gloss><pause/> loro dicevano <q type="spoken"><del type="repetition">lavorate</del> lavorate che questo vi liberarà <del type="falseStart">da</del><pause/> <del type="correction">dal</del> male</q> e viceversa ci <distinct type="common_saying">mandava alla morte</distinct>
+                </u>
+
+                <u who="#MA" xml:id="MA51" synch="#TS103">
+                    in che blocco vi hanno<pause/> sistemato lì ad <place type="area"><placeName ref="TEI-ListPlace.xml#Au">Auschwitz <num>1</num></placeName></place>
+                </u>
+
+                <u who="#AW" xml:id="AW51" synch="#TS104">
+                    dunque <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> <vocal>ehm</vocal> <place type="area"><placeName ref="TEI-ListPlace.xml#Au">Auschwitz <num>1</num></placeName></place> <choice><orig>c&#39;ha</orig><reg resp="#GB">ha</reg></choice> <del type="truncation">de</del> edifici<pause/> di mattoni<pause/> mattoni rossi<pause/> e<pause/> non mi ricordo quanti ma <emph>non tanti</emph><pause/> mi pare 12 in tutto<pause/> <del type="falseStart"><del type="falseStart">1</del> <del type="reformulation">il <place type="area">blocco <emph>11</emph></place></del></del> li chiamavano <emph><foreign xml:lang="de"><choice><sic>blocko</sic><corr resp="#GB">blocke</corr></choice></foreign></emph><pause/> <del type="reformulation">il <place type="area">blocco 11</place></del> <choice><sic>c'era</sic><corr resp="#GB">era</corr></choice> quello dove venivano <emph>fucilati</emph><pause/> non gassificati<pause/> contro il muro esiste ancora oggi il muro <del type="truncation">de</del><pause/> dove ci sono i fori delle pallottole <pause/>anche per esempio la <rs ref="TEI-ListPerson.xml#VittoriaN" resp="#GB">figlia</rs> di <persName ref="TEI-ListPerson.xml#PietroN">Nenni</persName><pause/> è stata uccisa <del type="repetition">con</del><pause/> <vocal>ehm</vocal> con delle pallottole <del type="falseStart">in</del> <del type="reformulation">al</del> <place type="area">blocco 11</place> <del type="repetition">di</del><pause/> di <vocal>ehm</vocal> <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> no di <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName><vocal><desc>sospira</desc></vocal> 
+                </u>
+
+                <u who="#MA" xml:id="MA52" synch="#TS105">
+                    c'erano ebrei lì ad <place type="area"><placeName ref="TEI-ListPlace.xml#Au">Auschwitz <num>1</num></placeName></place>
+                </u>
+
+                <u who="#AW" xml:id="AW52" synch="#TS106">
+                    si <unclear reason="inaudible" resp="#GB" cert="medium">c'erano</unclear> <del type="reformulation">la maggioranza <choice><sic>erano ebrei</sic><corr resp="#GB">era ebraica</corr></choice></del><pause/> <emph>all'inizio</emph> erano<pause/> <emph>meno</emph> ebrei eran polacchi quando <del type="truncation">ha</del> hanno cominciato<pause/> poi più tardi man mano che hanno<pause/> deciso la<pause/> eliminazione degli ebrei<pause/> allora la maggioranza era ebraica<pause/><vocal><desc>deglutisce</desc></vocal> <del type="falseStart">allora<pause/> e</del>
+                </u>
+
+                <u who="#MA" xml:id="MA53" synch="#TS107">
+                    viene sistemato <vocal>ehm</vocal> in questo<pause/> <anchor xml:id="ma-159" synch="#TT159"/>blocco<anchor xml:id="ma-160" synch="#TT160"/>
+                </u>
+
+                <u who="#AW" xml:id="AW53" synch="#TS108">
+                    <anchor xml:id="arm-159" synch="#TT159"/>in questo<anchor xml:id="arm-160" synch="#TT160"/> blocco <vocal>eh</vocal> ma prima di andare a riposare<pause/> ci hanno fare la doccia <del type="reformulation">una doccia normale <vocal>mm</vocal> con docce</del><pause/> e mi ricordo <seg xml:id="phrase8">non è che avessero avuto</seg><pause/> come si chiama <del type="falseStart">il</del><pause/> <del type="falseStart">quello che <del type="truncation">s</del></del><pause/> <seg xml:id="phrase9">il disinfettante</seg><join target="#phrase8 #phrase9" type="phrase" scope="branches"></join><pause/> classico della fine della guerra<pause/> <del type="truncation">american</del> <del type="truncation">d</del> <anchor xml:id="arm-161" synch="#TT161"/>dt<pause/> si<pause/><anchor xml:id="arm-162" synch="#TT162"/> no ma <vocal>mm</vocal> avevano altri disinfettanti che bruciavano <distinct type="informal">da matti</distinct> <choice><orig>vabbè</orig><reg resp="#GB">va bene</reg></choice><pause/> loro lo facevano per ragioni evidenti <del type="falseStart">di evitare <unclear reason="inaudible" resp="#GB" cert="medium">delle</unclear></del><pause/> e poi ci hanno mandato a dormire in queste baracche la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time>
+                </u>
+
+                <u who="#MA">
+                    <anchor xml:id="ma-161" synch="#TT161"/>dt<pause/> <vocal><desc>annuisce</desc></vocal><anchor xml:id="ma-162" synch="#TT162"/>
+                </u>
+
+                <u who="#MA" xml:id="MA54" synch="#TS109">
+                    no un momento com'erano le stanze eravate tutti insieme o separati
+                </u>
+
+                <u who="#AW" xml:id="AW54" synch="#TS110">
+                    c'erano dei letti a castello
+                </u>
+
+                <u who="#MA" xml:id="MA55" synch="#TS111">
+                    <del type="falseStart">come quelli della</del>
+                </u>
+
+                <u who="#AW" xml:id="AW55" synch="#TS112">
+                    <emph>no</emph> mentre quelli lì erano dei <distinct type="diminutive"><emph>panconi</emph></distinct><pause/> con <choice><sic>sei</sic><corr resp="#GB">sei letti</corr></choice><pause/> questi erano letti <del type="reformulation"><choice><sic>ognuno</sic><corr resp="#GB">ognuno aveva</corr></choice><pause/> un letto per proprio conto</del>
+                </u>
+
+                <u who="#MA" xml:id="MA56" synch="#TS113">
+                    <vocal>ah</vocal>
+                </u>
+
+                <u who="#AW" xml:id="AW56" synch="#TS114">
+                    <del type="falseStart">erano <del type="truncation">de</del><pause/> quelli che</del><pause/> come esistono oggi per i bambini specialmente i letti a castello no
+                </u>
+
+                <u who="#MA" xml:id="MA57" synch="#TS115">
+                    era una grande stanza o era una <anchor xml:id="ma-163" synch="#TT163"/>stanza piccola<anchor xml:id="ma-164" synch="#TT164"/>
+                </u>
+
+                <u who="#AW" xml:id="AW57" synch="#TS116">
+                    <anchor xml:id="arm-163" synch="#TT163"/>si <unclear reason="inaudible" resp="#GB" cert="low">era una stanza</unclear><anchor xml:id="arm-164" synch="#TT164"/><pause/> <vocal>ehm</vocal> due <vocal>ehm</vocal> tre volte questa qui
+                </u>
+
+                <u who="#MA" xml:id="MA58" synch="#TS117">
+                    quindi vi hanno messo tutti insieme
+                </u>
+
+                <u who="#AW" xml:id="AW58" synch="#TS118">
+                    tutti insieme si
+                </u>
+
+                <u who="#MA" xml:id="MA59" synch="#TS119">
+                    <del type="truncation">n</del> <anchor xml:id="ma-165" synch="#TT165"/>non avete<anchor xml:id="ma-166" synch="#TT166"/> avuto nessun rapporto con altri prigionieri<anchor xml:id="ma-167" synch="#TT167"/><pause/> ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName><anchor xml:id="ma-168" synch="#TT168"/>
+                </u>
+
+                <u who="#AW">
+                    <anchor xml:id="arm-165" synch="#TT165"/><vocal>eh</vocal><anchor xml:id="arm-166" synch="#TT166"/>
+                </u>
+
+                <u who="#AW" xml:id="AW59" synch="#TS120">
+                    <anchor xml:id="arm-167" synch="#TT167"/><del type="repetition">no no<pause/> no<anchor xml:id="arm-168" synch="#TT168"/> no</del> no<pause/> <emph>e la</emph> <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> dopo<pause/> <term ref="#zahlappel" xml:lang="de">zahlappel</term> che non finiva mai <term ref="#zahlappel" xml:lang="de">zahlappel</term> vuol dire <gloss xml:id="zahlappel">l'appello</gloss> per vedere i numeri<pause/> controlli <unclear reason="inaudible" resp="#GB" cert="medium">vice <del type="truncation">v</del></unclear> ancora un controllo contro controllo<pause/> <del type="falseStart">per vedere se</del> <anchor xml:id="arm-169" synch="#TT169"/>lei lo sa che <del type="repetition">quando noi</del><anchor xml:id="arm-170" synch="#TT170"/><pause/> quando noi<pause/> <del type="falseStart">e</del> si entrava nel campo<pause/> <del type="truncation">ve</del> eravamo considerati <emph>nullità</emph> non dico un'altra parola<pause/> mandati al gas<pause/> quelli che rimanevano in vita<pause/> avevano un <emph>valore d'oro</emph><pause/> perché ci contavano ricontavano <emph>mille</emph> volte al giorno perché <emph>guai</emph> se mancasse uno vuol dir che è scappato<pause/> e se <emph>lui</emph> è scappato dobbiamo esser puniti noi<pause/> <del type="falseStart">perché <anchor xml:id="arm-171" synch="#TT171"/><del type="truncation">no</del></del><anchor xml:id="arm-172" synch="#TT172"/>
+                </u>
+
+                <u who="#MA">
+                    <anchor xml:id="ma-169" synch="#TT169"/>dove veniva<pause/> fatto<anchor xml:id="ma-170" synch="#TT170"/>
+                </u>
+
+                <u who="#MA" xml:id="MA60" synch="#TS121">
+                    <anchor xml:id="ma-171" synch="#TT171"/>questo<anchor xml:id="ma-172" synch="#TT172"/> <soCalled>genere di appello</soCalled> avveniva anche <del type="falseStart">a</del><pause/> <del type="reformulation">in</del> quarantena
+                </u>
+
+                <pause/>
+
+                <u who="#AW" xml:id="AW60" synch="#TS122">
+                    in quarantena <vocal>ehm</vocal> <del type="repetition">da</del> <anchor xml:id="arm-173" synch="#TT173"/>da <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> è riuscito<anchor xml:id="arm-174" synch="#TT174"/> a scappare <emph><rs ref="TEI-ListPerson.xml#RudolfV" resp="#GB">uno</rs> solo</emph><pause/> io <choice><orig>c&#39;ho</orig><reg resp="#GB">ho</reg></choice> il suo libro in <lang>inglese</lang><pause/> e si trova in <placeName ref="TEI-ListPlace.xml#CA">Canada</placeName> è professore d'università l'ho visto in televisione <date notBefore="1998-01-20" notAfter="1998-02-04" resp="#GB">pochi giorni fa</date>
+                </u>
+
+                <u who="#MA">
+                    <anchor xml:id="ma-173" synch="#TT173"/>c'era l'appello<anchor xml:id="ma-174" synch="#TT174"/>
+                </u>
+
+                <u who="#MA" xml:id="MA61" synch="#TS123">
+                    si chiamava
+                </u>
+
+                <pause/>
+
+                <u who="#AW" xml:id="AW61" synch="#TS124">
+                    <vocal>eh</vocal> ce l'ho anche il nome<pause/> devo andare a vedere lì<anchor xml:id="arm-175" synch="#TT175"/><pause/> lì<anchor xml:id="arm-176" synch="#TT176"/> sono i libri<pause/> <anchor xml:id="arm-177" synch="#TT177"/><del type="falseStart">e</del> <vocal>ehm</vocal><anchor xml:id="arm-178" synch="#TT178"/>
+                </u>
+
+                <u who="#MA">
+                    <anchor xml:id="ma-175" synch="#TT175"/><vocal>ah</vocal><anchor xml:id="ma-176" synch="#TT176"/>
+                </u>
+
+                <u who="#MA" xml:id="MA62" synch="#TS125">
+                    <anchor xml:id="ma-177" synch="#TT177"/>e quindi<anchor xml:id="ma-178" synch="#TT178"/> c'era anche l'appello ogni <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time><pause/> in <anchor xml:id="ma-179" synch="#TT179"/>quarantena<anchor xml:id="ma-180" synch="#TT180"/>
+                </u>
+
+                <u who="#AW" xml:id="AW62" synch="#TS126">
+                    <anchor xml:id="arm-179" synch="#TT179"/>esattamente<anchor xml:id="arm-180" synch="#TT180"/> dappertutto ma non solo lo <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> poi la <time from="00:18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time> anche no<pause/> <del type="truncation">du</del> due appelli <del type="truncation">giorn</del> giornalieri c'erano sempre
+                </u>
+
+                <u who="#MA" xml:id="MA63" synch="#TS127">
+                    e <del type="falseStart">questi <del type="truncation">no</del></del> <vocal>ehm</vocal> <del type="reformulation">i numeri</del> venivano<pause/> <anchor xml:id="ma-181" synch="#TT181"/><vocal>emh</vocal><pause/> <unclear reason="inaudible" resp="#GB" cert="medium">dati</unclear> in <emph><lang>tedesco</lang></emph><anchor xml:id="ma-182" synch="#TT182"/>
+                </u>
+
+                <u who="#AW" xml:id="AW63" synch="#TS128"><!--vuol dire che qualcuno-->
+                    <anchor xml:id="arm-181" synch="#TT181"/>allora <del type="truncation">p</del> <del type="truncation">c</del> noi <del type="falseStart">si</del><anchor xml:id="arm-182" synch="#TT182"/> <del type="reformulation">ci si</del> metteva in fila<pause/> <del type="repetition">5 5 5</del> 5 <del type="truncation">grup</del><pause/> lui passava <q type="spoken"><vocal>eeeh</vocal> tu<pause/> <emph><distinct type="informal">apposto</distinct></emph></q><pause/> oppure<pause/> c'è qualcuno <choice><sic>è</sic><corr resp="GB">che è</corr></choice> morto il morto doveva essere <del type="truncation" xml:id="portato0">po</del> <del type="truncation" xml:id="portato1">rtato</del><join target="#portato0 #portato1" type="word"></join> fuori<pause/> <choice><sic>a</sic><corr resp="GB">e</corr></choice> metterlo in fila con noi perché <del type="truncation">pe</del><pause/> doveva il numero corrispondere<pause/> <emph>se non corrispondeva</emph> allora <distinct type="common_saying">apriti cielo</distinct><pause/> vuol dire che è scappato<pause/> <del type="reformulation">vanno dentro in baracca a controllare e non c'è<pause/> allora vuole dire che è scappato</del><pause/> quindi<pause/> <emph>fino a che non finivano le ricerche</emph> noi dovevamo star lì<pause/> <vocal>ahm</vocal> <del type="repetition">a</del> a con le mani <vocal>ehm</vocal><pause/> così
+                </u><!--7:48-->
             </div>
-           
+
         </body>
 
     </text>
 
-
 </TEI>
 <!--
-M.S: e quindi era in muratura? Questo le ha fatto impressione…
-A.W: era in muratura, si, interessante, ci ha fatto una impressione enorme rispetto alle baracche che avevamo visto a… non solo, ma erano dei letti a castel.., ma letti a castello…
-M.S: e vi hanno fatto entrare nel campo?
-A.W: No, noi siamo entrati sotto l’arbeit macht Frei…
-M.S: cos’era questo? un…
-A.W: un arco con scritto “arbeit macht Frei” che vuol dire “il lavoro rende liberi”, loro dicevano "lavorare lavorate che questo vi libera dal male" e viceversa ci mandavano a morte.
-M.S: in che blocco vi hanno sistemato lì ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> 1?
-A.W: Dunque, <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName>... <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> 1 c'ha edifici di mattoni mattoni rossi e, non mi ricordo quanti ma non tanti, mi pare 12 in tutto. 1, il blocco 11, li chiamavano blocko, il blocco 11 c'era quello dove venivano fucilati, non classificati (o gassificati?), contro il muro - esiste ancora oggi il muro de dove ci sono i fori delle pallottole -. Dove per esempio la figlia di Nenni è stata uccisa con delle pallottole in al blocco 11 di <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName>, no di <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName>. 
-M.S: c'erano ebrei lì ad Aschwitz 1?
-A.W: si, c'era la maggioranza erano ebrei. All'inizio erano meno ebrei, eran polacchi quando hanno cominciato, poi più tardi man mano che hanno deciso la eliminazione degli ebrei allora la maggioranza era ebraica. Allora, eee...
-M.S: viene sistemato in questo blocco?
-A.W: in questo blocco, ma prima di andare a riposare ci hanno fare la doccia, una doccia normale con docce ee mi ricordo non è che avessero avuto, come si chiama, quello che..., il disinfettante classico della fine della guerra american.. dt (?)
-M.S: dt?
-A.W: si, no, ma avevano altri disinfettanti che bruciavano da matti, va bene, loro lo facevano per ragioni evidenti di evitare le.. e poi ci hanno mandato a dormire in queste baracche. La <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time>...
-M.S: no, un momento, com'erano le stanze? Eravate tutti insieme o separati?
-A.W: C'erano dei letti a castello
-M.S: come quelli della...
-A.W: No, mentre quelli lì erano dei panconi con sei questi erano letti, ognuno un letto per proprio conto. Erano, quelli che come esistono oggi per i bambini specialmente i letti a castello no?
-M.S: era una grande stanza o era una stanza piccola?
-A.W: Si, era una stanza due o tre volte questa qui.
-M.S: quindi vi hanno messo tutti insieme?
-A.W: tutti insieme si...
-M.S: non avete avuto nessun rapporto con altri prigionieri ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName>?
-A.W: no no no, e la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> dopo "seil appeal" (?) che non finiva mai, "seal appeal" vuol dire "appello" per vedere i numeri, controlli, ancora un controllo, contro controllo per vedere...
-M.S: dove veniva fatto?
-A.W: Lei lo sa che quando noi... quando noi si entrava nel campo eravamo considerati nullità, non dico un'altra parola, mandati al gas, quelli che rimanevano in vita avevano un valore d'oro perché ci contavano, ricontavano mille volte al giorno perché guai se mancasse uno, vuol dir che è scappato e se lui è scappato dobbiamo esser puniti noi perché n...
-M.S: questo genere di appello avveniva anche in quarantena? C'era l'appello?
-A.W: in quarantena da <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> è riuscito a scappare uno solo, io c'ho il suo libro in inglese e si trova in Canada, è Professore d'Università, l'ho visto in televisione pochi giorni fa.
-M.S: Si chiamava?
-A.W: eh ce l'ho anche il nome, devo andare a vedere lì, lì sono i libri.
-M.S: e quindi c'era anche l'appello ogni <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> in quarantena?
-A.W: esattamente dappertutto ma non solo lo <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time>, poi la <time from="00:18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time> anche no? Du due appelli giornalieri c'erano sempre.
-M.S: e questi no- numeri venivano emh in tedesco?
-A.W: dunque noi ci si metteva in fila 5 5 5 5 grup-, lui passava "eee tu appos-" oppure c'è qualcuno è morto, il morto doveva essere portato fuori a metterlo in fila con noi perché dovev- il numero corrispondere: se non corrispondeva allora apriti cielo, vuol dire che è scappato, vanno dentro in baracca a controllare e non c'è e allora vuole dire che è scappato. Quindi fino a che non finivano le ricerche noi dovevamo star lì a a con le mani così...
 M.S: sull'attenti?
 A.W: si, unite, senza il berretto in testa, al freddo non freddo, ore ore ore ore. Va bene, eee...
 M.S: quindi anche lì c'è l'appello ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> 1?
@@ -1258,7 +1457,7 @@ A.W: E allora c'era naturalmente un capo dentro nella bara-... Ma le finisco pri
 M.S: una fodera
 A.W: una fodera, ee... noi era proibissimo avere una matita, una penna, figuriamoci, allora lui ha preso, aveva una spilla, e con il sangue ha scritto su questa fodera, che era una fodera bianca, "Arminio ci ha salvato la vita due volte, ricordatevelo" - era indirizzata a sua moglie che lui sapeva che era viva a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName> perché dice "tu sicuramente tornerai a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName>" e che è anche stato e io per tranquillizzarlo ho preso questo e l'ho stracciato, dico, l'ho buttato via e dico "Ci ritroveremo insieme con te a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName>" invece lui purtroppo è morto, eee... Adesso perché le ho raccontato questa storia? Perché due mesi fa circa, mentre sono a Rapallo mi telefonano e dice "io sono della Seta, Dottor Della Seta", gliel'ho raccontato forse...
 M.S: no, no.
-A.W: E dico, "chi?", "il fratello di Giancarlo", lui era nascosto in un'altra casa e si è salvato, la madre si è salvata, la sorella si è salvata, la madre adesso c'ha 93 anni ma non capisce purtroppo più niente, e il quando io son tornato a Milano lei mi continuava a scrivere delle lettere, voleva conoscere i particolari e io di nuovo a raccontar balle per - nonon riuscivo a dirgli la verità. Un giorno di Kippur (?) a Milano passo per Piazza Diaz e chi ti vedo? Sergio Tofano. Lei forse non sa chi era Sergio Tofano. "Sto", quello che faceva nel corriere dei piccoli, il fortunello, vedo che lui se lo ricorda. "Sto" vuol dir "Sergio Tofano", era un attore famosissimo, lui era amico intimo di di di Lionello Della Seta, e quando l'ho visto dico "lei è Sergio Tofano?", "si", lui in quel momento (balbetta) non so che dramma faceva in Ital-, a Milano, allora gli ho raccontato la realtà ed era come Claretta in quel momento, venivamo dal tempio di corso di porta <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName>na, e lui è rimasto scioccato purtroppo. Adesso, le volevo solamente dire, adesso di due mesi fa mi telefona e dice, "ma io sono a Rapallo", "e io sono a Milano però vengo apposta perché torno a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName>, perché abito a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName>, e passo per Rapallo", m'ha fissato l'appuntamento, viene lui con un suo figlio e con una sua figlia, la figlia abita a Milano in Via Buonarroti.
+A.W: E dico, "chi?", "il fratello di Giancarlo", lui era nascosto in un'altra casa e si è salvato, la madre si è salvata, la sorella si è salvata, la madre adesso <choice><orig>c&#39;ha</orig><reg resp="#GB">ha</reg></choice> 93 anni ma non capisce purtroppo più niente, e il quando io son tornato a Milano lei mi continuava a scrivere delle lettere, voleva conoscere i particolari e io di nuovo a raccontar balle per - nonon riuscivo a dirgli la verità. Un giorno di Kippur (?) a Milano passo per Piazza Diaz e chi ti vedo? Sergio Tofano. Lei forse non sa chi era Sergio Tofano. "Sto", quello che faceva nel corriere dei piccoli, il fortunello, vedo che lui se lo ricorda. "Sto" vuol dir "Sergio Tofano", era un attore famosissimo, lui era amico intimo di di di Lionello Della Seta, e quando l'ho visto dico "lei è Sergio Tofano?", "si", lui in quel momento (balbetta) non so che dramma faceva in Ital-, a Milano, allora gli ho raccontato la realtà ed era come Claretta in quel momento, venivamo dal tempio di corso di porta <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName>na, e lui è rimasto scioccato purtroppo. Adesso, le volevo solamente dire, adesso di due mesi fa mi telefona e dice, "ma io sono a Rapallo", "e io sono a Milano però vengo apposta perché torno a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName>, perché abito a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName>, e passo per Rapallo", m'ha fissato l'appuntamento, viene lui con un suo figlio e con una sua figlia, la figlia abita a Milano in Via Buonarroti.
 M.S: La conosco.
 A.W: la conosce probabilmente...
 M.S: si.
@@ -1286,7 +1485,7 @@ A.W: Le stavo dicendo dell'Ingegner Pontecorvo.
 M.S: si questo...
 A.W: l'Ingegner Pontecorvo era il primo in <placeName ref="TEI-ListPlace.xml#IT">Italia</placeName> ad aver applicato il microscopio elettronico, adesso è diventato una cosa abituale ma stiamo parlando del 43, questo Ingegner Pontecorvo è era era perché purtroppo non c'è più cugino del regista Pontecorvo, famoso in tutto il mondo no?
 M.S: era con lei aa <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName>?
-A.W: Questo Ingegner Pontecorvo, ma suo cugino si è salvato in Italia, non so come... e allora quando eravamo sulla catena, lei mi aveva chiesto prima le ore, ore e ore che non si contavano più, e allora si cercava di ammazzare il tempo, allora mentre si buttava i mattoni uno all'altro io mi ma- io parlavo con l'Ingegner Pontecorvo di argomenti di ottica, di fotografia, lui mi parlava di microscopi, mi spie- (riformulazione) cercava di spiegarmi - non è che abbia capito tutto - come funzionasse e altri c'erano due medici ancora e tutto - purtroppo (?) sono morti tutti eee adesso torno a parlare dei russi che sono vicini e dicono "adesso noi andiamo in <placeName ref="TEI-ListPlace.xml#DE">Germania</placeName> a piedi", allora io avevo conosciuto un ebreo polacco, che noi chiamavamo Ti-, non il numero ma neanche il nome, si diceva Tshirt, "Tshirt" vuol dire "falegname" perché lui era di professione falegname. Lui, quando mi son salvato dal tifo, che son rimasto vivo - lo sa il Signore Iddio perché - avevo bisogno di rif- rinforzarmi e allora io avevo un ponte d'oro, lui ha preso una tanaglia da falegname ed è riuscito a togliermi questo oro, questo ponte d'oro, l'ha dato ad un contadino polacco che entravano la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> per prendere le stipe e lui ci ha portato del pane un bianco, un pezzo di salame - salame vero -, insomma son riuscito a rinforzarmi con questo oro che però era proibitissimo perché appena arrivati a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName> la prima cosa che ha fatto l'SS è guardare le bocche di tutti quanti per vedere quanti denti d'oro c'hanno e segnavano pr- prigioniero numero tarditali 2 denti d'oro in maniera che se quello moriva sapevano che prima di bruciarlo bisognava toglier l'oro.
+A.W: Questo Ingegner Pontecorvo, ma suo cugino si è salvato in Italia, non so come... e allora quando eravamo sulla catena, lei mi aveva chiesto prima le ore, ore e ore che non si contavano più, e allora si cercava di ammazzare il tempo, allora mentre si buttava i mattoni uno all'altro io mi ma- io parlavo con l'Ingegner Pontecorvo di argomenti di ottica, di fotografia, lui mi parlava di microscopi, mi spie- (riformulazione) cercava di spiegarmi - non è che abbia capito tutto - come funzionasse e altri c'erano due medici ancora e tutto - purtroppo (?) sono morti tutti eee adesso torno a parlare dei russi che sono vicini e dicono "adesso noi andiamo in <placeName ref="TEI-ListPlace.xml#DE">Germania</placeName> a piedi", allora io avevo conosciuto un ebreo polacco, che noi chiamavamo Ti-, non il numero ma neanche il nome, si diceva Tshirt, "Tshirt" vuol dire "falegname" perché lui era di professione falegname. Lui, quando mi son salvato dal tifo, che son rimasto vivo - lo sa il Signore Iddio perché - avevo bisogno di rif- rinforzarmi e allora io avevo un ponte d'oro, lui ha preso una tanaglia da falegname ed è riuscito a togliermi questo oro, questo ponte d'oro, l'ha dato ad un contadino polacco che entravano la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> per prendere le stipe e lui ci ha portato del pane un bianco, un pezzo di salame - salame vero -, insomma son riuscito a rinforzarmi con questo oro che però era proibitissimo perché appena arrivati a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName> la prima cosa che ha fatto l'SS è guardare le bocche di tutti quanti per vedere quanti denti d'oro <choice><orig>c&#39;ha</orig><reg resp="#GB">ha</reg></choice>nno e segnavano pr- prigioniero numero tarditali 2 denti d'oro in maniera che se quello moriva sapevano che prima di bruciarlo bisognava toglier l'oro.
 M.S: voglio chiederle una cosa, emh, lì nell'ex ghetto di <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName>...
 A.W: Adesso...
 M.S: c'era l'appello anche lì ogni <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time>?
@@ -1384,7 +1583,7 @@ A.W: Si, ci hanno detto però non hanno detto dove...
 M.S: Certo.
 A.W: Allora, noi andiamo via.
 M.S: Dove? Come?
-A.W: E.. che... in... a piedi fino a emh il famoso - in quell'epoca famosissima cittadina - Kutno si chiama, Kutno. Perché è famosa? Quando i tedeschi hanno invaso la Polonia loro invadevano la Polonia con i carri armati e i polacchi avevano la cavalleria e la cavalleria si era buttata contro i carri armati sapendo che... e gli hanno... si, e questo è successo a Kutno, quindi tutto il mondo conosceva Kutno. Quindi noi a piedi da <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName> siamo andati fino a Kutno; a Kutno ci hanno montato su dei vagoni ferroviari e ci hanno portato lentamente lentamente fin-
+A.W: E.. che... in... a piedi fino a emh il famoso - in quell'epoca famosissima cittadina - Kutno si chiama, Kutno. Perché è famosa? Quando i tedeschi hanno invaso la <placeName ref="TEI-ListPlace.xml#PL">Polonia</placeName> loro invadevano la <placeName ref="TEI-ListPlace.xml#PL">Polonia</placeName> con i carri armati e i polacchi avevano la cavalleria e la cavalleria si era buttata contro i carri armati sapendo che... e gli hanno... si, e questo è successo a Kutno, quindi tutto il mondo conosceva Kutno. Quindi noi a piedi da <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName> siamo andati fino a Kutno; a Kutno ci hanno montato su dei vagoni ferroviari e ci hanno portato lentamente lentamente fin-
 M.S: chi vi scortava? Delle SS o la???
 A.W: Delle SS... e ci hanno a Dachau. <choice><orig>vabbè</orig><reg resp="#GB">va bene</reg></choice>, le voglio raccontare la fine. Siamo nel Waldlager in <placeName ref="TEI-ListPlace.xml#DE">Germania</placeName>, vicino aa München, a Mühldorf eee vedo il (frase in tedesco) che sarebbe il giornale del popolo tedesco: (parola) vuol dire "popolo" e (parola) vuol dir sol il quello che controlla, che verifica, er- il giornale del del regime. Dice (frase in tedesco) "primo agosto" e racconta (frase in tedesco) vuol dire "rivolta in Isr- a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName>". Perché cosa era successo? Che quando i polacchi hanno visto che i russi sono già qui hanno detto "finalmente adesso possiamo rivoltarci contro i tedeschi". Si sono rivoltati contro i tedeschi e avevano vinto solo che a un certo momento i tedeschi si sono accorti che i russi non camminavano, si erano fermati, ma c'era una regione speciale perché era Stalin che voleva che i polacchi morissero perché così lui poi occupava un paese povero di <distinct type="informal">gente</distinct> intellettuale. Eee, son tornati i tedeschi, che erano scappati, son tornati verso <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName> e son riusciti con le loro armi a vincere naturalmente la rivolta polacca, ma non mi ricordo quanti sono morti, quanti son stati deportati.
 M.S: quindi è stato evacuato ma non tutto... Qualc- un gruppo è rimasto?
@@ -1395,7 +1594,7 @@ A.W: è uscito anche lui, quando è arrivato alla porta dice "no, torno indietro
 M.S: beh, allora andiamo per ordine... siete andati a piedi, siete andati fino a Dachau?
 A.W: fino a... no, fino a Kutno.
 M.S: Kutno. Poi a Kutno...
-A.W: da Kutno ci hanno messo su aa, dunque adesso aa a Kutno c'hanno messo in questi vagoni e andavano - a una lentezza esasperata - e siamo arrivati...
+A.W: da Kutno ci hanno messo su aa, dunque adesso aa a Kutno <choice><orig>c&#39;ha</orig><reg resp="#GB">ha</reg></choice>nno messo in questi vagoni e andavano - a una lentezza esasperata - e siamo arrivati...
 M.S: sempre va- vagoni come i soliti che aveva già...
 A.W: sono i soliti vagoni 
 M.S: si.
@@ -1418,7 +1617,7 @@ A.W: A Dachau siamo rimasti un paio di giorni. Dachau era il primo campo di conc
 M.S: lei era sempre con questi 42 italiani?
 A.W: no di italiani non c'erano più, che solamente eravamo in 3.
 M.S: cosa è successo?
-A.W: morti. Morti d- di stenti, di tifo... eravamo rimasti: io, Lillo Di Segni e questo Isacco Sermoneta - che aveva un sacco di familiari - il quale una volta, dop-, nel campo dove eravamo al Waldlager aveva tagliato la corda però vestito ancora da prigioniero e naturalmente l'hanno ripreso e l'hanno riportato al campo. E il comandante era di Laverna(?), il comandante del Waldlager negli ultimi mesi, allora ha fatto montare la forca ee, la <time from="00:18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time>, sarebbe stato ammazza- stato impiccato la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> dopo. Nel frattempo l'hanno messo nel bunker sotterraneo. Di italiani eravamo io, una milanese che si chiama - spero che viva ancora, che lei era ebrea, il marito cattolico, e c'ha il figlio, il marito e il figlio son rimasti a Milano vivi, lei è stata deportata a <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName> - Hahim(?) è il cognome ma poi Hahim (?)ee il marito, portava anche il nome del marito, ed era italiana milanese, e in più c'era una partigiana piemontese, non ebrea - perché a <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName>? Portavano anche i partigiani, non solamente ebrei. E allora noi, durante la giornata e la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time>, portavamo da mangiare a questo povero Isacco Sermoneta. La <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> "Zahlappel", la forca è pronta, il comandante dice "io secondo le norme dovrei impiccarlo perché così così ha cercato di fuggire", allora io mi son rivolto al comandante e dico "signor comandante questo Isa-" - io Isacco Sermoneta prima non lo conoscevo, dico "lui da casa era già matto, prova (?) sia che è scappato vestito in uniforme, come si fa a scappare vestito con l'albero a stris- con la con il vestito a strisce, non sa quello che fa", allora dice "va bene, allora gli gli do salva la vita però lo mandiamo a Dachau" che non era lontano "con il segno rosso qui" - questo, chi portava questo segno rosso appena si avvicinava, non s- che fosse passato, ma si avvicinava alla, come si chiamava?
+A.W: morti. Morti d- di stenti, di tifo... eravamo rimasti: io, Lillo Di Segni e questo Isacco Sermoneta - che aveva un sacco di familiari - il quale una volta, dop-, nel campo dove eravamo al Waldlager aveva tagliato la corda però vestito ancora da prigioniero e naturalmente l'hanno ripreso e l'hanno riportato al campo. E il comandante era di Laverna(?), il comandante del Waldlager negli ultimi mesi, allora ha fatto montare la forca ee, la <time from="00:18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time>, sarebbe stato ammazza- stato impiccato la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> dopo. Nel frattempo l'hanno messo nel bunker sotterraneo. Di italiani eravamo io, una milanese che si chiama - spero che viva ancora, che lei era ebrea, il marito cattolico, e <choice><orig>c&#39;ha</orig><reg resp="#GB">ha</reg></choice> il figlio, il marito e il figlio son rimasti a Milano vivi, lei è stata deportata a <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName> - Hahim(?) è il cognome ma poi Hahim (?)ee il marito, portava anche il nome del marito, ed era italiana milanese, e in più c'era una partigiana piemontese, non ebrea - perché a <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName>? Portavano anche i partigiani, non solamente ebrei. E allora noi, durante la giornata e la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time>, portavamo da mangiare a questo povero Isacco Sermoneta. La <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> "Zahlappel", la forca è pronta, il comandante dice "io secondo le norme dovrei impiccarlo perché così così ha cercato di fuggire", allora io mi son rivolto al comandante e dico "signor comandante questo Isa-" - io Isacco Sermoneta prima non lo conoscevo, dico "lui da casa era già matto, prova (?) sia che è scappato vestito in uniforme, come si fa a scappare vestito con l'albero a stris- con la con il vestito a strisce, non sa quello che fa", allora dice "va bene, allora gli gli do salva la vita però lo mandiamo a Dachau" che non era lontano "con il segno rosso qui" - questo, chi portava questo segno rosso appena si avvicinava, non s- che fosse passato, ma si avvicinava alla, come si chiamava?
 M.S: al recinto...
 A.W: al recinto, la SS aveva il diritto di sparare perché era un criminale riconosciuto, e lui non è scappato. Però lui a Dachau ha conosciuto quello che non ho conosciuto io: il lll, quello che... paracadutista che l'hanno lanciato... Sereni.
 M.S: ah.
@@ -1488,7 +1687,7 @@ A.W: anche questo succedeva. Per finire il discorso...
 M.S: passa davanti a lei, non le trova niente...
 A.W: non mi trova niente, allora di nuovo tutti aa piedi a ri- rimontare sui sui carri per andare nelle Alpi. Perché nelle Alpi? Lei sa che nelle Alpi Mussolini e Hitler avevano deciso di, ultima difesa, di recarsi nelle Alpi perché dicevano "nelle Alpi i carri armati non riescono a venir-", non sono riusciti nell'intento, comunque a noi ci portavano per far scavare le trincee e così avanti. E passiamo in mezzo a un...
 M.S: A piedi? o... a piedi.
-A.W: A piedi, a piedi, in mezzo a un campo. (A?) un certo momento le sentinelle della SS spariscono, le vediamo tutte dietro di noi e sentiamo degli spari: non hanno sparato contro di noi, era un altro gruppo di donne. Queste sentinelle hanno ammazzato queste povere donne. A noi invece (a?) un certo momento (frase in tedesco) vuol dir "andiamo avanti". Son tornati al loro posto e c'hanno portato ai vagoni, tutti di nuovo dentro nei vagoni. Io, il solito interprete, sono l'ultimo: i vagoni son già pieni, hanno chiuso il portone, era aperto ancora un vagone dove c'erano solo donne - loro tenevano sempre divise le donne dagli uomini -, mi sono infilato in questo vagone delle donne. L'ufficiale della SS passavano e dicev- (frase in tedesco dolmetscher) "dov'è il dolmetscher?" "Ma (frase che non si capisce), non (lo) sappiamo". Allora lui ha avuto il sospetto, è salito anche lui sul vagone delle donne - queste donne erano ebree ungheresi -. Cosa hanno fatto? Si sono - m'han detto di stendermi sul piano - e loro si sono messe sopra di me eee... entra questo qua e dice (frase in tedesco) "dov'è l'interprete?" " ah, lì poveretto, sta morendo di tifo": lui solo a sentir la parola "tifo" che non era vero ha tagliato la corda. Dopo il treno proseguiva, pensi che con queste ragazze ungheresi, io dopo dieci minuti insegnavo loro le canzoni italiane - emh e in quell'epoca molto conosciute -, avevamo già dimenticato tutto...
+A.W: A piedi, a piedi, in mezzo a un campo. (A?) un certo momento le sentinelle della SS spariscono, le vediamo tutte dietro di noi e sentiamo degli spari: non hanno sparato contro di noi, era un altro gruppo di donne. Queste sentinelle hanno ammazzato queste povere donne. A noi invece (a?) un certo momento (frase in tedesco) vuol dir "andiamo avanti". Son tornati al loro posto e <choice><orig>c&#39;ha</orig><reg resp="#GB">ha</reg></choice>nno portato ai vagoni, tutti di nuovo dentro nei vagoni. Io, il solito interprete, sono l'ultimo: i vagoni son già pieni, hanno chiuso il portone, era aperto ancora un vagone dove c'erano solo donne - loro tenevano sempre divise le donne dagli uomini -, mi sono infilato in questo vagone delle donne. L'ufficiale della SS passavano e dicev- (frase in tedesco dolmetscher) "dov'è il dolmetscher?" "Ma (frase che non si capisce), non (lo) sappiamo". Allora lui ha avuto il sospetto, è salito anche lui sul vagone delle donne - queste donne erano ebree ungheresi -. Cosa hanno fatto? Si sono - m'han detto di stendermi sul piano - e loro si sono messe sopra di me eee... entra questo qua e dice (frase in tedesco) "dov'è l'interprete?" " ah, lì poveretto, sta morendo di tifo": lui solo a sentir la parola "tifo" che non era vero ha tagliato la corda. Dopo il treno proseguiva, pensi che con queste ragazze ungheresi, io dopo dieci minuti insegnavo loro le canzoni italiane - emh e in quell'epoca molto conosciute -, avevamo già dimenticato tutto...
 M.S: e cantava allora?
 A.W: cantavamo si.
 M.S: cant- che cosa cantava?
@@ -1509,7 +1708,7 @@ M.S: quindi parlava in italiano con lui?
 A.W: No no no, no lui parlava tedesco, solo tedesco. Allora viene il comandante della truppa americana che ci ha liberato, era un ebreo di New York, si chiamava Jutennens Smith (?) che probabilmente prima di chuamava Schmiedt(?), "Schmiedt" vuol dire "fabbro". Eee i suoi aiutanti vedevano uno della SS, tac tac, scaricava il mitra su di loro. A un certo momento si rivolgono al transportfuhrer, allora son intervenuto io e Landau, abbiamo detto a Jutennens Smith(?) "guardi che questo avrebbe dovuto portarci alla morte invece ci ha salv- portati da voi" "allora eh beh, se siete voi d'accordo lasciamolo in vita, non solo, diventerà nostro ospite", e allora le ragazze ungheresi - che(?c'erano) erano 500 ragazze ungheresi con noi - dice "anche queste due aufseherin?" - aufseherin vuol dire "sorvegliati della SS tedesca": erano vestiti come le SS solo una la gonna anziché i pantaloni - "questi si son sempre comportati bene con noi" "allora (balbetta), se lo volete voi"... quindi, il comandante del trasporto e le due aufseherin(?) son stati liberati mentre gli altri l'hanno... (verso del mitra) era... guerra.
 
 PARTE V
-A.W: eee... sono diventate aa, ci hanno portato a Feldafing, sempre a due passi, questo paese di Feldafing c'era una scuola per i giovani hitleriani che era vuota perché i giovani hitleriani li hanno mandati tutti al fronte alla fine della guerra, c'erano solo degli uffici della BMW - Bayerische Motore Werke - che è di Monaco di Baviera che era stata bombardata. Allora gli uffici li hanno tras- mess- tras-trasferiti dentro nella scuola dove c'erano prima gli hitleriani. Allora i gli americani hanno mandato via questi impiegati e c'hanno messo a disposizione nostra, erano edifici a due piani, allora, "per i polacchi questa e questa... per gli ungheresi que-, per gli italiani..." eravamo pochi, allora va beh, allora, eravamo in tre di italiani soli, allora ci hanno messo insieme ai greci perché eravam mediterranei. Eee, così ci hanno salvati. Adesso, per finire il discorso, illl (pausa) la maggior parte di questi di Salonicco - non tutti - ma son tornati a Salonic- ma la maggior parte invece è andata a in Israele, specialmente a Haifa.
+A.W: eee... sono diventate aa, ci hanno portato a Feldafing, sempre a due passi, questo paese di Feldafing c'era una scuola per i giovani hitleriani che era vuota perché i giovani hitleriani li hanno mandati tutti al fronte alla fine della guerra, c'erano solo degli uffici della BMW - Bayerische Motore Werke - che è di Monaco di Baviera che era stata bombardata. Allora gli uffici li hanno tras- mess- tras-trasferiti dentro nella scuola dove c'erano prima gli hitleriani. Allora i gli americani hanno mandato via questi impiegati e <choice><orig>c&#39;ha</orig><reg resp="#GB">ha</reg></choice>nno messo a disposizione nostra, erano edifici a due piani, allora, "per i polacchi questa e questa... per gli ungheresi que-, per gli italiani..." eravamo pochi, allora va beh, allora, eravamo in tre di italiani soli, allora ci hanno messo insieme ai greci perché eravam mediterranei. Eee, così ci hanno salvati. Adesso, per finire il discorso, illl (pausa) la maggior parte di questi di Salonicco - non tutti - ma son tornati a Salonic- ma la maggior parte invece è andata a in Israele, specialmente a Haifa.
 M.S: quindi da lì hanno organizzato subito il rientro?
 A.W: rientro ma naturalmente con le solite difficoltà. Son riusciti(o) a ritornare a Haifa, io li ho rincontrati nel 60 quando (è) la prima volta che sono andato in Israele.
 M.S: ma lei è stato ospitalizzato da qualche parte o?
@@ -1519,7 +1718,7 @@ A.W: no, son-... quando, quando avevo il tifo e quando nel Waldlager ho avuto la
 M.S: no dico alla liberazione.
 A.W: No no no, mentre questo Isacco Sermoneta di cui le parlavo prima lui ha preso nel campo la tubercolosi e l'hanno messo nel tubercolilasar tubercolosario o tubercolasario di Gauting - tutti i nomi finiscono in ing -, rimasto diverso tempo, si è salvato, tornato a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName> e stava benino ma un anno fa...
 M.S: e lei allora a questo punto emh cosa pensava di fare? Di parlare?
-A.W: ecco adesso, adesso a un certo momento partono e ad n- da noi hanno creato - noi eravamo ex prigionieri - hanno creato quello sul sistema, emh diremo dei tedeschi, c'era il blockalteste, cioè l'anziano de- che era il capo dell'edificio, poi c'era sempre lo schreiber - schreiber vuol dire "lo scrivano" - allora, io che ero l'unico che parlasse la lingua dei dei dei greci è diventato blockalteste un greco molto in gambe e io ero schreiber - praticamente facevo tutto io perché parlavo inglese, lui non parlava inglese e non parlava neanche tedesco - ee.. poi è venuta la UNRRA - United Nation Rehabilitation... com'era? (Frase che non si capisce) americana - a Feldafing, c'hanno portato lì, c'era una un bellissimo albergo, si chiamava Hotel Elizabeth - in tempo di guerra non era più "hotel" ma venivano (balbetta) è stato emh cambiato in "ospedale" -, c'erano i prigionieri tedeschi, no prigionieri, erano i soldati tedeschi che venivano curati. Finita la guerra li hanno buttati fuori e l'hanno utilizzato come ospedale per i ex deportati malati e cosa è successo? Che c'era il direttore sanitario, un ebreo e adesso avevano bisogno di un direttore amministrativo (scandito con lentezza), non c'era nessuno, non sapeva... Si dice che nel paese dei ciechi il monocolo fa il re e io che ne capivo qualche cosa m'hanno preso a me come direttore amministrativo dell'ospedale, però <distinct type="informal">siccome</distinct> a suo tempo ero nel campo oculistico aiutavo anche il professore oculista quando faceva operazioni o la...
+A.W: ecco adesso, adesso a un certo momento partono e ad n- da noi hanno creato - noi eravamo ex prigionieri - hanno creato quello sul sistema, emh diremo dei tedeschi, c'era il blockalteste, cioè l'anziano de- che era il capo dell'edificio, poi c'era sempre lo schreiber - schreiber vuol dire "lo scrivano" - allora, io che ero l'unico che parlasse la lingua dei dei dei greci è diventato blockalteste un greco molto in gambe e io ero schreiber - praticamente facevo tutto io perché parlavo inglese, lui non parlava inglese e non parlava neanche tedesco - ee.. poi è venuta la UNRRA - United Nation Rehabilitation... com'era? (Frase che non si capisce) americana - a Feldafing, <choice><orig>c&#39;ha</orig><reg resp="#GB">ha</reg></choice>nno portato lì, c'era una un bellissimo albergo, si chiamava Hotel Elizabeth - in tempo di guerra non era più "hotel" ma venivano (balbetta) è stato emh cambiato in "ospedale" -, c'erano i prigionieri tedeschi, no prigionieri, erano i soldati tedeschi che venivano curati. Finita la guerra li hanno buttati fuori e l'hanno utilizzato come ospedale per i ex deportati malati e cosa è successo? Che c'era il direttore sanitario, un ebreo e adesso avevano bisogno di un direttore amministrativo (scandito con lentezza), non c'era nessuno, non sapeva... Si dice che nel paese dei ciechi il monocolo fa il re e io che ne capivo qualche cosa m'hanno preso a me come direttore amministrativo dell'ospedale, però <distinct type="informal">siccome</distinct> a suo tempo ero nel campo oculistico aiutavo anche il professore oculista quando faceva operazioni o la...
 M.S: e(che?) si chiamava?
 A.W: emh era di <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName>, non mi ricordo più il nome... eh purtroppo...
 M.S: e si chiamava sempre Elizabeth questo...
