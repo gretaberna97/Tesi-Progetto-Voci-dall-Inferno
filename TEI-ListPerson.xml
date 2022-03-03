@@ -1905,6 +1905,27 @@
                                 </death>
                         </person>
 
+                        <!--Clara Alessandra Wachsberger-->
+                        <person xml:id="ClaraAW">   
+    
+                                <persName>
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-110/wachsberger-clara-alessandra.html "/>
+                                    <foreName>Clara Alessandra</foreName>
+                                    <surname>Wachsberger</surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1946-05-07" cert="high">7 Maggio 1946</date>
+                                    <placeName ref="TEI-ListPlace.xml#Fe">
+                                        <settlement type="municipality">Feldafing</settlement>
+                                        <country key="DE">Germania</country>
+                                    </placeName>
+                                </birth>
+
+                        </person>
+
                         <!-- Lista delle relazioni -->
                         <listRelation>
                             <relation name="interviewers" active="#LPF #MA #PF" passive="#AW"/>
@@ -1914,6 +1935,7 @@
                             <relation name="parent" active="#DavideW #MiriamG" passive="#AW #GiovanniW #ReginaW"/>
                             <relation name="parent" active="#AW #ReginaP" passive="#ClaraW"/>
                             <relation name="parent" active="#MoiseP #CarlottaP" passive="#ReginaP"/>
+                            <relation name="parent" active="#AW #OlgaW" passive="#ClaraAW"/>
                             <relation name="parent-in-law" active="#MoiseP #CarlottaP" passive="#AW"/>
                             <relation name="parent-in-law" active="#DavideW #MiriamG" passive="#ReginaP"/>
                             <relation name="employer" active="#AW #OlgaW" passive="#Maria" cert="low"/>
