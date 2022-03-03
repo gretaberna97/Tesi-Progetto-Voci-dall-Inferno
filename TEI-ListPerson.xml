@@ -1099,7 +1099,7 @@
     
                                 <persName>
                                     <ref target=""/>
-                                    <foreName>Lello</foreName>
+                                    <foreName>Lillo</foreName>
                                     <surname type="combine">Di Segni</surname>
                                 </persName>
 
@@ -1848,6 +1848,63 @@
                                 </death>
                         </person>
 
+                        <!--Guido Della Seta-->
+                        <person xml:id="GuidoDS">   
+    
+                                <persName>
+                                    <ref target="https://www.geni.com/people/Guido-Della-Seta/6000000021331688480 https://www.geni.com/people/Guido-Della-Seta/6000000021331688480"/>
+                                    <foreName>Guido</foreName>
+                                    <surname>Della Seta</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="" notBefore="1896" notAfter="1956" cert="high">Tra il 1896 e il 1956</date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="2017-12-07" cert="medium">7 Dicembre 2017</date>
+                                    <placeName ref="TEI-ListPlace#RO">
+                                        <settlement type="municipality">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </death>
+                        </person>
+
+                        <!--Sergio Tofano-->
+                        <person xml:id="SergioT" sameAs="http://viaf.org/viaf/64034797">   
+    
+                                <persName role="artista_poliedrico">
+                                    <ref target="https://it.wikipedia.org/wiki/Sergio_Tofano https://www.treccani.it/enciclopedia/sergio-tofano/"/>
+                                    <foreName>Sergio</foreName>
+                                    <surname>Tòfano</surname>
+                                    <addName type="alias">Sto</addName>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1886-08-20" cert="high">20 Agosto 1886</date>
+                                    <placeName ref="TEI-ListPlace#RO">
+                                        <settlement type="municipality">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1973-10-28" cert="high">28 Ottobre 1973</date>
+                                    <placeName ref="TEI-ListPlace#RO">
+                                        <settlement type="municipality">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </death>
+                        </person>
+
                         <!-- Lista delle relazioni -->
                         <listRelation>
                             <relation name="interviewers" active="#LPF #MA #PF" passive="#AW"/>
@@ -1872,10 +1929,10 @@
                             <relation name="oppressor" active="#Mengele #Hoss" passive="#AW"/>
                             <relation name="deportee-Auschwitz" mutual="#AW #NathanG #GiancarloDS #LeonelloDS"/>
                             <relation name="spouse" mutual="#LeonelloDS #LauraM"/>
-                            <relation name="parent" active="#LeonelloDS #LauraM" passive="#GiancarloDS #PaolaDS"/>
-                            <relation name="sibling" mutual="#PaolaDS #GiancarloDS"/>
+                            <relation name="parent" active="#LeonelloDS #LauraM" passive="#GiancarloDS #PaolaDS #GuidoDS"/>
+                            <relation name="sibling" mutual="#PaolaDS #GiancarloDS #GuidoDS"/>
                             <relation name="deportee-survivor" mutual="#AW #SettimiaS #LelloDS #IsaccoS #TriesteB #GotiB"/>
-                            <relation name="survivor" mutual="#LauraM #PaolaDS"/>
+                            <relation name="survivor" mutual="#LauraM #PaolaDS #GuidoDS"/>
                             <relation name="writer" active="#RudolfV" mutual="#AW"/>
                             <relation name="deportee-Varsavia" mutual="#AW #IsaacSS #MarioDV #LelloDS #IsaccoS #LilloDS"/>
                             <relation name="deportee-Muhldorf" mutual="#AW #LelloDS #IsaccoS #TriesteB #ErnstL"/>
@@ -1892,6 +1949,7 @@
                             <relation name="deportee-Auschwitz" mutual="#HaimZ #GotiB"/>
                             <relation name="spouse" mutual="#ReginaW #LudovicoL"/>
                             <relation name="parent" active="#PietroN" passive="#VittoriaN"/>
+                            <relation name="acquaintance" mutual="#AW #LauraM #GuidoDS"/>
 					</listRelation>
                 </listPerson>
             
