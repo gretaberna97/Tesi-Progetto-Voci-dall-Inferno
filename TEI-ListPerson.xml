@@ -1926,6 +1926,33 @@
 
                         </person>
 
+                        <!--Adolf Hitler-->
+                        <person xml:id="AH">   
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Adolf_Hitler"/>
+                                <foreName>Adolf</foreName>
+                                <surname>Hitler</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1889-04-20" cert="high">20 aprile 1889</date>
+                                <placeName>
+                                    <settlement type="municipality">Braunau am Inn</settlement>
+                                    <country key="DE">Germania</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="1945-04-30" cert="high">30 aprile 1945</date>
+                                <placeName ref="TEI-ListPlace.xml#B">
+                                    <settlement type="municipality">Berlino</settlement>
+                                    <country key="DE">Germania</country>
+                                </placeName>
+                            </death>
+                        </person>
+
                         <!-- Lista delle relazioni -->
                         <listRelation>
                             <relation name="interviewers" active="#LPF #MA #PF" passive="#AW"/>

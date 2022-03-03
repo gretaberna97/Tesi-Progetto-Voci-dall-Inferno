@@ -397,6 +397,11 @@
                         <placeName ref="https://www.geonames.org/11856723 https://www.treccani.it/enciclopedia/tevere/">Tevere</placeName>
                         <country key="IT">Italia</country>
                     </place>
+
+                    <place xml:id="Vistola">
+                        <placeName ref="https://www.geonames.org/3081873 https://www.treccani.it/enciclopedia/vistola/">Vistola</placeName>
+                        <country key="PL">Polonia</country>
+                    </place>
                 </listPlace>
             
             </sourceDesc>
