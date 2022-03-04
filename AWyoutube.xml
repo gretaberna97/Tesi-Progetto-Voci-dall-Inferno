@@ -762,6 +762,33 @@ City: Milan -->
 
             <when xml:id="TT291" absolute="00:12:51" synch="arm-291"/>
             <when xml:id="TT292" since="#TT291" interval="1"/>
+
+            <when xml:id="TT293" absolute="00:12:59" synch="arm-293"/>
+            <when xml:id="TT294" since="#TT293" interval="1"/>
+
+            <when xml:id="TT295" absolute="00:13:01" synch="ma-295"/>
+            <when xml:id="TT296" since="#TT295" interval="1"/>
+
+            <when xml:id="TT297" absolute="00:13:03" synch="ma-297"/>
+            <when xml:id="TT298" since="#TT297" interval="1"/>
+
+            <when xml:id="TT299" absolute="00:13:34" synch="arm-299"/>
+            <when xml:id="TT300" since="#TT299" interval="1"/>
+
+            <when xml:id="TT301" absolute="00:13:41" synch="arm-301"/>
+            <when xml:id="TT302" since="#TT301" interval="1"/>
+
+            <when xml:id="TT303" absolute="00:13:43" synch="ma-303"/>
+            <when xml:id="TT304" since="#TT303" interval="1"/>
+
+            <when xml:id="TT305" absolute="00:13:53" synch="ma-305"/>
+            <when xml:id="TT306" since="#TT305" interval="1"/>
+
+            <when xml:id="TT307" absolute="00:13:56" synch="arm-307"/>
+            <when xml:id="TT308" since="#TT307" interval="1"/>
+
+            <when xml:id="TT309" absolute="00:14:18" synch="ma-309"/>
+            <when xml:id="TT310" since="#TT309" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -1008,6 +1035,22 @@ City: Milan -->
             <when xml:id="TS231" synch="#AW114" absolute="00:10:34"/>
             <when xml:id="TS232" synch="#MA114" absolute="00:10:54"/>
             <when xml:id="TS233" synch="#AW115" absolute="00:10:58"/>
+            <when xml:id="TS234" synch="#MA115" absolute="00:12:59"/>
+            <when xml:id="TS235" synch="#AW116" absolute="00:13:01"/>
+            <when xml:id="TS236" synch="#MA116" absolute="00:13:02"/>
+            <when xml:id="TS237" synch="#AW117" absolute="00:13:03"/>
+            <when xml:id="TS238" synch="#MA117" absolute="00:13:34"/>
+            <when xml:id="TS239" synch="#AW118" absolute="00:13:40"/>
+            <when xml:id="TS240" synch="#MA118" absolute="00:13:42"/>
+            <when xml:id="TS241" synch="#AW119" absolute="00:13:43"/>
+            <when xml:id="TS242" synch="#MA119" absolute="00:13:46"/>
+            <when xml:id="TS243" synch="#AW120" absolute="00:13:47"/>
+            <when xml:id="TS244" synch="#MA120" absolute="00:13:51"/>
+            <when xml:id="TS245" synch="#AW121" absolute="00:13:53"/>
+            <when xml:id="TS246" synch="#MA121" absolute="00:14:01"/>
+            <when xml:id="TS247" synch="#AW122" absolute="00:14:03"/>
+            <when xml:id="TS248" synch="#MA122" absolute="00:14:15"/>
+            <when xml:id="TS249" synch="#AW123" absolute="00:14:18"/>
         </timeline>
     </standOff>
 
@@ -2205,23 +2248,80 @@ City: Milan -->
                     <anchor xml:id="ma-289" synch="#TT289"/><vocal><desc>annuisce</desc></vocal><anchor xml:id="ma-290" synch="#TT290"/>
                     <anchor xml:id="ma-291" synch="#TT291"/><vocal><desc>annuisce</desc></vocal><anchor xml:id="ma-292" synch="#TT292"/>
                 </u>
-                <!--13:01-->
 
-                <u who="#MA" xml:id="MA115" synch="#TS233">
+                <u who="#MA" xml:id="MA115" synch="#TS234">
                     <anchor xml:id="ma-293" synch="#TT293"/>per tutti voi<anchor xml:id="ma-294" synch="#TT294"/> vi ha <anchor xml:id="ma-295" synch="#TT295"/>procurato<anchor xml:id="ma-296" synch="#TT296"/>
                 </u>
 
-                <u who="#AW" xml:id="AW116" synch="TS234">
+                <u who="#AW" xml:id="AW116" synch="TS235">
                     <anchor xml:id="arm-295" synch="#TT295"/>per noi<anchor xml:id="arm-296" synch="#TT296"/> italiani
                 </u>
 
-                <u who="#MA" xml:id="MA116" synch="#TS235">
+                <u who="#MA" xml:id="MA116" synch="#TS236">
                     tutti e <anchor xml:id="ma-297" synch="#TT297"/>quarantadue<anchor xml:id="ma-298" synch="#TT298"/>
                 </u>    
 
                 <u who="#AW" xml:id="AW117" synch="TS237">
-                    <anchor xml:id="arm-297" synch="#TT297"/>tutti e 42<anchor xml:id="arm-298" synch="#TT298"/> ci dava questi calzoni<pause/> però quando era <emph>ufficialmente accanto al comandante urlava</emph> sbraitava contro di noi perché doveva far vedere che lui è come tutti gli altri<pause/> ma in realtà era diverso<pause/> <del type="falseStart">questo non per dirle che<pause/> son tutti i paesi</del> <del type="refomulation">in tutti i popoli c'è della <distinct type="informal">gente</distinct> <emph>normale</emph><pause/> <distinct type="informal">gente</distinct> cattiva e <distinct type="informal">gente</distinct> benevole<pause/></del> <vocal>eh</vocal><pause/> questo era fra i <emph>pochi</emph> benevoli e io mi tengo in <emph>obbligo</emph><pause/> di <emph>raccontare</emph> questo perché è <emph>giusto</emph><pause/> che <choice><sic>quelli</sic><corr resp="#GB">di quelli</corr></choice> che si son comportati umanamente<pause/> venga ricordato il loro gesto<pause/><!--13:32 + utterance e anchor timeline--> adesso le voglio si
+                    <anchor xml:id="arm-297" synch="#TT297"/>tutti e 42<anchor xml:id="arm-298" synch="#TT298"/> ci dava questi calzoni<pause/> però quando era <emph>ufficialmente accanto al comandante urlava</emph> sbraitava contro di noi perché doveva far vedere che lui è come tutti gli altri<pause/> ma in realtà era diverso<pause/> <del type="falseStart">questo non per dirle che<pause/> son tutti i paesi</del> <del type="refomulation">in tutti i popoli c'è della <distinct type="informal">gente</distinct> <emph>normale</emph><pause/> <distinct type="informal">gente</distinct> cattiva e <distinct type="informal">gente</distinct> benevole<pause/></del> <vocal>eh</vocal><pause/> questo era fra i <emph>pochi</emph> benevoli e io mi tengo in <emph>obbligo</emph><pause/> di <emph>raccontare</emph> questo perché è <emph>giusto</emph><pause/> che <choice><sic>quelli</sic><corr resp="#GB">di quelli</corr></choice> che si son comportati umanamente<pause/> venga ricordato il loro gesto<pause/> <del type="falseStart">adesso</del><pause/> le voglio <anchor xml:id="arm-299" synch="#TT299"/>si<anchor xml:id="arm-300" synch="#TT300"/>
                 </u>
+
+                <u who="#MA" xml:id="MA117" synch="#TS238">
+                    <anchor xml:id="ma-299" synch="#TT299"/>no<anchor xml:id="ma-300" synch="#TT300"/> volevo chiedere un'altra cosa per quanto riguardava il <emph>mangiare</emph><pause/> c'era<pause/> qualche differenza fra lì e <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName>
+                </u>
+
+                <u who="#AW" xml:id="AW118" synch="TS239">
+                    <vocal>tsk ehm</vocal> <anchor xml:id="arm-301" synch="#TT301"/>pressappoco<anchor xml:id="arm-302" synch="#TT302"/> uguale
+                </u>
+
+                <u who="#MA">
+                    <anchor xml:id="ma-301" synch="#TT301"/><del type="truncation">cos</del><anchor xml:id="ma-302" synch="#TT302"/>
+                </u>
+
+                <u who="#MA" xml:id="MA118" synch="#TS240">
+                    <del type="falseStart">mi <del type="truncation">s</del> mi</del> <del type="reformulation">me <anchor xml:id="ma-303" synch="#TT303"/>lo</del> descriva il mangiare cosa si mangiava<anchor xml:id="ma-304" synch="#TT304"/>
+                </u>
+
+                <u who="#AW" xml:id="AW119" synch="TS241">
+                    <anchor xml:id="arm-303" synch="#TT303"/>pressappoco <choice><orig>vabbè</orig><reg resp="#GB">va bene</reg></choice> <del type="repetition">era</del><anchor xml:id="arm-304" synch="#TT304"/> era una brodaglia che <vocal>ehm</vocal>
+                </u>
+
+                <u who="#MA" xml:id="MA119" synch="#TS242">
+                    al <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattino</time> questo
+                </u>
+
+                <u who="#AW" xml:id="AW120" synch="TS243">
+                    al <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattino</time> c'era una <shift feature="normal" new="giggle"><choice><sic>lo</sic><corr resp="#GB">bevanda che</corr></choice> chiamavamo tè</shift> <shift feature="normal" new="giggle">erano delle foglie non so di che cosa</shift>
+                </u>
+
+                <u who="#MA" xml:id="MA120" synch="#TS244">
+                    avevate delle<pause/> scodelle<anchor xml:id="ma-305" synch="#TT305"/><pause/> ognuno aveva una scodella<anchor xml:id="ma-306" synch="#TT306"/>
+                </u>
+
+                <u who="#AW" xml:id="AW121" synch="TS245">
+                    <anchor xml:id="arm-305" synch="#TT305"/>si delle scodelle<pause/> una propria<anchor xml:id="arm-306" synch="#TT306"/> scodella si<pause/> <anchor xml:id="arm-307" synch="#TT307"/>ma c'è chi<anchor xml:id="arm-308" synch="#TT308"/> l'aveva <distinct type="infrequent">sbrecciata</distinct> chi l'aveva normale chi non aveva niente e doveva bere<pause/> dalla scodella del suo compagno
+                </u>
+
+                <u who="#MA">
+                    <anchor xml:id="ma-307" synch="#TT307"/><gap reason="inaudible" resp="#GB" atLeast="1 word" atMost="2 words"/><anchor xml:id="ma-308" synch="#TT308"/>
+                </u>
+
+                <u who="#MA" xml:id="MA121" synch="#TS246">
+                    dopodiché c'era l'appello
+                </u>
+
+                <u who="#AW" xml:id="AW122" synch="TS247">
+                    poi c'era l'appello dopo poi <del type="repetition">se</del> se era nebbioso<pause/> non si usciva si rimaneva sull'appello in piedi sull'attenti in attesa che la nebbia sparisca<pause/> perché<pause/> perché <vocal>ehm</vocal> quando c'era nebbia qualcuno <vocal>mm</vocal> <distinct type="common_saying">tagliava la corda</distinct>
+                </u>
+
+                <u who="#MA" xml:id="MA122" synch="#TS248">
+                    <del type="falseStart">e a</del> <del type="reformulation">e</del> è successo qualche episodio di qualcuno che è <anchor xml:id="ma-309" synch="#TT309"/>scappato<anchor xml:id="ma-310" synch="#TT310"/>
+                </u>
+
+                <u who="#AW" xml:id="AW123" synch="TS249">
+                    <anchor xml:id="arm-309" synch="#TT309"/><emph>si</emph><anchor xml:id="arm-310" synch="#TT310"/> adesso le voglio raccontare la storia di <persName ref="TEI-ListPerson.xml#IsaccoS">Isacco <choice><sic>Simoneta</sic><corr resp="#GB">Sermoneta</corr></choice></persName><pause/> <del type="falseStart"><persName ref="TEI-ListPerson.xml#IsaccoS">Isacco Sermoneta</persName></del> ma questo era successo più tardi in <placeName ref="TEI-ListPlace.xml#DE">Germania</placeName> vicino a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName> dove eravamo a <placeName ref="TEI-ListPlace.xml#MU">Muhldorf</placeName>
+                </u>
+
+                <!--14:20-->
             </div>
 
         </body>
@@ -2230,19 +2330,7 @@ City: Milan -->
 
 </TEI>
 <!--                    
-M.S: no volevo chiedere un'altra cosa...per quanto riguardava il mangiare, c'era qualche differenza fra lì e <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName>?
-A.W: pressappoco uguale.
-M.S: mi, me me lo descriva il mangiare, cosa si mangiava?
-A.W: pressappoco... <choice><orig>vabbè</orig><reg resp="#GB">va bene</reg></choice> er era una brodaglia che...
-M.S: al mattino questo?
-A.W: al mattino c'era una... lo chiamavamo tè, erano delle foglie non so di che cosa.
-M.S: avevate delle scodelle? Ognuno aveva una scodella?
-A.W: si, delle scodelle, una propria scodella si. Mah c'è chi l'aveva sbrecciata, chi l'aveva normale, chi non aveva niente e doveva bere dalla scodella del suo compagno...
-M.S: dopodiché c'era l'appello?
-A.W: Poi c'era l'appello, dopo, se se era nebbioso non si usciva, si rimaneva sull'appello in piedi, sull'attenti, in attesa che la nebbia sparisca, perché? Perché quando c'era nebbia qualcuno tagliava la corda...
-M.S: omg è successo qualche episodio di qualcuno che è scappato?
-A.W: si, adesso le voglio raccontare la storia di Isacco Simoneta (si capisce poco il cognome). Isacco Sarmoneta, ma questo era successo più tardi in <placeName ref="TEI-ListPlace.xml#DE">Germania</placeName> vicino a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName> dove eravamo a millo???.
-M.S: Aspetti, no, allora fermiamoci sempre a Vars-, no dico a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName> c'era... c'è stato qualche tentativo?
+M.S: a aspetti, no, allora fermiamoci sempre a Vars-, no dico a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName> c'era... c'è stato qualche tentativo?
 A.W: Adesso parliamo di... <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName>, <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName> no, a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName> c'era un ebreo greco, un ebreo greco molto in gamba - i grechi sono in gambissima - ee, lui era di <placeName ref="TEI-ListPlace#Sal">Salonicco</placeName>, lui quando il contadino polacco usciva dalla dal ghetto con i suoi mattoni lui, dando dei soldi perché anche i polacchi non facevano niente senza soldi, si era nascosto in mezzo ai mattoni, fra i mattoni ha lasciato uno spazio e si era introdotto lì e così è uscito dal ghetto ed è riuscito a mettersi in contatto con i partigiani polacchi - c'erano anche i partigiani ebrei - e così si è salvata la vita come partigiano riuscendo a scappare dal ghetto.
 M.S: questo l'ave-... questo l'ha saputo...è successo quando lei era lì?
 A.W: Si, però l'ho saputo dopo.
