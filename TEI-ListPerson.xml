@@ -1953,6 +1953,95 @@
                             </death>
                         </person>
 
+                        <!--Carlo Pontecorvo-->
+                        <person xml:id="CarloP">   
+    
+                                <persName role="ingegnere">
+                                    <ref target="http://dati.cdec.it/lod/shoah/person/6282/html http://www.simart.comune.roma.it/dettaglio-bene/-961958004"/>
+                                    <foreName>Carlo</foreName>
+                                    <surname>Pontecorvo</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1902-10-23" cert="high">23 Ottobre 1902</date>
+                                    <placeName ref="TEI-ListPlace#RO">
+                                        <settlement type="municipality">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1944-01-31" cert="medium">31 Gennaio 1944</date>
+                                    <placeName ref="TEI-ListPlace#WA">
+                                        <settlement type="municipality">Varsavia</settlement>
+                                        <country key="PL">Polonia</country>
+                                    </placeName>
+                                </death>
+                        </person>
+
+                        <!--Gillo Pontecorvo-->
+                        <person xml:id="GilloP" sameAs="http://viaf.org/viaf/12496893">   
+    
+                                <persName role="regista">
+                                    <ref target="https://it.wikipedia.org/wiki/Gillo_Pontecorvo https://www.mymovies.it/persone/gillo-pontecorvo/49666/"/>
+                                    <foreName>Gilberto</foreName>
+                                    <surname>Pontecorvo</surname>
+                                    <addName type="nickname">Gillo</addName>
+                                    <roleName type="honorific">Cavaliere di Gran Croce Ordine al Merito della Repubblica Italiana - Roma, 18 gennaio 2000</roleName>
+                                    <roleName type="honorific">Commendatore Ordine al Merito della Repubblica Italiana - Roma, 2 giugno 1995</roleName>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1919-11-19" cert="high">19 Novembre 1919</date>
+                                    <placeName>
+                                        <settlement type="municipality">Pisa</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="2006-10-12" cert="high">12 Ottobre 2006</date>
+                                    <placeName ref="TEI-ListPlace#RO">
+                                        <settlement type="municipality">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </death>
+                        </person>
+                        
+                        <!--Tischler: non ho informazioni-->
+                        <person xml:id="Tis">   
+    
+                                <persName role="falegname">
+                                    <ref target=""/>
+                                    <foreName></foreName>
+                                    <surname></surname>
+                                    <addName type="nickname">Tischler</addName>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="" cert=""></date>
+                                    <placeName>
+                                    <note resp="#GB">Desumo dalle parole di Arminio che fosse nato in Polonia.
+                                        <settlement type=""></settlement>
+                                        <country key="PL">Polonia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" cert=""></date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </death>
+                        </person>
+
                         <!-- Lista delle relazioni -->
                         <listRelation>
                             <relation name="interviewers" active="#LPF #MA #PF" passive="#AW"/>
@@ -1983,12 +2072,13 @@
                             <relation name="deportee-survivor" mutual="#AW #SettimiaS #LelloDS #IsaccoS #TriesteB #GotiB"/>
                             <relation name="survivor" mutual="#LauraM #PaolaDS #GuidoDS"/>
                             <relation name="writer" active="#RudolfV" mutual="#AW"/>
-                            <relation name="deportee-Varsavia" mutual="#AW #IsaacSS #MarioDV #LelloDS #IsaccoS #LilloDS"/>
+                            <relation name="deportee-Varsavia" mutual="#AW #IsaacSS #MarioDV #LelloDS #IsaccoS #LilloDS #CarloP #LeonelloDS #GiancarloDS"/>
                             <relation name="deportee-Muhldorf" mutual="#AW #LelloDS #IsaccoS #TriesteB #ErnstL"/>
                             <relation name="helper" active="#CapBlasi" passive="#AW #ErnstL #TriesteB"/>
                             <relation name="helper" active="#IrvingJS" passive="#AW #ErnstL #TriesteB"/>
                             <relation name="collaborator" mutual="#AW #MassimoAV"/>
                             <relation name="cousin" mutual="#AW #TiborW"/>
+                            <relation name="cousin" mutual="#CarloP #GilloP"/>
                             <relation name="employer" active="#GinoE" passive="#AW"/>
                             <relation name="sibling" mutual="#AW #GiovanniW"/>
                             <relation name="parent" active="#EsterB" passive="#MiriamG"/>

@@ -9,7 +9,7 @@
 
         <fileDesc>
             <titleStmt>
-                <title>Testimonianza di Arminio Wachsberger, noto per essere stato l'interprete di <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName></title>
+                <title>Testimonianza di Arminio Wachsberger, noto per essere stato l'interprete di Auschwitz</title>
             </titleStmt>
 
             <editionStmt>
@@ -696,6 +696,39 @@ City: Milan -->
 
             <when xml:id="TT247" absolute="00:00:59" synch="ma-247"/>
             <when xml:id="TT248" since="#TT247" interval="1"/>
+
+            <when xml:id="TT249" absolute="00:02:50" synch="arm-249"/>
+            <when xml:id="TT250" since="#TT249" interval="1"/>
+
+            <when xml:id="TT251" absolute="00:05:16" synch="ma-251"/>
+            <when xml:id="TT252" since="#TT251" interval="1"/>
+
+            <when xml:id="TT253" absolute="00:05:18" synch="ma-253"/>
+            <when xml:id="TT254" since="#TT253" interval="1"/>
+
+            <when xml:id="TT255" absolute="00:05:21" synch="arm-255"/>
+            <when xml:id="TT256" since="#TT255" interval="1"/>
+
+            <when xml:id="TT257" absolute="00:05:24" synch="ma-257"/>
+            <when xml:id="TT258" since="#TT257" interval="1"/>
+
+            <when xml:id="TT259" absolute="00:05:32" synch="ma-259"/>
+            <when xml:id="TT260" since="#TT259" interval="1"/>
+
+            <when xml:id="TT261" absolute="00:06:27" synch="ma-261"/>
+            <when xml:id="TT262" since="#TT261" interval="2"/>
+
+            <when xml:id="TT263" absolute="00:07:13" synch="arm-263"/>
+            <when xml:id="TT264" since="#TT263" interval="1"/>
+
+            <when xml:id="TT265" absolute="00:07:37" synch="arm-265"/>
+            <when xml:id="TT266" since="#TT265" interval="1"/>
+
+            <when xml:id="TT267" absolute="00:08:08" synch="arm-267"/>
+            <when xml:id="TT268" since="#TT267" interval="1"/>
+
+            <when xml:id="TT269" absolute="00:08:21" synch="arm-269"/>
+            <when xml:id="TT270" since="#TT269" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -898,6 +931,39 @@ City: Milan -->
             <when xml:id="TS187" synch="#AW93" absolute="00:00:48"/>
             <when xml:id="TS188" synch="#MA93" absolute="00:00:58"/>
             <when xml:id="TS189" synch="#AW94" absolute="00:00:59"/>
+            <when xml:id="TS190" synch="#MA94" absolute="00:01:52"/>
+            <when xml:id="TS191" synch="#AW95" absolute="00:02:05"/>
+            <when xml:id="TS192" synch="#MA95" absolute="00:02:06"/>
+            <when xml:id="TS193" synch="#PF3" absolute="00:02:27"/>
+            <when xml:id="TS194" synch="#AW96" absolute="00:02:28"/>
+            <when xml:id="TS195" synch="#PF4" absolute="00:02:35"/>
+            <when xml:id="TS196" synch="#MA96" absolute="00:02:38"/>
+            <when xml:id="TS197" synch="#AW97" absolute="00:02:48"/>
+            <when xml:id="TS198" synch="#MA97" absolute="00:03:14"/>
+            <when xml:id="TS199" synch="#AW98" absolute="00:03:17"/>
+            <when xml:id="TS200" synch="#MA98" absolute="00:03:18"/>
+            <when xml:id="TS201" synch="#AW99" absolute="00:03:19"/>
+            <when xml:id="TS202" synch="#MA99" absolute="00:05:10"/>
+            <when xml:id="TS203" synch="#AW100" absolute="00:05:18"/>
+            <when xml:id="TS204" synch="#MA100" absolute="00:05:21"/>
+            <when xml:id="TS205" synch="#AW101" absolute="00:05:24"/>
+            <when xml:id="TS206" synch="#MA101" absolute="00:05:26"/>
+            <when xml:id="TS207" synch="#AW102" absolute="00:05:27"/>
+            <when xml:id="TS208" synch="#MA102" absolute="00:05:29"/>
+            <when xml:id="TS209" synch="#AW103" absolute="00:05:32"/>
+            <when xml:id="TS210" synch="#MA103" absolute="00:06:23"/>
+            <when xml:id="TS211" synch="#AW104" absolute="00:06:27"/>
+            <when xml:id="TS212" synch="#MA104" absolute="00:07:03"/>
+            <when xml:id="TS213" synch="#AW105" absolute="00:07:04"/>
+            <when xml:id="TS214" synch="#MA105" absolute="00:07:05"/>
+            <when xml:id="TS215" synch="#AW106" absolute="00:07:06"/>
+            <when xml:id="TS216" synch="#MA106" absolute="00:07:37"/>
+            <when xml:id="TS217" synch="#AW107" absolute="00:07:37"/>
+            <when xml:id="TS218" synch="#MA107" absolute="00:08:08"/>
+            <when xml:id="TS219" synch="#AW108" absolute="00:08:10"/>
+            <when xml:id="TS220" synch="#MA108" absolute="00:08:11"/>
+            <when xml:id="TS221" synch="#AW109" absolute="00:08:11"/>
+            <when xml:id="TS222" synch="#MA109" absolute="00:08:21"/>
         </timeline>
     </standOff>
 
@@ -1351,7 +1417,7 @@ City: Milan -->
                 <gap reason="lost" extent="17 seconds"/>
                 
                 <pause dur="5 seconds"/>
-                <!-- parte II: Tape 6 of 1-->
+                <!-- parte II - Tape 6 of 1-->
                 <u who="#PF" xml:id="PF2" synch="#TS86">
                     <foreign xml:lang="en">okay</foreign>
                 </u>
@@ -1816,7 +1882,7 @@ City: Milan -->
                 </u>
 
                 <u who="#AW" xml:id="AW89" synch="#TS180">
-                    <anchor xml:id="arm-231" synch="#TT231"/>la conosce probabilmente<anchor xml:id="arm-232" synch="#TT232"/><vocal><desc>fa click con la lingua</desc></vocal><pause/> e<pause/> il figlio è di mestiere<pause/> biologo<pause/> però <del type="repetition">non</del> non ha lavoro e quindi si cerca da mangiare in altre maniere<pause/> e <choice><orig>m'ha</orig><reg resp="#GB">mi ha</reg></choice> raccontato tutti i particolari<pause/> che io già conoscevo<pause/> e io <vocal>mmm</vocal><pause/> questa volta<pause/> a malincuore ho riferito esattamente<pause/> ciò che è successo a <rs ref="TEI-ListPerson.xml#GiancarloDS" resp="#GB">suo fratello</rs> e ciò che è successo<pause/> a suo <rs ref="TEI-ListPerson.xml#LeonelloDS" resp="#GB">padre</rs><pause/> <vocal>ehm</vocal> <choice><orig>vabbè</orig><reg resp="#GB">va bene</reg></choice> <del type="falseStart">questo riguardava i</del>
+                    <anchor xml:id="arm-231" synch="#TT231"/>la conosce probabilmente<anchor xml:id="arm-232" synch="#TT232"/><vocal><desc>click con la lingua</desc></vocal><pause/> e<pause/> il figlio è di mestiere<pause/> biologo<pause/> però <del type="repetition">non</del> non ha lavoro e quindi si cerca da mangiare in altre maniere<pause/> e <choice><orig>m'ha</orig><reg resp="#GB">mi ha</reg></choice> raccontato tutti i particolari<pause/> che io già conoscevo<pause/> e io <vocal>mmm</vocal><pause/> questa volta<pause/> a malincuore ho riferito esattamente<pause/> ciò che è successo a <rs ref="TEI-ListPerson.xml#GiancarloDS" resp="#GB">suo fratello</rs> e ciò che è successo<pause/> a suo <rs ref="TEI-ListPerson.xml#LeonelloDS" resp="#GB">padre</rs><pause/> <vocal>ehm</vocal> <choice><orig>vabbè</orig><reg resp="#GB">va bene</reg></choice> <del type="falseStart">questo riguardava i</del>
                 </u>
 
                 <u who="#MA" xml:id="MA90" synch="#TS181">
@@ -1836,7 +1902,7 @@ City: Milan -->
                 </u>
                 
                 <u who="#AW" xml:id="AW91" synch="#TS184">
-                    aspetti che <anchor xml:id="arm-237" synch="#TT237"/>glielo dico<anchor xml:id="arm-238" synch="#TT238"/><pause/> e<pause/><vocal><desc>fa click con la lingua</desc></vocal> <del type="falseStart">noi</del> la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> <del type="falseStart">c'era il cor</del> <del type="reformulation">c'era l'ordine</del> <term ref="AWcdec.xml#centurie" xml:lang="de" xml:id="centuria0">arbeitskommando formieren</term> vuol dire<pause/> formare i gruppi di lavoro<pause/> in <emph><term ref="#cent" xml:lang="de" xml:id="centuria1">hundertschaft</term></emph><join target="#centuria0 #centuria1" type="term"></join> vuol dire <gloss xml:id="cent">a centinaia</gloss><join target="AWcdec.xml#centurie #cent" type="gloss"></join><pause/> sempre <del type="repetition">100</del> 100 <del type="truncation">cent</del> perché serviva loro<pause/> per <del type="falseStart"><del type="truncation">c</del> <del type="truncation" xml:id="numerarci0">numerar</del> <del type="truncation" xml:id="numerarci1">ci</del><join target="#numerarci0 #numerarci1" type="word"></join> <del type="falseStart">f</del></del> <vocal>ehm</vocal> <del type="reformulation">controllarci</del> facilmente<pause/> allora noi uscivamo<pause/> io era sempre <term ref="AWcdec.xml#dolmetscher" xml:lang="de">dolmetscher</term><pause/> interprete e c'era sempre un <emph><foreign xml:lang="de">kap&#242;</foreign></emph><pause/> <del type="truncation">c</del> insieme con noi<pause/> questo <foreign xml:lang="de">kap&#242;</foreign> <del type="truncation">qu</del> quando si arrivava davanti la <distinct type="military">sentinella</distinct><pause/> della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> doveva uscire <distinct type="informal">levare</distinct> il berretto<pause/> e <seg xml:id="phrase14">dire</seg><pause/> <vocal>emh mm</vocal><pause/> <del type="truncation">in</del> indicava il proprio numero<pause/> <seg xml:id="phrase15"><q type="spoken"><foreign xml:lang="de">andere neunundneunzig</foreign></q></seg><join target="#phrase14 #phrase15" type="phrase" scope="branches"></join> vuol dire altri 99<pause/> e si andava a lavoro la <time from="00:18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time> quando si tornava<pause/> avveniva il <emph>contrario</emph><pause/> <del type="truncation"><del type="repetition">l</del> l</del> la <distinct type="military">sentinella</distinct> controllava solo se eravamo 100 e o non di meno<pause/> una <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> questo <foreign xml:lang="de">kap&#242;</foreign> non poté venire perché si era ammalato<pause/> allora il comandante mi diceva <emph>fai te</emph><pause/> <del type="repetition">il</del><pause/> il <foreign xml:lang="de">kap&#242;</foreign> di questa centuria<pause/> io vado<pause/> e<pause/> <distinct type="informal">levo</distinct> il berretto e mi presento<pause/> questo era un sottufficiale<pause/> che era della <placeName ref="TEI-ListPlace.xml#Tr">Transilvania</placeName><pause/> era tedesco <del type="falseStart">della</del> sa che in <placeName ref="TEI-ListPlace.xml#Tr">Transilvania</placeName> c'erano anche i tedeschi già<pause/> 2 o 300 <choice><sic>anni</sic><corr resp="#GB">anni fa</corr></choice><pause/> e dico in <lang>tedesco</lang><pause/> <vocal>mm ahm</vocal> <q type="spoken" who="TEI-ListPerson.xml#AW" xml:id="q13"><foreign xml:lang="de">haftling nummer und</foreign></q><pause/> cioè prigioniero<pause/> e <q type="spoken" who="TEI-ListPerson.xml#AW" xml:id="q14"><foreign xml:lang="de">und andere vv und andere neunundneunzing <emph>personen</emph></foreign> e <del type="truncation">alt</del></q><join target="#q13 #q14" result="q" type="quotation" scope="branches"></join><pause/> <q type="spoken"><foreign xml:lang="de">was hast du gesagt</foreign> <emph>cosa hai detto persone</emph></q><pause/> e ha cominciato a darmi addosso <emph>pugni e calci</emph><pause/> e io non sapevo perché<pause/> allora <del type="falseStart">e</del> <distinct type="informal">siccome</distinct> avevo gli occhiali<pause/> dico <q type="thought" who="TEI-ListPerson.xml#AW">non voglio che mi rompa gli occhiali</q> <emph>li ho <distinct type="informal">levati</distinct></emph><pause/> e dice <q type="spoken">perché togli gli occhiali</q><pause/> <q type="spoken" who="TEI-ListPerson.xml#AW">li tolgo perché non voglio che si <emph>rompano</emph> perché poi <del type="repetition">non</del> non ci vedo</q><pause/> <q type="spoken"><vocal>ah</vocal> si</q> allora me li prende<pause/> li mette sotto <emph>tac</emph><pause/> e <del type="repetition">li <del type="truncation">s</del></del> li <del type="truncation">s</del> li sfascia completamente<pause/> poi dopo finalmente mi dice<pause/> <q type="spoken"><foreign xml:lang="de">ihr seid nicht <emph>menschen</emph></foreign> voi non siete <emph>persone</emph><pause/><foreign xml:lang="de"> ihr seid <emph>arbeitstiere</emph></foreign><pause/> voi siete animali di lavoro<pause/> e quindi tu devi dire al <emph>massimo</emph><pause/> <foreign xml:lang="de">ihr und neunundneunzing <emph>arbeitstiere</emph></foreign> non devi dire <foreign xml:lang="de"><emph>menschen</emph></foreign> non devi dire persone</q><pause/> <choice><orig>vabbè</orig><reg resp="#GB">va bene</reg></choice><pause/> la <time from="00:18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time> si torna indietro e dico <q type="thought" who="TEI-ListPerson.xml#AW"><del type="repetition">ai</del> ai sarà uguale come<pause/> a sta<time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time></q><pause/> però sapevo come dovevo <emph>dire</emph><pause/> non più<pause/> <foreign xml:lang="de">menschen</foreign> o persone ma dovevo dire<pause/> <foreign xml:lang="de">arbeitstiere</foreign><pause/> lui mi guarda<pause/> e non mi fa niente e dico <q type="thought" who="TEI-ListPerson.xml#AW">ma cosa è successo</q><pause/> non solo<pause/> dopo altre volte che ci incontravamo era sempre <emph>affabile</emph> e cortese<pause/> e <emph>delle volte</emph> invece<pause/> capitava di colpo<pause/> mentre noi cercavamo di<pause/> riposare un <distinct type="diminutive">momentino</distinct><pause/> capitava lui<pause/> <q type="spoken"><foreign xml:lang="de">der dolmetscher hat nicht gearbeitet</foreign> il dolmetscher non ha lavorato<pause/> <emph><foreign xml:lang="de">funfundzwanzig</foreign></emph> <del type="truncation" xml:id="venti">venti</del><pause/> <del type="truncation" xml:id="cinque">cinque</del><join target="#venti #cinque" type="word"></join> <del type="truncation">f</del><pause/> <vocal>emh</vocal><pause/> <choice><sic><choice><orig>colla</orig><reg resp="#GB">con la</reg></choice> <anchor xml:id="arm-239" synch="#TT239"/>frusta</sic><corr resp="#GB">frustate</corr></choice> <del type="falseStart">sul</del></q><anchor xml:id="arm-240" synch="#TT240"/><pause/> <del type="falseStart">e io</del> ma ero l'unico che lavorava<pause/> <del type="falseStart">gli altri non a</del> <emph><del type="reformulation"><choice><sic>gli</sic><corr resp="#GB">agli</corr></choice> altri niente</del> a me sì</emph><pause/> allora una volta che l'ho incontrato<pause/> dice <q type="spoken" xml:id="q15"><foreign xml:lang="de">komm hier</foreign> vieni qua</q><pause/> e <choice><orig>m'ha</orig><reg resp="#GB">mi ha</reg></choice> detto <pause/><q type="spoken" xml:id="q16">adesso ti racconto la mia storia<pause/> io ero insegnante di scuola elementare<pause/> però io sono nato sadico<pause/> ho bisogno di soddisfare il mio<pause/> fabbisogno di sadismo<pause/> solo dove <del type="repetition">lo</del> lo posso fare contro i bambini piccoli<pause/> <del type="falseStart">perché una persona normale <del type="repetition">non</del><pause/> non si lascia<pause/> <vocal>ehm</vocal></del></q><pause/> e allora cosa è successo che <vocal>ehm</vocal><pause/> <q type="spoken" xml:id="q17">sono venuti a sapere e <choice><orig>m'hanno</orig><reg resp="#GB">mi hanno</reg></choice> buttato fuori dalla scuola<pause/> allora <del type="truncation">c</del> sono andato nella <distinct type="military">legione</distinct><pause/> straniera francese</q><join target="#q15 #q16 #q17" result="q" type="quotation" scope="branches"></join><pause/> ed è stato un paio di anni <emph>lì</emph><pause/> anche lì <del type="falseStart" xml:id="fs0"><del type="truncation" xml:id="poteva0">po</del></del>
+                    aspetti che <anchor xml:id="arm-237" synch="#TT237"/>glielo dico<anchor xml:id="arm-238" synch="#TT238"/><pause/> e<pause/><vocal><desc>click con la lingua</desc></vocal> <del type="falseStart">noi</del> la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> <del type="falseStart">c'era il cor</del> <del type="reformulation">c'era l'ordine</del> <term ref="AWcdec.xml#centurie" xml:lang="de" xml:id="centuria0">arbeitskommando formieren</term> vuol dire<pause/> formare i gruppi di lavoro<pause/> in <emph><term ref="#cent" xml:lang="de" xml:id="centuria1">hundertschaft</term></emph><join target="#centuria0 #centuria1" type="term"></join> vuol dire <gloss xml:id="cent">a centinaia</gloss><join target="AWcdec.xml#centurie #cent" type="gloss"></join><pause/> sempre <del type="repetition">100</del> 100 <del type="truncation">cent</del> perché serviva loro<pause/> per <del type="falseStart"><del type="truncation">c</del> <del type="truncation" xml:id="numerarci0">numerar</del> <del type="truncation" xml:id="numerarci1">ci</del><join target="#numerarci0 #numerarci1" type="word"></join> <del type="falseStart">f</del></del> <vocal>ehm</vocal> <del type="reformulation">controllarci</del> facilmente<pause/> allora noi uscivamo<pause/> io era sempre <term ref="AWcdec.xml#dolmetscher" xml:lang="de">dolmetscher</term><pause/> interprete e c'era sempre un <emph><foreign xml:lang="de">kap&#242;</foreign></emph><pause/> <del type="truncation">c</del> insieme con noi<pause/> questo <foreign xml:lang="de">kap&#242;</foreign> <del type="truncation">qu</del> quando si arrivava davanti la <distinct type="military">sentinella</distinct><pause/> della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> doveva uscire <distinct type="informal">levare</distinct> il berretto<pause/> e <seg xml:id="phrase14">dire</seg><pause/> <vocal>emh mm</vocal><pause/> <del type="truncation">in</del> indicava il proprio numero<pause/> <seg xml:id="phrase15"><q type="spoken"><foreign xml:lang="de">andere neunundneunzig</foreign></q></seg><join target="#phrase14 #phrase15" type="phrase" scope="branches"></join> vuol dire altri 99<pause/> e si andava a lavoro la <time from="00:18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time> quando si tornava<pause/> avveniva il <emph>contrario</emph><pause/> <del type="truncation"><del type="repetition">l</del> l</del> la <distinct type="military">sentinella</distinct> controllava solo se eravamo 100 e o non di meno<pause/> una <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> questo <foreign xml:lang="de">kap&#242;</foreign> non poté venire perché si era ammalato<pause/> allora il comandante mi diceva <emph>fai te</emph><pause/> <del type="repetition">il</del><pause/> il <foreign xml:lang="de">kap&#242;</foreign> di questa centuria<pause/> io vado<pause/> e<pause/> <distinct type="informal">levo</distinct> il berretto e mi presento<pause/> questo era un sottufficiale<pause/> che era della <placeName ref="TEI-ListPlace.xml#Tr">Transilvania</placeName><pause/> era tedesco <del type="falseStart">della</del> sa che in <placeName ref="TEI-ListPlace.xml#Tr">Transilvania</placeName> c'erano anche i tedeschi già<pause/> 2 o 300 <choice><sic>anni</sic><corr resp="#GB">anni fa</corr></choice><pause/> e dico in <lang>tedesco</lang><pause/> <vocal>mm ahm</vocal> <q type="spoken" who="TEI-ListPerson.xml#AW" xml:id="q13"><foreign xml:lang="de">haftling nummer und</foreign></q><pause/> cioè prigioniero<pause/> e <q type="spoken" who="TEI-ListPerson.xml#AW" xml:id="q14"><foreign xml:lang="de">und andere vv und andere neunundneunzing <emph>personen</emph></foreign> e <del type="truncation">alt</del></q><join target="#q13 #q14" result="q" type="quotation" scope="branches"></join><pause/> <q type="spoken"><foreign xml:lang="de">was hast du gesagt</foreign> <emph>cosa hai detto persone</emph></q><pause/> e ha cominciato a darmi addosso <emph>pugni e calci</emph><pause/> e io non sapevo perché<pause/> allora <del type="falseStart">e</del> <distinct type="informal">siccome</distinct> avevo gli occhiali<pause/> dico <q type="thought" who="TEI-ListPerson.xml#AW">non voglio che mi rompa gli occhiali</q> <emph>li ho <distinct type="informal">levati</distinct></emph><pause/> e dice <q type="spoken">perché togli gli occhiali</q><pause/> <q type="spoken" who="TEI-ListPerson.xml#AW">li tolgo perché non voglio che si <emph>rompano</emph> perché poi <del type="repetition">non</del> non ci vedo</q><pause/> <q type="spoken"><vocal>ah</vocal> si</q> allora me li prende<pause/> li mette sotto <emph>tac</emph><pause/> e <del type="repetition">li <del type="truncation">s</del></del> li <del type="truncation">s</del> li sfascia completamente<pause/> poi dopo finalmente mi dice<pause/> <q type="spoken"><foreign xml:lang="de">ihr seid nicht <emph>menschen</emph></foreign> voi non siete <emph>persone</emph><pause/><foreign xml:lang="de"> ihr seid <emph>arbeitstiere</emph></foreign><pause/> voi siete animali di lavoro<pause/> e quindi tu devi dire al <emph>massimo</emph><pause/> <foreign xml:lang="de">ihr und neunundneunzing <emph>arbeitstiere</emph></foreign> non devi dire <foreign xml:lang="de"><emph>menschen</emph></foreign> non devi dire persone</q><pause/> <choice><orig>vabbè</orig><reg resp="#GB">va bene</reg></choice><pause/> la <time from="00:18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time> si torna indietro e dico <q type="thought" who="TEI-ListPerson.xml#AW"><del type="repetition">ai</del> ai sarà uguale come<pause/> a sta<time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time></q><pause/> però sapevo come dovevo <emph>dire</emph><pause/> non più<pause/> <foreign xml:lang="de">menschen</foreign> o persone ma dovevo dire<pause/> <foreign xml:lang="de">arbeitstiere</foreign><pause/> lui mi guarda<pause/> e non mi fa niente e dico <q type="thought" who="TEI-ListPerson.xml#AW">ma cosa è successo</q><pause/> non solo<pause/> dopo altre volte che ci incontravamo era sempre <emph>affabile</emph> e cortese<pause/> e <emph>delle volte</emph> invece<pause/> capitava di colpo<pause/> mentre noi cercavamo di<pause/> riposare un <distinct type="diminutive">momentino</distinct><pause/> capitava lui<pause/> <q type="spoken"><foreign xml:lang="de">der dolmetscher hat nicht gearbeitet</foreign> il dolmetscher non ha lavorato<pause/> <emph><foreign xml:lang="de">funfundzwanzig</foreign></emph> <del type="truncation" xml:id="venti">venti</del><pause/> <del type="truncation" xml:id="cinque">cinque</del><join target="#venti #cinque" type="word"></join> <del type="truncation">f</del><pause/> <vocal>emh</vocal><pause/> <choice><sic><choice><orig>colla</orig><reg resp="#GB">con la</reg></choice> <anchor xml:id="arm-239" synch="#TT239"/>frusta</sic><corr resp="#GB">frustate</corr></choice> <del type="falseStart">sul</del></q><anchor xml:id="arm-240" synch="#TT240"/><pause/> <del type="falseStart">e io</del> ma ero l'unico che lavorava<pause/> <del type="falseStart">gli altri non a</del> <emph><del type="reformulation"><choice><sic>gli</sic><corr resp="#GB">agli</corr></choice> altri niente</del> a me sì</emph><pause/> allora una volta che l'ho incontrato<pause/> dice <q type="spoken" xml:id="q15"><foreign xml:lang="de">komm hier</foreign> vieni qua</q><pause/> e <choice><orig>m'ha</orig><reg resp="#GB">mi ha</reg></choice> detto <pause/><q type="spoken" xml:id="q16">adesso ti racconto la mia storia<pause/> io ero insegnante di scuola elementare<pause/> però io sono nato sadico<pause/> ho bisogno di soddisfare il mio<pause/> fabbisogno di sadismo<pause/> solo dove <del type="repetition">lo</del> lo posso fare contro i bambini piccoli<pause/> <del type="falseStart">perché una persona normale <del type="repetition">non</del><pause/> non si lascia<pause/> <vocal>ehm</vocal></del></q><pause/> e allora cosa è successo che <vocal>ehm</vocal><pause/> <q type="spoken" xml:id="q17">sono venuti a sapere e <choice><orig>m'hanno</orig><reg resp="#GB">mi hanno</reg></choice> buttato fuori dalla scuola<pause/> allora <del type="truncation">c</del> sono andato nella <distinct type="military">legione</distinct><pause/> straniera francese</q><join target="#q15 #q16 #q17" result="q" type="quotation" scope="branches"></join><pause/> ed è stato un paio di anni <emph>lì</emph><pause/> anche lì <del type="falseStart" xml:id="fs0"><del type="truncation" xml:id="poteva0">po</del></del>
                 </u>
 
                 <u who="#MA">
@@ -1868,8 +1934,175 @@ City: Milan -->
 
                 <u who="#AW" xml:id="AW94" synch="#TS189">
                     <anchor xml:id="arm-247" synch="#TT247"/>poi<anchor xml:id="arm-248" synch="#TT248"/> interessante <del type="falseStart">come</del> le racconterò come è successo<pause/> <del type="reformulation">come è stato <distinct type="informal">ammazzato</distinct> lui a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName></del> poi<pause/><vocal><desc>chiude e apre le labbra producendo un suono</desc></vocal> allora<pause/> a un certo momento i russi avanzano<pause/><vocal><desc>chiude e apre le labbra producendo un suono</desc></vocal> avanzano e arrivano<pause/> sulla<pause/> <placeName ref="TEI-ListPlace.xml#Vistola">vistola</placeName><pause/> di <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName> a destra <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName> è divisa in due dalla <placeName ref="TEI-ListPlace.xml#Vistola">vistola</placeName><pause/> un fiume<pause/> e i russi sono arrivati<pause/> <del type="falseStart">alla<pause/> proprio al<pause/> <del type="truncation">a</del> alle falde del</del> <del type="reformulation">no alle falde<pause/> <vocal>ehm</vocal> accanto <del type="repetition">al</del> al fiume della <placeName ref="TEI-ListPlace.xml#Vistola">vistola</placeName> dalla parte<pause/> proveniente dall'est</del><pause/> e <vocal>ehm</vocal> <distinct type="informal">siccome</distinct> era il momento in cui i russi<pause/> marciavano<pause/> <emph>i tedeschi</emph> dicono <q type="thought"><del type="repetition">ai</del> ai qui siamo presi<pause/> bisogna scappare</q><pause/> allora naturalmente <distinct type="informal">siccome</distinct> volevano sempre utilizzare<pause/> tutto il possibile<pause/> allora dicono<pause/> <q type="spoken"><foreign xml:lang="de">wir mussen evakuieren</foreign> dobbiamo evacuare</q><pause/> <del type="falseStart">e</del><pause/> <emph>a piedi</emph><pause/> e dove andiamo<pause/> in <placeName ref="TEI-ListPlace.xml#DE">Germania</placeName><pause/> <vocal>eehm</vocal>
-                </u><!--1:52-->
-            </div>
+                </u>
+
+                <u who="#MA" xml:id="MA94" synch="#TS190">
+                    aspetti ci fermiamo un attimo per la cassetta<pause/> <emph><del type="repetition">no</del> no</emph> ma mi scappi dal <placeName ref="TEI-ListPlace.xml#GhettoWA">ghetto di Varsavia</placeName> io voglio sapere ancora un po' di cose intanto<pause/> <del type="truncation">co</del><pause/> <vocal>ehm <desc>fa click con la lingua</desc></vocal> dobbiamo tornare a quella storia degli ebrei nascosti
+                </u>
+
+                <pause/>
+
+                <u who="#AW" xml:id="AW95" synch="#TS191">
+                    <vocal>mm</vocal> si
+                </u>
+
+                <u who="#MA" xml:id="MA95" synch="#TS192">
+                    <del type="truncation" xml:id="ecco0">ec</del> <del type="truncation" xml:id="ecco1">co</del><join target="#ecco0 #ecco1" type="word"></join> questa deve raccontarla adesso cambiamo la cassetta
+                </u>
+
+                <gap reason="lost" extent="3 seconds"/>
+
+                <pause dur="12 seconds"/>
+                <!--parte II - Tape: of 1-->
+
+                <u who="#PF" xml:id="PF3" synch="#TS193">
+                    <gap reason="inaudible" resp="#GB" extent="1 sentence"/>
+                </u>
+
+                <u who="#AW" xml:id="AW96" synch="TS194">
+                    <vocal><desc>click con la lingua</desc></vocal>
+                </u>
+
+                <pause dur="6 seconds"/>
+
+                <u who="#PF" xml:id="PF4" synch="#TS195">
+                    <gap reason="inaudible" resp="#GB" extent="1 sentence"/>
+                </u>
+
+                <u who="#MA" xml:id="MA96" synch="#TS196">
+                    <date when="1998-03-04">4 Marzo 1998</date><pause/> cassetta numero sette<pause/> intervisto il <persName ref="TEI-ListPerson.xml#AW"><roleName type="honorific">signor</roleName> Arminio<pause/> Wachsberger</persName><pause/><vocal><desc>sospira</desc></vocal> allora
+                </u>
+
+                <u who="#AW" xml:id="AW97" synch="TS197">
+                    le stavo dicendo dell'<rs ref="TEI-ListPerson.xml#CarloP" resp="#GB"><roleName>ingegner</roleName> Pontecorvo</rs><anchor xml:id="arm-249" synch="#TT249"/><pause/> l'<rs ref="TEI-ListPerson.xml#CarloP" resp="#GB"><roleName>ingegner</roleName><anchor xml:id="arm-250" synch="#TT250"/> Pontecorvo</rs> era il <emph>primo</emph> in <placeName ref="TEI-ListPlace.xml#IT">Italia</placeName> ad aver<pause/> applicato il<pause/> microscopio <emph>elettronico</emph> adesso è diventato una cosa abituale ma stiamo parlando del <date when="1943" resp="#GB">43</date><pause/> questo <rs ref="TEI-ListPerson.xml#CarloP" resp="#GB"><roleName>ingegner</roleName> Pontecorvo</rs><pause/> <del type="falseStart">è <del type="truncation">c</del></del> <del type="correction"><del type="repetition">era</del><pause/> era</del> perché purtroppo non c'è più <emph>cugino</emph> del<pause/> <rs ref="TEI-ListPerson.xml#GilloP" resp="#GB">regista<pause/> pontecorvo</rs> <vocal>ehm</vocal> famoso<pause/> in tutto il mondo no
+                </u>
+
+                <u who="MA">
+                    <anchor xml:id="ma-249" synch="#TT249"/>si questo<anchor xml:id="ma-250" synch="#TT250"/>
+                </u>
+
+                <u who="#MA" xml:id="MA97" synch="#TS198">
+                    era con lei a<pause/> <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName>
+                </u>
+
+                <pause/>
+
+                <u who="#AW" xml:id="AW98" synch="TS199">
+                    <vocal>mm</vocal> questo <rs ref="TEI-ListPerson.xml#CarloP" resp="#GB"><roleName>ingegner</roleName> Pontecorvo</rs>
+                </u>
+
+                <u who="#MA" xml:id="MA98" synch="#TS200">
+                    si
+                </u>
+
+                <u who="#AW" xml:id="AW99" synch="TS201">
+                    ma <vocal>ehm</vocal> <rs ref="TEI-ListPerson.xml#GilloP" resp="#GB">suo cugino</rs> si è salvato in <del type="truncation">f</del> <placeName ref="TEI-ListPlace.xml#IT">Italia</placeName> non so <del type="truncation">co</del><pause/> e allora<pause/><vocal><desc>deglutisce</desc></vocal> quando eravamo sulla catena lei <choice><orig>m'aveva</orig><reg resp="#GB">mi aveva</reg></choice> chiesto prima le ore ore e ore che <del type="truncation">n</del><pause/> non si contavano più e allora<pause/> <vocal>ehm</vocal> si cercava di <distinct type="common_saying"><distinct tyep="informal">ammazzare</distinct> il tempo</distinct><pause/> allora mentre si buttava i mattoni uno all'altro<pause/> <del type="falseStart">io mi <del type="truncation">ter</del> <vocal>ehmm</vocal> <del type="truncation">m</del></del> <del type="reformulation">io parlavo</del> con l'<rs ref="TEI-ListPerson.xml#CarloP" resp="#GB"><roleName>ingegner</roleName> Pontecorvo</rs> di argomenti di ottica di fotografia<pause/> <rs ref="TEI-ListPerson.xml#CarloP" resp="#GB">lui</rs> mi parlava di microscopi <del type="falseStart">mi <del type="truncation">spiega</del></del> <del type="reformulation">cercava di spiegarmi</del><pause/> non è che abbia capito tutto<pause/> come funzionasse<pause/> e altri c'erano due medici ancora e tutto<pause/> purtroppo <gap reason="inaudible" resp="#GB" atLeast="2 words" atMost="3 words"/> sono morti tutti<pause/> <vocal>eeehm</vocal><pause/> adesso torno a parlare <del type="truncation">de</del><pause/> dei russi<pause/> che sono vicini<pause/> e<pause/> <vocal>mm</vocal> dicono <q type="spoken">adesso noi<pause/> andiamo in <placeName ref="TEI-ListPlace.xml#DE">Germania</placeName> a piedi</q><pause/> allora<pause/> io avevo conosciuto<pause/> <rs ref="TEI-ListPerson.xml#Tis" resp="#GB">un ebreo polacco</rs><pause/> che noi <choice><sic>chiamavao</sic><corr resp="#GB">chiamavamo</corr></choice><pause/> <del type="truncation"><rs ref="TEI-ListPerson.xml#Tis" resp="#GB">Tis</rs></del> non <choice><sic>il</sic><corr resp="#GB">con il</corr></choice> numero ma neanche <choice><sic>il</sic><corr resp="#GB">con il</corr></choice> nome<pause/> si diceva <rs ref="TEI-ListPerson.xml#Tis" resp="#GB"><addName type="nickName">Tischler</addName></rs> <term ref="#tischler" xml:lang="de">tischler</term> vuol dire <gloss xml:id="tischler">falegname</gloss> perché <rs ref="TEI-ListPerson.xml#Tis" resp="#GB">lui</rs> era di professione falegname<pause/> <emph><rs ref="TEI-ListPerson.xml#Tis" resp="#GB">lui</rs></emph> quando mi son salvato dal tifo che son rimasto vivo lo sa il <distinct type="common_saying">signore iddio</distinct> perché<pause/> avevo bisogno di <del type="truncation">rifo</del> rinforzarmi <pause/> allora io avevo un ponte d'oro<pause/> <emph><rs ref="TEI-ListPerson.xml#Tis" resp="#GB">lui</rs></emph><pause/> ha preso una tanaglia da falegname<pause/> ed è riuscito a <emph>togliermi</emph> questo oro<pause/> <del type="reformulation">questo ponte d'oro</del><pause/> <emph>l'ha dato</emph> ad un contadino polacco che entravano la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> per prendere le stipe<pause/> e <rs ref="TEI-ListPerson.xml#Tis" resp="#GB">lui</rs> <choice><orig>c&#39;ha</orig><reg resp="#GB">ci ha</reg></choice> portato del pane un bianco un pezzo di salame salame vero<pause/> insomma<pause/> son riuscito a rinforzarmi con questo oro<pause/> che però era proibitissimo perché appena arrivati a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName><pause/> la prima cosa che ha fatto l'<choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> è guardare le bocche di tutti quanti<pause/> per vedere quanti denti d'oro <choice><orig>c&#39;hanno</orig><reg resp="#GB">hanno</reg></choice> e segnavano<pause/> <del type="truncation">pr</del> <vocal>ehm</vocal> prigioniero numero <distinct type="informal">tarditali</distinct> 2 denti d'oro<pause/> in maniera che se quello moriva<pause/> <del type="truncation">s</del> sapevano che prima di<pause/> bruciarlo<pause/> bisognava toglier l'oro <vocal>ehm</vocal> <vocal><desc>click con la lingua</desc></vocal>
+                </u>
+
+                <u who="#MA" xml:id="MA99" synch="#TS202">
+                    si<pause/> voglio chiederle una cosa<pause/> <vocal>emh</vocal><pause/> lì nell'ex<pause/> <placeName ref="TEI-ListPlace.xml#GhettoWA">ghetto di Varsavia</placeName> <vocal>ehm</vocal><anchor xml:id="ma-251" synch="#TT251"/><pause/> c'era<anchor xml:id="ma-252" synch="#TT252"/> l'appello anche lì ogni <anchor xml:id="ma-253" synch="#TT253"/><time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time><anchor xml:id="ma-254" synch="#TT254"/>
+                </u>
+
+                <u who="AW">
+                    <anchor xml:id="arm-251" synch="#TT251"/>adesso <del type="truncation">l</del> le<anchor xml:id="arm-252" synch="#TT252"/>
+                </u>
+
+                <u who="#AW" xml:id="AW100" synch="TS203">
+                    <anchor xml:id="arm-253" synch="#TT253"/><emph>certo</emph><anchor xml:id="arm-254" synch="#TT254"/> <del type="truncation">tr</del> questo <vocal>mm</vocal> era una cosa classica l'<anchor xml:id="arm-255" synch="#TT255"/>appello<anchor xml:id="arm-256" synch="#TT256"/>
+                </u>
+
+                <u who="#MA" xml:id="MA100" synch="#TS204">
+                    <anchor xml:id="ma-255" synch="#TT255"/><del type="falseStart">e</del><anchor xml:id="ma-256" synch="#TT256"/> ed <del type="falseStart">e</del> non erano <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> <choice><orig>m'ha</orig><reg resp="#GB">mi ha</reg></choice> detto lì che <anchor xml:id="ma-257" synch="#TT257"/>tenevano <unclear reason="inaudible" resp="#GB" cert="medium">il</unclear> campo<anchor xml:id="ma-258" synch="#TT258"/>
+                </u>
+
+                <u who="#AW" xml:id="AW101" synch="TS205">
+                    <anchor xml:id="arm-257" synch="#TT257"/><emph>no</emph> <del type="truncation">d</del> dentro<anchor xml:id="arm-258" synch="#TT258"/> nel campo erano <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice>
+                </u>
+
+                <u who="#MA" xml:id="MA101" synch="#TS206">
+                    <vocal>ah</vocal> erano <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice>
+                </u>
+
+                <u who="#AW" xml:id="AW102" synch="TS207">
+                    ma le <emph><distinct type="military">sentinelle</distinct></emph> erano ucraine
+                </u>
+
+                <join target="#AW101 #AW102" result="u" type="utterance" scope="branches"></join>
+
+                <u who="#MA" xml:id="MA102" synch="#TS208">
+                    <del type="falseStart">e gli altri comandi</del> che tipo di altri lavori si <del type="truncation">s</del><anchor xml:id="ma-259" synch="#TT259"/><pause/> svolgevano<anchor xml:id="ma-260" synch="#TT260"/>
+                </u>
+
+                <u who="#AW" xml:id="AW103" synch="TS209">
+                    <anchor xml:id="arm-259" synch="#TT259"/><vocal>eh</vocal> <unclear reason="inaudible" resp="#GB" cert="low">ce n'eran</unclear><anchor xml:id="arm-260" synch="#TT260"/> anche noi per esempio <choice><sic>il</sic><corr resp="#GB">nel</corr></choice> primo tempo<pause/> <del type="falseStart">prendevamo</del> <del type="reformulation">prelevavamo</del> il <emph>legname</emph><pause/> delle case distrutte<pause/> perché era un legname che facilmente bruciava<pause/> perché era secco<pause/> <del type="falseStart"><del type="truncation">de</del> <del type="truncation">bo</del></del> <del type="reformulation">dei bombardamenti</del><pause/> e venivano creati<pause/> <del type="truncation">d</del> in uno spiazzo <pause/>delle cataste di questo legname che noi italiani siamo riusciti a recuperare<pause/> e lì bruciavano dei polacchi non ebrei<pause/> che loro a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName> avevano arrestato per esempio <choice><sic>un</sic><corr resp="#GB">in un</corr></choice> tram<pause/> <q type="spoken"><foreign xml:lang="de">alle runter</foreign> <emph>tutti giù</emph></q> e li portavano e li <distinct type="informal">ammazzavano</distinct> lì perché lo sa il <distinct type="common_saying">signore Iddio</distinct><pause/> e quello era uno dei compiti nostri<pause/> poi c'era un comando<pause/> che non eran <del type="falseStart">l'<del type="truncation">ebr</del></del> <del type="reformulation">gli italiani</del><pause/> <unclear reason="inaudible" resp="#GB" cert="medium">che</unclear> erano quelli che facevano <emph>saltare</emph> le case con la dinamite<pause/> erano case <emph>già</emph> distrutte ma non tali da poterle utilizzare <del type="reformulation">recuperare</del><pause/> e loro facevano questo mestiere qua<pause/> e quindi <del type="falseStart">c'era <vocal>ahm</vocal></del><pause/> ognuno aveva la propria mansione
+                </u>
+
+                <u who="#MA" xml:id="MA103" synch="#TS210">
+                    lei prima mi aveva detto che<pause/> c'erano degli ebrei nascosti ancora <anchor xml:id="ma-261" synch="#TT261"/>sotto<pause/> questo<anchor xml:id="ma-262" synch="#TT262"/>
+                </u>
+
+                <u who="#AW" xml:id="AW104" synch="TS211">
+                    <anchor xml:id="arm-261" synch="#TT261"/><vocal>ah</vocal> ecco questo le voglio raccontare<anchor xml:id="arm-262" synch="#TT262"/><pause/><vocal><desc>deglutisce</desc></vocal> una <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time><pause/> <del type="falseStart">il</del> andiamo a lavoro accompagnati sempre dalla <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> <del type="falseStart">per</del> si usciva<pause/> <del type="falseStart">dal <del type="truncation"><rs ref="TEI-ListPlace.xml#GhettoWA" resp="#GB">ghet</rs></del></del> <del type="reformulation">dal <emph><foreign xml:lang="de">lager</foreign></emph></del> ma si era ancora sempre nel <rs ref="TEI-ListPlace.xml#GhettoWA" resp="#GB">ghetto</rs><pause/> e ci <choice><sic>porta</sic><corr resp="#GB">portrano</corr></choice> a lavorare<pause/> <seg xml:id="phrase16">il nostro lavoro consisteva</seg> <del type="falseStart"><unclear reason="inaudible" resp="#GB" cert="low">nell'</unclear> andare</del><pause/> c'era una botola<pause/> <seg xml:id="phrase17"><choice><sic>scendere</sic><corr resp="#GB">nello scendere</corr></choice> giù</seg><join target="#phrase16 #phrase17" type="phrase" scope="branches"></join><pause/> e <emph>ricuperare <del type="falseStart">di</del> ciò che trovavamo giù</emph><pause/> <del type="repetition">giù</del> giù si trovava in genere cadaveri<pause/> e dovevamo<pause/> <emph>togliere</emph> dai cadaveri tutti i generi di valore e portarli su<pause/> in un secchio
+                </u>
+
+                <u who="#MA" xml:id="MA104" synch="#TS212">
+                    che mese era questo
+                </u>
+
+                <u who="#AW" xml:id="AW105" synch="TS213">
+                    <vocal>uh</vocal> in che mese
+                </u>
+
+                <u who="#MA" xml:id="MA105" synch="#TS214">
+                    che mese
+                </u>
+
+                <u who="#AW" xml:id="AW106" synch="TS215">
+                    <vocal>ehm</vocal> <del type="truncation">sa</del> sarà stato <date notBefore="1944-01" notAfoter="1944-02" resp="#GB">Gennaio Febbraio del <del type="truncation" xml:id="quaranta4_0">quaranta</del> <emph><del type="truncation" xml:id="quaranta4_1">4</del></emph></date><join target="#quaranta4_0 #quaranta4_1" type="word"></join><pause/> perché poi <del type="falseStart">da a</del> siamo andati via il <date when="1944-08-01">primo agosto <del type="falseStart">da <vocal>mm</vocal></del><pause/> <anchor xml:id="arm-263" synch="#TT263"/>44</date> da<pause/> <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName><pause/><anchor xml:id="arm-264" synch="#TT264"/> <emph>allora</emph><pause/><vocal><desc>deglutisce</desc></vocal> cosa succede che<pause/> <del type="truncation">l</del> gli ebrei italiani rispetto agli altri erano i più<pause/> <del type="falseStart"><del type="repetition">i</del> i <vocal>mm</vocal> meno</del> <emph>sprovveduti</emph> non avevamo la<pause/> malizia <del type="repetition">la</del> <vocal>mm</vocal> la scioltezza<pause/> degli ebrei polacchi o russi<pause/> noi<pause/> quello che trovavamo<pause/> glielo davamo<pause/> e<pause/> bene<anchor xml:id="arm-265" synch="#TT265"/>
+                </u>
+
+                <u who="#MA">
+                    <anchor xml:id="ma-263" synch="#TT263"/>quindi è stato <distinct type="informal">parecchi</distinct> mesi<anchor xml:id="ma-264" synch="#TT264"/>
+                </u>
+
+                <u who="#MA" xml:id="MA106" synch="#TS216">
+                    che cosa <anchor xml:id="ma-265" synch="#TT265"/>si trovava per esempio<anchor xml:id="ma-266" synch="#TT266"/>
+                </u>
+
+                <u who="#AW" xml:id="AW107" synch="TS217">
+                    <del type="falseStart">un giorno</del> e un giorno<anchor xml:id="arm-266" synch="#TT266"/> mentre sono sotto in questo<pause/> canale<pause/> questo tunnel o come lo vuol chiamare<pause/> vedo un uomo con una barba così<pause/> era un sopravvissuto<pause/> che viveva perché i polacchi gli portavano da mangiare <emph>contro</emph> i generi di valore che li consegnava<pause/> e mi dice <q type="spoken">vedi questa era mia moglie questa è mia figlia <del type="truncation">quel</del></q> erano tutti morti<pause/> e <del type="truncation">no</del> non li abbiamo toccati allora perché<pause/> per non <choice><sic>far</sic><corr resp="#GB">recare</corr></choice> <vocal>ehm</vocal> <del type="truncation">co</del> <vocal>ehmmm</vocal><pause/> disturbo <soCalled>a questo vivente</soCalled><pause/> siamo tornati su con il <anchor xml:id="arm-267" synch="#TT267"/>cesto vuoto<anchor xml:id="arm-268" synch="#TT268"/>
+                </u>
+
+                <u who="#MA" xml:id="MA107" synch="#TS218">
+                    <anchor xml:id="ma-267" synch="#TT267"/>era una persona<anchor xml:id="ma-268" synch="#TT268"/> sola
+                </u>
+
+                <pause/>
+
+                <u who="#AW" xml:id="AW108" synch="TS219">
+                    si 
+                </u>
+
+                <u who="#MA" xml:id="MA108" synch="#TS220">
+                    un uomo
+                </u>
+
+                <u who="#AW" xml:id="AW109" synch="TS221">
+                    siamo tornati su<pause/> <del type="truncation">s</del> <choice><sic>con</sic><corr resp="#GB">con il</corr></choice> cesto <emph>vuoto</emph><pause/> la <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> dice <q type="spoken">come <del type="falseStart">in</del> non avete trovato niente</q> <q type="spoken" who="TEI-ListPerson.xml#AW"><vocal>eh</vocal> no <vocal>ehm</vocal><pause/> in questo canale <del type="falseStart">altri</del> <del type="repetition">non</del> non abbiamo trovato niente</q> <anchor xml:id="arm-269" synch="#TT269"/><gap reason="inaudible" resp="#GB" extent="1 word"/><anchor xml:id="arm-270" synch="#TT270"/>
+                </u>
+
+                <u who="#MA" xml:id="MA109" synch="#TS222">
+                    <anchor xml:id="ma-269" synch="#TT269"/>erano<anchor xml:id="ma-270" synch="#TT270"/> le fogne
+                </u>
+                
+                <u who="#AW" xml:id="AW110" synch="TS223">
+                    fogne si ecco la parola esatta<pause/> <vocal>eehm</vocal><pause/><vocal><desc>deglutisce</desc></vocal> <choice><orig>vabbè</orig><reg resp="#GB">va bene</reg></choice> non c'era niente niente<pause/> <emph>la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time></emph> dopo ecco adesso viene il bello <pause/> <q type="spoken"><term ref="AWcdec.xml#centurie" xml:lang="de" xml:id="centuria0">arbeitskommando formieren</term></q> <del type="truncation">andia</del><pause/> <del type="falseStart">e invece di portarci <emph>lì</emph></del><pause/> avevamo noi nascosto qui sulla pancia delle pagnotte che davano a noi<pause/> una pagnotta in sei<pause/> noi abbiamo rinunciato a mangiare noi per portare a questo <distinct type="common_saying">povero diavolo</distinct> che era nascosto<pause/> e le avevamo nascoste qui<incident><desc>rumore stroppicciamento microfono</desc></vocal> sulla pancia<pause/> e invece di andare <vocal>rm</vocal> <choice><sic>allo</sic><corr resp="#GB">al</corr></choice><pause/> <emph>posto</emph> <del type="falseStart">del</del><pause/> solito<pause/> questa volta la <distinct type="military">sentinella</distinct> ci porta in un altro posto<pause/> <q type="thought" who="TEI-ListPerson.xml#AW">che strano adesso<pause/> avevamo qui il pane per darglielo <distinct type="diminutive">poveretto</distinct> deve<pause/> pensare a chissà che cosa</q><pause/> niente<pause/> la <time from="00:18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time> <q type="spoken"><term ref="#zahlappel" xml:lang="de">zahlappel</term></q><pause/> a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName><pause/> a un certo momento viene il comandante<pause/> e porta con sé una persona<pause/> era quello con la barba<pause/> domanda noi<pause/> <q type="spoken"><foreign xml:lang="de">kenntet iht</foreign></q> <vocal>ehm</vocal> <emph>se lo conosciamo</emph><pause/> <q type="spoken">non lo abbiamo mai visto</q> e invece l'avevo visto<pause/> <vocal>ehm</vocal> <pause dur="P3S"/><q type="spoken"><gap reason="inaudible" resp="#GB" extent="1 sentence" xml:lang="de"/> lui <del type="repetition">è</del><pause/> è <vocal>ehm</vocal><pause/> <del type="truncation">p</del> <emph>punito</emph> <choice><sic>per</sic><corr resp="#GB">con</corr></choice> la morte</q> e lo <emph>impiccano</emph> davanti a noi
+                </u>
+
+                <u who="#MA">
+                    <vocal>ehm</vocal><!--8:28-->
+                </u>
+            </div><!--9:31 + sistemare arbeits comando-->
 
         </body>
 
@@ -1877,42 +2110,6 @@ City: Milan -->
 
 </TEI>
 <!--                    
-PARTE III
-M.S: Aspetti, ci fermiamo un attimo per la cassetta. No, no, mi scappi dal ghetto di <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName>, io voglio sapere ancora un po' di cose. Intanto co- dobbiamo tornare a quella storia degli ebrei nascosti.
-A.W: si.
-M.S: ecco questa deve raccontarla, adesso cambiamo la cassetta.
-
-→ Tape: 7 of 1
-M.S: 4 Marzo 1998, cassetta numero 7, intervisto il signor Arminio Wachsberger. Allora...
-A.W: Le stavo dicendo dell'Ingegner Pontecorvo.
-M.S: si questo...
-A.W: l'Ingegner Pontecorvo era il primo in <placeName ref="TEI-ListPlace.xml#IT">Italia</placeName> ad aver applicato il microscopio elettronico, adesso è diventato una cosa abituale ma stiamo parlando del 43, questo Ingegner Pontecorvo è era era perché purtroppo non c'è più cugino del regista Pontecorvo, famoso in tutto il mondo no?
-M.S: era con lei aa <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName>?
-A.W: Questo Ingegner Pontecorvo, ma suo cugino si è salvato in Italia, non so come... e allora quando eravamo sulla catena, lei mi aveva chiesto prima le ore, ore e ore che non si contavano più, e allora si cercava di ammazzare il tempo, allora mentre si buttava i mattoni uno all'altro io mi ma- io parlavo con l'Ingegner Pontecorvo di argomenti di ottica, di fotografia, lui mi parlava di microscopi, mi spie- (riformulazione) cercava di spiegarmi - non è che abbia capito tutto - come funzionasse e altri c'erano due medici ancora e tutto - purtroppo (?) sono morti tutti eee adesso torno a parlare dei russi che sono vicini e dicono "adesso noi andiamo in <placeName ref="TEI-ListPlace.xml#DE">Germania</placeName> a piedi", allora io avevo conosciuto un ebreo polacco, che noi chiamavamo Ti-, non il numero ma neanche il nome, si diceva Tshirt, "Tshirt" vuol dire "falegname" perché lui era di professione falegname. Lui, quando mi son salvato dal tifo, che son rimasto vivo - lo sa il Signore Iddio perché - avevo bisogno di rif- rinforzarmi e allora io avevo un ponte d'oro, lui ha preso una tanaglia da falegname ed è riuscito a togliermi questo oro, questo ponte d'oro, l'ha dato ad un contadino polacco che entravano la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> per prendere le stipe e lui ci ha portato del pane un bianco, un pezzo di salame - salame vero -, insomma son riuscito a rinforzarmi con questo oro che però era proibitissimo perché appena arrivati a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName> la prima cosa che ha fatto l'SS è guardare le bocche di tutti quanti per vedere quanti denti d'oro <choice><orig>c&#39;ha</orig><reg resp="#GB">ha</reg></choice>nno e segnavano pr- prigioniero numero tarditali 2 denti d'oro in maniera che se quello moriva sapevano che prima di bruciarlo bisognava toglier l'oro.
-M.S: voglio chiederle una cosa, emh, lì nell'ex ghetto di <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName>...
-A.W: Adesso...
-M.S: c'era l'appello anche lì ogni <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time>?
-A.W: certo, questo era una cosa classica l'appello.
-M.S: ed non erano <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> m'ha detto lì che tenevano nel campo...
-A.W: no, dentro nel campo erano <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice>.
-M.S: ah erano <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice>.
-A.W: ma le <distinct type="military">sentinella</distinct> erano ucraine.
-M.S: e gli altri comandi che tipo di altri lavori si svolgevano?
-A.W: anche noi per esempio il primo tempo prendevam- prelevavamo il legname delle case distrutte perché era un legname che facilmente bruciava perché era secco, de- dei bombardamenti, e venivano creati in uno spiazzo delle cataste di questo legname che noi italiani siamo riusciti a recuperare e lì bruciavano dei polacchi non ebrei che loro a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName> avevano arrestato per esempio un tram (frase in tedesco) "tutti giù" e li portavano e li ammazzavano lì perché lo sa il signore Iddio e quello era uno dei compiti nostri, poi c'era un comando che non eran l'ebr- gli italiani che erano quelli che facevano saltare le case con la dinamite - erano case già distrutte ma non tali da poter riutilizzare, recuperare e loro facevano questo mestiere qua. E quindi c'era, ognuno aveva la propria mansione. 
-M.S: lei prima mi aveva detto che c'erano degli ebrei nascosti ancora sotto...
-A.W: ah ecco, questo le voglio raccontare. Una <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> il andiamo a lavoro, accompagnati sempre dalla <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> per, si usciva dal  ghet- dal <foreign xml:lang="de">lager</foreign> ma si era ancora sempre nel ghetto e ci porta a lavorare. Il nostro lavoro consisteva nel andare - c'era una botola -, scendere giù e recuperare di ciò che trovavamo giù. Giù giù si trovava in genere cadaveri e dovevamo togliere dai cadaveri tutti i generi di valore e portarli su in un secchio.
-M.S: che mese era questo?
-A.W: in che mese?
-M.S: che mese...
-A.W: sarà stato Gennaio Febbraio del 44 perché poi da siamo andati via il primo agosto da, 44, da <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName>.
-M.S: quindi è stato parecchi mesi (?)
-A.W: Allora cosa succede? Che gli ebrei italiani rispetto agli altri erano i più i i meno sprovveduti, non avevamo la malizia, la la scioltezza degli ebrei polacchi o russi, noi quello che trovavamo glielo davamo. Eee, bene.
-M.S: che cosa si trovava per esempio?
-A.W: un giorno, un giorno mentre sono sotto in questo canale, questo (balbetta) tunnel - come lo vuol chiamare - vedo un uomo con una barba così: era un sopravvissuto che viveva perché i polacchi gli portavano da mangiare contro i generi di valori che c- consegnava. E mi dice "vedi questa era mia moglie, questa è mia figlia, quel-" erano tutti morti e no- non li abbiamo toccati allora perché per non far- co- disturbar questo vivente. Siamo tornati su con il cesto vuoto...
-M.S: era una persona sola? Un uomo?
-A.W: si, siamo tornati su con cesto vuoto. La <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> dice "come in-? Non avete trovato niente?" "Eh no, in questo canale altri... no- non abbiamo trovato niente".
-M.S: erano le fogne?
-A.W: fogne si, ecco la parola esatta. Eee... <choice><orig>vabbè</orig><reg resp="#GB">va bene</reg></choice>, non c'era niente, niente. La <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> dopo ecco - adesso viene il bello - (frase in tedesco) e invece di portarci lì avevamo noi nascosto qui sulla pancia delle pag<time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> che davano a noi, una pagnotta in sei: noi abbiamo rinunciato a mangiare noi per portare a questo povero diavolo che era nascosto e le avevamo nascoste qui sulla pancia e invece di andare all pposto del ssolito questa volta la <distinct type="military">sentinella</distinct> ci porta in un altro posto... che strano, adesso avevamo qui in pane per darglielo poveretto deve pensare a chissà che cosa, niente. La <time from="00:18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time> "seil Appel"(?) a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName>, a un certo momento viene il comandante e porta con sé una persona, era quello con la barba. Domandano (frase in tedesco) se lo conosciamo "non lo abbiamo mai visto" e invece l'avevo (avevamo?) visto eee... (frase in tedesco) "lui è (pausa) punito per la morte" e lo impiccano davanti a noi.
 M.S: avete assistito tutti insieme?
 A.W: Si, aaa insieme a questa impiccagione. Eee adesso poi più tardi si è saputo il perché: quello della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice>, il nostro accompagnatore, quando ha visto che noi non abbiamo detto di non aver trovato nulla è andato lui giù e ha visto quello là e l'ha arrestato perché? Perché se qualcuno trovava un ebreo nascosto riceveva una licenza di due settimane (pausa) in più 500 marchi, quindi a lui ha fatto comodo denunciarlo e in questa maniera purtroppo lui è morto e noi siam-.
 M.S: un'altra cosa volevo chiedergli sempre di questo ex ghetto... emh... quindi ogni giorno c'erano gli appelli?
@@ -2090,7 +2287,7 @@ A.W: anche questo succedeva. Per finire il discorso...
 M.S: passa davanti a lei, non le trova niente...
 A.W: non mi trova niente, allora di nuovo tutti aa piedi a ri- rimontare sui sui carri per andare nelle Alpi. Perché nelle Alpi? Lei sa che nelle Alpi Mussolini e Hitler avevano deciso di, ultima difesa, di recarsi nelle Alpi perché dicevano "nelle Alpi i carri armati non riescono a venir-", non sono riusciti nell'intento, comunque a noi ci portavano per far scavare le trincee e così avanti. E passiamo in mezzo a un...
 M.S: A piedi? o... a piedi.
-A.W: A piedi, a piedi, in mezzo a un campo. (A?) un certo momento le <distinct type="military">sentinelle</distinct> della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> spariscono, le vediamo tutte dietro di noi e sentiamo degli spari: non hanno sparato contro di noi, era un altro gruppo di donne. Queste <distinct type="military">sentinelle</distinct> hanno <distinct type="informal">ammazzato</distinct> queste povere donne. A noi invece (a?) un certo momento (frase in tedesco) vuol dir "andiamo avanti". Son tornati al loro posto e <choice><orig>c&#39;ha</orig><reg resp="#GB">ha</reg></choice>nno portato ai vagoni, tutti di nuovo dentro nei vagoni. Io, il solito interprete, sono l'ultimo: i vagoni son già pieni, hanno chiuso il portone, era aperto ancora un vagone dove c'erano solo donne - loro tenevano sempre divise le donne dagli uomini -, mi sono infilato in questo vagone delle donne. L'ufficiale della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> passavano e dicev- (frase in tedesco <term ref="AWcdec.xml#dolmetscher" xml:lang="de">dolmetscher</term>) "dov'è il <term ref="AWcdec.xml#dolmetscher" xml:lang="de">dolmetscher</term>?" "Ma (frase che non si capisce), non (lo) sappiamo". Allora lui ha avuto il sospetto, è salito anche lui sul vagone delle donne - queste donne erano ebree ungheresi -. Cosa hanno fatto? Si sono - m'han detto di stendermi sul piano - e loro si sono messe sopra di me eee... entra questo qua e dice (frase in tedesco) "dov'è l'interprete?" " ah, lì poveretto, sta morendo di tifo": lui solo a sentir la parola "tifo" che non era vero ha tagliato la corda. Dopo il treno proseguiva, pensi che con queste ragazze ungheresi, io dopo dieci minuti insegnavo loro le canzoni italiane - emh e in quell'epoca molto conosciute -, avevamo già dimenticato tutto...
+A.W: A piedi, a piedi, in mezzo a un campo. (A?) un certo momento le <distinct type="military">sentinelle</distinct> della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> spariscono, le vediamo tutte dietro di noi e sentiamo degli spari: non hanno sparato contro di noi, era un altro gruppo di donne. Queste <distinct type="military">sentinelle</distinct> hanno <distinct type="informal">ammazzato</distinct> queste povere donne. A noi invece (a?) un certo momento (frase in tedesco) vuol dir "andiamo avanti". Son tornati al loro posto e <choice><orig>c&#39;ha</orig><reg resp="#GB">ha</reg></choice>nno portato ai vagoni, tutti di nuovo dentro nei vagoni. Io, il solito interprete, sono l'ultimo: i vagoni son già pieni, hanno chiuso il portone, era aperto ancora un vagone dove c'erano solo donne - loro tenevano sempre divise le donne dagli uomini -, mi sono infilato in questo vagone delle donne. L'ufficiale della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> passavano e dicev- (frase in tedesco <term ref="AWcdec.xml#dolmetscher" xml:lang="de">dolmetscher</term>) "dov'è il <term ref="AWcdec.xml#dolmetscher" xml:lang="de">dolmetscher</term>?" "Ma (frase che non si capisce), non (lo) sappiamo". Allora lui ha avuto il sospetto, è salito anche lui sul vagone delle donne - queste donne erano ebree ungheresi -. Cosa hanno fatto? Si sono - m'han detto di stendermi sul piano - e loro si sono messe sopra di me eee... entra questo qua e dice (frase in tedesco) "dov'è l'interprete?" " ah, lì <distinct type="diminutive">poveretto</distinct>, sta morendo di tifo": lui solo a sentir la parola "tifo" che non era vero ha tagliato la corda. Dopo il treno proseguiva, pensi che con queste ragazze ungheresi, io dopo dieci minuti insegnavo loro le canzoni italiane - emh e in quell'epoca molto conosciute -, avevamo già dimenticato tutto...
 M.S: e cantava allora?
 A.W: cantavamo si.
 M.S: cant- che cosa cantava?
