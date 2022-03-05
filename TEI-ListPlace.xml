@@ -159,6 +159,11 @@
                         <country key="PL">Polonia</country>
                     </place>
 
+                    <place xml:id="Rav"><!--no info treccani-->
+                        <placeName ref="https://www.geonames.org/6951801 https://it.wikipedia.org/wiki/Campo_di_concentramento_di_Ravensbrück">Ravensbruck</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
+
                     <place xml:id="CA">
                         <placeName ref="https://www.geonames.org/6251999 https://www.treccani.it/enciclopedia/canada/">Canada</placeName>
                         <country key="CA">Canada</country>

@@ -1008,8 +1008,7 @@
     
                                 <persName>
                                     <ref target=""/>
-                                    <foreName>Isaac</foreName>
-                                    <foreName>Saul</foreName>
+                                    <foreName>Isaac Saul</foreName>
                                     <surname>Senor</surname>
                                 </persName>
 
@@ -2042,6 +2041,39 @@
                                 </death>
                         </person>
 
+                        <!--Israel Senor: non ho informazioni-->
+                        <person xml:id="IsraelS"> 
+                            <note resp="#GB">Informazioni dal libro "L'interprete di Auschwitz" di Gabriele Rigano</note>
+
+                                <persName>
+                                    <ref target=""/>
+                                    <foreName>Isaac Saul</foreName>
+                                    <surname>Senor</surname>
+                                    <addName type="nickname">Sdruli</addName>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="" cert=""></date>
+                                    <placeName ref="TEI-ListPlace#Sal" cert="low">
+                                        <note resp="#GB">Desumo che avesse la stessa origine del fratello</note>
+                                        <settlement type="municipality">Salonicco</settlement>
+                                        <country key="GR">Grecia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" cert="" notBefore="1945-07-12">12 Luglio 1945</date>
+                                    <note resp="#GB">Deduco dalle parole di Arminio che si fosse salvato dalla deportazione e che fosse presente almeno al suo matrimonio con Olga Wiener</note>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
                         <!-- Lista delle relazioni -->
                         <listRelation>
                             <relation name="interviewers" active="#LPF #MA #PF" passive="#AW"/>
@@ -2069,7 +2101,7 @@
                             <relation name="spouse" mutual="#LeonelloDS #LauraM"/>
                             <relation name="parent" active="#LeonelloDS #LauraM" passive="#GiancarloDS #PaolaDS #GuidoDS"/>
                             <relation name="sibling" mutual="#PaolaDS #GiancarloDS #GuidoDS"/>
-                            <relation name="deportee-survivor" mutual="#AW #SettimiaS #LelloDS #IsaccoS #TriesteB #GotiB"/>
+                            <relation name="deportee-survivor" mutual="#AW #SettimiaS #LelloDS #IsaccoS #TriesteB #GotiB #IsraelS"/>
                             <relation name="survivor" mutual="#LauraM #PaolaDS #GuidoDS"/>
                             <relation name="writer" active="#RudolfV" mutual="#AW"/>
                             <relation name="deportee-Varsavia" mutual="#AW #IsaacSS #MarioDV #LelloDS #IsaccoS #LilloDS #CarloP #LeonelloDS #GiancarloDS"/>
@@ -2089,6 +2121,7 @@
                             <relation name="spouse" mutual="#ReginaW #LudovicoL"/>
                             <relation name="parent" active="#PietroN" passive="#VittoriaN"/>
                             <relation name="acquaintance" mutual="#AW #LauraM #GuidoDS"/>
+                            <relation name="sibling" mutual="#IsaacSS #IsraelS"/>
 					</listRelation>
                 </listPerson>
             
