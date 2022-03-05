@@ -2074,6 +2074,33 @@
 
                         </person>
 
+                        <!--Meryl Streep-->
+                        <person xml:id="MerlyS" sameAs="http://viaf.org/viaf/66485464">   
+    
+                                <persName role="attrice">
+                                    <ref target="https://it.wikipedia.org/wiki/Meryl_Streep https://www.mymovies.it/persone/meryl-streep/7919/"/>
+                                    <foreName>Mary Louise</foreName>
+                                    <surname>Streep</surname>
+                                    <addName type="nickname">Meryl</addName>
+                                    <roleName type="honorific">National Medal of Arts - 2 marzo 2011</roleName>
+                                    <roleName type="honorific">Kennedy Center Honors - 3 dicembre 2011</roleName>
+                                    <roleName type="honorific">Medagli presidenziale della libertà - 24 novembre 2014</roleName>
+                                </persName>
+
+                                <note resp="#GB">Ha vinto tre oscar: nel 1980, nel 1983 e nel 2012.</note>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1949-06-22" cert="high">22 giugno 1949</date>
+                                    <placeName>
+                                        <settlement type="municipality">Summit</settlement>
+                                        <country key="USA">Stati Uniti d'America</country>
+                                    </placeName>
+                                </birth>
+
+                        </person>
+
                         <!-- Lista delle relazioni -->
                         <listRelation>
                             <relation name="interviewers" active="#LPF #MA #PF" passive="#AW"/>
@@ -2122,6 +2149,7 @@
                             <relation name="parent" active="#PietroN" passive="#VittoriaN"/>
                             <relation name="acquaintance" mutual="#AW #LauraM #GuidoDS"/>
                             <relation name="sibling" mutual="#IsaacSS #IsraelS"/>
+                            <relation name="friend" mutual="#AW #IsraelS"/> 
 					</listRelation>
                 </listPerson>
             

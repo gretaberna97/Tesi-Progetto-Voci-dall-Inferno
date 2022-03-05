@@ -813,6 +813,18 @@ City: Milan -->
 
             <when xml:id="TT325" absolute="00:17:57" synch="ma-325"/>
             <when xml:id="TT326" since="#TT325" interval="1"/>
+
+            <when xml:id="TT327" absolute="00:20:19" synch="arm-327"/>
+            <when xml:id="TT328" since="#TT327" interval="1"/>
+
+            <when xml:id="TT329" absolute="00:20:47" synch="ma-329"/>
+            <when xml:id="TT330" since="#TT329" interval="5"/>
+
+            <when xml:id="TT331" absolute="00:21:29" synch="ma-331"/>
+            <when xml:id="TT332" since="#TT331" interval="1"/>
+
+            <when xml:id="TT333" absolute="00:22:02" synch="arm-333"/>
+            <when xml:id="TT334" since="#TT333" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -1093,6 +1105,22 @@ City: Milan -->
             <when xml:id="TS265" synch="#AW131" absolute="00:17:57"/>
             <when xml:id="TS266" synch="#MA131" absolute="00:19:15"/>
             <when xml:id="TS267" synch="#AW132" absolute="00:19:16"/>
+            <when xml:id="TS268" synch="#MA132" absolute="00:20:41"/>
+            <when xml:id="TS269" synch="#AW133" absolute="00:20:52"/>
+            <when xml:id="TS270" synch="#MA133" absolute="00:21:26"/>
+            <when xml:id="TS271" synch="#AW134" absolute="00:21:29"/>
+            <when xml:id="TS272" synch="#MA134" absolute="00:21:52"/>
+            <when xml:id="TS273" synch="#AW135" absolute="00:21:56"/>
+            <when xml:id="TS274" synch="#MA135" absolute="00:22:02"/>
+            <when xml:id="TS275" synch="#AW136" absolute="00:22:05"/>
+            <when xml:id="TS276" synch="#MA136" absolute="00:22:08"/>
+            <when xml:id="TS277" synch="#AW137" absolute="00:22:10"/>
+            <when xml:id="TS278" synch="#MA137" absolute="00:22:16"/>
+            <when xml:id="TS279" synch="#AW138" absolute="00:22:21"/>
+            <when xml:id="TS280" synch="#MA138" absolute="00:22:22"/>
+            <when xml:id="TS281" synch="#AW139" absolute="00:22:23"/>
+            <when xml:id="TS282" synch="#MA139" absolute="00:22:24"/>
+            <when xml:id="TS283" synch="#AW140" absolute="00:22:25"/>
         </timeline>
     </standOff>
 
@@ -2442,7 +2470,83 @@ City: Milan -->
                 </u>
 
                 <u who="#AW" xml:id="AW132" synch="TS267">
-                    <vocal>eh</vocal> <del type="truncation">l</del> dunque<pause/> Senor era il cognome<pause/> adesso il nome mi sfugge comunque e<pause/> quando ha visto che <rs ref="TEI-ListPerson.xml#IsaacSS" resp="#GB">suo fratello</rs> <distinct type="informal">montava</distinct> sulla forca<pause/> è svenuto è caduto <del type="truncation">mo</del> <pause/><distinct type="informal">siccome</distinct> questo <del type="truncation">ss</del> senor <rs ref="TEI-ListPerson.xml#IsraelS" resp="#GB">il fratello</rs><pause/> poi quando mi son sposato era mio<pause/> testimone ecco perché lo ricordo con precisione<pause/> e allora il <emph>comandante</emph> <emph>malgrado</emph> <del type="falseStart">la <vocal>mm</vocal></del><pause/> quello che <choice><sic>non avrebbe</sic><corr resp="#GB">avrebbe</corr></choice> voluto fare per aiutare <rs ref="TEI-ListPerson.xml#IsaacSS" resp="#GB">questo Senor</rs><pause/> ha dichiarato <q type="spoken">è venuto l'ordine di impiccagione perché ha fatto questo quello</q> raccontando<pause/> ed è stato impiccato purtroppo <vocal>mm</vocal> non c'è più<pause/><vocal><desc>tira su con il naso</desc></vocal> e questo <emph><rs ref="TEI-ListPerson.xml#IsraelS" resp="#GB">suo fratello</rs></emph> quando siamo stati liberati dagli americani<pause/> siamo stati liberati ai <date notBefore="1945-05-01" notAfter="1945-05-07" resp="#GB">primi di maggio del 45</date><pause/> e io il <date when="1945-07-12" resp="#GB">12 luglio</date> mi son sposato<pause/> e avevamo bisogno di<pause/> due testimoni<pause/> allora <del type="falseStart">c'era</del> <del type="reformulation"><emph>uno</emph> era</del> <choice><sic><persName ref="TEI-ListPerson.xml#IsaacSS">Isaac Senor</persName></sic><corr resp="#GB"><persName ref="TEI-ListPerson.xml#IsraelS">Israel Senor</persName></corr></choice> il mio testimone<pause/> che era venuto insieme con una moglie<pause/> una ebrea polacca<pause/> che era andata a <placeName ref="TEI-ListPlace.xml#Rav">Ravensbruck</placeName><pause/><incident><desc>rumore elettronico</desc></incident><!--20:10--> che aveva era incinta e il bambino è nato<pause/> nel campo - nel campo di Ravensbruck non uccidevano i bambini<pause/> come <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName> - allora questa signora aveva un bambino<pause/> e questo Isacz Senor (?) ha sposato questa signora<pause/> allora al al nostro matrimonio è venuta con la carrozzella con il bambino<pause/> ed era nostro<pause/> nostro mm<pause/> testimone di nozze, ecco perché ricordo di Isacz Senor (?).
+                    <vocal>eh</vocal> <del type="truncation">l</del> dunque<pause/> Senor era il cognome<pause/> adesso il nome mi sfugge comunque e<pause/> quando ha visto che <rs ref="TEI-ListPerson.xml#IsaacSS" resp="#GB">suo fratello</rs> <distinct type="informal">montava</distinct> sulla forca<pause/> è svenuto è caduto <del type="truncation">mo</del> <pause/><distinct type="informal">siccome</distinct> questo <del type="truncation">ss</del> senor <rs ref="TEI-ListPerson.xml#IsraelS" resp="#GB">il fratello</rs><pause/> poi quando mi son sposato era mio<pause/> testimone ecco perché lo ricordo con precisione<pause/> e allora il <emph>comandante</emph> <emph>malgrado</emph> <del type="falseStart">la <vocal>mm</vocal></del><pause/> quello che <choice><sic>non avrebbe</sic><corr resp="#GB">avrebbe</corr></choice> voluto fare per aiutare <rs ref="TEI-ListPerson.xml#IsaacSS" resp="#GB">questo Senor</rs><pause/> ha dichiarato <q type="spoken">è venuto l'ordine di impiccagione perché ha fatto questo quello</q> raccontando<pause/> ed è stato impiccato purtroppo <vocal>mm</vocal> non c'è più<pause/><vocal><desc>tira su con il naso</desc></vocal> e questo <emph><rs ref="TEI-ListPerson.xml#IsraelS" resp="#GB">suo fratello</rs></emph> quando siamo stati liberati dagli americani<pause/> siamo stati liberati ai <date notBefore="1945-05-01" notAfter="1945-05-07" resp="#GB">primi di maggio del 45</date><pause/> e io il <date when="1945-07-12" resp="#GB">12 luglio</date> mi son sposato<pause/> e avevamo bisogno di<pause/> due testimoni<pause/> allora <del type="falseStart">c'era</del> <del type="reformulation"><emph>uno</emph> era</del> <choice><sic><persName ref="TEI-ListPerson.xml#IsaacSS">Isaac Senor</persName></sic><corr resp="#GB"><persName ref="TEI-ListPerson.xml#IsraelS">Israel Senor</persName></corr></choice> il mio testimone<pause/> che era venuto insieme con una moglie<pause/> una ebrea polacca<pause/> che era andata a <placeName ref="TEI-ListPlace.xml#Rav">Ravensbruck</placeName><pause/><incident><desc>rumore elettronico</desc></incident> che <del type="falseStart">aveva</del><pause/> <del type="reformulation">era</del> incinta e il bambino è nato<pause/> <del type="repetition">nel <anchor xml:id="arm-327" synch="#TT327"/>campo</del> nel<anchor xml:id="arm-328" synch="#TT328"/> campo di <placeName ref="TEI-ListPlace.xml#Rav">Ravensbruck</placeName> non uccidevano i bambini<pause/> <del type="truncation">c</del> <unclear reason="inaudible" resp="#GB" cert="medium">come</unclear> <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName><pause/> allora questa signora aveva un bambino<pause/> e questo <choice><sic><persName ref="TEI-ListPerson.xml#IsaacSS">Isaac Senor</persName></sic><corr resp="#GB"><persName ref="TEI-ListPerson.xml#IsraelS">Israel Senor</persName></corr></choice> <emph>ha sposato</emph> questa signora<pause/> allora <del type="repetition">al</del> al nostro matrimonio è venuta con la <distinct type="diminutive">carrozzella</distinct> con il bambino<pause/> ed era <del type="repetition">nostro</del><pause/> nostro <vocal>mm</vocal><pause/> testimone di nozze<pause/> ecco perché ricordo<pause/> di <choice><sic><persName ref="TEI-ListPerson.xml#IsaacSS">Isaac Senor</persName></sic><corr resp="#GB"><persName ref="TEI-ListPerson.xml#IsraelS">Israel Senor</persName></corr></choice>
+                </u>
+
+                <u who="#MA">
+                    <anchor xml:id="ma-327" synch="#TT327"/><gap reason="inaudible" resp="#GB" extent="1 word"/><anchor xml:id="ma-328" synch="#TT328"/>
+                </u>
+
+                <u who="#MA" xml:id="MA132" synch="#TS268">
+                    tutti questi mesi che ha passato a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName> <vocal>emh</vocal> appunto <vocal>mm</vocal><pause/> <choice><sic>quale</sic><corr resp="#GB">quali</corr></choice> <anchor xml:id="ma-329" synch="#TT329"/>erano<pause/> i vostri discorsi i vostri<pause/> pensieri<pause/> cosa sapevate <del type="falseStart">cosa <del type="truncation">s</del></del><anchor xml:id="ma-330" synch="#TT330"/>
+                </u>
+
+                <u who="#AW"><!--inserire falseStart-->
+                    <anchor xml:id="arm-329" synch="#TT329"/><vocal><desc>click con la lingua</desc></vocal>a<pause/> <vocal><desc>espira</desc></vocal>il discorso era sempre c'era sempre per esempio<pause/> ecco<anchor xml:id="arm-330" synch="#TT330"/>
+                </u>
+
+                <u who="#AW" xml:id="AW133" synch="TS269">
+                    c'era per esempio un ragazzo ebreo sempre di <placeName ref="TEI-ListPlace#Sal">Salonicco</placeName><pause/> di cui ero l'interprete ripeto non conoscendo il <lang>greco</lang><pause/> ma loro <del type="truncation">p</del> parlavano <lang>greco</lang> <lang>turco</lang> tutte le lingue possibili immaginabili<pause/> eeehm<pause/><vocal><desc>click con la lingua</desc></vocal> <del type="falseStart">a</del> lui era riuscito a costruire una radio<pause/> era di professione proprio come loro sono specializzati in questo campo qua<pause/> e andavamo su nel terzo letto di sopra a ascoltare così<pause/> e quindi sapevamo la realtà questo faceva comodo a noi perché poi noi <emph>diffondevamo</emph> queste notizie<pause/> <distinct type="figure_of_speech"><del type="repetition">era</del> era ossigeno</distinct> per noi sapere che i russi avanzano<pause/> che <del type="falseStart">gli <del type="truncation">ingl</del></del> gli angloamericani avanzano
+                </u>
+
+                <u who="#MA" xml:id="MA133" synch="#TS270">
+                    e dove la nascondevate questa radio di <time from="06:00:00" to="18:00:00" resp="#GB" cert="medium">giorno</time><pause/> quando eravate <anchor xml:id="ma-331" synch="#TT331"/><del type="truncation">fuo</del><anchor xml:id="ma-332" synch="#TT332"/>
+                </u>
+
+                <u who="#AW" xml:id="AW134" synch="TS271">
+                    <anchor xml:id="arm-331" synch="#TT331"/><vocal>mm</vocal> <del type="truncation">l</del> la<anchor xml:id="arm-332" synch="#TT332"/> teneva nascosta sopra dove <del type="truncation">g</del> non capitava mai che andassero a vedere<pause/> c'era qualcuno che lavorava nella <emph>stanza</emph> di un ufficiale <del type="repetition">come</del> <del type="truncation">s</del><pause/> come servizio come nel film <vocal>ehmm</vocal><pause/> <del type="falseStart">la <vocal>mm</vocal><pause/> quella</del> che ha fatto <distinct type="informal">la<pause/> <persName ref="TEI-ListPerson.xml#MerylS">Meryl Streep</persName></distinct><pause/> <vocal>ehm</vocal><pause/> <unclear reason="inaudible" resp="#GB" cert="medium">l'avrà</unclear> visto ce l'ho qui comunque
+                </u>
+
+                <pause dur="4 seconds"/>
+
+                <u who="#MA" xml:id="MA134" synch="#TS272">
+                    si vede <del type="truncation">l</del> la stanza <del type="repetition">del</del> <vocal>ehm</vocal> del <foreign xml:lang="de">kap&#242;</foreign> che è affianco della baracca
+                </u>
+
+                <u who="#AW" xml:id="AW135" synch="TS273">
+                    dunque <del type="truncation">l</del> lei lavorava<pause/> come domestica del <persName ref="TEI-ListPerson.xml#Hoss"><roleName type="military">comandante</roleName> Rudolf Hoss</persName><pause/> adesso mi sfugge il nome <choice><orig>c'ho</orig><reg resp="#GB">ho</reg></choice> anche la <anchor xml:id="arm-333" synch="#TT333"/>cassetta qui<anchor xml:id="arm-334" synch="#TT334"/>
+                </u>
+
+                <u who="#MA" xml:id="MA135" synch="#TS274">
+                    <anchor xml:id="ma-333" synch="#TT333"/>Fania<anchor xml:id="ma-334" synch="#TT334"/><pause/> Fania
+                </u>
+
+                <pause/>
+
+                <u who="#AW" xml:id="AW136" synch="TS275">
+                    no <del type="falseStart">e</del> il nome del film si chiama<pause/> <emph>non è importante</emph>
+                </u>
+
+                <u who="#MA" xml:id="MA136" synch="#TS276">
+                    <bibl type="film"><title type="main" level="m">La scelta di Sophie</title></bibl>
+                </u>
+
+                <u who="#AW" xml:id="AW137" synch="TS277">
+                    si <vocal>ehmmm</vocal><pause/><vocal><desc>deglutisce</desc></vocal> quindi<pause/> <vocal>ehm</vocal> sapevamo tante cose che loro <emph>non sapevano che noi sapevamo</emph>
+                </u>
+
+                <u who="#MA" xml:id="MA137" synch="#TS278">
+                    <vocal>emh</vocal> quindi c'era un <foreign xml:lang="de">kap&#242;</foreign><pause/> <vocal>ehm</vocal> che era responsabile della vostra baracca
+                </u>
+
+                <u who="#AW" xml:id="AW138" synch="TS279">
+                    <emph>si</emph><pause/> erano i <term ref="#blockaltester" xml:lang="de">blockaltester</term><pause/>
+                </u>
+
+                <u who="#MA" xml:id="MA138" synch="#TS280">
+                    <del type="truncation"><term ref="#blockaltester" xml:lang="de">blockalte</term></del> <del type="falseStart">e</del>
+                </u>
+
+                <u who="#AW" xml:id="AW139" synch="#TS281">
+                    ebreo
+                </u>
+
+                <u who="#MA" xml:id="MA139" synch="#TS282">
+                    ebreo
+                </u>
+
+                <u who="#AW" xml:id="AW140" synch="#TS283">
+                    si adesso le voglio solamente dire a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName><pause/> <del type="falseStart">c'era un <distinct type="informal"><foreign xml:lang="de">kap&#242;</foreign> nostro</distinct><pause/> che</del> <vocal>ehm</vocal> la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> non si poteva uscire per andare a fare i proprio bisogni<pause/> e un<pause/> <del type="falseStart"><del type="truncation">ingegne</del> un <vocal>ehm</vocal></del><pause/> cos'era ingegnere o dottore<pause/> <del type="reformulation">dottore</del><pause/> romano<pause/> stava <del type="falseStart">al terzo letto</del> <del type="reformulation">al terzo piano</del><pause/> e <del type="truncation">l</del> la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> non ha potuto più<pause/> gli è scappata l'urina e questa urina è colata<pause/> <vocal>ehm</vocal> gli altri si sono lamentati logicamente allora è venuto questo <foreign xml:lang="de">kap&#242;</foreign> che era cecoslovacco<pause/> gli ha dato tante di quelle <distinct type="informal">botte</distinct> che questo povero professore è morto dalle <distinct type="informal">botte</distinct><pause/> perché racconto questo particolare<pause/> perché <emph>finita</emph> la guerra la maggior parte di noi <choice><sic>andavano</sic><corr resp="#GB">andava</corr></choice><pause/> <del type="reformulation"><choice><sic>emigravano</sic><corr resp="#GB">emigrava</corr></choice></del> o in <pause/> <placeName ref="TEI-ListPlace.xml#ISR">Israele</placeName><pause/> o <del type="falseStart">in a</del> <choice><sic><del type="reformulation">in</del></sic><corr resp="#GB">negli</corr></choice> <placeName ref="TEI-ListPlace.xml#USA">Stati Uniti d'America</placeName><pause/> <choice><sic>quelli</sic><corr resp="#GB">per quelli</corr></choice> che volevano andare <del type="repetition">in</del> in <placeName ref="TEI-ListPlace.xml#USA">America</placeName><pause/><!--23:13--> c'era l'ACI [letto come acronimo lettera per lettera in inglese] cioè "intelligence service" che controllava se questi si erano comportati umanamente nei campi, allora è venuto questo cecoslovacco da me e mi ha detto "Arminio <term ref="AWcdec.xml#dolmetscher" xml:lang="de">dolmetscher</term>" Che no? Chiamarmi <term ref="AWcdec.xml#dolmetscher" xml:lang="de">dolmetscher</term> Che vuol dire "interprete" e dice "io lo so quello che ho fatto però tu lo sai, o facevi così o sennò morivi te e allora mors tua vita mea" (? Controllare) e dico "ma no, tu potevi anche punire quel povero professore ma sbranarlo di <distinct type="informal">botte</distinct> e di frustate per farlo morire... comunque io sono figlio di un rabbino ortodosso, sono ortodosso <choice><orig>anch&#39;io</orig><reg resp="#GB">anche io</reg></choice>, io ti dichiaro che ti sei comportato umanamente" e lui è andato in America.
                 </u>
             </div>
 
@@ -2452,22 +2556,6 @@ City: Milan -->
 
 </TEI>
 <!--                    
-M.S: tutti questi mesi che ha passato a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName>, emh, appunto quale erano i vostri discorsi, i vostri pensieri, cosa sapevate? cosa...
-A.W: Il discorso era sempre... c'era sempre per esempio, ecco c'era per esempio un ragazzo ebreo sempre di <placeName ref="TEI-ListPlace#Sal">Salonicco</placeName>, di cui ero l'interprete ripeto, non conoscendo il greco ma loro parlavano greco, turco, tutte le lingue possibili immaginabili eee... ma lui era riuscito a costruire una radio - era di professione, proprio come loro sono specializzati in questo campo qua - e andavamo su nel terzo letto di sopra a ascoltare così e quindi sapevamo la realtà: questo faceva comodo a noi perché diffondevamo queste notizie, era ossigeno per noi sapere che i russi avanzano, che gli ingl- angloamericani avanzano...
-M.S: e dove la nascondevate questa radio di giorno? Quando eravate fuo-
-A.W: la teneva nascosta sopra dove non capitava mai che andassero a vedere. C'era qualcuno che lavorava nella stanza di un ufficiale come come servizio, come nel film (pausa) la la quella che ha fatto la Meryl Streep (pausa), l'ho (?) visto, ce l'ho qui comunque. (Pausa)
-M.S: si vede la stanza del <foreign xml:lang="de">kap&#242;</foreign> che è affianco della baracca...
-A.W: Dunque, lei lavorava come domestica del comandante Rudolf Hoss (?), adesso mi sfugge il nome, c'ho anche la cassetta qui.
-M.S: fania...fania.
-A.W: No, il nome del film si chiama... Non è importante.
-M.S: La scelta di Sophie.
-A.W: si. Eee...quindi, sapevamo tante cose che loro non sapevano che noi sapevamo.
-M.S: emh quindi cc'era un <foreign xml:lang="de">kap&#242;</foreign> ee che eera responsabile della vostra baracca?
-A.W: Si, erano i "blokkertest?".
-M.S: "blokkertest"?
-A.W: ebreo.
-M.S: ebreo.
-A.W: Si. Adesso le voglio solamente dire: a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName> c'era un <foreign xml:lang="de">kap&#242;</foreign> nostro che - la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> non si poteva uscire per andare a fare i proprio bisogni - e un ingegnere (riformulazione), un... cosa ? un ingegnere o un dottore? Dottore. <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName>no. Stava al terzo letto, al terzo piano, e la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> non ha potuto più, gli è scappata l'urina e questa urina è colata e gli altri si sono lamentati logicamente. Allora è venuto questo <foreign xml:lang="de">kap&#242;</foreign> che era cecoslovacco, gli ha dato tante di quelle botte che questo povero professore è morto dalle botte. Perché racconto questo particolare? Perché finita la guerra, la maggior parte di noi andavano, emigravano, o in Israele o in ai Stati Uniti d'America. Quelli che volevano andare in America c'era l'ACI [letto come acronimo lettera per lettera in inglese] cioè "intelligence service" che controllava se questi si erano comportati umanamente nei campi, allora è venuto questo cecoslovacco da me e mi ha detto "Arminio <term ref="AWcdec.xml#dolmetscher" xml:lang="de">dolmetscher</term>" Che no? Chiamarmi <term ref="AWcdec.xml#dolmetscher" xml:lang="de">dolmetscher</term> Che vuol dire "interprete" e dice "io lo so quello che ho fatto però tu lo sai, o facevi così o sennò morivi te e allora mors tua vita mea" (? Controllare) e dico "ma no, tu potevi anche punire quel povero professore ma sbranarlo di botte e di frustate per farlo morire... comunque io sono figlio di un rabbino ortodosso, sono ortodosso <choice><orig>anch&#39;io</orig><reg resp="#GB">anche io</reg></choice>, io ti dichiaro che ti sei comportato umanamente" e lui è andato in America.
 M.S: si, l'ha salvato.
 A.W: eee, adesso voglio finire <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName>.
 M.S: si, voglio sapere ancora se...
@@ -2486,7 +2574,7 @@ M.S: quindi è stato evacuato ma non tutto... Qualc- un gruppo è rimasto?
 A.W: Ecco, questi 300 eran rimasto, e noi dicevamo "poveretti, saranno morti anche loro" eee... io mi trovo da(a) "ihr seid Frei"(?) da "uomo libero" e c'erano dei conoscenti, c'era per caso con noi anche Isacco Sarmoneta che ha presa la tubercolosi e veniva da un tubercolisario(?26.50) e stavo raccontando guardate un po' cosa vuol dire quel... quel Thisler(?) che era già libero perché quando siamo usciti noi...
 
 PARTE IV
-A.W: è uscito anche lui, quando è arrivato alla porta dice "no, torno indietro", è tornat-, e dico "guarda se veniva con noi si salvava, adesso è morto", battono alla porta e (chi era ad entrare?)? Thisler(?): al momento in cui io raccontavo la sua storia è capitato lui - adesso mi sto muovendo troppo lo so, cercherò di muovermi un po' meno - e allora Thisler(?) ci ha raccontato cos'era successo. Questi 300, i polacchi che erano rimasti - polacchi non ebrei - in le avendo saputo che erano rimasti pochi della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> e fra quelli che noi chiamavamo "daschwarz", il nero, quello che mi aveva dato le botte a me. I polacchi non ebrei hanno attaccato il ghetto, dove c'erano questi 300, e hanno salvato questi 300: erano 300 ebrei salvi e gli hanno messi in una scuola, vuole il destino cade una bomba sopra la scuola, ammazza tutti quanti meno lui. E lui adesso si trova in America ed è venuto a Mühldorf?? Per vedere se riconosceva qualcuno dei suoi compagni. Un redivivo, ma ho raccontato che... è interessante che è entrato dentro proprio nel momento io raccontavo la sua storia credendo che fosse morto.
+A.W: è uscito anche lui, quando è arrivato alla porta dice "no, torno indietro", è tornat-, e dico "guarda se veniva con noi si salvava, adesso è morto", battono alla porta e (chi era ad entrare?)? Thisler(?): al momento in cui io raccontavo la sua storia è capitato lui - adesso mi sto muovendo troppo lo so, cercherò di muovermi un po' meno - e allora Thisler(?) ci ha raccontato cos'era successo. Questi 300, i polacchi che erano rimasti - polacchi non ebrei - in le avendo saputo che erano rimasti pochi della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> e fra quelli che noi chiamavamo "daschwarz", il nero, quello che mi aveva dato le <distinct type="informal">botte</distinct> a me. I polacchi non ebrei hanno attaccato il ghetto, dove c'erano questi 300, e hanno salvato questi 300: erano 300 ebrei salvi e gli hanno messi in una scuola, vuole il destino cade una bomba sopra la scuola, ammazza tutti quanti meno lui. E lui adesso si trova in America ed è venuto a Mühldorf?? Per vedere se riconosceva qualcuno dei suoi compagni. Un redivivo, ma ho raccontato che... è interessante che è entrato dentro proprio nel momento io raccontavo la sua storia credendo che fosse morto.
 M.S: beh, allora andiamo per ordine... siete andati a piedi, siete andati fino a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName>?
 A.W: fino a... no, fino a Kutno.
 M.S: Kutno. Poi a Kutno...
@@ -2604,9 +2692,9 @@ M.S: quindi parlava in italiano con lui?
 A.W: No no no, no lui parlava tedesco, solo tedesco. Allora viene il comandante della truppa americana che ci ha liberato, era un ebreo di New York, si chiamava Jutennens Smith (?) che probabilmente prima di chuamava Schmiedt(?), "Schmiedt" vuol dire "fabbro". Eee i suoi aiutanti vedevano uno della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice>, tac tac, scaricava il mitra su di loro. A un certo momento si rivolgono al transportfuhrer, allora son intervenuto io e Landau, abbiamo detto a Jutennens Smith(?) "guardi che questo avrebbe dovuto portarci alla morte invece ci ha salv- portati da voi" "allora eh beh, se siete voi d'accordo lasciamolo in vita, non solo, diventerà nostro ospite", e allora le ragazze ungheresi - che(?c'erano) erano 500 ragazze ungheresi con noi - dice "anche queste due aufseherin?" - aufseherin vuol dire "sorvegliati della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> tedesca": erano vestiti come le <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> solo una la gonna anziché i pantaloni - "questi si son sempre comportati bene con noi" "allora (balbetta), se lo volete voi"... quindi, il comandante del trasporto e le due aufseherin(?) son stati liberati mentre gli altri l'hanno... (verso del mitra) era... guerra.
 
 PARTE V
-A.W: eee... sono diventate aa, ci hanno portato a Feldafing, sempre a due passi, questo paese di Feldafing c'era una scuola per i giovani hitleriani che era vuota perché i giovani hitleriani li hanno mandati tutti al fronte alla fine della guerra, c'erano solo degli uffici della BMW - Bayerische Motore Werke - che è di Monaco di Baviera che era stata bombardata. Allora gli uffici li hanno tras- mess- tras-trasferiti dentro nella scuola dove c'erano prima gli hitleriani. Allora i gli americani hanno mandato via questi impiegati e <choice><orig>c&#39;ha</orig><reg resp="#GB">ha</reg></choice>nno messo a disposizione nostra, erano edifici a due piani, allora, "per i polacchi questa e questa... per gli ungheresi que-, per gli italiani..." eravamo pochi, allora vabbè, allora, eravamo in tre di italiani soli, allora ci hanno messo insieme ai greci perché eravam mediterranei. Eee, così ci hanno salvati. Adesso, per finire il discorso, illl (pausa) la maggior parte di questi di <placeName ref="TEI-ListPlace#Sal">Salonicco</placeName> - non tutti - ma son tornati a Salonic- ma la maggior parte invece è andata a in Israele, specialmente a Haifa.
+A.W: eee... sono diventate aa, ci hanno portato a Feldafing, sempre a due passi, questo paese di Feldafing c'era una scuola per i giovani hitleriani che era vuota perché i giovani hitleriani li hanno mandati tutti al fronte alla fine della guerra, c'erano solo degli uffici della BMW - Bayerische Motore Werke - che è di Monaco di Baviera che era stata bombardata. Allora gli uffici li hanno tras- mess- tras-trasferiti dentro nella scuola dove c'erano prima gli hitleriani. Allora i gli americani hanno mandato via questi impiegati e <choice><orig>c&#39;ha</orig><reg resp="#GB">ha</reg></choice>nno messo a disposizione nostra, erano edifici a due piani, allora, "per i polacchi questa e questa... per gli ungheresi que-, per gli italiani..." eravamo pochi, allora vabbè, allora, eravamo in tre di italiani soli, allora ci hanno messo insieme ai greci perché eravam mediterranei. Eee, così ci hanno salvati. Adesso, per finire il discorso, illl (pausa) la maggior parte di questi di <placeName ref="TEI-ListPlace#Sal">Salonicco</placeName> - non tutti - ma son tornati a Salonic- ma la maggior parte invece è andata a in <pause/> <placeName ref="TEI-ListPlace.xml#ISR">Israele</placeName>, specialmente a Haifa.
 M.S: quindi da lì hanno organizzato subito il rientro?
-A.W: rientro ma naturalmente con le solite difficoltà. Son riusciti(o) a ritornare a Haifa, io li ho rincontrati nel 60 quando (è) la prima volta che sono andato in Israele.
+A.W: rientro ma naturalmente con le solite difficoltà. Son riusciti(o) a ritornare a Haifa, io li ho rincontrati nel 60 quando (è) la prima volta che sono andato in <pause/> <placeName ref="TEI-ListPlace.xml#ISR">Israele</placeName>.
 M.S: ma lei è stato ospitalizzato da qualche parte o?
 A.W: no.
 M.S: ... non ha avuto bisogno.
