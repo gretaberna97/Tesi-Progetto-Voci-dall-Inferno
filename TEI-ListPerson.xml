@@ -2101,6 +2101,40 @@
 
                         </person>
 
+                        <!--Stalin-->
+                        <person xml:id="Stalin" sameAs="http://viaf.org/viaf/101787139"> 
+
+                                <persName role="politico">
+                                    <ref target="https://it.wikipedia.org/wiki/Iosif_Stalin https://www.treccani.it/enciclopedia/josif-vissarionovic-stalin_res-667c4b4c-8bb7-11dc-8e9d-0016357eee51_%28Enciclopedia-Italiana%29/"/>
+                                    <foreName>Iosif</foreName>
+                                    <surname>Vissarionovic</surname>
+                                    <surname type="alternative">Dzugasvill</surname>
+                                    <addName type="nickname">Stalin</addName>
+                                    <addName type="nickname">Koba</addName>
+                                    <roleName type="military">Maresciallo dell'Unione Sovietica</roleName>
+                                    <roleName type="honorific">Eroe dell'Unione Sovietica</roleName>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1878-12-06" cert="high">6 Dicembre 1878</date>
+                                    <placeName>
+                                        <settlement type="municipality">Gori</settlement>
+                                        <country key="GE">Georgia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1953-03-05" cert="high">5 marzo 1953</date>
+                                    <placeName>
+                                        <settlement type="municipality">Mosca</settlement>
+                                        <country key="RUS">Russia</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
                         <!-- Lista delle relazioni -->
                         <listRelation>
                             <relation name="interviewers" active="#LPF #MA #PF" passive="#AW"/>
