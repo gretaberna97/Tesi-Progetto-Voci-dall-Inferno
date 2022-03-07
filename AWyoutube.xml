@@ -920,6 +920,15 @@ City: Milan -->
 
             <when xml:id="TT395" absolute="00:09:10" synch="ma-395"/>
             <when xml:id="TT396" since="#TT395" interval="1"/>
+
+            <when xml:id="TT397" absolute="00:09:29" synch="arm-397"/>
+            <when xml:id="TT398" since="#TT397" interval="1"/>
+
+            <when xml:id="TT399" absolute="00:09:40" synch="arm-399"/>
+            <when xml:id="TT400" since="#TT399" interval="1"/>
+
+            <when xml:id="TT401" absolute="00:09:48" synch="ma-401"/>
+            <when xml:id="TT402" since="#TT401" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -1271,6 +1280,10 @@ City: Milan -->
             <when xml:id="TS333" synch="#AW165" absolute="00:09:02"/>
             <when xml:id="TS334" synch="#MA165" absolute="00:09:08"/>
             <when xml:id="TS335" synch="#AW166" absolute="00:09:10"/>
+            <when xml:id="TS336" synch="#MA166" absolute="00:09:29"/>
+            <when xml:id="TS337" synch="#AW167" absolute="00:09:31"/>
+            <when xml:id="TS338" synch="#MA167" absolute="00:09:46"/>
+            <when xml:id="TS339" synch="#AW168" absolute="00:09:50"/>
         </timeline>
     </standOff>
 
@@ -2377,7 +2390,7 @@ City: Milan -->
                 </u>
 
                 <u who="#AW" xml:id="AW107" synch="TS217">
-                    <del type="falseStart">un giorno</del> e un giorno<anchor xml:id="arm-266" synch="#TT266"/> mentre sono sotto in questo<pause/> canale<pause/> questo tunnel o come lo vuol chiamare<pause/> vedo un uomo con una barba così<pause/> era un sopravvissuto<pause/> che viveva perché i polacchi gli portavano da mangiare <emph>contro</emph> i generi di valore che li consegnava<pause/> e mi dice <q type="spoken">vedi questa era mia moglie questa è mia figlia <del type="truncation">quel</del></q> erano tutti morti<pause/> e <del type="truncation">no</del> non li abbiamo toccati allora perché<pause/> per non <choice><sic>far</sic><corr resp="#GB">recare</corr></choice> <vocal>ehm</vocal> <del type="truncation">co</del> <vocal>ehmmm</vocal><pause/> disturbo <soCalled>a questo vivente</soCalled><pause/> siamo tornati su con il <anchor xml:id="arm-267" synch="#TT267"/>cesto vuoto<anchor xml:id="arm-268" synch="#TT268"/>
+                    <del type="falseStart">un giorno</del> e un giorno<anchor xml:id="arm-266" synch="#TT266"/> mentre sono sotto in questo<pause/> canale<pause/> questo <foreign xml:lang="en">tunnel</foreign> o come lo vuol chiamare<pause/> vedo un uomo con una barba così<pause/> era un sopravvissuto<pause/> che viveva perché i polacchi gli portavano da mangiare <emph>contro</emph> i generi di valore che li consegnava<pause/> e mi dice <q type="spoken">vedi questa era mia moglie questa è mia figlia <del type="truncation">quel</del></q> erano tutti morti<pause/> e <del type="truncation">no</del> non li abbiamo toccati allora perché<pause/> per non <choice><sic>far</sic><corr resp="#GB">recare</corr></choice> <vocal>ehm</vocal> <del type="truncation">co</del> <vocal>ehmmm</vocal><pause/> disturbo <soCalled>a questo vivente</soCalled><pause/> siamo tornati su con il <anchor xml:id="arm-267" synch="#TT267"/>cesto vuoto<anchor xml:id="arm-268" synch="#TT268"/>
                 </u>
 
                 <u who="#MA" xml:id="MA107" synch="#TS218">
@@ -2954,7 +2967,31 @@ City: Milan -->
                 </u>
 
                 <u who="#AW" xml:id="AW166" synch="#TS335">
-                    <anchor xml:id="arm-395" synch="#TT395"/>vicino <placeName ref="TEI-ListPlace.xml#MU">Muhldorf</placeName><anchor xml:id="arm-396" synch="#TT396"/> non mi ricordo quanti chilometri però nel <emph>bosco</emph><pause/> e <del type="falseStart">come <vocal>eh</vocal> si <vocal>mm</vocal></del> non c'erano più <emph>baracche</emph> ma bensì<pause/> avevano fatto delle fosse<pause/> e <del type="falseStart">una<pause/> <del type="truncation">cop</del></del> <choice><sic>una</sic><corr resp="#GB">un</corr></choice><pause/> tetto<pause/> <choice><sic>che</sic><corr resp="#GB">che era</corr></choice> ricoperto di <distinct type="diminutive">alberelli</distinct><pause/> cosicché <del type="falseStart">i</del> <del type="correction">gli</del> aerei non riconoscessero<pause/> che li c'è della <distinct type="informal">gente</distinct> viva<!--9:25-->
+                    <anchor xml:id="arm-395" synch="#TT395"/>vicino <placeName ref="TEI-ListPlace.xml#MU">Muhldorf</placeName><anchor xml:id="arm-396" synch="#TT396"/> non mi ricordo quanti chilometri però nel <emph>bosco</emph><pause/> e <del type="falseStart">come <vocal>eh</vocal> si <vocal>mm</vocal></del> non c'erano più <emph>baracche</emph> ma bensì<pause/> avevano fatto delle fosse<pause/> e <del type="falseStart">una<pause/> <del type="truncation">cop</del></del> <choice><sic>una</sic><corr resp="#GB">un</corr></choice><pause/> tetto<pause/> <choice><sic>che</sic><corr resp="#GB">che era</corr></choice> ricoperto di <distinct type="diminutive">alberelli</distinct><pause/> cosicché <del type="falseStart">i</del> <del type="correction">gli</del> aerei non riconoscessero<pause/> che li c'è della <anchor xml:id="arm-397" synch="#TT397"/><distinct type="informal">gente</distinct> viva<anchor xml:id="arm-398" synch="#TT398"/>
+                </u>
+
+                <u who="#MA" xml:id="MA166" synch="#TS336">
+                    <anchor xml:id="ma-397" synch="#TT397"/>erano<pause/><anchor xml:id="ma-398" synch="#TT398"/> tante queste baracche diciamo
+                </u>
+
+                <u who="#AW" xml:id="AW167" synch="#TS337">
+                    si <vocal>eehm</vocal> poi <del type="falseStart"><del type="truncation">hann</del></del> oltre il <del type="falseStart">Wael</del> <del type="reformulation"><placeName ref="TEI-ListPlace.xml#WalV">Waldlager <num xml:lang="de">funf</num></placeName></del> hanno costruito il <placeName ref="TEI-ListPlace.xml#WalV">Waldlager <num xml:lang="de">sechs</num></placeName><pause/> <del type="falseStart">perché</del> ingrandito<pause/> perché poi son venute anche donne<pause/> naturalmente <anchor xml:id="arm-399" synch="#TT399"/>le donne<anchor xml:id="arm-400" synch="#TT400"/> le tenevano in disparte<pause/> <choice><sic>la</sic><corr resp="#GB">in</corr></choice> <vocal>ehm</vocal> preponderanza erano ungheresi<pause/> <del type="falseStart">e</del>
+                </u>
+
+                <u who="#MA">
+                    <anchor xml:id="ma-399" synch="#TT399"/><vocal>ahh</vocal><anchor xml:id="ma-400" synch="#TT400"/>
+                </u>
+
+                <u who="#MA" xml:id="MA167" synch="#TS338">
+                    e lì cosa dovevate fare <del type="truncation">co</del><pause/> <vocal>emh</vocal> <anchor xml:id="ma-401" synch="#TT401"/>eravate assegnati<anchor xml:id="ma-402" synch="#TT402"/> a un lavoro
+                </u>
+
+                <u who="#AW">
+                    <anchor xml:id="arm-401" synch="#TT401"/>dunque io<anchor xml:id="arm-402" synch="#TT402"/>
+                </u>
+
+                <u who="#AW" xml:id="AW168" synch="#TS339">
+                    <vocal><desc>deglutisce</desc></vocal> <del type="falseStart">io <del type="truncation">l</del> a ciascuno</del> <del type="repetition">la</del> la maggior parte <choice><sic>di</sic><corr resp="#GB">del</corr></choice> lavoro era<pause/> <unclear reason="inaudible" resp="#GB" cert="low"><del type="falseStart" cert="low">a e</del></unclear> in questo <foreign xml:lang="en">tunnel</foreign> <del type="falseStart">dove veniva costruita la <choice><abbr>V2</abbr><expan resp="#GB">Vergeltungswaffen 2</expan></choice></del> <del type="reformulation"><emph>dove era previsto</emph> di costruire<pause/> la <choice><abbr>V2</abbr><expan resp="#GB">Vergeltungswaffen 2</expan></choice></del><pause/><vocal><desc>deglutisce</desc></vocal> <del type="falseStart">ma io</del>
                 </u>
             </div>
 
@@ -2964,13 +3001,10 @@ City: Milan -->
 
 </TEI>
 <!--           
-M.S: Erano tante queste baracche diciamo emh?
-A.W: si, eee poi hanno, o oltre Wald- <placeName ref="TEI-ListPlace.xml#WalV">Waldlager</placeName> funf [5 in tedesco] hanno costruito il <placeName ref="TEI-ListPlace.xml#WalV">Waldlager</placeName> sechs [6] perché, ingrandito, perché poi son venute anche donne - naturalmente le donne le tenevano in disparte.  La pr- preponderanza erano ungheresi ee...
-M.S: e lì cosa dovevate fare co-...? Emh eravate assegnati a un lavoro?
-A.W: dunque io... io, ciascuno n-, la maggior parte di lavoro era in questo tunnel dove veniva costruita la V2, dove era previsto di costruire la V2. Ma io...
+10:02
 M.S: ma anche se non eravate specializzati?
 A.W: no no, c-, si, erano i "<term ref="AWcdec.xml#measter" xml:lang="de">maester</term>"? Che ci insegnavano cosa dovevamo fare.
-M.S: lei è stato in questo tunnel?
+M.S: lei è stato in questo <foreign xml:lang="en">tunnel</foreign>?
 A.W: ecco, io son stato una sola volta che l'ho raccontavo di quel (frase in tedesco) che m'ha fatto portare i sacchi di cemento.
 M.S: ah beh, lo deve raccontare adesso...
 A.W: si, dunque, era così, che un giorno io ero interprete della degli italiani non ebrei che non erano deportati ma che sono stati razziati in <placeName ref="TEI-ListPlace.xml#IT">Italia</placeName> per portarli a lavorare in <placeName ref="TEI-ListPlace.xml#DE">Germania</placeName> ee...
@@ -2980,10 +3014,10 @@ M.S: Ahh, separati. Si.
 A.W: Erano liberi, non solo, potevano corrispondere con le proprie famiglie ma le lettere bisognava scriverle in tedesco. Allora venivano "Arminio, se sei tanto gentile dimmi, scrivi una domanda che mia mamma sta poco male etc e vorrei...", e gli davano delle licenze, però a me mi davano qualcosa per queste lettere perché loro abitavano in famiglie e conosciuto ragazze tedesche che erano sole perché i mariti, i fidanzati eran tutti aaa al fronte, quindi facevan presto amicizia con questi italiani.
 M.S: ma quindi erano liberi m- e non liberi?
 A.W: erano liberi e non liberi, però ripeto di, stavano molto meglio. Eee allora...
-M.S: un giorno mi stava dicendo è è andato proprio in questo tunnel dove c'era la costruzione...
-A.W: Si, e allora in questo tunnel, il - questo (frase in tedesco), ufficiale delle <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> - si ferma e vede che io sto lì in piedi e dice "e tu non lavori?", e dico "No, lavoro si, il "<term ref="AWcdec.xml#measter" xml:lang="de">maester</term>" dà degli ordini in tedesco e gl- gli italiani non lo capiscono, lo traduco in italiano", "fa vedere le mani", emh faccio vedere le mani e non c'ho dei calli "allora come lavori?" "Ma lavoro con la testa e con la lingua e con la bocca". Allora lui mi ha preso, m'ha dato una pedata e m'ha lanciato accanto dove veniva girato mescolato il cemento che bisognava andare in sù, e anziché farlo funzionare questo tappeto elettricamente prendevano i prigionieri, ognuno doveva portare un sacco di 50kg. 50kg non sono molto ma per noi che avevano si e no 800 600 calorie al giorno era una cosa incredibile. E così per 24 ore ho dovuto fare quel mestiere, il giorno dopo ho trovato un altro gruppo che ho dovuto fare l'interprete per loro. Adesso voglio arrivare...
+M.S: un giorno mi stava dicendo è è andato proprio in questo <foreign xml:lang="en">tunnel</foreign> dove c'era la costruzione...
+A.W: Si, e allora in questo <foreign xml:lang="en">tunnel</foreign>, il - questo (frase in tedesco), ufficiale delle <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> - si ferma e vede che io sto lì in piedi e dice "e tu non lavori?", e dico "No, lavoro si, il "<term ref="AWcdec.xml#measter" xml:lang="de">maester</term>" dà degli ordini in tedesco e gl- gli italiani non lo capiscono, lo traduco in italiano", "fa vedere le mani", emh faccio vedere le mani e non c'ho dei calli "allora come lavori?" "Ma lavoro con la testa e con la lingua e con la bocca". Allora lui mi ha preso, m'ha dato una pedata e m'ha lanciato accanto dove veniva girato mescolato il cemento che bisognava andare in sù, e anziché farlo funzionare questo tappeto elettricamente prendevano i prigionieri, ognuno doveva portare un sacco di 50kg. 50kg non sono molto ma per noi che avevano si e no 800 600 calorie al giorno era una cosa incredibile. E così per 24 ore ho dovuto fare quel mestiere, il giorno dopo ho trovato un altro gruppo che ho dovuto fare l'interprete per loro. Adesso voglio arrivare...
 M.S: e cosa costruivano con questo cemento lì sotto?
-A.W: si si, veniva costruito, già c'erano anche macchine dentro, tutto... per costruire la V2, perché la V2 veniva, la prima è stata Peenemunde, la prima che ha lanciato le la (balbetta) V1, poi la V2. "V" vuol dire Ve- Vergelt- Vergeltungswaffe, Vergeltungswaffe vuol dire vendetta. Eee, stavano costruendo questa qui. Per esempio, c'era un comando di ebrei, non italiani, che erano quello che ogni giorno cambiava il fogliame sopra per dare l'illusione a quelli che...
+A.W: si si, veniva costruito, già c'erano anche macchine dentro, tutto... per costruire la <choice><abbr>V2</abbr><expan resp="#GB">Vergeltungswaffen 2</expan></choice>, perché la <choice><abbr>V2</abbr><expan resp="#GB">Vergeltungswaffen 2</expan></choice> veniva, la prima è stata Peenemunde, la prima che ha lanciato le la (balbetta) <choice><abbr>V1</abbr><expan resp="#GB">Vergeltungswaffen 1</expan></choice>, poi la <choice><abbr>V2</abbr><expan resp="#GB">Vergeltungswaffen 2</expan></choice>. "V" vuol dire Ve- Vergelt- Vergeltungswaffe, Vergeltungswaffe vuol dire vendetta. Eee, stavano costruendo questa qui. Per esempio, c'era un comando di ebrei, non italiani, che erano quello che ogni giorno cambiava il fogliame sopra per dare l'illusione a quelli che...
 M.S: che era fogliame fresco... e non, certo per camuffare tutto.
 A.W: si si, ee ecco lei ha detto la parola esatta, camuffare. Allora, adesso la guerra sta per finire, così finisco <choice><orig>anch&#39;io</orig><reg resp="#GB">anche io</reg></choice> così: ee viene il comandante che era della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> e dice a noi del <placeName ref="TEI-ListPlace.xml#WalV">Waldlager</placeName> (frase in tedesco) "la guerra è finita", eras il primo maggio mi pare. Eee (frase in tedesco) "siete liberi", fa aprire i vagoni "potete andar via", e questo era in un piccolo paese che si chiama Poing, in Baviera. Eee...
 M.S: la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> prima avevate sentito degli spari, qualcosa?
