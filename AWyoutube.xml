@@ -869,6 +869,21 @@ City: Milan -->
 
             <when xml:id="TT361" absolute="00:02:52" synch="arm-361"/>
             <when xml:id="TT362" since="#TT361" interval="1"/>
+
+            <when xml:id="TT363" absolute="00:02:59" synch="arm-363"/>
+            <when xml:id="TT364" since="#TT363" interval="1"/>
+
+            <when xml:id="TT365" absolute="00:03:00" synch="ma-365"/>
+            <when xml:id="TT366" since="#TT365" interval="1"/>
+
+            <when xml:id="TT367" absolute="00:03:48" synch="arm-367"/>
+            <when xml:id="TT368" since="#TT367" interval="1"/>
+
+            <when xml:id="TT369" absolute="00:04:19" synch="arm-369"/>
+            <when xml:id="TT370" since="#TT369" interval="1"/>
+
+            <when xml:id="TT371" absolute="00:04:36" synch="arm-371"/>
+            <when xml:id="TT372" since="#TT371" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -1191,7 +1206,18 @@ City: Milan -->
             <when xml:id="TS304" synch="#AW151" absolute="00:01:24"/>
             <when xml:id="TS305" synch="#MA150" absolute="00:01:33"/>
             <when xml:id="TS306" synch="#AW152" absolute="00:01:35"/>
-            <when xml:id="TS307" synch="#MA151" absolute="00:25:10"/>
+            <when xml:id="TS307" synch="#MA151" absolute="00:02:59"/>
+            <when xml:id="TS308" synch="#AW153" absolute="00:03:00"/>
+            <when xml:id="TS309" synch="#MA152" absolute="00:03:02"/>
+            <when xml:id="TS310" synch="#AW154" absolute="00:03:04"/>
+            <when xml:id="TS311" synch="#MA153" absolute="00:03:42"/>
+            <when xml:id="TS312" synch="#AW155" absolute="00:03:45"/>
+            <when xml:id="TS313" synch="#MA154" absolute="00:03:48"/>
+            <when xml:id="TS314" synch="#MA155" absolute="00:04:09"/>
+            <when xml:id="TS315" synch="#AW156" absolute="00:04:18"/>
+            <when xml:id="TS316" synch="#MA156" absolute="00:04:30"/>
+            <when xml:id="TS317" synch="#AW157" absolute="00:04:33"/>
+            <when xml:id="TS318" synch="#MA157" absolute="00:04:36"/>
         </timeline>
     </standOff>
 
@@ -2726,7 +2752,67 @@ City: Milan -->
                 <u who="#MA">
                     <anchor xml:id="ma-361" synch="#TT361"/><vocal><desc>annuisce</desc></vocal><pause/> si<anchor xml:id="ma-362" synch="#TT362"/>
                 </u>
-                <!--2:55-->
+
+                <u who="#MA" xml:id="MA151" synch="#TS307">
+                    <anchor xml:id="ma-363" synch="#TT363"/>quanto<anchor xml:id="ma-364" synch="#TT364"/> è durato questo <anchor xml:id="ma-365" synch="#TT365"/>viaggio secondo lei<anchor xml:id="ma-366" synch="#TT366"/>
+                </u>
+
+                <u who="#AW" xml:id="AW153" synch="#TS308">
+                    <anchor xml:id="arm-365" synch="#TT365"/>non mi ricordo quanti<anchor xml:id="arm-366" synch="#TT366"/> giorni ma diversi giorni
+                </u>
+
+                <u who="#MA" xml:id="MA152" synch="#TS309">
+                    e dormivate come
+                </u>
+
+                <u who="#AW" xml:id="AW154" synch="#TS310">
+                    niente <del type="truncation">s</del> dentro nel vagone si dormiva si <del type="truncation">c</del> cercava di chiudere gli occhi<pause/> <distinct type="figure_of_speech">eravamo sempre come le sardine</distinct> no<vocal><desc>espira</desc></vocal><pause/> e arrivati a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName> <pause/>c'erano degli ebrei ungheresi<pause/> <distinct type="informal">siccome</distinct> <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mia madre</rs> era ungherese parlavo in quell'epoca ancora un po' di <lang>ungherese</lang> adesso l'ho quasi dimenticato completamente<pause/> e<!--uno di loro--><pause/> mi ha regalato una rapa<pause/> una rapa una comune rapa<pause/> perché <choice><sic>noi</sic><corr resp="#GB">a noi</corr></choice> ci <emph>davano</emph> le rape da mangiare ma le rape degli <emph>animali</emph><pause/> mentre quella era una rapa normale bianco blu <del type="truncation">bian</del> bianco<pause/> azzurro<vocal><desc>tira su con il naso</desc></vocal><pause/> mi sembrava di <distinct type="common_saying">aver raggiunto il cielo con un dito</distinct><pause/> di mangiare questa rapa<pause/> va bene <del type="falseStart">da<pause/> <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName></del>
+                </u>
+
+                <u who="#MA" xml:id="MA153" synch="#TS311">
+                    un attimo ci fermiamo per cambiare la cassetta
+                </u>
+
+                <u who="#AW" xml:id="AW155" synch="#TS312">
+                    <vocal>ahh</vocal><pause/> <shift feature="normal" new="laugh">il fatto che io non me ne accorga vuol dire che sto <anchor xml:id="arm-367" synch="#TT367"/>parlando tanto<anchor xml:id="arm-368" synch="#TT368"/></shift>
+                </u>
+
+                <u who="#MA" xml:id="MA154" synch="#TS313">
+                    <anchor xml:id="ma-367" synch="#TT367"/><del type="repetition"><emph>no<pause/> no</emph><anchor xml:id="ma-368" synch="#TT368"/></del> no <vocal>emh</vocal> <choice><orig>vabbè</orig><reg resp="#GB">va bene</reg></choice> <pause/><del type="repetition">no</del> no <del type="falseStart">ma lei</del> un <del type="truncation">momen</del>
+                </u>
+
+                <gap reason="lost" extent="2 seconds"/>
+
+                <pause dur="15 seconds"/>
+
+                <!--Tape: 8 of 1-->
+                <u who="#MA" xml:id="MA155" synch="#TS314">
+                    <date when="1998-03-04">4 Marzo 1998</date><pause/> cassetta numero otto<pause/> intervisto il <persName ref="TEI-ListPerson.xml#AW"><roleName type="honorific">signor</roleName> Arminio<pause/> Wachsberger</persName> allora siamo rimasti a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName>
+                </u>
+
+                <u who="#AW" xml:id="AW156" synch="#TS315">
+                    siamo arrivati <anchor xml:id="arm-369" synch="#TT369"/>a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName> <choice><sic>da</sic><corr resp="#GB">a</corr></choice> <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName> siamo rimasti<anchor xml:id="arm-370" synch="#TT370"/><pause/> <date from="1944-08-06" to="1944-08-08" resp="#GB">un paio di giorni</date> <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName> era il <emph>primo</emph> campo di concentramento tedesco<pause/> che è stato sviluppato già nel <date when="1934">34</date><pause/> poi hanno fatto <emph>gli altri</emph>
+                </u>
+
+                <u who="#MA">
+                    <anchor xml:id="ma-369" synch="#TT369"/>mi descriva <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName><anchor xml:id="ma-370" synch="#TT370"/>
+                </u>
+
+                <u who="#MA" xml:id="MA156" synch="#TS316">
+                    lei era sempre con questi 42 italiani
+                </u>
+
+                <u who="#AW" xml:id="AW157" synch="#TS317">
+                    no <choice><sic>di</sic><corr resp="#GB">gli</corr></choice> italiani non c'erano più <choice><orig>che</orig><reg resp="#GB">perché</reg></choice> solamente eravamo in 3<pause/> <anchor xml:id="arm-371" synch="#TT371"/><del type="falseStart">per</del><anchor xml:id="arm-372" synch="#TT372"/>
+                </u>
+
+                <u who="#MA" xml:id="MA157" synch="#TS318">
+                    cosa è <anchor xml:id="ma-371" synch="#TT371"/>successo<anchor xml:id="ma-372" synch="#TT372"/>
+                </u><!--4:37-->
+
+                <u who="#AW" xml:id="AW158" synch="#TS319">
+                    morti <vocal>ehmm</vocal> di stenti <del type="repetition">di</del> di tifo<pause/> eravamo rimasti io<pause/> <choice><sic><persName ref="TEI-ListPerson.xml#LilloDS">Lillo Di Segni</persName></sic><corr resp="#GB"><persName ref="TEI-ListPerson.xml#LelloDS">Lello Di Segni</persName></corr></choice><pause/> e questo<pause/> <persName ref="TEI-ListPerson.xml#IsaccoS">Isacco Sermoneta</persName><pause/> che aveva perso un <vocal>mm</vocal> sacco di familiari<pause/> il quale una volta <del type="truncation">dop</del> nel campo dove eravamo al<pause/> <emph><placeName ref="TEI-ListPlace.xml#WalV">Waldlager</placeName></emph> <pause/>aveva <distinct type="common_saying">tagliato la corda</distinct><pause/> però <emph>vestito ancora</emph> da prigioniero<pause/> e naturalmente l'hanno ripreso e l'hanno riportato al campo<pause/> e il comandante era della <orgName><foreign xml:lang="de">Wehrmacht</foreign></orgName> <del type="reformulation">il comandante del <placeName ref="TEI-ListPlace.xml#WalV">Waldlager</placeName> negli ultimi mesi</del><pause/> allora ha fatto montare la forca<pause/> <del type="falseStart">e</del> la <time from="00:18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time><pause/> <del type="truncation">c</del> sarebbe <del type="falseStart">stato <del type="truncation">ammazza</del></del> <vocal>ah</vocal> <del type="reformulation">stato impiccato</del> la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> dopo<pause/><vocal><desc>deglutisce</desc></vocal> <del type="falseStart">a</del> nel frattempo l'hanno messo nel <term ref="AWcdec.xml#bunker" xml:lang="en"><emph>bunker</emph></term><pause/> sotterraneo<pause/> di italiani eravamo io<pause/> una milanese <del type="falseStart">che <vocal>ehm</vocal> si chiama <del type="truncation">c</del></del> spero che viva ancora<pause/> che lei era ebrea il marito cattolico e <choice><orig>c&#39;ha</orig><reg resp="#GB">ha</reg></choice> <choice><sic>il</sic><corr resp="#GB">un</corr></choice> figlio<pause/> <del type="falseStart"><del type="truncation">ll</del> <del type="truncation">f</del></del> il marito e il figlio son rimasti a <placeName ref="TEI-ListPlace.xml#MI">Milano</placeName> vivi<pause/> lei è stata deportata <del type="repetition">a</del><pause/> a <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName> <pause/> <vocal>erm</vocal> <foreign xml:lanh="he">Haim</foreign> è il cognome<pause/> ma poi<pause/> <foreign xml:lanh="he">Haim</foreign> e <del type="falseStart">il marito</del> <del type="reformulation">portava anche il nome del marito</del> ed era italiana milanese<pause/> e in più c'era <rs ref="TEI-ListPerson.xml#TriesteB" resp="#GB">una <emph>partigiana</emph></rs><pause/> <del type="truncation">b</del> <emph>piemontese</emph> non ebrea<pause/><vocal><desc>deglutisce</desc></vocal> perché a <placeName ref="TEI-ListPlace.xml#Bi"><choice><sic>Brikenau</sic><corr resp="#GB">Birkenau</corr></choice></placeName> portavano anche i partigiani non solamente ebrei<vocal><desc>prende fiato</desc></vocal><pause/> e allora noi<pause/> durante la <time from="06:00:00" to="24:00:00" resp="#GB" cert="medium">giornata</time> e la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time> portavamo da mangiare a questo povero <persName ref="TEI-ListPerson.xml#IsaccoS">Isacco Sermoneta</persName><pause/><vocal><desc>espira</desc></vocal> la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> <q type="spoken"><term ref="#zahlappel" xml:lang="de">zahlappel</term></q><pause/> la forca è pronta il comandante dice <pause/><q type="spoken">io secondo le norme dovrei<pause/> impiccarlo perché<pause/> <del type="repetition">così</del> così ha cercato di fuggire</q> allora io mi son rivolto al comandante e dico <q type="spoken" who="TEI-ListPerson.xml#AW" xml:id="q24">signor comandante<pause/> questo <del type="truncation"><rs ref="TEI-ListPerson.xml#IsaccoS" resp="#GB">Isa</rs></del></q> io <persName ref="TEI-ListPerson.xml#IsaccoS">Isacco Sermoneta</persName> prima non lo conoscevo<pause/> dico <q type="spoken" who="TEI-ListPerson.xml#AW" xml:id="q25"><rs ref="TEI-ListPerson.xml#IsaccoS" resp="#GB">lui</rs> <choice><sic>da</sic><corr resp="#GB">a</corr></choice> casa era già matto<pause/> <unclear reason="inaudible" resp="#GB" cert="medium">prova <del type="falseStart" cert="medium">che sia</del></unclear> <del type="reformulation" cert="medium">che è scappato</del> vestito in uniforme<pause/> come si fa <emph>a scappare</emph> <del type="falseStart">vestito<pause/> con l'albero a <del type="truncation">stris</del> <choice><orig>colla</orig><reg resp="#GB">con la</reg></choice></del> <del type="reformulation"><choice><orig>col</orig><reg resp="#GB">con il</reg></choice> vestito a strisce</del><pause/> non sa quello che fa</q><join target="#q24 #q25" result="q" type="quotation" scope="branches"></join><pause/> allora dice <q type="spoken" xml:id="q26">va bene allora <vocal>mm</vocal><pause/> <del type="repetition">gli</del><pause/> gli dò salva la vita<pause/> però lo mandiamo a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName></q> che non era lontano<pause/> <q type="spoken" xml:id="q27">con il <emph>segno rosso</emph> <vocal>mm</vocal><pause/> qui</q><join target="#q26 #q27" result="q" type="quotation" scope="branches"></join><pause/><!--6:37--> questo chi portava questo segno rosso<pause/> appena si avvicinava<pause/> non s- che fosse passato<pause/> ma si avvicinava alla<pause/> come si chiamava?
+                </u>
             </div>
 
         </body>
@@ -2735,23 +2821,6 @@ City: Milan -->
 
 </TEI>
 <!--           
-M.S: quanto è durato questo viaggio secondo lei?
-A.W: non mi ricordo quanti giorni, ma diversi giorni.
-M.S: e dormivate come?
-A.W: niente, dentro nel vagone, si dormiva, si c- cercava di chiudere gli occhi, eravamo sempre come le sardine no? Eee, arrivati a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName> c'erano  degli ebrei ungheresi. Siccome mia madre era ungherese - parlavo in quell'epoca ancora un po' d'ungherese, adesso l'ho quasi dimenticato completamente - ee mi ha regalato una rapa. Una rapa, una comune rapa, perché noi ci davano le rape da mangiare ma le rape degli animali, mentre quella era una rapa normale, bianco blu, bian- bianco azzurro: mi sembrava di aver raggiunto il cielo con un dito di mangiare questa rapa. Va bene, da <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName>...
-M.S: Un attimo, ci fermiamo per cambiare la cassetta.
-A.W: Il fatto che io non me ne accorga vuol dire che sto parlando tanto.
-M.S: no, no emh va bene, no ma lei, un momen-
-
-→ Tape: 8 of 1
-M.S: 4 marzo 1998, cassetta numero 8, intervisto il signor Arminio Wachsberger. Allora siamo rimasti a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName>...
-A.W: Siamo arrivati a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName>.
-M.S: Mi descriva <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName>...
-A.W: A <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName> siamo rimasti un paio di giorni. <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName> era il primo campo di concentramento tedesco che è stato sviluppato già nel 34, poi hanno fatto gli altri...
-M.S: lei era sempre con questi 42 italiani?
-A.W: no di italiani non c'erano più, che solamente eravamo in 3.
-M.S: cosa è successo?
-A.W: morti. Morti d- di stenti, di tifo... eravamo rimasti: io, Lillo Di Segni e questo Isacco Sermoneta - che aveva un sacco di familiari - il quale una volta, dop-, nel campo dove eravamo al <placeName ref="TEI-ListPlace.xml#WalV">Waldlager</placeName> aveva tagliato la corda però vestito ancora da prigioniero e naturalmente l'hanno ripreso e l'hanno riportato al campo. E il comandante era di Laverna(?), il comandante del <placeName ref="TEI-ListPlace.xml#WalV">Waldlager</placeName> negli ultimi mesi, allora ha fatto montare la forca ee, la <time from="00:18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time>, sarebbe stato ammazza- stato impiccato la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> dopo. Nel frattempo l'hanno messo nel bunker sotterraneo. Di italiani eravamo io, una milanese che si chiama - spero che viva ancora, che lei era ebrea, il marito cattolico, e <choice><orig>c&#39;ha</orig><reg resp="#GB">ha</reg></choice> il figlio, il marito e il figlio son rimasti a <placeName ref="TEI-ListPlace.xml#MI">Milano</placeName> vivi, lei è stata deportata a <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName> - Hahim(?) è il cognome ma poi Hahim (?)ee il marito, portava anche il nome del marito, ed era italiana milanese, e in più c'era una partigiana piemontese, non ebrea - perché a <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName>? Portavano anche i partigiani, non solamente ebrei. E allora noi, durante la giornata e la <time from="24:00:00" to="06:00:00" resp="#GB" cert="medium">notte</time>, portavamo da mangiare a questo povero Isacco Sermoneta. La <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> "Zahlappel", la forca è pronta, il comandante dice "io secondo le norme dovrei impiccarlo perché così così ha cercato di fuggire", allora io mi son rivolto al comandante e dico "signor comandante questo Isa-" - io Isacco Sermoneta prima non lo conoscevo, dico "lui da casa era già matto, prova (?) sia che è scappato vestito in uniforme, come si fa a scappare vestito con l'albero a stris- con la con il vestito a strisce, non sa quello che fa", allora dice "va bene, allora gli gli do salva la vita però lo mandiamo a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName>" che non era lontano "con il segno rosso qui" - questo, chi portava questo segno rosso appena si avvicinava, non s- che fosse passato, ma si avvicinava alla, come si chiamava?
 M.S: al recinto...
 A.W: al recinto, la <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> aveva il diritto di sparare perché era un criminale riconosciuto, e lui non è scappato. Però lui a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName> ha conosciuto quello che non ho conosciuto io: il lll, quello che... paracadutista che l'hanno lanciato... Sereni.
 M.S: ah.
