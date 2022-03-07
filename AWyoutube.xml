@@ -848,6 +848,29 @@ City: Milan -->
             <when xml:id="TT348" since="#TT347" interval="3"/>
         </timeline>
 
+        <timeline xml:id="TL2IV" unit="s"> 
+            <when xml:id="TT349" absolute="00:00:38" synch="arm-349"/>
+            <when xml:id="TT350" since="#TT349" interval="1"/>
+
+            <when xml:id="TT351" absolute="00:00:59" synch="arm-351"/>
+            <when xml:id="TT352" since="#TT351" interval="1"/>
+
+            <when xml:id="TT353" absolute="00:01:22" synch="ma-353"/>
+            <when xml:id="TT354" since="#TT353" interval="1"/>
+
+            <when xml:id="TT355" absolute="00:01:24" synch="ma-355"/>
+            <when xml:id="TT356" since="#TT355" interval="1"/>
+
+            <when xml:id="TT357" absolute="00:01:33" synch="arm-357"/>
+            <when xml:id="TT358" since="#TT357" interval="1"/>
+
+            <when xml:id="TT359" absolute="00:01:35" synch="ma-359"/>
+            <when xml:id="TT360" since="#TT359" interval="2"/>
+
+            <when xml:id="TT361" absolute="00:02:52" synch="arm-361"/>
+            <when xml:id="TT362" since="#TT361" interval="1"/>
+        </timeline>
+
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
         <!--parte I-->
         <timeline xml:id="TL3I" unit="s">                
@@ -1158,6 +1181,17 @@ City: Milan -->
             <when xml:id="TS297" synch="#AW147" absolute="00:25:10"/>
             <when xml:id="TS298" synch="#MA147" absolute="00:26:27"/>
             <when xml:id="TS299" synch="#AW148" absolute="00:26:29"/>
+        </timeline>
+
+        <timeline  xml:id="TL3IV" unit="s"> 
+            <when xml:id="TS300" synch="#AW149" absolute="00:00:00"/>
+            <when xml:id="TS301" synch="#MA148" absolute="00:01:18"/>
+            <when xml:id="TS302" synch="#AW150" absolute="00:01:22"/>
+            <when xml:id="TS303" synch="#MA149" absolute="00:01:23"/>
+            <when xml:id="TS304" synch="#AW151" absolute="00:01:24"/>
+            <when xml:id="TS305" synch="#MA150" absolute="00:01:33"/>
+            <when xml:id="TS306" synch="#AW152" absolute="00:01:35"/>
+            <when xml:id="TS307" synch="#MA151" absolute="00:25:10"/>
         </timeline>
     </standOff>
 
@@ -2648,7 +2682,51 @@ City: Milan -->
 
                 <u who="#AW" xml:id="AW148" synch="#TS299">
                     <anchor xml:id="arm-347" synch="#TT347"/>ecco questi 300 eran <choice><sic>rimasto</sic><corr resp="#GB">rimasti</corr></choice><pause/><anchor xml:id="arm-348" synch="#TT348"/> e noi dicevamo <q type="thought"><distinct type="diminutive">poveretti</distinct> saranno morti anche loro</q><pause/> e<pause/> io mi trovo a <placeName ref="TEI-ListPlace.xml#Fe">Feldafing</placeName> da uomo libero<pause/><vocal><desc>tira su con il naso</desc></vocal> e c'erano dei conoscenti c'era per caso con noi anche <persName ref="TEI-ListPerson.xml#IsaccoS">Isacco Sermoneta</persName><pause/> che ha preso la tubercolosi e veniva da un <choice><sic>tubercolisario</sic><corr resp="#GB">tubercolosario</corr></choice><pause/> e stavo raccontando guardate un po' cosa vuol dire <del type="repetition">quel quel</del><pause/> quel <rs ref="TEI-ListPerson.xml#Tis" resp="#GB"><addName type="nickName">Tischler</addName></rs> che era <emph>già libero</emph><pause/> perché quando siamo usciti noi
-                </u><!--join utterance-->
+                </u>
+            </div>
+
+            <div type="testo" ref="#parteIV"> <!-- parte IV -->
+                <u who="#AW" xml:id="AW149" synch="#TS300">
+                    è uscito anche <rs ref="TEI-ListPerson.xml#Tis" resp="#GB">lui</rs> quando è arrivato alla porta dice <q type="spoken" who="TEI-ListPerson.xml#Tis">no<pause/> torno indietro</q><pause/> è <del type="truncation">tornat</del><pause/> e dico <q type="spoken" who="TEI-ListPerson.xml#AW">guarda se <vocal>mm</vocal> veniva con noi si salvava adesso è morto</q><pause/> battono alla porta<pause/> e <unclear reason="inaudible" resp="#GB" cert="medium">chi era ad entrare</unclear><pause/> <rs ref="TEI-ListPerson.xml#Tis" resp="#GB"><addName type="nickName">Tischler</addName></rs> <pause/> <shift feature="loud" new="normal"><choice><sic>al</sic><corr resp="#GB">nel</corr></choice> momento in cui io raccontavo la sua storia è capitato <rs ref="TEI-ListPerson.xml#Tis" resp="#GB">lui</rs></shift><pause/> adesso mi sto muovendo troppo lo so <vocal><desc>tira su con il naso</desc></vocal><pause/> cercherò di<pause/> muovermi un po' meno<pause/> e allora <rs ref="TEI-ListPerson.xml#Tis" resp="#GB"><addName type="nickName">Tischler</addName></rs> ci ha raccontato cos'era successo<pause/> questi 300<pause/><vocal><desc>click con la lingua</desc></vocal> i <emph>polacchi</emph><pause/> che erano rimasti polacchi non ebrei <del type="falseStart">in nelle<pause/> e <del type="truncation">s</del></del> avendo saputo che <del type="truncation">s</del> erano rimasti pochi della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> e fra questi quello<pause/> che noi chiamavamo <foreign xml:lang="de" xml:id="trad34">der schwarze</foreign> <gloss target="#trad34">il nero</gloss><anchor xml:id="arm-349" synch="#TT349"/><pause/><anchor xml:id="arm-350" synch="#TT350"/> quello che <choice><orig>m'aveva</orig><reg resp="#GB">aveva</reg></choice> dato le <distinct type="informal">botte</distinct> a me<pause/> <del type="truncation">s</del> i polacchi non ebrei hanno attaccato il <rs ref="TEI-ListPlace.xml#GhettoWA" resp="#GB">ghetto</rs> dove c'erano questi 300 e <emph>hanno</emph> salvato questi 300<pause/> erano 300 ebrei <emph>salvi</emph><pause/> e li hanno messi in una scuola<pause/> <distinct type="common_saying"><choice><sic>vuole <unclear reason="inaudible" resp="#GB" cert="medium">il</unclear> destino</sic><corr resp="#GB">il destino vuole che</corr></choice></distinct> cade una bomba<pause/> sopra la scuola<pause/> <distinct type="informal">ammazza</distinct> tutti quanti meno <rs ref="TEI-ListPerson.xml#Tis" resp="#GB">lui</rs><anchor xml:id="arm-351" synch="#TT351"/><pause/><anchor xml:id="arm-352" synch="#TT352"/> e <rs ref="TEI-ListPerson.xml#Tis" resp="#GB">lui</rs> adesso si trova in <placeName ref="TEI-ListPlace.xml#USA">America</placeName><pause/> ed è venuto a <placeName ref="TEI-ListPlace.xml#Fe">Feldafing</placeName> per vedere se riconosceva qualcuno dei suoi compagni<pause/> un redivivo<pause/> <del type="falseStart">ma le ho raccontato che</del> è interessante che <shift feature="loud" new="normal">è <del type="falseStart"><del type="truncation">ven</del></del> entrato dentro proprio nel momento <choice><sic>io</sic><corr resp="#GB">in cui io</corr></choice> raccontavo la sua storia credendo che fosse morto</shift>
+                </u>
+
+                <join target="#AW149 #AW148" result="u" type="utterance" scope="branches"></join>
+
+                <u who="#MA">
+                    <anchor xml:id="ma-349" synch="#TT349"/><vocal><desc>annuisce</desc></vocal><anchor xml:id="ma-350" synch="#TT350"/>
+                    <anchor xml:id="ma-351" synch="#TT351"/><unclear reason="inaudible" resp="#GB" cert="medium">incredibile</unclear><anchor xml:id="ma-352" synch="#TT352"/>
+                </u>
+
+                <pause/>
+
+                <u who="#MA" xml:id="MA148" synch="#TS301">
+                    <vocal>bah</vocal> allora<pause/> andiamo per ordine <vocal>ehh</vocal> <del type="falseStart">siete andati</del> <del type="reformulation">a piedi siete andati</del> fino a <anchor xml:id="ma-353" synch="#TT353"/><placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName><anchor xml:id="ma-354" synch="#TT354"/>
+                </u>
+
+                <u who="#AW" xml:id="AW150" synch="#TS302">
+                    <anchor xml:id="arm-353" synch="#TT353"/><del type="falseStart">fino a</del><anchor xml:id="arm-354" synch="#TT354"/> no fino a <emph><placeName ref="TEI-ListPlace#EKU">Kutno</placeName></emph>
+                </u>
+
+                <u who="#MA" xml:id="MA149" synch="#TS303">
+                    <placeName ref="TEI-ListPlace#EKU">Kutno</placeName> poi a <anchor xml:id="ma-355" synch="#TT355"/><placeName ref="TEI-ListPlace#EKU">Kutno</placeName><anchor xml:id="ma-356" synch="#TT356"/>
+                </u>
+
+                <u who="#AW" xml:id="AW151" synch="#TS304">
+                    <anchor xml:id="arm-355" synch="#TT355"/><del type="falseStart">da <placeName ref="TEI-ListPlace#EKU">Kutno</placeName><anchor xml:id="arm-356" synch="#TT356"/> <choice><orig>c'hanno</orig><reg resp="#GB">ci hanno</reg></choice> messo su a</del> dunque adesso <del type="repetition">a</del><pause/> a <placeName ref="TEI-ListPlace#EKU">Kutno</placeName> <choice><orig>c'hanno</orig><reg resp="#GB">ci hanno</reg></choice> messo in questi vagoni<pause/> e andavano <unclear reason="inaudible" resp="#GB" cert="medium">con</unclear> una lentezza esasperata e siamo <anchor xml:id="arm-357" synch="#TT357"/>arrivati<anchor xml:id="arm-358" synch="#TT358"/>
+                </u>
+
+                <u who="#MA" xml:id="MA150" synch="#TS305">
+                    <anchor xml:id="ma-357" synch="#TT357"/>sempre<anchor xml:id="ma-358" synch="#TT358"/> <del type="truncation">va</del> vagoni come i soliti <anchor xml:id="ma-359" synch="#TT359"/><del type="falseStart">che aveva già</del><pause/> si<anchor xml:id="ma-360" synch="#TT360"/>
+                </u>
+
+                <u who="#AW" xml:id="AW152" synch="#TS306">
+                    <anchor xml:id="arm-359" synch="#TT359"/><del type="truncation">s</del> sono i soliti vagoni solo che<anchor xml:id="arm-360" synch="#TT360"/> erano aperti perché era <date from="--06-20" to="--09-23">estate</date><pause/> non avevano il tetto<pause/> ma <del type="repetition">non</del> non disturbava perché anzi era meglio prendevamo un po' d'aria<vocal><desc>espira</desc></vocal><pause/> però <pause/>non le racconto quanti sono morti<pause/> voglio <del type="truncation">f</del> però riferire un caso che era successo<pause/> noi quando andavamo a <emph>piedi</emph><pause/> non ci davano né mangiare né bere<pause/> allora il <emph>mangiare</emph> come facevamo c'erano dei campi di patate<pause/> con la scusa di andare a fare i propri bisogni<pause/> <del type="falseStart"><del type="truncation">gra</del></del> specialmente io<pause/> <del type="reformulation">grattavamo</del> le patate dal fondo e le nascondevamo qui <del type="falseStart">nel</del><pause/> <del type="correction">nei</del> calzoni e poi<pause/> crude le mangiavamo<pause/> però<pause/> c'era la sete acqua non era trovabile<pause/> arriviamo a un fiume<pause/> <del type="falseStart">c'è anche</del> lo so anche il nome <unclear reason="inaudible" resp="#GB" cert="low">ma</unclear> non me lo ricordo ma sulla carta c'è sicuramente<pause/> allora dice <q type="spoken">ecco potete andarvi <unclear reason="inaudible" resp="#GB" cert="low">a</unclear> bagnare e bere</q><pause/> però le <distinct type="military">sentinelle</distinct> sono<pause/> <choice><orig>col</orig><reg resp="#GB">con il</reg></choice> <distinct type="military">mitra</distinct> puntato<pause/> e noi entriamo <unclear reason="inaudible" resp="#GB" cert="low">e</unclear> beviamo l'acqua finalmente<pause/> <emph><del type="repetition">un ebreo ungherese</del></emph><pause/> un ebreo ungherese<pause/> si è spinto un po' più in fuori<pause/> allora la <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> <choice><sic>le</sic><corr resp="#GB">gli</corr></choice> ha sparato<pause/> e lo ha ucciso<pause/> naturalmente l'acqua si è subito<pause/> sporcata di sangue<pause/> e ci hanno <emph>obbligato</emph> a bere quell'acqua lì<pause/> <q type="spoken"><foreign xml:lang="de" xml:id="trad35">ihr musst trinken</foreign> <gloss target="#trad35">dovete bere</gloss> quell'acqua lì</q><choice><orig>vabbè</orig><reg resp="#GB">va bene</reg></choice><vocal><desc>espira</desc></vocal><pause/> <del type="falseStart">questo era<pause/> <vocal>ehm</vocal></del> <del type="reformulation">questa <vocal>emh</vocal> non era</del> la <placeName ref="TEI-ListPlace.xml#Vistola">vistola</placeName> <anchor xml:id="arm-361" synch="#TT361"/>era un <del type="repetition">altro</del><pause/><anchor xml:id="arm-362" synch="#TT362"/> altro fiume<pause/> <del type="falseStart">e arrivati<pause/><vocal><desc>deglutisce</desc></vocal> a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName><pause/> <anchor xml:id="arm-363" synch="#TT363"/>i<anchor xml:id="arm-364" synch="#TT364"/></del>
+                </u>
+
+                <u who="#MA">
+                    <anchor xml:id="ma-361" synch="#TT361"/><vocal><desc>annuisce</desc></vocal><pause/> si<anchor xml:id="ma-362" synch="#TT362"/>
+                </u>
+                <!--2:55-->
             </div>
 
         </body>
@@ -2657,18 +2735,6 @@ City: Milan -->
 
 </TEI>
 <!--           
-PARTE IV
-A.W: è uscito anche lui, quando è arrivato alla porta dice "no, torno indietro", è tornat-, e dico "guarda se veniva con noi si salvava, adesso è morto", battono alla porta e (chi era ad entrare?)? Thisler(?): al momento in cui io raccontavo la sua storia è capitato lui - adesso mi sto muovendo troppo lo so, cercherò di muovermi un po' meno - e allora Thisler(?) ci ha raccontato cos'era successo. Questi 300, i polacchi che erano rimasti - polacchi non ebrei - in le avendo saputo che erano rimasti pochi della <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> e fra quelli che noi chiamavamo "daschwarz", il nero, quello che mi aveva dato le <distinct type="informal">botte</distinct> a me. I polacchi non ebrei hanno attaccato il ghetto, dove c'erano questi 300, e hanno salvato questi 300: erano 300 ebrei salvi e gli hanno messi in una scuola, vuole il destino cade una bomba sopra la scuola, ammazza tutti quanti meno lui. E lui adesso si trova in America ed è venuto a Mühldorf?? Per vedere se riconosceva qualcuno dei suoi compagni. Un redivivo, ma ho raccontato che... è interessante che è entrato dentro proprio nel momento io raccontavo la sua storia credendo che fosse morto.
-M.S: beh, allora andiamo per ordine... siete andati a piedi, siete andati fino a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName>?
-A.W: fino a... no, fino a <placeName ref="TEI-ListPlace#EKU">Kutno</placeName>.
-M.S: <placeName ref="TEI-ListPlace#EKU">Kutno</placeName>. Poi a <placeName ref="TEI-ListPlace#EKU">Kutno</placeName>...
-A.W: da <placeName ref="TEI-ListPlace#EKU">Kutno</placeName> ci hanno messo su aa, dunque adesso aa a <placeName ref="TEI-ListPlace#EKU">Kutno</placeName> <choice><orig>c&#39;ha</orig><reg resp="#GB">ha</reg></choice>nno messo in questi vagoni e andavano - a una lentezza esasperata - e siamo arrivati...
-M.S: sempre va- vagoni come i soliti che aveva già...
-A.W: sono i soliti vagoni 
-M.S: si.
-A.W: solo che erano aperti perché era estate, non avevano il tetto... non non disturbava perché anzi era meglio, prendevamo un po' d'aria, però non le racconto quanti sono morti. Voglio però riferire un caso che era successo: noi quando andavamo a piedi non ci davano né mangiare né bere, allora il mangiare come facevamo? C'erano dei campi di patate, con la scusa di andare a fare i propri bisogni, specialmente io, grattavamo le patate dal fondo e le nascondevamo qui nel nei calzoni e poi crude le mangiavamo. Però c'era la sete, acqua non era trovabile. Arriviamo a un fiume - c'è anche, lo so anche il nome, non me lo ricordo ma sulla carta c'è sicuramente - allora dice "ecco, potete andarvi a bagnare e bere", però le <distinct type="military">sentinelle</distinct> sono <choice><orig>col</orig><reg resp="#GB">con il</reg></choice> mitra puntato. E noi entriamo, beviamo l'acqua finalmente, un ebreo ungherese, un ebreo ungherese si è spinto un po' più in fuori, allora la <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> le ha sparato e lo ha ucciso. Naturalmente l'acqua si è subito sporcata di sangue e ci hanno obbligato a bere quell'acqua lì (frase in tedesco) "dovete bere quell'acqua lì". <choice><orig>vabbè</orig><reg resp="#GB">va bene</reg></choice>, questo era, questa emh non era la Vistola, era un altro, altro fiume.
-M.S: Si.
-A.W: Eee arrivati a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName>...
 M.S: quanto è durato questo viaggio secondo lei?
 A.W: non mi ricordo quanti giorni, ma diversi giorni.
 M.S: e dormivate come?
