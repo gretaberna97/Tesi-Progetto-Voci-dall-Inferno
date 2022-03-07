@@ -2135,6 +2135,36 @@
 
                         </person>
 
+                        <!--Di Porto: non trovo informazioni su di lui-->
+                        <person xml:id="DiPorto"> 
+    
+                                <persName>
+                                    <ref target=""/>
+                                    <foreName></foreName>
+                                    <surname type="combine">Di Porto</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="" cert=""></date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" cert=""></date>
+                                    <placeName ref="TEI-ListPlace#WA" cert="medium">
+                                        <note resp="#GB">Desumo dalle parole di Arminio Wachsberger che l'uomo morì a Varsavia</note>
+                                        <settlement type="municipality">Varsavia</settlement>
+                                        <country key="PL">Polonia</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
                         <!-- Lista delle relazioni -->
                         <listRelation>
                             <relation name="interviewers" active="#LPF #MA #PF" passive="#AW"/>
@@ -2165,7 +2195,7 @@
                             <relation name="deportee-survivor" mutual="#AW #SettimiaS #LelloDS #IsaccoS #TriesteB #GotiB #IsraelS"/>
                             <relation name="survivor" mutual="#LauraM #PaolaDS #GuidoDS"/>
                             <relation name="writer" active="#RudolfV" mutual="#AW"/>
-                            <relation name="deportee-Varsavia" mutual="#AW #IsaacSS #MarioDV #LelloDS #IsaccoS #LilloDS #CarloP #LeonelloDS #GiancarloDS"/>
+                            <relation name="deportee-Varsavia" mutual="#AW #IsaacSS #MarioDV #LelloDS #IsaccoS #LilloDS #CarloP #LeonelloDS #GiancarloDS #DiPorto"/>
                             <relation name="deportee-Muhldorf" mutual="#AW #LelloDS #IsaccoS #TriesteB #ErnstL"/>
                             <relation name="helper" active="#CapBlasi" passive="#AW #ErnstL #TriesteB"/>
                             <relation name="helper" active="#IrvingJS" passive="#AW #ErnstL #TriesteB"/>
