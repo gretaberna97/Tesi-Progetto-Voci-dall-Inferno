@@ -929,6 +929,45 @@ City: Milan -->
 
             <when xml:id="TT401" absolute="00:09:48" synch="ma-401"/>
             <when xml:id="TT402" since="#TT401" interval="1"/>
+
+            <when xml:id="TT403" absolute="00:10:01" synch="arm-403"/>
+            <when xml:id="TT404" since="#TT403" interval="1"/>
+
+            <when xml:id="TT405" absolute="00:10:07" synch="arm-405"/>
+            <when xml:id="TT406" since="#TT405" interval="1"/>
+
+            <when xml:id="TT407" absolute="00:10:08" synch="ma-407"/>
+            <when xml:id="TT408" since="#TT407" interval="1"/>
+
+            <when xml:id="TT409" absolute="00:10:16" synch="arm-409"/>
+            <when xml:id="TT410" since="#TT409" interval="1"/>
+
+            <when xml:id="TT411" absolute="00:10:18" synch="ma-411"/>
+            <when xml:id="TT412" since="#TT411" interval="1"/>
+
+            <when xml:id="TT413" absolute="00:10:33" synch="arm-413"/>
+            <when xml:id="TT414" since="#TT413" interval="1"/>
+
+            <when xml:id="TT415" absolute="00:10:40" synch="arm-415"/>
+            <when xml:id="TT416" since="#TT415" interval="1"/>
+
+            <when xml:id="TT417" absolute="00:10:45" synch="arm-417"/>
+            <when xml:id="TT418" since="#TT417" interval="1"/>
+
+            <when xml:id="TT419" absolute="00:10:55" synch="arm-419"/>
+            <when xml:id="TT420" since="#TT419" interval="1"/>
+
+            <when xml:id="TT421" absolute="00:11:19" synch="ma-421"/>
+            <when xml:id="TT422" since="#TT421" interval="1"/>
+
+            <when xml:id="TT423" absolute="00:11:20" synch="arm-423"/>
+            <when xml:id="TT424" since="#TT423" interval="1"/>
+
+            <when xml:id="TT425" absolute="00:11:31" synch="ma-425"/>
+            <when xml:id="TT426" since="#TT425" interval="1"/>
+
+            <when xml:id="TT427" absolute="00:12:14" synch="arm-427"/>
+            <when xml:id="TT428" since="#TT427" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -1284,6 +1323,20 @@ City: Milan -->
             <when xml:id="TS337" synch="#AW167" absolute="00:09:31"/>
             <when xml:id="TS338" synch="#MA167" absolute="00:09:46"/>
             <when xml:id="TS339" synch="#AW168" absolute="00:09:50"/>
+            <when xml:id="TS340" synch="#MA168" absolute="00:10:01"/>
+            <when xml:id="TS341" synch="#AW169" absolute="00:10:03"/>
+            <when xml:id="TS342" synch="#MA169" absolute="00:10:07"/>
+            <when xml:id="TS343" synch="#AW170" absolute="00:10:08"/>
+            <when xml:id="TS344" synch="#MA170" absolute="00:10:16"/>
+            <when xml:id="TS345" synch="#AW171" absolute="00:10:18"/>
+            <when xml:id="TS346" synch="#MA171" absolute="00:10:30"/>
+            <when xml:id="TS347" synch="#AW172" absolute="00:10:33"/>
+            <when xml:id="TS348" synch="#MA172" absolute="00:11:16"/>
+            <when xml:id="TS349" synch="#AW173" absolute="00:11:19"/>
+            <when xml:id="TS350" synch="#MA173" absolute="00:11:23"/>
+            <when xml:id="TS351" synch="#AW174" absolute="00:11:23"/>
+            <when xml:id="TS352" synch="#MA174" absolute="00:11:27"/>
+            <when xml:id="TS353" synch="#AW175" absolute="00:11:31"/>
         </timeline>
     </standOff>
 
@@ -2991,8 +3044,78 @@ City: Milan -->
                 </u>
 
                 <u who="#AW" xml:id="AW168" synch="#TS339">
-                    <vocal><desc>deglutisce</desc></vocal> <del type="falseStart">io <del type="truncation">l</del> a ciascuno</del> <del type="repetition">la</del> la maggior parte <choice><sic>di</sic><corr resp="#GB">del</corr></choice> lavoro era<pause/> <unclear reason="inaudible" resp="#GB" cert="low"><del type="falseStart" cert="low">a e</del></unclear> in questo <foreign xml:lang="en">tunnel</foreign> <del type="falseStart">dove veniva costruita la <choice><abbr>V2</abbr><expan resp="#GB">Vergeltungswaffen 2</expan></choice></del> <del type="reformulation"><emph>dove era previsto</emph> di costruire<pause/> la <choice><abbr>V2</abbr><expan resp="#GB">Vergeltungswaffen 2</expan></choice></del><pause/><vocal><desc>deglutisce</desc></vocal> <del type="falseStart">ma io</del>
+                    <vocal><desc>deglutisce</desc></vocal> <del type="falseStart">io <del type="truncation">l</del> a ciascuno</del> <del type="repetition">la</del> la maggior parte <choice><sic>di</sic><corr resp="#GB">del</corr></choice> lavoro era<pause/> <unclear reason="inaudible" resp="#GB" cert="low"><del type="falseStart" cert="low">a e</del></unclear> in questo <foreign xml:lang="en">tunnel</foreign> <del type="falseStart">dove veniva costruita la <choice><abbr>V2</abbr><expan resp="#GB">Vergeltungswaffen 2</expan></choice></del> <del type="reformulation"><emph>dove era previsto</emph> di costruire<pause/> la <choice><abbr>V2</abbr><expan resp="#GB">Vergeltungswaffen 2</expan></choice></del><pause/><vocal><desc>deglutisce</desc></vocal> <anchor xml:id="arm-403" synch="#TT403"/><del type="falseStart">ma io</del><anchor xml:id="arm-404" synch="#TT404"/>
                 </u>
+
+                <u who="#MA" xml:id="MA168" synch="#TS340">
+                    <anchor xml:id="ma-403" synch="#TT403"/>ma anche<anchor xml:id="ma-404" synch="#TT404"/> se non eravate<pause/> specializzati
+                </u>
+                
+                <u who="#AW" xml:id="AW169" synch="#TS341">
+                    <del type="repetiton">no</del> no <del type="falseStart">ci <vocal>mm</vocal> si <vocal>ehm</vocal></del> <unclear reason="inaudible" resp="#GB" cert="low"><del type="reformulation" cert="low">c'</del></unclear>erano i <term ref="AWcdec.xml#measter" xml:lang="de">maester</term> che ci <emph>insegnavano</emph><pause/> cosa <anchor xml:id="arm-405" synch="#TT405"/>dovevamo fare<anchor xml:id="arm-406" synch="#TT406"/>
+                </u>
+
+                <u who="#MA" xml:id="MA169" synch="#TS342">
+                    <anchor xml:id="ma-405" synch="#TT405"/>lei è<anchor xml:id="ma-406" synch="#TT406"/> stato in questo <anchor xml:id="ma-407" synch="#TT407"/><foreign xml:lang="en">tunnel</foreign><anchor xml:id="ma-408" synch="#TT408"/>
+                </u>
+
+                <u who="#AW" xml:id="AW170" synch="#TS343">
+                    <anchor xml:id="arm-407" synch="#TT407"/>ecco<anchor xml:id="arm-408" synch="#TT408"/> io son stato una sola volta<pause/> che l'ho raccontavo di quel <unclear reason="inaudible" resp="#GB" cert="low"><foreign xml:lang="de">arbeit ainze fuhrer</foreign></unclear><vocal><desc>tira su con il naso</desc></vocal><pause/> che <choice><orig>m'ha</orig><reg resp="#GB">mi ha</reg></choice> fatto portare i sacchi di cemento<pause/> <anchor xml:id="arm-409" synch="#TT409"/><del type="falseStart">e</del><anchor xml:id="arm-410" synch="#TT410"/>
+                </u>
+
+                <u who="#MA" xml:id="MA170" synch="#TS344">
+                    <anchor xml:id="ma-409" synch="#TT409"/><vocal>ah beh</vocal><anchor xml:id="ma-410" synch="#TT410"/> lo deve raccontare<pause/> <anchor xml:id="ma-411" synch="#TT411"/>adesso<anchor xml:id="ma-412" synch="#TT412"/>
+                </u>
+
+                <u who="#AW" xml:id="AW171" synch="#TS345">
+                    <anchor xml:id="arm-411" synch="#TT411"/>si<anchor xml:id="arm-412" synch="#TT412"/><pause/> dunque era così che un giorno io ero interprete <del type="falseStart">della</del> <del type="correction">degli</del> italiani<pause/> non ebrei<pause/> che non erano <emph>deportati</emph><pause/> ma che sono stati <emph>razziati</emph> in <placeName ref="TEI-ListPlace.xml#IT">Italia</placeName> per portarli a lavorare in <placeName ref="TEI-ListPlace.xml#DE">Germania</placeName><pause/> <vocal>ehm</vocal>
+                </u>
+
+                <u who="#MA" xml:id="MA171" synch="#TS346">
+                    quindi c'erano ebrei<pause/> e non ebrei <anchor xml:id="ma-413" synch="#TT413"/><del type="falseStart"><del type="repetition">in questo</del><pause/> in questo</del><anchor xml:id="ma-414" synch="#TT414"/>
+                </u>
+
+                <u who="#AW" xml:id="AW172" synch="#TS347">
+                    <anchor xml:id="arm-413" synch="#TT413"/><vocal>eh</vocal> <del type="falseStart"><del type="repetition">in</del> in questo</del> <del type="reformulation">ma in questo<anchor xml:id="arm-414" synch="#TT414"/> <foreign xml:lang="de">lager</foreign></del> <placeName ref="TEI-ListPlace.xml#WalV">Waldlager</placeName> loro venivano solo la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> e la <time from="00:18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time> andavano via<pause/> perché avevano <emph>proprie baracche</emph><anchor xml:id="arm-415" synch="#TT415"/><pause/> e potevano girare<anchor xml:id="arm-416" synch="#TT416"/> per <measure><num>10</num> <unit>chilometri</unit></measure> <del type="falseStart">di<pause/> <del type="truncation">circond</del></del> <anchor xml:id="arm-417" synch="#TT417"/><del type="reformulation">di circondario</del><pause/><anchor xml:id="arm-418" synch="#TT418"/><vocal><desc>prende fiato</desc></vocal> erano liberi<pause/><incident iterated="true"><desc>rumore elettronico</desc></incident> <emph>non solo</emph><pause/> potevano <del type="falseStart">a fs</del> corrispondere con le proprie famiglie<pause/> ma le lettere bisognava scriverle in <lang>tedesco</lang><pause/> allora venivano <q type="spoken"><persName ref="TEI-ListPerson.xml#AW"><choice><sic>Erminio</sic><corr resp="#GB">Arminio</corr></choice></persName> se sei <anchor xml:id="arm-419" synch="#TT419"/>tanto gentile<anchor xml:id="arm-420" synch="#TT420"/> dimmi scrivi<pause/> una domanda che mia mamma sta poco <choice><sic>male</sic><corr resp="#GB">bene</corr></choice> eccetera<pause/> <del type="falseStart">e vorrei</del></q> e gli davano delle licenze<pause/> però <vocal>ehm</vocal> <emph>a me</emph><pause/> <choice><sic>mi davano</sic><corr resp="#GB">davano</corr></choice> qualcosa per queste lettere perché <del type="truncation">d</del> loro<pause/> abitavano in famiglie e conosciuto ragazze tedesche<pause/> che erano sole perché i mariti i fidanzati eran tutti <del type="falseStart">alla</del> <vocal>mm</vocal><pause/> <emph><del type="correction">al</del> fronte</emph><pause/> quindi facevan presto amicizia con questi italiani
+                </u>
+
+                <u who="#MA">
+                    <anchor xml:id="ma-415" synch="#TT415"/><vocal>ahh</vocal><pause/> separati<anchor xml:id="ma-416" synch="#TT416"/>
+                    <anchor xml:id="ma-417" synch="#TT417"/><vocal><desc>annuisce</desc></vocal><pause/> si<anchor xml:id="ma-418" synch="#TT418"/>
+                    <anchor xml:id="ma-419" synch="#TT419"/><vocal>ahhh</vocal><anchor xml:id="ma-420" synch="#TT420"/>
+                </u>
+
+                <u who="#MA" xml:id="MA172" synch="#TS348">
+                    ma quindi erano liberi <del type="falseStart">ma</del> <del type="reformulation">e</del> non liberi<pause/> <anchor xml:id="ma-421" synch="#TT421"/><unclear reason="inaudible" resp="#GB" cert="medium">c'è</unclear><anchor xml:id="ma-422" synch="#TT422"/>
+                </u>
+
+                <u who="#AW" xml:id="AW173" synch="#TS349">
+                    <anchor xml:id="arm-421" synch="#TT421"/>erano<anchor xml:id="arm-422" synch="#TT422"/> <emph>liberi e non <anchor xml:id="arm-423" synch="#TT423"/>liberi<anchor xml:id="arm-424" synch="#TT424"/></emph> però ripeto <del type="falseStart">di</del><pause/> stavano molto meglio 
+                </u>
+
+                <u who="#MA">
+                    <anchor xml:id="ma-423" synch="#TT423"/>si<anchor xml:id="ma-424" synch="#TT424"/>
+                </u>
+
+                <u who="#MA" xml:id="MA173" synch="#TS350">
+                    certo
+                </u>
+
+                <u who="#AW" xml:id="AW174" synch="#TS351">
+                    <vocal><desc>deglutisce</desc></vocal><del type="falseStart">e<pause/> allora</del>
+                </u>
+
+                <u who="#MA" xml:id="MA174" synch="#TS352">
+                    un giorno mi stava dicendo <del type="repetition">è</del> è andato proprio in questo <foreign xml:lang="en">tunnel</foreign> dove c'era<anchor xml:id="ma-425" synch="#TT425"/><pause/> la costruzione<anchor xml:id="ma-426" synch="#TT426"/>
+                </u>
+
+                <u who="#AW" xml:id="AW175" synch="#TS353">
+                    <anchor xml:id="arm-425" synch="#TT425"/>si e allora in questo <foreign xml:lang="en">tunnel</foreign><anchor xml:id="arm-426" synch="#TT426"/><pause/> il <vocal>ehm</vocal><pause/> questo <unclear reason="inaudible" resp="#GB" cert="low"><foreign xml:lang="de">arbeit ainze fuhrer</foreign></unclear> ufficiale delle <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice><pause/> <del type="repetition">si</del> <vocal>ehm</vocal> si ferma e vede che io sto lì in piedi<pause/> e dice <q type="spoken">e tu non lavori</q> <unclear reason="inaudible" resp="#GB" cert="medium">e</unclear> dico <q type="spoken" who="TEI-ListPerson.xml#AW">no io lavoro si<pause/> il <term ref="AWcdec.xml#measter" xml:lang="de">maester</term> dà degli ordini in <lang>tedesco</lang> e<pause/> <del type="falseStart">i</del> <del type="correction">gli</del> italiani non lo capiscono lo traduco in <lang>italiano</lang></q><pause/> <q type="spoken">fa vedere le mani</q> <vocal>emh</vocal> faccio vedere le mani<pause/> non <choice><orig>c'ho</orig><reg resp="#GB">ho</reg></choice> dei calli<pause/> <q type="spoken">allora come lavori</q> <q type="spoken" who="TEI-ListPerson.xml#AW">ma lavoro con la testa e con la lingua <choice><orig>colla</orig><reg resp="#GB">con la</reg></choice> bocca</q><pause/> allora lui mi ha preso <choice><orig>m'ha</orig><reg resp="#GB">mi ha</reg></choice> dato una <emph>pedata</emph> e <choice><orig>m'ha</orig><reg resp="#GB">mi ha</reg></choice> lanciato<pause/> accanto<pause/> dove veniva<pause/> <vocal>ehm</vocal> girato mescolato il cemento<pause/> che bisognava andare in <emph>sù</emph><pause/> e anziché farlo funzionare questo <del type="truncation">t</del> tappeto<anchor xml:id="arm-427" synch="#TT427"/><pause/> elettricamente<anchor xml:id="arm-428" synch="#TT428"/><pause/> <del type="truncation">p</del> prendevano i prigionier, ognuno doveva portare un sacco di <measure><num>50</num> <unit>chili</unit></measure><pause/> <measure><num>50</num> <unit>chili</unit></measure> non sono molto ma per noi che avevano si e no 800 600 calorie al giorno<pause/> era una cosa incredibile e così per <time dur="P24H">24 ore</time> ho dovuto fare quel mestiere<pause/> il giorno dopo ho trovato un altro gruppo <choice><orig>che</orig><reg resp="#GB">a cui</reg></choice> ho dovuto fare <del type="falseStart">il</del> <del type="correction">l</del>'interprete per loro<pause/> <del type="falseStart">adesso voglio arrivare</del>
+                </u>
+
+                <u who="#MA">
+                    <anchor xml:id="ma-427" synch="#TT427"/>tappeto<anchor xml:id="ma-428" synch="#TT428"/>
+                </u><!--12:30-->
             </div>
 
         </body>
@@ -3001,21 +3124,6 @@ City: Milan -->
 
 </TEI>
 <!--           
-10:02
-M.S: ma anche se non eravate specializzati?
-A.W: no no, c-, si, erano i "<term ref="AWcdec.xml#measter" xml:lang="de">maester</term>"? Che ci insegnavano cosa dovevamo fare.
-M.S: lei è stato in questo <foreign xml:lang="en">tunnel</foreign>?
-A.W: ecco, io son stato una sola volta che l'ho raccontavo di quel (frase in tedesco) che m'ha fatto portare i sacchi di cemento.
-M.S: ah beh, lo deve raccontare adesso...
-A.W: si, dunque, era così, che un giorno io ero interprete della degli italiani non ebrei che non erano deportati ma che sono stati razziati in <placeName ref="TEI-ListPlace.xml#IT">Italia</placeName> per portarli a lavorare in <placeName ref="TEI-ListPlace.xml#DE">Germania</placeName> ee...
-M.S: quindi c'erano ebrei e non ebrei in questo emh in questo...
-A.W: emh, in questo ma in questo <foreign xml:lang="de">lager</foreign> - <placeName ref="TEI-ListPlace.xml#WalV">Waldlager</placeName> - loro venivano solo la <time from="06:00:00" to="12:00:00" resp="#GB" cert="medium">mattina</time> e la <time from="00:18:00:00" to="24:00:00" resp="#GB" cert="medium">sera</time> andavano via perché avevano proprie baracche e potevano girare per 10 chilometri di circond- circondario.
-M.S: Ahh, separati. Si.
-A.W: Erano liberi, non solo, potevano corrispondere con le proprie famiglie ma le lettere bisognava scriverle in tedesco. Allora venivano "Arminio, se sei tanto gentile dimmi, scrivi una domanda che mia mamma sta poco male etc e vorrei...", e gli davano delle licenze, però a me mi davano qualcosa per queste lettere perché loro abitavano in famiglie e conosciuto ragazze tedesche che erano sole perché i mariti, i fidanzati eran tutti aaa al fronte, quindi facevan presto amicizia con questi italiani.
-M.S: ma quindi erano liberi m- e non liberi?
-A.W: erano liberi e non liberi, però ripeto di, stavano molto meglio. Eee allora...
-M.S: un giorno mi stava dicendo è è andato proprio in questo <foreign xml:lang="en">tunnel</foreign> dove c'era la costruzione...
-A.W: Si, e allora in questo <foreign xml:lang="en">tunnel</foreign>, il - questo (frase in tedesco), ufficiale delle <choice><abbr>SS</abbr><expan resp="#GB"><foreing xml:lang="de">Schutzstaffel</foreing></expan></choice> - si ferma e vede che io sto lì in piedi e dice "e tu non lavori?", e dico "No, lavoro si, il "<term ref="AWcdec.xml#measter" xml:lang="de">maester</term>" dà degli ordini in tedesco e gl- gli italiani non lo capiscono, lo traduco in italiano", "fa vedere le mani", emh faccio vedere le mani e non c'ho dei calli "allora come lavori?" "Ma lavoro con la testa e con la lingua e con la bocca". Allora lui mi ha preso, m'ha dato una pedata e m'ha lanciato accanto dove veniva girato mescolato il cemento che bisognava andare in sù, e anziché farlo funzionare questo tappeto elettricamente prendevano i prigionieri, ognuno doveva portare un sacco di 50kg. 50kg non sono molto ma per noi che avevano si e no 800 600 calorie al giorno era una cosa incredibile. E così per 24 ore ho dovuto fare quel mestiere, il giorno dopo ho trovato un altro gruppo che ho dovuto fare l'interprete per loro. Adesso voglio arrivare...
 M.S: e cosa costruivano con questo cemento lì sotto?
 A.W: si si, veniva costruito, già c'erano anche macchine dentro, tutto... per costruire la <choice><abbr>V2</abbr><expan resp="#GB">Vergeltungswaffen 2</expan></choice>, perché la <choice><abbr>V2</abbr><expan resp="#GB">Vergeltungswaffen 2</expan></choice> veniva, la prima è stata Peenemunde, la prima che ha lanciato le la (balbetta) <choice><abbr>V1</abbr><expan resp="#GB">Vergeltungswaffen 1</expan></choice>, poi la <choice><abbr>V2</abbr><expan resp="#GB">Vergeltungswaffen 2</expan></choice>. "V" vuol dire Ve- Vergelt- Vergeltungswaffe, Vergeltungswaffe vuol dire vendetta. Eee, stavano costruendo questa qui. Per esempio, c'era un comando di ebrei, non italiani, che erano quello che ogni giorno cambiava il fogliame sopra per dare l'illusione a quelli che...
 M.S: che era fogliame fresco... e non, certo per camuffare tutto.
