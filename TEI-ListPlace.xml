@@ -386,6 +386,11 @@
                         <country key="IT">Italia</country>
                     </place>
 
+                    <place xml:id="OVP"><!--no info treccani-->
+                        <placeName ref="http://www.geonames.org/6548306 https://it.wikipedia.org/wiki/Peenemünde">Peenemunde</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
+
                     <place xml:id="Alpi">
                         <placeName ref="https://www.geonames.org/2661786 https://www.treccani.it/enciclopedia/alpi/">Alpi</placeName>
                         <country key="IT">Italia</country>
