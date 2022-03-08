@@ -1043,6 +1043,27 @@ City: Milan -->
             
             <when xml:id="TT477" absolute="00:20:57" synch="arm-477"/>
             <when xml:id="TT478" since="#TT477" interval="1"/>
+
+            <when xml:id="TT479" absolute="00:21:22" synch="arm-479"/>
+            <when xml:id="TT480" since="#TT479" interval="1"/>
+
+            <when xml:id="TT481" absolute="00:21:29" synch="arm-481"/>
+            <when xml:id="TT482" since="#TT481" interval="1"/>
+
+            <when xml:id="TT483" absolute="00:22:03" synch="arm-483"/>
+            <when xml:id="TT484" since="#TT483" interval="1"/>
+
+            <when xml:id="TT485" absolute="00:22:15" synch="arm-485"/>
+            <when xml:id="TT486" since="#TT485" interval="1"/>
+
+            <when xml:id="TT487" absolute="00:22:20" synch="arm-487"/>
+            <when xml:id="TT488" since="#TT487" interval="1"/>
+
+            <when xml:id="TT489" absolute="00:23:01" synch="arm-489"/>
+            <when xml:id="TT490" since="#TT489" interval="1"/>
+
+            <when xml:id="TT491" absolute="00:23:02" synch="ma-491"/>
+            <when xml:id="TT492" since="#TT491" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -1446,6 +1467,12 @@ City: Milan -->
             <when xml:id="TS385" synch="#AW191" absolute="00:20:58"/>
             <when xml:id="TS386" synch="#MA191" absolute="00:20:59"/>
             <when xml:id="TS387" synch="#AW192" absolute="00:21:00"/>
+            <when xml:id="TS388" synch="#MA192" absolute="00:21:22"/>
+            <when xml:id="TS389" synch="#AW193" absolute="00:21:23"/>
+            <when xml:id="TS390" synch="#MA193" absolute="00:22:11"/>
+            <when xml:id="TS391" synch="#AW194" absolute="00:22:13"/>
+            <when xml:id="TS392" synch="#MA194" absolute="00:23:01"/>
+            <when xml:id="TS393" synch="#AW195" absolute="00:23:02"/>
         </timeline>
     </standOff>
 
@@ -3394,8 +3421,42 @@ City: Milan -->
                 </u>
                 
                 <u who="#AW" xml:id="AW192" synch="#TS387">
-                    <vocal>eh</vocal> quello <vocal>emh</vocal> le <unclear reason="inaudible" resp="#GB" cert="high">varie</unclear> canzoni che <distinct type="common_saying">erano in vena</distinct> in quell'epoca anche a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName><pause/> lavoravamo insieme con dei polacchi non ebrei<pause/> che erano cantanti dell'<place type="opera"><emph>opera</emph><pause/> di <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName></place><pause/> ma però <del type="truncation">f</del><!--here--> avevano arbeitstins(?)<pause/> di giorno dovevano lavorare<pause/><vocal><desc>tira su con il naso e deglutisce</desc></vocal> e quando hanno visto <emph>"italiani"</emph><pause/> "ehhh"<pause/> allora ll<pause/> "di cantare qualche canzone ital-" per loro<pause/> erano del mestiere
-                </u><!--21:21-->
+                    <vocal>eh</vocal> quello <vocal>emh</vocal> le <unclear reason="inaudible" resp="#GB" cert="high">varie</unclear> canzoni che <distinct type="common_saying">erano in vena</distinct> in quell'epoca anche a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName><pause/> lavoravamo insieme con dei polacchi non ebrei<pause/> che erano cantanti dell'<place type="opera"><emph>opera</emph><pause/> di <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName></place><pause/> ma però <del type="truncation">f</del> avevano <unclear reason="inaudible" resp="#GB" cert="medium"><foreign xml:lang="de">arbeitstins</foreign></unclear><pause/> <del type="reformulation">di <time from="06:00:00" to="24:00:00" resp="#GB" cert="medium">giorno</time> dovevano lavorare</del><pause/><vocal><desc>tira su con il naso e deglutisce</desc></vocal> e quando hanno visto <emph><q type="written">italiani</q></emph><pause/> <q type="spoken"><vocal>ehhh</vocal></q><pause/> <choice><sic>allora</sic><corr resp="#GB">allora chiedevano</corr></choice> <del type="truncation">ll</del><pause/> di cantare qualche canzone <del type="truncation">ital</del> per loro<pause/> <choice><sic>erano</sic><corr resp="#GB">era</corr></choice> del <anchor xml:id="arm-479" synch="#TT479"/>mestiere <del type="truncation">cant</del><anchor xml:id="arm-480" synch="#TT480"/>
+                </u>
+
+                <u who="#MA" xml:id="MA192" synch="#TS388">
+                    <anchor xml:id="ma-479" synch="#TT479"/>si ricorda<anchor xml:id="ma-480" synch="#TT480"/> una canzone
+                </u>
+
+                <u who="#AW" xml:id="AW193" synch="#TS389"><!--espressioni significava la vita(?)-->
+                    si mi ricordo <bibl type="song"><title type="main" level="m">mamma</title></bibl> <del type="falseStart">e</del> eccetera per loro era<pause/> <gap reason="inaudible" resp="#GB" extent="1 word"/> e ci davano qualche crosta di pane <vocal>erm</vocal> <unclear reason="inaudible" resp="#GB" cert="low">quindi</unclear> <anchor xml:id="arm-481" synch="#TT481"/>quella era<anchor xml:id="arm-482" synch="#TT482"/> la vita per noi<pause/> va bene<pause/><vocal><desc>degluitisce e click con la lingua</desc></vocal> <del type="falseStart">adesso <del type="truncation">su</del></del> <del type="reformulation">adesso succede</del> questo che il treno <del type="truncation">f</del> sta camminando<pause/> e <del type="falseStart">sta</del><pause/> a un certo momento il treno si ferma<pause/> perché perché c'è un attacco aereo<pause/> perché il treno nostro aveva davanti e di dietro le <distinct type="military">batterie antiaeree</distinct><pause/> quindi gli angloamericani non so se erano americani o inglesi<pause/> pensavano che fosse un treno <emph>militare</emph> hanno cominciato a sparare<pause/> purtroppo<pause/> non so quanti sono morti<pause/> allora qualcuno di noi ha avuto <choice><sic>la</sic><corr resp="#GB">una</corr></choice> buona idea<pause/> è andato sul tetto ed <unclear reason="inaudible" resp="#GB" cert="low">ha</unclear> posato le nostre uniformi<anchor xml:id="arm-483" synch="#TT483"/><pause/><anchor xml:id="arm-484" synch="#TT484"/> cosicché quando son <emph>ripassati</emph><pause/> hanno capito <q type="thought">questo <del type="falseStart">è un<pause/> sono</del> <del type="reformulation">è un</del><pause/> treno di prigionieri non di <persName ref="TEI-ListPerson.xml#AH">Hitler</persName></q><pause/> non hanno più sparato
+                </u>
+
+                <u who="#MA">
+                    <anchor xml:id="ma-481" synch="#TT481"/><vocal>eh</vocal><anchor xml:id="ma-482" synch="#TT482"/>
+                    <anchor xml:id="ma-483" synch="#TT483"/><vocal><desc>annuisce</desc></vocal><anchor xml:id="ma-484" synch="#TT484"/>
+                </u>
+
+                <u who="#MA" xml:id="MA193" synch="#TS390">
+                    perché era un treno normale <del type="falseStart">non era più un treno</del>
+                </u>
+
+                <u who="#AW" xml:id="AW194" synch="#TS391">
+                    no era <del type="falseStart">un</del> sempre <unclear reason="inaudible" resp="#GB" cert="low">un</unclear> <del type="repetition">treno</del><pause/> treno di <anchor xml:id="arm-485" synch="#TT485"/>merci<pause/><anchor xml:id="arm-486" synch="#TT486"/> si<pause/><vocal><desc>espira e deglutisce</desc></vocal> ma loro <unclear reason="inaudible" resp="#GB" cert="low"><del type="falseStart" cert="low">il</del></unclear> <del type="reformulation" cert="low">in</del> un primo momento pensavano che <choice><sic>fossero</sic><corr resp="#GB">fossimo</corr></choice> soldati<anchor xml:id="arm-487" synch="#TT487"/><pause/><anchor xml:id="arm-488" synch="#TT488"/> e viceversa poi hanno capito che siamo noi non hanno più sparato<pause/> il treno si ferma<pause/> e <del type="falseStart">i</del> son chiuso dentro<pause/> attraverso chiamiamolo <soCalled><distinct type="diminutive">finestrino</distinct></soCalled><pause/> eh<pause/> vedo un soldato italiano in divisa italiana perché i soldati italiani presi<pause/> <date notBefore="1943-09-08">dopo l'8 settembre</date><pause/> li lasciavano <choice><sic>la</sic><corr resp="#GB">in</corr></choice> divisa e non tutti lavoravano in campi di lavoro<pause/> li mandavano anche nei campi <emph>fuori</emph> a lavorare<pause/> <emph>liberi</emph><pause/> ma dovevano lavorare<pause/> e questo qua era un <emph>contadino</emph> di professione<pause/> però per caso si trova alla stazione e <choice><orig>m'han</orig><reg resp="#GB">mi hanno</reg></choice> visto e dice <pause/><q type="spoken"><del type="truncation">c</del> senti questi colpi</q> dico <q type="spoken" who="TEI-ListPerson.xml#AW">si</q><pause/> <q type="spoken">sono le <distinct type="military">mitragliatrici</distinct> che sparano a <emph><placeName ref="TEI-ListPlace.xml#Ko">Kochel</placeName></emph></q><pause/> <placeName ref="TEI-ListPlace.xml#Ko">Kochel</placeName> è un lago<pause/> a pochi passi<pause/> <del type="falseStart">e <del type="truncation">c</del> <anchor xml:id="arm-489" synch="#TT489"/><unclear reason="inaudible" resp="#GB" cert="low">cos'è</unclear></del><anchor xml:id="arm-490" synch="#TT490"/>
+                </u>
+
+                <u who="#MA">
+                    <anchor xml:id="ma-485" synch="#TT485"/>merci<anchor xml:id="ma-486" synch="#TT486"/>
+                    <anchor xml:id="ma-487" synch="#TT487"/><vocal><desc>annuisce</desc></vocal><anchor xml:id="ma-488" synch="#TT488"/>
+                </u>
+
+                <u who="#MA" xml:id="MA194" synch="#TS392">
+                    <anchor xml:id="ma-489" synch="#TT489"/>lei era<anchor xml:id="ma-490" synch="#TT490"/> fermo in una stazione <anchor xml:id="ma-491" synch="#TT491"/>quindi<pause/> <del type="reformulation">il treno era <del type="truncation">fe</del></del><anchor xml:id="ma-492" synch="#TT492"/>
+                </u>
+
+                <u who="#AW" xml:id="AW195" synch="#TS393">
+                    <anchor xml:id="arm-491" synch="#TT491"/>eravamo fermi <del type="repetition">a</del><anchor xml:id="arm-492" synch="#TT492"/> a questa stazione di <placeName ref="TEI-ListPlace.xml#Po">Poing</placeName><pause/> e lui mi dice<pause/> <q type="spoken">se puoi <distinct type="common_saying">taglia la corda</distinct></q> e dico <q type="spoken" who="TEI-ListPerson.xml#AW">facile <choice><sic>dire a</sic><corr resp="#GB">dirlo per</corr></choice> te che sei fuori io come faccio a <del type="truncation">f</del><pause/> <distinct type="common_saying">tagliar la corda</distinct></q><pause/> e perché <q type="spoken" xml:id="q34">sennò</q> dice <q type="spoken" xml:id="q35">vi portano lì<pause/> vi<pause/> mettono tutti davanti al <rs ref="TEI-ListPlace.xml#Ko" resp="#GB">lago</rs> e vi sparano <vocal>emh</vocal><pause/> e <choice><sic>cadono</sic><corr resp="#GB">cadete</corr></choice> in acqua</q><join target="#q34 #q35" result="q" type="quotation" scope="branches"></join><pause/> a un certo momento mentre il treno sta per proseguire<pause/> viene il <term xml:lang="de" ref="#trans">transportfuhrer</term> sarebbe il <gloss xml:id="trans">comandante del trasporto</gloss> che <emph>non era più</emph><pause/> quello della <choice><abbr>SS</abbr><expan resp="#GB"><foreign xml:lang="de">Schutzstaffel</foreign></expan></choice><pause/> ma bensì un ufficiale della Wehrmacht che era anche da noi<pause/> a suo tempo <emph>vice</emph> comandante<pause/> ma era della <orgName><foreign xml:lang="de">Wehrmacht</foreign></orgName> <pause/>non è vero che <emph>tutta</emph> la <orgName><foreign xml:lang="de">Wehrmacht</foreign></orgName> si è comportata bene poi è risultato che <emph>anche</emph> loro hanno commesso quello che hanno commesso<pause/> il quale<pause/> dice a voce alta<!--23:45--> <choice><orig>col</orig><reg resp="#GB">con il</reg></choice><pause/> ehm il <choice><orig>col</orig><reg resp="#GB">con il</reg></choice> il - come si chiama? il
+                </u>
             </div>
 
         </body>
@@ -3404,17 +3465,9 @@ City: Milan -->
 
 </TEI>
 <!--
-M.S: si ricorda una canzone?
-A.W: si mi ricordo, mamma e etc... per loro era emh... e ci davano qualche crosta di pane, quella era la vita per noi. Va bene. Adesso su-, adesso succede questo, che il treno sta camminando e sta, a un certo momento il treno si ferma perché? Perché c'è un attacco aereo, perché il treno nostro aveva davanti e di dietro le batterie anti aeree, quindi gli angloamericani - non so se erano americani o inglesi - pensavano che fosse un treno militare, hanno cominciato a sparare, purtroppo non so quanti sono morti. Allora qualcuno di noi ha avuto la buona idea, è andato sul tetto, ha posato le nostre uniformi cosicché quando son ripassati hanno capito "questo emh son- è un treno di prigionieri, non di Hitler", non hanno più sparato.
-M.S: perché era un treno normale, non era più un trenooo...?
-A.W: no era sempre treno treno di merci.
-M.S: merci.
-A.W: si. Ma loro in un primo momento pensavano che fossero soldati e viceversa, poi hanno capito che siamo noi: non hanno più sparato. Il treno si ferma e i - son chiuso dentro -, attraverso, chiamiamolo "finestrino" eh?, vedo un soldato italiano in divisa italiana perché i soldati italiani presi dopo l'8 settembre li lasciavano la divisa e non tutti lavoravano in campi di lavoro, li mandavano anche nei campi fuori a lavorare - liberi -, ma dovevano lavorare. E questo qua era un contadino di professione, però per caso si trova alla stazione e m'ha visto e dice "c- senti questi colpi?" Dico "si", "sono le <distinct type="military">mitragliatrici</distinct> che sparano a Kochel" - Kochel è un lago, a pochi passi - e cos-.
-M.S: lei era fermo in una stazione?
-A.W: eravamo fermi a- questa stazione di <placeName ref="TEI-ListPlace.xml#Po">Poing</placeName> e lui mi dice "se puoi taglia la corda" e dico "facile dire a te che sei fuori, io come faccio a tagliar la corda?" Ee perché "sennò" dice "vi portano lì, vi mettono tutti davanti al lago e vi sparano emh e cadono in acqua". A un certo momento, mentre il treno sta per proseguire, viene il "transportfuhrer", sarebbe il comandante del trasporto, che non era più quello della <choice><abbr>SS</abbr><expan resp="#GB"><foreign xml:lang="de">Schutzstaffel</foreign></expan></choice> ma bensì un ufficiale della Wehrmacht, che era anche da noi a suo tempo vice comandante, ma era della Wehrmacht - non è vero che tutta la Wehrmacht si è comportata bene, poi è risultato che anche loro hanno commesso quello che hanno commesso -, il quale dice a voce alta, <choice><orig>col</orig><reg resp="#GB">con il</reg></choice> il <choice><orig>col</orig><reg resp="#GB">con il</reg></choice> il - come si chiama? il... -
 M.S: megafono.
 A.W: megafono, si brava. Col megafono "chi di voi parla inglese?", allora ci siamo presentati in due, io e un certo Landau. Viene... allora lui dice "ecco qua, questo documento, ve lo faccio vedere, ve lo regalo, vedete cosa c'è scritto.. che io devo portare il gruppo di prigionieri a Kochel e consegnarli al comando speciale della <choice><abbr>SS</abbr><expan resp="#GB"><foreign xml:lang="de">Schutzstaffel</foreign></expan></choice>": logicamente significava la morte. Dice "io però, con la scusa, che la la linea ferroviaria è interrotta da un bombardamento, non posso proseguire. Allora cosa faccio? torno indietro, perché? Perché accanto, a pochi chilometri, c'è una cittadina bavarese che si chiama Tutzing. Questa cittadina era tutto piena di croci rosse perché vogliono far capire che è una zona sanitaria", invece? invece s- erano fabbriche di armi. "E io ho sentito alla radio che gli americani son già entrati a Monaco di <placeName ref="TEI-ListPlace.xml#BY">Baviera</placeName>, quindi c'è la possibilità di salvarvi. Io vi porto indietro, chissà che non che non vi- non vi salvino gli americani. D'altra parte però, se questo succederà emh, non dimenticate quello che ho fatto per voi. Effettivamente, a un certo momento sentiamo il rumore di <distinct type="military">carri armati</distinct>, quindi della <choice><abbr>SS</abbr><expan resp="#GB"><foreign xml:lang="de">Schutzstaffel</foreign></expan></choice> dicono (frase in tedesco) "sono i nostri tigre", erano i <distinct type="military">carri armati</distinct> tedeschi. emh (balbetta), ssiamo di nuovo nei guai. Viceversa si avvicinano, vedo la la la bandiera americana: erano i <distinct type="military">carri armati</distinct> Patton(?) i quali si sono avvicinati e noi subito ci siamo lanciati fuori dai vagoni e quelli ci davano sigarette, del- cioccolato etc.
-M.S: il il comandante della Wehrmacht si chiamava come?
+M.S: il il comandante della <orgName><foreign xml:lang="de">Wehrmacht</foreign></orgName> si chiamava come?
 A.W: emh, questo emh de- (balbetta), quel comandante si chiamava Blazi(?), era tedesco però di origine italiana dal nome - ma non, in <placeName ref="TEI-ListPlace.xml#BY">Baviera</placeName> ci sono molti ital- -...
 M.S: quindi parlava in italiano con lui?
 A.W: No no no, no lui parlava tedesco, solo tedesco. Allora viene il comandante della truppa americana che ci ha liberato, era un ebreo di New York, si chiamava Jutennens Smith (?) che probabilmente prima di chuamava Schmiedt(?), "Schmiedt" vuol dire "fabbro". Eee i suoi aiutanti vedevano uno della <choice><abbr>SS</abbr><expan resp="#GB"><foreign xml:lang="de">Schutzstaffel</foreign></expan></choice>, <distinct type="figure_of_speech">tac</distinct>  <distinct type="figure_of_speech">tac</distinct> , scaricava il <distinct type="military">mitra</distinct> su di loro. A un certo momento si rivolgono al transportfuhrer, allora son intervenuto io e Landau, abbiamo detto a Jutennens Smith(?) "guardi che questo avrebbe dovuto portarci alla morte invece ci ha salv- portati da voi" "allora eh beh, se siete voi d'accordo lasciamolo in vita, non solo, diventerà nostro ospite", e allora le ragazze ungheresi - che(?c'erano) erano 500 ragazze ungheresi con noi - dice "anche queste due aufseherin?" - aufseherin vuol dire "sorvegliati della <choice><abbr>SS</abbr><expan resp="#GB"><foreign xml:lang="de">Schutzstaffel</foreign></expan></choice> tedesca": erano vestiti come le <choice><abbr>SS</abbr><expan resp="#GB"><foreign xml:lang="de">Schutzstaffel</foreign></expan></choice> solo una la gonna anziché i pantaloni - "questi si son sempre comportati bene con noi" "allora (balbetta), se lo volete voi"... quindi, il comandante del trasporto e le due aufseherin(?) son stati liberati mentre gli altri l'hanno... (verso del mitra) era... guerra.
