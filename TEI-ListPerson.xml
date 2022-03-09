@@ -2165,6 +2165,131 @@
 
                         </person>
 
+                        <!--Maurizio Fenichel: non ho informazioni-->
+                        <person xml:id="MaurizioF">   
+    
+                                <persName role="direttore_sanitario">
+                                    <ref target=""/>
+                                    <foreName>Maurizio</foreName>
+                                    <surname>Fenichel</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="" cert=""></date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" notBefore="1949-02-17" cert="high">Dopo il 17 febbraio 1949
+                                        <note resp="#GB">Desumo che avendo firmato una carta libera di referenze sul lavoro svolto da Olga Wachsberger dovrà esse morto successivamente</note>
+                                    </date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Edmund Carter Rosenhauch-->
+                        <person xml:id="EdmundCR" sameAs="http://viaf.org/viaf/250314036">   
+    
+                                <persName role="oculista">
+                                    <ref target="http://viaf.org/viaf/250314036"/><!--?-->
+                                    <foreName>Edmund</foreName>
+                                    <surname type="combine">Carter Rosenhauch</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1882" cert="medium">1882</date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1962" cert="medium">1962</date>
+                                    <placeName>
+                                        <note resp="#GB">Desumo dalle informazioni del libro "L'interprete di Auschwitz" di Gabriele Rigano che nel 1947 fosse emigrato negli Stati Uniti</note>
+                                        <settlement type=""></settlement>
+                                        <country key="USA" cert="medium">Stati Uniti d'America</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+                    
+                        <!--Dwight Eisenhower-->
+                        <person xml:id="DwightE" sameAs=" http://viaf.org/viaf/100176316">   
+    
+                                <persName role="capo_forze_armate_americane">
+                                    <ref target="https://it.wikipedia.org/wiki/Dwight_D._Eisenhower https://www.treccani.it/enciclopedia/dwight-david-eisenhower/"/>
+                                    <foreName>Dwight</foreName>
+                                    <foreName>David</foreName>
+                                    <surname>Eisenhower</surname>
+                                    <addName type="nickname">Ike</addName>
+                                </persName>
+
+                                <note resp="#GB">Fu il 34° Presidente degli Stati Uniti d'America dal 1953 al 1961.</note>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1890-10-14" cert="high">14 Ottobre 1890</date>
+                                    <placeName>
+                                        <settlement type="municipality">Denison</settlement>
+                                        <country key="USA">Stati Uniti d'America</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1969-03-28" cert="high">28 Marzo 1969</date>
+                                    <placeName>
+                                        <settlement type="municipality">Washington</settlement>
+                                        <country key="USA">Stati Uniti d'America</country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
+                        <!--Fiorello La Guardia-->
+                        <person xml:id="FiorelloLG" sameAs="http://viaf.org/viaf/42633908">   
+    
+                                <persName role="avvocato_procuratore">
+                                    <ref target="https://it.wikipedia.org/wiki/Fiorello_La_Guardia https://www.treccani.it/enciclopedia/la-guardia-fiorello-henry/"/>
+                                    <foreName>Fiorello</foreName>
+                                    <foreName xml:id="enrico">Enrico</foreName>
+                                    <foreName copyOf="#enrico" type="alternative">Henry</foreName>
+                                    <surname>La Guardia</surname>
+                                    <addName type="nickname">The Little Flower</addName>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1882-12-11" cert="high">11 Dicembre 1882</date>
+                                    <placeName ref="TEI-ListPlace.xml#NY">
+                                        <settlement type="municipality">New York</settlement>
+                                        <country key="USA">Stati Uniti d'America</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1947-09-20" cert="high">20 Settembre 1947</date>
+                                    <placeName ref="TEI-ListPlace.xml#NY">
+                                        <settlement type="municipality">New York</settlement>
+                                        <country key="USA">Stati Uniti d'America</country>
+                                    </placeName>
+                                </death>
+                        </person>
+
                         <!-- Lista delle relazioni -->
                         <listRelation>
                             <relation name="interviewers" active="#LPF #MA #PF" passive="#AW"/>
@@ -2214,6 +2339,8 @@
                             <relation name="acquaintance" mutual="#AW #LauraM #GuidoDS"/>
                             <relation name="sibling" mutual="#IsaacSS #IsraelS"/>
                             <relation name="friend" mutual="#AW #IsraelS"/> 
+                            <relation name="collaborator-Feldafing" mutual="#AW #MaurizioF #EdmundCR">
+                            <relation name="acquaintance" mutual="#AW #DwightE #FiorelloLG">
 					</listRelation>
                 </listPerson>
             

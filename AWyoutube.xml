@@ -1105,7 +1105,21 @@ City: Milan -->
 
             <when xml:id="TT515" absolute="00:02:03" synch="ma-515"/>
             <when xml:id="TT516" since="#TT515" interval="2"/>
-        
+
+            <when xml:id="TT517" absolute="00:03:48" synch="arm-517"/>
+            <when xml:id="TT518" since="#TT517" interval="1"/>
+
+            <when xml:id="TT519" absolute="00:03:55" synch="ma-519"/>
+            <when xml:id="TT520" since="#TT519" interval="1"/>
+
+            <when xml:id="TT521" absolute="00:04:24" synch="arm-521"/>
+            <when xml:id="TT522" since="#TT521" interval="1"/>
+
+            <when xml:id="TT523" absolute="00:04:52" synch="arm-523"/>
+            <when xml:id="TT524" since="#TT523" interval="1"/>
+
+            <when xml:id="TT525" absolute="00:04:57" synch="ma-525"/>
+            <when xml:id="TT526" since="#TT525" interval="1"/>
         </timeline>
 
         <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
@@ -1535,7 +1549,21 @@ City: Milan -->
             <when xml:id="TS406" synch="#AW202" absolute="00:01:41"/>
             <when xml:id="TS407" synch="#MA201" absolute="00:02:01"/>
             <when xml:id="TS408" synch="#AW203" absolute="00:02:03"/>
-
+            <when xml:id="TS409" synch="#MA202" absolute="00:03:48"/>
+            <when xml:id="TS410" synch="#AW204" absolute="00:03:49"/>
+            <when xml:id="TS411" synch="#MA203" absolute="00:03:53"/>
+            <when xml:id="TS412" synch="#AW205" absolute="00:03:55"/>
+            <when xml:id="TS413" synch="#MA204" absolute="00:04:19"/>
+            <when xml:id="TS414" synch="#AW206" absolute="00:04:22"/>
+            <when xml:id="TS415" synch="#MA205" absolute="00:04:22"/>
+            <when xml:id="TS416" synch="#AW207" absolute="00:04:24"/>
+            <when xml:id="TS417" synch="#MA206" absolute="00:04:30"/>
+            <when xml:id="TS418" synch="#AW208" absolute="00:04:32"/>
+            <when xml:id="TS419" synch="#MA207" absolute="00:04:49"/>
+            <when xml:id="TS420" synch="#AW209" absolute="00:04:52"/>
+            <when xml:id="TS421" synch="#MA208" absolute="00:04:53"/>
+            <when xml:id="TS422" synch="#AW210" absolute="00:04:57"/>
+            <when xml:id="TS423" synch="#MA209" absolute="00:04:58"/>
         </timeline>
     </standOff>
 
@@ -1986,7 +2014,7 @@ City: Milan -->
                     <anchor xml:id="arm-135" synch="#TT135"/>si<anchor xml:id="arm-136" synch="#TT136"/>
                 </u>
 
-                <gap reason="lost" extent="17 seconds"/>
+                <gap reason="blanked" extent="17 seconds"/>
                 
                 <pause dur="5 seconds"/>
                 <!-- parte II - Tape 6 of 1-->
@@ -2522,7 +2550,7 @@ City: Milan -->
                     <del type="truncation" xml:id="ecco0">ec</del> <del type="truncation" xml:id="ecco1">co</del><join target="#ecco0 #ecco1" type="word"></join> questa deve raccontarla adesso cambiamo la cassetta
                 </u>
 
-                <gap reason="lost" extent="3 seconds"/>
+                <gap reason="blanked" extent="3 seconds"/>
 
                 <pause dur="12 seconds"/>
                 <!--parte II - Tape: of 1-->
@@ -3099,7 +3127,7 @@ City: Milan -->
                     <anchor xml:id="ma-367" synch="#TT367"/><del type="repetition"><emph>no<pause/> no</emph><anchor xml:id="ma-368" synch="#TT368"/></del> no <vocal>emh</vocal> <choice><orig>vabbè</orig><reg resp="#GB">va bene</reg></choice> <pause/><del type="repetition">no</del> no <del type="falseStart">ma lei</del> un <del type="truncation">momen</del>
                 </u>
 
-                <gap reason="lost" extent="2 seconds"/>
+                <gap reason="blanked" extent="2 seconds"/>
 
                 <pause dur="15 seconds"/>
 
@@ -3599,8 +3627,80 @@ City: Milan -->
                 </u>
 
                 <u who="#AW" xml:id="AW203" synch="#TS408">
-                    <anchor xml:id="arm-515" synch="#TT515"/>ecco <del type="repetition">adesso</del><pause/> adesso a un certo<anchor xml:id="arm-516" synch="#TT516"/> momento<pause/> partono<pause/> e <del type="falseStart"><del type="truncation">and</del></del> <del type="reformulation">da noi</del> hanno creato<pause/> noi eravamo ex prigionieri<pause/> hanno creato<!--un sistema--> quello sul sistema <vocal>emh eh</vocal> diremo dei tedeschi<pause/> c'era il <term ref="#blockaltester" xml:lang="de">blockaltester</term> cioè l'anziano <del type="truncation">de</del><pause/> che era il capo dell'<pause/>edificio poi c'era sempre lo <emph><term ref="AWcdec.xml#schreiber" xml:lang="de">schreiber</term></emph><pause/> <term ref="AWcdec.xml#schreiber" xml:lang="de">schreiber</term> vuol dire <gloss copyOf="AWcdec.xml#schreiber">lo scrivano</gloss><pause/> <del type="falseStart">allora io che ero l'unico che parlasse la lingua <del type="repetition">dei<pause/> dei dei</del><pause/> dei greci</del><pause/> è diventato <term ref="#blockaltester" xml:lang="de">blockaltester</term> <rs ref="TEI-ListPerson.xml#ErnstL" resp="#GB">un greco</rs> molto in gamba e io ero <term ref="AWcdec.xml#schreiber" xml:lang="de">schreiber</term><pause/> praticamente facevo tutto io perché parlavo <lang>inglese</lang><pause/> <rs ref="TEI-ListPerson.xml#ErnstL" resp="#GB">lui</rs> non parlava <lang>inglese</lang> e non parlava neanche <lang>tedesco</lang><pause/><vocal><desc>tira su con il naso e click con la lingua</desc></vocal> e<pause/> poi è venuta la <choice><abbr>UNRRA</abbr> <expan resp="TEI-ListPerson.xml#AW"><foreign xml:lang="en">United Nation <choice><sic>Rehabilitation</sic><corr resp="#GB">Relief and Rehabilitation Administration</corr></choice></foreign></expan></choice><pause/> <unclear reason="inaudible" resp="#GB" cert="medium">com'era</unclear> un'organizzazione americana<pause/> a <placeName ref="TEI-ListPlace.xml#Fe">Feldafing</placeName><pause/> <choice><orig>c&#39;hanno</orig><reg resp="#GB">ci hanno</reg></choice> portato lì c'era <del type="falseStart">una</del> <del type="correction">un</del> bellissimo albergo<pause/> si chiamava <placeName type="hotel">Hotel Elizabeth</placeName><pause/> che in tempo di guerra non era più <supplied resp="#GB" reason="omitted">un</supplied> hotel ma venivano<pause/><!--3:03--> (balbetta) è stato emh cambiato in "ospedale" -, c'erano i prigionieri tedeschi, no prigionieri, erano i soldati tedeschi che venivano curati<pause/> Finita la guerra li hanno buttati fuori<pause/> e l'hanno utilizzato come ospedale per i<pause/> ex deportati<pause/> malati <pause/>e cosa è successo? Che c'era il direttore sanitario<pause/> un ebreo<pause/> e adesso avevano bisogno di un direttore amministrativo<pause/> non c'era nessuno, non sapeva<pause/> Si dice che nel paese dei ciechi<pause/> il monocolo fa il re<pause/> e io che ne capivo qualche cosa m'hanno preso a me come direttore<pause/> amministrativo dell'ospedale, però <distinct type="informal">siccome</distinct> a suo tempo<pause/> ero nel campo oculistico<pause/> aiutavo anche il<pause/> professore oculista quando faceva operazioni<pause/> o la
+                    <anchor xml:id="arm-515" synch="#TT515"/>ecco <del type="repetition">adesso</del><pause/> adesso a un certo<anchor xml:id="arm-516" synch="#TT516"/> momento<pause/> partono<pause/> e <del type="falseStart"><del type="truncation">and</del></del> <del type="reformulation">da noi</del> hanno creato<pause/> noi eravamo ex prigionieri<pause/> hanno creato<!--un sistema--> quello sul sistema <vocal>emh eh</vocal> diremo dei tedeschi<pause/> c'era il <term ref="#blockaltester" xml:lang="de">blockaltester</term> cioè l'anziano <del type="truncation">de</del><pause/> che era il capo dell'<pause/>edificio poi c'era sempre lo <emph><term ref="AWcdec.xml#schreiber" xml:lang="de">schreiber</term></emph><pause/> <term ref="AWcdec.xml#schreiber" xml:lang="de">schreiber</term> vuol dire <gloss copyOf="AWcdec.xml#schreiber">lo scrivano</gloss><pause/> <del type="falseStart">allora io che ero l'unico che parlasse la lingua <del type="repetition">dei<pause/> dei dei</del><pause/> dei greci</del><pause/> è diventato <term ref="#blockaltester" xml:lang="de">blockaltester</term> <rs ref="TEI-ListPerson.xml#ErnstL" resp="#GB">un greco</rs> molto in gamba e io ero <term ref="AWcdec.xml#schreiber" xml:lang="de">schreiber</term><pause/> praticamente facevo tutto io perché parlavo <lang>inglese</lang><pause/> <rs ref="TEI-ListPerson.xml#ErnstL" resp="#GB">lui</rs> non parlava <lang>inglese</lang> e non parlava neanche <lang>tedesco</lang><pause/><vocal><desc>tira su con il naso e click con la lingua</desc></vocal> e<pause/> poi è venuta la <choice><abbr>UNRRA</abbr> <expan resp="#GB"><foreign xml:lang="en">United Nation <choice><sic>Rehabilitation</sic><corr resp="#GB">Relief and Rehabilitation Administration</corr></choice></foreign></expan></choice><pause/> <unclear reason="inaudible" resp="#GB" cert="medium">com'era</unclear> un'organizzazione americana<pause/> a <placeName ref="TEI-ListPlace.xml#Fe">Feldafing</placeName><pause/> <choice><orig>c&#39;hanno</orig><reg resp="#GB">ci hanno</reg></choice> portato lì c'era <del type="falseStart">una</del> <del type="correction">un</del> bellissimo albergo<pause/> si chiamava <placeName type="hotel">Hotel Elizabeth</placeName><pause/> che in tempo di guerra non era più <supplied resp="#GB" reason="omitted">un</supplied> hotel ma <del type="falseStart">venivano</del><pause/> <del type="reformulation" cert="low"><unclear reason="inaudible" resp="#GB" cert="low">è stato</unclear> <vocal>emh</vocal> cambiato</del> in <supplied resp="#GB" reason="omitted">un</supplied> ospedale<pause/> c'erano i <del type="falseStart">prigionieri tedeschi</del> <del type="reformulation">no prigionieri erano i <del type="truncation">s</del> soldati tedeschi</del> che venivano curati<pause/> finita la guerra li hanno buttati fuori<pause/> e <emph>l'hanno utilizzato</emph> come ospedale per <choice><sic>i</sic><corr resp="#GB">gli</corr></choice><pause/> ex deportati<pause/> malati <pause/>e cosa è successo che c'era il <rs ref="TEI-ListPerson.xml#MaurizioF" resp="#GB">direttore sanitario</rs><pause/> un ebreo<pause/> e adesso avevano bisogno di un direttore <emph>amministrativo</emph><pause/> non c'era nessuno <del type="falseStart">non <unclear reason="inaudible" resp="#GB" cert="medium">sapeva</unclear></del><pause/> si dice che <distinct type="common_saying">nel paese dei ciechi<pause/> il monocolo fa il re</distinct><pause/> e io che ne capivo qualche cosa <choice><orig>m'hanno preso a me</orig><reg resp="#GB">mi hanno preso</reg></choice> come direttore amministrativo dell'ospedale<pause/> però <distinct type="informal">siccome</distinct> a suo tempo<pause/><vocal><desc>deglutisce</desc></vocal> ero nel campo oculistico<pause/> aiutavo anche <rs ref="TEI-ListPerson.xml#EdmundCR" resp="#GB">il<pause/> professore <emph>oculista</emph></rs> quando faceva operazioni<pause/> <anchor xml:id="arm-517" synch="#TT517"/><del type="falseStart">o la</del><anchor xml:id="arm-518" synch="#TT518"/>
                 </u>
+
+                <u who="#MA" xml:id="MA202" synch="#TS409">
+                    <anchor xml:id="ma-517" synch="#TT517"/><unclear reason="inaudible" resp="#GB" cert="medium">che</unclear> si<anchor xml:id="ma-518" synch="#TT518"/> chiamava
+                </u>
+
+                <u who="#AW" xml:id="AW204" synch="#TS410">
+                    <vocal>emh</vocal> era <del type="repetition">di</del> di <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName> non mi ricordo più il nome <vocal>eh</vocal> purtroppo
+                </u>
+
+                <u who="#MA" xml:id="MA203" synch="#TS411">
+                    e si chiamava sempre Elizabeth questo<anchor xml:id="ma-519" synch="#TT519"/><pause/> <gap reason="inaudible" resp="#GB" atLeast="2 words" atMost="4 words"/><anchor xml:id="ma-520" synch="#TT520"/>
+                </u>
+
+                <u who="#AW" xml:id="AW205" synch="#TS412">
+                    <anchor xml:id="arm-519" synch="#TT519"/><placeName type="hotel">Hotel Elizabeth</placeName> ma <del type="truncation">s</del><pause/> <placeName type="hotel">Hotel<anchor xml:id="arm-520" synch="#TT520"/> Elizabeth</placeName> però sotto la <choice><abbr>UNRRA</abbr><expan resp="#GB"><foreign xml:lang="en">United Nation Relief and Rehabilitation Administration</foreign></expan></choice><pause/> e caso strano il comandante americano che veniva a <emph>controllare</emph><pause/> <del type="falseStart">si chiamava</del> aveva un nome italiano era un italoamericano <unclear reason="inaudible" resp="#GB" cert="medium">il quale</unclear> si divertiva lui a parlare con me<pause/> <del type="falseStart">in</del><pause/> poi una volta è venuto<pause/> <persName ref="TEI-ListPerson.xml#DwightE">Eisenhower</persName> a trovarci<pause/> non solo<pause/> è venuto una volta <persName ref="TEI-ListPerson.xml#FiorelloLG">Fiorello La Guardia</persName> <del type="falseStart">l'ex sindaco di</del>
+                </u>
+
+                <u who="#MA" xml:id="MA204" synch="#TS413">
+                    no mi racconti di <persName ref="TEI-ListPerson.xml#DwightE">Eisenhower</persName><pause/> quando è successo questo
+                </u>
+
+                <u who="#AW" xml:id="AW206" synch="#TS414">
+                    come
+                </u>
+
+                <u who="#MA" xml:id="MA205" synch="#TS415">
+                    <persName ref="TEI-ListPerson.xml#DwightE">Eisenhower</persName> è venuto
+                </u>
+
+                <u who="#AW" xml:id="AW207" synch="#TS416">
+                    no <persName ref="TEI-ListPerson.xml#DwightE"><choice><sic>Edenhower</sic><corr resp="#GB">Eisenhower</corr></choice></persName><anchor xml:id="arm-521" synch="#TT521"/><pause/><anchor xml:id="arm-522" synch="#TT522"/>  <del type="falseStart">A</del> <vocal>ehm</vocal><pause/> <vocal>em</vocal> come si chiama il<pause/> comandante americano<pause/> <emph><persName ref="TEI-ListPerson.xml#DwightE">Eisenhower</persName></emph>
+                </u>
+
+                <u who="#MA">
+                    <anchor xml:id="ma-521" synch="#TT521"/><vocal>eh</vocal><anchor xml:id="ma-522" synch="#TT522"/>
+                </u>
+
+                <u who="#MA" xml:id="MA206" synch="#TS417">
+                    <del type="truncation"><rs ref="TEI-ListPerson.xml#DwightE" resp="#GB">Eisen</rs></del>
+                </u>
+
+                <pause/>
+
+                <u who="#AW" xml:id="AW208" synch="#TS418">
+                    <persName ref="TEI-ListPerson.xml#DwightE">Eisenhower</persName> è venuto e ha parlato in <lang>inglese</lang> naturalmente <emph>e io</emph><pause/> e <persName ref="TEI-ListPerson.xml#ErnstL">Landau</persName> facevamo da interpreti<pause/> dall'<lang>inglese</lang> traducevamo in <lang>yiddish</lang> o in <lang>tedesco</lang> perché la <distinct type="informal">gente</distinct> capisse<pause/> e poi c'era ancora uno che traduceva in <lang>ungherese</lang> perché <supplied resp="#GB" reason="omitted">per</supplied> la maggior parte erano<pause/> ebrei ungheresi che si son salvati perché erano gli ultimi arrivati
+                </u>
+
+                <u who="#MA" xml:id="MA207" synch="#TS419">
+                    ci fermiamo un attimo perché è finita la cassetta
+                </u>
+
+                <u who="#AW" xml:id="AW209" synch="#TS420">
+                    <anchor xml:id="arm-523" synch="#TT523"/>basta<anchor xml:id="arm-524" synch="#TT524"/> adesso basta
+                </u>
+
+                <u who="#MA">
+                    <anchor xml:id="ma-523" synch="#TT523"/><vocal><desc>ride</desc></vocal><anchor xml:id="ma-524" synch="#TT524"/>
+                </u>
+
+                <u who="#MA" xml:id="MA208" synch="#TS421">
+                    <shift feature="giggle" new="normal">no adesso finiamo l'ultime cose solo mi deve dire<pause/> il dopo<pause/> <anchor xml:id="ma-525" synch="#TT525"/><del type="repetition">dopo</del></shift><anchor xml:id="ma-526" synch="#TT526"/>
+                </u>
+
+                <u who="#AW" xml:id="AW210" synch="#TS422">
+                    <anchor xml:id="arm-525" synch="#TT525"/>il dopo<anchor xml:id="arm-526" synch="#TT526"/> della guerra
+                </u>
+
+                <u who="#MA" xml:id="MA209" synch="#TS423">
+                    aspetti
+                </u>
+
+                <gap reason="blanked" from="00:05:00" to="00:06:45"/>
 
             </div>
 
@@ -3609,19 +3709,3 @@ City: Milan -->
     </text>
 
 </TEI>
-<!--
-M.S: e(che?) si chiamava?
-A.W: emh era di <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName>, non mi ricordo più il nome... eh purtroppo...
-M.S: e si chiamava sempre Elizabeth questo...
-A.W: Hotel Elizabeth ma hotel Elizabeth però sotto la UNRRA(?). E caso strano, il comandante americano che veniva a controllare si chiamava... aveva un nome italiano, era un italoamericano, (frase che non si capisce) si divertiva lui a parlare con me in... Poi una volta è venuto Eisenhower a trovarci, non solo, è venuto una volta Fiorello La Guardia, l'ex sindaco di...
-M.S: mi racconti di Eisenhower, quando è successo questo?
-A.W: come?
-M.S: Eisenhower è venuto...
-A.W: no Eisenhower, meh, come si chiama? Il comandante americano... Eisenhower!
-M.S: Eisenhower.
-A.W: Eisenhower, è venuto, e ha parlato in inglese naturalmente, e io e Landau facevamo da interpreti: dall'inglese traducevamo in yiddish o in tedesco, perché la <distinct type="informal">gente</distinct> capisse. E poi c'era ancora uno che traduceva in ungherese perché la maggior parte erano ebrei ungheresi che si son salvati perché erano gli ultimi arrivati.
-M.S: ci fermiamo un attimo perché è finita la cassetta.
-A.W: basta, adesso basta.
-M.S: no adesso finiamo le ultime cose, solo mi deve dire il dopo.
-A.W: il dopo della guerra.
-M.S: aspetti.-->
