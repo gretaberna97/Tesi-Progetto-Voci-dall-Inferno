@@ -296,6 +296,11 @@
                         <country key="USA">Stati Uniti d'America</country>
                     </place>
 
+                    <place xml:id="NY">
+                        <placeName ref="https://www.geonames.org/5128581 https://www.treccani.it/enciclopedia/new-york/">New York</placeName>
+                        <country key="USA">Stati Uniti d'America</country>
+                    </place>
+
                     <place xml:id="RisieraSS"><!--wikipedia-->
                         <placeName ref="https://www.geonames.org/11127083 https://it.wikipedia.org/wiki/Risiera_di_San_Sabba">Risiera di San Sabba</placeName>
                         <country key="IT">Italia</country>
