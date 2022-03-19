@@ -135,14 +135,14 @@
 
                 </listPerson>
             </particDesc>
-<!--
-            <langUsage>controllare % uso lingue
-                <language ident="it" usage="85">Italiano</language>
-                <language ident="de" usage="10">Tedesco</language>
-                <language ident="ji" usage="5">Yiddish</language>
-                <language ident="fr" usage="">Francese</language>
-                <language ident="en" usage="">Inglese</language>
-            </langUsage>-->
+
+            <langUsage>
+                <language ident="it">Italiano</language>
+                <language ident="de">Tedesco</language>
+                <language ident="ji">Yiddish</language>
+                <language ident="fr">Francese</language>
+                <language ident="en">Inglese</language>
+            </langUsage>
 
             <abstract> <!--regesto: ogni item rappresenta un blocco di esperienze da lui raccontate: punta con un when all&#39;interno di una timeline -->
                 <ab> 
@@ -6968,7 +6968,7 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF465" synch="#TS929">
-                    neanche di famiglia
+                    neanche <supplied resp="#GB" reason="omitted" cert="high">il nome</supplied> di famiglia
                 </u>
 
                 <u who="#AW" xml:id="AW465" synch="#TS930">
@@ -6982,7 +6982,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW466" synch="#TS932">
-                    <anchor xml:id="arm-661" synch="#TT661"/>questo era successo<anchor xml:id="arm-662" synch="#TT662"/> nel <date when="1944-05">maggio del 44</date><pause/> e di quel vagone dove c&#39;erano questi<pause/> che da<pause/> <placeName ref="TEI-ListPlace.xml#TS">Trieste</placeName><pause/> and&#242; ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> si son salvati solo 2<pause/> uno di questi &#232; <unclear reason="inaudible" resp="#GB" cert="low"><persName>Crow</persName></unclear><pause/> di <placeName ref="TEI-ListPlace.xml#TS">Trieste</placeName> che adesso abita a <placeName ref="TEI-ListPlace.xml#TI">Lugano</placeName> se non mi sbaglio<pause/> e<pause/> un secondo<pause/> fiumano<pause/> che adesso &#232; in<pause/> <placeName ref="TEI-ListPlace.xml#ISR">Israele</placeName><pause/> il nome in questo attimo mi sfugge<pause/> <emph><persName ref="TEI-ListPerson.xml#MartinoG">Godelli</persName></emph> eccolo <persName ref="TEI-ListPerson.xml#MartinoG">Godelli</persName>
+                    <anchor xml:id="arm-661" synch="#TT661"/>questo era successo<anchor xml:id="arm-662" synch="#TT662"/> nel <date when="1944-05">maggio del 44</date><pause/> e di quel vagone dove c&#39;erano questi<pause/> che da<pause/> <placeName ref="TEI-ListPlace.xml#TS">Trieste</placeName><pause/> <choice><sic>and&#242;</sic><corr resp="#GB">andarono</corr></choice> ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> <seg part="I" next="#s17b" xml:id="s17a">si son salvati solo 2 <supplied resp="#GB" reason="omitted" cert="medium">uomini</supplied><pause/> uno di questi &#232; <unclear reason="inaudible" resp="#GB" cert="low"><persName>Crow</persName></unclear></seg><pause/> di <placeName ref="TEI-ListPlace.xml#TS">Trieste</placeName> che adesso abita a <placeName ref="TEI-ListPlace.xml#TI">Lugano</placeName> se non mi sbaglio<pause/> <seg part="M" prev="#s17a" next="#s17c" xml:id="s17b">e<pause/> <choice><sic>un</sic><corr resp="#GB">il</corr></choice> secondo<pause/> fiumano</seg><pause/> che adesso &#232; in<pause/> <placeName ref="TEI-ListPlace.xml#ISR">Israele</placeName><pause/> il nome in questo attimo mi sfugge<pause/> <seg part="F" prev="#s17b" xml:id="s17c"><supplied resp="#GB" reason="omitted" cert="medium">&#232;</supplied> <emph><persName ref="TEI-ListPerson.xml#MartinoG">Godelli</persName></emph></seg> eccolo <persName ref="TEI-ListPerson.xml#MartinoG">Godelli</persName>
                 </u>
 
                 <pause/>
@@ -7004,7 +7004,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW468" synch="#TS936">
-                    si mi raccont&#242; tutto<pause/> e pensi che<pause/> io ho una sorella che<pause/> si chiama<pause/> <persName ref="TEI-ListPerson.xml#ReginaW"><del type="truncation">Re</del> Regina</persName><pause/> attualmente <del type="falseStart">Cantori</del> <del type="reformulation">sposata con Cantori</del> che sta a<pause/> <placeName ref="TEI-ListPlace.xml#Re">Recco</placeName> vicino a <placeName ref="TEI-ListPlace.xml#GE">Genova</placeName><pause/> era nascosta in <placeName ref="TEI-ListPlace.xml#Friuli">Friuli</placeName><pause/> e varie volte era venuta a <placeName ref="TEI-ListPlace.xml#FM">Fiume</placeName><pause/> per<pause/> portarsi via anche la <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mamma</rs> e la <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mamma</rs> non ha mai voluto<pause/> lasciare <placeName ref="TEI-ListPlace.xml#FM">Fiume</placeName><pause/> e venne arrestata <vocal>mm</vocal> insieme a molti altri ebrei fiumani
+                    si mi raccont&#242; tutto<pause/> e <seg part="I" next="#s18b" xml:id="s18a">pensi che<pause/> io ho una sorella che<pause/> si chiama<pause/> <persName ref="TEI-ListPerson.xml#ReginaW"><del type="truncation">Re</del> Regina</persName></seg><pause/> attualmente <del type="falseStart">Cantori</del> <del type="reformulation">sposata con <rs ref="TEI-ListPerson.xml#LudovicoL" resp="#GB"><supplied resp="#GB" cert="medium" reason="omitted">un</supplied> Cantori</rs></del> che sta a<pause/> <placeName ref="TEI-ListPlace.xml#Re">Recco</placeName> vicino a <placeName ref="TEI-ListPlace.xml#GE">Genova</placeName><pause/> <seg part="F" prev="#s18a" xml:id="s18b"><supplied resp="#GB" cert="medium" reason="omitted">che</supplied> era nascosta in <placeName ref="TEI-ListPlace.xml#Friuli">Friuli</placeName></seg><pause/> e varie volte era venuta a <placeName ref="TEI-ListPlace.xml#FM">Fiume</placeName><pause/> per<pause/> portarsi via anche la <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mamma</rs> e la <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mamma</rs> non ha mai voluto<pause/> lasciare <placeName ref="TEI-ListPlace.xml#FM">Fiume</placeName><pause/> e venne arrestata <vocal>mm</vocal> insieme a molti altri ebrei fiumani
                 </u>
 
                 <u who="#LPF" xml:id="LPF469" synch="#TS937">
@@ -7016,7 +7016,7 @@
                 </u>
 
                 <u who="#LPF" xml:id="LPF470" synch="#TS939">
-                    sa <del type="truncation">ss</del> chi siano gli autori dell&#39;arresto di <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mamma</rs> e della <anchor xml:id="lpf-663" synch="#TT663"/>sua famiglia<anchor xml:id="lpf-664" synch="#TT664"/>
+                    sa <del type="truncation">ss</del> chi siano gli autori dell&#39;arresto di <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">sua mamma</rs> e della <anchor xml:id="lpf-663" synch="#TT663"/>sua famiglia<anchor xml:id="lpf-664" synch="#TT664"/>
                 </u>
 
                 <u who="#AW">
