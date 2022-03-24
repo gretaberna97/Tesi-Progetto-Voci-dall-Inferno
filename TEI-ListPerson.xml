@@ -1175,6 +1175,36 @@
 
                         </person>
 
+                        <!--Cesare Belfiore-->
+                        <person xml:id="CesareB"> 
+    
+                                <persName>
+                                    <ref target=""/>
+                                    <foreName>Cesare</foreName>
+                                    <surname>Belfiore</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when=""></date>
+                                    <placeName>
+                                        <settlement></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="" cert="">
+                                    </date>
+                                    <placeName>
+                                        <settlement type=""></settlement>
+                                        <country key=""></country>
+                                    </placeName>
+                                </death>
+
+                        </person>
+
                         <!-- Enzo Sereni -->
                         <person xml:id="EnzoS" sameAs="http://viaf.org/viaf/24782324"> 
     
@@ -2296,6 +2326,7 @@
                             <relation name="spouse" mutual="#DavideW #MiriamG"/>
                             <relation name="spouse" mutual="#AW #ReginaP"/>
                             <relation name="spouse" mutual="#AW #OlgaW"/>
+                            <relation name="spouse" mutual="#TriesteB #CesareB"/>
                             <relation name="parent" active="#DavideW #MiriamG" passive="#AW #GiovanniW #ReginaW"/>
                             <relation name="parent" active="#AW #ReginaP" passive="#ClaraW"/>
                             <relation name="parent" active="#MoiseP #CarlottaP" passive="#ReginaP"/>
