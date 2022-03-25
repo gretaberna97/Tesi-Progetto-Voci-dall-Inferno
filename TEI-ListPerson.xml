@@ -21,10 +21,35 @@
 
             </publicationStmt>
 
-            <sourceDesc>
-                <p>
-                    <!-- Insert a bibliographic description of the source for this digital text -->
-                </p>
+            <sourceDesc><!-- Insert a bibliographic description of the source for this digital text -->
+                <bibl xml:id="Rigano2015" type="ebook">
+                    <author>
+                        <forename>Gabriele</forename>
+                        <surname>Rigano</surname>
+                    </author>
+					<editor>Ledigital</editor>
+					<title level="m">L'interprete di Auschwitz</title>
+					<title level="s">Arminio Wachsberger un testimone d'eccezione della deportazione degli ebrei di Roma</title>
+					<pubPlace>Milano</pubPlace>
+					<publisher>Guerini e Associati SpA</publisher>
+					<date when="2015">2015</date>                       
+				</bibl>
+
+                <bibl xml:id="Katz1973" type="print">
+                    <author>
+                        <forename>Robert</forename>
+                        <surname>Katz</surname>
+                    </author>
+					<editor>
+                        <forename>Enrica</forename>
+                        <surname>Labò</surname>
+                    </editor>
+					<title level="m">Sabato Nero</title>
+					<title level="alt" xml:lang="en">Black Sabbath</title>
+					<pubPlace>Milano</pubPlace>
+					<publisher>Rizzoli Editore</publisher>
+					<date when="1973">1973</date>                       
+				</bibl>                
 
                 <listPerson>
                         <head>Lista persone</head>
@@ -35,10 +60,10 @@
                                 <persName>
                                     <ref target="https://it.wikipedia.org/wiki/Arminio_Wachsberger http://digital-library.cdec.it/cdec-web/persone/detail/person-8295/wachsberger-arminio.html"/>
                                     <foreName type="given">Arminio</foreName>
-                                    <foreName type="religious"><foreign xml:lang="he">Meir Zvi</foreign></foreName>
+                                    <foreName type="religious" xml:lang="ji">Meir Zvi</foreName>
                                     <surname>Wachsberger</surname>
-                                    <addName type="nickname"><foreign xml:lang="he">Hashi</foreign></addName>
-                                    <addName type="nickname"><foreign xml:lang="de">Dolmetscher</foreign></addName>
+                                    <addName type="nickname" xml:lang="ji">Hashi</addName>
+                                    <addName type="nickname" xml:lang="de">Dolmetscher</addName>
                                 </persName>
 
                                 <sex>M</sex>
@@ -82,7 +107,7 @@
 
                         </person>
 
-                        <!--Maurina Alazraki: non trovo informazioni-->
+                        <!--Maurina Alazraki: non ho informazioni su di lei-->
                         <person xml:id="MA">  
                                 
                                 <persName>
@@ -107,7 +132,7 @@
                         <!--Paolo Favaro-->
                         <person xml:id="PF">  
                                 
-                                <persName role="montatore_video">
+                                <persName role="operatore_montatore_video">
                                     <ref target="https://www.fctp.it/professional_item.php?id=130"/>
                                     <foreName>Paolo</foreName>
                                     <surname>Favaro</surname>
@@ -177,16 +202,16 @@
 
                                 <death>
                                     <date when="1944-04-30" cert="high">40 Aprile 1944</date>
-                                    <placeName ref="TEI-ListPlace#Au">
-                                    <note resp="#GB">Desumo dalle parole di Arminio Wachsberger e dalle fonti che sia morta ad Auschwitz</note>
+                                    <placeName ref="TEI-ListPlace#Au" cert="medium">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
+                                    <note resp="#GB">Desumo dalle parole di Arminio Wachsberger che sia morta ad Auschwitz</note>
                                 </death>
 
                         </person>
 
-                        <!--ReginaPolacco-->
+                        <!--Regina Polacco-->
                         <person xml:id="ReginaP">   
     
                                 <persName>
@@ -198,7 +223,7 @@
                                 <sex>F</sex>
 
                                 <birth>
-                                    <date when="1912-12-01" cert="high">1° Dicembre 1912</date>
+                                    <date when="1912-12-01" cert="high">1 Dicembre 1912</date>
                                     <placeName ref="TEI-ListPlace#VE">
                                         <settlement type="municipality">Venezia</settlement>
                                         <country key="IT">Italia</country>
@@ -317,7 +342,7 @@
                                 <sex>F</sex>
 
                                 <birth>
-                                    <date when="1876-04-11" cert="high">11 Arpile 1876</date>
+                                    <date when="1876-04-11" cert="high">11 Aprile 1876</date>
                                     <placeName ref="TEI-ListPlace#VE">
                                         <settlement type="municipality">Venezia</settlement>
                                         <country key="IT">Italia</country>
@@ -339,26 +364,22 @@
     
                                 <persName>
                                     <ref target="https://books.google.it/books?id=uN1TDgAAQBAJ&amp;pg=PT49&amp;lpg=PT49&amp;dq=Abraham+Schreiber+fiume&amp;source=bl&amp;ots=HrviHbo-dB&amp;sig=ACfU3U3il67zd3zec3ncYrSXG44762XScQ&amp;hl=it&amp;sa=X&amp;ved=2ahUKEwi-2uSizr31AhVF7rsIHc8UDecQ6AF6BAgCEAM#v=onepage&amp;q=Abraham%20Schreiber%20fiume&amp;f=false"/>
-                                    <foreName>Abraham</foreName>
+                                    <foreName source="#Rigano2015">Abraham</foreName>
                                     <surname>Schreiber</surname>
                                 </persName>
 
                                 <sex>M</sex>
 
-                                <birth>
+                                <birth source="#Rigano2015">
                                     <date when="1897" cert="high">1897</date>
-                                    <!-- trattare la bibliografia diversamente? -->
-                                    <note resp="#GB">Informazioni dal libro "L'interprete di Auschwitz" di Gabriele Rigano</note>
                                     <placeName>
                                         <settlement type="municipality">Eger</settlement>
                                         <country key="HU">Ungheria</country>
                                     </placeName>
                                 </birth>
 
-                                <death>
+                                <death source="#Rigano2015">
                                     <date when="1982" cert="high">1982</date>
-                                    <!-- trattare la bibliografia diversamente? -->
-                                    <note resp="#GB">Informazioni dal libro "L'interprete di Auschwitz" di Gabriele Rigano</note>
                                     <placeName>
                                         <settlement type="municipality">Gerusalemme</settlement>
                                         <country key="IL">Israele</country>
@@ -367,16 +388,18 @@
 
                         </person>
 
-                        <!--Maria: sono sprovvista di informazioni-->
+                        <!--Maria: non ho informazioni su di lei-->
                         <person xml:id="Maria">   
     
-                                <persName> <!-- role = domestica ?-->
+                                <persName role="domestica">
                                     <ref target=""/>
                                     <foreName>Maria</foreName>
                                     <surname></surname>
                                 </persName>
 
                                 <sex>F</sex>
+                                
+                                <note resp="#GB" cert="medium">Nella testimonianza del 1987 Arminio viene interrotto da una donna, probabilmente colei che gestisce la pulizia della casa</note>
 
                                 <birth>
                                     <date when="" cert=""></date>
@@ -397,7 +420,8 @@
                         </person>
 
                         <!--Benito Mussolini-->
-                        <person xml:id="Mussolini" sameAs="https://viaf.org/viaf/90162262">   
+                        <person xml:id="Mussolini" sameAs="https://viaf.org/viaf/90162262"> 
+
                             <persName role="politico">
                                 <ref target="https://it.wikipedia.org/wiki/Benito_Mussolini"/>
                                 <foreName>Benito</foreName>
@@ -405,7 +429,7 @@
                                 <foreName>Andrea</foreName>
                                 <surname>Mussolini</surname>
                                 <addName type="nickname">il Duce</addName>
-                            </persName> <!-- sono mancanti tutte le onorificenze -->
+                            </persName>
 
                             <sex>M</sex>
 
@@ -426,8 +450,9 @@
                             </death>
                         </person>
 
-                        <!-- Vittorio Polacco -->
-                        <person xml:id="VittorioP">   
+                        <!--Vittorio Polacco: non ho molte informazioni su di lui -->
+                        <person xml:id="VittorioP"> 
+
                             <persName>
                                 <ref target=""/>
                                 <foreName>Vittorio</foreName>
@@ -438,7 +463,7 @@
 
                             <birth>
                                 <date when="1941" cert="medium">1941</date>
-                                <note resp="#GB">Ricostruzione dalla testimonianza Arminio, il quale afferma che Vittorio Polacco nel 1943 aveva due anni</note>
+                                <note resp="#GB">Desumo dalle parole di Arminio che Vittorio Polacco nel 1943 avesse due anni</note>
                                 <placeName>
                                     <settlement type=""></settlement>
                                     <country key=""></country>
@@ -446,12 +471,12 @@
                             </birth>
                         </person>
 
-                        <!--Elio Polacco-->
+                        <!--Elio Polacco: non ho molte informazioni su di lui-->
                         <person xml:id="ElioP">   
     
                                 <persName>
                                     <ref target=""/>
-                                    <foreName>Elio</foreName>
+                                    <foreName source="#Rigano2015">Elio</foreName>
                                     <surname>Polacco</surname>
                                 </persName>
 
@@ -475,18 +500,19 @@
 
                         </person>
 
-                        <!--Assunta Fratini-->
+                        <!--Assunta Fratini: non ho informazioni su di lei-->
                         <person xml:id="AssuntaF">   
     
-                                <persName>
+                                <persName source="#Katz1973">
                                     <ref target=""/>
                                     <foreName>Assunta</foreName>
                                     <surname>Fratini</surname>
-                                    <!-- bibliografia da trattare diversamente -->
-                                    <note resp="#GB">Nome desunto dal libro "Sabato Nero" di Robert Katz. Arminio afferma che lei fosse la portinaia dell'edificio dove abitava il cognato ma in realtà era una inquilina</note>
+                                    
                                 </persName>
 
                                 <sex>F</sex>
+
+                                <note resp="#GB">Arminio afferma che la donna fosse la portinaia dell'edificio dove abitava il cognato ma in realtà era una inquilina</note>
 
                                 <birth>
                                     <date when="" cert=""></date>
@@ -543,7 +569,7 @@
                                     <ref target="https://it.wikipedia.org/wiki/Theodor_Dannecker https://www.treccani.it/enciclopedia/johann-heinrich-von-dannecker_%28Enciclopedia-Italiana%29/"/>
                                     <foreName>Theodor</foreName>
                                     <surname>Dannecker</surname>
-                                    <roleName type="military">Capitano <foreign xml:lang="de">SS-Hauptsturmführer</foreign></roleName>
+                                    <roleName type="military" xml:lang="de">SS-Hauptsturmführer</roleName>
                                 </persName>
 
                                 <sex>M</sex>
@@ -566,15 +592,13 @@
 
                         </person>
 
-                        <!--Vincenzo Moranzoni-->
+                        <!--Vincenzo Moranzoni: non ho molte informazioni su di lui-->
                         <person xml:id="VincenzoM" sameAs="https://viaf.org/viaf/821715">   
     
-                                <persName>
+                                <persName source="#Rigano2015">
                                     <ref target=""/>
                                     <foreName>Vincenzo</foreName>
                                     <surname>Moranzoni</surname>
-                                    <!--bibliografia-->
-                                    <note resp="#GB">Informazioni desunte dal libro "L'interprete di Auschwitz" di Gabriele Rigano</note>
                                 </persName>
 
                                 <sex>M</sex>
@@ -597,7 +621,7 @@
 
                         </person>
 
-                        <!--Sig.ra Disegni: non ho informazioni a riguardo-->
+                        <!--Sig.ra Disegni: non ho informazioni su di lei-->
                         <person xml:id="DisegniSig">   
     
                                 <persName>
@@ -626,16 +650,19 @@
 
                         </person>
 
-                        <!--Nella Gesuà sive Salvadori: moglie di Angelo Dina con il quale non ha avuto due figlie, come ha detto Arminio, ma due figli -->
+                        <!--Nella Gesuà Sive Salvadori-->
                         <person xml:id="NellaGSS">   
     
                                 <persName>
-                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-1075/gesua-sive-salvadori-nella.html "/>
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-1075/gesua-sive-salvadori-nella.html"/>
                                     <foreName>Nella</foreName>
                                     <surname type="combine">Gesuà sive Salvadori</surname>
+                                    
                                 </persName>
 
                                 <sex>F</sex>
+
+                                <note resp="#GB">Nella Gesuà sive Salvadori è la moglie di Angelo Dina con il quale non ha avuto due figlie, come ha detto Arminio, ma due figli</note>
 
                                 <birth>
                                     <date when="1912" cert="high">1912</date>
@@ -658,7 +685,7 @@
                         <!--Augusto Capon-->
                         <person xml:id="AugustoC" sameAs="http://viaf.org/viaf/65633489">   
     
-                                <persName role="ammiraglio in pensione">
+                                <persName role="ammiraglio">
                                     <ref target="https://it.wikipedia.org/wiki/Augusto_Capon http://digital-library.cdec.it/cdec-web/persone/detail/person-1344/capon-augusto.html"/>
                                     <foreName>Augusto</foreName>
                                     <surname>Capon</surname>
@@ -672,6 +699,8 @@
                                     <roleName type="honorific">Medaglia commemorativa dell'Unità d'Italia</roleName>
                                     <roleName type="honorific">Medaglia commemorativa italiana della vittoria</roleName>
                                 </persName>
+
+                                <note resp="#GB">Fu il suocero di Enrico Fermi</note>
 
                                 <sex>M</sex>
 
@@ -698,11 +727,9 @@
     
                                 <persName role="direttrice">
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-1137/cavalieri-alina.html http://www.nomidellashoah.it/1scheda.asp?nome=Alina&amp;cognome=Cavalieri&amp;id=1137"/>
-                                    <foreName>Alina</foreName>
+                                    <foreName source="#Rigano2015">Alina</foreName>
                                     <surname>Cavalieri</surname>
                                     <roleName type="health">Direttrice della Croce Rossa fino al 1938</roleName>
-                                    <!--bibliografia-->
-                                    <note resp="#GB">Informazioni desunte dal libro "L'interprete di Auschwitz" di Gabriele Rigano</note>
                                 </persName>
 
                                 <sex>F</sex>
@@ -725,35 +752,35 @@
 
                         </person>
 
-                        <!--Sig.ra Rotschild-->
+                        <!--Sig.ra Rotschild: non ho molte informazioni su di lei-->
                         <person xml:id="Rotschild">   
     
                                 <persName>
                                     <ref target=""/>
                                     <foreName></foreName>
                                     <surname>Rotschild</surname>
-                                    <!--bibliografia-->
-                                    <note resp="#GB">Informazioni desunte dal libro "L'interprete di Auschwitz" di Gabriele Rigano</note>
                                 </persName>
 
                                 <sex>F</sex>
 
+                                <note resp="#GB">Arminio cade in errore ricordando che il cognome della signora fosse Rosenthal</note>
+                                
                                 <birth>
                                     <date when="" cert=""></date>
-                                    <note resp="#GB">Informazioni desunte dal libro "L'interprete di Auschwitz" di Gabriele Rigano: Arminio afferma che la donna avesse origini tedesche</note>
-                                    <placeName>
+                                    <placeName cert="medium">
                                         <settlement type=""></settlement>
                                         <country key="DE">Germania</country>
                                     </placeName>
+                                    <note resp="#GB" source="#Rigano2015">Dalle parole di Arminio deduco che la donna avesse origini tedesche</note>
                                 </birth>
 
                                 <death>
                                     <date when="1943-10-18" cert="high">18 Ottobre 1943</date>
                                     <placeName>
-                                        <note resp="#GB">Informazioni desunte dalla testimonianza di Arminio: la donna è morta durante il tragitto all'interno del convoglio diretto verso Auschwitz</note>
                                         <settlement type=""></settlement>
                                         <country key=""></country>
                                     </placeName>
+                                    <note resp="#GB">Dalle parole di Arminio deduco che la donna è morta durante il tragitto all'interno del convoglio diretto verso Auschwitz</note>
                                 </death>
 
                         </person>
@@ -795,7 +822,7 @@
                                     <foreName>Josef</foreName>
                                     <foreName>Rudolf</foreName>
                                     <surname>Mengele</surname>
-                                    <roleName type="military">Capitano <foreign xml:lang="de">SS-Hauptsturmführer</foreign></roleName>
+                                    <roleName type="military">SS-Hauptsturmführer</roleName>
                                 </persName>
 
                                 <sex>M</sex>
@@ -827,7 +854,7 @@
                                     <foreName>Franz</foreName>
                                     <foreName>Ferdinand</foreName>
                                     <surname>Höss</surname>
-                                    <roleName type="military"><foreign xml:lang="de">SS-Obersturmbannführer</foreign></roleName>
+                                    <roleName type="military">SS-Obersturmbannführer</roleName>
                                     <addName type="nickname">Animale</addName>
                                 </persName>
 
@@ -851,25 +878,25 @@
 
                         </person>
                         
-                        <!--Nathan Gerovitsch: ho poche informazioni-->
+                        <!--Nathan Gerovitsch: non ho molte informazioni su di lui-->
                         <person xml:id="NathanG">   
     
                                 <persName>
                                     <ref target=""/>
                                     <foreName>Nathan</foreName>
                                     <surname>Gerovitsch</surname>
-                                    <roleName><foreign xml:lang="de">Kapò</foreign> dei tatuatori ad Auschwitz</roleName>
+                                    <roleName>Capo dei tatuatori ad Auschwitz</roleName>
                                 </persName>
 
                                 <sex>M</sex>
 
                                 <birth>
                                     <date when="" cert=""></date>
-                                    <placeName>
-                                        <note resp="#GB">Desumo dalle parole di Arminio Wachsberger che l'uomo fosse un ebreo polacco</note>
+                                    <placeName cert="medium">
                                         <settlement type=""></settlement>
                                         <country key="PL">Polonia</country>
-                                    </placeName>
+                                    </placeName>                                        
+                                    <note resp="#GB">Desumo dalle parole di Arminio Wachsberger che l'uomo fosse un ebreo polacco</note>
                                 </birth>
 
                                 <death>
@@ -906,10 +933,10 @@
                                 <death>
                                     <date when="1943-12-31" cert="medium">31 Dicembre 1943</date>
                                     <placeName ref="TEI-ListPlace#WA" cert="medium">
-                                        <note resp="#GB">Desumo dalle parole di Arminio Wachsberger che l'uomo morì a Varsavia di differite</note>
                                         <settlement type="municipality">Varsavia</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
+                                    <note resp="#GB">Desumo dalle parole di Arminio Wachsberger che l'uomo morì a Varsavia di differite</note>
                                 </death>
 
                         </person>
@@ -936,10 +963,10 @@
                                 <death>
                                     <date when="1943-12-31" cert="medium">31 Dicembre 1943</date>
                                     <placeName ref="TEI-ListPlace#WA" cert="medium">
-                                        <note resp="#GB">Desumo dalle parole di Arminio Wachsberger che l'uomo morì a Varsavia di tifo</note>
                                         <settlement type="municipality">Varsavia</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
+                                    <note resp="#GB">Desumo dalle parole di Arminio Wachsberger che l'uomo morì a Varsavia di tifo</note>
                                 </death>
 
                         </person>
@@ -1004,7 +1031,8 @@
 
                         <!--Isaac Saul Senor-->
                         <person xml:id="IsaacSS"> 
-                            <note resp="#GB">Desumo dalle parole di Arminio Wachsberger le informazioni riguardarti questo uomo</note>  
+
+                                <note resp="#GB">Desumo dalle parole di Arminio Wachsberger le informazioni riguardarti questo uomo</note>  
     
                                 <persName>
                                     <ref target=""/>
@@ -1023,13 +1051,12 @@
                                 </birth>
 
                                 <death>
-                                    <date when="" cert="" notBefore="1943-11-27">
-                                        <note resp="#GB">Desumo che sia morto successivamente all'arrivo di Arminio nel ghetto di Varsavia</note>
-                                    </date>
-                                    <placeName ref="TEI-ListPlace#WA">
+                                    <date when="" cert="" notBefore="1943-11-27"></date>
+                                    <placeName ref="TEI-ListPlace#WA" cert="medium">
                                         <settlement type="municipality">Varsavia</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
+                                    <note resp="#GB">Desumo che sia morto successivamente all'arrivo di Arminio nel ghetto di Varsavia</note>
                                 </death>
 
                         </person>
@@ -1038,7 +1065,7 @@
                         <person xml:id="MarioDV"> 
     
                                 <persName role="venditore_ambulante">
-                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-2292/di-veroli-mario.html "/>
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-2292/di-veroli-mario.html"/>
                                     <foreName>Mario</foreName>
                                     <surname type="combine">Di Veroli</surname>
                                 </persName>
@@ -1055,11 +1082,11 @@
 
                                 <death>
                                     <date when="1944-07-25" cert="high">25 Luglio 1944</date>
-                                    <placeName ref="TEI-ListPlace#WA">
-                                        <note resp="#GB">Desumo il luogo della sua morte dalle parole di Arminio</note>
+                                    <placeName ref="TEI-ListPlace#WA" cert="medium">
                                         <settlement type="municipality">Varsavia</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
+                                    <note resp="#GB">Desumo il luogo della sua morte dalle parole di Arminio</note>
                                 </death>
 
                         </person>
@@ -1093,7 +1120,7 @@
 
                         </person>
 
-                        <!--Lillo Di Segni: non trovo informazioni su di lui-->
+                        <!--Lillo Di Segni: non ho informazioni su di lui-->
                         <person xml:id="LilloDS"> 
     
                                 <persName>
@@ -1123,7 +1150,7 @@
                         </person>
 
                         <!--Isacco Sermoneta-->
-                        <person xml:id="LelloDS"> 
+                        <person xml:id="IsaccoS"> 
     
                                 <persName role="venditore_ambulante">
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-7670/sermoneta-isacco.html"/>
@@ -1164,9 +1191,8 @@
                                 </birth>
 
                                 <death>
-                                    <date when="" cert="" notBefore="1945-06-23">
-                                        <note resp="#GB">Essendo rimpatriata il 23 Giugno 1945 desumo sia morta successivamente</note>
-                                    </date>
+                                    <date when="" cert="" notBefore="1945-06-23"></date>
+                                    <note resp="#GB">Essendo rimpatriata il 23 Giugno 1945 desumo sia morta successivamente</note>
                                     <placeName>
                                         <settlement type=""></settlement>
                                         <country key=""></country>
@@ -1175,7 +1201,7 @@
 
                         </person>
 
-                        <!--Cesare Belfiore-->
+                        <!--Cesare Belfiore: non ho informazioni su di lui-->
                         <person xml:id="CesareB"> 
     
                                 <persName>
@@ -1205,7 +1231,7 @@
 
                         </person>
 
-                        <!-- Enzo Sereni -->
+                        <!--Enzo Sereni-->
                         <person xml:id="EnzoS" sameAs="http://viaf.org/viaf/24782324"> 
     
                                 <persName role="attivista">
@@ -1234,7 +1260,7 @@
 
                         </person>
 
-                        <!-- Capitano Blasi -->
+                        <!--Capitano Blasi: non ho molte informazioni su di lui-->
                         <person xml:id="CapBlasi"> 
     
                                 <persName role="vice_comandante_wehrmacht">
@@ -1247,11 +1273,11 @@
 
                                 <birth>
                                     <date when="" cert=""></date>
-                                    <placeName ref="">
-                                    <note resp="#GB">Desumo dalle parole di Arminio Wachsberger che fosse tedesco</note>
+                                    <placeName cert="medium">
                                         <settlement type=""></settlement>
                                         <country key="DE">Germania</country>
                                     </placeName>
+                                    <note resp="#GB">Desumo dalle parole di Arminio Wachsberger che fosse tedesco</note>
                                 </birth>
 
                                 <death>
@@ -1284,9 +1310,8 @@
                                 </birth>
 
                                 <death>
-                                    <date when="" cert="" notBefore="1997-06-22">
-                                        <note resp="#GB">Desumo che sia morto successivamente alla sua ultima intervista rilasciata, ovvero dopo il 22 Giugno 1997</note>
-                                    </date>
+                                    <date when="" cert="medium" notBefore="1997-06-22"></date>
+                                    <note resp="#GB">Desumo che sia morto successivamente alla sua ultima intervista rilasciata, ovvero dopo il 22 Giugno 1997</note>
                                     <placeName ref="">
                                         <settlement type=""></settlement>
                                         <country key=""></country>
@@ -1295,7 +1320,7 @@
 
                         </person>
 
-                        <!-- Irving J. Smith: informazioni non trovate -->
+                        <!-- Irving J. Smith: non ho trovato informazioni su di lui -->
                         <person xml:id="IrvingJS"> 
     
                                 <persName role="tenente_armata_americana">
@@ -1309,17 +1334,16 @@
 
                                 <birth>
                                     <date when="" cert=""></date>
-                                    <placeName>
-                                    <note resp="#GB">Deducato dalle parole di Arminio che fosse americano</note>
+                                    <placeName cert="medium">
                                         <settlement type=""></settlement>
                                         <country key="USA">Stati Uniti d'America</country>
                                     </placeName>
+                                    <note resp="#GB">Deduco dalle parole di Arminio che fosse americano</note>
                                 </birth>
 
                                 <death>
-                                    <date when="" cert="" notBefore="1997-06-22"><!--?-->
-                                    </date>
-                                    <placeName ref="">
+                                    <date when="" cert=""></date>
+                                    <placeName>
                                         <settlement type=""></settlement>
                                         <country key=""></country>
                                     </placeName>
@@ -1359,7 +1383,7 @@
 
                         </person>
 
-                        <!-- Tibor Wachsberger: nessuna informazione su di lui -->
+                        <!-- Tibor Wachsberger: non ho informazioni su di lui -->
                         <person xml:id="TiborW"> 
     
                                 <persName role="comandante">
@@ -1372,10 +1396,10 @@
 
                                 <birth>
                                     <date when="" cert=""></date>
-                                    <placeName ref="TEI-ListPlace#CS">
-                                        <note resp="#GB">Deducato dalle parole di Arminio che fosse originario della Cecoslovacchia</note>
-                                        <settlement type="municipality">Cecoslovacchia</settlement>
-                                        <country key=""></country>
+                                    <placeName ref="TEI-ListPlace#CS" cert="medium">
+                                        <settlement type=""></settlement>
+                                        <country notAfter="1992">Cecoslovacchia</country>
+                                        <note resp="#GB">Deduco dalle parole di Arminio che fosse originario della Cecoslovacchia</note>
                                     </placeName>
                                 </birth>
 
@@ -1389,8 +1413,8 @@
 
                         </person>
 
-                        <!-- Gino Eigenmann: nessuna informazione su di lui -->
-                        <person xml:id="GinoE"> 
+                        <!-- Gino Eigenmann: non ho informazioni su di lui -->
+                        <person xml:id="GinoE" source="#Rigano2015"> 
     
                                 <persName role="scienziato">
                                     <ref target=""/>
@@ -1400,10 +1424,9 @@
 
                                 <sex>M</sex>
 
-                                <birth>
+                                <birth source="#Rigano2015">
                                     <date when="1912" cert="high">1912</date>
-                                    <note resp="#GB">Informazioni dal libro "L'interprete di Auschwitz" di Gabriele Rigano</note>
-                                    <placeName ref="">
+                                    <placeName ref="TEI-ListPlace.xml#MI">
                                         <district>Milanino</district>
                                         <settlement type="municipality">Milano</settlement>
                                         <country key="IT">Italia</country>
@@ -1427,7 +1450,7 @@
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-103/wachsberger-giovanni.html"/>
                                     <foreName>Giovanni</foreName>
                                     <surname>Wachsberger</surname>
-                                    <addName type="nickname"><foreign>Haimi</foreign></addName>
+                                    <addName type="nickname" xml:lang="ji">Haimi</addName>
                                 </persName>
 
                                 <sex>M</sex>
@@ -1441,8 +1464,7 @@
                                 </birth>
 
                                 <death>
-                                    <date when="1997" cert="high">1997</date>
-                                    <note resp="#GB">Informazioni dal libro "L'interprete di Auschwitz" di Gabriele Rigano</note>
+                                    <date when="1997" cert="high" source="#Rigano2015">1997</date>
                                     <placeName>
                                         <settlement type=""></settlement>
                                         <country key=""></country>
@@ -1450,7 +1472,7 @@
                                 </death>
                         </person>
 
-                        <!--Ester Brach: nessuna informazione su di lei-->
+                        <!--Ester Brach: non ho informazioni su di lei-->
                         <person xml:id="EsterB">   
     
                                 <persName>
@@ -1521,9 +1543,8 @@
                                 <sex>F</sex>
 
                                 <birth>
-                                    <date when="" notBefore="1913-11-04" cert="medium">
-                                        <note resp="#GB">Desumo che sia nata dopo di lui</note>
-                                    </date>
+                                    <date when="" notBefore="1913-11-04" cert="medium"></date>
+                                    <note resp="#GB">Desumo che sia nata dopo di lui</note>
                                     <placeName ref="TEI-ListPlace#FM">
                                         <settlement type="municipality">Fiume</settlement>
                                         <country key="HR">Croazia</country>
@@ -1539,7 +1560,7 @@
                                 </death>
                         </person>
 
-                        <!--Ludovico Liedermann: informazioni desunte dalla pagina della moglie-->
+                        <!--Ludovico Liedermann-->
                         <person xml:id="LudovicoL">   
     
                                 <persName role="pasticcere">
@@ -1560,9 +1581,8 @@
                                     </placeName>
                                 </birth>
 
-                                <death>
-                                    <note resp="#GB">Informazioni dal libro "L'interprete di Auschwitz" di Gabriele Rigano</note>
-                                    <date when="" notBefore="1944-08" cert="high">Dopo l'agosto 1944</date>
+                                <death source="#Rigano2015">
+                                    <date when="" notBefore="1944-08" cert="high"></date>
                                     <placeName ref="TEI-ListPlace#Au">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
@@ -1570,7 +1590,7 @@
                                 </death>
                         </person>
 
-                        <!--Haim Zelikowitz-->
+                        <!--Haim Zelikowitz: non ho molte informazioni su di lui-->
                         <person xml:id="HaimZ">   
     
                                 <persName>
@@ -1583,15 +1603,15 @@
 
                                 <birth>
                                     <date when="" cert=""></date>
-                                    <placeName ref="TEI-ListPlace#HU-DE">
+                                    <placeName ref="TEI-ListPlace#HU-DE" cert="medium">
                                         <settlement type="municipality">Debrecen</settlement>
                                         <country key="HU">Ungheria</country>
                                     </placeName>
+                                    <note resp="#GB">Deduco dalle parole di Arminio che fosse di Debrecen</note>
                                 </birth>
 
-                                <death>
-                                    <note resp="#GB">Informazioni dal libro "L'interprete di Auschwitz" di Gabriele Rigano</note>
-                                    <date when="" notBefore="1944-08" cert="high">Dopo l'agosto 1944</date>
+                                <death source="#Rigano2015">
+                                    <date when="" notBefore="1944-08" cert="high"></date>
                                     <placeName ref="TEI-ListPlace#Au">
                                         <settlement type="municipality">Auschwitz</settlement>
                                         <country key="PL">Polonia</country>
@@ -1635,7 +1655,7 @@
 
                                 <birth>
                                     <date when="-460" cert="high">460 a.C</date>
-                                    <placeName><!--dubbio-->
+                                    <placeName>
                                         <settlement type="island">Coo</settlement>
                                         <country key="GR">Grecia</country>
                                     </placeName>
@@ -1694,9 +1714,8 @@
                                 <sex>F</sex>
 
                                 <birth>
-                                    <date when="1905" notBefore="1877" notAfter="1929" cert="medium">Tra il 1877 e il 1929 ma più presumibilmente intorno al 1905.
-                                        <note resp="#GB">Desumo dalle parole di Arminio che nel momento dell'intervista avesse 93 anni</note>
-                                    </date>
+                                    <date when="1905" notBefore="1877" notAfter="1929" cert="medium"></date>
+                                    <note resp="#GB">Desumo dalle parole di Arminio che nel momento dell'intervista avesse 93 anni</note>
                                     <placeName>
                                         <settlement type=""></settlement>
                                         <country key=""></country>
@@ -1704,9 +1723,8 @@
                                 </birth>
 
                                 <death>
-                                    <date when="" notBefore="1998-04-02" cert="high">
-                                        <note resp="#GB">Desumo dalle parole di Arminio che nel momento dell'intervista fosse ancora viva</note>
-                                    </date>
+                                    <date when="" notBefore="1998-04-02" cert="high"></date>
+                                    <note resp="#GB">Desumo dalle parole di Arminio che nel momento dell'intervista fosse ancora viva</note>
                                     <placeName>
                                         <settlement type=""></settlement>
                                         <country key=""></country>
@@ -1726,7 +1744,7 @@
                                 <sex>F</sex>
 
                                 <birth>
-                                    <date when="" notBefore="1896" notAfter="1956" cert="high">Tra il 1896 e il 1956</date>
+                                    <date when="" notBefore="1896" notAfter="1956" cert="high"></date>
                                     <placeName>
                                         <settlement type=""></settlement>
                                         <country key=""></country>
@@ -1840,7 +1858,7 @@
                                 </birth>
 
                                 <death>
-                                    <date when="1980-01-01" cert="high">Primo Gennaio 1980</date>
+                                    <date when="1980-01-01" cert="high">1 Gennaio 1980</date>
                                     <placeName ref="TEI-ListPlace#RO">
                                         <settlement type="municipality">Roma</settlement>
                                         <country key="IT">Italia</country>
@@ -1855,7 +1873,8 @@
                                     <ref target="https://it.wikipedia.org/wiki/Papa_Pio_XII https://www.treccani.it/enciclopedia/pio-xii-papa/"/>
                                     <foreName>Eugenio Maria Giuseppe Giovanni</foreName>
                                     <surname>Pacelli</surname>
-                                    <addName type="religious">Papa Pio XII</roleName>
+                                    <roleName type="religious">Papa</roleName>
+                                    <addName type="alias">Pio XII</addName>
                                 </persName>
 
                                 <sex>M</sex>
@@ -1877,7 +1896,7 @@
                                 </death>
                         </person>
 
-                        <!--Guido Della Seta-->
+                        <!--Guido Della Seta: non ho molte informazioni su di lui-->
                         <person xml:id="GuidoDS">   
     
                                 <persName>
@@ -1889,7 +1908,7 @@
                                 <sex>M</sex>
 
                                 <birth>
-                                    <date when="" notBefore="1896" notAfter="1956" cert="high">Tra il 1896 e il 1956</date>
+                                    <date when="" notBefore="1896" notAfter="1956" cert="high"></date>
                                     <placeName>
                                         <settlement type=""></settlement>
                                         <country key=""></country>
@@ -1938,7 +1957,7 @@
                         <person xml:id="ClaraAW">   
     
                                 <persName>
-                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-110/wachsberger-clara-alessandra.html "/>
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-110/wachsberger-clara-alessandra.html"/>
                                     <foreName>Clara Alessandra</foreName>
                                     <surname>Wachsberger</surname>
                                 </persName>
@@ -2048,18 +2067,18 @@
                                     <ref target=""/>
                                     <foreName></foreName>
                                     <surname></surname>
-                                    <addName type="nickname">Tischler</addName>
+                                    <addName type="nickname" xml:lang="de">Tischler</addName>
                                 </persName>
 
                                 <sex>M</sex>
 
                                 <birth>
                                     <date when="" cert=""></date>
-                                    <placeName>
-                                    <note resp="#GB">Desumo dalle parole di Arminio che fosse nato in Polonia.
+                                    <placeName cert="medium">
                                         <settlement type=""></settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
+                                    <note resp="#GB">Desumo dalle parole di Arminio che fosse nato in Polonia</note>
                                 </birth>
 
                                 <death>
@@ -2071,9 +2090,8 @@
                                 </death>
                         </person>
 
-                        <!--Israel Senor: non ho informazioni-->
-                        <person xml:id="IsraelS"> 
-                            <note resp="#GB">Informazioni dal libro "L'interprete di Auschwitz" di Gabriele Rigano</note>
+                        <!--Israel Senor: non ho informazioni su di lui-->
+                        <person xml:id="IsraelS" source="#Rigano2015"> 
 
                                 <persName>
                                     <ref target=""/>
@@ -2087,14 +2105,14 @@
                                 <birth>
                                     <date when="" cert=""></date>
                                     <placeName ref="TEI-ListPlace#Sal" cert="low">
-                                        <note resp="#GB">Desumo che avesse la stessa origine del fratello</note>
                                         <settlement type="municipality">Salonicco</settlement>
                                         <country key="GR">Grecia</country>
                                     </placeName>
+                                    <note resp="#GB">Desumo che avesse la stessa origine del fratello</note>
                                 </birth>
 
                                 <death>
-                                    <date when="" cert="" notBefore="1945-07-12">12 Luglio 1945</date>
+                                    <date when="" cert="medium" notBefore="1945-07-12">12 Luglio 1945</date>
                                     <note resp="#GB">Deduco dalle parole di Arminio che si fosse salvato dalla deportazione e che fosse presente almeno al suo matrimonio con Olga Wiener</note>
                                     <placeName>
                                         <settlement type=""></settlement>
@@ -2187,18 +2205,18 @@
                                 <death>
                                     <date when="" cert=""></date>
                                     <placeName ref="TEI-ListPlace#WA" cert="medium">
-                                        <note resp="#GB">Desumo dalle parole di Arminio Wachsberger che l'uomo morì a Varsavia</note>
                                         <settlement type="municipality">Varsavia</settlement>
                                         <country key="PL">Polonia</country>
                                     </placeName>
+                                    <note resp="#GB">Desumo dalle parole di Arminio Wachsberger che l'uomo morì a Varsavia</note>
                                 </death>
 
                         </person>
 
-                        <!--Maurizio Fenichel: non ho informazioni-->
+                        <!--Maurizio Fenichel: non ho informazioni su di lui-->
                         <person xml:id="MaurizioF">   
     
-                                <persName role="direttore_sanitario">
+                                <persName role="direttore_sanitario" source="#Rigano2015">
                                     <ref target=""/>
                                     <foreName>Maurizio</foreName>
                                     <surname>Fenichel</surname>
@@ -2215,9 +2233,8 @@
                                 </birth>
 
                                 <death>
-                                    <date when="" notBefore="1949-02-17" cert="high">Dopo il 17 febbraio 1949
-                                        <note resp="#GB">Desumo che avendo firmato una carta libera di referenze sul lavoro svolto da Olga Wachsberger dovrà esse morto successivamente</note>
-                                    </date>
+                                    <date when="" notBefore="1949-02-17" cert="high" source="#Rigano2015"></date>
+                                    <note resp="#GB">Desumo che avendo firmato una carta libera di referenze sul lavoro svolto da Olga Wachsberger dovrà esse morto successivamente</note>
                                     <placeName>
                                         <settlement type=""></settlement>
                                         <country key=""></country>
@@ -2229,8 +2246,8 @@
                         <!--Edmund Carter Rosenhauch-->
                         <person xml:id="EdmundCR" sameAs="http://viaf.org/viaf/250314036">   
     
-                                <persName role="oculista">
-                                    <ref target="http://viaf.org/viaf/250314036"/><!--?-->
+                                <persName role="oculista" source="#Rigano2015">
+                                    <ref target=""/>
                                     <foreName>Edmund</foreName>
                                     <surname type="combine">Carter Rosenhauch</surname>
                                 </persName>
@@ -2247,11 +2264,11 @@
 
                                 <death>
                                     <date when="1962" cert="medium">1962</date>
-                                    <placeName>
-                                        <note resp="#GB">Desumo dalle informazioni del libro "L'interprete di Auschwitz" di Gabriele Rigano che nel 1947 fosse emigrato negli Stati Uniti</note>
+                                    <placeName cert="medium" source="#Rigano2015">
                                         <settlement type=""></settlement>
                                         <country key="USA" cert="medium">Stati Uniti d'America</country>
                                     </placeName>
+                                    <note resp="#GB">Desumo dalle informazioni che nel 1947 fosse emigrato negli Stati Uniti</note>
                                 </death>
 
                         </person>
@@ -2267,7 +2284,7 @@
                                     <addName type="nickname">Ike</addName>
                                 </persName>
 
-                                <note resp="#GB">Fu il 34° Presidente degli Stati Uniti d'America dal 1953 al 1961.</note>
+                                <note resp="#GB">Fu il 34esimo Presidente degli Stati Uniti d'America dal 1953 al 1961.</note>
 
                                 <sex>M</sex>
 
@@ -2295,8 +2312,8 @@
                                 <persName role="avvocato_procuratore">
                                     <ref target="https://it.wikipedia.org/wiki/Fiorello_La_Guardia https://www.treccani.it/enciclopedia/la-guardia-fiorello-henry/"/>
                                     <foreName>Fiorello</foreName>
-                                    <foreName xml:id="enrico">Enrico</foreName>
-                                    <foreName copyOf="#enrico" type="alternative">Henry</foreName>
+                                    <foreName>Enrico</foreName>
+                                    <foreName type="alternative" xml:lang="en">Henry</foreName>
                                     <surname>La Guardia</surname>
                                     <addName type="nickname">The Little Flower</addName>
                                 </persName>
@@ -2370,8 +2387,8 @@
                             <relation name="acquaintance" mutual="#AW #LauraM #GuidoDS"/>
                             <relation name="sibling" mutual="#IsaacSS #IsraelS"/>
                             <relation name="friend" mutual="#AW #IsraelS"/> 
-                            <relation name="collaborator-Feldafing" mutual="#AW #MaurizioF #EdmundCR">
-                            <relation name="acquaintance" mutual="#AW #DwightE #FiorelloLG">
+                            <relation name="collaborator-Feldafing" mutual="#AW #MaurizioF #EdmundCR"/>
+                            <relation name="acquaintance" mutual="#AW #DwightE #FiorelloLG"/>
 					</listRelation>
                 </listPerson>
             

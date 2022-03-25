@@ -74,7 +74,7 @@
                         <country key="IT">Italia</country>
                     </place>
 
-                    <place xml:id="StTib"><!--no info treccani-->
+                    <place xml:id="StTib">
                         <placeName ref="https://www.geonames.org/3169043 https://it.wikipedia.org/wiki/Stazione_di_Roma_Tiburtina">Stazione Tiburtina</placeName>
                         <country key="IT">Italia</country>
                     </place>
@@ -114,7 +114,7 @@
                         <country key="DE">Germania</country>
                     </place>
 
-                    <place xml:id="GA"><!--no info treccani-->
+                    <place xml:id="GA">
                         <placeName ref="https://www.geonames.org/6556387 https://en.wikipedia.org/wiki/Gauting">Gauting</placeName>
                         <country key="DE">Germania</country>
                     </place>
@@ -149,7 +149,7 @@
                         <country key="IT">Italia</country>
                     </place>
 
-                    <place xml:id="StCen"><!--no info treccani-->
+                    <place xml:id="StCen">
                         <placeName ref="https://www.geonames.org/7778933 https://it.wikipedia.org/wiki/Stazione_di_Padova">Stazione Padova Centrale</placeName>
                         <country key="IT">Italia</country>
                     </place>
@@ -169,7 +169,7 @@
                         <country key="PL">Polonia</country>
                     </place>
 
-                    <place xml:id="Rav"><!--no info treccani-->
+                    <place xml:id="Rav">
                         <placeName ref="https://www.geonames.org/6951801 https://it.wikipedia.org/wiki/Campo_di_concentramento_di_Ravensbrück">Ravensbruck</placeName>
                         <country key="DE">Germania</country>
                     </place>
@@ -179,21 +179,21 @@
                         <country key="CA">Canada</country>
                     </place>
 
-                    <place xml:id="YU"><!--Jugoslavia: stato non più esistente-->
+                    <place xml:id="YU"><!--stato non più esistente-->
                         <placeName ref="https://www.geonames.org/7500737 https://www.treccani.it/enciclopedia/iugoslavia/">Jugoslavia</placeName>
-                        <country notAfter="2003">Jugoslavia</country>
+                        <country notBefore="1929" notAfter="2003">Jugoslavia</country>
                         <note resp="#GB">Stato esistito tra il 1929 e il 2003</note>
                     </place>
 
-                    <place xml:id="CS"><!--Cecoslovacchia: stato non più esistente-->
+                    <place xml:id="CS"><!--stato non più esistente-->
                         <placeName ref="https://www.geonames.org/8505031 https://www.treccani.it/enciclopedia/cecoslovacchia/">Cecoslovacchia</placeName>
-                        <country notAfter="1992">Cecoslovacchia</country>
+                        <country notBefore="1918" notAfter="1992">Cecoslovacchia</country>
                         <note resp="#GB">Stato esistito tra il 1918 e il 1992</note>
                     </place>
 
-                    <place xml:id="IAU"><!--Impero Austro-Ungarico: stato non più esistente che non sono riuscita a trovare su geonames.org e su treccani.it-->
+                    <place xml:id="IAU"><!--stato non più esistente-->
                         <placeName ref="https://it.wikipedia.org/wiki/Impero_austro-ungarico">Austria-Ungheria</placeName>
-                        <country notAfter="1919">Austria-Ungheria</country>
+                        <country notBefore="1867" notAfter="1919">Austria-Ungheria</country>
                         <note resp="#GB">Stato esistito tra il 1867 e il 1919</note>
                     </place>
 
@@ -202,7 +202,7 @@
                         <country key="CZ">Repubblica Ceca</country>
                     </place>
 
-                    <place xml:id="Ja"><!--wikipedia: su treccani.it non c'è la voce-->
+                    <place xml:id="Ja">
                         <placeName ref="https://www.geonames.org/3097333 https://it.wikipedia.org/wiki/Jaworzno/">Jaworzno</placeName>
                         <country key="PL">Polonia</country>
                     </place>
@@ -222,7 +222,7 @@
                         <country key="DE">Germania</country>
                     </place>
 
-                    <place xml:id="Fe"><!--no informazioni su treccani.it-->
+                    <place xml:id="Fe">
                         <placeName ref="https://www.geonames.org/2927464 https://en.wikipedia.org/wiki/Feldafing">Feldafing</placeName>
                         <country key="DE">Germania</country>
                     </place>
@@ -232,7 +232,7 @@
                         <country key="DE">Germania</country>
                     </place>
 
-                    <place xml:id="EKU"><!--no informazioni su treccani.it-->
+                    <place xml:id="EKU">
                         <placeName ref="https://www.geonames.org/3094170 https://it.wikipedia.org/wiki/Kutno">Kutno</placeName>
                         <country key="PL">Polonia</country>
                     </place>
@@ -241,12 +241,12 @@
                         <placeName ref="https://www.geonames.org/6255148 https://www.treccani.it/enciclopedia/europa/">Europa</placeName>
                     </place>
 
-                    <place xml:id="MU"><!--no informazioni su treccani.it-->
+                    <place xml:id="MU">
                         <placeName ref="https://www.geonames.org/2868506 https://it.wikipedia.org/wiki/Mühldorf_am_Inn">Muhldorf</placeName>
                         <country key="DE">Germania</country>
                     </place>
 
-                    <place xml:id="WalV"><!--no informazioni su treccani.it-->
+                    <place xml:id="WalV">
                         <placeName ref="https://www.geonames.org/2814872 https://rememor.eu/wp-content/uploads/2015/06/p06_therkel_straede_EN.pdf">Waldlager</placeName>
                         <country key="DE">Germania</country>
                     </place>
@@ -256,7 +256,7 @@
                         <country key="IT">Italia</country>
                     </place>
 
-                    <place xml:id="Za"><!--no informazioni su treccani.it-->
+                    <place xml:id="Za">
                         <placeName ref="https://www.geonames.org/2805261 https://it.wikipedia.org/wiki/Zangberg">Zangberg</placeName>
                         <country key="DE">Germania</country>
                     </place>
@@ -266,7 +266,7 @@
                         <country key="DE">Germania</country>
                     </place>
 
-                    <place xml:id="Po"><!--no informazioni su treccani.it-->
+                    <place xml:id="Po">
                         <placeName ref="https://www.geonames.org/6556158 https://it.wikipedia.org/wiki/Poing">Stoccarda</placeName>
                         <country key="DE">Germania</country>
                     </place>
@@ -276,17 +276,17 @@
                         <country key="DE">Germania</country>
                     </place>
 
-                    <place xml:id="Wal"><!--info non certa + no informazioni su treccani.it-->
+                    <place xml:id="Wal">
                         <placeName ref="https://www.geonames.org/2814392 https://it.wikipedia.org/wiki/Waltershausen">Waltershausen</placeName>
                         <country key="DE">Germania</country>
                     </place>
 
-                    <place xml:id="Ko"><!--no informazioni su treccani.it-->
+                    <place xml:id="Ko">
                         <placeName ref="https://www.geonames.org/2886920 https://en.wikipedia.org/wiki/Kochelsee">Lago di Kochel</placeName>
                         <country key="DE">Germania</country>
                     </place>
 
-                    <place xml:id="Tu"><!--no informazioni su treccani.it-->
+                    <place xml:id="Tu">
                         <placeName ref="https://www.geonames.org/2820692 https://it.wikipedia.org/wiki/Tutzing">Tutzing</placeName>
                         <country key="DE">Germania</country>
                     </place>
@@ -311,7 +311,7 @@
                         <country key="USA">Stati Uniti d'America</country>
                     </place>
 
-                    <place xml:id="RisieraSS"><!--wikipedia-->
+                    <place xml:id="RisieraSS">
                         <placeName ref="https://www.geonames.org/11127083 https://it.wikipedia.org/wiki/Risiera_di_San_Sabba">Risiera di San Sabba</placeName>
                         <country key="IT">Italia</country>
                     </place>
@@ -341,8 +341,8 @@
                         <country key="BY">Bielorussia</country>
                     </place>
 
-                    <place xml:id="Friuli"><!--geonames del FVG-->
-                        <placeName ref="https://www.geonames.org/3176525 https://www.treccani.it/enciclopedia/friuli/">Friuli</placeName>
+                    <place xml:id="Friuli">
+                        <placeName ref="https://www.treccani.it/enciclopedia/friuli/">Friuli</placeName>
                         <country key="IT">Italia</country>
                     </place>
 
@@ -401,7 +401,7 @@
                         <country key="IT">Italia</country>
                     </place>
 
-                    <place xml:id="OVP"><!--no info treccani-->
+                    <place xml:id="OVP">
                         <placeName ref="http://www.geonames.org/6548306 https://it.wikipedia.org/wiki/Peenemünde">Peenemunde</placeName>
                         <country key="DE">Germania</country>
                     </place>
