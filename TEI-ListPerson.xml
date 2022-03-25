@@ -59,8 +59,8 @@
     
                                 <persName>
                                     <ref target="https://it.wikipedia.org/wiki/Arminio_Wachsberger http://digital-library.cdec.it/cdec-web/persone/detail/person-8295/wachsberger-arminio.html"/>
-                                    <foreName type="given">Arminio</foreName>
-                                    <foreName type="religious" xml:lang="ji">Meir Zvi</foreName>
+                                    <forename type="given">Arminio</forename>
+                                    <forename type="religious" xml:lang="ji">Meir Zvi</forename>
                                     <surname>Wachsberger</surname>
                                     <addName type="nickname" xml:lang="ji">Hashi</addName>
                                     <addName type="nickname" xml:lang="de">Dolmetscher</addName>
@@ -90,8 +90,8 @@
                                 
                                 <persName role="storica">
                                     <ref target="http://www.lilianapicciotto.it https://it.wikipedia.org/wiki/Liliana_Picciotto"/>
-                                    <foreName>Liliana</foreName>
-                                    <foreName>Graziella</foreName>
+                                    <forename>Liliana</forename>
+                                    <forename>Graziella</forename>
                                     <surname type="combine">Picciotto Fargion</surname>
                                 </persName>
 
@@ -112,7 +112,7 @@
                                 
                                 <persName>
                                     <ref target=""/>
-                                    <foreName>Maurina</foreName>
+                                    <forename>Maurina</forename>
                                     <surname type="birth" cert="medium">Schinasi</surname>
                                     <surname type="married" cert="medium">Alazraki</surname>
                                 </persName>
@@ -134,7 +134,7 @@
                                 
                                 <persName role="operatore_montatore_video">
                                     <ref target="https://www.fctp.it/professional_item.php?id=130"/>
-                                    <foreName>Paolo</foreName>
+                                    <forename>Paolo</forename>
                                     <surname>Favaro</surname>
                                 </persName>
 
@@ -155,7 +155,7 @@
     
                                 <persName role="rabbino">
                                     <ref target="https://www.rabbini.it/david-wachsberger/ http://digital-library.cdec.it/cdec-web/persone/detail/person-21375/wachsberger-davide.html"/>
-                                    <foreName>Davide</foreName>
+                                    <forename>Davide</forename>
                                     <surname>Wachsberger</surname>
                                     <roleName type="religious">Rabbino capo della comunità ortodossa di Fiume</roleName>
                                 </persName>
@@ -185,8 +185,8 @@
     
                                 <persName>
                                     <ref target="https://www.geni.com/people/Matilde-Miriam-Gellis-Wachsberger/6000000112460675917 http://digital-library.cdec.it/cdec-web/persone/detail/person-3999/gellis-matilde-miriam.html"/>
-                                    <foreName>Matilde</foreName>
-                                    <foreName>Miriam</foreName>
+                                    <forename>Matilde</forename>
+                                    <forename>Miriam</forename>
                                     <surname>Gellis</surname>
                                 </persName>
 
@@ -216,7 +216,7 @@
     
                                 <persName>
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-6270/polacco-regina.html"/>
-                                    <foreName>Regina</foreName>
+                                    <forename>Regina</forename>
                                     <surname>Polacco</surname>
                                 </persName>
 
@@ -245,7 +245,7 @@
     
                                 <persName>
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-107/wiener-olga.html"/>
-                                    <foreName>Olga</foreName>
+                                    <forename>Olga</forename>
                                     <surname>Wiener</surname>
                                 </persName>
 
@@ -276,7 +276,7 @@
     
                                 <persName>
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-8243/wachsberger-clara.html http://www.nomidellashoah.it/1scheda.asp?nome=Clara&amp;cognome=Wachsberger&amp;id=8243"/>
-                                    <foreName>Clara</foreName>
+                                    <forename>Clara</forename>
                                     <surname>Wachsberger</surname>
                                 </persName>
 
@@ -305,7 +305,7 @@
     
                                 <persName role="rigattiere">
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-6266/polacco-moise.html"/>
-                                    <foreName>Moisé</foreName>
+                                    <forename>Moisé</forename>
                                     <surname>Polacco</surname>
                                 </persName>
 
@@ -334,7 +334,7 @@
     
                                 <persName>
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-1394/cesana-carlotta.html"/>
-                                    <foreName>Carlotta</foreName>
+                                    <forename>Carlotta</forename>
                                     <surname type="birth">Cesana</surname>
                                     <surname type="married">Polacco</surname>
                                 </persName>
@@ -363,8 +363,8 @@
                         <person xml:id="Schreiber">   
     
                                 <persName>
-                                    <ref target="https://books.google.it/books?id=uN1TDgAAQBAJ&amp;pg=PT49&amp;lpg=PT49&amp;dq=Abraham+Schreiber+fiume&amp;source=bl&amp;ots=HrviHbo-dB&amp;sig=ACfU3U3il67zd3zec3ncYrSXG44762XScQ&amp;hl=it&amp;sa=X&amp;ved=2ahUKEwi-2uSizr31AhVF7rsIHc8UDecQ6AF6BAgCEAM#v=onepage&amp;q=Abraham%20Schreiber%20fiume&amp;f=false"/>
-                                    <foreName source="#Rigano2015">Abraham</foreName>
+                                    <ref target=""/>
+                                    <forename source="#Rigano2015">Abraham</forename>
                                     <surname>Schreiber</surname>
                                 </persName>
 
@@ -393,7 +393,7 @@
     
                                 <persName role="domestica">
                                     <ref target=""/>
-                                    <foreName>Maria</foreName>
+                                    <forename>Maria</forename>
                                     <surname></surname>
                                 </persName>
 
@@ -423,10 +423,10 @@
                         <person xml:id="Mussolini" sameAs="https://viaf.org/viaf/90162262"> 
 
                             <persName role="politico">
-                                <ref target="https://it.wikipedia.org/wiki/Benito_Mussolini"/>
-                                <foreName>Benito</foreName>
-                                <foreName>Amilcare</foreName>
-                                <foreName>Andrea</foreName>
+                                <ref target="https://it.wikipedia.org/wiki/Benito_Mussolini https://www.treccani.it/enciclopedia/benito-mussolini/"/>
+                                <forename>Benito</forename>
+                                <forename>Amilcare</forename>
+                                <forename>Andrea</forename>
                                 <surname>Mussolini</surname>
                                 <addName type="nickname">il Duce</addName>
                             </persName>
@@ -455,7 +455,7 @@
 
                             <persName>
                                 <ref target=""/>
-                                <foreName>Vittorio</foreName>
+                                <forename>Vittorio</forename>
                                 <surname>Polacco</surname>
                             </persName>
 
@@ -471,12 +471,12 @@
                             </birth>
                         </person>
 
-                        <!--Elio Polacco: non ho molte informazioni su di lui-->
+                        <!--Elio Polacco: non ho informazioni su di lui-->
                         <person xml:id="ElioP">   
     
                                 <persName>
                                     <ref target=""/>
-                                    <foreName source="#Rigano2015">Elio</foreName>
+                                    <forename source="#Rigano2015">Elio</forename>
                                     <surname>Polacco</surname>
                                 </persName>
 
@@ -505,9 +505,8 @@
     
                                 <persName source="#Katz1973">
                                     <ref target=""/>
-                                    <foreName>Assunta</foreName>
+                                    <forename>Assunta</forename>
                                     <surname>Fratini</surname>
-                                    
                                 </persName>
 
                                 <sex>F</sex>
@@ -537,7 +536,7 @@
     
                                 <persName role="presidente">
                                     <ref target="https://it.wikipedia.org/wiki/Settimio_Sorani http://digital-library.cdec.it/cdec-web/persone/detail/person-it-cdec-eaccpf0001-016362/sorani-settimio.html"/>
-                                    <foreName>Settimio</foreName>
+                                    <forename>Settimio</forename>
                                     <surname>Sorani</surname>
                                     <roleName type="office">Presidente della sezione romana della DELASEM</roleName>
                                 </persName>
@@ -567,7 +566,7 @@
     
                                 <persName role="militare">
                                     <ref target="https://it.wikipedia.org/wiki/Theodor_Dannecker https://www.treccani.it/enciclopedia/johann-heinrich-von-dannecker_%28Enciclopedia-Italiana%29/"/>
-                                    <foreName>Theodor</foreName>
+                                    <forename>Theodor</forename>
                                     <surname>Dannecker</surname>
                                     <roleName type="military" xml:lang="de">SS-Hauptsturmführer</roleName>
                                 </persName>
@@ -597,7 +596,7 @@
     
                                 <persName source="#Rigano2015">
                                     <ref target=""/>
-                                    <foreName>Vincenzo</foreName>
+                                    <forename>Vincenzo</forename>
                                     <surname>Moranzoni</surname>
                                 </persName>
 
@@ -626,7 +625,7 @@
     
                                 <persName>
                                     <ref target=""/>
-                                    <foreName></foreName>
+                                    <forename></forename>
                                     <surname>Disegni</surname>
                                 </persName>
 
@@ -655,9 +654,8 @@
     
                                 <persName>
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-1075/gesua-sive-salvadori-nella.html"/>
-                                    <foreName>Nella</foreName>
+                                    <forename>Nella</forename>
                                     <surname type="combine">Gesuà sive Salvadori</surname>
-                                    
                                 </persName>
 
                                 <sex>F</sex>
@@ -687,7 +685,7 @@
     
                                 <persName role="ammiraglio">
                                     <ref target="https://it.wikipedia.org/wiki/Augusto_Capon http://digital-library.cdec.it/cdec-web/persone/detail/person-1344/capon-augusto.html"/>
-                                    <foreName>Augusto</foreName>
+                                    <forename>Augusto</forename>
                                     <surname>Capon</surname>
                                     <addName type="nickname">Adriacus</addName>
                                     <roleName type="military">Ammiraglio di squadra</roleName>
@@ -727,7 +725,7 @@
     
                                 <persName role="direttrice">
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-1137/cavalieri-alina.html http://www.nomidellashoah.it/1scheda.asp?nome=Alina&amp;cognome=Cavalieri&amp;id=1137"/>
-                                    <foreName source="#Rigano2015">Alina</foreName>
+                                    <forename source="#Rigano2015">Alina</forename>
                                     <surname>Cavalieri</surname>
                                     <roleName type="health">Direttrice della Croce Rossa fino al 1938</roleName>
                                 </persName>
@@ -757,7 +755,7 @@
     
                                 <persName>
                                     <ref target=""/>
-                                    <foreName></foreName>
+                                    <forename></forename>
                                     <surname>Rotschild</surname>
                                 </persName>
 
@@ -788,9 +786,9 @@
                         <!--Aldo Muggia-->
                         <person xml:id="AldoM">   
     
-                                <persName role="ingegnere">
+                                <persName role="ingegnere" source="#Rigano2015">
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-5627/muggia-aldo.html"/>
-                                    <foreName>Aldo</foreName>
+                                    <forename>Aldo</forename>
                                     <surname>Muggia</surname>
                                 </persName>
 
@@ -819,8 +817,8 @@
     
                                 <persName role="medico">
                                     <ref target="https://it.wikipedia.org/wiki/Josef_Mengele https://www.treccani.it/enciclopedia/josef-mengele/"/>
-                                    <foreName>Josef</foreName>
-                                    <foreName>Rudolf</foreName>
+                                    <forename>Josef</forename>
+                                    <forename>Rudolf</forename>
                                     <surname>Mengele</surname>
                                     <roleName type="military">SS-Hauptsturmführer</roleName>
                                 </persName>
@@ -850,9 +848,9 @@
     
                                 <persName role="militare">
                                     <ref target="https://it.wikipedia.org/wiki/Rudolf_Höß https://www.tempi.it/storia-della-conversione-di-hoss-lanimale-di-auschwitz/"/>
-                                    <foreName>Rudolf</foreName>
-                                    <foreName>Franz</foreName>
-                                    <foreName>Ferdinand</foreName>
+                                    <forename>Rudolf</forename>
+                                    <forename>Franz</forename>
+                                    <forename>Ferdinand</forename>
                                     <surname>Höss</surname>
                                     <roleName type="military">SS-Obersturmbannführer</roleName>
                                     <addName type="nickname">Animale</addName>
@@ -883,7 +881,7 @@
     
                                 <persName>
                                     <ref target=""/>
-                                    <foreName>Nathan</foreName>
+                                    <forename>Nathan</forename>
                                     <surname>Gerovitsch</surname>
                                     <roleName>Capo dei tatuatori ad Auschwitz</roleName>
                                 </persName>
@@ -914,8 +912,8 @@
     
                                 <persName>
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-1945/della-seta-giovanni-carlo.html http://www.chieracostui.com/costui/docs/search/schedaoltre.asp?ID=16044"/>
-                                    <foreName>Giovanni</foreName>
-                                    <foreName>Carlo</foreName>
+                                    <forename>Giovanni</forename>
+                                    <forename>Carlo</forename>
                                     <surname type="combine">Della Seta</surname>
                                     <addName type="nickname" cert="low">Giancarlo</addName>
                                 </persName>
@@ -946,7 +944,7 @@
     
                                 <persName role="commerciante">
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-1947/della-seta-leonello.html http://www.chieracostui.com/costui/docs/search/schedaoltre.asp?ID=16045"/>
-                                    <foreName>Leonello</foreName>
+                                    <forename>Leonello</forename>
                                     <surname type="combine">Della Seta</surname>
                                 </persName>
 
@@ -976,7 +974,7 @@
     
                                 <persName>
                                     <ref target="https://it.wikipedia.org/wiki/Settimia_Spizzichino http://digital-library.cdec.it/cdec-web/persone/detail/person-7695/spizzichino-settimia.html"/>
-                                    <foreName>Settimia</foreName>
+                                    <forename>Settimia</forename>
                                     <surname>Spizzichino</surname>
                                 </persName>
 
@@ -1005,7 +1003,7 @@
     
                                 <persName role="scrittore">
                                     <ref target="https://it.wikipedia.org/wiki/Rudolf_Vrba"/>
-                                    <foreName>Rudolf</foreName>
+                                    <forename>Rudolf</forename>
                                     <surname>Vrba</surname>
                                 </persName>
 
@@ -1036,7 +1034,8 @@
     
                                 <persName>
                                     <ref target=""/>
-                                    <foreName>Isaac Saul</foreName>
+                                    <forename>Isaac</forename>
+                                    <forename>Saul</forename>
                                     <surname>Senor</surname>
                                 </persName>
 
@@ -1044,7 +1043,7 @@
 
                                 <birth>
                                     <date when="" cert=""></date>
-                                    <placeName ref="TEI-ListPlace#Sal">
+                                    <placeName ref="TEI-ListPlace#Sal" cert="medium">
                                         <settlement type="municipality">Salonicco</settlement>
                                         <country key="GR">Grecia</country>
                                     </placeName>
@@ -1066,7 +1065,7 @@
     
                                 <persName role="venditore_ambulante">
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-2292/di-veroli-mario.html"/>
-                                    <foreName>Mario</foreName>
+                                    <forename source="#Rigano2015">Mario</forename>
                                     <surname type="combine">Di Veroli</surname>
                                 </persName>
 
@@ -1096,7 +1095,7 @@
     
                                 <persName>
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-2379/di-segni-lello.html"/>
-                                    <foreName>Lello</foreName>
+                                    <forename>Lello</forename>
                                     <surname type="combine">Di Segni</surname>
                                 </persName>
 
@@ -1125,7 +1124,7 @@
     
                                 <persName>
                                     <ref target=""/>
-                                    <foreName>Lillo</foreName>
+                                    <forename>Lillo</forename>
                                     <surname type="combine">Di Segni</surname>
                                 </persName>
 
@@ -1154,7 +1153,7 @@
     
                                 <persName role="venditore_ambulante">
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-7670/sermoneta-isacco.html"/>
-                                    <foreName>Isacco</foreName>
+                                    <forename>Isacco</forename>
                                     <surname>Sermoneta</surname>
                                 </persName>
 
@@ -1175,7 +1174,7 @@
     
                                 <persName>
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-8236/vitta-zelman-trieste.html?persone=%22Vitta+Zelman%2C+Trieste%22"/>
-                                    <foreName>Trieste</foreName>
+                                    <forename>Trieste</forename>
                                     <surname type="combine">Vitta Zelman</surname>
                                     <surname type="married">Belfiore</surname>
                                 </persName>
@@ -1206,7 +1205,7 @@
     
                                 <persName>
                                     <ref target=""/>
-                                    <foreName>Cesare</foreName>
+                                    <forename>Cesare</forename>
                                     <surname>Belfiore</surname>
                                 </persName>
 
@@ -1236,7 +1235,7 @@
     
                                 <persName role="attivista">
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-7166/sereni-enzo.html https://it.wikipedia.org/wiki/Enzo_Sereni"/>
-                                    <foreName>Enzo</foreName>
+                                    <forename>Enzo</forename>
                                     <surname>Sereni</surname>
                                 </persName>
 
@@ -1263,10 +1262,11 @@
                         <!--Capitano Blasi: non ho molte informazioni su di lui-->
                         <person xml:id="CapBlasi"> 
     
-                                <persName role="vice_comandante_wehrmacht">
+                                <persName role="militare_wehrmacht">
                                     <ref target=""/>
-                                    <foreName></foreName>
+                                    <forename></forename>
                                     <surname>Blasi</surname>
+                                    <roleName type="military">Capitano</roleName>
                                 </persName>
 
                                 <sex>M</sex>
@@ -1295,7 +1295,7 @@
     
                                 <persName>
                                     <ref target="https://collections.ushmm.org/search/catalog/vha31995"/>
-                                    <foreName>Ernst</foreName>
+                                    <forename>Ernst</forename>
                                     <surname>Landau</surname>
                                 </persName>
 
@@ -1325,9 +1325,10 @@
     
                                 <persName role="tenente_armata_americana">
                                     <ref target=""/>
-                                    <foreName>Irving</foreName>
-                                    <foreName>J.</foreName>
+                                    <forename>Irving</forename>
+                                    <forename>J.</forename>
                                     <surname>Smith</surname>
+                                    <roleName type="military">Tenente</roleName>
                                 </persName>
 
                                 <sex>M</sex>
@@ -1356,10 +1357,10 @@
     
                                 <persName role="funzionario">
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-it-cdec-eaccpf0001-000527/vitale-massimo-adolfo.html https://it.wikipedia.org/wiki/Massimo_Adolfo_Vitale"/>
-                                    <foreName>Massimo</foreName>
-                                    <foreName>Adolfo</foreName>
+                                    <forename>Massimo</forename>
+                                    <forename>Adolfo</forename>
                                     <surname>Vitale</surname>
-                                    <roleName type="honorific">Medagli d'argento al valor militare</roleName>
+                                    <roleName type="honorific">Medaglia d'argento al valor militare</roleName>
                                     <roleName type="honorific">Croce al merito di guerra</roleName>
                                 </persName>
 
@@ -1386,10 +1387,11 @@
                         <!-- Tibor Wachsberger: non ho informazioni su di lui -->
                         <person xml:id="TiborW"> 
     
-                                <persName role="comandante">
+                                <persName role="militare">
                                     <ref target=""/>
-                                    <foreName>Tibor</foreName>
+                                    <forename>Tibor</forename>
                                     <surname>Wachsberger</surname>
+                                    <roleName type="military">comandante</roleName>
                                 </persName>
 
                                 <sex>M</sex>
@@ -1418,7 +1420,7 @@
     
                                 <persName role="scienziato">
                                     <ref target=""/>
-                                    <foreName>Gino</foreName>
+                                    <forename>Gino</forename>
                                     <surname>Eigenmann</surname>
                                 </persName>
 
@@ -1448,7 +1450,7 @@
     
                                 <persName>
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-103/wachsberger-giovanni.html"/>
-                                    <foreName>Giovanni</foreName>
+                                    <forename>Giovanni</forename>
                                     <surname>Wachsberger</surname>
                                     <addName type="nickname" xml:lang="ji">Haimi</addName>
                                 </persName>
@@ -1476,8 +1478,8 @@
                         <person xml:id="EsterB">   
     
                                 <persName>
-                                    <ref target=""/>
-                                    <foreName>Ester</foreName>
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-3999/gellis-matilde-miriam.html"/><!--link della figlia: dove ho trova il suo nome-->
+                                    <forename>Ester</forename>
                                     <surname>Brach</surname>
                                 </persName>
 
@@ -1505,7 +1507,7 @@
     
                                 <persName>
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-7331/godelli-martino.html https://www.silviacuttin.it/tag/martino-godelli/"/>
-                                    <foreName>Martino</foreName>
+                                    <forename>Martino</forename>
                                     <surname>Godelli</surname>
                                     <surname type="alternative">Goldstein</surname>
                                 </persName>
@@ -1534,7 +1536,7 @@
     
                                 <persName>
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-101/wachsberger-regina.html"/>
-                                    <foreName>Regina</foreName>
+                                    <forename>Regina</forename>
                                     <surname type="birth">Wachsberger</surname>
                                     <surname type="married">Cantori</surname>
                                     <addName type="nickname">Rive</addName>
@@ -1564,8 +1566,8 @@
                         <person xml:id="LudovicoL">   
     
                                 <persName role="pasticcere">
-                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-101/wachsberger-regina.html"/>
-                                    <foreName>Ludovico</foreName>
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-101/wachsberger-regina.html"/><!--link della moglie: da dove è trovato sue informazioni-->
+                                    <forename>Ludovico</forename>
                                     <surname>Liedermann</surname>
                                     <surname type="alternative">Cantori</surname>
                                     <addName type="nickname">Loli</addName>
@@ -1595,7 +1597,7 @@
     
                                 <persName>
                                     <ref target=""/>
-                                    <foreName>Haim</foreName>
+                                    <forename>Haim</forename>
                                     <surname>Zelikowitz</surname>
                                 </persName>
 
@@ -1624,7 +1626,7 @@
     
                                 <persName role="scrittrice">
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-3910/herskovits-agata.html https://it.wikipedia.org/wiki/Goti_Herskovits_Bauer"/>
-                                    <foreName>Agata</foreName>
+                                    <forename>Agata</forename>
                                     <surname type="combine">Herskovits</surname>
                                     <addName type="nickname">Goti</addName>
                                 </persName>
@@ -1645,7 +1647,7 @@
     
                                 <persName role="medico">
                                     <ref target="https://it.wikipedia.org/wiki/Ippocrate https://www.treccani.it/enciclopedia/ippocrate/"/>
-                                    <foreName>Ippocrate</foreName>
+                                    <forename>Ippocrate</forename>
                                     <surname>di Coo</surname>
                                     <surname type="alternative">di Cos</surname>
                                     <surname type="alternative">di Kos</surname>
@@ -1675,8 +1677,8 @@
     
                                 <persName>
                                     <ref target="https://it.wikipedia.org/wiki/Anna_Frank https://biografieonline.it/biografia-anna-frank"/>
-                                    <foreName>Annelies</foreName>
-                                    <foreName>Marie</foreName>
+                                    <forename>Annelies</forename>
+                                    <forename>Marie</forename>
                                     <surname>Frank</surname>
                                     <addName type="nickname">Anne</addName>
                                     <addName type="italian_nickname">Anna</addName>
@@ -1706,7 +1708,7 @@
     
                                 <persName>
                                     <ref target="https://www.geni.com/people/Laura-Modigliani-Della-Seta/6000000037148027939"/>
-                                    <foreName>Laura</foreName>
+                                    <forename>Laura</forename>
                                     <surname type="birth">Modigliani</surname>
                                     <surname type="married">Della Seta</surname>
                                 </persName>
@@ -1714,7 +1716,7 @@
                                 <sex>F</sex>
 
                                 <birth>
-                                    <date when="1905" notBefore="1877" notAfter="1929" cert="medium"></date>
+                                    <date when="1905" notBefore="1877" notAfter="1929" cert="medium">1905</date>
                                     <note resp="#GB">Desumo dalle parole di Arminio che nel momento dell'intervista avesse 93 anni</note>
                                     <placeName>
                                         <settlement type=""></settlement>
@@ -1737,7 +1739,7 @@
     
                                 <persName>
                                     <ref target="https://www.geni.com/people/Paola-Della-Seta/6000000021332004828 https://necrologie.ilmessaggero.it/necrologi/della_seta_paola_113813179.html"/>
-                                    <foreName>Paola</foreName>
+                                    <forename>Paola</forename>
                                     <surname>Della Seta</surname>
                                 </persName>
 
@@ -1752,7 +1754,7 @@
                                 </birth>
 
                                 <death>
-                                    <date when="" notBefore="2020-04-05" cert="low">5 Aprile 2020</date>
+                                    <date when="2020-04-05" cert="low">5 Aprile 2020</date>
                                     <placeName>
                                         <settlement type=""></settlement>
                                         <country key=""></country>
@@ -1765,7 +1767,7 @@
     
                                 <persName role="scienziato">
                                     <ref target="https://it.wikipedia.org/wiki/Paul_Ehrlich https://www.treccani.it/enciclopedia/paul-ehrlich_%28Dizionario-di-Medicina%29/"/>
-                                    <foreName>Paul</foreName>
+                                    <forename>Paul</forename>
                                     <surname>Ehrlich</surname>
                                     <roleName type="honorific">Medaglia dell'ordine della Corona, seconda classe</roleName>
                                     <roleName type="honorific">Ordine dell'aquila rossa, seconda classe</roleName>
@@ -1807,7 +1809,7 @@
     
                                 <persName role="attivista">
                                     <ref target="https://it.wikipedia.org/wiki/Vittoria_Nenni https://fondazionenenni.it/biografia-vittoria-nenni"/>
-                                    <foreName>Vittoria Gorizia</foreName>
+                                    <forename>Vittoria Gorizia</forename>
                                     <surname>Nenni</surname>
                                 </persName>
 
@@ -1835,7 +1837,7 @@
     
                                 <persName role="politico">
                                     <ref target="https://it.wikipedia.org/wiki/Pietro_Nenni https://www.treccani.it/enciclopedia/pietro-nenni/"/>
-                                    <foreName>Pietro</foreName>
+                                    <forename>Pietro</forename>
                                     <surname>Nenni</surname>
                                     <roleName type="military">Caporale Comandante</roleName>
                                     <roleName type="honorific">Croce di guerra al valor militare</roleName>
@@ -1871,7 +1873,7 @@
     
                                 <persName role="papa">
                                     <ref target="https://it.wikipedia.org/wiki/Papa_Pio_XII https://www.treccani.it/enciclopedia/pio-xii-papa/"/>
-                                    <foreName>Eugenio Maria Giuseppe Giovanni</foreName>
+                                    <forename>Eugenio Maria Giuseppe Giovanni</forename>
                                     <surname>Pacelli</surname>
                                     <roleName type="religious">Papa</roleName>
                                     <addName type="alias">Pio XII</addName>
@@ -1901,7 +1903,7 @@
     
                                 <persName>
                                     <ref target="https://www.geni.com/people/Guido-Della-Seta/6000000021331688480 https://www.geni.com/people/Guido-Della-Seta/6000000021331688480"/>
-                                    <foreName>Guido</foreName>
+                                    <forename>Guido</forename>
                                     <surname>Della Seta</surname>
                                 </persName>
 
@@ -1929,7 +1931,7 @@
     
                                 <persName role="artista_poliedrico">
                                     <ref target="https://it.wikipedia.org/wiki/Sergio_Tofano https://www.treccani.it/enciclopedia/sergio-tofano/"/>
-                                    <foreName>Sergio</foreName>
+                                    <forename>Sergio</forename>
                                     <surname>Tòfano</surname>
                                     <addName type="alias">Sto</addName>
                                 </persName>
@@ -1958,7 +1960,7 @@
     
                                 <persName>
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-110/wachsberger-clara-alessandra.html"/>
-                                    <foreName>Clara Alessandra</foreName>
+                                    <forename>Clara Alessandra</forename>
                                     <surname>Wachsberger</surname>
                                 </persName>
 
@@ -1978,7 +1980,7 @@
                         <person xml:id="AH">   
                             <persName>
                                 <ref target="https://it.wikipedia.org/wiki/Adolf_Hitler"/>
-                                <foreName>Adolf</foreName>
+                                <forename>Adolf</forename>
                                 <surname>Hitler</surname>
                             </persName>
 
@@ -2006,7 +2008,7 @@
     
                                 <persName role="ingegnere">
                                     <ref target="http://dati.cdec.it/lod/shoah/person/6282/html http://www.simart.comune.roma.it/dettaglio-bene/-961958004"/>
-                                    <foreName>Carlo</foreName>
+                                    <forename>Carlo</forename>
                                     <surname>Pontecorvo</surname>
                                 </persName>
 
@@ -2034,7 +2036,7 @@
     
                                 <persName role="regista">
                                     <ref target="https://it.wikipedia.org/wiki/Gillo_Pontecorvo https://www.mymovies.it/persone/gillo-pontecorvo/49666/"/>
-                                    <foreName>Gilberto</foreName>
+                                    <forename>Gilberto</forename>
                                     <surname>Pontecorvo</surname>
                                     <addName type="nickname">Gillo</addName>
                                     <roleName type="honorific">Cavaliere di Gran Croce Ordine al Merito della Repubblica Italiana - Roma, 18 gennaio 2000</roleName>
@@ -2065,7 +2067,7 @@
     
                                 <persName role="falegname">
                                     <ref target=""/>
-                                    <foreName></foreName>
+                                    <forename></forename>
                                     <surname></surname>
                                     <addName type="nickname" xml:lang="de">Tischler</addName>
                                 </persName>
@@ -2095,7 +2097,8 @@
 
                                 <persName>
                                     <ref target=""/>
-                                    <foreName>Isaac Saul</foreName>
+                                    <forename>Isaac</forename> 
+                                    <forename>Saul</forename>
                                     <surname>Senor</surname>
                                     <addName type="nickname">Sdruli</addName>
                                 </persName>
@@ -2127,7 +2130,7 @@
     
                                 <persName role="attrice">
                                     <ref target="https://it.wikipedia.org/wiki/Meryl_Streep https://www.mymovies.it/persone/meryl-streep/7919/"/>
-                                    <foreName>Mary Louise</foreName>
+                                    <forename>Mary Louise</forename>
                                     <surname>Streep</surname>
                                     <addName type="nickname">Meryl</addName>
                                     <roleName type="honorific">National Medal of Arts - 2 marzo 2011</roleName>
@@ -2154,7 +2157,7 @@
 
                                 <persName role="politico">
                                     <ref target="https://it.wikipedia.org/wiki/Iosif_Stalin https://www.treccani.it/enciclopedia/josif-vissarionovic-stalin_res-667c4b4c-8bb7-11dc-8e9d-0016357eee51_%28Enciclopedia-Italiana%29/"/>
-                                    <foreName>Iosif</foreName>
+                                    <forename>Iosif</forename>
                                     <surname>Vissarionovic</surname>
                                     <surname type="alternative">Dzugasvill</surname>
                                     <addName type="nickname">Stalin</addName>
@@ -2188,7 +2191,7 @@
     
                                 <persName>
                                     <ref target=""/>
-                                    <foreName></foreName>
+                                    <forename></forename>
                                     <surname type="combine">Di Porto</surname>
                                 </persName>
 
@@ -2218,7 +2221,7 @@
     
                                 <persName role="direttore_sanitario" source="#Rigano2015">
                                     <ref target=""/>
-                                    <foreName>Maurizio</foreName>
+                                    <forename>Maurizio</forename>
                                     <surname>Fenichel</surname>
                                 </persName>
 
@@ -2248,7 +2251,7 @@
     
                                 <persName role="oculista" source="#Rigano2015">
                                     <ref target=""/>
-                                    <foreName>Edmund</foreName>
+                                    <forename>Edmund</forename>
                                     <surname type="combine">Carter Rosenhauch</surname>
                                 </persName>
 
@@ -2274,12 +2277,12 @@
                         </person>
                     
                         <!--Dwight Eisenhower-->
-                        <person xml:id="DwightE" sameAs=" http://viaf.org/viaf/100176316">   
+                        <person xml:id="DwightE" sameAs="http://viaf.org/viaf/100176316">   
     
                                 <persName role="capo_forze_armate_americane">
                                     <ref target="https://it.wikipedia.org/wiki/Dwight_D._Eisenhower https://www.treccani.it/enciclopedia/dwight-david-eisenhower/"/>
-                                    <foreName>Dwight</foreName>
-                                    <foreName>David</foreName>
+                                    <forename>Dwight</forename>
+                                    <forename>David</forename>
                                     <surname>Eisenhower</surname>
                                     <addName type="nickname">Ike</addName>
                                 </persName>
@@ -2311,9 +2314,9 @@
     
                                 <persName role="avvocato_procuratore">
                                     <ref target="https://it.wikipedia.org/wiki/Fiorello_La_Guardia https://www.treccani.it/enciclopedia/la-guardia-fiorello-henry/"/>
-                                    <foreName>Fiorello</foreName>
-                                    <foreName>Enrico</foreName>
-                                    <foreName type="alternative" xml:lang="en">Henry</foreName>
+                                    <forename>Fiorello</forename>
+                                    <forename>Enrico</forename>
+                                    <forename type="alternative" xml:lang="en">Henry</forename>
                                     <surname>La Guardia</surname>
                                     <addName type="nickname">The Little Flower</addName>
                                 </persName>
