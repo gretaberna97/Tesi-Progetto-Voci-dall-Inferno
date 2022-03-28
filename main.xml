@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "myTEI.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Edizione digitale della testimonianza di Romana Feld </title>
+                
+                <respStmt>
+                    <resp>transcription by</resp>
+                    <name type="person" xml:id="CG">Giulia Causarano</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="org">Fondazione Centro di Documentazione Ebraica Contemporanea</name>
+                </respStmt>
+                
+            </titleStmt>
+            
+            <editionStmt>
+                <edition> Edizione diplomatico-interpretativa per la tesi di Laurea Triennale in Informatica Umanistica, Università di Pisa
+                    <date>2020</date>
+                </edition>
+                
+                <respStmt>
+                    <resp>encoding by</resp>
+                    <name ref="#CG">Giulia Causarano</name>
+                </respStmt>
+                
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <date when="2020"> 2020</date>
+            </publicationStmt>
+            
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>Milano</settlement>
+                        <institution> Fondazione Centro di Documentazione Ebraica Contemporanea
+                            <address>
+                                <name type="org">Fondazione CDEC</name>
+                                <street> Via Eupili, 8</street>
+                                <postCode> 20145 </postCode>
+                                <settlement>Milano</settlement>
+                                <country>Italia</country>   
+                            </address>
+                        </institution>
+                        <repository> CDEC Digital Library </repository>
+                        <collection> Archivio - Fondo <persName ref="#MAV">Massimo Adolfo Vitale</persName> </collection>
+                        <collection> Serie: "Ricerca sulla Deportazione" (CRDE) </collection>
+                        <collection> Sottoserie: "Vicissitudini dei singoli" </collection>
+                        <idno type="busta"> Busta 3</idno>
+                        <idno type="fascicolo"> Fascicolo 101</idno>
+                        <idno type="identifier"> 000167/34 </idno>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary> Testimonianza di <persName ref="#FR">Romana Feld</persName> con dichiarazioni inerenti le condizioni di vita nel campo di sterminio di Auschwitz(Birkenau). </summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Fascicolo cartaceo</objectType>
+                                    <material>Carta</material>
+                                    <watermark> Logo CDEC LIBRARY</watermark>
+                                    <stamp> Timbro Centro Documentazione Ebraica Contemporanea</stamp>
+                                </support>
+                                <extent>
+                                    <measure unit="pages" quantity="10"> 10 pagine </measure>
+                                </extent>
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>Nella parte superiore destra della prima pagina è presente il numero romano 15. Possibile numero di inventario aggiunto dal catalogatore.</p>
+                            </handNote>
+                            <handNote>
+                                <p>Nella parte superiore destra della prima pagina è presente il nome della testimone in lettere maiuscole</p>
+                            </handNote>
+                        </handDesc>
+                        <accMat>
+                            <p>Una copia di un modulo contenente i dati relativi alla testimone è inclusa nel fascicolo della testimonianza</p>
+                        </accMat>
+                    </physDesc>
+                    
+                    <additional>
+                        <adminInfo>
+                            <availability>
+                                <licence target="https://creativecommons.org/licenses/by/4.0/"> Contenuti soggetti alla licenza Creative Commons - Attribution 4.0 International (CC BY 4.0)</licence>
+                            </availability> 
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+                
+                <listPerson>
+                    <person xml:id="FR">
+                        <persName>
+                            <forename>Romana</forename>
+                            <surname>Feld</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <birth> 
+                            <date when="1912-08-15">15 Agosto 1912</date>
+                            <placeName>
+                                <settlement type="city">Leopoli</settlement>
+                                <country key="PL">Polonia</country>
+                            </placeName>
+                        </birth>
+                        <listEvent>
+                        <event from="1940-06-20" to="1944-04-5">
+                            <label> Internamento e detenzione</label>
+                            <desc> Internata a <placeName>Ercia (Macerata)</placeName> e detenuta nel campo di <placeName ref="#FO">Fossoli (Modena)</placeName></desc>
+                        </event>
+                        <event when="1944-04-5">
+                            <label> Deportazione </label>
+                            <desc> Partita da <placeName ref="#FO"> Fossoli </placeName> e deportata nel campo di sterminio di <placeName ref="#AU">Auschwitz(Birkenau)</placeName></desc>
+                        </event>
+                        <event when="1945-01-27">
+                            <label>Liberazione</label>
+                            <desc> Liberata dal campo di sterminio di <placeName ref="#AU">Auschwitz(Birkenau)</placeName></desc>
+                        </event>
+                        </listEvent>
+                    </person>
+                    <person xml:id="MAV">
+                        <persName>
+                            <forename>Massimo Adolfo</forename>
+                            <surname>Vitale</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation>Comandante,colonnello</occupation>
+                        <birth>
+                            <date when="1885-11-13">13 Novembre 1885</date>
+                            <placeName>
+                                <settlement type="city">Torino</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                        <death>
+                            <date when="1968-05-5">5 Maggio 1968</date>
+                            <placeName>
+                                <settlement type="city">Civitavecchia</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </death>
+                        <event when="1945">
+                            <label>Presidenza</label>
+                            <desc> Gli viene affidata la presidenza del Comitato Ricerche Deportati Ebrei (CRDE) </desc>
+                        </event>
+                    </person>
+                </listPerson>
+                <listPlace>
+                    <place type="city" xml:id="FO">
+                        <placeName>Fossoli</placeName>
+                        <location>
+                        <district type="comune">Carpi</district>
+                        <district type="provincia">Modena</district>
+                        <region>Emilia-Romagna</region>
+                        <country key="IT">Ialia</country>
+                        </location>
+                        <desc>Campo di raccolta e transito verso i lager</desc>
+                    </place>
+                    <place type="building" xml:id="AU">
+                        <placeName>Auschwitz</placeName>
+                        <location>
+                        <district type="comune">Oświęcim</district>
+                        <country key="PL">Polonia</country>
+                        </location>
+                        <desc>Campo di concentramento</desc>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <creation>
+                <date when="1946-12-20"> 20 Dicembre 1946 </date>
+            </creation>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+                <language ident="de-DE">tedesco
+                    <note> (lingua usata per i termini che rientrano nel cosiddetto "Lessico del Lager")</note>
+                </language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <surface type="page" xml:id="primapagina" corresp="#pagina1">
+            <graphic url="Testimonianza/1.jpg" width="799px" height="1024px" />
+            <zone xml:id="FR_line_00" corresp="#FR_lb_00" ulx="55" uly="45" lrx="766" lry="99" rendition="Line" />
+            <zone xml:id="FR_line_01" corresp="#FR_lb_01" ulx="110" uly="106" lrx="728" lry="147" rendition="Line" />
+            <zone xml:id="FR_line_02" corresp="#FR_lb_02" ulx="47" uly="143" lrx="770" lry="178" rendition="Line" />
+            <zone xml:id="FR_line_03" corresp="#FR_lb_03" ulx="40" uly="176" lrx="767" lry="205" rendition="Line" />
+            <zone xml:id="FR_line_04" corresp="#FR_lb_04" ulx="43" uly="199" lrx="765" lry="232" rendition="Line" />
+            <zone xml:id="FR_line_05" corresp="#FR_lb_05" ulx="41" uly="230" lrx="775" lry="260" rendition="Line" />
+            <zone xml:id="FR_line_06" corresp="#FR_lb_06" ulx="40" uly="258" lrx="773" lry="288" rendition="Line" />
+            <zone xml:id="FR_line_07" corresp="#FR_lb_07" ulx="41" uly="288" lrx="782" lry="318" rendition="Line" />
+            <zone xml:id="FR_line_08" corresp="#FR_lb_08" ulx="40" uly="313" lrx="762" lry="342" rendition="Line" />
+            <zone xml:id="FR_line_09" corresp="#FR_lb_09" ulx="39" uly="339" lrx="782" lry="369" rendition="Line" />
+            <zone xml:id="FR_line_10" corresp="#FR_lb_10" ulx="38" uly="368" lrx="783" lry="397" rendition="Line" />
+            <zone xml:id="FR_line_11" corresp="#FR_lb_11" ulx="37" uly="396" lrx="780" lry="424" rendition="Line" />
+            <zone xml:id="FR_line_12" corresp="#FR_lb_12" ulx="39" uly="424" lrx="783" lry="454" rendition="Line" />
+            <zone xml:id="FR_line_13" corresp="#FR_lb_13" ulx="37" uly="453" lrx="751" lry="480" rendition="Line" />
+            <zone xml:id="FR_line_14" corresp="#FR_lb_14" ulx="33" uly="480" lrx="746" lry="508" rendition="Line" />
+            <zone xml:id="FR_line_15" corresp="#FR_lb_15" ulx="35" uly="509" lrx="761" lry="535" rendition="Line" />
+            <zone xml:id="FR_line_16" corresp="#FR_lb_16" ulx="34" uly="534" lrx="779" lry="564" rendition="Line" />
+            <zone xml:id="FR_line_17" corresp="#FR_lb_17" ulx="35" uly="563" lrx="760" lry="589" rendition="Line" />
+            <zone xml:id="FR_line_18" corresp="#FR_lb_18" ulx="35" uly="588" lrx="773" lry="616" rendition="Line" />
+            <zone xml:id="FR_line_19" corresp="#FR_lb_19" ulx="37" uly="615" lrx="767" lry="644" rendition="Line" />
+            <zone xml:id="FR_line_20" corresp="#FR_lb_20" ulx="36" uly="642" lrx="781" lry="671" rendition="Line" />
+            <zone xml:id="FR_line_21" corresp="#FR_lb_21" ulx="37" uly="670" lrx="780" lry="704" rendition="Line" />
+            <zone xml:id="FR_line_22" corresp="#FR_lb_22" ulx="36" uly="702" lrx="785" lry="732" rendition="Line" />
+            <zone xml:id="FR_line_23" corresp="#FR_lb_23" ulx="49" uly="730" lrx="764" lry="758" rendition="Line" />
+            <zone xml:id="FR_line_24" corresp="#FR_lb_24" ulx="49" uly="756" lrx="731" lry="782" rendition="Line" />
+            <zone xml:id="FR_line_25" corresp="#FR_lb_25" ulx="49" uly="783" lrx="783" lry="809" rendition="Line" />
+            <zone xml:id="FR_line_26" corresp="#FR_lb_26" ulx="49" uly="806" lrx="764" lry="838" rendition="Line" />
+            <zone xml:id="FR_line_27" corresp="#FR_lb_27" ulx="48" uly="838" lrx="762" lry="865" rendition="Line" />
+            <zone xml:id="FR_line_28" corresp="#FR_lb_28" ulx="47" uly="864" lrx="775" lry="894" rendition="Line" />
+            <zone xml:id="FR_line_29" corresp="#FR_lb_29" ulx="48" uly="894" lrx="764" lry="921" rendition="Line" />
+            <zone xml:id="FR_line_30" corresp="#FR_lb_30" ulx="49" uly="921" lrx="781" lry="952" rendition="Line" />
+        </surface>
+        <surface type="page" xml:id="secondapagina" corresp="#pagina2">
+            <graphic url="Testimonianza/2.jpg" width="814px" height="1024px" />
+            <zone xml:id="FR_line_31" corresp="#FR_lb_31" ulx="49" uly="63" lrx="741" lry="89" rendition="Line"/>
+            <zone xml:id="FR_line_32" corresp="#FR_lb_32" ulx="49" uly="92" lrx="785" lry="118" rendition="Line"/>
+            <zone xml:id="FR_line_33" corresp="#FR_lb_33" ulx="50" uly="118" lrx="776" lry="146" rendition="Line" />
+            <zone xml:id="FR_line_34" corresp="#FR_lb_34" ulx="49" uly="148" lrx="777" lry="173" rendition="Line" />
+            <zone xml:id="FR_line_35" corresp="#FR_lb_35" ulx="47" uly="177" lrx="739" lry="204" rendition="Line" />
+            <zone xml:id="FR_line_36" corresp="#FR_lb_36" ulx="47" uly="206" lrx="780" lry="229" rendition="Line" />
+            <zone xml:id="FR_line_37" corresp="#FR_lb_37" ulx="43" uly="231" lrx="765" lry="257" rendition="Line" />
+            <zone xml:id="FR_line_38" corresp="#FR_lb_38" ulx="42" uly="260" lrx="769" lry="285" rendition="Line" />
+            <zone xml:id="FR_line_39" corresp="#FR_lb_39" ulx="42" uly="288" lrx="776" lry="314" rendition="Line" />
+            <zone xml:id="FR_line_40" corresp="#FR_lb_40" ulx="43" uly="317" lrx="777" lry="343" rendition="Line" />
+            <zone xml:id="FR_line_41" corresp="#FR_lb_41" ulx="44" uly="345" lrx="765" lry="367" rendition="Line" />
+            <zone xml:id="FR_line_42" corresp="#FR_lb_42" ulx="43" uly="371" lrx="704" lry="395" rendition="Line" />
+            <zone xml:id="FR_line_43" corresp="#FR_lb_43" ulx="93" uly="397" lrx="778" lry="423" rendition="Line" />
+            <zone xml:id="FR_line_44" corresp="#FR_lb_44" ulx="41" uly="424" lrx="357" lry="451" rendition="Line" />
+            <zone xml:id="FR_line_45" corresp="#FR_lb_45" ulx="97" uly="455" lrx="791" lry="477" rendition="Line" />
+            <zone xml:id="FR_line_46" corresp="#FR_lb_46" ulx="43" uly="480" lrx="781" lry="511" rendition="Line" />
+            <zone xml:id="FR_line_47" corresp="#FR_lb_47" ulx="43" uly="512" lrx="759" lry="535" rendition="Line" />
+            <zone xml:id="FR_line_48" corresp="#FR_lb_48" ulx="42" uly="537" lrx="760" lry="565" rendition="Line" />
+            <zone xml:id="FR_line_49" corresp="#FR_lb_49" ulx="42" uly="564" lrx="765" lry="589" rendition="Line" />
+            <zone xml:id="FR_line_50" corresp="#FR_lb_50" ulx="42" uly="592" lrx="755" lry="622" rendition="Line" />
+            <zone xml:id="FR_line_51" corresp="#FR_lb_51" ulx="41" uly="622" lrx="737" lry="646" rendition="Line" />
+            <zone xml:id="FR_line_52" corresp="#FR_lb_52" ulx="47" uly="645" lrx="777" lry="673" rendition="Line" />
+            <zone xml:id="FR_line_53" corresp="#FR_lb_53" ulx="51" uly="674" lrx="781" lry="703" rendition="Line" />
+            <zone xml:id="FR_line_54" corresp="#FR_lb_54" ulx="51" uly="705" lrx="783" lry="729" rendition="Line" />
+            <zone xml:id="FR_line_55" corresp="#FR_lb_55" ulx="49" uly="732" lrx="765" lry="755" rendition="Line" />
+            <zone xml:id="FR_line_56" corresp="#FR_lb_56" ulx="49" uly="756" lrx="782" lry="782" rendition="Line" />
+            <zone xml:id="FR_line_57" corresp="#FR_lb_57" ulx="39" uly="783" lrx="741" lry="811" rendition="Line" />
+            <zone xml:id="FR_line_58" corresp="#FR_lb_58" ulx="47" uly="814" lrx="779" lry="839" rendition="Line" />
+            <zone xml:id="FR_line_59" corresp="#FR_lb_59" ulx="48" uly="841" lrx="777" lry="865" rendition="Line" />
+            <zone xml:id="FR_line_60" corresp="#FR_lb_60" ulx="46" uly="869" lrx="769" lry="894" rendition="Line" />
+            <zone xml:id="FR_line_61" corresp="#FR_lb_61" ulx="46" uly="895" lrx="757" lry="923" rendition="Line" />
+            <zone xml:id="FR_line_62" corresp="#FR_lb_62" ulx="47" uly="925" lrx="773" lry="953" rendition="Line" />
+        </surface>
+        <surface type="page"  xml:id="terzapagina" corresp="#pagina3">
+            <graphic url="Testimonianza/3.jpg" width="814px" height="1024px" />
+            <zone xml:id="FR_line_63" corresp="#FR_lb_63" ulx="49" uly="52" lrx="781" lry="86" rendition="Line" />
+            <zone xml:id="FR_line_64" corresp="#FR_lb_64" ulx="48" uly="86" lrx="785" lry="116" rendition="Line" />
+            <zone xml:id="FR_line_65" corresp="#FR_lb_65" ulx="48" uly="116" lrx="785" lry="144" rendition="Line" />
+            <zone xml:id="FR_line_66" corresp="#FR_lb_66" ulx="40" uly="144" lrx="785" lry="170" rendition="Line" />
+            <zone xml:id="FR_line_67" corresp="#FR_lb_67" ulx="41" uly="170" lrx="747" lry="197" rendition="Line" />
+            <zone xml:id="FR_line_68" corresp="#FR_lb_68" ulx="41" uly="195" lrx="795" lry="226" rendition="Line" />
+            <zone xml:id="FR_line_69" corresp="#FR_lb_69" ulx="43" uly="225" lrx="779" lry="249" rendition="Line" />
+            <zone xml:id="FR_line_70" corresp="#FR_lb_70" ulx="43" uly="250" lrx="775" lry="279" rendition="Line" />
+            <zone xml:id="FR_line_71" corresp="#FR_lb_71" ulx="42" uly="278" lrx="792" lry="306" rendition="Line" />
+            <zone xml:id="FR_line_72" corresp="#FR_lb_72" ulx="44" uly="307" lrx="765" lry="334" rendition="Line" />
+            <zone xml:id="FR_line_73" corresp="#FR_lb_73" ulx="40" uly="334" lrx="793" lry="366" rendition="Line" />
+            <zone xml:id="FR_line_74" corresp="#FR_lb_74" ulx="39" uly="365" lrx="794" lry="391" rendition="Line" />
+            <zone xml:id="FR_line_75" corresp="#FR_lb_75" ulx="39" uly="391" lrx="791" lry="417" rendition="Line" />
+            <zone xml:id="FR_line_76" corresp="#FR_lb_76" ulx="39" uly="415" lrx="789" lry="445" rendition="Line" />
+            <zone xml:id="FR_line_77" corresp="#FR_lb_77" ulx="41" uly="446" lrx="794" lry="474" rendition="Line" />
+            <zone xml:id="FR_line_78" corresp="#FR_lb_78" ulx="41" uly="473" lrx="791" lry="501" rendition="Line" />
+            <zone xml:id="FR_line_79" corresp="#FR_lb_79" ulx="39" uly="501" lrx="775" lry="527" rendition="Line" />
+            <zone xml:id="FR_line_80" corresp="#FR_lb_80" ulx="37" uly="530" lrx="795" lry="558" rendition="Line" />
+            <zone xml:id="FR_line_81" corresp="#FR_lb_81" ulx="36" uly="558" lrx="763" lry="583" rendition="Line" />
+            <zone xml:id="FR_line_82" corresp="#FR_lb_82" ulx="36" uly="584" lrx="792" lry="610" rendition="Line" />
+            <zone xml:id="FR_line_83" corresp="#FR_lb_83" ulx="33" uly="612" lrx="775" lry="638" rendition="Line" />
+            <zone xml:id="FR_line_84" corresp="#FR_lb_84" ulx="33" uly="642" lrx="735" lry="666" rendition="Line" />
+            <zone xml:id="FR_line_85" corresp="#FR_lb_85" ulx="29" uly="666" lrx="795" lry="698" rendition="Line" />
+            <zone xml:id="FR_line_86" corresp="#FR_lb_86" ulx="32" uly="697" lrx="768" lry="720" rendition="Line" />
+            <zone xml:id="FR_line_87" corresp="#FR_lb_87" ulx="31" uly="722" lrx="787" lry="750" rendition="Line" />
+            <zone xml:id="FR_line_88" corresp="#FR_lb_88" ulx="31" uly="749" lrx="755" lry="777" rendition="Line" />
+            <zone xml:id="FR_line_89" corresp="#FR_lb_89" ulx="31" uly="780" lrx="791" lry="808" rendition="Line" />
+            <zone xml:id="FR_line_90" corresp="#FR_lb_90" ulx="29" uly="809" lrx="793" lry="833" rendition="Line" />
+            <zone xml:id="FR_line_91" corresp="#FR_lb_91" ulx="28" uly="833" lrx="743" lry="861" rendition="Line" />
+            <zone xml:id="FR_line_92" corresp="#FR_lb_92" ulx="11" uly="860" lrx="795" lry="886" rendition="Line" />
+            <zone xml:id="FR_line_93" corresp="#FR_lb_93" ulx="28" uly="895" lrx="775" lry="916" rendition="Line" />
+            <zone xml:id="FR_line_94" corresp="#FR_lb_94" ulx="25" uly="917" lrx="765" lry="943" rendition="Line" />
+        </surface>
+        <surface type="page" xml:id="quartapagina" corresp="#pagina4">
+            <graphic url="Testimonianza/4.jpg" width="803px" height="1024px" />
+            <zone xml:id="FR_line_95" corresp="#FR_lb_95" ulx="43" uly="45" lrx="744" lry="88" rendition="Line" />
+            <zone xml:id="FR_line_96" corresp="#FR_lb_96" ulx="41" uly="86" lrx="771" lry="117" rendition="Line" />
+            <zone xml:id="FR_line_97" corresp="#FR_lb_97" ulx="40" uly="113" lrx="771" lry="146" rendition="Line" />
+            <zone xml:id="FR_line_98" corresp="#FR_lb_98" ulx="41" uly="141" lrx="785" lry="176" rendition="Line" />
+            <zone xml:id="FR_line_99" corresp="#FR_lb_99" ulx="40" uly="173" lrx="758" lry="202" rendition="Line" />
+            <zone xml:id="FR_line_100" corresp="#FR_lb_100" ulx="40" uly="200" lrx="766" lry="228" rendition="Line" />
+            <zone xml:id="FR_line_101" corresp="#FR_lb_101" ulx="37" uly="227" lrx="755" lry="254" rendition="Line" />
+            <zone xml:id="FR_line_102" corresp="#FR_lb_102" ulx="37" uly="254" lrx="778" lry="282" rendition="Line" />
+            <zone xml:id="FR_line_103" corresp="#FR_lb_103" ulx="39" uly="281" lrx="753" lry="308" rendition="Line" />
+            <zone xml:id="FR_line_104" corresp="#FR_lb_104" ulx="39" uly="307" lrx="737" lry="337" rendition="Line" />
+            <zone xml:id="FR_line_105" corresp="#FR_lb_105" ulx="38" uly="337" lrx="780" lry="367" rendition="Line" />
+            <zone xml:id="FR_line_106" corresp="#FR_lb_106" ulx="37" uly="365" lrx="741" lry="391" rendition="Line" />
+            <zone xml:id="FR_line_107" corresp="#FR_lb_107" ulx="38" uly="390" lrx="767" lry="421" rendition="Line" />
+            <zone xml:id="FR_line_108" corresp="#FR_lb_108" ulx="36" uly="419" lrx="787" lry="448" rendition="Line" />
+            <zone xml:id="FR_line_109" corresp="#FR_lb_109" ulx="43" uly="447" lrx="784" lry="477" rendition="Line" />
+            <zone xml:id="FR_line_110" corresp="#FR_lb_110" ulx="40" uly="477" lrx="784" lry="507" rendition="Line" />
+            <zone xml:id="FR_line_111" corresp="#FR_lb_111" ulx="39" uly="503" lrx="783" lry="535" rendition="Line" />
+            <zone xml:id="FR_line_112" corresp="#FR_lb_112" ulx="44" uly="531" lrx="782" lry="562" rendition="Line" />
+            <zone xml:id="FR_line_113" corresp="#FR_lb_113" ulx="43" uly="558" lrx="778" lry="589" rendition="Line" />
+            <zone xml:id="FR_line_114" corresp="#FR_lb_114" ulx="47" uly="588" lrx="769" lry="613" rendition="Line" />
+            <zone xml:id="FR_line_115" corresp="#FR_lb_115" ulx="43" uly="614" lrx="762" lry="641" rendition="Line" />
+            <zone xml:id="FR_line_116" corresp="#FR_lb_116" ulx="42" uly="641" lrx="771" lry="669" rendition="Line" />
+            <zone xml:id="FR_line_117" corresp="#FR_lb_117" ulx="44" uly="667" lrx="783" lry="698" rendition="Line" />
+            <zone xml:id="FR_line_118" corresp="#FR_lb_118" ulx="43" uly="699" lrx="769" lry="725" rendition="Line" />
+            <zone xml:id="FR_line_119" corresp="#FR_lb_119" ulx="35" uly="724" lrx="783" lry="753" rendition="Line" />
+            <zone xml:id="FR_line_120" corresp="#FR_lb_120" ulx="41" uly="751" lrx="779" lry="781" rendition="Line" />
+            <zone xml:id="FR_line_121" corresp="#FR_lb_121" ulx="42" uly="775" lrx="332" lry="805" rendition="Line" />
+            <zone xml:id="FR_line_122" corresp="#FR_lb_122" ulx="105" uly="806" lrx="787" lry="835" rendition="Line" />
+            <zone xml:id="FR_line_123" corresp="#FR_lb_123" ulx="46" uly="834" lrx="784" lry="863" rendition="Line" />
+            <zone xml:id="FR_line_124" corresp="#FR_lb_124" ulx="46" uly="862" lrx="767" lry="892" rendition="Line" />
+            <zone xml:id="FR_line_125" corresp="#FR_lb_125" ulx="52" uly="891" lrx="786" lry="919" rendition="Line" />
+            <zone xml:id="FR_line_126" corresp="#FR_lb_126" ulx="49" uly="918" lrx="784" lry="948" rendition="Line" />
+        </surface>
+        <surface type="page" xml:id="quintapagina" corresp="#pagina5">
+            <graphic url="Testimonianza/5.jpg" width="803px" height="1024px" />
+            <zone xml:id="FR_line_127" corresp="#FR_lb_127" ulx="50" uly="57" lrx="760" lry="95" rendition="Line" />
+            <zone xml:id="FR_line_128" corresp="#FR_lb_128" ulx="49" uly="94" lrx="753" lry="123" rendition="Line" />
+            <zone xml:id="FR_line_129" corresp="#FR_lb_129" ulx="46" uly="122" lrx="785" lry="152" rendition="Line" />
+            <zone xml:id="FR_line_130" corresp="#FR_lb_130" ulx="47" uly="151" lrx="752" lry="176" rendition="Line" />
+            <zone xml:id="FR_line_131" corresp="#FR_lb_131" ulx="47" uly="175" lrx="774" lry="209" rendition="Line" />
+            <zone xml:id="FR_line_132" corresp="#FR_lb_132" ulx="41" uly="209" lrx="754" lry="234" rendition="Line" />
+            <zone xml:id="FR_line_133" corresp="#FR_lb_133" ulx="47" uly="234" lrx="734" lry="259" rendition="Line" />
+            <zone xml:id="FR_line_134" corresp="#FR_lb_134" ulx="46" uly="260" lrx="722" lry="288" rendition="Line" />
+            <zone xml:id="FR_line_135" corresp="#FR_lb_135" ulx="45" uly="288" lrx="739" lry="316" rendition="Line" />
+            <zone xml:id="FR_line_136" corresp="#FR_lb_136" ulx="45" uly="316" lrx="687" lry="342" rendition="Line" />
+            <zone xml:id="FR_line_137" corresp="#FR_lb_137" ulx="45" uly="342" lrx="777" lry="373" rendition="Line" />
+            <zone xml:id="FR_line_138" corresp="#FR_lb_138" ulx="45" uly="371" lrx="778" lry="400" rendition="Line" />
+            <zone xml:id="FR_line_139" corresp="#FR_lb_139" ulx="41" uly="400" lrx="730" lry="427" rendition="Line" />
+            <zone xml:id="FR_line_140" corresp="#FR_lb_140" ulx="43" uly="427" lrx="763" lry="456" rendition="Line" />
+            <zone xml:id="FR_line_141" corresp="#FR_lb_141" ulx="44" uly="457" lrx="752" lry="483" rendition="Line" />
+            <zone xml:id="FR_line_142" corresp="#FR_lb_142" ulx="42" uly="485" lrx="740" lry="509" rendition="Line" />
+            <zone xml:id="FR_line_143" corresp="#FR_lb_143" ulx="41" uly="513" lrx="747" lry="535" rendition="Line" />
+            <zone xml:id="FR_line_144" corresp="#FR_lb_144" ulx="45" uly="537" lrx="760" lry="566" rendition="Line" />
+            <zone xml:id="FR_line_145" corresp="#FR_lb_145" ulx="43" uly="567" lrx="768" lry="591" rendition="Line" />
+            <zone xml:id="FR_line_146" corresp="#FR_lb_146" ulx="39" uly="593" lrx="778" lry="621" rendition="Line" />
+            <zone xml:id="FR_line_147" corresp="#FR_lb_147" ulx="37" uly="621" lrx="773" lry="649" rendition="Line" />
+            <zone xml:id="FR_line_148" corresp="#FR_lb_148" ulx="41" uly="648" lrx="741" lry="679" rendition="Line" />
+            <zone xml:id="FR_line_149" corresp="#FR_lb_149" ulx="45" uly="677" lrx="748" lry="702" rendition="Line" />
+            <zone xml:id="FR_line_150" corresp="#FR_lb_150" ulx="47" uly="703" lrx="716" lry="733" rendition="Line" />
+            <zone xml:id="FR_line_151" corresp="#FR_lb_151" ulx="35" uly="735" lrx="767" lry="760" rendition="Line" />
+            <zone xml:id="FR_line_152" corresp="#FR_lb_152" ulx="49" uly="759" lrx="741" lry="786" rendition="Line" />
+            <zone xml:id="FR_line_153" corresp="#FR_lb_153" ulx="43" uly="784" lrx="779" lry="816" rendition="Line" />
+            <zone xml:id="FR_line_154" corresp="#FR_lb_154" ulx="40" uly="815" lrx="773" lry="841" rendition="Line" />
+            <zone xml:id="FR_line_155" corresp="#FR_lb_155" ulx="37" uly="841" lrx="759" lry="867" rendition="Line" />
+            <zone xml:id="FR_line_156" corresp="#FR_lb_156" ulx="40" uly="866" lrx="766" lry="897" rendition="Line" />
+            <zone xml:id="FR_line_157" corresp="#FR_lb_157" ulx="41" uly="896" lrx="759" lry="922" rendition="Line" />
+            <zone xml:id="FR_line_158" corresp="#FR_lb_158" ulx="40" uly="926" lrx="768" lry="953" rendition="Line" />
+        </surface>
+        <surface type="page"  xml:id="sestapagina" corresp="#pagina6">
+            <graphic url="Testimonianza/6.jpg" width="803px" height="1024px" />
+            <zone xml:id="FR_line_159" corresp="#FR_lb_159" ulx="49" uly="58" lrx="744" lry="93" rendition="Line" />
+            <zone xml:id="FR_line_160" corresp="#FR_lb_160" ulx="49" uly="95" lrx="753" lry="122" rendition="Line" />
+            <zone xml:id="FR_line_161" corresp="#FR_lb_161" ulx="49" uly="124" lrx="785" lry="150" rendition="Line" />
+            <zone xml:id="FR_line_162" corresp="#FR_lb_162" ulx="47" uly="149" lrx="767" lry="176" rendition="Line" />
+            <zone xml:id="FR_line_163" corresp="#FR_lb_163" ulx="44" uly="175" lrx="752" lry="205" rendition="Line" />
+            <zone xml:id="FR_line_164" corresp="#FR_lb_164" ulx="42" uly="203" lrx="793" lry="233" rendition="Line" />
+            <zone xml:id="FR_line_165" corresp="#FR_lb_165" ulx="40" uly="236" lrx="771" lry="259" rendition="Line" />
+            <zone xml:id="FR_line_166" corresp="#FR_lb_166" ulx="39" uly="262" lrx="753" lry="288" rendition="Line" />
+            <zone xml:id="FR_line_167" corresp="#FR_lb_167" ulx="39" uly="290" lrx="778" lry="313" rendition="Line" />
+            <zone xml:id="FR_line_168" corresp="#FR_lb_168" ulx="34" uly="315" lrx="749" lry="342" rendition="Line" />
+            <zone xml:id="FR_line_169" corresp="#FR_lb_169" ulx="43" uly="344" lrx="788" lry="369" rendition="Line" />
+            <zone xml:id="FR_line_170" corresp="#FR_lb_170" ulx="37" uly="370" lrx="792" lry="397" rendition="Line" />
+            <zone xml:id="FR_line_171" corresp="#FR_lb_171" ulx="35" uly="399" lrx="745" lry="423" rendition="Line" />
+            <zone xml:id="FR_line_172" corresp="#FR_lb_172" ulx="43" uly="428" lrx="783" lry="453" rendition="Line" />
+            <zone xml:id="FR_line_173" corresp="#FR_lb_173" ulx="40" uly="455" lrx="791" lry="482" rendition="Line" />
+            <zone xml:id="FR_line_174" corresp="#FR_lb_174" ulx="44" uly="482" lrx="784" lry="512" rendition="Line" />
+            <zone xml:id="FR_line_175" corresp="#FR_lb_175" ulx="35" uly="512" lrx="760" lry="539" rendition="Line" />
+            <zone xml:id="FR_line_176" corresp="#FR_lb_176" ulx="37" uly="542" lrx="771" lry="566" rendition="Line" />
+            <zone xml:id="FR_line_177" corresp="#FR_lb_177" ulx="37" uly="568" lrx="791" lry="597" rendition="Line" />
+            <zone xml:id="FR_line_178" corresp="#FR_lb_178" ulx="37" uly="598" lrx="769" lry="623" rendition="Line" />
+            <zone xml:id="FR_line_179" corresp="#FR_lb_179" ulx="42" uly="625" lrx="781" lry="650" rendition="Line" />
+            <zone xml:id="FR_line_180" corresp="#FR_lb_180" ulx="43" uly="652" lrx="763" lry="677" rendition="Line" />
+            <zone xml:id="FR_line_181" corresp="#FR_lb_181" ulx="43" uly="678" lrx="773" lry="702" rendition="Line" />
+            <zone xml:id="FR_line_182" corresp="#FR_lb_182" ulx="43" uly="706" lrx="728" lry="734" rendition="Line" />
+            <zone xml:id="FR_line_183" corresp="#FR_lb_183" ulx="45" uly="739" lrx="771" lry="760" rendition="Line" />
+            <zone xml:id="FR_line_184" corresp="#FR_lb_184" ulx="47" uly="762" lrx="764" lry="790" rendition="Line" />
+            <zone xml:id="FR_line_185" corresp="#FR_lb_185" ulx="46" uly="792" lrx="747" lry="816" rendition="Line" />
+            <zone xml:id="FR_line_186" corresp="#FR_lb_186" ulx="46" uly="819" lrx="789" lry="845" rendition="Line" />
+            <zone xml:id="FR_line_187" corresp="#FR_lb_187" ulx="39" uly="845" lrx="787" lry="874" rendition="Line" />
+            <zone xml:id="FR_line_188" corresp="#FR_lb_188" ulx="49" uly="874" lrx="771" lry="895" rendition="Line" />
+            <zone xml:id="FR_line_189" corresp="#FR_lb_189" ulx="43" uly="894" lrx="779" lry="928" rendition="Line" />
+            <zone xml:id="FR_line_190" corresp="#FR_lb_190" ulx="43" uly="929" lrx="735" lry="958" rendition="Line" />
+        </surface>
+        <surface type="page" xml:id="settimapagina" corresp="#pagina7">
+            <graphic url="Testimonianza/7.jpg" width="803px" height="1024px" />
+            <zone xml:id="FR_line_191" corresp="#FR_lb_191" ulx="46" uly="47" lrx="774" lry="93" rendition="Line" />
+            <zone xml:id="FR_line_192" corresp="#FR_lb_192" ulx="45" uly="91" lrx="745" lry="118" rendition="Line" />
+            <zone xml:id="FR_line_193" corresp="#FR_lb_193" ulx="44" uly="121" lrx="767" lry="147" rendition="Line" />
+            <zone xml:id="FR_line_194" corresp="#FR_lb_194" ulx="43" uly="147" lrx="786" lry="176" rendition="Line" />
+            <zone xml:id="FR_line_195" corresp="#FR_lb_195" ulx="42" uly="178" lrx="783" lry="202" rendition="Line" />
+            <zone xml:id="FR_line_196" corresp="#FR_lb_196" ulx="40" uly="202" lrx="787" lry="227" rendition="Line" />
+            <zone xml:id="FR_line_197" corresp="#FR_lb_197" ulx="46" uly="228" lrx="763" lry="254" rendition="Line" />
+            <zone xml:id="FR_line_198" corresp="#FR_lb_198" ulx="43" uly="255" lrx="351" lry="281" rendition="Line" />
+            <zone xml:id="FR_line_199" corresp="#FR_lb_199" ulx="107" uly="285" lrx="785" lry="310" rendition="Line" />
+            <zone xml:id="FR_line_200" corresp="#FR_lb_200" ulx="47" uly="309" lrx="784" lry="336" rendition="Line" />
+            <zone xml:id="FR_line_201" corresp="#FR_lb_201" ulx="45" uly="337" lrx="775" lry="366" rendition="Line" />
+            <zone xml:id="FR_line_202" corresp="#FR_lb_202" ulx="44" uly="368" lrx="783" lry="395" rendition="Line" />
+            <zone xml:id="FR_line_203" corresp="#FR_lb_203" ulx="45" uly="397" lrx="750" lry="420" rendition="Line" />
+            <zone xml:id="FR_line_204" corresp="#FR_lb_204" ulx="43" uly="424" lrx="757" lry="446" rendition="Line" />
+            <zone xml:id="FR_line_205" corresp="#FR_lb_205" ulx="47" uly="452" lrx="752" lry="478" rendition="Line" />
+            <zone xml:id="FR_line_206" corresp="#FR_lb_206" ulx="47" uly="479" lrx="753" lry="502" rendition="Line" />
+            <zone xml:id="FR_line_207" corresp="#FR_lb_207" ulx="42" uly="507" lrx="738" lry="532" rendition="Line" />
+            <zone xml:id="FR_line_208" corresp="#FR_lb_208" ulx="40" uly="536" lrx="735" lry="561" rendition="Line" />
+            <zone xml:id="FR_line_209" corresp="#FR_lb_209" ulx="38" uly="565" lrx="745" lry="588" rendition="Line" />
+            <zone xml:id="FR_line_210" corresp="#FR_lb_210" ulx="39" uly="590" lrx="727" lry="614" rendition="Line" />
+            <zone xml:id="FR_line_211" corresp="#FR_lb_211" ulx="40" uly="619" lrx="781" lry="643" rendition="Line" />
+            <zone xml:id="FR_line_212" corresp="#FR_lb_212" ulx="44" uly="644" lrx="721" lry="668" rendition="Line" />
+            <zone xml:id="FR_line_213" corresp="#FR_lb_213" ulx="45" uly="674" lrx="729" lry="700" rendition="Line" />
+            <zone xml:id="FR_line_214" corresp="#FR_lb_214" ulx="47" uly="700" lrx="752" lry="727" rendition="Line" />
+            <zone xml:id="FR_line_215" corresp="#FR_lb_215" ulx="45" uly="729" lrx="737" lry="752" rendition="Line" />
+            <zone xml:id="FR_line_216" corresp="#FR_lb_216" ulx="43" uly="753" lrx="781" lry="780" rendition="Line" />
+            <zone xml:id="FR_line_217" corresp="#FR_lb_217" ulx="40" uly="782" lrx="744" lry="809" rendition="Line" />
+            <zone xml:id="FR_line_218" corresp="#FR_lb_218" ulx="45" uly="811" lrx="759" lry="835" rendition="Line" />
+            <zone xml:id="FR_line_219" corresp="#FR_lb_219" ulx="43" uly="838" lrx="743" lry="862" rendition="Line" />
+            <zone xml:id="FR_line_220" corresp="#FR_lb_220" ulx="41" uly="865" lrx="741" lry="895" rendition="Line" />
+            <zone xml:id="FR_line_221" corresp="#FR_lb_221" ulx="36" uly="896" lrx="719" lry="920" rendition="Line" />
+            <zone xml:id="FR_line_222" corresp="#FR_lb_222" ulx="37" uly="923" lrx="764" lry="949" rendition="Line" />
+        </surface>
+        <surface type="page" xml:id="ottavapagina" corresp="#pagina8">
+            <graphic url="Testimonianza/8.jpg" width="801px" height="1024px" />
+            <zone xml:id="FR_line_223" corresp="#FR_lb_223" ulx="48" uly="55" lrx="731" lry="89" rendition="Line" />
+            <zone xml:id="FR_line_224" corresp="#FR_lb_224" ulx="49" uly="89" lrx="751" lry="114" rendition="Line" />
+            <zone xml:id="FR_line_225" corresp="#FR_lb_225" ulx="49" uly="115" lrx="733" lry="141" rendition="Line" />
+            <zone xml:id="FR_line_226" corresp="#FR_lb_226" ulx="45" uly="144" lrx="755" lry="171" rendition="Line" />
+            <zone xml:id="FR_line_227" corresp="#FR_lb_227" ulx="43" uly="171" lrx="777" lry="201" rendition="Line" />
+            <zone xml:id="FR_line_228" corresp="#FR_lb_228" ulx="39" uly="202" lrx="781" lry="227" rendition="Line" />
+            <zone xml:id="FR_line_229" corresp="#FR_lb_229" ulx="43" uly="227" lrx="770" lry="255" rendition="Line" />
+            <zone xml:id="FR_line_230" corresp="#FR_lb_230" ulx="41" uly="256" lrx="746" lry="281" rendition="Line" />
+            <zone xml:id="FR_line_231" corresp="#FR_lb_231" ulx="42" uly="283" lrx="766" lry="312" rendition="Line" />
+            <zone xml:id="FR_line_232" corresp="#FR_lb_232" ulx="41" uly="312" lrx="732" lry="339" rendition="Line" />
+            <zone xml:id="FR_line_233" corresp="#FR_lb_233" ulx="40" uly="339" lrx="763" lry="366" rendition="Line" />
+            <zone xml:id="FR_line_234" corresp="#FR_lb_234" ulx="35" uly="366" lrx="783" lry="396" rendition="Line" />
+            <zone xml:id="FR_line_235" corresp="#FR_lb_235" ulx="33" uly="396" lrx="731" lry="422" rendition="Line" />
+            <zone xml:id="FR_line_236" corresp="#FR_lb_236" ulx="34" uly="422" lrx="753" lry="449" rendition="Line" />
+            <zone xml:id="FR_line_237" corresp="#FR_lb_237" ulx="32" uly="452" lrx="747" lry="478" rendition="Line" />
+            <zone xml:id="FR_line_238" corresp="#FR_lb_238" ulx="36" uly="478" lrx="748" lry="508" rendition="Line" />
+            <zone xml:id="FR_line_239" corresp="#FR_lb_239" ulx="36" uly="509" lrx="729" lry="536" rendition="Line" />
+            <zone xml:id="FR_line_240" corresp="#FR_lb_240" ulx="34" uly="538" lrx="763" lry="563" rendition="Line" />
+            <zone xml:id="FR_line_241" corresp="#FR_lb_241" ulx="33" uly="563" lrx="783" lry="590" rendition="Line" />
+            <zone xml:id="FR_line_242" corresp="#FR_lb_242" ulx="30" uly="592" lrx="783" lry="620" rendition="Line" />
+            <zone xml:id="FR_line_243" corresp="#FR_lb_243" ulx="32" uly="622" lrx="777" lry="644" rendition="Line" />
+            <zone xml:id="FR_line_244" corresp="#FR_lb_244" ulx="33" uly="646" lrx="783" lry="674" rendition="Line" />
+            <zone xml:id="FR_line_245" corresp="#FR_lb_245" ulx="33" uly="675" lrx="780" lry="704" rendition="Line" />
+            <zone xml:id="FR_line_246" corresp="#FR_lb_246" ulx="32" uly="705" lrx="772" lry="730" rendition="Line" />
+            <zone xml:id="FR_line_247" corresp="#FR_lb_247" ulx="33" uly="730" lrx="783" lry="762" rendition="Line" />
+            <zone xml:id="FR_line_248" corresp="#FR_lb_248" ulx="35" uly="762" lrx="753" lry="783" rendition="Line" />
+            <zone xml:id="FR_line_249" corresp="#FR_lb_249" ulx="34" uly="784" lrx="779" lry="811" rendition="Line" />
+            <zone xml:id="FR_line_250" corresp="#FR_lb_250" ulx="37" uly="811" lrx="747" lry="839" rendition="Line" />
+            <zone xml:id="FR_line_251" corresp="#FR_lb_251" ulx="37" uly="839" lrx="767" lry="869" rendition="Line" />
+            <zone xml:id="FR_line_252" corresp="#FR_lb_252" ulx="37" uly="866" lrx="746" lry="895" rendition="Line" />
+            <zone xml:id="FR_line_253" corresp="#FR_lb_253" ulx="41" uly="895" lrx="789" lry="923" rendition="Line" />
+            <zone xml:id="FR_line_254" corresp="#FR_lb_254" ulx="42" uly="923" lrx="768" lry="951" rendition="Line" />
+        </surface>
+        <surface type="page" xml:id="nonapagina" corresp="#pagina9">
+            <graphic url="Testimonianza/9.jpg" width="806px" height="1024px" />
+            <zone xml:id="FR_line_255" corresp="#FR_lb_255" ulx="52" uly="115" lrx="756" lry="153" rendition="Line" />
+            <zone xml:id="FR_line_256" corresp="#FR_lb_256" ulx="51" uly="151" lrx="760" lry="182" rendition="Line" />
+            <zone xml:id="FR_line_257" corresp="#FR_lb_257" ulx="52" uly="179" lrx="732" lry="206" rendition="Line" />
+            <zone xml:id="FR_line_258" corresp="#FR_lb_258" ulx="49" uly="209" lrx="784" lry="233" rendition="Line" />
+            <zone xml:id="FR_line_259" corresp="#FR_lb_259" ulx="45" uly="234" lrx="779" lry="265" rendition="Line" />
+            <zone xml:id="FR_line_260" corresp="#FR_lb_260" ulx="45" uly="266" lrx="769" lry="290" rendition="Line" />
+            <zone xml:id="FR_line_261" corresp="#FR_lb_261" ulx="42" uly="290" lrx="787" lry="326" rendition="Line" />
+            <zone xml:id="FR_line_262" corresp="#FR_lb_262" ulx="42" uly="327" lrx="757" lry="348" rendition="Line" />
+            <zone xml:id="FR_line_263" corresp="#FR_lb_263" ulx="42" uly="350" lrx="770" lry="377" rendition="Line" />
+            <zone xml:id="FR_line_264" corresp="#FR_lb_264" ulx="39" uly="380" lrx="746" lry="404" rendition="Line" />
+            <zone xml:id="FR_line_265" corresp="#FR_lb_265" ulx="45" uly="407" lrx="747" lry="434" rendition="Line" />
+            <zone xml:id="FR_line_266" corresp="#FR_lb_266" ulx="45" uly="436" lrx="761" lry="464" rendition="Line" />
+            <zone xml:id="FR_line_267" corresp="#FR_lb_267" ulx="44" uly="468" lrx="759" lry="492" rendition="Line" />
+            <zone xml:id="FR_line_268" corresp="#FR_lb_268" ulx="44" uly="496" lrx="786" lry="525" rendition="Line" />
+            <zone xml:id="FR_line_269" corresp="#FR_lb_269" ulx="43" uly="525" lrx="750" lry="549" rendition="Line" />
+            <zone xml:id="FR_line_270" corresp="#FR_lb_270" ulx="41" uly="553" lrx="745" lry="581" rendition="Line" />
+            <zone xml:id="FR_line_271" corresp="#FR_lb_271" ulx="43" uly="581" lrx="757" lry="603" rendition="Line" />
+            <zone xml:id="FR_line_272" corresp="#FR_lb_272" ulx="42" uly="604" lrx="727" lry="635" rendition="Line" />
+            <zone xml:id="FR_line_273" corresp="#FR_lb_273" ulx="90" uly="631" lrx="754" lry="663" rendition="Line" />
+            <zone xml:id="FR_line_274" corresp="#FR_lb_274" ulx="48" uly="665" lrx="749" lry="693" rendition="Line" />
+            <zone xml:id="FR_line_275" corresp="#FR_lb_275" ulx="47" uly="694" lrx="789" lry="722" rendition="Line" />
+            <zone xml:id="FR_line_276" corresp="#FR_lb_276" ulx="45" uly="723" lrx="291" lry="749" rendition="Line" />
+            <zone xml:id="FR_line_277" corresp="#FR_lb_277" ulx="102" uly="750" lrx="755" lry="775" rendition="Line" />
+            <zone xml:id="FR_line_278" corresp="#FR_lb_278" ulx="55" uly="776" lrx="741" lry="807" rendition="Line" />
+            <zone xml:id="FR_line_279" corresp="#FR_lb_279" ulx="51" uly="807" lrx="773" lry="840" rendition="Line" />
+            <zone xml:id="FR_line_280" corresp="#FR_lb_280" ulx="56" uly="838" lrx="779" lry="868" rendition="Line" />
+            <zone xml:id="FR_line_281" corresp="#FR_lb_281" ulx="51" uly="866" lrx="755" lry="892" rendition="Line" />
+            <zone xml:id="FR_line_282" corresp="#FR_lb_282" ulx="49" uly="896" lrx="786" lry="922" rendition="Line" />
+        </surface>
+        <surface type="page" xml:id="decimapagina" corresp="#pagina10">
+            <graphic url="Testimonianza/10.jpg" width="806px" height="1024px" />
+            <zone xml:id="FR_line_283" corresp="#FR_lb_283" ulx="60" uly="118" lrx="749" lry="147" rendition="Line" />
+            <zone xml:id="FR_line_284" corresp="#FR_lb_284" ulx="56" uly="151" lrx="740" lry="177" rendition="Line" />
+            <zone xml:id="FR_line_285" corresp="#FR_lb_285" ulx="51" uly="180" lrx="787" lry="205" rendition="Line" />
+            <zone xml:id="FR_line_286" corresp="#FR_lb_286" ulx="53" uly="210" lrx="779" lry="232" rendition="Line" />
+            <zone xml:id="FR_line_287" corresp="#FR_lb_287" ulx="50" uly="234" lrx="738" lry="261" rendition="Line" />
+            <zone xml:id="FR_line_288" corresp="#FR_lb_288" ulx="56" uly="265" lrx="694" lry="292" rendition="Line" />
+            <zone xml:id="FR_line_289" corresp="#FR_lb_289" ulx="52" uly="294" lrx="781" lry="316" rendition="Line" />
+            <zone xml:id="FR_line_290" corresp="#FR_lb_290" ulx="55" uly="321" lrx="781" lry="348" rendition="Line" />
+            <zone xml:id="FR_line_291" corresp="#FR_lb_291" ulx="47" uly="350" lrx="787" lry="376" rendition="Line" />
+            <zone xml:id="FR_line_292" corresp="#FR_lb_292" ulx="48" uly="382" lrx="767" lry="403" rendition="Line" />
+            <zone xml:id="FR_line_293" corresp="#FR_lb_293" ulx="46" uly="406" lrx="773" lry="435" rendition="Line" />
+            <zone xml:id="FR_line_294" corresp="#FR_lb_294" ulx="45" uly="436" lrx="770" lry="462" rendition="Line" />
+            <zone xml:id="FR_line_295" corresp="#FR_lb_295" ulx="49" uly="464" lrx="776" lry="488" rendition="Line" />
+            <zone xml:id="FR_line_296" corresp="#FR_lb_296" ulx="41" uly="494" lrx="782" lry="520" rendition="Line" />
+            <zone xml:id="FR_line_297" corresp="#FR_lb_297" ulx="55" uly="530" lrx="648" lry="548" rendition="Line" />
+            <zone xml:id="FR_line_298" corresp="#FR_lb_298" ulx="102" uly="548" lrx="738" lry="574" rendition="Line" />
+            <zone xml:id="FR_line_299" corresp="#FR_lb_299" ulx="45" uly="573" lrx="793" lry="602" rendition="Line" />
+            <zone xml:id="FR_line_300" corresp="#FR_lb_300" ulx="44" uly="604" lrx="285" lry="638" rendition="Line" />
+        </surface>
+    </facsimile>
+  
+    
+    <text type="fascicolo" xml:id="testotranscr">  
+        <body xml:lang="ita">
+            <div type="page" xml:id="transcription">
+                
+                <pb n="pg1" xml:id="pagina1" facs="data/Testimonianza/1.jpg"/> 
+                <head>
+                    <lb xml:id="FR_lb_00" facs="#FR_line_00"/>
+                        <placeName ref="#AU">Birkenau (Auschwitz)</placeName>
+                        <date from="1944" to="1945"> 1944-1945</date>
+                        <hi rend="underline" xml:id="firmafr">
+                            <persName ref="#FR">FELD ROMANA</persName>
+                        </hi>
+                </head>
+                <p>
+                   <lb xml:id="FR_lb_01" n="1" facs="#FR_line_01"/><s type="sentence" xml:id="S1">L'alba del <date when="1944-04-10">10 Aprile 1944</date> segnò per me l'ingresso
+                   <lb xml:id="FR_lb_02" n="2" facs="#FR_line_02" />nel <choice><orig>C</orig><reg>c</reg></choice>ampo di <choice><sic>anientamento</sic><corr>annientamento</corr></choice> di <placeName ref="#AU">Birkenau</placeName><pc>,</pc>segnò un perio
+                   <lb xml:id="FR_lb_03" n="3" facs="#FR_line_03" rend="hyphen" break="no"/>do che ora<pc>,</pc>a distanza d'anni<pc>,</pc>ricordo più come un
+                   <lb xml:id="FR_lb_04" n="4" facs="#FR_line_04"/>incubo<pc>,</pc>un sogno spaventoso<pc>,</pc>che una realtà vissuta
+                   <lb xml:id="FR_lb_05" n="5" facs="#FR_line_05"/>e sofferta<pc>,</pc><choice><orig>T</orig><reg>t</reg></choice>anto irreale era il mondo nel quale siamo
+                   <lb xml:id="FR_lb_06" n="6" facs="#FR_line_06"/>entrati<pc>;</pc></s><s type="sentence" xml:id="S2">inumana era la gente che ci circondava<pc>,</pc>
+                   <lb xml:id="FR_lb_07" n="7" facs="#FR_line_07"/>compresi gli stessi internati<pc>,</pc> che a causa dei maltrat
+                   <lb xml:id="FR_lb_08" n="8" facs="#FR_line_08" rend="hyphen" break="no"/><choice><orig>T</orig><reg>t</reg></choice>amenti subiti diventarono col <choice><orig>T</orig><reg>t</reg></choice>empo esseri spogli 
+                   <lb xml:id="FR_lb_09" n="9" facs="#FR_line_09"/>d'ogni sentimento che non fosse<pc>,</pc> odio<pc>,</pc> vendetta<pc>,</pc> desi
+                   <lb xml:id="FR_lb_10" n="10" facs="#FR_line_10" rend="hyphen" break="no"/>derio d'infliggere al prossimo almeno in parte le <choice><sic>seviziie</sic><corr>sevizie</corr></choice>
+                   <lb xml:id="FR_lb_11" n="11" facs="#FR_line_11"/><choice><sic>subiti</sic><corr>subite</corr></choice> da loro stessi<pc>.</pc></s><s type="sentence" xml:id="S3"> Perchè a quanto ci fu raccontato
+                   <lb xml:id="FR_lb_12" n="12" facs="#FR_line_12"/>da molte internate<pc>,</pc> che miracolosamente <choice><sic>sopravisse</sic><corr>sopravvisse</corr></choice>
+                   <lb xml:id="FR_lb_13" n="13" facs="#FR_line_13" rend="hyphen" break="no"/>ro migliaia delle <choice><sic>sue</sic><corr>loro</corr></choice> <choice><sic>compagnie</sic><corr>compagne</corr></choice><pc>,</pc> noi <choice><orig>T</orig><reg>t</reg></choice>rovammo
+                   <lb xml:id="FR_lb_14" n="14" facs="#FR_line_14"/>già un<pc>...</pc><emph>paradiso</emph><pc>.</pc></s><s type="sentence" xml:id="S4"> Era stabilito <choice><abbr>p<am>.</am>es<am>.</am></abbr><expan>p<ex>er</ex> es<ex>empio</ex></expan></choice><pc>,</pc> come ci fu
+                   <lb xml:id="FR_lb_15" n="15" facs="#FR_line_15"/>raccontato<pc>,</pc> che giornalmente<pc>,</pc> una percentuale delle
+                   <lb xml:id="FR_lb_16" n="16" facs="#FR_line_16"/>prigioniere che usciva<del rend="overstrike" hand="#FR">no</del> per lavoro<pc>,</pc> la sera non doveva
+                   <lb xml:id="FR_lb_17" n="17" facs="#FR_line_17"/> rientrare<pc>.</pc></s><s type="sentence" xml:id="S5"> Venivano apposta provocate dalle guardie 
+                   <lb xml:id="FR_lb_18" n="18" facs="#FR_line_18"/><choice><orig>T</orig><reg>t</reg></choice>edesche<pc>,</pc> che le scortavano<pc>,</pc> ed alla minima ribellio
+                   <lb xml:id="FR_lb_19" n="19" facs="#FR_line_19" rend="hyphen" break="no"/>ne ammazzate sul posto<pc>,</pc> o sbranate dai cani<pc>.</pc></s><s type="sentence" xml:id="S6"> Una
+                   <lb xml:id="FR_lb_20" n="20" facs="#FR_line_20"/><rs type="person"><choice><orig>P</orig><reg>p</reg></choice>olacca ebrea</rs><pc>,</pc> raccontava<pc>,</pc> che a causa d'una insu<supplied reason="omitted" resp="#CG">f</supplied>
+                   <lb xml:id="FR_lb_21" n="21" facs="#FR_line_21" rend="hyphen" break="no"/>ficiente pulizia del blo<add place="inline" hand="#FR" >c</add>co<pc>,</pc> del quale era responsabile<pc>,</pc>
+                   <lb xml:id="FR_lb_22" n="22" facs="#FR_line_22"/><choice><orig>T</orig><reg>t</reg></choice>rascorse <choice><orig>T</orig><reg>t</reg></choice>utta la notte fuori<pc>,</pc> nuda<pc>,</pc> inginocchiata
+                   <lb xml:id="FR_lb_23" n="23" facs="#FR_line_23"/>sulla neve<pc>.</pc></s><s type="sentence" xml:id="S7"> Le condizioni igieniche del campo<pc>,</pc>
+                   <lb xml:id="FR_lb_24" n="24" facs="#FR_line_24"/>che lasciavano molto a desiderare<pc>,</pc> al nostro
+                   <lb xml:id="FR_lb_25" n="25" facs="#FR_line_25"/>ingresso<pc>,</pc> erano già <choice><sic>eccelenti</sic><corr>eccellenti</corr></choice><pc>,</pc>in confronto <choice><sic>di</sic><corr>a</corr></choice> prima<pc>.</pc></s>
+                   <lb xml:id="FR_lb_26" n="26" facs="#FR_line_26"/><s type="sentence" xml:id="S8">L'acqua<pc>,</pc> in un campo vasto come un <choice><sic>villagio</sic><corr>villaggio</corr></choice><pc>,</pc>
+                   <lb xml:id="FR_lb_27" n="27" facs="#FR_line_27"/>dove erano migliaia d'internati<pc>,</pc> si <choice><orig>T</orig><reg>t</reg></choice>rovava
+                   <lb xml:id="FR_lb_28" n="28" facs="#FR_line_28"/>solamente nella baracca delle <choice><sic>doccie</sic><corr>docce</corr></choice><pc>,</pc>e queste<pc>,</pc>
+                   <lb xml:id="FR_lb_29" n="29" facs="#FR_line_29"/>severamente proibite a <choice><orig>T</orig><reg>t</reg></choice>utti salvo che alle poche
+                   <lb xml:id="FR_lb_30" n="30" facs="#FR_line_30"/>fortunate che lavoravano lì per <choice><orig>T</orig><reg>t</reg></choice>enerle in efficienza 
+                
+                <pb n="pg2" xml:id="pagina2" facs="data/Testimonianza/2.jpg"/>
+              
+                   <lb xml:id="FR_lb_31" n="1" facs="#FR_line_31"/>per il comando <choice><orig>T</orig><reg>t</reg></choice>edesco<pc>.</pc></s><s type="sentence" xml:id="S9"> Lavarsi era un'utopia<pc>.</pc></s>
+                   <lb xml:id="FR_lb_32" n="2" facs="#FR_line_32"/><s type="sentence" xml:id="S10">Si combatteva a<add place="inline" hand="#FR">c</add>canitamente per un sorso d'acqua
+                   <lb xml:id="FR_lb_33" n="3" facs="#FR_line_33"/>che era pure imbevibile<pc>,</pc> offrendo alle poche fortu
+                   <lb xml:id="FR_lb_34" n="4" facs="#FR_line_34" rend="hyphen" break="no"/>nate che avevano accesso e che <choice><sic>clandestinatamente</sic><corr>clandestinamente</corr></choice>
+                   <lb xml:id="FR_lb_35" n="5" facs="#FR_line_35"/>portavano un pò d'acqua fuori<pc>,</pc>il pane anche
+                   <lb xml:id="FR_lb_36" n="6" facs="#FR_line_36"/>di diversi giorni che nessuno mangiava per l'arsu
+                   <lb xml:id="FR_lb_37" n="7" facs="#FR_line_37" rend="hyphen" break="no"/>ra<pc>.</pc></s><s type="sentence" xml:id="S11"> Ciò che poi avveniva negli ospedali<pc>,</pc> secondo
+                   <lb xml:id="FR_lb_38" n="8" facs="#FR_line_38"/>innumerevoli <choice><orig>T</orig><reg>t</reg></choice>estimonianze ra<del rend="overstrike" hand="#FR">s</del>sentava ogni limi
+                   <lb xml:id="FR_lb_39" n="9" facs="#FR_line_39" rend="hyphen" break="no"/><choice><orig>T</orig><reg>t</reg></choice>e di umana comprensione<pc>.</pc></s><s type="sentence" xml:id="S12"> I letti pu<add place="inline" hand="#FR">l</add>lulavano d'insetti<pc>,</pc>
+                   <lb xml:id="FR_lb_40" n="10" facs="#FR_line_40"/>malati non lavati<pc>,</pc> senza cure e mangiare<pc>.</pc></s><s type="sentence" xml:id="S13"> La diar<add place="above" hand="#FR">r</add>ea
+                   <lb xml:id="FR_lb_41" n="11" facs="#FR_line_41"/>infuriava<pc>.</pc></s><s type="sentence" xml:id="S14"> La scode<add place="inline" hand="#FR">l</add>la del mangiare serviva anche
+                   <lb xml:id="FR_lb_42" n="12" facs="#FR_line_42"/>per<del rend="overstrike" hand="#FR">il</del> vaso<pc>.</pc></s><s type="sentence" xml:id="S15">Ripeto fedelmente ciò che ho udito<pc>.</pc></s>
+                </p>
+                <p>
+                   <lb xml:id="FR_lb_43" n="13" facs="#FR_line_43"/><s type="sentence" xml:id="S16">Ed ora ciò che ho vissuto<pc>,</pc> qualche frammento del<pc>...</pc>
+                   <lb xml:id="FR_lb_44" n="14" facs="#FR_line_44"/><emph>paradiso</emph> che ho <choice><orig>T</orig><reg>t</reg></choice>rovato<pc>.</pc></s>
+                </p>
+                <p>
+                   <lb xml:id="FR_lb_45" n="15" facs="#FR_line_45"/><s type="sentence" xml:id="S17">Scaricati dopo <num>5</num> giorni di viaggio da <placeName ref="#FO">Fossoli</placeName><pc>,</pc> chiusi
+                   <lb xml:id="FR_lb_46" n="16" facs="#FR_line_46"/>nei <choice><sic>cari</sic><corr>carri</corr></choice> <choice><sic>bestiami</sic><corr>bestiame</corr></choice><pc>,</pc> fummo divisi in <num value="2">due</num> gruppi<pc>,</pc>
+                   <lb xml:id="FR_lb_47" n="17" facs="#FR_line_47"/>uomini e donne<pc>.</pc></s><s type="sentence" xml:id="S18"> Non diedero <choice><orig>T</orig><reg>t</reg></choice>empo nè per un
+                   <lb xml:id="FR_lb_48" n="18" facs="#FR_line_48"/>saluto<pc>,</pc> nè per una parola d'addio<pc>,</pc> così furono
+                   <lb xml:id="FR_lb_49" n="19" facs="#FR_line_49"/>divisi padri dai figli<pc>,</pc> <choice><sic>moglie</sic><corr>mogli</corr></choice> dai mariti<pc>,</pc> per
+                   <lb xml:id="FR_lb_50" n="20" facs="#FR_line_50"/>non rivedersi mai più<pc>.</pc></s><s type="sentence" xml:id="S19"> Allineati dai soldati
+                   <lb xml:id="FR_lb_51" n="21" facs="#FR_line_51"/><choice><orig>T</orig><reg>t</reg></choice>edesch<subst><del rend="overtyped" hand="#FR">e</del><add place="inline" hand="#FR">i</add></subst> che ci attendevano<pc>,</pc> passammo una per
+                   <lb xml:id="FR_lb_52" n="22" facs="#FR_line_52"/>una davanti al medico <choice><orig>T</orig><reg>t</reg></choice>edesco<pc>,</pc> che fu anche in
+                   <lb xml:id="FR_lb_53" n="23" facs="#FR_line_53"/>seguito nel campo<pc>,</pc> nelle varie selezioni che a<add place="above" hand="#FR">v</add>veni
+                   <lb xml:id="FR_lb_54" n="24" facs="#FR_line_54" rend="hyphen" break="no"/>vano<pc>,</pc> il nostro padrone di vita<pc>.</pc></s><s type="sentence" xml:id="S20"> Uno sguardo<pc>,</pc> rare
+                   <lb xml:id="FR_lb_55" n="25" facs="#FR_line_55"/>volte una domanda<pc>,</pc> e un suo cenno di mano<pc>,</pc> a
+                   <lb xml:id="FR_lb_56" n="26" facs="#FR_line_56"/>destra o a sinistra<pc>,</pc> significava la vita o la morte<pc>.</pc></s>
+                   <lb xml:id="FR_lb_57" n="27" facs="#FR_line_57"/><s type="sentence" xml:id="S21">In linea di massima la morte era segnata
+                   <lb xml:id="FR_lb_58" n="28" facs="#FR_line_58"/>per le persone d'età<pc>,</pc> madri coi bambini piccoli<pc>,</pc>
+                   <lb xml:id="FR_lb_59" n="29" facs="#FR_line_59"/>malati e deboli<pc>,</pc> ma tra quelle file si <choice><orig>T</orig><reg>t</reg></choice>rovarono
+                   <lb xml:id="FR_lb_60" n="30" facs="#FR_line_60"/>pure giovani in fiore d'età e salute<pc>.</pc></s><s type="sentence" xml:id="S22"> Io ebbi la
+                   <lb xml:id="FR_lb_61" n="31" facs="#FR_line_61"/>fortuna che spesso nel campo maledivo<pc>.</pc></s><s type="sentence" xml:id="S23"> Invece
+                   <lb xml:id="FR_lb_62" n="32" facs="#FR_line_62"/>di morire una volta<pc>,</pc> morivamo a poco a poco ogni
+                 
+                <pb n="pg3" xml:id="pagina3" facs="data/Testimonianza/3.jpg"/>
+                    
+                   <lb xml:id="FR_lb_63" n="1" facs="#FR_line_63"/>giorno<pc>.</pc></s><s type="sentence" xml:id="S24"> Entrammo in un numero esiguo nel <choice><orig>C</orig><reg>c</reg></choice>ampo
+                   <lb xml:id="FR_lb_64" n="2" facs="#FR_line_64"/>della morte<pc>.</pc></s><s type="sentence" xml:id="S25"> Ci condussero in una sala<pc>,</pc> dove delle
+                   <lb xml:id="FR_lb_65" n="3" facs="#FR_line_65"/>altre internate ci <choice><orig>T</orig><reg>t</reg></choice>atuarono sul braccio <subst><del rend="overtyped" hand="#FR">il</del><add place="inline" hand="#FR">in</add></subst> numero
+                   <lb xml:id="FR_lb_66" n="4" facs="#FR_line_66"/>progressivo<pc>,</pc> diventammo solo un numero<pc>,</pc> numero
+                   <lb xml:id="FR_lb_67" n="5" facs="#FR_line_67"/>d'una bestia da macello<pc>.</pc></s><s type="sentence" xml:id="S26"> Spogliate d'ogni cosa<pc>,</pc>
+                   <lb xml:id="FR_lb_68" n="6" facs="#FR_line_68"/>lasciatoci solo il pettine<pc>,</pc> sapone ed un fazzoletto<pc>,</pc> nude
+                   <lb xml:id="FR_lb_69" n="7" facs="#FR_line_69"/>in presenza degli uomini <choice><orig>T</orig><reg>t</reg></choice>edeschi che venivano a 
+                   <lb xml:id="FR_lb_70" n="8" facs="#FR_line_70"/>curiosare<pc>,</pc> cominciò una sfilata che fu <choice><orig>T</orig><reg>t</reg></choice>ragica e
+                   <lb xml:id="FR_lb_71" n="9" facs="#FR_line_71"/>gro<add place="inline" hand="#FR">t</add>tesca allo stesso <choice><orig>T</orig><reg>t</reg></choice>empo<pc>.</pc></s><s type="sentence" xml:id="S27"> Una per una ci fermavamo 
+                   <lb xml:id="FR_lb_72" n="10" facs="#FR_line_72"/>davanti a delle donne m<subst><del rend="overtyped" hand="#FR">e</del><add place="inline" hand="#FR">u</add></subst>nite di forbici e rasoi<pc>.</pc></s>
+                   <lb xml:id="FR_lb_73" n="11" facs="#FR_line_73"/><s type="sentence" xml:id="S28">Poche salvarono i capelli<pc>.</pc></s><s type="sentence" xml:id="S29"> Rese irriconoscibili passammo
+                   <lb xml:id="FR_lb_74" n="12" facs="#FR_line_74"/>nella sala delle <choice><sic>doccie</sic><corr>docce</corr></choice> e poi grondanti d<del rend="overstrike" hand="#FR">ell</del>' acqua 
+                   <lb xml:id="FR_lb_75" n="13" facs="#FR_line_75"/>in un'altra priva dei vetri alle finestre situate al
+                   <lb xml:id="FR_lb_76" n="14" facs="#FR_line_76" rend="hyphen" break="no"/>le <num value="2">due</num> pareti opposte da produrre le correnti<pc>.</pc></s><s type="sentence" xml:id="S30"> Questa
+                   <lb xml:id="FR_lb_77" n="15" facs="#FR_line_77"/>sala<pc>,</pc>ricordo ancor oggi<pc>,</pc> con un brivido <choice><orig><pc>,</pc></orig><reg><pc>.</pc></reg></choice></s><s type="sentence" xml:id="S31"> <subst><del rend="overtyped" hand="#FR">d</del><add place="inline" hand="#FR">D</add></subst>opo <choice><sic>doccie</sic><corr>docce</corr></choice>
+                   <lb xml:id="FR_lb_78" n="16" facs="#FR_line_78"/>bo<add place="inline" hand="#FR">l</add>lenti ci chiudevano in essa<pc>,</pc> certe volte per lunghe
+                   <lb xml:id="FR_lb_79" n="17" facs="#FR_line_79"/>ore<pc>,</pc> nude<pc>,</pc> stringendosi una all'altra per <choice><orig>T</orig><reg>t</reg></choice>rovare
+                   <lb xml:id="FR_lb_80" n="18" facs="#FR_line_80"/>un pò di calore<pc>,</pc> in attesa dei vestiti che si disinfetta
+                   <lb xml:id="FR_lb_81" n="19" facs="#FR_line_81" rend="hyphen" break="no"/>vano<pc>.</pc></s><s type="sentence" xml:id="S32"> Una notte d'inverno <choice><orig>T</orig><reg>t</reg></choice>ornai al blocco con
+                   <lb xml:id="FR_lb_82" n="20" facs="#FR_line_82"/>solo una sottoveste addosso<pc>.</pc></s><s type="sentence" xml:id="S33"> All'atto di protesta ebbi
+                   <lb xml:id="FR_lb_83" n="21" facs="#FR_line_83"/>un pugno che mi fece ruzzolare<pc>.</pc></s><s type="sentence" xml:id="S34"> Qui ci fu distribuito
+                   <lb xml:id="FR_lb_84" n="22" facs="#FR_line_84"/>il nostro<pc>...</pc><emph>corredo</emph><pc>.</pc></s><s type="sentence" xml:id="S35"> Una camicia<pc>,</pc> mutande <choice><orig></orig><reg><pc>,</pc></reg></choice> un
+                   <lb xml:id="FR_lb_85" n="23" facs="#FR_line_85"/>vestito<pc>,</pc> calze e scarpe<pc>.</pc></s><s type="sentence" xml:id="S36"> I vestiti erano <distinct type="archaic">cenci</distinct> più orrendi<pc>,</pc>
+                   <lb xml:id="FR_lb_86" n="24" facs="#FR_line_86"/>o <choice><orig>T</orig><reg>t</reg></choice>roppo piccoli o <choice><orig>T</orig><reg>t</reg></choice>roppo grandi<pc>,</pc> <num value="2">due</num> calze diverse
+                   <lb xml:id="FR_lb_87" n="25" facs="#FR_line_87"/>e <num value="2">due</num> scarpe diverse completavano questo <choice><orig>T</orig><reg>t</reg></choice>ravesti
+                   <lb xml:id="FR_lb_88" n="26" facs="#FR_line_88" rend="hyphen" break="no"/>mento di burattini<pc>.</pc></s><s type="sentence" xml:id="S37"> Era anche questo un metodo 
+                   <lb xml:id="FR_lb_89" n="27" facs="#FR_line_89"/>per demoralizzare<pc>.</pc></s><s type="sentence" xml:id="S38"> Eravamo stordite e annientate<pc>,</pc>
+                   <lb xml:id="FR_lb_90" n="28" facs="#FR_line_90"/>regnava un silenzio sinistro anche per la presenza
+                   <lb xml:id="FR_lb_91" n="29" facs="#FR_line_91"/>della sorvegliante con la frusta<pc>.</pc></s><s type="sentence" xml:id="S39"> E <choice><sic>comminciò</sic><corr>cominciò</corr></choice>
+                   <lb xml:id="FR_lb_92" n="30" facs="#FR_line_92"/>l' odissea quotidiana<pc>.</pc></s><s type="sentence" xml:id="S40"> <del rend="overstrike" hand="#FR">E</del> Ap<add place="inline" hand="#FR">p</add>ello alle <time when="04:00">4 del mattino</time><pc>,</pc> quando
+                   <lb xml:id="FR_lb_93" n="31" facs="#FR_line_93"/>in cielo<pc>,</pc> se non era coperto <add place="above" hand="#FR">di</add> nuvole e pioveva<pc>,</pc> fenomeno
+                   <lb xml:id="FR_lb_94" n="32" facs="#FR_line_94"/>normalissimo in ogni stagione in quell'angolo
+                    
+                <pb n="pg4" xml:id="pagina4" facs="data/Testimonianza/4.jpg"/>
+                    
+                   <lb xml:id="FR_lb_95" n="1" facs="#FR_line_95"/>maledetto della <choice><orig>T</orig><reg>t</reg></choice>erra<pc>,</pc> si vedevano ancora le 
+                   <lb xml:id="FR_lb_96" n="2" facs="#FR_line_96"/>stelle<pc>.</pc></s><s type="sentence" xml:id="S41"> Allineate <num>5</num> per <num>5</num> veniva distribuita un pò
+                   <lb xml:id="FR_lb_97" n="3" facs="#FR_line_97"/>d'acqua <choice><orig>T</orig><reg>t</reg></choice>iepida<pc>,</pc> sporca<pc>,</pc> cattiva<pc>:</pc> il <choice><orig>T</orig><reg>t</reg></choice>è<pc>,</pc> la colazione<pc>.</pc></s>
+                   <lb xml:id="FR_lb_98" n="4" facs="#FR_line_98"/><s type="sentence" xml:id="S42">Dopo un'ora qualche <del rend="overstrike" hand="#FR">ora</del> volta anche più d'appello<pc>,</pc>
+                   <lb xml:id="FR_lb_99" n="5" facs="#FR_line_99"/>mal vestite<pc>,</pc> indirizzite dal freddo<pc>,</pc> che in quel posto
+                   <lb xml:id="FR_lb_100" n="6" facs="#FR_line_100"/>anche nei mesi caldi<pc>,</pc> la mattina si faceva ben
+                   <lb xml:id="FR_lb_101" n="7" facs="#FR_line_101"/>sentire<pc>,</pc> non lavate perchè l'acqua era un lusso 
+                   <lb xml:id="FR_lb_102" n="8" facs="#FR_line_102"/>pari al mangiare<pc>,</pc> ci av<add place="inline" hand="#FR">v</add>iavamo al lavoro<pc>.</pc></s><s type="sentence" xml:id="S43"> Era
+                   <lb xml:id="FR_lb_103" n="9" facs="#FR_line_103" rend="hyphen" break="no"/>vamo divise in comandi<pc>.</pc></s><s type="sentence" xml:id="S44"> A suon di musica si
+                   <lb xml:id="FR_lb_104" n="10" facs="#FR_line_104"/>usciva dal recinto del campo<pc>,</pc> marciando sotto
+                   <lb xml:id="FR_lb_105" n="11" facs="#FR_line_105"/>comando<pc>,</pc> guai a <choice><orig>T</orig><reg>t</reg></choice>utte se una sbagliava il passo<pc>.</pc></s>
+                   <lb xml:id="FR_lb_106" n="12" facs="#FR_line_106"/><s type="sentence" xml:id="S45"><num>4</num> o più <unit type="lenght" unit="kilometer">km</unit> distante dal campo<pc>,</pc> cominciava il
+                   <lb xml:id="FR_lb_107" n="13" facs="#FR_line_107"/>lavoro<pc>,</pc> che si svolgeva sotto la sorveglianza delle
+                   <lb xml:id="FR_lb_108" n="14" facs="#FR_line_108"/><choice><orig>T</orig><reg>t</reg></choice>edesche ed anche uomini accompagnati dai cani<pc>.</pc></s>
+                   <lb xml:id="FR_lb_109" n="15" facs="#FR_line_109"/><s type="sentence" xml:id="S46">Si <choice><orig>T</orig><reg>t</reg></choice>rasportavano in mano oppure in <term>portantine</term>
+                   <lb xml:id="FR_lb_110" n="16" facs="#FR_line_110"/>di legno zolle di <choice><orig>T</orig><reg>t</reg></choice>erreno con l'erba<pc>,</pc> accatastandole<pc>.</pc></s>
+                   <lb xml:id="FR_lb_111" n="17" facs="#FR_line_111"/><s type="sentence" xml:id="S47">Non era permesso fermarsi un momento<pc>,</pc> altrimenti
+                   <lb xml:id="FR_lb_112" n="18" facs="#FR_line_112"/>la frusta o qualche maggior castigo era in azione<pc>.</pc></s>
+                   <lb xml:id="FR_lb_113" n="19" facs="#FR_line_113"/><s type="sentence" xml:id="S48">Il <choice><orig>T</orig><reg>t</reg></choice>edesco sorvegliava pure il gabinetto affinchè non
+                   <lb xml:id="FR_lb_114" n="20" facs="#FR_line_114"/>si facesse una sosta prolungata<pc>.</pc></s><s type="sentence" xml:id="S49"> Se le <choice><sic>zole</sic><corr>zolle</corr></choice> portate
+                   <lb xml:id="FR_lb_115" n="21" facs="#FR_line_115"/>o le <term>portantine</term> non erano ben cariche<pc>,</pc> per castigo
+                   <lb xml:id="FR_lb_116" n="22" facs="#FR_line_116"/>veniva raddoppiato il carico e guai a chi non era
+                   <lb xml:id="FR_lb_117" n="23" facs="#FR_line_117"/>capace d'alzarlo<pc>.</pc></s><s type="sentence" xml:id="S50"> Una volta ho visto pure sguinzaglia
+                   <lb xml:id="FR_lb_118" n="24" facs="#FR_line_118" rend="hyphen" break="no"/>re i cani<pc>.</pc></s><s type="sentence" xml:id="S51"> Finita la costruzione di quei muri di
+                   <lb xml:id="FR_lb_119" n="25" facs="#FR_line_119"/><choice><orig>T</orig><reg>t</reg></choice>erreno<pc>,</pc> si scavava i canali<pc>,</pc> anche qui il <choice><orig>T</orig><reg>t</reg></choice>erreno
+                   <lb xml:id="FR_lb_120" n="26" facs="#FR_line_120"/>scavato doveva essere <choice><orig>T</orig><reg>t</reg></choice>rasportato a mano in un
+                   <lb xml:id="FR_lb_121" n="27" facs="#FR_line_121"/>luogo più lontano<pc>.</pc></s>
+                </p>
+                <p>
+                   <lb xml:id="FR_lb_122" n="28" facs="#FR_line_122"/><s type="sentence" xml:id="S52">Peggior calamità erano le disastrose condizio
+                   <lb xml:id="FR_lb_123" n="29" facs="#FR_line_123" rend="hyphen" break="no"/>ni atmosferiche di quel luogo<pc>,</pc> forse con premedi
+                   <lb xml:id="FR_lb_124" n="30" facs="#FR_line_124" rend="hyphen" break="no"/><choice><orig>T</orig><reg>t</reg></choice>azione scelto per questa ragione<pc>.</pc></s><s type="sentence" xml:id="S53"> Freddo e
+                   <lb xml:id="FR_lb_125" n="31" facs="#FR_line_125"/>pioggia incessante<pc>.</pc></s><s type="sentence" xml:id="S54"> E pure se <choice><sic>deluviava</sic><corr>diluviava</corr></choice><pc>,</pc> rare
+                   <lb xml:id="FR_lb_126" n="32" facs="#FR_line_126"/>volte il lavoro veniva interrotto<pc>.</pc></s><s type="sentence" xml:id="S55"> Si camminava 
+                
+                <pb n="pg5" xml:id="pagina5" facs="data/Testimonianza/5.jpg"/>
+                    
+                   <lb xml:id="FR_lb_127" n="1" facs="#FR_line_127"/>sotto la pioggia<pc>,</pc> sentendo scorrere l'acqua lungo il
+                   <lb xml:id="FR_lb_128" n="2" facs="#FR_line_128"/>corpo<pc>.</pc></s><s type="sentence" xml:id="S56"> Quante ore ferme sotto l'acqua durante
+                   <lb xml:id="FR_lb_129" n="3" facs="#FR_line_129"/>gli appelli <add place="above" hand="#FR">della</add> mattina<pc>,</pc> e <add place="above" hand="#FR">della</add> sera al ritorno dal lavoro<pc>.</pc></s>
+                   <lb xml:id="FR_lb_130" n="4" facs="#FR_line_130"/><s type="sentence" xml:id="S57">Appelli più estenuanti del lavoro<pc>.</pc></s><s type="sentence" xml:id="S58"> E poi come un
+                   <lb xml:id="FR_lb_131" n="5" facs="#FR_line_131"/>branco di bestie precipitarsi ognuna nel proprio blocco<pc>,</pc>
+                   <lb xml:id="FR_lb_132" n="6" facs="#FR_line_132"/><choice><orig>T</orig><reg>t</reg></choice>olti <add place="inline" hand="#FR">i</add> vestiti grondanti d'acqua e messi <add place="above" hand="#FR">sotto</add> <del rend="overstrike" hand="#FR">del</del>la <choice><orig>T</orig><reg>t</reg></choice>esta
+                   <lb xml:id="FR_lb_133" n="7" facs="#FR_line_133"/>assieme alle scarpe<pc>,</pc> perchè altro posto non c'era
+                   <lb xml:id="FR_lb_134" n="8" facs="#FR_line_134"/>ci si addormentava una vicino<pc>,</pc> vicino all'altra
+                   <lb xml:id="FR_lb_135" n="9" facs="#FR_line_135"/>nelle così dette <soCalled><foreign xml:lang="DE"><choice><sic>coie</sic><corr>Koje</corr></choice></foreign></soCalled><pc>,</pc> <gloss>gabbie nel muro</gloss><pc>,</pc> grandi
+                   <lb xml:id="FR_lb_136" n="10" facs="#FR_line_136"/><measure><num>2</num> o <num>3</num> <unit type="space"><choice><abbr>m<am>.</am>q<am>.</am></abbr><expan>m<ex>etri</ex> q<ex>uadri</ex></expan></choice></unit></measure> dove riposavano da <num>5</num> a <num>8</num> donne
+                   <lb xml:id="FR_lb_137" n="11" facs="#FR_line_137"/>secondo l'<choice><sic>affolamento</sic><corr>affollamento</corr></choice> del blocco<pc>.</pc></s><s type="sentence" xml:id="S59"> Un sacco di paglia
+                   <lb xml:id="FR_lb_138" n="12" facs="#FR_line_138"/>sotto<pc>,</pc> qualche coperta sopra<choice><orig></orig><reg><pc>,</pc></reg></choice> ecco il nostro <distinct type="archaic">giaciglio</distinct><pc>.</pc></s>
+                   <lb xml:id="FR_lb_139" n="13" facs="#FR_line_139"/><s type="sentence" xml:id="S60">Dimenticavo la cena<pc>,</pc> un <choice><orig>T</orig><reg>t</reg></choice>ozzo di pane che
+                   <lb xml:id="FR_lb_140" n="14" facs="#FR_line_140"/>veniva distribuito con una fettina di salame<pc>,</pc>
+                   <lb xml:id="FR_lb_141" n="15" facs="#FR_line_141"/>un pezzetto di formaggio<pc>,</pc> <choice><sic>margh<subst><del rend="overtyped" hand="#FR">e</del><add place="inline" hand="#FR">a</add></subst>rina</sic><corr>margarina</corr></choice> oppure
+                   <lb xml:id="FR_lb_142" n="16" facs="#FR_line_142"/>un cucchiaino di marmellata a seconda <choice><sic>il</sic><corr>del</corr></choice>
+                   <lb xml:id="FR_lb_143" n="17" facs="#FR_line_143"/>giorno stabilito della settimana<pc>.</pc></s><s type="sentence" xml:id="S61"> Unico piatto
+                   <lb xml:id="FR_lb_144" n="18" facs="#FR_line_144"/>caldo<pc>,</pc> <measure quantity="1" unit="liquide">un litro</measure> di brodaglia di verdure si rice
+                   <lb xml:id="FR_lb_145" n="19" facs="#FR_line_145"  rend="hyphen" break="no"/>veva a <time when="12:00:00">mezzogiorno</time><pc>.</pc></s><s type="sentence" xml:id="S62"> Dopo la distribuzione di questa
+                   <lb xml:id="FR_lb_146" n="20" facs="#FR_line_146"/>rimaneva qualche volta un altro mestolo per qualche 
+                   <lb xml:id="FR_lb_147" n="21" facs="#FR_line_147"/>fortunata<pc>,</pc> scelta dalla stessa sorvegliante<pc>.</pc></s><s type="sentence" xml:id="S63"> La guar
+                   <lb xml:id="FR_lb_148" n="22" facs="#FR_line_148" rend="hyphen" break="no"/>davamo come un branco di lupi affamati<pc>,</pc>
+                   <lb xml:id="FR_lb_149" n="23" facs="#FR_line_149"/>ma nessuno osava chiedere<pc>.</pc></s><s type="sentence" xml:id="S64"> Un'<subst><del rend="overtyped" hand="#FR">i</del><add place="inline" hand="#FR">in</add></subst>felice che l'ha
+                   <lb xml:id="FR_lb_150" n="24" facs="#FR_line_150"/>fatto una volta<pc>,</pc><del rend="overstrike" hand="#FR">anche</del> una donna d'età<pc>,</pc> fu
+                   <lb xml:id="FR_lb_151" n="25" facs="#FR_line_151"/><choice><sic>maltratata</sic><corr>maltrattata</corr></choice> fino allo svenimento dalla sor
+                   <lb xml:id="FR_lb_152" n="26" facs="#FR_line_152" rend="hyphen" break="no"/>vegliante che per la sua età poteva esserle
+                   <lb xml:id="FR_lb_153" n="27" facs="#FR_line_153"/>figlia<pc>,</pc> <subst><del rend="overstrike" hand="#FR">con la</del><add place="above" hand="#FR">facendole prendere</add></subst> coperchi<del rend="overstrike" hand="#FR">a</del> dei bidoni del mangiare<pc>,</pc>
+                   <lb xml:id="FR_lb_154" n="28" facs="#FR_line_154"/><num value="1">uno</num> per mano<pc>,</pc> pesanti di <term><material>ferro battutto</material></term> per diverso
+                   <lb xml:id="FR_lb_155" n="29" facs="#FR_line_155"/><choice><orig>T</orig><reg>t</reg></choice>empo <add place="above" hand="#FR">doveva</add> <choice><sic>a<add place="inline" hand="#FR">l</add>lza<add place="inline" hand="#FR">rli</add></sic><corr>alzarli</corr></choice> e a<add place="inline" hand="#FR">b</add>bassa<add place="inline" hand="#FR">rli</add> al comando<pc>,</pc> quindi
+                   <lb xml:id="FR_lb_156" n="30" facs="#FR_line_156"/>in piedi e in ginocchio<pc>,</pc> poi ro<del rend="ovestrike" hand="#FR">t</del>tolarsi per <choice><orig>T</orig><reg>t</reg></choice>erra
+                   <lb xml:id="FR_lb_157" n="31" facs="#FR_line_157"/>e alla fine alla disgraziata che non si moveva
+                   <lb xml:id="FR_lb_158" n="32" facs="#FR_line_158"/>più fu regalato qualche calcio<pc>.</pc></s><s type="sentence" xml:id="S65"> Tutto ciò per aver
+                
+                <pb n="pg6" xml:id="pagina6" facs="data/Testimonianza/6.jpg"/>
+                    
+                   <lb xml:id="FR_lb_159" n="1" facs="#FR_line_159"/>chiesto qualche cucchiaio di minestra<pc>.</pc></s><s type="sentence" xml:id="S66"> Chiedere non
+                   <lb xml:id="FR_lb_160" n="2" facs="#FR_line_160"/>era permesso mai<pc>,</pc> per nessun motivo<pc>,</pc> in nessun
+                   <lb xml:id="FR_lb_161" n="3" facs="#FR_line_161"/>caso<pc>,</pc> <choice><orig>T</orig><reg>t</reg></choice>anto meno protestare<pc>.</pc></s><s type="sentence" xml:id="S67"> La ragione non valeva<pc>.</pc></s>
+                   <lb xml:id="FR_lb_162" n="4" facs="#FR_line_162"/><s type="sentence" xml:id="S68">Regnava solo la prepotenza<pc>,</pc> la malvagità<pc>,</pc> sfogo libero
+                   <lb xml:id="FR_lb_163" n="5" facs="#FR_line_163"/>ad ogni istinto del male<pc>.</pc></s><s type="sentence" xml:id="S69"> Se eri malata<pc>,</pc> febbricitante<pc>,</pc>
+                   <lb xml:id="FR_lb_164" n="6" facs="#FR_line_164"/>non ti reggevi in piedi e chiedevi di rimanere un giorno
+                   <lb xml:id="FR_lb_165" n="7" facs="#FR_line_165"/>nel blocco<pc>,</pc> avevi per risposta una scarica di pugni sulla
+                   <lb xml:id="FR_lb_166" n="8" facs="#FR_line_166"/>faccia<pc>,</pc> <choice><orig>T</orig><reg>t</reg></choice>esta<pc>,</pc> dove capitava<choice><orig><pc>,</pc></orig><reg><pc>.</pc></reg></choice></s><s type="sentence" xml:id="S70"> Ti mettevano in <del rend="ovestrike" hand="#FR">f</del> prima
+                   <lb xml:id="FR_lb_167" n="9" facs="#FR_line_167"/>fila e se non marciavi dritto avevi il resto<pc>.</pc></s><s type="sentence" xml:id="S71"> All'ospedale 
+                   <lb xml:id="FR_lb_168" n="10" facs="#FR_line_168"/><choice><orig>T</orig><reg>t</reg></choice>i portavano e ciò significava nel <num type="percentage" value="99">99%</num> dei casi la <choice><orig>T</orig><reg>t</reg></choice>ua
+                   <lb xml:id="FR_lb_169" n="11" facs="#FR_line_169"/>fine<pc>,</pc> perciò anche se all'estremmo delle <choice><orig>T</orig><reg>t</reg></choice>ue forze<pc>,</pc> nono<del rend="overstrike" hand="#FR">s</del>
+                   <lb xml:id="FR_lb_170" n="12" facs="#FR_line_170" rend="hyphen" break="no"/>stante <choice><orig>T</orig><reg>t</reg></choice>utto<pc>,</pc> istintivamente <choice><orig>T</orig><reg>t</reg></choice>i difendevi<pc>,</pc> perchè ai maltrat
+                   <lb xml:id="FR_lb_171" n="13" facs="#FR_line_171" rend="hyphen" break="no"/><choice><orig>T</orig><reg>t</reg></choice>amenti che continuavano<pc>,</pc> poco cibo<pc>,</pc> meno che nel 
+                   <lb xml:id="FR_lb_172" n="14" facs="#FR_line_172"/>campo<pc>,</pc> e il letto che contribuiva ancor più a inde
+                   <lb xml:id="FR_lb_173" n="15" facs="#FR_line_173" rend="hyphen" break="no"/>bolire<pc>,</pc> c'erano selezioni dalle quali pochi si salva
+                   <lb xml:id="FR_lb_174" n="16" facs="#FR_line_174" rend="hyphen" break="no"/>vano<pc>.</pc></s><s type="sentence" xml:id="S72"> <pc>-</pc> Un'altra piaga del campo era rubare <pc>-</pc><soCalled>orga
+                   <lb xml:id="FR_lb_175" n="17" facs="#FR_line_175" rend="hyphen" break="no"/>nizzare</soCalled> come si diceva<pc>.</pc></s><s type="sentence" xml:id="S73"> Organizzavano <choice><orig>T</orig><reg>t</reg></choice>utti<pc>,</pc> chi 
+                   <lb xml:id="FR_lb_176" n="18" facs="#FR_line_176"/>non era capace di farlo non solo era considerato
+                   <lb xml:id="FR_lb_177" n="19" facs="#FR_line_177"/>una nullità<pc>,</pc> un essere stupido <choice><orig><pc>.</pc></orig><reg><pc>,</pc></reg></choice> senza valore<pc>,</pc> ma
+                   <lb xml:id="FR_lb_178" n="20" facs="#FR_line_178"/>per colpa di questa legge che regnava sovrana<pc>,</pc> 
+                   <lb xml:id="FR_lb_179" n="21" facs="#FR_line_179"/>chi non lo faceva<pc>,</pc> soccombeva<pc>.</pc></s><s type="sentence" xml:id="S74"> Si rubava <choice><orig>T</orig><reg>t</reg></choice>utto<pc>.</pc></s>
+                   <lb xml:id="FR_lb_180" n="22" facs="#FR_line_180"/><s type="sentence" xml:id="S75">Se il vestito o la scarpa non mettevi la sera sotto
+                   <lb xml:id="FR_lb_181" n="23" facs="#FR_line_181"/>il capo<pc>,</pc> la mattina eri sicura di non <choice><orig>T</orig><reg>t</reg></choice>rovarle 
+                   <lb xml:id="FR_lb_182" n="24" facs="#FR_line_182"/>più<pc>.</pc></s><s type="sentence" xml:id="S76"> Una delle compagn<del rend="overstrike" hand="#FR">i</del>e <choice><orig>T</orig><reg>t</reg></choice>e le portava via
+                   <lb xml:id="FR_lb_183" n="25" facs="#FR_line_183"/>per vendersele poi per un pezzo di pane o una
+                   <lb xml:id="FR_lb_184" n="26" facs="#FR_line_184"/>fetta di salame<pc>.</pc></s><s type="sentence" xml:id="S77"> Per non ricevere le legnate
+                   <lb xml:id="FR_lb_185" n="27" facs="#FR_line_185"/>dovevi fare altre<add place="inline" hand="#FR">t</add>tanto<pc>,</pc> denunciare il furto era
+                   <lb xml:id="FR_lb_186" n="28" facs="#FR_line_186"/>inutile<pc>,</pc> colpa era <choice><orig>T</orig><reg>t</reg></choice>ua che non sapevi badare<pc>.</pc></s>
+                   <lb xml:id="FR_lb_187" n="29" facs="#FR_line_187"/><s type="sentence" xml:id="S78">Ti portavano via anche il <choice><orig>T</orig><reg>t</reg></choice>ozzo di pane che avevi
+                   <lb xml:id="FR_lb_188" n="30" facs="#FR_line_188"/>lasciandoti senza mangiare<pc>.</pc></s><s type="sentence" xml:id="S79"> Con gli oggetti
+                   <lb xml:id="FR_lb_189" n="31" facs="#FR_line_189"/>rubati <pc>(</pc><soCalled>organizzati</soCalled><pc>)</pc> nei magazzini <choice><orig><pc>;</pc></orig><reg><pc>,</pc></reg></choice> laboratori<pc>,</pc>
+                   <lb xml:id="FR_lb_190" n="32" facs="#FR_line_190"/>in cucina dove lavoravano le più fortunate<pc>,</pc>
+                  
+                <pb n="pg7" xml:id="pagina7" facs="data/Testimonianza/7.jpg"/>
+                    
+                   <lb xml:id="FR_lb_191" n="1" facs="#FR_line_191"/>fioriva un vero e proprio mercato<pc>.</pc></s><s type="sentence" xml:id="S80"> Non mangiando
+                   <lb xml:id="FR_lb_192" n="2" facs="#FR_line_192"/>qualche giorno il pane <choice><orig>T</orig><reg>t</reg></choice>i compravi <choice><abbr>p<am>.</am>es<am>.</am></abbr><expan>p<ex>er</ex> es<ex>empio</ex></expan></choice> una
+                   <lb xml:id="FR_lb_193" n="3" facs="#FR_line_193"/>giacca di lana<pc>,</pc> per ripararti dalle intemperie<pc>,</pc>
+                   <lb xml:id="FR_lb_194" n="4" facs="#FR_line_194"/>ma eri ben fortunata se riuscivi <choice><sic>di</sic><corr>a</corr></choice> conservartela
+                   <lb xml:id="FR_lb_195" n="5" facs="#FR_line_195"/>per un paio di settimane<pc>.</pc></s><s type="sentence" xml:id="S81"> Controlli frequenti delle 
+                   <lb xml:id="FR_lb_196" n="6" facs="#FR_line_196"/><choice><orig>T</orig><reg>t</reg></choice>edesche<pc>,</pc> disinfezioni e la giacca non rivedevi più
+                   <lb xml:id="FR_lb_197" n="7" facs="#FR_line_197"/>perchè era un oggetto proibito<pc>,</pc><del rend="ovestrike" hand="#FR">To</del> la <choice><orig>T</orig><reg>t</reg></choice>rasgressione
+                   <lb xml:id="FR_lb_198" n="8" facs="#FR_line_198"/>veniva pure punita<pc>.</pc></s>
+                </p>
+                <p>
+                   <lb xml:id="FR_lb_199" n="9" facs="#FR_line_199" /><s type="sentence" xml:id="S82">Il campo costruito su una pianura deso
+                   <lb xml:id="FR_lb_200" n="10" facs="#FR_line_200" rend="hyphen" break="no"/>lata<pc>,</pc> senza un filo d'erba o un albero<pc>,</pc> presenta
+                   <lb xml:id="FR_lb_201" n="11" facs="#FR_line_201" rend="hyphen" break="no"/>va uno spetta<add place="above" hand="#FR">co</add>lo <choice><orig>T</orig><reg>t</reg></choice>errificante per il fang<subst><del rend="overtyped" hand="#FR">ho</del><add place="inline" hand="#FR">o</add></subst> che
+                   <lb xml:id="FR_lb_202" n="12" facs="#FR_line_202"/>lo <choice><sic>ricoprivano</sic><corr>ricopriva</corr></choice> per mancanza di canalizzazione<pc>.</pc></s>
+                   <lb xml:id="FR_lb_203" n="13" facs="#FR_line_203"/><s type="sentence" xml:id="S83">Per arrivare ai blocchi dove erano i gabinetti e i 
+                   <lb xml:id="FR_lb_204" n="14" facs="#FR_line_204"/>rubinetti per potersi alla meglio lavare <choice><orig>T</orig><reg>t</reg></choice>ra le
+                   <lb xml:id="FR_lb_205" n="15" facs="#FR_line_205"/>spinte e le beste<add place="above" hand="#FR">m</add>mie delle altre<pc>,</pc> si affondava
+                   <lb xml:id="FR_lb_206" n="16" facs="#FR_line_206"/>direttamente nelle pozzanghere<pc>.</pc></s><s type="sentence" xml:id="S84"> L'acqua era
+                   <lb xml:id="FR_lb_207" n="17" facs="#FR_line_207"/>imbevibile ma senza bere non si resisteva
+                   <lb xml:id="FR_lb_208" n="18" facs="#FR_line_208"/>e per causa di questa e per crescente debolezza
+                   <lb xml:id="FR_lb_209" n="19" facs="#FR_line_209"/>organica imperversava la dia<add place="inline" hand="#FR">r</add>rea<pc>,</pc> una forma
+                   <lb xml:id="FR_lb_210" n="20" facs="#FR_line_210"/>spesso inguaribile che portava piano<pc>,</pc> piano
+                   <lb xml:id="FR_lb_211" n="21" facs="#FR_line_211"/>all'altro mondo<pc>.</pc></s><s type="sentence" xml:id="S85"> Ho visto scheletri che cammina
+                   <lb xml:id="FR_lb_212" n="22" facs="#FR_line_212" rend="hyphen" break="no"/>vano come fantasmi<pc>,</pc> io stessa arrivai a
+                   <lb xml:id="FR_lb_213" n="23" facs="#FR_line_213"/>pesare <measure type="weight"><num>30</num><unit>Kg.</unit></measure><pc>(</pc>come constatai dopo la liberazione<pc>)</pc><choice><orig></orig><reg><pc>.</pc></reg></choice></s>
+                   <lb xml:id="FR_lb_214" n="24" facs="#FR_line_214"/><s type="sentence" xml:id="S86">Quante volte di notte non eri più in <choice><orig>T</orig><reg>t</reg></choice>empo 
+                   <lb xml:id="FR_lb_215" n="25" facs="#FR_line_215"/><choice><sic>di</sic><corr>a</corr></choice> scendere dalla <soCalled><foreign xml:lang="DE"><choice><sic>coia</sic><corr>Koje</corr></choice></foreign></soCalled> che già avveniva il 
+                   <lb xml:id="FR_lb_216" n="26" facs="#FR_line_216"/>disastro<pc>.</pc></s><s type="sentence" xml:id="S87"> Correre di notte nuda fino al lavatoio
+                   <lb xml:id="FR_lb_217" n="27" facs="#FR_line_217"/>e rimettere la mattina panni bagnati era la
+                   <lb xml:id="FR_lb_218" n="28" facs="#FR_line_218"/>cosa normale del campo<pc>.</pc></s><s type="sentence" xml:id="S88"> Era comprensibile che 
+                   <lb xml:id="FR_lb_219" n="29" facs="#FR_line_219"/>in queste condizioni una <choice><sic>migliori<add place="inline" hand="#FR">i</add>a</sic><corr>miglioria</corr></choice> era pari a 
+                   <lb xml:id="FR_lb_220" n="30" facs="#FR_line_220"/>un miracolo<pc>.</pc></s><s type="sentence" xml:id="S89"> Per mancanza di vitamine nel cibo 
+                   <lb xml:id="FR_lb_221" n="31" facs="#FR_line_221"/>che si riceveva i corpi si coprivano di piaghe
+                   <lb xml:id="FR_lb_222" n="32" facs="#FR_line_222"/>più orrende<pc>.</pc></s><s type="sentence" xml:id="S90"> La sca<add place="inline" hand="#FR">b</add>bia per condizioni igieniche
+                    
+                <pb n="pg8" xml:id="pagina8" facs="data/Testimonianza/8.jpg"/> 
+                    
+                   <lb xml:id="FR_lb_223" n="1" facs="#FR_line_223"/>era di<add place="inline" hand="#FR">f</add>fusissima<pc>.</pc></s><s type="sentence" xml:id="S91"> D'estate il sole<pc>,</pc> dal quale non 
+                   <lb xml:id="FR_lb_224" n="2" facs="#FR_line_224"/>ci si poteva riparare produceva scottature così
+                   <lb xml:id="FR_lb_225" n="3" facs="#FR_line_225"/>gravi da dover essere ricoverati<pc>.</pc></s><s type="sentence" xml:id="S92"> Oltre al sole
+                   <lb xml:id="FR_lb_226" n="4" facs="#FR_line_226"/>influiva sulla gravità il nostro stato organico<pc>.</pc></s>
+                   <lb xml:id="FR_lb_227" n="5" facs="#FR_line_227"/><s type="sentence" xml:id="S93">La morte faceva la sua strage ogni giorno<pc>,</pc> ma
+                   <lb xml:id="FR_lb_228" n="6" facs="#FR_line_228"/>ogni giorno arrivavano da ogni angolo dell'<bloc type="continent">Eu
+                   <lb xml:id="FR_lb_229" n="7" facs="#FR_line_229"  rend="hyphen" break="no"/>ropa</bloc> altre vittime<pc>,</pc> della sa<del rend="overstrike" hand="#FR">d</del>distica<pc>,</pc> insaziabile
+                   <lb xml:id="FR_lb_230" n="8" facs="#FR_line_230"/>sete di persecuzione germanica<pc>.</pc></s><s type="sentence" xml:id="S94"> Noi del campo
+                   <lb xml:id="FR_lb_231" n="9" facs="#FR_line_231"/>guardavamo con orrore i lunghi cortei di donne<pc>,</pc>
+                   <lb xml:id="FR_lb_232" n="10" facs="#FR_line_232"/>uomini bambini e vecchi<pc>,</pc> <choice><orig>T</orig><reg>t</reg></choice>rasporti interi<pc>,</pc> che
+                   <lb xml:id="FR_lb_233" n="11" facs="#FR_line_233"/><choice><sic>ignarii</sic><corr>ignari</corr></choice> del destino che li attendeva<pc>,</pc> si avviavano
+                   <lb xml:id="FR_lb_234" n="12" facs="#FR_line_234"/>nelle camere a gas per essere in seguito cremati<pc>.</pc></s>
+                   <lb xml:id="FR_lb_235" n="13" facs="#FR_line_235"/><s type="sentence" xml:id="S95">Il fuoco del camino che si ergeva <choice><sic>minacioso</sic><corr>minaccioso</corr></choice>
+                   <lb xml:id="FR_lb_236" n="14" facs="#FR_line_236"/>a pochi <unit type="length" unit="m">metri</unit> dai nostri blocchi<pc>,</pc> certe volte per
+                   <lb xml:id="FR_lb_237" n="15" facs="#FR_line_237"/>mesi interi non cessava d'illuminare con la
+                   <lb xml:id="FR_lb_238" n="16" facs="#FR_line_238"/>sua fiamma rossa<pc>,</pc> anche di notte <del rend="overstrike" hand="#FR">di</del> <choice><orig>T</orig><reg>t</reg></choice>utto il
+                   <lb xml:id="FR_lb_239" n="17" facs="#FR_line_239"/>campo <term>a giorno</term><choice><orig><pc>,</pc></orig><reg><pc>;</pc></reg></choice></s><s type="sentence" xml:id="S96"> bruciavano i corpi umani<pc>,</pc>
+                   <lb xml:id="FR_lb_240" n="18" facs="#FR_line_240"/>fratello bruciava forse il proprio fratello<pc>.</pc></s><s type="sentence" xml:id="S97"> Uno
+                   <lb xml:id="FR_lb_241" n="19" facs="#FR_line_241"/>spettacolo lugubre<pc>,</pc> sinistro che ci <choice><orig>T</orig><reg>t</reg></choice>eneva continua
+                   <lb xml:id="FR_lb_242" n="20" facs="#FR_line_242" rend="hyphen" break="no"/>mente sotto l'incubo<pc>.</pc></s><s type="sentence" xml:id="S98"> <said>Forse domani a quest'ora
+                   <lb xml:id="FR_lb_243" n="21" facs="#FR_line_243"/>verrà <supplied reason="omitted" resp="#CG">il</supplied> <choice><orig>T</orig><reg>t</reg></choice>urno <emph>mio</emph><pc>!</pc></said> si domandava ognuna di
+                   <lb xml:id="FR_lb_244" n="22" facs="#FR_line_244"/>noi<pc>.</pc></s><s type="sentence" xml:id="S99"> Ogni <choice><orig>T</orig><reg>t</reg></choice>anto c'era la <foreign xml:lang="DE"><choice><sic>Blockspeere</sic><corr>Blocksperre</corr></choice></foreign><pc>-</pc><gloss>chiusura
+                   <lb xml:id="FR_lb_245" n="23" facs="#FR_line_245"/>dei blocchi</gloss><pc>-</pc> proibito severamente d'uscire<pc>.</pc></s><s type="sentence" xml:id="S100"> Era
+                   <lb xml:id="FR_lb_246" n="24" facs="#FR_line_246" rend="hyphen" break="no"/>no momenti di massima <choice><orig>T</orig><reg>t</reg></choice>ensione nervosa<pc>,</pc>
+                   <lb xml:id="FR_lb_247" n="25" facs="#FR_line_247"/>un silenzio di <choice><orig>T</orig><reg>t</reg></choice>omba regnava ovunque<pc>.</pc></s><s type="sentence" xml:id="S101"> Non
+                   <lb xml:id="FR_lb_248" n="26" facs="#FR_line_248"/>si <choice><sic>sentivano</sic><corr>sentiva</corr></choice> che <supplied reason="omitted" resp="#CG">il</supplied> rumore dei camion che 
+                   <lb xml:id="FR_lb_249" n="27" facs="#FR_line_249"/>portavano le destinate al crematorio<pc>.</pc></s><s type="sentence" xml:id="S102"> All'avvici
+                   <lb xml:id="FR_lb_250" n="28" facs="#FR_line_250" rend="hyphen" break="no"/>narsi del rumore<pc>,</pc> si sospendeva il respiro<pc>:</pc> <said>si
+                   <lb xml:id="FR_lb_251" n="29" facs="#FR_line_251"/>fermerà<pc>,</pc> sarà la volta mia</said><pc>,</pc> ci chiedevamo<pc>.</pc></s><s type="sentence" xml:id="S103"> La
+                   <lb xml:id="FR_lb_252" n="30" facs="#FR_line_252"/>vita era un <choice><orig>T</orig><reg>t</reg></choice>ormento<pc>,</pc> ma pure una morte
+                   <lb xml:id="FR_lb_253" n="31" facs="#FR_line_253"/>simile ci <choice><orig>T</orig><reg>t</reg></choice>errorizzava<pc>.</pc></s><s type="sentence" xml:id="S104"> Altre volte ho visto trasporti
+                   <lb xml:id="FR_lb_254" n="32" facs="#FR_line_254"/>di ragazze giovanissime vestite solo con un ca
+                    
+                <pb n="pg9" xml:id="pagina9" facs="data/Testimonianza/9.jpg"/>     
+                    
+                   <lb xml:id="FR_lb_255" n="1" facs="#FR_line_255" rend="hyphen" break="no"/>mice grigio<pc>,</pc> lasciate <choice><orig>T</orig><reg>t</reg></choice>utta la notte all'aperto<pc>,</pc>
+                   <lb xml:id="FR_lb_256" n="2" facs="#FR_line_256"/>al gelo e la mattina come un branco di pecore
+                   <lb xml:id="FR_lb_257" n="3" facs="#FR_line_257"/>portate al macello<pc>.</pc></s><s type="sentence" xml:id="S105"> Passavano davanti a noi
+                   <lb xml:id="FR_lb_258" n="4" facs="#FR_line_258"/>ferme per l'appello<choice><orig><pc>;</pc></orig><reg><pc>,</pc></reg></choice> nella grigia nebbia del matti
+                   <lb xml:id="FR_lb_259" n="5" facs="#FR_line_259" rend="hyphen" break="no"/>no<pc>,</pc> piegate in <num value="2">due</num><pc>,</pc> <choice><sic>aggrapate</sic><corr>aggrappate</corr></choice> una all'altra<pc>.</pc></s><s type="sentence" xml:id="S106"> Ri
+                   <lb xml:id="FR_lb_260" n="6" facs="#FR_line_260" rend="hyphen" break="no"/>cordavo i quadri di <persName>Amos <choice><sic>Natini</sic><corr>Nattini</corr></choice></persName> illustranti la
+                   <lb xml:id="FR_lb_261" n="7" facs="#FR_line_261"/><title>Divina Commedia </title> di <persName>Dante</persName><pc>.</pc></s><s type="sentence" xml:id="S107"> I quadri dell'inferno
+                   <lb xml:id="FR_lb_262" n="8" facs="#FR_line_262"/>con i cortei delle anime dannate<pc>,</pc> diventavano
+                   <lb xml:id="FR_lb_263" n="9" facs="#FR_line_263"/>realtà<pc>.</pc></s><s type="sentence" xml:id="S108"> Altre volte le giovani un pò deboli<pc>,</pc> pro
+                   <lb xml:id="FR_lb_264" n="10" facs="#FR_line_264" rend="hyphen" break="no"/>venienti <choice><sic>di</sic><corr>da</corr></choice> altri campi venivano chiuse per
+                   <lb xml:id="FR_lb_265" n="11" facs="#FR_line_265"/><choice><sic>varri</sic><corr>vari</corr></choice> giorni nelle baracche di legno<pc>,</pc> senza
+                   <lb xml:id="FR_lb_266" n="12" facs="#FR_line_266"/>farle mai uscire e quasi senza cibo<pc>.</pc></s><s type="sentence" xml:id="S109"> Senti
+                   <lb xml:id="FR_lb_267" n="13" facs="#FR_line_267" rend="hyphen" break="no"/>vamo da fuori i lamenti e pianti<pc>,</pc> qualche
+                   <lb xml:id="FR_lb_268" n="14" facs="#FR_line_268"/>più coraggiosa si <del rend="overstrike" hand="#FR">af</del> avvicinava alla fessura<pc>:</pc>
+                   <lb xml:id="FR_lb_269" n="15" facs="#FR_line_269"/><q>cosa faranno di noi<pc>,</pc> dove siamo<pc>,</pc> dateci da
+                   <lb xml:id="FR_lb_270" n="16" facs="#FR_line_270"/>mangiare</q><pc>,</pc> erano invocazioni delle bimbe
+                   <lb xml:id="FR_lb_271" n="17" facs="#FR_line_271"/>che hanno già vissuto una <choice><orig>T</orig><reg>t</reg></choice>ragedia<pc>,</pc> hanno
+                   <lb xml:id="FR_lb_272" n="18" facs="#FR_line_272"/>visto già portar via la mamma e le sorelle<pc>.</pc></s>
+                </p>
+                <p>
+                   <lb xml:id="FR_lb_273" n="19" facs="#FR_line_273"/><s type="sentence" xml:id="S110">E' impossibile con le povere parole ridare
+                   <lb xml:id="FR_lb_274" n="20" facs="#FR_line_274"/>quadro esatto dell'inferno vissuto<pc>.</pc></s><s type="sentence" xml:id="S111"> Ogni giorno
+                   <lb xml:id="FR_lb_275" n="21" facs="#FR_line_275"/>era <choice><sic>un'</sic><corr>un</corr></choice> altro martirio<pc>,</pc> ogni giorno degli altri
+                   <lb xml:id="FR_lb_276" n="22" facs="#FR_line_276"/>episodi <choice><orig>T</orig><reg>t</reg></choice>ragici<pc>.</pc></s>
+                </p>
+                <p>
+                   <lb xml:id="FR_lb_277" n="23" facs="#FR_line_277"/><s type="sentence" xml:id="S112"><date notBefore="1944-12" notAfter="1945-01">Alla fine <choice><sic>dell'</sic><corr>del</corr></choice> '44 e gennaio <choice><sic>dell'</sic><corr>del</corr></choice> '45</date> mi <choice><orig>T</orig><reg>t</reg></choice>rovavo
+                   <lb xml:id="FR_lb_278" n="24" facs="#FR_line_278"/>già all'ospedale all'estremo delle forze<pc>,</pc> e venne <supplied reason="omitted" resp="#CG">la</supplied>
+                   <lb xml:id="FR_lb_279" n="25" facs="#FR_line_279"/>ritirata <choice><orig>T</orig><reg>t</reg></choice>edesca per l'<choice><sic>avvanzamento</sic><corr>avanzamento</corr></choice> dei <choice><orig>R</orig><reg>r</reg></choice>ussi<pc>.</pc></s>
+                   <lb xml:id="FR_lb_280" n="26" facs="#FR_line_280"/><s type="sentence" xml:id="S113">Venne ordine severo in ogni baracca dell'ospe
+                   <lb xml:id="FR_lb_281" n="27" facs="#FR_line_281" rend="hyphen" break="no"/>dale che non doveva rimanere nemmeno 
+                   <lb xml:id="FR_lb_282" n="28" facs="#FR_line_282"/>una ebrea in condizioni oppure no di cammi
+                    
+                <pb n="pg10" xml:id="pagina10" facs="data/Testimonianza/10.jpg"/>  
+                    
+                   <lb xml:id="FR_lb_283" n="1" facs="#FR_line_283" rend="hyphen" break="no"/>nare<pc>.</pc></s><s type="sentence" xml:id="S114"> Se l'ordine non veniva eseguito davano
+                   <lb xml:id="FR_lb_284" n="2" facs="#FR_line_284"/>fuoco a <choice><orig>T</orig><reg>t</reg></choice>utta la baracca<pc>,</pc> cose che noi con i
+                   <lb xml:id="FR_lb_285" n="3" facs="#FR_line_285"/><choice><sic>propri</sic><corr>nostri</corr></choice> occhi abbiamo visto già eseguiti nei campi
+                   <lb xml:id="FR_lb_286" n="4" facs="#FR_line_286"/>vicini<pc>.</pc></s><s type="sentence" xml:id="S115"> Con i <choice><orig>T</orig><reg>t</reg></choice>edeschi non si scherzava<pc>.</pc></s><s type="sentence" xml:id="S116"> Mezze
+                   <lb xml:id="FR_lb_287" n="5" facs="#FR_line_287"/>vestite<pc>,</pc> con la neve fuori<pc>,</pc> di notte uscimmo<pc>,</pc>
+                   <lb xml:id="FR_lb_288" n="6" facs="#FR_line_288"/>altre furono portate fuori dalla baracca<pc>.</pc></s>
+                   <lb xml:id="FR_lb_289" n="7" facs="#FR_line_289"/><s type="sentence" xml:id="S117">Io con una <rs type="person">giovane <choice><orig>R</orig><reg>r</reg></choice>umena</rs> uscii quasi per
+                   <lb xml:id="FR_lb_290" n="8" facs="#FR_line_290"/><surplus resp="#CG">l'</surplus>ultima<pc>,</pc> non era in grado di camminare<pc>.</pc></s>
+                   <lb xml:id="FR_lb_291" n="9" facs="#FR_line_291"/><s type="sentence" xml:id="S118">Dopo pochi passi si fermò<pc>,</pc> allora decisi di non
+                   <lb xml:id="FR_lb_292" n="10" facs="#FR_line_292"/>proseguire quel cammino del resto inutile<pc>.</pc></s>
+                   <lb xml:id="FR_lb_293" n="11" facs="#FR_line_293"/><s type="sentence" xml:id="S119">Ci sedemmo su una pietra<pc>,</pc> aspettando qualche
+                   <lb xml:id="FR_lb_294" n="12" facs="#FR_line_294"/>scarica di proiettili<pc>.</pc></s><s type="sentence" xml:id="S120"> Da lontano sparavano<pc>,</pc>
+                   <lb xml:id="FR_lb_295" n="13" facs="#FR_line_295"/>ammazzava<add place="inline" hand="#FR">no</add> quelli che non potevano prose
+                   <lb xml:id="FR_lb_296" n="14" facs="#FR_line_296" rend="hyphen" break="no"/>guire<pc>.</pc></s><s type="sentence" xml:id="S121"> La strada era seminata di cada
+                   <lb xml:id="FR_lb_297" n="15" facs="#FR_line_297" rend="hyphen" break="no"/>veri come potetti in seguito vedere<pc>.</pc></s>
+                </p>
+                <p>
+                   <lb xml:id="FR_lb_298" n="16" facs="#FR_line_298"/><s type="sentence" xml:id="S122">Non ritornarono più<pc>.</pc></s><s type="sentence" xml:id="S123"> Fummo salve<pc>.</pc></s>
+                   <lb xml:id="FR_lb_299" n="17" facs="#FR_line_299"/><s type="sentence" xml:id="S124">A<add place="inline" hand="#FR">v</add>venne il miracolo<pc>.</pc></s><s type="sentence" xml:id="S125"> Siamo venute al mondo 
+                   <lb xml:id="FR_lb_300" n="18" facs="#FR_line_300"/>un'altra volta<pc>.</pc></s>
+                </p>
+               
+            </div>
+        </body>
+    </text>
+</TEI>
