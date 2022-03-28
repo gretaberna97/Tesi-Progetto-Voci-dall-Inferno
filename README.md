@@ -4,4 +4,5 @@ Codifica di due testimonianze orali di Arminio Wachsberger, sopravvissuto ai cam
 # Applicazione-JavaScript
 Applicazione Javascript realizzata da una collega, Giulia Causarano, da implementare e arricchirre.
 
+# Tesi-Informatica-Umanistica
 Lavoro realizzato per la tesi di Laurea Triennale in Informatica Umanistica (Università di Pisa), nell'ambito del progetto di ricerca Voci dall'Inferno.
