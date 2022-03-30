@@ -449,10 +449,10 @@
         <timeline xml:id="TL2I" unit="s" source="#parteI"> 
 
             <when xml:id="TT01" absolute="00:00:34" synch="#arm-01"/> <!--synch punta all'id dell'ancora-->
-            <when xml:id="TT02" since="#TT01" interval="1"/>
+            <when xml:id="TT02" since="#TT01" interval="0.5"/>
 
             <when xml:id="TT03" absolute="00:01:15" synch="#arm-03"/>
-            <when xml:id="TT04" since="#TT03" interval="1"/>
+            <when xml:id="TT04" since="#TT03" interval="0.5"/>
 
             <when xml:id="TT05" absolute="00:01:16" synch="#ma-05"/>
             <when xml:id="TT06" since="#TT05" interval="1"/>
@@ -464,97 +464,97 @@
             <when xml:id="TT10" since="#TT09" interval="1"/>
 
             <when xml:id="TT11" absolute="00:01:33" synch="arm-11"/>
-            <when xml:id="TT12" since="#TT11" interval="1"/>
+            <when xml:id="TT12" since="#TT11" interval="1.5"/>
 
             <when xml:id="TT13" absolute="00:01:36" synch="ma-13"/>
             <when xml:id="TT14" since="#TT13" interval="1"/>
 
             <when xml:id="TT15" absolute="00:01:57" synch="ma-15"/>
-            <when xml:id="TT16" since="#TT15" interval="1"/>
+            <when xml:id="TT16" since="#TT15" interval="0.5"/>
 
             <when xml:id="TT17" absolute="00:02:01" synch="ma-17"/>
             <when xml:id="TT18" since="#TT17" interval="1"/>
 
             <when xml:id="TT19" absolute="00:02:03" synch="ma-19"/>
-            <when xml:id="TT20" since="#TT19" interval="1"/>
+            <when xml:id="TT20" since="#TT19" interval="0.5"/>
 
             <when xml:id="TT21" absolute="00:02:50" synch="arm-21"/>
-            <when xml:id="TT22" since="#TT21" interval="1"/>
+            <when xml:id="TT22" since="#TT21" interval="0.5"/>
 
             <when xml:id="TT23" absolute="00:03:17" synch="ma-23"/>
-            <when xml:id="TT24" since="#TT23" interval="1"/>
+            <when xml:id="TT24" since="#TT23" interval="0.5"/>
 
             <when xml:id="TT25" absolute="00:03:36" synch="arm-25"/>
-            <when xml:id="TT26" since="#TT25" interval="1"/>
+            <when xml:id="TT26" since="#TT25" interval="0.5"/>
 
             <when xml:id="TT27" absolute="00:04:16" synch="arm-27"/>
             <when xml:id="TT28" since="#TT27" interval="1"/>
 
             <when xml:id="TT29" absolute="00:04:31" synch="ma-29"/>
-            <when xml:id="TT30" since="#TT29" interval="1"/>
+            <when xml:id="TT30" since="#TT29" interval="0.5"/>
 
             <when xml:id="TT31" absolute="00:04:36" synch="arm-31"/>
-            <when xml:id="TT32" since="#TT31" interval="2"/>
+            <when xml:id="TT32" since="#TT31" interval="1.5"/>
 
             <when xml:id="TT33" absolute="00:04:44" synch="ma-33"/>
-            <when xml:id="TT34" since="#TT33" interval="1"/>
+            <when xml:id="TT34" since="#TT33" interval="0.5"/>
 
             <when xml:id="TT35" absolute="00:04:49" synch="ma-35"/>
-            <when xml:id="TT36" since="#TT35" interval="1"/>
+            <when xml:id="TT36" since="#TT35" interval="1.5"/>
 
             <when xml:id="TT37" absolute="00:05:16" synch="ma-37"/>
-            <when xml:id="TT38" since="#TT37" interval="1"/>
+            <when xml:id="TT38" since="#TT37" interval="0.3"/>
 
             <when xml:id="TT39" absolute="00:05:36" synch="ma-39"/>
-            <when xml:id="TT40" since="#TT39" interval="1"/>
+            <when xml:id="TT40" since="#TT39" interval="0.5"/>
 
             <when xml:id="TT41" absolute="00:05:38" synch="arm-41"/>
-            <when xml:id="TT42" since="#TT41" interval="1"/>
+            <when xml:id="TT42" since="#TT41" interval="0.3"/>
 
             <when xml:id="TT43" absolute="00:05:40" synch="ma-43"/>
-            <when xml:id="TT44" since="#TT43" interval="1"/>
+            <when xml:id="TT44" since="#TT43" interval="0.5"/>
 
             <when xml:id="TT45" absolute="00:06:22" synch="ma-45"/>
-            <when xml:id="TT46" since="#TT45" interval="1"/>
+            <when xml:id="TT46" since="#TT45" interval="0.8"/>
 
             <when xml:id="TT47" absolute="00:06:30" synch="arm-47"/>
-            <when xml:id="TT48" since="#TT48" interval="1"/>
+            <when xml:id="TT48" since="#TT48" interval="0.5"/>
 
             <when xml:id="TT49" absolute="00:06:33" synch="arm-49"/>
-            <when xml:id="TT50" since="#TT49" interval="1"/>
+            <when xml:id="TT50" since="#TT49" interval="0.5"/>
 
             <when xml:id="TT51" absolute="00:07:14" synch="arm-51"/>
-            <when xml:id="TT52" since="#TT51" interval="1"/>
+            <when xml:id="TT52" since="#TT51" interval="0.5"/>
 
             <when xml:id="TT53" absolute="00:07:26" synch="ma-53"/>
             <when xml:id="TT54" since="#TT53" interval="1"/>
 
             <when xml:id="TT55" absolute="00:08:11" synch="arm-55"/>
-            <when xml:id="TT56" since="#TT55" interval="1"/>
+            <when xml:id="TT56" since="#TT55" interval="0.5"/>
 
             <when xml:id="TT57" absolute="00:08:23" synch="arm-57"/>
-            <when xml:id="TT58" since="#TT57" interval="1"/>
+            <when xml:id="TT58" since="#TT57" interval="0.5"/>
 
             <when xml:id="TT59" absolute="00:08:26" synch="ma-59"/>
-            <when xml:id="TT60" since="#TT59" interval="1"/>
+            <when xml:id="TT60" since="#TT59" interval="0.3"/>
 
             <when xml:id="TT61" absolute="00:08:30" synch="arm-61"/>
-            <when xml:id="TT62" since="#TT62" interval="1"/>
+            <when xml:id="TT62" since="#TT62" interval="0.3"/>
 
             <when xml:id="TT63" absolute="00:08:33" synch="arm-63"/>
-            <when xml:id="TT64" since="#TT63" interval="1"/>
+            <when xml:id="TT64" since="#TT63" interval="0.3"/>
 
             <when xml:id="TT65" absolute="00:09:24" synch="arm-65"/>
-            <when xml:id="TT66" since="#TT65" interval="1"/>
+            <when xml:id="TT66" since="#TT65" interval="0.3"/>
 
             <when xml:id="TT67" absolute="00:09:27" synch="ma-67"/>
-            <when xml:id="TT68" since="#TT67" interval="1"/>
+            <when xml:id="TT68" since="#TT67" interval="0.5"/>
 
             <when xml:id="TT69" absolute="00:09:30" synch="ma-69"/>
-            <when xml:id="TT70" since="#TT69" interval="1"/>
+            <when xml:id="TT70" since="#TT69" interval="1.5"/>
 
             <when xml:id="TT71" absolute="00:09:34" synch="ma-71"/>
-            <when xml:id="TT72" since="#TT71" interval="1"/>
+            <when xml:id="TT72" since="#TT71" interval="0.5"/>
 
             <when xml:id="TT73" absolute="00:09:49" synch="arm-73"/>
             <when xml:id="TT74" since="#TT73" interval="1"/>
@@ -563,31 +563,31 @@
             <when xml:id="TT76" since="#TT75" interval="1"/>
 
             <when xml:id="TT77" absolute="00:11:40" synch="arm-77"/>
-            <when xml:id="TT78" since="#TT77" interval="1"/>
+            <when xml:id="TT78" since="#TT77" interval="0.5"/>
 
             <when xml:id="TT79" absolute="00:11:42" synch="ma-79"/>
-            <when xml:id="TT80" since="#TT79" interval="1"/>
+            <when xml:id="TT80" since="#TT79" interval="0.3"/>
 
             <when xml:id="TT81" absolute="00:13:52" synch="arm-81"/>
             <when xml:id="TT82" since="#TT81" interval="1"/>
 
             <when xml:id="TT83" absolute="00:13:54" synch="ma-83"/>
-            <when xml:id="TT84" since="#TT83" interval="1"/>
+            <when xml:id="TT84" since="#TT83" interval="0.5"/>
 
             <when xml:id="TT85" absolute="00:15:16" synch="ma-85"/>
-            <when xml:id="TT86" since="#TT85" interval="1"/>
+            <when xml:id="TT86" since="#TT85" interval="0.3"/>
 
             <when xml:id="TT87" absolute="00:15:22" synch="arm-87"/>
-            <when xml:id="TT88" since="#TT87" interval="1"/>
+            <when xml:id="TT88" since="#TT87" interval="0.3"/>
 
             <when xml:id="TT89" absolute="00:15:28" synch="arm-89"/>
-            <when xml:id="TT90" since="#TT89" interval="1"/>
+            <when xml:id="TT90" since="#TT89" interval="0.5"/>
 
             <when xml:id="TT91" absolute="00:15:29" synch="ma-91"/>
-            <when xml:id="TT92" since="#TT91" interval="1"/>
+            <when xml:id="TT92" since="#TT91" interval="0.5"/>
 
             <when xml:id="TT93" absolute="00:15:30" synch="ma-93"/>
-            <when xml:id="TT94" since="#TT93" interval="1"/>
+            <when xml:id="TT94" since="#TT93" interval="0.5"/>
 
             <when xml:id="TT95" absolute="00:16:44" synch="arm-94"/>
             <when xml:id="TT96" since="#TT95" interval="1"/>
@@ -596,55 +596,55 @@
             <when xml:id="TT98" since="#TT97" interval="1"/>
 
             <when xml:id="TT99" absolute="00:17:56" synch="arm-99"/>
-            <when xml:id="TT100" since="#TT99" interval="1"/>
+            <when xml:id="TT100" since="#TT99" interval="0.5"/>
 
             <when xml:id="TT101" absolute="00:17:57" synch="arm-101"/>
-            <when xml:id="TT102" since="#TT101" interval="1"/>
+            <when xml:id="TT102" since="#TT101" interval="0.8"/>
 
             <when xml:id="TT103" absolute="00:18:01" synch="ma-103"/>
-            <when xml:id="TT104" since="#TT103" interval="1"/>
+            <when xml:id="TT104" since="#TT103" interval="0.5"/>
 
             <when xml:id="TT105" absolute="00:18:40" synch="arm-105"/>
-            <when xml:id="TT106" since="#TT105" interval="1"/>
+            <when xml:id="TT106" since="#TT105" interval="0.5"/>
 
             <when xml:id="TT107" absolute="00:18:57" synch="ma-107"/>
             <when xml:id="TT108" since="#TT107" interval="1"/>
 
             <when xml:id="TT109" absolute="00:21:57" synch="arm-109"/>
-            <when xml:id="TT110" since="#TT109" interval="1"/>
+            <when xml:id="TT110" since="#TT109" interval="0.8"/>
 
             <when xml:id="TT111" absolute="00:23:06" synch="ma-111"/>
-            <when xml:id="TT112" since="#TT111" interval="1"/>
+            <when xml:id="TT112" since="#TT111" interval="0.5"/>
 
-            <when xml:id="TT113" absolute="00:23:58" synch="ma-113"/>
-            <when xml:id="TT114" since="#TT113" interval="1"/>
+            <when xml:id="TT113" absolute="00:23:59" synch="ma-113"/>
+            <when xml:id="TT114" since="#TT113" interval="0.8"/>
 
             <when xml:id="TT115" absolute="00:24:02" synch="ma-115"/>
-            <when xml:id="TT116" since="#TT115" interval="1"/>
+            <when xml:id="TT116" since="#TT115" interval="0.3"/>
 
             <when xml:id="TT117" absolute="00:25:20" synch="arm-117"/>
-            <when xml:id="TT118" since="#TT117" interval="1"/>
+            <when xml:id="TT118" since="#TT117" interval="0.5"/>
 
             <when xml:id="TT119" absolute="00:25:21" synch="ma-119"/>
-            <when xml:id="TT120" since="#TT119" interval="1"/>
-
+            <when xml:id="TT120" since="#TT119" interval="1.5"/>
+            
             <when xml:id="TT121" absolute="00:26:04" synch="arm-121"/>
-            <when xml:id="TT122" since="#TT121" interval="1"/>
+            <when xml:id="TT122" since="#TT121" interval="0.3"/>
 
             <when xml:id="TT123" absolute="00:26:39" synch="arm-123"/>
-            <when xml:id="TT124" since="#TT123" interval="1"/>
+            <when xml:id="TT124" since="#TT123" interval="0.3"/>
 
             <when xml:id="TT125" absolute="00:26:42" synch="arm-125"/>
-            <when xml:id="TT126" since="#TT125" interval="1"/>
+            <when xml:id="TT126" since="#TT125" interval="0.3"/>
 
             <when xml:id="TT127" absolute="00:26:43" synch="arm-127"/>
-            <when xml:id="TT128" since="#TT127" interval="1"/>
+            <when xml:id="TT128" since="#TT127" interval="0.3"/>
 
             <when xml:id="TT129" absolute="00:26:43" synch="arm-129"/>
-            <when xml:id="TT130" since="#TT129" interval="1"/>
+            <when xml:id="TT130" since="#TT129" interval="0.3"/>
 
             <when xml:id="TT131" absolute="00:26:45" synch="ma-131"/>
-            <when xml:id="TT132" since="#TT131" interval="1"/>
+            <when xml:id="TT132" since="#TT131" interval="0.5"/>
 
         </timeline>
 
@@ -1333,7 +1333,7 @@
             <when xml:id="TS75" synch="#AW37" absolute="00:18:57"/>
             <when xml:id="TS76" synch="#MA38" absolute="00:23:05"/>
             <when xml:id="TS77" synch="#AW38" absolute="00:23:06"/>
-            <when xml:id="TS78" synch="#MA39" absolute="00:23:58"/>
+            <when xml:id="TS78" synch="#MA39" absolute="00:23:59"/>
             <when xml:id="TS79" synch="#AW39" absolute="00:24:02"/>
             <when xml:id="TS80" synch="#MA40" absolute="00:25:20"/>
             <when xml:id="TS81" synch="#AW40" absolute="00:25:21"/>
@@ -1907,7 +1907,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW21" synch="#TS43">
-                    <anchor xml:id="arm-53" synch="#TT53"/><del type="falseStart">ecco adesso le devo</del><anchor xml:id="arm-54" synch="#TT54"/> questi sono <unclear reason="inaudible" resp="#GB" cert="low">i</unclear> particolari interessanti<pause/> <vocal>ehh</vocal><pause/><kinesic iterated="true"><desc>apre e chiude la mano destra</desc></kinesic> dopo <time dur="P5M">5 minuti</time> che eravamo nel <foreign xml:lang="de">lager</foreign> dentro<pause/> c'erano i<kinesic iterated="true"><desc>agita le mani per dire "diciamo"</desc></kinesic><pause/> prigionieri precedenti<pause/> <mentioned>anziani</mentioned> chiamiamoli così<pause/> <del type="truncation">c</del> c'erano quelli<pause/><kinesic><desc>apre la mano destra</desc></kinesic> <emph>pessimisti</emph> che ci dicevano la verità <q type="spoken">guardate quel fumo</q> <del type="repetition">eccetera</del> eccetera<pause/> c'erano altri prigionieri invece che<pause/> avevano pietà di noi <choice><sic>dice</sic><corr resp="#GB">dicono</corr></choice> <q type="thought">perché dire la verità</q> <unclear resp="#GB" reason="inaudible" cert="low"><choice><sic>dice</sic><corr resp="#GB">dicono</corr></choice></unclear> <q type="spoken">ma no li hanno mandati in un<pause/> altro campo <kinesic><desc>indica qualcosa con il braccio sinistro e simula l'azione di guardare lontano</desc></kinesic><gap reason="inaudible" atLeast="1" atMost="2" unit="words"/> guardateli</q><pause/> era il <place type="area"><term xml:id="zigeuner" xml:lang="de">Zigeuner lager</term></place> il <gloss target="#zigeuner">campo degli zingari</gloss> e lì c'erano donne bambini piccoli <distinct type="informal">vecchi</distinct> eccetera<pause/> poi <supplied resp="#GB" cert="medium" reason="omitted">dicono</supplied> <q><del type="truncation">n</del> <unclear resp="GB" reason="inaudible" cert="medium">tu</unclear> non ci credi<pause/> <kinesic><desc>indica qualcosa con il braccio sinistro e simula l'azione di guardare lontano</desc></kinesic>guarda <vocal>um</vocal> il <placeName ref="TEI-ListPlace.xml#Te">Theresienstadt <foreign xml:lang="de">lager</foreign></placeName></q><kinesic><desc>si tocca il petto con entrambe le mani</desc></kinesic> quello accanto a noi<pause/> anche lì <pause/><kinesic iterated="true"><desc>muove circolarmente la mano destra con l'indice alzato</desc></kinesic> perché quello serviva per <distinct type="political">propaganda</distinct> <anchor xml:id="arm-55" synch="#TT55"/>no<pause/><kinesic><desc>alza le sopracciglia in segno di disgusto</desc></kinesic> <del type="falseStart">poi<anchor xml:id="arm-56" synch="#TT56"/> invece<pause/> <kinesic iterated="true"><desc>muove l'indice della mano sinistra</desc></kinesic>sia quelli di<placeName ref="TEI-ListPlace.xml#Te">Theresienstadt</placeName> sia <kinesic><desc>sgrana gli occhi</desc></kinesic>gli zingari</del><pause/> <unclear resp="#GB" reason="inaudible" cert="low">degli zingari</unclear> in una notte <kinesic><desc>alza il palmo della mano destra al cielo e alza il mento</desc></kinesic>ne hanno <distinct type="informal">ammazzati</distinct> quaranta mila<pause/><kinesic><desc>muove i polsi di entrambe le mani facendole ruotare dall'interno verso l'esterno</desc></kinesic> più tardi<kinesic><desc>avvicina le mani e le allontana</desc></kinesic><pause/> tutti quanti<pause/> mentre prima lasciavano in vita anche <anchor xml:id="arm-57" synch="#TT57"/>le donne e i <unclear resp="#GB" reason="inaudible" cert="high">bambini</unclear><anchor xml:id="arm-58" synch="#TT58"/>
+                    <anchor xml:id="arm-53" synch="#TT53"/><del type="falseStart">ecco adesso le devo</del><anchor xml:id="arm-54" synch="#TT54"/> questi sono <unclear reason="inaudible" resp="#GB" cert="low">i</unclear> particolari interessanti<pause/> <vocal>ehh</vocal><pause/><kinesic iterated="true"><desc>apre e chiude la mano destra</desc></kinesic> dopo <time dur="P5M">5 minuti</time> che eravamo nel <foreign xml:lang="de">lager</foreign> dentro<pause/> c'erano i<kinesic iterated="true"><desc>agita le mani per dire "diciamo"</desc></kinesic><pause/> prigionieri precedenti<pause/> <mentioned>anziani</mentioned> chiamiamoli così<pause/> <del type="truncation">c</del> c'erano quelli<pause/><kinesic><desc>apre la mano destra</desc></kinesic> <emph>pessimisti</emph> che ci dicevano la verità <q type="spoken">guardate quel fumo</q> <del type="repetition">eccetera</del> eccetera<pause/> c'erano altri prigionieri invece che<pause/> avevano pietà di noi <choice><sic>dice</sic><corr resp="#GB">dicono</corr></choice> <q type="thought">perché dire la verità</q> <unclear resp="#GB" reason="inaudible" cert="low"><choice><sic>dice</sic><corr resp="#GB">dicono</corr></choice></unclear> <q type="spoken">ma no li hanno mandati in un<pause/> altro campo <kinesic><desc>indica qualcosa con il braccio sinistro e simula l'azione di guardare lontano</desc></kinesic><gap reason="inaudible" atLeast="1" atMost="2" unit="words"/> guardateli</q><pause/> era il <place type="area"><term xml:id="zigeuner" xml:lang="de">Zigeuner lager</term></place> il <gloss target="#zigeuner">campo degli zingari</gloss> e lì c'erano donne bambini piccoli <distinct type="informal">vecchi</distinct> eccetera<pause/> poi <supplied resp="#GB" cert="medium" reason="omitted">dicono</supplied> <q><del type="truncation">n</del> <unclear resp="GB" reason="inaudible" cert="medium">tu</unclear> non ci credi<pause/> <kinesic><desc>indica qualcosa con il braccio sinistro e simula l'azione di guardare lontano</desc></kinesic>guarda <vocal>um</vocal> il <placeName ref="TEI-ListPlace.xml#Te">Theresienstadt <foreign xml:lang="de">lager</foreign></placeName></q><kinesic><desc>si tocca il petto con entrambe le mani</desc></kinesic> quello accanto a noi<pause/> anche lì <pause/><kinesic iterated="true"><desc>muove circolarmente la mano destra con l'indice alzato</desc></kinesic> perché quello serviva per <distinct type="political">propaganda</distinct> <anchor xml:id="arm-55" synch="#TT55"/>no<pause/><kinesic><desc>alza le sopracciglia in segno di disgusto</desc></kinesic> <del type="falseStart">poi<anchor xml:id="arm-56" synch="#TT56"/> invece<pause/> <kinesic iterated="true"><desc>muove l'indice della mano sinistra</desc></kinesic>sia quelli di<placeName ref="TEI-ListPlace.xml#Te">Theresienstadt</placeName> sia <kinesic><desc>sgrana gli occhi</desc></kinesic>gli zingari</del><pause/> <unclear resp="#GB" reason="inaudible" cert="low">degli zingari</unclear> in una notte <kinesic><desc>alza il palmo della mano destra al cielo e alza il mento</desc></kinesic>ne hanno <distinct type="informal">ammazzati</distinct> quaranta mila<pause/><kinesic><desc>muove i polsi di entrambe le mani facendole ruotare dall'interno verso l'esterno</desc></kinesic> più tardi<kinesic><desc>avvicina le mani e le allontana</desc></kinesic><pause/> tutti quanti<pause/> mentre prima lasciavano in vita anche le <anchor xml:id="arm-57" synch="#TT57"/>donne e i <unclear resp="#GB" reason="inaudible" cert="high">bambini</unclear><anchor xml:id="arm-58" synch="#TT58"/>
                 </u>
 
                 <u who="#MA">
