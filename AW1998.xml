@@ -2660,7 +2660,7 @@
                 </u>
 
                 <u who="#MA" xml:id="MA94" synch="#TS190">
-                    aspetti <kinesic who="#AW" dur="14 seconds"><desc>sorride</desc></kinesic>ci fermiamo un attimo per la cassetta<kinesic who="#AW"><desc>annuisce con la testa</desc></kinesic><pause/> <emph><del type="repetition">no</del> no</emph> ma non mi scappi dal <placeName ref="TEI-ListPlace.xml#GhettoWA">ghetto di Varsavia</placeName> io voglio sapere ancora un po' di cose intanto<pause/> <del type="truncation">co</del><pause/> <vocal>ehm <desc>fa click con la lingua</desc></vocal> dobbiamo tornare a quella storia degli ebrei nascosti
+                    aspetti <kinesic who="#AW" dur="PT14S"><desc>sorride</desc></kinesic>ci fermiamo un attimo per la cassetta<kinesic who="#AW"><desc>annuisce con la testa</desc></kinesic><pause/> <emph><del type="repetition">no</del> no</emph> ma non mi scappi dal <placeName ref="TEI-ListPlace.xml#GhettoWA">ghetto di Varsavia</placeName> io voglio sapere ancora un po' di cose intanto<pause/> <del type="truncation">co</del><pause/> <vocal>ehm <desc>fa click con la lingua</desc></vocal> dobbiamo tornare a quella storia degli ebrei nascosti
                 </u>
 
                 <pause/>
