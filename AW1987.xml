@@ -69,6 +69,16 @@
 
                         <date when="1987-02-018">18 febbraio 1987</date>
 
+                        <respStmt>
+                            <resp>Audiointervista promossa dalla</resp>
+                            <name type="org">Fondazione CDEC</name>
+                            <note>Audiointervista realizzata nell'ambito del progetto "Ricerca sulla deportazione"</note>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Intervistatore</resp>
+                            <name ref="#LPF">Liliana Picciotto Fargion</name>
+                        </respStmt>
+
                         <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
                             <p></p>
                         </equipment>

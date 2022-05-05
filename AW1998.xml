@@ -73,6 +73,19 @@
 
                         <date when="1998-03-04">4 febbraio 1998</date>
 
+                        <respStmt>
+                            <resp>Videointervista promossa da</resp>
+                            <name type="org">Survivors of the Shoah Visual History Foundation</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Intervistatore</resp>
+                            <name ref="#MA">Maurina Alazraki</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Addetto alla camera</resp>
+                            <name ref="#PF">Paolo Favaro</name>
+                        </respStmt>
+
                         <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
                             <p>Registrato su una cassetta VHS analogica (tape 6 of 1) successivamente digitalizzata: il video contiene in origine la cassetta 6 dell'intera intervista</p>
                         </equipment>
@@ -97,6 +110,19 @@
 
                         <date when="1998-03-04">4 febbraio 1998</date>
 
+                        <respStmt>
+                            <resp>Videointervista promossa da</resp>
+                            <name type="org">Survivors of the Shoah Visual History Foundation</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Intervistatore</resp>
+                            <name ref="#MA">Maurina Alazraki</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Addetto alla camera</resp>
+                            <name ref="#PF">Paolo Favaro</name>
+                        </respStmt>
+
                         <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
                             <p>Registrato su una cassetta VHS analogica (tape 6 and 7 of 1) successivamente digitalizzata: il video contiene in origine la cassetta 6 e parte della 7 dell'intera intervista</p>
                         </equipment>
@@ -120,6 +146,19 @@
                     <recording type="video" dur="PT26M57S" xml:id="parteIV">
 
                         <date when="1998-03-04">4 febbraio 1998</date>
+
+                        <respStmt>
+                            <resp>Videointervista promossa da</resp>
+                            <name type="org">Survivors of the Shoah Visual History Foundation</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Intervistatore</resp>
+                            <name ref="#MA">Maurina Alazraki</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Addetto alla camera</resp>
+                            <name ref="#PF">Paolo Favaro</name>
+                        </respStmt>
                         
                         <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
                             <p>Registrato su una cassetta VHS analogica (tape 7 and 8 of 1) successivamente digitalizzata: il video contiene in origine parte della cassetta 7 e parte della 8 dell'intera intervista</p>
@@ -144,6 +183,19 @@
                     <recording type="video" dur="PT6M46S" xml:id="parteV">
 
                         <date when="1998-03-04">4 febbraio 1998</date>
+
+                        <respStmt>
+                            <resp>Videointervista promossa da</resp>
+                            <name type="org">Survivors of the Shoah Visual History Foundation</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Intervistatore</resp>
+                            <name ref="#MA">Maurina Alazraki</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>Addetto alla camera</resp>
+                            <name ref="#PF">Paolo Favaro</name>
+                        </respStmt>
 
                         <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
                             <p>Registrato su una cassetta VHS analogica (tape 8 of 1) successivamente digitalizzata: il video contiene in origine parte della cassetta 8 dell'intera intervista</p>
