@@ -128,7 +128,7 @@
             </tr>
             <xsl:for-each select="//tei:recording[1]/tei:respStmt">
                 <tr>
-                    <th><xsl:value-of select="./tei:resp" />:</th> <td> <xsl:value-of select="./tei:name" /> </td> <xsl:apply-templates select="./tei:note" />
+                    <th><xsl:value-of select="./tei:resp" />:</th> <td> <xsl:value-of select="./tei:name" /> </td>
                 </tr>
             </xsl:for-each>
             <tr>
@@ -150,17 +150,17 @@
                 <th><xsl:text> Broadcast : </xsl:text></th>
                 <td><ul>
                     <li><xsl:text> Author: </xsl:text><xsl:value-of select="//tei:author" /></li>
+                    <li><xsl:text> Date: </xsl:text><xsl:value-of select="//tei:bibl/tei:date" /></li>
                     <li>
                         <xsl:if test="count(//tei:bibl//tei:title)=1">
                             <xsl:text> Title: </xsl:text><xsl:value-of select="//tei:bibl/tei:title" />
-                        </xsl:if></li>
-                    <li><xsl:text> Note: </xsl:text><xsl:value-of select="//tei:note" /></li>
+                        </xsl:if>
+                    </li>
                 </ul></td>
             </tr>
-    </xsl:template>
-
-    <xsl:template match="//tei:respStmt/tei:note">
-        <td><xsl:value-of select="." /></td>
+            <tr>
+                <th><xsl:text> Note: </xsl:text></th><td><xsl:value-of select="//tei:note" /></td>
+            </tr>
     </xsl:template>
 
     <xsl:template match="//tei:profileDesc">
@@ -179,7 +179,7 @@
             </tr>
         </table>
     </xsl:template>
-
+<!--
     <xsl:template match="//tei:text" >
         <table>
             <tr>
@@ -197,7 +197,7 @@
         </table>
     </xsl:template>
 
-<!--
+
     <xsl:template match="//tei:sic" />
         
     <xsl:template match="//tei:orig" />
