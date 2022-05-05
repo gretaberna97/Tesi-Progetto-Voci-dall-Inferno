@@ -54,7 +54,7 @@
                         </equipment>
 
                         <broadcast>
-                            <bibl source="https://www.youtube.com/watch?v=4_1l3ZR-gtI">
+                            <bibl source="https://youtu.be/4_1l3ZR-gtI">
                                 <author>Associazione Figli della Shoah</author>
                                 <title>Arminio Wachsberger "Spielburg" - Parte I</title>
                                 <date when="2020">2020</date>
@@ -91,7 +91,7 @@
                         </equipment>
 
                         <broadcast>
-                            <bibl source="https://www.youtube.com/watch?v=SO3I8unl6bg">
+                            <bibl source="https://youtu.be/SO3I8unl6bg">
                                 <author>Associazione Figli della Shoah</author>
                                 <title>Arminio Wachsberger "Spielburg" - Parte II</title>
                                 <date when="2020">2020</date>
@@ -128,7 +128,7 @@
                         </equipment>
 
                         <broadcast>
-                            <bibl source="https://www.youtube.com/watch?v=5WSRaVnOQJ8">
+                            <bibl source="https://youtu.be/5WSRaVnOQJ8">
                                 <author>Associazione Figli della Shoah</author>
                                 <title>Arminio Wachsberger "Spielburg" - Parte III</title>
                                 <date when="2020">2020</date>
@@ -165,7 +165,7 @@
                         </equipment>
 
                         <broadcast>
-                            <bibl source="https://www.youtube.com/watch?v=FtV0uZZAzAw">
+                            <bibl source="https://youtu.be/FtV0uZZAzAw">
                                 <author>Associazione Figli della Shoah</author>
                                 <title>Arminio Wachsberger "Spielburg" - Parte IV</title>
                                 <date when="2020">2020</date>
@@ -202,7 +202,7 @@
                         </equipment>
 
                         <broadcast>
-                            <bibl source="https://www.youtube.com/watch?v=8mljGuToiUQ">
+                            <bibl source="https://youtu.be/8mljGuToiUQ">
                                 <author>Associazione Figli della Shoah</author>
                                 <title>Arminio Wachsberger "Spielburg" - Parte V</title>
                                 <date when="2020">2020</date>
@@ -1770,7 +1770,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW1" synch="#TS03">
-                    si <del type="falseStart"><del type="repetition">la</del> la</del><seg type="truncation"><del type="reformulation">dunque la</del><anchor xml:id="arm-01" synch="#TT01"/>baracca<anchor xml:id="amr-02" synch="#TT02"/></seg>
+                    si <del type="falseStart"><del type="repetition">la</del> la</del> <seg type="truncation"><del type="reformulation">dunque la</del> <anchor xml:id="arm-01" synch="#TT01"/>baracca<anchor xml:id="amr-02" synch="#TT02"/></seg>
                 </u>
 
                 <u who="#MA" xml:id="MA2" synch="#TS04">
@@ -1900,7 +1900,7 @@
                 </u>
 
                 <u who="#MA" xml:id="MA15" synch="#TS30">
-                    no ma<vocal>ehm</vocal> in questo momento quando lei è stato deportato a <anchor xml:id="ma-35" synch="#TT35"/><placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName><pause/> <seg part="F" prev="#s2a" xml:id="s2b">dov'erano</seg><anchor xml:id="ma-36" synch="#TT36"/>
+                    no ma <vocal>ehm</vocal> in questo momento quando lei è stato deportato a <anchor xml:id="ma-35" synch="#TT35"/><placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName><pause/> <seg part="F" prev="#s2a" xml:id="s2b">dov'erano</seg><anchor xml:id="ma-36" synch="#TT36"/>
                 </u>
 
                 <u who="#AW" xml:id="AW15" synch="#TS31">
