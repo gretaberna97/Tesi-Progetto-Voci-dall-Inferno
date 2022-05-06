@@ -38,7 +38,7 @@
         <xsl:text>*</xsl:text><xsl:apply-templates /><xsl:text>*</xsl:text>
     </xsl:template>
 
-    <xsl:template match="//tei:del[@type!='reformulation|correction']" />
+    <xsl:template match="//tei:del" />
 
     <xsl:template match="//tei:u">
                 <xsl:choose>
