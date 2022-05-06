@@ -8,7 +8,7 @@
         <html>
         <head>
         <link href="styleNEW.css" rel="stylesheet" type="text/css" media="screen"/><!--nuovo ma da togliere-->
-        <script src="App.js"></script><!--nuovo ma da togliere-->
+        <script src="AppNEW.js"></script><!--nuovo ma da togliere-->
         </head>
         <body>
         <!--<xsl:result-document href="#Info">-->
@@ -285,7 +285,7 @@
         <xsl:text>*</xsl:text><xsl:apply-templates /><xsl:text>*</xsl:text>
     </xsl:template>
 
-    <xsl:template match="//tei:del[@type!='reformulation']" />
+    <xsl:template match="//tei:del[@type!='reformulation|correction']" />
 
     <xsl:template match="//tei:u">
                 <xsl:choose>
