@@ -220,11 +220,41 @@
     </xsl:template>
 
     <xsl:template match="//tei:text" >
-
-            <button onclick="more(this)"> legenda </button>
-            <div class="legenda" style="display:none">
+    <!-- CODICE CHE NON FUNZIONA: RESTITUISCE PERSONE E LUOGHI CITATI MA RIPETUTI - PROBABILMENTE NON HA SENSO METTERLO PERCHE' NON HO STILATO UNA LISTA NEL FOGLIO XML CORRENTE MA IN UNO ESTERNO -->
+        <table>
+            <br />
+            <tr>
+                <th><xsl:text> People cited:</xsl:text></th> 
+                <td>
+                <xsl:for-each select=".//tei:persName[1][not(@ref=../preceding-sibling::*/tei:persName/@ref)]">
+                    <xsl:value-of select="." /> 
+                    <xsl:if test="position() != last()">
+                    <xsl:text>, </xsl:text>
+                    </xsl:if>
+                </xsl:for-each>
+                </td>
+            </tr>
+            <xsl:if test=".//tei:placeName">
+            <tr>
+                <th><xsl:text> Places mentioned:</xsl:text></th>
+                    <td>
+                    <xsl:for-each select=".//tei:placeName[1][not(@ref=../preceding-sibling::*/tei:placeName/@ref)]">
+                        <xsl:value-of select="." /> 
+                        <xsl:if test="position() != last()">
+                        <xsl:text>, </xsl:text>
+                        </xsl:if>
+                    </xsl:for-each>
+                    </td>
+            </tr>
+            </xsl:if>
+        </table>
+        <!-- FINE CODICE NON FUNZIONANTE-->
+    <br/>   
+        <button onclick="more(this)"> legenda </button>
+        
+        <div class="legenda" style="display:none">
             <xsl:if test='//tei:text//tei:u'><br/>
-            <p><xsl:text>Le frecce possono essere cliccate e indicano i fenomeni comunicativi</xsl:text></p>
+            <p><xsl:text>Le frecce possono essere cliccate e mostrano/nascondono fenomeni comunicativi</xsl:text></p>
             <p><xsl:text>I tre puntini (...) indicano le pause negli enunciati</xsl:text></p>
             <p><xsl:text>Il carattere asterisco (*) indica parole di difficile interpretazione e, dunque, non certe</xsl:text></p>
             <p><xsl:text>Il simbolo &#10008; indica le lacune</xsl:text></p>
@@ -239,6 +269,7 @@
                 <p><xsl:text>Le parole in corsivo indicano porzioni di testo linguisticamente distinte</xsl:text></p>
             </xsl:if>
         </div>
+        
         <table>
             <tr>
                 <th><xsl:text> Trascrizione:</xsl:text></th>
@@ -256,14 +287,7 @@
     </xsl:template>
 
     <xsl:template match="//tei:div[@type='testo']">
-        <xsl:choose>
-        <xsl:when test="count(.) != 1">
-        <b><xsl:text>NUOVA REGISTRAZIONE</xsl:text></b><br /><xsl:apply-templates />
-        </xsl:when>
-        <xsl:otherwise>
-            <xsl:apply-templates />
-        </xsl:otherwise>
-        </xsl:choose>
+        <b><xsl:text>Inizio registrazione</xsl:text></b><br /><xsl:apply-templates />
     </xsl:template>
 
     <xsl:template match="//tei:sic" />
@@ -310,18 +334,30 @@
     <xsl:template match="//tei:desc">
         <xsl:choose>
             <xsl:when test="../@who"> 
-                <span onclick="more(this)" style="cursor: pointer"><xsl:text> &#10095; </xsl:text></span>
-                <span class="right" style="display:none"><xsl:text>L'altro </xsl:text><xsl:apply-templates /> </span>
+                <span onclick="more(this)" style="cursor: pointer"><xsl:text> &#9657; </xsl:text></span>
+                <span class="desc" style="display:none"><xsl:text>L'altro </xsl:text><xsl:apply-templates /> </span>
             </xsl:when>
             <xsl:when test="../following-sibling::tei:u"> 
-                <span onclick="more(this)" style="cursor: pointer"><xsl:text> &#10095; </xsl:text></span>
-                <span class="right" style="display:none"><xsl:apply-templates /> </span>
+                <span onclick="more(this)" style="cursor: pointer"><xsl:text> &#9657; </xsl:text></span>
+                <span class="desc" style="display:none"><xsl:apply-templates /> </span>
                <br />
             </xsl:when>
             <xsl:otherwise>
-                <span onclick="more(this)" style="cursor: pointer"><xsl:text> &#10095; </xsl:text></span>
-                <span class="right" style="display:none"><xsl:apply-templates /> </span>
+                <span onclick="more(this)" style="cursor: pointer"><xsl:text> &#9657; </xsl:text></span>
+                <span class="desc" style="display:none"><xsl:apply-templates /> </span>
             </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
+    <xsl:template match="//tei:vocal">
+        <xsl:choose>
+        <xsl:when test="./tei:desc">
+                <xsl:apply-templates />
+        </xsl:when>
+        <xsl:otherwise>
+                <span onclick="more(this)" style="cursor: pointer"><xsl:text> &#9657; </xsl:text></span>
+                <span class="desc" style="display:none"><xsl:apply-templates /> </span>
+        </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
 
@@ -342,10 +378,13 @@
 		<xsl:text>&#187;</xsl:text>
 	</xsl:template>
 
-	<xsl:template match="//tei:term">
+	<xsl:template match="//tei:term|//tei:gloss">
 		<xsl:choose>
         <xsl:when test="@xml:id">
 			<span><xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute><xsl:apply-templates/></span>
+		</xsl:when>
+        <xsl:when test="@ref|@target">
+			<a><xsl:attribute name="href"><xsl:value-of select="@ref|@target"/></xsl:attribute><xsl:apply-templates/></a>
 		</xsl:when>
 		<xsl:otherwise>
 			<xsl:apply-templates/>
@@ -353,28 +392,14 @@
 		</xsl:choose>
 	</xsl:template>
 
-	<xsl:template match="//tei:gloss">
-		<xsl:choose>
-		<xsl:when test="@target">
-			<a>
-				<xsl:attribute name="href"><xsl:value-of select="@target"/></xsl:attribute>
-				<xsl:apply-templates/>
-			</a>
-		</xsl:when>
-		<xsl:otherwise>
-			<xsl:apply-templates/>
-		</xsl:otherwise>
-		</xsl:choose>
+	<xsl:template match="tei:span[@corresp]">
+        <xsl:text> &#8219;</xsl:text><xsl:apply-templates /><xsl:text> &#8217;</xsl:text>
 	</xsl:template>
 
 
 	<xsl:template match="//tei:distinct">
 		<i><xsl:apply-templates/></i>
 	</xsl:template>
-
-    <!--<xsl:template match="//tei:text//*[@xml:lang]">
-		<i><xsl:apply-templates/></i>
-	</xsl:template>-->
 
 <!-- CODICE GIULIA PER LA TRASCRIZIONE
     <xsl:template match="text()[following::node()[self::text()[normalize-space() != ''] or self::tei:lb][1][self::tei:lb[@break='no']]
