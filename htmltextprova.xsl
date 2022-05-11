@@ -15,6 +15,7 @@
             <xsl:apply-templates select="//tei:fileDesc" />
             <xsl:apply-templates select="//tei:encodingDesc" />
             <xsl:apply-templates select="//tei:profileDesc" />
+            <xsl:apply-templates select="//tei:standOff" />
         <!--</xsl:result-document>
         <xsl:result-document href="#Testo">-->
             <xsl:apply-templates select="//tei:text" />
@@ -133,7 +134,8 @@
             <tr>
                 <th><xsl:text> Number of records: </xsl:text></th> <td><xsl:value-of select="count(./tei:recording)" /><xsl:text> della durata di: </xsl:text>
                 <xsl:for-each select="./tei:recording/@dur">
-                    <xsl:value-of select="."/><!--da sistemare per il formato-->
+                    <xsl:value-of select="substring-before(substring-after(.,'PT'), 'M')"/><xsl:text> minuti e </xsl:text>
+                    <xsl:value-of select="substring-before(substring-after(.,'M'), 'S')"/><xsl:text> secondi</xsl:text>
 					<xsl:if test="position() != last()">
                     <xsl:text>, </xsl:text>
                     </xsl:if>   
@@ -219,8 +221,51 @@
         </table>
     </xsl:template>
 
+    <xsl:template match="//tei:standOff">
+        <br />
+        <table>
+        <tr>
+        <th><xsl:text> Percentage of speakers:</xsl:text></th>
+        <td>
+        <!-- CODICE CHE NON FUNZIONA-->
+        <xsl:for-each select=".//tei:timeline[@xml:id='TL3I']"><!-- VORREI CALCOLARE LA PERCENTUALE DEI PARLANTI MA NON RIESCO A SOMMARE I NUMERI I VALORI (SUM NON è SUPPORTATA)-->
+            <xsl:for-each select="./tei:when/following-sibling::tei:when[contains(@synch,'#AW')]/@absolute">
+                    <xsl:value-of select="substring-after(., '00:00:')"/>   
+                    <!--<xsl:value-of select="substring-after(., '00:01:')" />
+                    <xsl:value-of select="substring-after(., '00:02:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:03:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:04:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:05:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:06:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:07:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:08:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:09:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:10:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:11:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:12:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:13:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:14:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:15:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:16:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:17:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:18:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:19:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:20:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:21:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:22:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:23:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:24:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:25:')" /><xsl:text> </xsl:text>
+                    <xsl:value-of select="substring-after(., '00:26:')" /><xsl:text> </xsl:text>-->
+            </xsl:for-each>
+        </xsl:for-each>
+        </td>
+        </tr>
+        </table>
+    </xsl:template>
+
     <xsl:template match="//tei:text" >
-    <!-- CODICE CHE NON FUNZIONA: RESTITUISCE PERSONE E LUOGHI CITATI MA RIPETUTI - PROBABILMENTE NON HA SENSO METTERLO PERCHE' NON HO STILATO UNA LISTA NEL FOGLIO XML CORRENTE MA IN UNO ESTERNO -->
+    <!-- RESTITUISCE PERSONE E LUOGHI CITATI MA RIPETUTI - PROBABILMENTE NON HA SENSO METTERLO PERCHE' NON HO STILATO UNA LISTA NEL FOGLIO XML CORRENTE MA IN UNO ESTERNO -->
         <table>
             <br />
             <tr>
