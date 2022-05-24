@@ -1,21 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="3.0" 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml"
  	xmlns:ixsl="http://saxonica.com/ns/interactiveXSLT"
     xmlns:saxon="http://saxon.sf.net/"
-    exclude-result-prefixes="ixsl saxon">
+    xmlns:h="http://www.w3.org/1999/xhtml"
+    xmlns:js="http://saxonica.com/ns/globalJS"
+    xmlns:saxon="http://saxon.sf.net/"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://www.w3.org/1999/xhtml"
+    exclude-result-prefixes="h ixsl js saxon xs">
 
 <xsl:output method="html" html-version="5" encoding="utf-8" indent="no"/>
 
     <xsl:template name="main" match="/">
+        <xsl:result-document href="#Menu" method="ixsl:replace-content">
+            <img id="home" src="home.png" alt="Icona home"/>
+            <a href="#informazione" id="info">Informazioni</a><br/>
+			<a href="#riassunto" id="rias">Riassunto</a><br/>
+			<a href="#trascrizione" id="tras">Trascrizione</a><br/> 
+        </xsl:result-document>
         <xsl:result-document href="#Info" method="ixsl:replace-content">
             <xsl:apply-templates select="//tei:fileDesc" />
-            <xsl:apply-templates select="//tei:encodingDesc" />
             <xsl:apply-templates select="//tei:profileDesc" />
-            <!--<xsl:apply-templates select="//tei:standOff" />-->
+            <xsl:apply-templates select="//tei:standOff" /><!--spostarlo-->
         </xsl:result-document>
         <xsl:result-document href="#Testo" method="ixsl:replace-content">
             <xsl:apply-templates select="//tei:text" />
+        </xsl:result-document>
+        <xsl:result-document href="#footer" method="ixsl:replace-content">
+            <p>Edizione digitale delle testimonianze di</p><span>Arminio Wachsberger</span>
+            <p>Realizzata da Greta Bernardoni per il progetto Voci dall'Inferno</p>
+        </xsl:result-document>
+    </xsl:template>
+
+    <xsl:template mode="ixsl:onclick" match="h:img[@id='home']" >
+        <xsl:result-document href="#Menu" method="ixsl:replace-content">
+            <button id="TestOne" onclick="testOne()">4 Febbraio 1998</button>
+            <button id="TestTwo" onclick="testTwo()">18 Febbraio 1987</button>
+            <button>Persone citate</button> 
+            <button>Luoghi citati</button>
+        </xsl:result-document>
+        <xsl:result-document href="#Info" method="ixsl:replace-content">
+        </xsl:result-document>
+        <xsl:result-document href="#Testo" method="ixsl:replace-content">
+        </xsl:result-document>
+        <xsl:result-document href="#footer" method="ixsl:replace-content">
         </xsl:result-document>
     </xsl:template>
 
@@ -23,21 +53,22 @@
             <h1>
                 <xsl:value-of select="tei:titleStmt/tei:title" />
             </h1>
-        <table> 
+            <h2>Informazioni</h2>
+        <table id="informazione">
             <tr>
-                <th><xsl:text>Edition:</xsl:text></th> <td><xsl:value-of select="//tei:edition" /></td>
+                <th><xsl:text>Edizione:</xsl:text></th> <td><xsl:value-of select="//tei:edition" /></td>
             </tr>
             <tr>
-                <th><xsl:value-of select="tei:editionStmt/tei:respStmt/tei:resp" /> :</th> <td> <xsl:value-of select="tei:editionStmt/tei:respStmt/tei:name" /> </td>
+                <th><xsl:text>Codificatore:</xsl:text></th> <td> <xsl:value-of select="tei:editionStmt/tei:respStmt/tei:name" /> </td>
             </tr>
             <tr>
-                <th><xsl:text> Publisher:</xsl:text></th> <td> <xsl:value-of select="tei:publicationStmt" /> </td>
+                <th><xsl:text> Editore:</xsl:text></th> <td> <xsl:value-of select="tei:publicationStmt" /> </td>
             </tr>         
             <tr>
-                <th><xsl:text> Date:</xsl:text></th> <td> <xsl:value-of select="//tei:recordingStmt/tei:recording[1]/tei:date" /> </td>
+                <th><xsl:text> Data:</xsl:text></th> <td> <xsl:value-of select="//tei:recordingStmt/tei:recording[1]/tei:date" /> </td>
             </tr>
             <tr>
-                <th><xsl:text> Type of record : </xsl:text></th><td><xsl:value-of select="//tei:recordingStmt/tei:recording[1]/@type" /></td>
+                <th><xsl:text> Tipo di registrazione:</xsl:text></th><td><xsl:value-of select="//tei:recordingStmt/tei:recording[1]/@type" /></td>
             </tr>
             <xsl:for-each select="//tei:recordingStmt/tei:recording[1]/tei:respStmt">
                 <tr>
@@ -45,8 +76,8 @@
                 </tr>
             </xsl:for-each>
             <tr>
-                <th><xsl:text> Number of records: </xsl:text></th> <td><xsl:value-of select="count(//tei:recordingStmt/tei:recording)" /><xsl:text> della durata di: </xsl:text>
-                <xsl:for-each select="//tei:recordingStmt/tei:recording/@dur"><!--sistemo con if-->
+                <th><xsl:text> Numero registrazioni: </xsl:text></th> <td><xsl:value-of select="count(//tei:recordingStmt/tei:recording)" /><xsl:text> della durata di: </xsl:text>
+                <xsl:for-each select="//tei:recordingStmt/tei:recording/@dur">
                     <xsl:choose>
                     <xsl:when test="contains(.,'H')">
                         <xsl:value-of select="substring-before(substring-after(.,'PT'), 'H')"/><xsl:text> ora </xsl:text>
@@ -66,37 +97,32 @@
             <xsl:for-each select="//tei:equipment">
                 <xsl:if test="not(normalize-space(tei:p)='')">
                     <tr>
-                        <th><xsl:text> Record equipment number </xsl:text><xsl:value-of select="position()" /> :</th> 
+                        <th><xsl:text> Equipaggiamento registrazione num. </xsl:text><xsl:value-of select="position()" />:</th> 
                         <td><xsl:value-of select="." /></td>
                     </tr>
                 </xsl:if>
             </xsl:for-each>
             <tr>
-                <th><xsl:text> Note: </xsl:text></th><td><xsl:value-of select="//tei:recordingStmt/tei:recording[1]//tei:note" /></td>
+                <th><xsl:text> Nota:</xsl:text></th>
+                <td><ul>
+                <xsl:for-each select="//tei:recordingStmt/tei:recording[1]//tei:note">
+                    <li><xsl:value-of select="." /></li>
+                </xsl:for-each>
+                </ul></td>
             </tr>
             <tr>
-                <th><xsl:text> Broadcast : </xsl:text></th>
+                <th><xsl:text> Trasmissione:</xsl:text></th>
                 <td><ul>
-                    <li><xsl:text> Author: </xsl:text><xsl:value-of select="//tei:recordingStmt/tei:recording[1]//tei:author" /></li>
-                    <!--<xsl:if test="not(normalize-space(//tei:bibl/tei:date)='')">
-                        <li><xsl:text> Date: </xsl:text><xsl:value-of select="//tei:bibl/tei:date" /></li>
-                    </xsl:if>-->
+                    <li><xsl:text> Autore: </xsl:text><xsl:value-of select="//tei:recordingStmt/tei:recording[1]//tei:author" /></li>
                     <li>
-                        <xsl:choose>
-                            <xsl:when test="count(//tei:broadcast//tei:title)=1">
-                                <xsl:text> Title: </xsl:text><xsl:value-of select="//tei:recordingStmt/tei:recording[1]//tei:bibl/tei:title" />
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:text> Title: </xsl:text><xsl:value-of select="//tei:recordingStmt/tei:recording[1]//tei:series/tei:title" />
-                            </xsl:otherwise>
-                        </xsl:choose>
+                                <xsl:text> Titolo: </xsl:text><xsl:value-of select="//tei:recordingStmt/tei:recording[1]//tei:series/tei:title" />
                     </li>
                     <xsl:if test="count(//tei:idno)!=0">
                         <li>
-                            <xsl:text> Identifier: </xsl:text><xsl:value-of select="//tei:recordingStmt/tei:recording[1]//tei:series/tei:idno" />
+                            <xsl:text> Identificatore: </xsl:text><xsl:value-of select="//tei:recordingStmt/tei:recording[1]//tei:series/tei:idno" />
                         </li>
                     </xsl:if>
-                    <li><xsl:text> Source: </xsl:text>
+                    <li><xsl:text> Fonti:</xsl:text>
                         <xsl:for-each select="//tei:broadcast">
                             <a><xsl:attribute name="href"><xsl:value-of select="./tei:bibl/@source"/></xsl:attribute>
                                 <xsl:text> File </xsl:text><xsl:value-of select="position()" /></a>
@@ -107,19 +133,18 @@
                     </li>
                 </ul></td>
             </tr>
-
-        <br />
-        <xsl:for-each select="//tei:profileDesc//tei:listPerson/tei:person">
-            <tr>
-                <th><xsl:text> Person:</xsl:text></th> <td> <xsl:value-of select="tei:persName" /> </td>
-            </tr>
-        </xsl:for-each>
         </table>
-
-        <table>
-            <br />
+    </xsl:template>
+    <xsl:template match="//tei:profileDesc">
+    <br/>
+    <table>
+            <xsl:for-each select="//tei:listPerson/tei:person">
             <tr>
-                <th><xsl:text> Language:</xsl:text></th>
+                <th><xsl:text> Partecipante:</xsl:text></th> <td> <xsl:value-of select="./tei:persName" /> </td>
+            </tr>
+            </xsl:for-each>
+            <tr>
+                <th><xsl:text> Linguaggi:</xsl:text></th>
                 <td>
                 <xsl:for-each select="//tei:langUsage/tei:language">
                     <xsl:value-of select="." /> 
@@ -130,83 +155,23 @@
                 </td>
             </tr>
         </table>
+        <br/>
+        <h2>Riassunto</h2>
+        <table id="riassunto">
+        <xsl:for-each select="//tei:timeline[contains(@xml:id,'TL1')]"> 
+        <xsl:variable name="xmlWhen" select="./tei:when/@xml:id"/>
+        <tr><th>File <xsl:value-of select="position()"/></th>
+        <td>
+            <xsl:for-each select="//tei:item">
+                <xsl:if test=".[contains(@synch, '$xmlWhen')]"><!--non funziona-->
+                <xsl:value-of select="." />
+                </xsl:if> 
+            </xsl:for-each></td></tr>
+        </xsl:for-each>
+        </table>
     </xsl:template>
 
-    <xsl:template match="//tei:abstract" />
-
-    <!--<xsl:template match="//tei:standOff">
-        <br />
-        <table>
-        <tr>
-        <th><xsl:text> Percentage of speakers:</xsl:text></th>
-        <td>
-        CODICE CHE NON FUNZIONA
-        <xsl:for-each select=".//tei:timeline[@xml:id='TL3I']">VORREI CALCOLARE LA PERCENTUALE DEI PARLANTI MA NON RIESCO A SOMMARE I NUMERI I VALORI (SUM NON è SUPPORTATA
-            <xsl:for-each select="./tei:when/following-sibling::tei:when[contains(@synch,'#AW')]/@absolute">
-                    <xsl:value-of select="substring-after(., '00:00:')"/>   
-                    <xsl:value-of select="substring-after(., '00:01:')" />
-                    <xsl:value-of select="substring-after(., '00:02:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:03:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:04:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:05:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:06:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:07:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:08:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:09:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:10:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:11:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:12:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:13:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:14:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:15:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:16:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:17:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:18:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:19:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:20:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:21:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:22:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:23:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:24:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:25:')" /><xsl:text> </xsl:text>
-                    <xsl:value-of select="substring-after(., '00:26:')" /><xsl:text> </xsl:text>
-            </xsl:for-each>
-        </xsl:for-each>
-        </td>
-        </tr>
-        </table>
-    </xsl:template>-->
-
     <xsl:template match="//tei:text" >
-    <!-- RESTITUISCE PERSONE E LUOGHI CITATI MA RIPETUTI - PROBABILMENTE NON HA SENSO METTERLO PERCHE' NON HO STILATO UNA LISTA NEL FOGLIO XML CORRENTE MA IN UNO ESTERNO -->
-        <table>
-            <br />
-            <tr>
-                <th><xsl:text> People cited:</xsl:text></th> 
-                <td>
-                <xsl:for-each select=".//tei:persName[1][not(@ref=../preceding-sibling::*/tei:persName/@ref)]">
-                    <xsl:value-of select="." /> 
-                    <xsl:if test="position() != last()">
-                    <xsl:text>, </xsl:text>
-                    </xsl:if>
-                </xsl:for-each>
-                </td>
-            </tr>
-            <xsl:if test=".//tei:placeName">
-            <tr>
-                <th><xsl:text> Places mentioned:</xsl:text></th>
-                    <td>
-                    <xsl:for-each select=".//tei:placeName[1][not(@ref=../preceding-sibling::*/tei:placeName/@ref)]">
-                        <xsl:value-of select="." /> 
-                        <xsl:if test="position() != last()">
-                        <xsl:text>, </xsl:text>
-                        </xsl:if>
-                    </xsl:for-each>
-                    </td>
-            </tr>
-            </xsl:if>
-        </table>
-        <!-- FINE CODICE NON FUNZIONANTE-->
     <br/>   
         <button onclick="more(this)"> legenda </button>
         
@@ -227,25 +192,16 @@
                 <p><xsl:text>Le parole in corsivo indicano porzioni di testo linguisticamente distinte</xsl:text></p>
             </xsl:if>
         </div>
-        
-        <table>
-            <tr>
-                <th><xsl:text> Trascrizione:</xsl:text></th>
-            </tr>
-            <td>
+        <h2>Trascrizione</h2>
+        <div id="trascrizione">
             <xsl:apply-templates />
-            </td>
-            <br /> 
-            <tr> 
-            <td>
-            <button onclick="download()"> download </button>
-            </td>
-            </tr>
-        </table>
+        </div>
+        <button onclick="download()"> download </button>
     </xsl:template>
 
     <xsl:template match="//tei:div[@type='testo']">
         <b><xsl:text>Inizio registrazione</xsl:text></b><br /><xsl:apply-templates />
     </xsl:template>
+
 
 </xsl:stylesheet>

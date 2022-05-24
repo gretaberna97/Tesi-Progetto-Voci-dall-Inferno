@@ -4,6 +4,11 @@ header {
    font-weight: bold;
 }
 
+body {
+  font-size:14px;
+  font-family:'Helvetica', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 h1 {
     text-align: center;
 }
@@ -11,8 +16,20 @@ h1 {
 table {
     table-layout: auto;
     border-collapse: collapse;
-    width: 100%;
+    width: 80%;
+    margin-left:10%;
   }
+
+#trascrizione {
+  width: 80%;
+  margin-left:10%;
+  border:1px solid black;
+  padding: 8px; 
+}
+
+h2{
+  text-align:center;
+}
 
   td, th {
     border: 1px solid black;
@@ -26,7 +43,7 @@ table {
 
   th{
     background-color:#dddddd ;
-    width: 30%;
+    width: 25%;
   }
 
 button{ 
@@ -43,8 +60,54 @@ button{
   cursor: pointer;
 }
 
+#Info {
+  text-align:center;
+}
+
+#Menu button {
+  font-size:20px;
+  margin-top:5%;
+}
+
+#Menu button:first-child {
+  margin-top:17%;
+}
+
+#home {
+  margin-top: -3%;
+  cursor: pointer;
+  position:fixed;
+}
+
+#Menu a{
+  position:fixed;
+  float:left;
+  margin-top:3%;
+}
+
+.bottoni {
+  font-size:15px;
+  margin-top:0%;
+}
+
 button:hover{
   background-color: #dddddd;
+}
+
+footer {
+  margin:5% auto auto 0%;
+  bottom: 0;
+  width: 100%;
+  background-color: #a6a6a6;
+  height: 50%;
+  clear: both;
+  text-align:center;
+  color:white;
+}
+
+footer span{
+  font-variant: small-caps;
+  font-size:20px;
 }
 
 .desc {
@@ -73,10 +136,10 @@ a:hover {
 
 @keyframes example {
   from {
-   color: grey;
+   background-color: gray;
   }
   to {
-   color: brown;
+    background-color: white;
   }
 }
 

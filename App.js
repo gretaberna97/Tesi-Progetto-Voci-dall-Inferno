@@ -8,12 +8,12 @@ function testOne(){
 	}, "async")
 	SaxonJS.transform({
         stylesheetLocation: "styletext.sef.json",
-		sourceLocation: "AW1998.xml",
-		destination: "serialized"
+		sourceLocation: "AW1998.xml"//,
+		//destination: "serialized"
 	}, "async")
 }
 
-function testTwo(button){
+function testTwo(){
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml.sef.json",
 		sourceLocation: "AW1987.xml"//,
@@ -21,11 +21,18 @@ function testTwo(button){
 	}, "async")
 	SaxonJS.transform({
         stylesheetLocation: "styletext.sef.json",
-		sourceLocation: "AW1987.xml",
-		destination: "serialized"
+		sourceLocation: "AW1987.xml"//,
+		//destination: "serialized"
 	}, "async")
 }
 
+function peopleB(){
+	SaxonJS.transform({
+		stylesheetLocation: "stylehtml2.sef.json",
+		sourceLocation: "TEI-ListPerson.xml"//,
+		//initialTemplate: "menu"
+	}, "async")
+}
 
 //Funzioni Greta
 function notmore (desc) {

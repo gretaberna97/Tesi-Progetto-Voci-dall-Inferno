@@ -1,12 +1,9 @@
-<xsl:stylesheet version="3.0" 
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml"
- 	xmlns:ixsl="http://saxonica.com/ns/interactiveXSLT"
-    xmlns:saxon="http://saxon.sf.net/"
-    exclude-result-prefixes="ixsl saxon">
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+     xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml">
     <xsl:output method="text" encoding="UTF-8" indent="yes" />
 
     <xsl:template match="tei:teiHeader" />
+    <xsl:template match="tei:standOff" />
 
     <xsl:template match="//tei:text">
         <xsl:apply-templates />
