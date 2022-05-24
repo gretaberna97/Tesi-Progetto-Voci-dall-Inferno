@@ -16,9 +16,6 @@
     <xsl:template name="main" match="/">
         <xsl:result-document href="#Menu" method="ixsl:replace-content">
             <img id="home" src="home.png" alt="Icona home"/>
-            <a href="#informazione" id="info">Informazioni</a><br/>
-			<a href="#riassunto" id="rias">Riassunto</a><br/>
-			<a href="#trascrizione" id="tras">Trascrizione</a><br/> 
         </xsl:result-document>
         <xsl:result-document href="#Info" method="ixsl:replace-content">
             <xsl:apply-templates select="//tei:listPerson" />
