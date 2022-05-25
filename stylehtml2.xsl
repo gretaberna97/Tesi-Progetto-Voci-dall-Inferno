@@ -14,8 +14,12 @@
 <xsl:output method="html" html-version="5" encoding="utf-8" indent="no"/>
 
     <xsl:template name="main" match="/">
-        <xsl:result-document href="#Menu" method="ixsl:replace-content">
-            <img id="home" src="home.png" alt="Icona home"/>
+       <xsl:result-document href="#Menu" method="ixsl:replace-content">
+        <img id="menuimg" src="menu.png" alt="Icona menu" onclick="openNav()"/>
+            <div id="mySidenav" class="sidenav">
+                <img id="home" src="home.png" alt="Icona home"/>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+            </div>
         </xsl:result-document>
         <xsl:result-document href="#Info" method="ixsl:replace-content">
             <xsl:apply-templates select="//tei:listPerson" />

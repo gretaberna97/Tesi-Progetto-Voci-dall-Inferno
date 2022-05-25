@@ -1,52 +1,103 @@
+@font-face {
+  font-family: 'Bedfort';
+  src: url(Bedfort.ttf);	
+}
+
 header {
+   padding:3% 0 3% 0;
    text-align: center;
-   font-size:3em;
+   margin-right:10%;
+   margin-left:-10%;
+   font-size:5em;
    font-weight: bold;
+   font-family:'Bedfort', Arial, sans-serif;
+   color:white;
+   text-shadow: 5px 5px 5px black, 9px 8px 0px rgba(0,0,0,0.15);
+   background-image: url("arminio.png");
+   background-repeat: no-repeat;
+   background-position: bottom right;
+   background-size: contain; /*contain piccoli schermi*/
+}
+
+#menuimg {
+  top:1.5%;
+  left:1%;
+  position:fixed;
+  background-color: #4d4d4d;
+  border-radius: 10%;
+  padding:1%;
+  width:2%;
+  transition: width 2s;
+}
+
+#menuimg:hover {
+  width:3%;
+  cursor: pointer;
 }
 
 body {
-  font-size:14px;
+  font-size:16px;
   font-family:'Helvetica', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url("sfondo.jpeg");
+  background-repeat: repeat;
+  background-position: center top;
+  background-size: 60%; 
+  padding: 1%;
 }
 
 h1 {
     text-align: center;
-}
+    color:white;
+    background-color:#4d4d4d;
+    padding:2%;
+    border-radius: 10px;
+  }
 
 table {
     table-layout: auto;
     border-collapse: collapse;
-    width: 80%;
-    margin-left:10%;
+    width: 90%;
+    margin-left:5%;
   }
 
 #trascrizione {
-  width: 80%;
-  margin-left:10%;
-  border:1px solid black;
+  border:1px solid #4d4d4d;
   padding: 8px; 
+  background-color: white;
+  width: 87%;
+  margin-left:5%;
 }
 
 h2{
-  text-align:center;
+  text-align: left;
+  font-weight: bold;
+  font-size:40px;
+  margin-left:8%;
+  padding-left:2%;
+  font-family:'Bedfort', Arial, sans-serif;
+  color:white;
+  text-shadow: 5px 5px 5px #4d4d4d, 9px 8px 0px rgba(0,0,0,0.15);
+  border-left:5px solid #4d4d4d;
 }
 
   td, th {
-    border: 1px solid black;
+    border: 1px solid #4d4d4d;
     text-align: left;
     padding: 8px;  
   }
 
   td{
     width: 100%;
+    background-color:white;
   }
 
   th{
     background-color:#dddddd ;
     width: 25%;
+    opacity:0.8;
   }
 
-button{ 
+button { 
   background-color: white; 
   color: black;
   border: none;
@@ -56,8 +107,61 @@ button{
   width: 100%;
   text-decoration: none;
   display: inline-block;
-  transition-duration: 0.6s;
   cursor: pointer;
+}
+
+#mySidenav a { 
+  width: 40%;
+  cursor: pointer;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #4d4d4d;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 5%;
+}
+
+.sidenav a, #home {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #ffe6e6;
+}
+
+#home {
+  cursor:pointer;
+  margin-top:30%;
+  margin-left:15%;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  font-size: 36px;
+  margin-left: 10%;
+}
+
+#main, #Info, #Header, #trascrizione, #Testo {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) { /*sistemare*/
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 5px;}
 }
 
 #Info {
@@ -70,19 +174,8 @@ button{
 }
 
 #Menu button:first-child {
-  margin-top:17%;
-}
-
-#home {
-  margin-top: -3%;
-  cursor: pointer;
-  position:fixed;
-}
-
-#Menu a{
-  position:fixed;
-  float:left;
-  margin-top:3%;
+  font-size:20px;
+  margin-top:1%;
 }
 
 .bottoni {
@@ -91,13 +184,13 @@ button{
 }
 
 button:hover{
-  background-color: #dddddd;
+  background-color: #ffe6e6;
 }
 
 footer {
   margin:5% auto auto 0%;
   bottom: 0;
-  width: 100%;
+  width: auto;
   background-color: #a6a6a6;
   height: 50%;
   clear: both;
@@ -113,25 +206,6 @@ footer span{
 .desc {
   font-style: italic;
   color:brown;
-}
-
-a:link {
-  font-weight: bold;
-  color:black;
-  text-decoration: none;
-}
-
-a:visited {
-  color: black;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #862d2d;
-  text-decoration: underline;
-}
-:target {
-  animation:example 6s;
 }
 
 @keyframes example {

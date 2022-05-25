@@ -15,10 +15,15 @@
 
     <xsl:template name="main" match="/">
         <xsl:result-document href="#Menu" method="ixsl:replace-content">
-            <img id="home" src="home.png" alt="Icona home"/>
-            <a href="#informazione" id="info">Informazioni</a><br/>
-			<a href="#riassunto" id="rias">Riassunto</a><br/>
-			<a href="#trascrizione" id="tras">Trascrizione</a><br/> 
+        <img id="menuimg" src="menu.png" alt="Icona menu" onclick="openNav()"/>
+            <div id="mySidenav" class="sidenav">
+                <img id="home" src="home.png" alt="Icona home"/><br/>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+                <a href="#h2inf" id="info">Informazioni</a><br/>
+                <a href="#h2rias" id="rias">Riassunto</a><br/>
+                <a href="#h2tra" id="tras">Trascrizione</a><br/>
+                <a href="#indaga" id="ind">Indaga</a> 
+            </div>
         </xsl:result-document>
         <xsl:result-document href="#Info" method="ixsl:replace-content">
             <xsl:apply-templates select="//tei:fileDesc" />
@@ -47,13 +52,21 @@
         </xsl:result-document>
         <xsl:result-document href="#footer" method="ixsl:replace-content">
         </xsl:result-document>
+        <xsl:call-template name="margine"/>
+    </xsl:template>
+
+    <!--non funziona:serve per rimandare indietro il margine + header non torna indietro-->
+    <xsl:template name="margine" match="h:div[@id='Info']|h:div[@id='Testo']|h:header[@id='Header']|h:footer[@id='footer']">
+        <xsl:if test="ixsl:style(.)?margin-left = '15%'">
+            <ixsl:set-style name="marginLeft" select="'0%'"/>
+        </xsl:if>
     </xsl:template>
 
     <xsl:template match="//tei:fileDesc">
             <h1>
                 <xsl:value-of select="tei:titleStmt/tei:title" />
             </h1>
-            <h2>Informazioni</h2>
+            <h2 id="h2inf">Informazioni</h2>
         <table id="informazione">
             <tr>
                 <th><xsl:text>Edizione:</xsl:text></th> <td><xsl:value-of select="//tei:edition" /></td>
@@ -156,7 +169,7 @@
             </tr>
         </table>
         <br/>
-        <h2>Riassunto</h2>
+        <h2 id="h2rias">Riassunto</h2>
         <table id="riassunto">
         <xsl:for-each select="//tei:timeline[contains(@xml:id,'TL1')]"> 
         <xsl:variable name="xmlWhen" select="./tei:when/@xml:id"/>
@@ -192,7 +205,7 @@
                 <p><xsl:text>Le parole in corsivo indicano porzioni di testo linguisticamente distinte</xsl:text></p>
             </xsl:if>
         </div>
-        <h2>Trascrizione</h2>
+        <h2 id="h2tra">Trascrizione</h2>
         <div id="trascrizione">
             <xsl:apply-templates />
         </div>
