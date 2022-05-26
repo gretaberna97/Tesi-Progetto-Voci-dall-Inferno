@@ -1,9 +1,19 @@
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-     xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml">
+<xsl:stylesheet version="3.0" 
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml"
+ 	xmlns:ixsl="http://saxonica.com/ns/interactiveXSLT"
+    xmlns:saxon="http://saxon.sf.net/"
+    xmlns:h="http://www.w3.org/1999/xhtml"
+    xmlns:js="http://saxonica.com/ns/globalJS"
+    xmlns:saxon="http://saxon.sf.net/"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://www.w3.org/1999/xhtml"
+    exclude-result-prefixes="h ixsl js saxon xs">
+
     <xsl:output method="text" encoding="UTF-8" indent="yes" />
 
-    <xsl:template match="tei:teiHeader" />
-    <xsl:template match="tei:standOff" />
+    <xsl:template match="//tei:teiHeader"/>
+    <xsl:template match="//tei:standOff" />
 
     <xsl:template match="//tei:text">
         <xsl:apply-templates />
@@ -16,7 +26,9 @@
     <xsl:template match="//tei:abbr" />
 
     <xsl:template match="//tei:surplus" />
-
+    
+    <xsl:template match="//tei:del" />
+    <!--
     <xsl:template match="//tei:gap" >
         <xsl:choose>
         <xsl:when test="following-sibling::tei:u">  <xsl:text>&#10008;</xsl:text><br /></xsl:when>
@@ -28,7 +40,7 @@
         <xsl:text>*</xsl:text><xsl:apply-templates /><xsl:text>*</xsl:text>
     </xsl:template>
 
-    <xsl:template match="//tei:del" />
+    
 
     <xsl:template match="//tei:u">
                 <xsl:choose>
@@ -118,7 +130,7 @@
 
 	<xsl:template match="//tei:distinct">
 		<i><xsl:apply-templates/></i>
-	</xsl:template>
+	</xsl:template>-->
    
     
 </xsl:stylesheet> 

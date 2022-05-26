@@ -4,10 +4,8 @@
 }
 
 header {
-   padding:3% 0 3% 0;
    text-align: center;
    margin-right:10%;
-   margin-left:-10%;
    font-size:5em;
    font-weight: bold;
    font-family:'Bedfort', Arial, sans-serif;
@@ -30,14 +28,48 @@ header {
   transition: width 2s;
 }
 
+#up {
+  bottom:1.5%;
+  right:1%;
+  position:fixed;
+  background-color: #4d4d4d;
+  border-radius: 10%;
+  width:70px;
+  transition: width 2s;
+  color:white;
+  font-weight: bold;
+  font-variant: small-caps;
+  text-align: center;
+  text-decoration: none;
+}
+
 #menuimg:hover {
   width:3%;
   cursor: pointer;
 }
 
+#up:hover {
+  width:75px;
+  cursor: pointer;
+}
+
+.nome {
+  font-weight: bold;
+  text-align: center;
+  width:40%;
+}
+
+#persone th {
+  width:auto;
+}
+
+.infoperson{
+  font-weight: normal;
+}
+
 body {
-  font-size:16px;
-  font-family:'Helvetica', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:18px;
+  font-family:'Verdana', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-image: url("sfondo.jpeg");
   background-repeat: repeat;
   background-position: center top;
@@ -49,14 +81,15 @@ h1 {
     text-align: center;
     color:white;
     background-color:#4d4d4d;
-    padding:2%;
+    padding:3% 0 3% 0;
     border-radius: 10px;
+    font-size:30px;
   }
 
 table {
     table-layout: auto;
     border-collapse: collapse;
-    width: 90%;
+    width: 89%;
     margin-left:5%;
   }
 
@@ -64,7 +97,7 @@ table {
   border:1px solid #4d4d4d;
   padding: 8px; 
   background-color: white;
-  width: 87%;
+  width: 86%;
   margin-left:5%;
 }
 
@@ -72,7 +105,7 @@ h2{
   text-align: left;
   font-weight: bold;
   font-size:40px;
-  margin-left:8%;
+  margin-left:5%;
   padding-left:2%;
   font-family:'Bedfort', Arial, sans-serif;
   color:white;
@@ -81,7 +114,7 @@ h2{
 }
 
   td, th {
-    border: 1px solid #4d4d4d;
+    border: 1px solid gray;
     text-align: left;
     padding: 8px;  
   }
@@ -93,9 +126,25 @@ h2{
 
   th{
     background-color:#dddddd ;
-    width: 25%;
+    width: 30%;
     opacity:0.8;
   }
+
+/* Link generici */
+a:link {
+  text-decoration: none;
+  color:#b30000;
+}
+a:active {
+  color: black;
+}
+a:visited {
+  color:#b30000;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+}
 
 button { 
   background-color: white; 
@@ -104,15 +153,25 @@ button {
   border-radius: 4px;
   font-size: 15px;
   padding: 10px;
-  width: 100%;
+  width: 40%;
   text-decoration: none;
-  display: inline-block;
   cursor: pointer;
+  display: block; 
+  margin: 1% auto;
+  font-size:20px;
 }
 
-#mySidenav a { 
-  width: 40%;
+.sidenav a { 
+  width: 100%;
   cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  color: #818181;
+  display: block;
+  margin:auto;
+  transition: 0.3s;
+  word-wrap: break-word;
 }
 .sidenav {
   height: 100%;
@@ -124,63 +183,46 @@ button {
   background-color: #4d4d4d;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 5%;
-}
-
-.sidenav a, #home {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+  padding-top: 10%;
 }
 
 .sidenav a:hover {
-  color: #ffe6e6;
+  color: white;
+  font-weight: normal;
 }
 
 #home {
   cursor:pointer;
-  margin-top:30%;
-  margin-left:15%;
+  display:block;
+  margin:auto;
+  margin-bottom:5%;
 }
 
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  right: 5%;
+  right: 0%;
   font-size: 36px;
-  margin-left: 10%;
 }
 
 #main, #Info, #Header, #trascrizione, #Testo {
   transition: margin-left .5s;
   padding: 16px;
 }
-
-@media screen and (max-height: 450px) { /*sistemare*/
+/*
+@media screen and (max-height: 800px) { sistemare
   .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 5px;}
+  .sidenav a {overflow-wrap:break-word; }
+  #mySidenav a {width:80%;padding-left:4%;}
+  #home {padding:40% 0 0 5%;}
+}*/
+
+@media screen and (max-height: 600px) { /*sistemare*/
+  #home {width:30%;}
 }
 
 #Info {
   text-align:center;
-}
-
-#Menu button {
-  font-size:20px;
-  margin-top:5%;
-}
-
-#Menu button:first-child {
-  font-size:20px;
-  margin-top:1%;
-}
-
-.bottoni {
-  font-size:15px;
-  margin-top:0%;
 }
 
 button:hover{
@@ -188,14 +230,15 @@ button:hover{
 }
 
 footer {
-  margin:5% auto auto 0%;
+  margin-top:-1%;
   bottom: 0;
   width: auto;
-  background-color: #a6a6a6;
+  background-color: #b30000;
   height: 50%;
   clear: both;
   text-align:center;
   color:white;
+  border-radius: 10px;
 }
 
 footer span{
@@ -210,11 +253,16 @@ footer span{
 
 @keyframes example {
   from {
-   background-color: gray;
+   color: #b30000;
   }
   to {
-    background-color: white;
+   color: black;
   }
+}
+
+:target {
+  animation-name:example;
+  animation-duration:4s;
 }
 
 .legenda {

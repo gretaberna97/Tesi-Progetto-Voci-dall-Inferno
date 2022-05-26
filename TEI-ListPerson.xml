@@ -97,6 +97,8 @@
 
                                 <sex>F</sex>
 
+                                <note resp="#GB">Intervistatrice di Arminio Wachsberger nella testimonianza del 18 Febbraio 1987</note>
+
                                 <birth>
                                     <date when="1947" cert="high">1947</date>
                                     <placeName>
@@ -119,6 +121,8 @@
 
                                 <sex>F</sex>
 
+                                <note resp="#GB">Intervistatrice di Arminio Wachsberger nella testimonianza del 4 Febbraio 1998</note>
+
                                 <birth>
                                     <date when="" cert=""></date>
                                     <placeName>
@@ -139,6 +143,8 @@
                                 </persName>
 
                                 <sex>M</sex>
+
+                                <note resp="#GB">Cameraman di Arminio Wachsberger nella testimonianza del4 Febbraio 1998</note>
 
                                 <birth>
                                     <date when="1961" cert="high">1961</date>
@@ -360,17 +366,17 @@
                         </person>
 
                         <!--Abraham Schreiber-->
-                        <person xml:id="Schreiber">   
+                        <person xml:id="Schreiber" source="#Rigano2015">   
     
                                 <persName>
                                     <ref target=""/>
-                                    <forename source="#Rigano2015">Abraham</forename>
+                                    <forename>Abraham</forename>
                                     <surname>Schreiber</surname>
                                 </persName>
 
                                 <sex>M</sex>
 
-                                <birth source="#Rigano2015">
+                                <birth>
                                     <date when="1897" cert="high">1897</date>
                                     <placeName>
                                         <settlement type="municipality">Eger</settlement>
@@ -378,7 +384,7 @@
                                     </placeName>
                                 </birth>
 
-                                <death source="#Rigano2015">
+                                <death>
                                     <date when="1982" cert="high">1982</date>
                                     <placeName>
                                         <settlement type="municipality">Gerusalemme</settlement>
@@ -394,7 +400,7 @@
                                 <persName role="domestica">
                                     <ref target=""/>
                                     <forename>Maria</forename>
-                                    <surname></surname>
+                                    <surname type="unknown"></surname>
                                 </persName>
 
                                 <sex>F</sex>
@@ -472,11 +478,11 @@
                         </person>
 
                         <!--Elio Polacco: non ho informazioni su di lui-->
-                        <person xml:id="ElioP">   
+                        <person xml:id="ElioP" source="#Rigano2015">   
     
                                 <persName>
                                     <ref target=""/>
-                                    <forename source="#Rigano2015">Elio</forename>
+                                    <forename>Elio</forename>
                                     <surname>Polacco</surname>
                                 </persName>
 
@@ -501,9 +507,9 @@
                         </person>
 
                         <!--Assunta Fratini: non ho informazioni su di lei-->
-                        <person xml:id="AssuntaF">   
+                        <person xml:id="AssuntaF"  source="#Katz1973">   
     
-                                <persName source="#Katz1973">
+                                <persName>
                                     <ref target=""/>
                                     <forename>Assunta</forename>
                                     <surname>Fratini</surname>
@@ -592,9 +598,9 @@
                         </person>
 
                         <!--Vincenzo Moranzoni: non ho molte informazioni su di lui-->
-                        <person xml:id="VincenzoM" sameAs="https://viaf.org/viaf/821715">   
+                        <person xml:id="VincenzoM" sameAs="https://viaf.org/viaf/821715" source="#Rigano2015">   
     
-                                <persName source="#Rigano2015">
+                                <persName>
                                     <ref target=""/>
                                     <forename>Vincenzo</forename>
                                     <surname>Moranzoni</surname>
@@ -625,7 +631,7 @@
     
                                 <persName>
                                     <ref target=""/>
-                                    <forename></forename>
+                                    <forename type="unknown"></forename>
                                     <surname>Disegni</surname>
                                 </persName>
 
@@ -721,11 +727,11 @@
                         </person>
 
                         <!--Alina Cavalieri-->
-                        <person xml:id="AlinaC" sameAs="http://viaf.org/viaf/307361731">   
+                        <person xml:id="AlinaC" sameAs="http://viaf.org/viaf/307361731"  source="#Rigano2015">   
     
                                 <persName role="direttrice">
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-1137/cavalieri-alina.html http://www.nomidellashoah.it/1scheda.asp?nome=Alina&amp;cognome=Cavalieri&amp;id=1137"/>
-                                    <forename source="#Rigano2015">Alina</forename>
+                                    <forename>Alina</forename>
                                     <surname>Cavalieri</surname>
                                     <roleName type="health">Direttrice della Croce Rossa fino al 1938</roleName>
                                 </persName>
@@ -751,11 +757,11 @@
                         </person>
 
                         <!--Sig.ra Rotschild: non ho molte informazioni su di lei-->
-                        <person xml:id="Rotschild">   
+                        <person xml:id="Rotschild" source="#Rigano2015">   
     
                                 <persName>
                                     <ref target=""/>
-                                    <forename></forename>
+                                    <forename type="unknown"></forename>
                                     <surname>Rotschild</surname>
                                 </persName>
 
@@ -769,7 +775,7 @@
                                         <settlement type=""></settlement>
                                         <country key="DE">Germania</country>
                                     </placeName>
-                                    <note resp="#GB" source="#Rigano2015">Dalle parole di Arminio deduco che la donna avesse origini tedesche</note>
+                                    <note resp="#GB">Dalle parole di Arminio deduco che la donna avesse origini tedesche</note>
                                 </birth>
 
                                 <death>
@@ -784,9 +790,9 @@
                         </person>
 
                         <!--Aldo Muggia-->
-                        <person xml:id="AldoM">   
+                        <person xml:id="AldoM"  source="#Rigano2015">   
     
-                                <persName role="ingegnere" source="#Rigano2015">
+                                <persName role="ingegnere">
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-5627/muggia-aldo.html"/>
                                     <forename>Aldo</forename>
                                     <surname>Muggia</surname>
@@ -1061,11 +1067,11 @@
                         </person>
 
                         <!--Mario Di Veroli-->
-                        <person xml:id="MarioDV"> 
+                        <person xml:id="MarioDV"  source="#Rigano2015"> 
     
                                 <persName role="venditore_ambulante">
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-2292/di-veroli-mario.html"/>
-                                    <forename source="#Rigano2015">Mario</forename>
+                                    <forename>Mario</forename>
                                     <surname type="combine">Di Veroli</surname>
                                 </persName>
 
@@ -1264,7 +1270,7 @@
     
                                 <persName role="militare_wehrmacht">
                                     <ref target=""/>
-                                    <forename></forename>
+                                    <forename type="unknown"></forename>
                                     <surname>Blasi</surname>
                                     <roleName type="military">Capitano</roleName>
                                 </persName>
@@ -1426,7 +1432,7 @@
 
                                 <sex>M</sex>
 
-                                <birth source="#Rigano2015">
+                                <birth>
                                     <date when="1912" cert="high">1912</date>
                                     <placeName ref="TEI-ListPlace.xml#MI">
                                         <district>Milanino</district>
@@ -1446,7 +1452,7 @@
                         </person>
 
                         <!--Giovanni Wachsberger-->
-                        <person xml:id="GiovanniW">   
+                        <person xml:id="GiovanniW" source="#Rigano2015">   
     
                                 <persName>
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-103/wachsberger-giovanni.html"/>
@@ -1466,7 +1472,7 @@
                                 </birth>
 
                                 <death>
-                                    <date when="1997" cert="high" source="#Rigano2015">1997</date>
+                                    <date when="1997" cert="high">1997</date>
                                     <placeName>
                                         <settlement type=""></settlement>
                                         <country key=""></country>
@@ -1546,7 +1552,7 @@
 
                                 <birth>
                                     <date when="" notBefore="1913-11-04" cert="medium"></date>
-                                    <note resp="#GB">Desumo che sia nata dopo di lui</note>
+                                    <note resp="#GB">Desumo che sia nata dopo Arminio Wachsberger</note>
                                     <placeName ref="TEI-ListPlace#FM">
                                         <settlement type="municipality">Fiume</settlement>
                                         <country key="HR">Croazia</country>
@@ -1563,7 +1569,7 @@
                         </person>
 
                         <!--Ludovico Liedermann-->
-                        <person xml:id="LudovicoL">   
+                        <person xml:id="LudovicoL"  source="#Rigano2015">   
     
                                 <persName role="pasticcere">
                                     <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-101/wachsberger-regina.html"/><!--link della moglie: da dove è trovato sue informazioni-->
@@ -1583,7 +1589,7 @@
                                     </placeName>
                                 </birth>
 
-                                <death source="#Rigano2015">
+                                <death>
                                     <date when="" notBefore="1944-08" cert="high"></date>
                                     <placeName ref="TEI-ListPlace#Au">
                                         <settlement type="municipality">Auschwitz</settlement>
@@ -1593,7 +1599,7 @@
                         </person>
 
                         <!--Haim Zelikowitz: non ho molte informazioni su di lui-->
-                        <person xml:id="HaimZ">   
+                        <person xml:id="HaimZ" source="#Rigano2015">   
     
                                 <persName>
                                     <ref target=""/>
@@ -1612,7 +1618,7 @@
                                     <note resp="#GB">Deduco dalle parole di Arminio che fosse di Debrecen</note>
                                 </birth>
 
-                                <death source="#Rigano2015">
+                                <death>
                                     <date when="" notBefore="1944-08" cert="high"></date>
                                     <placeName ref="TEI-ListPlace#Au">
                                         <settlement type="municipality">Auschwitz</settlement>
@@ -1654,6 +1660,8 @@
                                 </persName>
 
                                 <sex>M</sex>
+
+                                <note resp="#GB">Individuo inserito all'interno di una citazione da Arminio</note>
 
                                 <birth>
                                     <date when="-460" cert="high">460 a.C</date>
@@ -2067,8 +2075,8 @@
     
                                 <persName role="falegname">
                                     <ref target=""/>
-                                    <forename></forename>
-                                    <surname></surname>
+                                    <forename type="unknown"></forename>
+                                    <surname type="unknown"></surname>
                                     <addName type="nickname" xml:lang="de">Tischler</addName>
                                 </persName>
 
@@ -2139,6 +2147,7 @@
                                 </persName>
 
                                 <note resp="#GB">Ha vinto tre oscar: nel 1980, nel 1983 e nel 2012.</note>
+                                <note resp="#GB">Individuo inserito in una citazione da Arminio</note>
 
                                 <sex>F</sex>
 
@@ -2191,7 +2200,7 @@
     
                                 <persName>
                                     <ref target=""/>
-                                    <forename></forename>
+                                    <forename type="unknown"></forename>
                                     <surname type="combine">Di Porto</surname>
                                 </persName>
 
@@ -2217,9 +2226,9 @@
                         </person>
 
                         <!--Maurizio Fenichel: non ho informazioni su di lui-->
-                        <person xml:id="MaurizioF">   
+                        <person xml:id="MaurizioF"  source="#Rigano2015">   
     
-                                <persName role="direttore_sanitario" source="#Rigano2015">
+                                <persName role="direttore_sanitario">
                                     <ref target=""/>
                                     <forename>Maurizio</forename>
                                     <surname>Fenichel</surname>
@@ -2236,7 +2245,7 @@
                                 </birth>
 
                                 <death>
-                                    <date when="" notBefore="1949-02-17" cert="high" source="#Rigano2015"></date>
+                                    <date when="" notBefore="1949-02-17" cert="high"></date>
                                     <note resp="#GB">Desumo che avendo firmato una carta libera di referenze sul lavoro svolto da Olga Wachsberger dovrà esse morto successivamente</note>
                                     <placeName>
                                         <settlement type=""></settlement>
@@ -2247,9 +2256,9 @@
                         </person>
 
                         <!--Edmund Carter Rosenhauch-->
-                        <person xml:id="EdmundCR" sameAs="http://viaf.org/viaf/250314036">   
+                        <person xml:id="EdmundCR" sameAs="http://viaf.org/viaf/250314036"  source="#Rigano2015">   
     
-                                <persName role="oculista" source="#Rigano2015">
+                                <persName role="oculista">
                                     <ref target=""/>
                                     <forename>Edmund</forename>
                                     <surname type="combine">Carter Rosenhauch</surname>
@@ -2267,7 +2276,7 @@
 
                                 <death>
                                     <date when="1962" cert="medium">1962</date>
-                                    <placeName cert="medium" source="#Rigano2015">
+                                    <placeName cert="medium">
                                         <settlement type=""></settlement>
                                         <country key="USA" cert="medium">Stati Uniti d'America</country>
                                     </placeName>

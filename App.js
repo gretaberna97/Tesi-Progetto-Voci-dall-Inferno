@@ -3,7 +3,7 @@ function testOne(){
 	document.getElementById("Info").style.marginLeft= "0";
 	document.getElementById("Testo").style.marginLeft = "0";
 	document.getElementById("footer").style.marginLeft = "0";
-	document.getElementById("Header").style.marginLeft = "-10%";
+	document.getElementById("Header").style.marginLeft = "0%";
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml.sef.json",
 		sourceLocation: "AW1998.xml"//,
@@ -20,7 +20,7 @@ function testTwo(){
 	document.getElementById("Info").style.marginLeft= "0";
 	document.getElementById("Testo").style.marginLeft = "0";
 	document.getElementById("footer").style.marginLeft = "0";
-	document.getElementById("Header").style.marginLeft = "-10%";
+	document.getElementById("Header").style.marginLeft = "0%";
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml.sef.json",
 		sourceLocation: "AW1987.xml"//,
@@ -34,8 +34,24 @@ function testTwo(){
 }
 
 function peopleB(){
+	document.getElementById("Info").style.marginLeft= "0";
+	document.getElementById("Testo").style.marginLeft = "0";
+	document.getElementById("footer").style.marginLeft = "0";
+	document.getElementById("Header").style.marginLeft = "0%";
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml2.sef.json",
+		sourceLocation: "TEI-ListPerson.xml"//,
+		//initialTemplate: "menu"
+	}, "async")
+}
+
+function fontiB(){
+	document.getElementById("Info").style.marginLeft= "0";
+	document.getElementById("Testo").style.marginLeft = "0";
+	document.getElementById("footer").style.marginLeft = "0";
+	document.getElementById("Header").style.marginLeft = "0%";
+	SaxonJS.transform({
+		stylesheetLocation: "stylehtml3.sef.json",
 		sourceLocation: "TEI-ListPerson.xml"//,
 		//initialTemplate: "menu"
 	}, "async")
@@ -53,11 +69,11 @@ function more (desc) {
   };
 
   function openNav() {
-	document.getElementById("mySidenav").style.width = "15%";
-	document.getElementById("Info").style.marginLeft = "15%";
-	document.getElementById("Testo").style.marginLeft = "15%";
-	document.getElementById("footer").style.marginLeft = "15%";
-	document.getElementById("Header").style.marginLeft = "15%";
+	document.getElementById("mySidenav").style.width = "20%";
+	document.getElementById("Info").style.marginLeft = "20%";
+	document.getElementById("Testo").style.marginLeft = "20%";
+	document.getElementById("footer").style.marginLeft = "20%";
+	document.getElementById("Header").style.marginLeft = "20%";
 }
   
   function closeNav() {
@@ -65,5 +81,7 @@ function more (desc) {
 	document.getElementById("Info").style.marginLeft= "0";
 	document.getElementById("Testo").style.marginLeft = "0";
 	document.getElementById("footer").style.marginLeft = "0";
-	document.getElementById("Header").style.marginLeft = "-10%";
+	document.getElementById("Header").style.marginLeft = "0%";
   }
+
+ 

@@ -21,8 +21,7 @@
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
                 <a href="#h2inf" id="info">Informazioni</a><br/>
                 <a href="#h2rias" id="rias">Riassunto</a><br/>
-                <a href="#h2tra" id="tras">Trascrizione</a><br/>
-                <a href="#indaga" id="ind">Indaga</a> 
+                <a href="#h2tra" id="tras">Trascrizione</a><br/> 
             </div>
         </xsl:result-document>
         <xsl:result-document href="#Info" method="ixsl:replace-content">
@@ -33,9 +32,12 @@
         <xsl:result-document href="#Testo" method="ixsl:replace-content">
             <xsl:apply-templates select="//tei:text" />
         </xsl:result-document>
-        <xsl:result-document href="#footer" method="ixsl:replace-content">
+        <xsl:result-document href="#footer" method="ixsl:replace-content"><br/>
             <p>Edizione digitale delle testimonianze di</p><span>Arminio Wachsberger</span>
-            <p>Realizzata da Greta Bernardoni per il progetto Voci dall'Inferno</p>
+            <p>Realizzata da Greta Bernardoni per il progetto <span>Voci dall'Inferno</span></p><br/>
+        </xsl:result-document>
+        <xsl:result-document href="#up" method="ixsl:replace-content">
+            Torna Su
         </xsl:result-document>
     </xsl:template>
 
@@ -43,8 +45,9 @@
         <xsl:result-document href="#Menu" method="ixsl:replace-content">
             <button id="TestOne" onclick="testOne()">4 Febbraio 1998</button>
             <button id="TestTwo" onclick="testTwo()">18 Febbraio 1987</button>
-            <button>Persone citate</button> 
+            <button id="PeopleBut" onclick="peopleB()">Persone citate</button> 
             <button>Luoghi citati</button>
+            <button id="FontiBut" onclick="fontiB()">Fonti di ausilio</button>
         </xsl:result-document>
         <xsl:result-document href="#Info" method="ixsl:replace-content">
         </xsl:result-document>
@@ -52,7 +55,8 @@
         </xsl:result-document>
         <xsl:result-document href="#footer" method="ixsl:replace-content">
         </xsl:result-document>
-        <xsl:call-template name="margine"/>
+        <xsl:result-document href="#up" method="ixsl:replace-content">
+        </xsl:result-document>
     </xsl:template>
 
     <!--non funziona:serve per rimandare indietro il margine + header non torna indietro-->
@@ -110,7 +114,7 @@
             <xsl:for-each select="//tei:equipment">
                 <xsl:if test="not(normalize-space(tei:p)='')">
                     <tr>
-                        <th><xsl:text> Equipaggiamento registrazione num. </xsl:text><xsl:value-of select="position()" />:</th> 
+                        <th><xsl:text> Equipaggiamento file num. </xsl:text><xsl:value-of select="position()" />:</th> 
                         <td><xsl:value-of select="." /></td>
                     </tr>
                 </xsl:if>
@@ -186,7 +190,7 @@
 
     <xsl:template match="//tei:text" >
     <br/>   
-        <button onclick="more(this)"> legenda </button>
+        <!--<button onclick="more(this)"> legenda </button>
         
         <div class="legenda" style="display:none">
             <xsl:if test='//tei:text//tei:u'><br/>
@@ -204,8 +208,9 @@
             <xsl:if test='//tei:distinct'>
                 <p><xsl:text>Le parole in corsivo indicano porzioni di testo linguisticamente distinte</xsl:text></p>
             </xsl:if>
-        </div>
+        </div>-->
         <h2 id="h2tra">Trascrizione</h2>
+        <button onclick="find()"> indaga </button>
         <div id="trascrizione">
             <xsl:apply-templates />
         </div>
