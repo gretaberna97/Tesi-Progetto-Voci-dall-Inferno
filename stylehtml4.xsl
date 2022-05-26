@@ -19,13 +19,13 @@
             <div id="mySidenav" class="sidenav">
                 <img id="home" src="home.png" alt="Icona home"/>
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
-                <xsl:for-each select="//tei:sourceDesc/tei:bibl">
-                <a><xsl:attribute name="href"><xsl:value-of select="concat('#',@xml:id)"/></xsl:attribute><xsl:value-of select="./tei:title[1]"/></a><br/>
+                <xsl:for-each select="//tei:listPlace/tei:place">
+                    <a><xsl:attribute name="href"><xsl:value-of select="concat('#',@xml:id)"/></xsl:attribute><xsl:value-of select="./tei:placeName"/></a><br/>
                 </xsl:for-each>
             </div>
         </xsl:result-document>
         <xsl:result-document href="#Info" method="ixsl:replace-content">
-            <xsl:apply-templates select="//tei:sourceDesc" />
+            <xsl:apply-templates select="//tei:listPlace" />
         </xsl:result-document>
         <xsl:result-document href="#footer" method="ixsl:replace-content"><br/>
             <p>Edizione digitale delle testimonianze di</p><span>Arminio Wachsberger</span>
@@ -52,25 +52,58 @@
         </xsl:result-document>
     </xsl:template>
 
-    <xsl:template match="//tei:sourceDesc">
+    <xsl:template match="//tei:listPlace">
             <h1>
-                <xsl:text>Fonti di ausilio</xsl:text>
+                <xsl:value-of select="tei:head" />
             </h1>
-            <h2>
-                <xsl:text>Fonti utilizzate per identificare luoghi e nomi</xsl:text>
-            </h2>
-            <xsl:for-each select="tei:bibl">
-            <table><xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
-                <tr><th><xsl:text>Titolo primario:</xsl:text></th><td><xsl:value-of select="./tei:title[1]"/></td></tr>
-                <tr><th><xsl:text>Titolo secondario:</xsl:text></th><td><xsl:value-of select="./tei:title[2]"/></td></tr>
-                <tr><th><xsl:text>Autore:</xsl:text></th><td><xsl:value-of select="./tei:author"/></td></tr>
-                <tr><th><xsl:text>Versione:</xsl:text></th><td><xsl:value-of select="./@type"/></td></tr>
-                <tr><th><xsl:text>Curatore:</xsl:text></th><td><xsl:value-of select="./tei:editor"/></td></tr>
-                <tr><th><xsl:text>Luogo di pubblicazione:</xsl:text></th><td><xsl:value-of select="./tei:pubPlace"/></td></tr>
-                <tr><th><xsl:text>Editore:</xsl:text></th><td><xsl:value-of select="./tei:publisher"/></td></tr>
-                <tr><th><xsl:text>Data pubblicazione:</xsl:text></th><td><xsl:value-of select="./tei:date"/></td></tr>
-            </table><br/>
+            <h2><xsl:text>Luoghi citati all'interno delle testimonianze</xsl:text></h2>
+            <button onclick="map()"> mappa </button>
+        <table id="places">
+            <xsl:for-each select="//tei:place">
+            <tr>
+                <th><xsl:value-of select="position()"/></th><td><xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+                    <xsl:for-each select="tei:placeName">
+						<xsl:value-of select="."/>
+						<xsl:text>&#32;</xsl:text>
+					</xsl:for-each>
+                    <xsl:if test="tei:district">
+                    <xsl:text> nel </xsl:text>
+                    <xsl:for-each select="tei:district">
+                        <xsl:value-of select="."/>
+                    </xsl:for-each>     
+                    </xsl:if>
+                    <xsl:if test="tei:placeName!=tei:country">
+                    <xsl:text>&#32;(</xsl:text><xsl:for-each select="tei:country">
+                        <xsl:value-of select="."/>
+                        <xsl:if test="position() != last()">
+                                 <xsl:text>, </xsl:text>
+                        </xsl:if>
+					</xsl:for-each><xsl:text>)&#32;</xsl:text>
+                    </xsl:if>
+                    </td> 
+                    <td>
+                    <xsl:choose>
+								<xsl:when test="contains(tei:placeName/@ref,' ')">
+									<a>
+										<xsl:attribute name="href"><xsl:value-of select="substring-before(tei:placeName/@ref, ' ')"/></xsl:attribute>
+										<xsl:text>Link 1</xsl:text>
+									</a><xsl:text> e </xsl:text>
+                                    <a>
+										<xsl:attribute name="href"><xsl:value-of select="substring-after(tei:placeName/@ref, ' ')"/></xsl:attribute>
+										<xsl:text>Link 2</xsl:text>
+									</a>
+								</xsl:when>
+								<xsl:otherwise>
+                                    <a>
+										<xsl:attribute name="href"><xsl:value-of select="tei:placeName/@ref"/></xsl:attribute>
+										<xsl:text>Link</xsl:text>
+									</a>
+								</xsl:otherwise>
+							</xsl:choose>
+                    </td> 
+                </tr>
             </xsl:for-each>
+        </table>
     </xsl:template>
 
 </xsl:stylesheet>

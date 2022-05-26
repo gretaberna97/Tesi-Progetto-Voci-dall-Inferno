@@ -99,6 +99,16 @@ table {
   background-color: white;
   width: 86%;
   margin-left:5%;
+  line-height: 30px;
+  text-align: justify;
+}
+
+#places th {
+  width:10%;
+}
+
+#places td {
+  width:40%;
 }
 
 h2{

@@ -51,7 +51,7 @@
             <button id="TestOne" onclick="testOne()">4 Febbraio 1998</button>
             <button id="TestTwo" onclick="testTwo()">18 Febbraio 1987</button>
             <button id="PeopleBut" onclick="peopleB()">Persone citate</button> 
-            <button>Luoghi citati</button>
+            <button id="PlaceBut" onclick="placeB()">Luoghi citati</button>
             <button id="FontiBut" onclick="fontiB()">Fonti di ausilio</button>
         </xsl:result-document>
         <xsl:result-document href="#Info" method="ixsl:replace-content">

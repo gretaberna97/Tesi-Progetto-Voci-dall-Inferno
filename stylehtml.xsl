@@ -46,7 +46,7 @@
             <button id="TestOne" onclick="testOne()">4 Febbraio 1998</button>
             <button id="TestTwo" onclick="testTwo()">18 Febbraio 1987</button>
             <button id="PeopleBut" onclick="peopleB()">Persone citate</button> 
-            <button>Luoghi citati</button>
+            <button id="PlaceBut" onclick="placeB()">Luoghi citati</button>
             <button id="FontiBut" onclick="fontiB()">Fonti di ausilio</button>
         </xsl:result-document>
         <xsl:result-document href="#Info" method="ixsl:replace-content">
@@ -217,9 +217,52 @@
         <button onclick="download()"> download </button>
     </xsl:template>
 
+    <!--indagare: da spostare in un foglio di stile-->
+    <xsl:template match="//tei:sic" />
+        
+    <xsl:template match="//tei:orig" />
+    
+    <xsl:template match="//tei:abbr" />
+
+    <xsl:template match="//tei:surplus" />
+    
+    <xsl:template match="//tei:del" />
+
     <xsl:template match="//tei:div[@type='testo']">
         <b><xsl:text>Inizio registrazione</xsl:text></b><br /><xsl:apply-templates />
     </xsl:template>
+
+    <xsl:template match="//tei:u">
+                <xsl:choose>
+                    <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who]">
+                        <b><xsl:text>(SOVRAPPOSIZIONE): </xsl:text></b><xsl:apply-templates /><br />
+                    </xsl:when>
+                    <xsl:when test="./@who='#MA'">
+                        <b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:apply-templates /><br />
+                    </xsl:when>
+                    <xsl:when test="./@who='#LPF'">
+                        <b><xsl:text>Liliana Picciotto Fargion: </xsl:text></b><xsl:apply-templates /><br />
+                    </xsl:when>
+                    <xsl:when test="./@who='#PF'">
+                        <b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:apply-templates /><br />
+                    </xsl:when>
+                    <xsl:when test="./@who='Maria'">
+                        <b><xsl:text>Maria: </xsl:text></b><xsl:apply-templates /><xsl:text>-</xsl:text><br />
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:apply-templates /><br />
+                    </xsl:otherwise>
+                </xsl:choose>
+    </xsl:template>
+
+    <xsl:template match="//tei:desc"/>
+    <xsl:template match="//tei:vocal"/>
+
+    <xsl:template match="//tei:q">
+		<xsl:text>&#171;</xsl:text>
+		<xsl:apply-templates/>
+		<xsl:text>&#187;</xsl:text>
+	</xsl:template>
 
 
 </xsl:stylesheet>

@@ -57,6 +57,18 @@ function fontiB(){
 	}, "async")
 }
 
+function placeB(){
+	document.getElementById("Info").style.marginLeft= "0";
+	document.getElementById("Testo").style.marginLeft = "0";
+	document.getElementById("footer").style.marginLeft = "0";
+	document.getElementById("Header").style.marginLeft = "0%";
+	SaxonJS.transform({
+		stylesheetLocation: "stylehtml4.sef.json",
+		sourceLocation: "TEI-ListPlace.xml"//,
+		//initialTemplate: "menu"
+	}, "async")
+}
+
 //Funzioni Greta
 function notmore (desc) {
 	desc.nextSibling.style.display = "none";
