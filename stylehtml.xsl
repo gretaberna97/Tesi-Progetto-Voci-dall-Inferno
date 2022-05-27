@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="3.0" 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:tei="http://www.tei-c.org/ns/1.0" 
  	xmlns:ixsl="http://saxonica.com/ns/interactiveXSLT"
-    xmlns:saxon="http://saxon.sf.net/"
     xmlns:h="http://www.w3.org/1999/xhtml"
     xmlns:js="http://saxonica.com/ns/globalJS"
     xmlns:saxon="http://saxon.sf.net/"
@@ -57,11 +56,12 @@
         </xsl:result-document>
         <xsl:result-document href="#up" method="ixsl:replace-content">
         </xsl:result-document>
+        <xsl:apply-templates select="h:div[@id='Info']|h:div[@id='Testo']|h:header[@id='Header']|h:footer[@id='footer']"/><!--non funziona(sotto)-->
     </xsl:template>
 
     <!--non funziona:serve per rimandare indietro il margine + header non torna indietro-->
-    <xsl:template name="margine" match="h:div[@id='Info']|h:div[@id='Testo']|h:header[@id='Header']|h:footer[@id='footer']">
-        <xsl:if test="ixsl:style(.)?margin-left = '15%'">
+    <xsl:template match="h:div[@id='Info']|h:div[@id='Testo']|h:header[@id='Header']|h:footer[@id='footer']">
+        <xsl:if test="ixsl:style(.)?margin-left = '20%'">
             <ixsl:set-style name="marginLeft" select="'0%'"/>
         </xsl:if>
     </xsl:template>
@@ -132,7 +132,7 @@
                 <td><ul>
                     <li><xsl:text> Autore: </xsl:text><xsl:value-of select="//tei:recordingStmt/tei:recording[1]//tei:author" /></li>
                     <li>
-                                <xsl:text> Titolo: </xsl:text><xsl:value-of select="//tei:recordingStmt/tei:recording[1]//tei:series/tei:title" />
+                        <xsl:text> Titolo: </xsl:text><xsl:value-of select="//tei:recordingStmt/tei:recording[1]//tei:series/tei:title" />
                     </li>
                     <xsl:if test="count(//tei:idno)!=0">
                         <li>
@@ -152,6 +152,7 @@
             </tr>
         </table>
     </xsl:template>
+
     <xsl:template match="//tei:profileDesc">
     <br/>
     <table>
@@ -189,36 +190,36 @@
     </xsl:template>
 
     <xsl:template match="//tei:text" >
-    <br/>   
-        <!--<button onclick="more(this)"> legenda </button>
-        
-        <div class="legenda" style="display:none">
-            <xsl:if test='//tei:text//tei:u'><br/>
-            <p><xsl:text>Le frecce possono essere cliccate e mostrano/nascondono fenomeni comunicativi</xsl:text></p>
-            <p><xsl:text>I tre puntini (...) indicano le pause negli enunciati</xsl:text></p>
-            <p><xsl:text>Il carattere asterisco (*) indica parole di difficile interpretazione e, dunque, non certe</xsl:text></p>
-            <p><xsl:text>Il simbolo &#10008; indica le lacune</xsl:text></p>
-            <xsl:if test='//tei:gloss'>
-                <p><xsl:text>Le parole in grassetto sono le glosse dei termini del Lager utilizzati: cliccandoci vediamo il termine associato</xsl:text></p>
-            </xsl:if>
-            </xsl:if>
-            <xsl:if test='//tei:emph|//tei:shift'>
-                <p><xsl:text>Le parole in maiuscoletto indicano porzioni di testo enfatizzate</xsl:text></p>
-            </xsl:if>
-            <xsl:if test='//tei:distinct'>
-                <p><xsl:text>Le parole in corsivo indicano porzioni di testo linguisticamente distinte</xsl:text></p>
-            </xsl:if>
-        </div>-->
+    <br/>  
         <h2 id="h2tra">Trascrizione</h2>
-        <button onclick="find()"> indaga </button>
+        <button id="indaga" onclick="closeNav2()" ondblclick="reload()"> indaga </button>
+        <div id="legenda"></div>
         <div id="trascrizione">
             <xsl:apply-templates />
         </div>
         <button onclick="download()"> download </button>
     </xsl:template>
 
-    <!--indagare: da spostare in un foglio di stile-->
-    <xsl:template match="//tei:sic" />
+    <xsl:template mode="ixsl:onclick" match="h:button[@id='indaga']">
+        <xsl:result-document href="#legenda" method="ixsl:replace-content">
+            <h3><xsl:text>Legenda</xsl:text></h3>
+                <!--<p><xsl:text>Le frecce possono essere cliccate e mostrano/nascondono fenomeni comunicativi</xsl:text></p>
+                <p><xsl:text>I tre puntini (...) indicano le pause negli enunciati</xsl:text></p>
+                <p><xsl:text>Il carattere asterisco (*) indica parole di difficile interpretazione e, dunque, non certe</xsl:text></p>
+                <p><xsl:text>Il simbolo &#10008; indica le lacune</xsl:text></p>-->
+                <p class="bold"><xsl:text>Le parole in arancio sono le glosse e i relativi termini del Lager utilizzati</xsl:text></p>
+                <p class="emph"><xsl:text>Le parole in blu indicano porzioni di testo enfatizzate</xsl:text></p>
+                <p class="distinct"><xsl:text>Le parole in verde indicano porzioni di testo linguisticamente distinte</xsl:text></p>
+        </xsl:result-document>
+        <xsl:result-document href="#Menu" method="ixsl:replace-content">
+        </xsl:result-document>
+        <xsl:result-document href="#indaga" method="ixsl:replace-content">
+                clicca due volte: home
+        </xsl:result-document>
+    </xsl:template>
+
+    
+    <xsl:template match="//tei:sic"/>
         
     <xsl:template match="//tei:orig" />
     
@@ -227,9 +228,31 @@
     <xsl:template match="//tei:surplus" />
     
     <xsl:template match="//tei:del" />
+<!--indagare: da spostare in un foglio di stile
+    <xsl:template match="//tei:shift|//tei:emph" name="enf">
+        <span class="emph"><xsl:apply-templates /></span>
+    </xsl:template>
+
+    <xsl:template match="//tei:distinct">devo invididuare i tipi
+		<span class="distinte"><xsl:apply-templates/></span>
+	</xsl:template>
+
+    <xsl:template match="//tei:term|//tei:gloss">non si vede il termine
+		<xsl:choose>
+        <xsl:when test="@xml:id">
+			<span class="bold"><xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute><xsl:apply-templates/></span>
+		</xsl:when>
+        <xsl:when test="@ref|@target">
+			<a class="bold" style="color:orange"><xsl:attribute name="href"><xsl:value-of select="@ref|@target"/></xsl:attribute><xsl:apply-templates/></a>
+		</xsl:when>
+		<xsl:otherwise>
+			<xsl:apply-templates/>
+		</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>-->
 
     <xsl:template match="//tei:div[@type='testo']">
-        <b><xsl:text>Inizio registrazione</xsl:text></b><br /><xsl:apply-templates />
+        <h3><xsl:text>Inizio registrazione</xsl:text></h3><br /><xsl:apply-templates />
     </xsl:template>
 
     <xsl:template match="//tei:u">
@@ -255,7 +278,7 @@
                 </xsl:choose>
     </xsl:template>
 
-    <xsl:template match="//tei:desc"/>
+    <xsl:template match="//tei:desc"/><!--sistemare:sovrapposizioni vuote-->
     <xsl:template match="//tei:vocal"/>
 
     <xsl:template match="//tei:q">

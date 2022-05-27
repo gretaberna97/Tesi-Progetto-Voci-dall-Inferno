@@ -96,4 +96,28 @@ function more (desc) {
 	document.getElementById("Header").style.marginLeft = "0%";
   }
 
+  function reload(){
+	location.reload();
+  }
+
+  function closeNav2() {
+	document.getElementById("Testo").style.marginLeft = "0%";
+	document.getElementById("trascrizione").style.marginLeft = "27.5%";
+	document.getElementById("trascrizione").style.width = "64%";
+	document.getElementById("indaga").style.backgroundColor = "#b30000";
+	document.getElementById("indaga").style.width = "26%";
+	document.getElementById("indaga").style.display= "block-inline";
+	document.getElementById("indaga").style.marginLeft= "0%";
+	document.getElementById("indaga").style.color = "white";
+	document.getElementById("indaga").style.position = "-webkit-sticky";
+	document.getElementById("indaga").style.top = "2%";
+	document.getElementById("legenda").style.padding = "2%";
+	document.getElementById("Info").style.marginLeft= "0";
+	document.getElementById("footer").style.marginLeft = "0";
+	document.getElementById("Header").style.marginLeft = "0%";
+	document.getElementById("Info").style.opacity = "0.7";
+	document.getElementById("footer").style.opacity = "0.7";
+	document.getElementById("Header").style.opacity = "0.7";
+  }
+
  

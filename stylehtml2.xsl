@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="3.0" 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
  	xmlns:ixsl="http://saxonica.com/ns/interactiveXSLT"
-    xmlns:saxon="http://saxon.sf.net/"
     xmlns:h="http://www.w3.org/1999/xhtml"
     xmlns:js="http://saxonica.com/ns/globalJS"
     xmlns:saxon="http://saxon.sf.net/"
@@ -183,29 +182,31 @@
 									</a></li>
 								</xsl:otherwise>
 							</xsl:choose>
-                            
-                                <xsl:choose><!--codice funzionante ma brutto-->
-                                <xsl:when test=".[@source='#Rigano2015']">
-                                    <li><b><xsl:text>Fonte: </xsl:text></b>
-                                    <a>
-				                    <xsl:attribute name="href">#Rigano2015</xsl:attribute><xsl:text>Rigano, 2015</xsl:text>
-			                        </a></li>
-                                </xsl:when>
-                                <xsl:when test=".[@source='#Katz1973']">
-                                    <li><b><xsl:text>Fonte: </xsl:text></b>
-                                    <a>
-				                    <xsl:attribute name="href">#Katz1973</xsl:attribute><xsl:text>Katz, 1973</xsl:text>
-			                        </a></li>
-                                </xsl:when>
-                                <xsl:otherwise>
-                                </xsl:otherwise>
-                                </xsl:choose>
-                            
                         </ul>
                     </td>
                 </tr>
             </xsl:for-each>
         </table>
     </xsl:template>
+
+    <xsl:template select=".[@source='#Rigano2015']">
+        <xsl:choose><!--codice funzionante ma brutto-->
+            <xsl:when test=".[@source='#Rigano2015']">
+                <li><b><xsl:text>Fonte: </xsl:text></b>
+                    <a>
+				        <xsl:attribute name="href">#Rigano2015</xsl:attribute><xsl:text>Rigano, 2015</xsl:text>
+			            </a>
+                </li>
+            </xsl:when>
+            <xsl:when test=".[@source='#Katz1973']">
+                <li><b><xsl:text>Fonte: </xsl:text></b>
+                    <a>
+				        <xsl:attribute name="href">#Katz1973</xsl:attribute><xsl:text>Katz, 1973</xsl:text>
+			        </a>
+                </li>
+            </xsl:when>
+        <xsl:otherwise>
+        </xsl:otherwise>
+    </xsl:choose>
 
 </xsl:stylesheet>

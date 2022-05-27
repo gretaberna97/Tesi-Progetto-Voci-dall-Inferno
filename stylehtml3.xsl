@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="3.0" 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:tei="http://www.tei-c.org/ns/1.0" 
  	xmlns:ixsl="http://saxonica.com/ns/interactiveXSLT"
-    xmlns:saxon="http://saxon.sf.net/"
     xmlns:h="http://www.w3.org/1999/xhtml"
     xmlns:js="http://saxonica.com/ns/globalJS"
     xmlns:saxon="http://saxon.sf.net/"
