@@ -26,7 +26,6 @@
         <xsl:result-document href="#Info" method="ixsl:replace-content">
             <xsl:apply-templates select="//tei:fileDesc" />
             <xsl:apply-templates select="//tei:profileDesc" />
-            <xsl:apply-templates select="//tei:standOff" /><!--spostarlo-->
         </xsl:result-document>
         <xsl:result-document href="#Testo" method="ixsl:replace-content">
             <xsl:apply-templates select="//tei:text" />
@@ -176,15 +175,30 @@
         <br/>
         <h2 id="h2rias">Riassunto</h2>
         <table id="riassunto">
-        <xsl:for-each select="//tei:timeline[contains(@xml:id,'TL1')]"> 
-        <xsl:variable name="xmlWhen" select="./tei:when/@xml:id"/>
-        <tr><th>File <xsl:value-of select="position()"/></th>
-        <td>
+        
+        <xsl:for-each select="//tei:timeline[contains(@xml:id,'TL1')]">
+        <tr><th><xsl:text>File </xsl:text><xsl:value-of select="position()"/></th></tr>
+        <td><xsl:for-each select="./tei:when">
+        <xsl:variable name="xmlWhen" select="@xml:id"/>
+        <xsl:variable name="When" select="."/>
             <xsl:for-each select="//tei:item">
-                <xsl:if test=".[contains(@synch, '$xmlWhen')]"><!--non funziona-->
-                <xsl:value-of select="." />
+                <xsl:variable name="pos" select="position()"/>
+                <xsl:if test="substring-after(./@synch,'#') = $xmlWhen">
+                <b><xsl:text>Minuto </xsl:text>
+                <xsl:value-of select="$When/@absolute"/>
+                </b><br/>
+                <xsl:choose>
+                    <xsl:when test=".[contains(@synch,'a')]">
+                        <xsl:apply-templates/><i><xsl:text>[Continua nel file successivo]</xsl:text></i><br/><br/>
+                    </xsl:when> 
+                    <xsl:when test=".[contains(@synch,'b')]">
+                        <i><xsl:text>[Continuo del file precedente]</xsl:text></i><xsl:apply-templates/><br/><br/>
+                    </xsl:when> 
+                    <xsl:otherwise><xsl:apply-templates/><br/><br/></xsl:otherwise>
+                </xsl:choose>
                 </xsl:if> 
-            </xsl:for-each></td></tr>
+            </xsl:for-each>
+        </xsl:for-each></td>
         </xsl:for-each>
         </table>
     </xsl:template>
@@ -209,50 +223,13 @@
                 <p><xsl:text>Il simbolo &#10008; indica le lacune</xsl:text></p>-->
                 <p class="bold"><xsl:text>Le parole in arancio sono le glosse e i relativi termini del Lager utilizzati</xsl:text></p>
                 <p class="emph"><xsl:text>Le parole in blu indicano porzioni di testo enfatizzate</xsl:text></p>
-                <p class="distinct"><xsl:text>Le parole in verde indicano porzioni di testo linguisticamente distinte</xsl:text></p>
+                <p class="distinte"><xsl:text>Le parole in verde indicano porzioni di testo linguisticamente distinte</xsl:text></p>
         </xsl:result-document>
         <xsl:result-document href="#Menu" method="ixsl:replace-content">
         </xsl:result-document>
         <xsl:result-document href="#indaga" method="ixsl:replace-content">
                 clicca due volte: home
         </xsl:result-document>
-    </xsl:template>
-
-    
-    <xsl:template match="//tei:sic"/>
-        
-    <xsl:template match="//tei:orig" />
-    
-    <xsl:template match="//tei:abbr" />
-
-    <xsl:template match="//tei:surplus" />
-    
-    <xsl:template match="//tei:del" />
-<!--indagare: da spostare in un foglio di stile
-    <xsl:template match="//tei:shift|//tei:emph" name="enf">
-        <span class="emph"><xsl:apply-templates /></span>
-    </xsl:template>
-
-    <xsl:template match="//tei:distinct">devo invididuare i tipi
-		<span class="distinte"><xsl:apply-templates/></span>
-	</xsl:template>
-
-    <xsl:template match="//tei:term|//tei:gloss">non si vede il termine
-		<xsl:choose>
-        <xsl:when test="@xml:id">
-			<span class="bold"><xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute><xsl:apply-templates/></span>
-		</xsl:when>
-        <xsl:when test="@ref|@target">
-			<a class="bold" style="color:orange"><xsl:attribute name="href"><xsl:value-of select="@ref|@target"/></xsl:attribute><xsl:apply-templates/></a>
-		</xsl:when>
-		<xsl:otherwise>
-			<xsl:apply-templates/>
-		</xsl:otherwise>
-		</xsl:choose>
-	</xsl:template>-->
-
-    <xsl:template match="//tei:div[@type='testo']">
-        <h3><xsl:text>Inizio registrazione</xsl:text></h3><br /><xsl:apply-templates />
     </xsl:template>
 
     <xsl:template match="//tei:u">
@@ -278,7 +255,7 @@
                 </xsl:choose>
     </xsl:template>
 
-    <xsl:template match="//tei:desc"/><!--sistemare:sovrapposizioni vuote-->
+        <xsl:template match="//tei:desc"/><!--sistemare:sovrapposizioni vuote-->
     <xsl:template match="//tei:vocal"/>
 
     <xsl:template match="//tei:q">
@@ -286,6 +263,16 @@
 		<xsl:apply-templates/>
 		<xsl:text>&#187;</xsl:text>
 	</xsl:template>
+    
+    <xsl:template match="//tei:sic"/>
+        
+    <xsl:template match="//tei:orig" />
+    
+    <xsl:template match="//tei:abbr" />
+
+    <xsl:template match="//tei:surplus" />
+    
+    <xsl:template match="//tei:del" />
 
 
 </xsl:stylesheet>
