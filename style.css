@@ -93,6 +93,11 @@ table {
     margin-left:5%;
   }
 
+#riassunto td {
+  text-align: justify;
+  line-height: 30px;
+}
+
 #trascrizione {
   border:1px solid #4d4d4d;
   padding: 8px; 
@@ -273,9 +278,28 @@ footer span{
   font-size:20px;
 }
 
-.desc {
-  font-style: italic;
-  color:brown;
+.vocals {
+  color:purple;
+  font-weight: bold;
+}
+
+.gesti {
+  color:green;
+  font-weight: bold;
+}
+
+.emph {
+  color:blue;
+  font-weight: bold;
+}
+
+.del, .sup {
+  text-decoration: line-through;
+}
+
+.rum {
+  color:tomato;
+  font-weight: bold;
 }
 
 @keyframes example {
@@ -305,17 +329,107 @@ top: 15%;
 font-size: 15px;
 }
 
-.emph {
+#legenda select {
+  font-size: 17px;
+  width:70%;
+}
+
+.yi {
   color:blue;
   font-weight: bold;
 }
 
-.distinte {
+.fr {
+  color:purple;
+  font-weight: bold;
+}
+
+.en {
+  color:brown;
+  font-weight: bold;
+}
+
+.rus {
+  color:gray;
+  font-weight: bold;
+}
+
+.arc {
+  color: #66ff66;
+  font-weight: bold;
+}
+
+.lat {
+  color:#ff0066;
+  font-weight: bold;
+}
+
+.informali {
   color:green;
+  font-weight: bold;
+}
+
+.politiche {
+  color:#00ccff;
+  font-weight: bold;
+}
+
+.military {
+  color:red;
+  font-weight: bold;
+}
+
+.alterate {
+  color:salmon;
+  font-weight: bold;
+}
+
+.mdd {
+  color:royalblue;
+  font-weight: bold;
+}
+
+.tec {
+  color:#cc66ff;
+  font-weight: bold;
+}
+
+.fos {
+  color:#ff99bb;
+  font-weight: bold;
+}
+
+.infre {
+  color:teal;
+  font-weight: bold;
+}
+
+.volgari {
+  color:#669999;
+  font-weight: bold;
+}
+
+.slang {
+  color: #806000;
+  font-weight: bold;
+}
+
+.dia {
+  color: #000066;
   font-weight: bold;
 }
 
 .bold{
   font-weight: bold;
   color:orange;
+}
+
+.agg{
+  color:#00cc99;
+}
+
+select {
+font-size: 18px;
+min-width:15%;
+border: 2px solid #a6a6a6;
 }

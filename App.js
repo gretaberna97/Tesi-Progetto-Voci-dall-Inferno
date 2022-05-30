@@ -9,11 +9,6 @@ function testOne(){
 		sourceLocation: "AW1998.xml"//,
 		//initialTemplate: "menu"
 	}, "async")
-	SaxonJS.transform({
-        stylesheetLocation: "styletext.sef.json",
-		sourceLocation: "AW1998.xml"//,
-		//destination: "serialized"
-	}, "async");
 }
 
 function testTwo(){
@@ -26,11 +21,11 @@ function testTwo(){
 		sourceLocation: "AW1987.xml"//,
 		//initialTemplate: "main"
 	}, "async")
-	SaxonJS.transform({
+	/*SaxonJS.transform({
         stylesheetLocation: "styletext.sef.json",
 		sourceLocation: "AW1987.xml"//,
 		//destination: "serialized"
-	}, "async")
+	}, "async")*/
 }
 
 function peopleB(){
@@ -96,28 +91,79 @@ function more (desc) {
 	document.getElementById("Header").style.marginLeft = "0%";
   }
 
-  function reload(){
-	location.reload();
+  var xhttp = new XMLHttpRequest();
+  var xmlDoc;
+  xhttp.onreadystatechange = function() {
+	  if (this.readyState == 4 && this.status == 200) {
+		  myFunction(this);
+	  }
+  };
+  
+  function myFunction(xml) {
+	  xmlDoc = xml.responseXML;
   }
 
+xhttp.open('GET', "AW1987.xml", true); 
+xhttp.send();
+
   function closeNav2() {
-	document.getElementById("Testo").style.marginLeft = "0%";
-	document.getElementById("trascrizione").style.marginLeft = "27.5%";
-	document.getElementById("trascrizione").style.width = "64%";
-	document.getElementById("indaga").style.backgroundColor = "#b30000";
+	trans();
+	document.getElementById("indaga").style.backgroundColor = "transparent";
 	document.getElementById("indaga").style.width = "26%";
 	document.getElementById("indaga").style.display= "block-inline";
 	document.getElementById("indaga").style.marginLeft= "0%";
-	document.getElementById("indaga").style.color = "white";
 	document.getElementById("indaga").style.position = "-webkit-sticky";
 	document.getElementById("indaga").style.top = "2%";
+	document.getElementById("vocal").style.display= "none";
+	document.getElementById("minuti").style.display= "none";
+	scroll(0,0);
+	SaxonJS.transform({
+        stylesheetLocation: "styletext.sef.json",
+		sourceNode: xmlDoc,
+		destination: "serialized"
+	}, "async")
+  }
+
+  function closeNav3() {
+	trans();
+	document.getElementById("vocal").style.backgroundColor = "transparent";
+	document.getElementById("vocal").style.width = "26%";
+	document.getElementById("vocal").style.display= "block-inline";
+	document.getElementById("vocal").style.marginLeft= "0%";
+	document.getElementById("vocal").style.position = "-webkit-sticky";
+	document.getElementById("vocal").style.top = "2%";
+	document.getElementById("indaga").style.display= "none";
+	document.getElementById("minuti").style.display= "none";
+	scroll(0,0);
+	SaxonJS.transform({
+        stylesheetLocation: "styletext2.sef.json",
+		sourceNode: xmlDoc,
+		destination: "serialized"
+	}, "async")
+  }
+
+  function closeNav4() {
+	document.getElementById("indaga").style.width = "26%";
+	document.getElementById("Testo").style.marginLeft = "0%";
+	document.getElementById("minuti").style.backgroundColor = "transparent";
+	document.getElementById("indaga").style.display= "none";
+	document.getElementById("vocal").style.display= "none";
+	scroll(0,0);
+	SaxonJS.transform({
+        stylesheetLocation: "styletext3.sef.json",
+		sourceNode: xmlDoc,
+		destination: "serialized"
+	}, "async")
+  }
+
+  function trans() {
+	document.getElementById("Testo").style.marginLeft = "0%";
+	document.getElementById("trascrizione").style.marginLeft = "27.5%";
+	document.getElementById("trascrizione").style.width = "64%";
 	document.getElementById("legenda").style.padding = "2%";
-	document.getElementById("Info").style.marginLeft= "0";
 	document.getElementById("footer").style.marginLeft = "0";
 	document.getElementById("Header").style.marginLeft = "0%";
-	document.getElementById("Info").style.opacity = "0.7";
-	document.getElementById("footer").style.opacity = "0.7";
-	document.getElementById("Header").style.opacity = "0.7";
   }
+
 
  

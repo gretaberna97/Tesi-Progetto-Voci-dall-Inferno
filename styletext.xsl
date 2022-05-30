@@ -13,34 +13,140 @@
 
     <xsl:template name="main" match="/">
         <xsl:result-document href="#trascrizione" method="ixsl:replace-content">
-            <xsl:apply-templates select="//tei:text"/>
+            <xsl:call-template name="testo"/>
         </xsl:result-document>
     </xsl:template>
 
-    <xsl:template match="//tei:text">
-        <xsl:apply-templates />
+    <xsl:template name="testo" match="//div[@type='testo']">
+        <xsl:for-each select="//tei:div[@type='testo']">
+            <h3><xsl:text>File </xsl:text><xsl:value-of select="position()"/></h3>
+            <xsl:apply-templates/>
+            </xsl:for-each>
     </xsl:template>
 
+    <xsl:template match="//tei:choice">
+		<select>
+			<xsl:element name="option">
+				<xsl:attribute name="value">
+					<xsl:apply-templates select="tei:abbr|tei:sic|tei:orig"/>
+				</xsl:attribute>
+				<xsl:apply-templates select="tei:abbr|tei:sic|tei:orig"/>
+			</xsl:element>
+			<xsl:element name="option">
+				<xsl:attribute name="value">
+					<xsl:apply-templates select="tei:expan|tei:corr|tei:reg"/>
+				</xsl:attribute>
+				<xsl:apply-templates select="tei:expan|tei:corr|tei:reg"/>
+			</xsl:element>
+		</select>
+	</xsl:template>
       
-    <xsl:template match="//tei:sic"/>
-        
-    <xsl:template match="//tei:orig" />
-    
-    <xsl:template match="//tei:abbr" />
-
-    <xsl:template match="//tei:surplus" />
-    
-    <xsl:template match="//tei:del" />
-
-    <xsl:template match="//tei:shift|//tei:emph" name="enf">
-        <span class="emph"><xsl:apply-templates /></span>
-    </xsl:template>
-
-    <xsl:template match="//tei:distinct"><!--devo invididuare i tipi-->
-		<span class="distinte"><xsl:apply-templates/></span>
+    <xsl:template match="//tei:abbr">
+        <xsl:apply-templates/>
 	</xsl:template>
 
-    <xsl:template match="//tei:term|//tei:gloss">non si vede il termine
+    <xsl:template match="//tei:expan">
+        <xsl:apply-templates/>
+	</xsl:template>
+
+    <xsl:template match="//tei:sic">
+        <xsl:text> &#10060; </xsl:text><xsl:apply-templates/>
+	</xsl:template>
+
+    <xsl:template match="//tei:corr">
+        <xsl:text> &#128994; </xsl:text><xsl:apply-templates/>
+	</xsl:template>
+
+    <xsl:template match="//tei:orig">
+        <xsl:text> &#191; </xsl:text><xsl:apply-templates/>
+	</xsl:template>
+
+    <xsl:template match="//tei:reg">
+        <xsl:text> &#128994; </xsl:text><xsl:apply-templates/>
+	</xsl:template>
+
+    <xsl:template match="//tei:surplus">
+        <span class="sup"><xsl:apply-templates/></span>
+    </xsl:template>
+
+    <xsl:template match="//tei:supplied">
+        <span class="agg"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="//tei:del"/>
+    
+    <xsl:template match="//*[@xml:lang='de']">
+        <span class="bold"><xsl:apply-templates /></span>
+    </xsl:template>
+
+    <xsl:template match="//*[@xml:lang='ji']">
+        <span class="yi"><xsl:apply-templates /></span>
+    </xsl:template>
+
+    <xsl:template match="//*[@xml:lang='fr']">
+        <span class="fr"><xsl:apply-templates /></span>
+    </xsl:template>
+
+    <xsl:template match="//*[@xml:lang='en']">
+        <span class="en"><xsl:apply-templates /></span>
+    </xsl:template>
+
+    <xsl:template match="//*[@xml:lang='rus']">
+        <span class="rus"><xsl:apply-templates /></span>
+    </xsl:template>
+
+    <xsl:template match="//*[@xml:lang='lat']">
+        <span class="lat"><xsl:apply-templates /></span>
+    </xsl:template>
+
+    <xsl:template match="//tei:distinct[@type='informal']">
+		<span class="informali"><xsl:apply-templates/></span>
+	</xsl:template>
+
+    <xsl:template match="//tei:distinct[@type='political']">
+		<span class="politiche"><xsl:apply-templates/></span>
+	</xsl:template>
+
+    <xsl:template match="//tei:distinct[@type='military']">
+		<span class="military"><xsl:apply-templates/></span>
+	</xsl:template>
+
+    <xsl:template match="//tei:distinct[@type='altered']">
+		<span class="altered"><xsl:apply-templates/></span>
+	</xsl:template>
+
+    <xsl:template match="//tei:distinct[@type='common_saying']">
+		<span class="mdd"><xsl:apply-templates/></span>
+	</xsl:template>
+
+    <xsl:template match="//tei:distinct[@type='technical']">
+		<span class="tec"><xsl:apply-templates/></span>
+	</xsl:template>
+
+    <xsl:template match="//tei:distinct[@type='figure_of_speech']">
+		<span class="fos"><xsl:apply-templates/></span>
+	</xsl:template>
+
+    <xsl:template match="//tei:distinct[@type='infrequent']">
+		<span class="infre"><xsl:apply-templates/></span>
+	</xsl:template>
+
+    <xsl:template match="//tei:distinct[@type='vulgar']">
+		<span class="volgari"><xsl:apply-templates/></span>
+	</xsl:template>
+
+    <xsl:template match="//tei:distinct[@type='archaic']">
+		<span class="arc"><xsl:apply-templates/></span>
+	</xsl:template>
+
+    <xsl:template match="//tei:distinct[@type='slang']">
+		<span class="slang"><xsl:apply-templates/></span>
+	</xsl:template>
+
+    <xsl:template match="//tei:distinct[@type='dialectal']">
+		<span class="dia"><xsl:apply-templates/></span>
+	</xsl:template>
+    <!--<xsl:template match="//tei:term|//tei:gloss">
 		<xsl:choose>
         <xsl:when test="@xml:id">
 			<span class="bold"><xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute><xsl:apply-templates/></span>
@@ -52,11 +158,7 @@
 			<xsl:apply-templates/>
 		</xsl:otherwise>
 		</xsl:choose>
-	</xsl:template>
-
-    <xsl:template match="//tei:div[@type='testo']">
-        <h3><xsl:text>Inizio registrazione</xsl:text></h3><br /><xsl:apply-templates />
-    </xsl:template>
+	</xsl:template>-->
 
     <xsl:template match="//tei:u">
                 <xsl:choose>
@@ -73,7 +175,7 @@
                         <b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:apply-templates /><br />
                     </xsl:when>
                     <xsl:when test="./@who='Maria'">
-                        <b><xsl:text>Maria: </xsl:text></b><xsl:apply-templates /><xsl:text>-</xsl:text><br />
+                        <b><xsl:text>Maria: </xsl:text></b><xsl:apply-templates /><br />
                     </xsl:when>
                     <xsl:otherwise>
                         <b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:apply-templates /><br />
@@ -81,42 +183,42 @@
                 </xsl:choose>
     </xsl:template>
 
-    <xsl:template match="//tei:desc"/><!--sistemare:sovrapposizioni vuote-->
     <xsl:template match="//tei:vocal"/>
+    <xsl:template match="//tei:desc"/>
+
+    <!--vocal e desc presenti solo in sovrapposizione-->
+    <xsl:template match="//tei:u[not(@xml:id)]/tei:vocal">
+        <xsl:apply-templates/>
+    </xsl:template>
+
+    <xsl:template match="//tei:u[not(@xml:id)]//tei:desc" >
+        <xsl:text>(</xsl:text><xsl:apply-templates/><xsl:text>)</xsl:text>
+    </xsl:template>
 
     <xsl:template match="//tei:q">
 		<xsl:text>&#171;</xsl:text>
 		<xsl:apply-templates/>
 		<xsl:text>&#187;</xsl:text>
 	</xsl:template>
-        
-    <!--
+
     <xsl:template match="//tei:gap" >
-        <xsl:choose>
-        <xsl:when test="following-sibling::tei:u">  <xsl:text>&#10008;</xsl:text><br /></xsl:when>
-        <xsl:otherwise><xsl:text>&#10008;</xsl:text></xsl:otherwise>
-        </xsl:choose>
+        <xsl:if test="..[not(@xml:id)] and normalize-space(..)=''">
+            <xsl:text>*lacuna*</xsl:text>
+        </xsl:if>
     </xsl:template>
 
-    <xsl:template match="//tei:unclear" >
-        <xsl:text>*</xsl:text><xsl:apply-templates /><xsl:text>*</xsl:text>
-    </xsl:template>
-
-
+    <!--vocale
     <xsl:template match="//tei:desc">
         <xsl:choose>
             <xsl:when test="../@who"> 
-                <span onclick="more(this)" style="cursor: pointer"><xsl:text> &#9657; </xsl:text></span>
-                <span class="desc" style="display:none"><xsl:text>L'altro </xsl:text><xsl:apply-templates /> </span>
+                <span class="desc"> (<xsl:text>l'altro </xsl:text><xsl:apply-templates />) </span>
             </xsl:when>
             <xsl:when test="../following-sibling::tei:u"> 
-                <span onclick="more(this)" style="cursor: pointer"><xsl:text> &#9657; </xsl:text></span>
-                <span class="desc" style="display:none"><xsl:apply-templates /> </span>
+                <span class="desc"> (<xsl:apply-templates />)</span>
                <br />
             </xsl:when>
             <xsl:otherwise>
-                <span onclick="more(this)" style="cursor: pointer"><xsl:text> &#9657; </xsl:text></span>
-                <span class="desc" style="display:none"><xsl:apply-templates /> </span>
+                <span class="desc"> (<xsl:apply-templates />) </span>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
@@ -127,51 +229,19 @@
                 <xsl:apply-templates />
         </xsl:when>
         <xsl:otherwise>
-                <span onclick="more(this)" style="cursor: pointer"><xsl:text> &#9657; </xsl:text></span>
-                <span class="desc" style="display:none"><xsl:apply-templates /> </span>
+                <span class="desc"><xsl:apply-templates /> </span>
         </xsl:otherwise>
         </xsl:choose>
+    </xsl:template>-->
+        
+<!--
+    <xsl:template match="//tei:unclear" >
+        <xsl:text>*</xsl:text><xsl:apply-templates /><xsl:text>*</xsl:text>
     </xsl:template>
-
-    <xsl:template match="//tei:pause">
-        <xsl:choose>
-        <xsl:when test="following-sibling::tei:u">  <i><xsl:text>... Pausa ...</xsl:text></i><xsl:apply-templates /><br /></xsl:when>
-        <xsl:otherwise><xsl:text> ...</xsl:text><xsl:apply-templates /></xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
-
-   <xsl:template match="//tei:shift|//tei:emph">
-        <span class="emph"><xsl:apply-templates /></span>
-    </xsl:template>
-
-	<xsl:template match="//tei:q">
-		<xsl:text>&#171;</xsl:text>
-		<xsl:apply-templates/>
-		<xsl:text>&#187;</xsl:text>
-	</xsl:template>
-
-	<xsl:template match="//tei:term|//tei:gloss">
-		<xsl:choose>
-        <xsl:when test="@xml:id">
-			<span><xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute><xsl:apply-templates/></span>
-		</xsl:when>
-        <xsl:when test="@ref|@target">
-			<a><xsl:attribute name="href"><xsl:value-of select="@ref|@target"/></xsl:attribute><xsl:apply-templates/></a>
-		</xsl:when>
-		<xsl:otherwise>
-			<xsl:apply-templates/>
-		</xsl:otherwise>
-		</xsl:choose>
-	</xsl:template>
 
 	<xsl:template match="tei:span[@corresp]">
         <xsl:text> &#8219;</xsl:text><xsl:apply-templates /><xsl:text> &#8217;</xsl:text>
 	</xsl:template>
-
-
-	<xsl:template match="//tei:distinct">
-		<i><xsl:apply-templates/></i>
-	</xsl:template>-->
-   
+-->  
     
 </xsl:stylesheet> 

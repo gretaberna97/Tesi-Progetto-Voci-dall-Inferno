@@ -206,29 +206,82 @@
     <xsl:template match="//tei:text" >
     <br/>  
         <h2 id="h2tra">Trascrizione</h2>
-        <button id="indaga" onclick="closeNav2()" ondblclick="reload()"> indaga </button>
+        <button id="indaga" onclick="closeNav2()"> lessico </button>
+        <button id="vocal" onclick="closeNav3()"> fenomeni vocali </button>
+        <button id="minuti" onclick="closeNav4()"> mostra minuti </button>
         <div id="legenda"></div>
         <div id="trascrizione">
-            <xsl:apply-templates />
+            <xsl:for-each select="//tei:div[@type='testo']">
+            <h3><xsl:text>File </xsl:text><xsl:value-of select="position()"/></h3>
+                <xsl:apply-templates/>
+            </xsl:for-each>
         </div>
         <button onclick="download()"> download </button>
     </xsl:template>
 
     <xsl:template mode="ixsl:onclick" match="h:button[@id='indaga']">
+        <xsl:result-document href="#Info" method="ixsl:replace-content">
+        </xsl:result-document>
         <xsl:result-document href="#legenda" method="ixsl:replace-content">
             <h3><xsl:text>Legenda</xsl:text></h3>
-                <!--<p><xsl:text>Le frecce possono essere cliccate e mostrano/nascondono fenomeni comunicativi</xsl:text></p>
-                <p><xsl:text>I tre puntini (...) indicano le pause negli enunciati</xsl:text></p>
-                <p><xsl:text>Il carattere asterisco (*) indica parole di difficile interpretazione e, dunque, non certe</xsl:text></p>
-                <p><xsl:text>Il simbolo &#10008; indica le lacune</xsl:text></p>-->
-                <p class="bold"><xsl:text>Le parole in arancio sono le glosse e i relativi termini del Lager utilizzati</xsl:text></p>
-                <p class="emph"><xsl:text>Le parole in blu indicano porzioni di testo enfatizzate</xsl:text></p>
-                <p class="distinte"><xsl:text>Le parole in verde indicano porzioni di testo linguisticamente distinte</xsl:text></p>
+                <!--<span class="bold"><xsl:text>Le parole in arancio sono le glosse e i relativi termini tedeschi del Lager utilizzati</xsl:text></p>-->
+                <span class="agg"><xsl:text>Parole aggiunte</xsl:text></span><br/>
+                <span class="sup"><xsl:text>Parole non necessarie</xsl:text></span><br/>
+                <span class="bold"><xsl:text>Parole in lingua tedesca</xsl:text></span><br/>
+                <span class="yi"><xsl:text>Parole in lingua yiddish</xsl:text></span><br/>
+                <span class="fr"><xsl:text>Parole in lingua francese</xsl:text></span><br/>
+                <span class="en"><xsl:text>Parole in lingua inglese</xsl:text></span><br/>
+                <span class="rus"><xsl:text>Parole in lingua russa</xsl:text></span><br/>
+                <span class="lat"><xsl:text>Parole in lingua latina</xsl:text></span><br/>
+                <span class="informali"><xsl:text>Parole informali</xsl:text></span><br/>
+                <span class="politiche"><xsl:text>Parole politiche</xsl:text></span><br/>
+                <span class="military"><xsl:text>Parole militari</xsl:text></span><br/>
+                <span class="alterate"><xsl:text>Parole alterate</xsl:text></span><br/>
+                <span class="mdd"><xsl:text>Modi di dire</xsl:text></span><br/>
+                <span class="tec"><xsl:text>Parole tecniche</xsl:text></span><br/>
+                <span class="fos"><xsl:text>Figure retoriche</xsl:text></span><br/>
+                <span class="infre"><xsl:text>Parole infrequenti</xsl:text></span><br/>
+                <span class="volgari"><xsl:text>Parole non eleganti</xsl:text></span><br/>
+                <span class="arc"><xsl:text>Parole arcaiche</xsl:text></span><br/>
+                <span class="slang"><xsl:text>Parole gergali</xsl:text></span><br/>
+                <span class="dia"><xsl:text>Parole dialettali</xsl:text></span>
+                <select><option><xsl:text>Abbreviazione</xsl:text></option><option><xsl:text>Estensione</xsl:text></option></select>
+                <select><option><xsl:text>&#10060; Errore</xsl:text></option><option><xsl:text>&#128994; Correzione</xsl:text></option></select>
+                <select><option><xsl:text>&#191; Non standard</xsl:text></option><option><xsl:text>&#128994; Normalizzazione</xsl:text></option></select>
         </xsl:result-document>
         <xsl:result-document href="#Menu" method="ixsl:replace-content">
         </xsl:result-document>
         <xsl:result-document href="#indaga" method="ixsl:replace-content">
-                clicca due volte: home
+                <img id="home" src="home.png" alt="Icona home"/>
+        </xsl:result-document>
+    </xsl:template>
+
+    <xsl:template mode="ixsl:onclick" match="h:button[@id='vocal']">
+        <xsl:result-document href="#Info" method="ixsl:replace-content">
+        </xsl:result-document>
+        <xsl:result-document href="#legenda" method="ixsl:replace-content">
+            <h3><xsl:text>Legenda</xsl:text></h3>
+                <span class="del"><xsl:text>Ripensamenti</xsl:text></span><br/>
+                <span class="emph"><xsl:text>Porzioni enfatizzate</xsl:text></span><br/>
+                <span class="vocals"><xsl:text>Fenomeni vocali</xsl:text></span><br/>
+                <span class="gesti"><xsl:text>Descrizione dei gesti</xsl:text></span><br/>
+                <span class="rum"><xsl:text>Rumori accidentali</xsl:text></span><br/>
+                <b><span><xsl:text>I tre puntini indicano le pause</xsl:text></span></b><br/>
+        </xsl:result-document>
+        <xsl:result-document href="#Menu" method="ixsl:replace-content">
+        </xsl:result-document>
+        <xsl:result-document href="#vocal" method="ixsl:replace-content">
+                <img id="home" src="home.png" alt="Icona home"/>
+        </xsl:result-document>
+    </xsl:template>
+
+    <xsl:template mode="ixsl:onclick" match="h:button[@id='minuti']">
+        <xsl:result-document href="#Info" method="ixsl:replace-content">
+        </xsl:result-document>
+        <xsl:result-document href="#Menu" method="ixsl:replace-content">
+        </xsl:result-document>
+        <xsl:result-document href="#minuti" method="ixsl:replace-content">
+                <img id="home" src="home.png" alt="Icona home"/>
         </xsl:result-document>
     </xsl:template>
 
@@ -247,7 +300,7 @@
                         <b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:apply-templates /><br />
                     </xsl:when>
                     <xsl:when test="./@who='Maria'">
-                        <b><xsl:text>Maria: </xsl:text></b><xsl:apply-templates /><xsl:text>-</xsl:text><br />
+                        <b><xsl:text>Maria: </xsl:text></b><xsl:apply-templates /><br />
                     </xsl:when>
                     <xsl:otherwise>
                         <b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:apply-templates /><br />
@@ -255,15 +308,30 @@
                 </xsl:choose>
     </xsl:template>
 
-        <xsl:template match="//tei:desc"/><!--sistemare:sovrapposizioni vuote-->
-    <xsl:template match="//tei:vocal"/>
+    <xsl:template match="//tei:vocal" />
+    <xsl:template match="//tei:desc" />
+
+    <!--vocal e desc presenti solo in sovrapposizione-->
+    <xsl:template match="//tei:u[not(@xml:id)]/tei:vocal">
+        <xsl:apply-templates/>
+    </xsl:template>
+
+    <xsl:template match="//tei:u[not(@xml:id)]//tei:desc" >
+        <xsl:text>(</xsl:text><xsl:apply-templates/><xsl:text>)</xsl:text>
+    </xsl:template>
 
     <xsl:template match="//tei:q">
 		<xsl:text>&#171;</xsl:text>
 		<xsl:apply-templates/>
 		<xsl:text>&#187;</xsl:text>
 	</xsl:template>
-    
+
+    <xsl:template match="//tei:gap" >
+        <xsl:if test="..[not(@xml:id)] and normalize-space(..)=''">
+            <xsl:text>*lacuna*</xsl:text>
+        </xsl:if>
+    </xsl:template>
+  
     <xsl:template match="//tei:sic"/>
         
     <xsl:template match="//tei:orig" />
@@ -273,6 +341,5 @@
     <xsl:template match="//tei:surplus" />
     
     <xsl:template match="//tei:del" />
-
 
 </xsl:stylesheet>
