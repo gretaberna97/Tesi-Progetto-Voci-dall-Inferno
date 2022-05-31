@@ -106,6 +106,7 @@ table {
   margin-left:5%;
   line-height: 30px;
   text-align: justify;
+  margin-bottom:2%;
 }
 
 #places th {
@@ -316,7 +317,7 @@ footer span{
   animation-duration:4s;
 }
 
-#legenda {
+#legenda { /*sistemare per il piccolo*/
 text-align:center;
 float:left;
 width:22%;
@@ -327,6 +328,7 @@ position: -webkit-sticky;
 position: sticky;
 top: 15%;
 font-size: 15px;
+padding:2%;
 }
 
 #legenda select {
@@ -334,17 +336,17 @@ font-size: 15px;
   width:70%;
 }
 
-.yi {
+.yi, .org {
   color:blue;
   font-weight: bold;
 }
 
-.fr {
+.fr, .place {
   color:purple;
   font-weight: bold;
 }
 
-.en {
+.en, .pers {
   color:brown;
   font-weight: bold;
 }
@@ -354,17 +356,28 @@ font-size: 15px;
   font-weight: bold;
 }
 
+.cerca {
+  display:inline-block;
+  width:26%;
+  margin:1%;
+  word-wrap: break-word;
+}
+
+#bottoni {
+  text-align: center;
+}
+
 .arc {
   color: #66ff66;
   font-weight: bold;
 }
 
-.lat {
+.lat, .date {
   color:#ff0066;
   font-weight: bold;
 }
 
-.informali {
+.informali, .time {
   color:green;
   font-weight: bold;
 }
@@ -379,9 +392,13 @@ font-size: 15px;
   font-weight: bold;
 }
 
-.alterate {
+.alterate, .mes {
   color:salmon;
   font-weight: bold;
+}
+
+.unc {
+  border: 2px solid silver;
 }
 
 .mdd {
@@ -389,7 +406,7 @@ font-size: 15px;
   font-weight: bold;
 }
 
-.tec {
+.tec, .rif {
   color:#cc66ff;
   font-weight: bold;
 }

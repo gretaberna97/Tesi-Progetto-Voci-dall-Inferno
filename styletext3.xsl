@@ -17,11 +17,40 @@
         </xsl:result-document>
     </xsl:template>
 
-    <xsl:template name="testo" match="//div[@type='testo']">
-        <xsl:for-each select="//tei:div[@type='testo']">
+    <xsl:template name="testo">
+        <xsl:for-each select="//tei:timeline[contains(@xml:id,'TL3')]">
             <h3><xsl:text>File </xsl:text><xsl:value-of select="position()"/></h3>
-            <xsl:apply-templates/>
+            <xsl:for-each select="./tei:when">
+                <xsl:variable name="xmlWhen" select="@xml:id"/>
+                <xsl:variable name="When" select="."/>
+                    <xsl:for-each select="//tei:u">
+                        <xsl:if test="substring-after(./@synch,'#') = $xmlWhen">
+                        <b style="color:red">
+                        <xsl:value-of select="$When/@absolute"/>
+                        </b><xsl:text> </xsl:text>
+                        <xsl:choose>
+                            <xsl:when test="./@who='#AW'">
+                                <b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:apply-templates /><br />
+                            </xsl:when>
+                            <xsl:when test="./@who='#MA'">
+                                <b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:apply-templates /><br />
+                            </xsl:when>
+                            <xsl:when test="./@who='#LPF'">
+                                <b><xsl:text>Liliana Picciotto Fargion: </xsl:text></b><xsl:apply-templates /><br />
+                            </xsl:when>
+                            <xsl:when test="./@who='#PF'">
+                                <b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:apply-templates /><br />
+                            </xsl:when>
+                            <xsl:when test="./@who='Maria'">
+                                <b><xsl:text>Maria: </xsl:text></b><xsl:apply-templates /><br />
+                            </xsl:when>
+                            <xsl:otherwise><xsl:apply-templates select="self::node()[not(@xml:id)]"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                        </xsl:if> 
+                    </xsl:for-each>
             </xsl:for-each>
+        </xsl:for-each>
     </xsl:template>
       
     <xsl:template match="//tei:sic"/>
@@ -33,46 +62,6 @@
     <xsl:template match="//tei:surplus" />
     
     <xsl:template match="//tei:del" />
-
-    <xsl:template match="//tei:u"><!--NON RIESCO AD INSERIRE I MINUTI-->
-            <xsl:apply-templates select="//tei:timeline[contains(@xml:id,'TL3')]"/>
-            <xsl:choose>
-                    <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who]">
-                    <b><xsl:text>(SOVRAPPOSIZIONE): </xsl:text></b><xsl:apply-templates /><br />
-                    </xsl:when>
-                    <xsl:when test="./@who='#MA'">
-                        <b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:apply-templates /><br />
-                    </xsl:when>
-                    <xsl:when test="./@who='#LPF'">
-                        <b><xsl:text>Liliana Picciotto Fargion: </xsl:text></b><xsl:apply-templates /><br />
-                    </xsl:when>
-                    <xsl:when test="./@who='#PF'">
-                        <b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:apply-templates /><br />
-                    </xsl:when>
-                    <xsl:when test="./@who='Maria'">
-                        <b><xsl:text>Maria: </xsl:text></b><xsl:apply-templates /><br />
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:apply-templates /><br />
-                    </xsl:otherwise>
-                </xsl:choose>
-    </xsl:template>
-
-    <xsl:template match="//tei:timeline[contains(@xml:id,'TL3')]"><!--NON RIESCO AD INSERIRE I MINUTI-->
-        <xsl:for-each select="//tei:when">
-        <xsl:variable name="xmlWhen" select="@xml:id"/>
-        <xsl:variable name="When" select="."/>
-            <xsl:for-each select="//tei:u">
-                <xsl:variable name="pos" select="position()"/>
-                <xsl:if test="substring-after(./@synch,'#') = $xmlWhen">
-                <b><xsl:text>Minuto </xsl:text>
-                <xsl:value-of select="$When/@absolute"/>
-                </b><br/>
-                </xsl:if> 
-                <b><xsl:text>ciao </xsl:text></b><br />
-            </xsl:for-each>
-        </xsl:for-each>
-    </xsl:template>
 
     <xsl:template match="//tei:q">
 		<xsl:text>&#171;</xsl:text>

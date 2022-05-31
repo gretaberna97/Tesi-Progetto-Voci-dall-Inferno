@@ -24,7 +24,7 @@
             </xsl:for-each>
     </xsl:template>
 
-    <xsl:template match="//tei:sic"/>
+    <xsl:template match="//tei:sic" />
         
     <xsl:template match="//tei:orig" />
     
@@ -32,13 +32,7 @@
 
     <xsl:template match="//tei:surplus" />
     
-    <xsl:template match="//tei:del">
-        <span class="del"><xsl:apply-templates/></span>
-    </xsl:template>
-
-    <xsl:template match="//tei:shift|//tei:emph" name="enf">
-        <span class="emph"><xsl:apply-templates /></span>
-    </xsl:template>
+    <xsl:template match="//tei:del"/>
 
     <xsl:template match="//tei:u">
                 <xsl:choose>
@@ -75,76 +69,54 @@
 		<xsl:text>&#187;</xsl:text>
 	</xsl:template>
 
-
-    <xsl:template match="//tei:kinesic/tei:desc">
-        <xsl:choose>
-            <xsl:when test="../@who"> 
-                <span class="gesti"> (<xsl:text>l'altro </xsl:text><xsl:apply-templates />) </span>
-            </xsl:when>
-            <xsl:when test="../following-sibling::tei:u"> 
-                <span class="gesti"> (<xsl:apply-templates />)</span>
-               <br />
-            </xsl:when>
-            <xsl:otherwise>
-                <span class="gesti"> (<xsl:apply-templates />) </span>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
-
-    <xsl:template match="//tei:incident/tei:desc">
-        <xsl:choose>
-            <xsl:when test="../@who"> 
-                <span class="rum"> (<xsl:text>l'altro </xsl:text><xsl:apply-templates />) </span>
-            </xsl:when>
-            <xsl:when test="../following-sibling::tei:u"> 
-                <span class="rum"> (<xsl:apply-templates />)</span>
-               <br />
-            </xsl:when>
-            <xsl:otherwise>
-                <span class="rum"> (<xsl:apply-templates />) </span>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
-
-    <xsl:template match="//tei:vocal">
-        <xsl:choose>
-        <xsl:when test="./tei:desc">
-                <span class="vocals"> (<xsl:apply-templates />) </span>
-        </xsl:when>
-        <xsl:otherwise>
-                <span class="vocals"><xsl:apply-templates /> </span>
-        </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
+    <xsl:template match="//tei:desc"/>
+    <xsl:template match="//tei:vocal"/>
 
     <!--vocal e desc presenti solo in sovrapposizione-->
     <xsl:template match="//tei:u[not(@xml:id)]/tei:vocal" >
-            <span class="vocals"><xsl:apply-templates/></span>
+            <xsl:apply-templates/>
     </xsl:template>
 
-    <xsl:template match="//tei:u[not(@xml:id)]//tei:incident/tei:desc" >
-        <span class="rum"><xsl:text>(</xsl:text><xsl:apply-templates/><xsl:text>)</xsl:text></span>
-    </xsl:template>
-
-    <xsl:template match="//tei:u[not(@xml:id)]//tei:kinesic/tei:desc" >
-        <span class="gesti"><xsl:text>(</xsl:text><xsl:apply-templates/><xsl:text>)</xsl:text></span>
-    </xsl:template>
-
-    <xsl:template match="//tei:u[not(@xml:id)]//tei:vocal/tei:desc" >
-        <span class="vocals"><xsl:text>(</xsl:text><xsl:apply-templates/><xsl:text>)</xsl:text></span>
-    </xsl:template>
-
-    <xsl:template match="//tei:pause">
-        <xsl:choose>
-        <xsl:when test="following-sibling::tei:u">  <b><xsl:text>...</xsl:text></b><br /></xsl:when>
-        <xsl:otherwise><b><xsl:text> ...</xsl:text></b></xsl:otherwise>
-        </xsl:choose>
+    <xsl:template match="//tei:u[not(@xml:id)]//tei:desc" ><!--span classe-->
+        <xsl:text>(</xsl:text><xsl:apply-templates/><xsl:text>)</xsl:text>
     </xsl:template>
     
     <xsl:template match="//tei:gap" >
         <xsl:if test="..[not(@xml:id)] and normalize-space(..)=''">
             <xsl:text>*lacuna*</xsl:text>
         </xsl:if>
+    </xsl:template>
+
+    <xsl:template match="//tei:orgName" >
+        <span class="org"><xsl:apply-templates/></span>
+    </xsl:template>
+
+    <xsl:template match="//tei:persName" >
+        <span class="pers"><xsl:apply-templates/></span>
+    </xsl:template>
+
+    <xsl:template match="//tei:rs" >
+        <span class="rif"><xsl:apply-templates/></span>
+    </xsl:template>
+
+    <xsl:template match="//tei:placeName" >
+        <span class="place"><xsl:apply-templates/></span>
+    </xsl:template>
+
+    <xsl:template match="//tei:place" >
+        <span class="place"><xsl:apply-templates/></span>
+    </xsl:template>
+
+    <xsl:template match="//tei:measure" >
+        <span class="mes"><xsl:apply-templates/></span>
+    </xsl:template>
+
+    <xsl:template match="//tei:date" >
+        <span class="date"><xsl:apply-templates/></span>
+    </xsl:template>
+
+    <xsl:template match="//tei:time" >
+        <span class="time"><xsl:apply-templates/></span>
     </xsl:template>
 <!--
     <xsl:template match="//tei:unclear" >

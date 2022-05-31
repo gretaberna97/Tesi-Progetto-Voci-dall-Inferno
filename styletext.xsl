@@ -146,6 +146,7 @@
     <xsl:template match="//tei:distinct[@type='dialectal']">
 		<span class="dia"><xsl:apply-templates/></span>
 	</xsl:template>
+
     <!--<xsl:template match="//tei:term|//tei:gloss">
 		<xsl:choose>
         <xsl:when test="@xml:id">
@@ -162,8 +163,14 @@
 
     <xsl:template match="//tei:u">
                 <xsl:choose>
-                    <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who]">
-                        <b><xsl:text>(SOVRAPPOSIZIONE): </xsl:text></b><xsl:apply-templates /><br />
+                    <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#AW']">
+                        <b><xsl:text>(Arminio W. sovrapposizione): </xsl:text></b><xsl:apply-templates /><br />
+                    </xsl:when>
+                    <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#LPF']">
+                        <b><xsl:text>(Liliana P.F. sovrapposizione): </xsl:text></b><xsl:apply-templates /><br />
+                    </xsl:when>
+                    <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#MA']">
+                        <b><xsl:text>(Maurina A. sovrapposizione): </xsl:text></b><xsl:apply-templates /><br />
                     </xsl:when>
                     <xsl:when test="./@who='#MA'">
                         <b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:apply-templates /><br />
@@ -202,9 +209,14 @@
 	</xsl:template>
 
     <xsl:template match="//tei:gap" >
-        <xsl:if test="..[not(@xml:id)] and normalize-space(..)=''">
-            <xsl:text>*lacuna*</xsl:text>
-        </xsl:if>
+        <xsl:choose>
+        <xsl:when test="following-sibling::tei:u">  <xsl:text>*lacuna*</xsl:text><br /></xsl:when>
+        <xsl:otherwise><xsl:text>*lacuna*</xsl:text></xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
+    <xsl:template match="//tei:unclear" >
+        <span class="unc"><xsl:apply-templates /></span>
     </xsl:template>
 
     <!--vocale
@@ -235,10 +247,6 @@
     </xsl:template>-->
         
 <!--
-    <xsl:template match="//tei:unclear" >
-        <xsl:text>*</xsl:text><xsl:apply-templates /><xsl:text>*</xsl:text>
-    </xsl:template>
-
 	<xsl:template match="tei:span[@corresp]">
         <xsl:text> &#8219;</xsl:text><xsl:apply-templates /><xsl:text> &#8217;</xsl:text>
 	</xsl:template>

@@ -182,7 +182,6 @@
         <xsl:variable name="xmlWhen" select="@xml:id"/>
         <xsl:variable name="When" select="."/>
             <xsl:for-each select="//tei:item">
-                <xsl:variable name="pos" select="position()"/>
                 <xsl:if test="substring-after(./@synch,'#') = $xmlWhen">
                 <b><xsl:text>Minuto </xsl:text>
                 <xsl:value-of select="$When/@absolute"/>
@@ -206,33 +205,50 @@
     <xsl:template match="//tei:text" >
     <br/>  
         <h2 id="h2tra">Trascrizione</h2>
-        <button id="indaga" onclick="closeNav2()"> lessico </button>
-        <button id="vocal" onclick="closeNav3()"> fenomeni vocali </button>
-        <button id="minuti" onclick="closeNav4()"> mostra minuti </button>
-        <div id="legenda"></div>
+        <div id="bottoni">
+        <button id="information" onclick="closeNav5()" class="cerca"> informatività </button>
+        <button id="indaga" onclick="closeNav2()" class="cerca"> indaga il testo </button>
+        <button id="vocal" onclick="closeNav3()" class="cerca"> fenomeni comunicativi </button>
+        <button id="minuti" onclick="minuti()" class="cerca"> mostra i minuti </button>
+        <button id="terms" onclick="glosse()" class="cerca"> termini del Lager </button>
+        <button id="download" onclick="download()" class="cerca"> download </button>
+        <button id="indietro" class="cerca" onclick="indietro()" style="display:none"> originale </button>
+        </div>
+        <div id="legenda" style="display:none"></div>
         <div id="trascrizione">
             <xsl:for-each select="//tei:div[@type='testo']">
             <h3><xsl:text>File </xsl:text><xsl:value-of select="position()"/></h3>
                 <xsl:apply-templates/>
             </xsl:for-each>
         </div>
-        <button onclick="download()"> download </button>
+    </xsl:template>
+
+    <xsl:template mode="ixsl:onclick" match="h:button[@id='information']">
+        <xsl:result-document href="#legenda" method="ixsl:replace-content">
+            <h3><xsl:text>Legenda</xsl:text></h3>
+                <span class="org"><xsl:text>Istituzioni</xsl:text></span><br/>
+                <span class="place"><xsl:text>Luoghi</xsl:text></span><br/>
+                <span class="rif"><xsl:text>Riferimenti indiretti</xsl:text></span><br/>
+                <span class="mes"><xsl:text>Misure</xsl:text></span><br/>
+                <span class="date"><xsl:text>Date</xsl:text></span><br/>
+                <span class="time"><xsl:text>Orari</xsl:text></span><br/>
+        </xsl:result-document>
     </xsl:template>
 
     <xsl:template mode="ixsl:onclick" match="h:button[@id='indaga']">
-        <xsl:result-document href="#Info" method="ixsl:replace-content">
-        </xsl:result-document>
         <xsl:result-document href="#legenda" method="ixsl:replace-content">
             <h3><xsl:text>Legenda</xsl:text></h3>
                 <!--<span class="bold"><xsl:text>Le parole in arancio sono le glosse e i relativi termini tedeschi del Lager utilizzati</xsl:text></p>-->
+                <xsl:text>*lacuna*</xsl:text><br/>
+                <span class="unc"><xsl:text>Testo non certo</xsl:text></span><br/>
                 <span class="agg"><xsl:text>Parole aggiunte</xsl:text></span><br/>
                 <span class="sup"><xsl:text>Parole non necessarie</xsl:text></span><br/>
-                <span class="bold"><xsl:text>Parole in lingua tedesca</xsl:text></span><br/>
-                <span class="yi"><xsl:text>Parole in lingua yiddish</xsl:text></span><br/>
-                <span class="fr"><xsl:text>Parole in lingua francese</xsl:text></span><br/>
-                <span class="en"><xsl:text>Parole in lingua inglese</xsl:text></span><br/>
-                <span class="rus"><xsl:text>Parole in lingua russa</xsl:text></span><br/>
-                <span class="lat"><xsl:text>Parole in lingua latina</xsl:text></span><br/>
+                <span class="bold"><xsl:text>Parole in tedesco</xsl:text></span><br/>
+                <span class="yi"><xsl:text>Parole in yiddish</xsl:text></span><br/>
+                <span class="fr"><xsl:text>Parole in francese</xsl:text></span><br/>
+                <span class="en"><xsl:text>Parole in inglese</xsl:text></span><br/>
+                <span class="rus"><xsl:text>Parole in russo</xsl:text></span><br/>
+                <span class="lat"><xsl:text>Parole in latino</xsl:text></span><br/>
                 <span class="informali"><xsl:text>Parole informali</xsl:text></span><br/>
                 <span class="politiche"><xsl:text>Parole politiche</xsl:text></span><br/>
                 <span class="military"><xsl:text>Parole militari</xsl:text></span><br/>
@@ -249,46 +265,38 @@
                 <select><option><xsl:text>&#10060; Errore</xsl:text></option><option><xsl:text>&#128994; Correzione</xsl:text></option></select>
                 <select><option><xsl:text>&#191; Non standard</xsl:text></option><option><xsl:text>&#128994; Normalizzazione</xsl:text></option></select>
         </xsl:result-document>
-        <xsl:result-document href="#Menu" method="ixsl:replace-content">
-        </xsl:result-document>
-        <xsl:result-document href="#indaga" method="ixsl:replace-content">
-                <img id="home" src="home.png" alt="Icona home"/>
-        </xsl:result-document>
     </xsl:template>
 
     <xsl:template mode="ixsl:onclick" match="h:button[@id='vocal']">
-        <xsl:result-document href="#Info" method="ixsl:replace-content">
-        </xsl:result-document>
         <xsl:result-document href="#legenda" method="ixsl:replace-content">
             <h3><xsl:text>Legenda</xsl:text></h3>
-                <span class="del"><xsl:text>Ripensamenti</xsl:text></span><br/>
+                <span class="del"><xsl:text>Ripensamenti, ripetizioni e parole troncate</xsl:text></span><br/>
                 <span class="emph"><xsl:text>Porzioni enfatizzate</xsl:text></span><br/>
                 <span class="vocals"><xsl:text>Fenomeni vocali</xsl:text></span><br/>
                 <span class="gesti"><xsl:text>Descrizione dei gesti</xsl:text></span><br/>
                 <span class="rum"><xsl:text>Rumori accidentali</xsl:text></span><br/>
-                <b><span><xsl:text>I tre puntini indicano le pause</xsl:text></span></b><br/>
-        </xsl:result-document>
-        <xsl:result-document href="#Menu" method="ixsl:replace-content">
-        </xsl:result-document>
-        <xsl:result-document href="#vocal" method="ixsl:replace-content">
-                <img id="home" src="home.png" alt="Icona home"/>
+                <b><span><xsl:text>Pause (...)</xsl:text></span></b><br/>
         </xsl:result-document>
     </xsl:template>
 
     <xsl:template mode="ixsl:onclick" match="h:button[@id='minuti']">
-        <xsl:result-document href="#Info" method="ixsl:replace-content">
-        </xsl:result-document>
-        <xsl:result-document href="#Menu" method="ixsl:replace-content">
-        </xsl:result-document>
-        <xsl:result-document href="#minuti" method="ixsl:replace-content">
-                <img id="home" src="home.png" alt="Icona home"/>
+        <xsl:result-document href="#legenda" method="ixsl:replace-content">
+            <h3><xsl:text>Legenda</xsl:text></h3>
+                <b style="color:red"><xsl:text>Minuti enunciati</xsl:text></b><br/>
+                <b style="color:blue"><xsl:text>Minuti sovrapposizioni</xsl:text></b><br/>
         </xsl:result-document>
     </xsl:template>
 
-    <xsl:template match="//tei:u">
-                <xsl:choose>
-                    <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who]">
-                        <b><xsl:text>(SOVRAPPOSIZIONE): </xsl:text></b><xsl:apply-templates /><br />
+    <xsl:template match="//tei:u">        
+                    <xsl:choose>
+                    <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#AW']">
+                        <b><xsl:text>(Arminio W. sovrapposizione): </xsl:text></b><xsl:apply-templates /><br />
+                    </xsl:when>
+                    <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#LPF']">
+                        <b><xsl:text>(Liliana P.F. sovrapposizione): </xsl:text></b><xsl:apply-templates /><br />
+                    </xsl:when>
+                    <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#MA']">
+                        <b><xsl:text>(Maurina A. sovrapposizione): </xsl:text></b><xsl:apply-templates /><br />
                     </xsl:when>
                     <xsl:when test="./@who='#MA'">
                         <b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:apply-templates /><br />

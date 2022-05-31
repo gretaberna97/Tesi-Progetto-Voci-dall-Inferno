@@ -1,9 +1,13 @@
 /*Inserire window.onload*/
-function testOne(){
+function zero() {
 	document.getElementById("Info").style.marginLeft= "0";
 	document.getElementById("Testo").style.marginLeft = "0";
 	document.getElementById("footer").style.marginLeft = "0";
 	document.getElementById("Header").style.marginLeft = "0%";
+}
+
+function testOne(){
+	zero();
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml.sef.json",
 		sourceLocation: "AW1998.xml"//,
@@ -12,27 +16,16 @@ function testOne(){
 }
 
 function testTwo(){
-	document.getElementById("Info").style.marginLeft= "0";
-	document.getElementById("Testo").style.marginLeft = "0";
-	document.getElementById("footer").style.marginLeft = "0";
-	document.getElementById("Header").style.marginLeft = "0%";
+	zero();
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml.sef.json",
 		sourceLocation: "AW1987.xml"//,
 		//initialTemplate: "main"
 	}, "async")
-	/*SaxonJS.transform({
-        stylesheetLocation: "styletext.sef.json",
-		sourceLocation: "AW1987.xml"//,
-		//destination: "serialized"
-	}, "async")*/
 }
 
 function peopleB(){
-	document.getElementById("Info").style.marginLeft= "0";
-	document.getElementById("Testo").style.marginLeft = "0";
-	document.getElementById("footer").style.marginLeft = "0";
-	document.getElementById("Header").style.marginLeft = "0%";
+	zero();
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml2.sef.json",
 		sourceLocation: "TEI-ListPerson.xml"//,
@@ -41,10 +34,7 @@ function peopleB(){
 }
 
 function fontiB(){
-	document.getElementById("Info").style.marginLeft= "0";
-	document.getElementById("Testo").style.marginLeft = "0";
-	document.getElementById("footer").style.marginLeft = "0";
-	document.getElementById("Header").style.marginLeft = "0%";
+	zero();
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml3.sef.json",
 		sourceLocation: "TEI-ListPerson.xml"//,
@@ -53,10 +43,7 @@ function fontiB(){
 }
 
 function placeB(){
-	document.getElementById("Info").style.marginLeft= "0";
-	document.getElementById("Testo").style.marginLeft = "0";
-	document.getElementById("footer").style.marginLeft = "0";
-	document.getElementById("Header").style.marginLeft = "0%";
+	zero();
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml4.sef.json",
 		sourceLocation: "TEI-ListPlace.xml"//,
@@ -65,16 +52,6 @@ function placeB(){
 }
 
 //Funzioni Greta
-function notmore (desc) {
-	desc.nextSibling.style.display = "none";
-	desc.setAttribute("onclick", "more(this)");
-  };
-
-function more (desc) {
-	desc.nextSibling.style.display = "inline";
-	desc.setAttribute("onclick", "notmore(this)");
-  };
-
   function openNav() {
 	document.getElementById("mySidenav").style.width = "20%";
 	document.getElementById("Info").style.marginLeft = "20%";
@@ -106,17 +83,17 @@ function more (desc) {
 xhttp.open('GET', "AW1987.xml", true); 
 xhttp.send();
 
+function indietro() {
+	SaxonJS.transform({
+		stylesheetLocation: "stylehtml.sef.json",
+		sourceNode: xmlDoc,
+		destination: "serialized"
+	}, "async")
+}
+
   function closeNav2() {
+	closeNav();
 	trans();
-	document.getElementById("indaga").style.backgroundColor = "transparent";
-	document.getElementById("indaga").style.width = "26%";
-	document.getElementById("indaga").style.display= "block-inline";
-	document.getElementById("indaga").style.marginLeft= "0%";
-	document.getElementById("indaga").style.position = "-webkit-sticky";
-	document.getElementById("indaga").style.top = "2%";
-	document.getElementById("vocal").style.display= "none";
-	document.getElementById("minuti").style.display= "none";
-	scroll(0,0);
 	SaxonJS.transform({
         stylesheetLocation: "styletext.sef.json",
 		sourceNode: xmlDoc,
@@ -126,15 +103,7 @@ xhttp.send();
 
   function closeNav3() {
 	trans();
-	document.getElementById("vocal").style.backgroundColor = "transparent";
-	document.getElementById("vocal").style.width = "26%";
-	document.getElementById("vocal").style.display= "block-inline";
-	document.getElementById("vocal").style.marginLeft= "0%";
-	document.getElementById("vocal").style.position = "-webkit-sticky";
-	document.getElementById("vocal").style.top = "2%";
-	document.getElementById("indaga").style.display= "none";
-	document.getElementById("minuti").style.display= "none";
-	scroll(0,0);
+	closeNav();
 	SaxonJS.transform({
         stylesheetLocation: "styletext2.sef.json",
 		sourceNode: xmlDoc,
@@ -142,13 +111,9 @@ xhttp.send();
 	}, "async")
   }
 
-  function closeNav4() {
-	document.getElementById("indaga").style.width = "26%";
-	document.getElementById("Testo").style.marginLeft = "0%";
-	document.getElementById("minuti").style.backgroundColor = "transparent";
-	document.getElementById("indaga").style.display= "none";
-	document.getElementById("vocal").style.display= "none";
-	scroll(0,0);
+  function minuti() {
+	trans();
+	closeNav();
 	SaxonJS.transform({
         stylesheetLocation: "styletext3.sef.json",
 		sourceNode: xmlDoc,
@@ -156,13 +121,44 @@ xhttp.send();
 	}, "async")
   }
 
+  function hide(nodo) {
+		nodo.style.backgroundColor = "transparent";
+		nodo.style.cursor = "default";
+	  };
+
+  function closeNav5() {
+	trans();
+	closeNav();
+	SaxonJS.transform({
+        stylesheetLocation: "styletext4.sef.json",
+		sourceNode: xmlDoc,
+		destination: "serialized"
+	}, "async")
+  }
+
+  function glosse() {
+	closeNav();
+	SaxonJS.transform({
+        stylesheetLocation: "styletext5.sef.json",
+		sourceNode: xmlDoc,
+		destination: "serialized"
+	}, "async")
+	document.getElementById("legenda").style.display="none";
+	document.getElementById("trascrizione").style.marginLeft = "5%";
+	document.getElementById("trascrizione").style.width = "86%";
+  }
+
   function trans() {
+	document.getElementById("indietro").style.display="inline-block";
+	document.getElementById("indietro").style.backgroundColor="#b30000";
+	document.getElementById("indietro").style.color="white";
 	document.getElementById("Testo").style.marginLeft = "0%";
 	document.getElementById("trascrizione").style.marginLeft = "27.5%";
 	document.getElementById("trascrizione").style.width = "64%";
-	document.getElementById("legenda").style.padding = "2%";
+	document.getElementById("legenda").style.display = "inline";
 	document.getElementById("footer").style.marginLeft = "0";
 	document.getElementById("Header").style.marginLeft = "0%";
+	document.getElementById("download").style.display = "none";
   }
 
 
