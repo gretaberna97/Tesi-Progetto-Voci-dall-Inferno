@@ -16,7 +16,7 @@
        <xsl:result-document href="#Menu" method="ixsl:replace-content">
         <img id="menuimg" src="menu.png" alt="Icona menu" onclick="openNav()"/>
             <div id="mySidenav" class="sidenav">
-                <img id="home" src="home.png" alt="Icona home" onclick="nascondi()"/>
+                <img id="home" src="home.png" alt="Icona home"/>
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
                 <xsl:for-each select="//tei:sourceDesc/tei:bibl">
                 <a onclick="closeNav()"><xsl:attribute name="href"><xsl:value-of select="concat('#',@xml:id)"/></xsl:attribute><xsl:value-of select="./tei:title[1]"/></a><br/>

@@ -16,7 +16,7 @@
         <xsl:result-document href="#Menu" method="ixsl:replace-content">
         <img id="menuimg" src="menu.png" alt="Icona menu" onclick="openNav()"/>
             <div id="mySidenav" class="sidenav">
-                <img id="home" src="home.png" alt="Icona home" onclick="nascondi()"/><br/>
+                <img id="home" src="home.png" alt="Icona home"/><br/>
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
                 <a href="#h2inf" id="info" onclick="closeNav()">Informazioni</a><br/>
                 <a href="#h2rias" id="rias" onclick="closeNav()">Riassunto</a><br/>
@@ -217,8 +217,8 @@
         </div>
     </xsl:template>
 
-    <xsl:template match="//tei:item//tei:persName|//tei:item//tei:rs[contains(@ref,'Person')]">
-        <a onclick="javascript:')"><xsl:attribute name="href"><xsl:value-of select="substring-after(@ref,'xml')"/></xsl:attribute><xsl:attribute name="class">people1</xsl:attribute><xsl:apply-templates/></a>
+    <xsl:template match="//tei:item//tei:persName|//tei:item//tei:rs[contains(@ref,'Person') and not(contains(@ref,' '))]">
+        <a><xsl:attribute name="href"><xsl:value-of select="substring-after(@ref,'xml')"/></xsl:attribute><xsl:attribute name="class">people1</xsl:attribute><xsl:apply-templates/></a>
     </xsl:template>
 
     <xsl:template match="//tei:item//tei:placeName[@ref]|//tei:item//tei:rs[contains(@ref,'Place')]">
@@ -287,6 +287,7 @@
     <xsl:template mode="ixsl:onclick" match="h:button[@id='vocal']">
         <xsl:result-document href="#legenda" method="ixsl:replace-content">
             <h3><xsl:text>Legenda</xsl:text></h3>
+            <xsl:text>- fenomeni non pertinenti</xsl:text><br/>
                 <span class="del"><xsl:text>Ripensamenti, ripetizioni e parole troncate</xsl:text></span><br/>
                 <span class="emph"><xsl:text>Porzioni enfatizzate</xsl:text></span><br/>
                 <span class="vocals"><xsl:text>Fenomeni vocali</xsl:text></span><br/>
@@ -324,6 +325,18 @@
                     <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#MA']">
                         <b><xsl:text>(Maurina A. sovrapposizione): </xsl:text></b><xsl:apply-templates /><br />
                     </xsl:when>
+                    <xsl:when test="(./@xml:id='MA81' and ./@synch='#TS163') or (./@xml:id='MA158' and ./@synch='#TS320') or (./@xml:id='MA56' and ./@synch='#TS113')">
+                        <b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:text>-</xsl:text><br />
+                    </xsl:when>
+                    <xsl:when test="(./@xml:id='PF3' and ./@synch='#TS193') or (./@xml:id='PF4' and ./@synch='#TS195')">
+                        <b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:text>-</xsl:text><br />
+                    </xsl:when>
+                    <xsl:when test="./@xml:id='LPF436' and ./@synch='#TS871'">
+                        <b><xsl:text>Liliana Picciotto Fargion: </xsl:text></b><xsl:text>-</xsl:text><br />
+                    </xsl:when>
+                    <xsl:when test="(./@xml:id='AW96' and ./@synch='#TS194') or (./@xml:id='AW227' and ./@synch='#TS456')">
+                        <b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:text>-</xsl:text><br />
+                    </xsl:when>
                     <xsl:when test="./@who='#MA'">
                         <b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:apply-templates /><br />
                     </xsl:when>
@@ -345,8 +358,12 @@
     <xsl:template match="//tei:desc" />
     <xsl:template match="//tei:vocal"/>
 
-    <!--vocal e desc presenti solo in sovrapposizione-->
+    <!--vocal, del desc presenti solo in sovrapposizione-->
     <xsl:template match="//tei:u[not(@xml:id)]/tei:vocal">
+        <xsl:text>-</xsl:text>
+    </xsl:template>
+
+    <xsl:template match="//tei:u[not(@xml:id)]/tei:del">
         <xsl:text>-</xsl:text>
     </xsl:template>
 

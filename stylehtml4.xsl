@@ -16,7 +16,7 @@
        <xsl:result-document href="#Menu" method="ixsl:replace-content">
         <img id="menuimg" src="menu.png" alt="Icona menu" onclick="openNav()"/>
             <div id="mySidenav" class="sidenav">
-                <img id="home" src="home.png" alt="Icona home" onclick="nascondi()"/>
+                <img id="home" src="home.png" alt="Icona home"/>
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
                 <xsl:for-each select="//tei:listPlace/tei:place">
                     <a onclick="closeNav()" style="display:inline" class="place1"><xsl:attribute name="href"><xsl:value-of select="concat('#',@xml:id)"/></xsl:attribute><xsl:value-of select="./tei:placeName"/></a><xsl:text>&#32;</xsl:text>
@@ -56,8 +56,10 @@
                 <xsl:value-of select="tei:head" />
             </h1>
             <h2><xsl:text>Luoghi citati all'interno delle testimonianze</xsl:text></h2>
-            <button id="butm" onclick="myMap()"> mappa </button>
-            <iframe id="mappa" src="https://www.google.com/maps/d/u/0/embed?mid=1-3FZB_vW5iEmxq2r8d5liTzZS63K1A4&amp;ehbc=2E312F" width="800" height="700" style="display:none" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br/>
+            <a id="linkm" href="https://www.google.com/maps/d/u/0/viewer?mid=1-3FZB_vW5iEmxq2r8d5liTzZS63K1A4&amp;ll=18.143803593704973%2C-0.5140074999999911&amp;z=2">Vedi interamente la mappa dei percorsi</a><br/>
+            <img class="mappa" id="prima" src="mappa.png"/>
+            <img class="mappa" src="mappa2.png"/>
+            <!--<iframe id="mappa" href="https://www.google.com/maps/d/u/0/viewer?mid=1-3FZB_vW5iEmxq2r8d5liTzZS63K1A4&amp;amp;ll=18.14380359370496%2C-0.5140074999999911&amp;amp;z=2" src="https://www.google.com/maps/d/u/0/embed?mid=1-3FZB_vW5iEmxq2r8d5liTzZS63K1A4&amp;amp;ehbc=2E312F" width="800" height="700" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>--><br/><br/>
         <table id="places">
             <xsl:for-each select="//tei:place">
             <tr>

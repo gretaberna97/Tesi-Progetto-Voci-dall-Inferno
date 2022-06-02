@@ -172,6 +172,18 @@
                     <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#MA']">
                         <b><xsl:text>(Maurina A. sovrapposizione): </xsl:text></b><xsl:apply-templates /><br />
                     </xsl:when>
+                    <xsl:when test="(./@xml:id='MA81' and ./@synch='#TS163') or (./@xml:id='MA158' and ./@synch='#TS320') or (./@xml:id='MA56' and ./@synch='#TS113')">
+                        <b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:text>-</xsl:text><br />
+                    </xsl:when>
+                    <xsl:when test="(./@xml:id='PF3' and ./@synch='#TS193') or (./@xml:id='PF4' and ./@synch='#TS195')">
+                        <b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:text>-</xsl:text><br />
+                    </xsl:when>
+                    <xsl:when test="./@xml:id='LPF436' and ./@synch='#TS871'">
+                        <b><xsl:text>Liliana Picciotto Fargion: </xsl:text></b><xsl:text>-</xsl:text><br />
+                    </xsl:when>
+                    <xsl:when test="(./@xml:id='AW96' and ./@synch='#TS194') or (./@xml:id='AW227' and ./@synch='#TS456')">
+                        <b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:text>-</xsl:text><br />
+                    </xsl:when>
                     <xsl:when test="./@who='#MA'">
                         <b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:apply-templates /><br />
                     </xsl:when>
@@ -198,8 +210,12 @@
         </xsl:if>
     </xsl:template>-->
 
-    <!--vocal e desc presenti solo in sovrapposizione-->
+    <!--vocal, del desc presenti solo in sovrapposizione-->
     <xsl:template match="//tei:u[not(@xml:id)]/tei:vocal">
+        <xsl:text>-</xsl:text>
+    </xsl:template>
+
+    <xsl:template match="//tei:u[not(@xml:id)]/tei:del">
         <xsl:text>-</xsl:text>
     </xsl:template>
 

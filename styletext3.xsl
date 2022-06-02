@@ -28,25 +28,23 @@
                         <b style="color:red">
                         <xsl:value-of select="$When/@absolute"/>
                         </b><xsl:text> </xsl:text>
-                        <xsl:choose>
-                            <xsl:when test="./@who='#AW'">
-                                <b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:apply-templates /><br />
-                            </xsl:when>
-                            <xsl:when test="./@who='#MA'">
-                                <b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:apply-templates /><br />
-                            </xsl:when>
-                            <xsl:when test="./@who='#LPF'">
-                                <b><xsl:text>Liliana Picciotto Fargion: </xsl:text></b><xsl:apply-templates /><br />
-                            </xsl:when>
-                            <xsl:when test="./@who='#PF'">
-                                <b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:apply-templates /><br />
-                            </xsl:when>
-                            <xsl:when test="./@who='Maria'">
-                                <b><xsl:text>Maria: </xsl:text></b><xsl:apply-templates /><br />
-                            </xsl:when>
-                            <xsl:otherwise><xsl:apply-templates select="self::node()[not(@xml:id)]"/>
-                            </xsl:otherwise>
-                        </xsl:choose>
+                    <xsl:choose>
+                    <xsl:when test="./@who='#MA'">
+                        <b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:apply-templates /><br />
+                    </xsl:when>
+                    <xsl:when test="./@who='#LPF'">
+                        <b><xsl:text>Liliana Picciotto Fargion: </xsl:text></b><xsl:apply-templates /><br />
+                    </xsl:when>
+                    <xsl:when test="./@who='#PF'">
+                        <b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:apply-templates /><br />
+                    </xsl:when>
+                    <xsl:when test="./@who='Maria'">
+                        <b><xsl:text>Maria: </xsl:text></b><xsl:apply-templates /><br />
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:apply-templates /><br />
+                    </xsl:otherwise>
+                </xsl:choose>
                         </xsl:if> 
                     </xsl:for-each>
             </xsl:for-each>
@@ -83,13 +81,13 @@
 
     <xsl:template match="//tei:vocal" />
     <xsl:template match="//tei:desc" />
-    <!--<xsl:template match="//tei:u/tei:vocal"> SISTEMARE
-        <xsl:if test="count(..//*) = 1 and ../tei:vocal">
-            <xsl:apply-templates/>
-        </xsl:if>
-    </xsl:template> -->   
-    <!--vocal e desc presenti solo in sovrapposizione-->
+
+    <!--vocal, del desc presenti solo in sovrapposizione-->
     <xsl:template match="//tei:u[not(@xml:id)]/tei:vocal">
+        <xsl:text>-</xsl:text>
+    </xsl:template>
+
+    <xsl:template match="//tei:u[not(@xml:id)]/tei:del">
         <xsl:text>-</xsl:text>
     </xsl:template>
 

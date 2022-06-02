@@ -4,7 +4,7 @@ function testOne(){
 		stylesheetLocation: "stylehtml.sef.json",
 		sourceLocation: "AW1998.xml"
 	}, "async")
-	document.getElementById("up").style.display="inline";
+	document.getElementById("Testo").style.display="inline";
 }
 
 function testTwo(){
@@ -13,19 +13,14 @@ function testTwo(){
 		stylesheetLocation: "stylehtml.sef.json",
 		sourceLocation: "AW1987.xml"
 	}, "async")
-	document.getElementById("up").style.display="inline";
+	document.getElementById("Testo").style.display="inline";
 }
-
-/*const queryString = window.location.search;
-console.log(queryString);
-const urlParams = new URLSearchParams(queryString);*/
 
 function peopleB(){
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml2.sef.json",
 		sourceLocation: "TEI-ListPerson.xml"
 	}, "async")
-	document.getElementById("up").style.display="inline";
 	scroll(0,0);
 }
 
@@ -34,19 +29,15 @@ function fontiB(){
 		stylesheetLocation: "stylehtml3.sef.json",
 		sourceLocation: "TEI-ListPerson.xml"
 	}, "async")
-	document.getElementById("up").style.display="inline";
 }
 
-window.onload = function() {
-	document.getElementById("up").style.display="none";
-}
 
 function placeB(){
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml4.sef.json",
 		sourceLocation: "TEI-ListPlace.xml"
 	}, "async")
-	document.getElementById("up").style.display="inline";
+	scroll(0,0);
 }
 
 function openNav() {
@@ -99,9 +90,7 @@ function indietro() {
 		nodo.style.cursor = "default";
 	  };
 
-	function nascondi(){
-		document.getElementById("up").style.display="none";
-	}
+
 
   function closeNav5() {
 	trans();
@@ -167,25 +156,37 @@ document.getElementById("Info").addEventListener("click", function(e) {
 			stringa = link.substr(1);
 			peopleB();
 			/*non vede ancora il nuovo albero Dom*/
+			document.getElementById("Testo").style.display="none";
 			document.getElementById(stringa).style.backgroundColor="red";
 		} else if (e.target.className=="place1") {
 			placeB();
 			link = e.target.getAttribute("href");
 			stringa = link.substr(1);
 			placeB();
+			document.getElementById("Testo").style.display="none";
 			document.getElementById(stringa).style.backgroundColor="red";
 		}
 }
 });
 
-function hideMap (nodo) {
-	document.getElementById("mappa").style.display="none";
-	document.getElementById("butm").setAttribute("onclick", "myMap()");
-  };
-  
-function myMap() {
-	document.getElementById("mappa").style.display="inline-block";
-	document.getElementById("butm").setAttribute("onclick", "hideMap()");
+document.getElementById("Testo").addEventListener("click", function(e) {
+	var link;
+	var stringa;
+	if(e.target && e.target.nodeName == "A") {
+		if(e.target.className=="people1"){
+			link = e.target.getAttribute("href");
+			stringa = link.substr(1);
+			peopleB();
+			/*non vede ancora il nuovo albero Dom*/
+			document.getElementById("Testo").style.display="none";
+			document.getElementById(stringa).style.backgroundColor="red";
+		} else if (e.target.className=="place1") {
+			placeB();
+			link = e.target.getAttribute("href");
+			stringa = link.substr(1);
+			placeB();
+			document.getElementById("Testo").style.display="none";
+			document.getElementById(stringa).style.backgroundColor="red";
+		}
 }
-
-
+});

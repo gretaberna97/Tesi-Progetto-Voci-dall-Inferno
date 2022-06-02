@@ -35,7 +35,7 @@
     <xsl:template match="//tei:del"/>
 
     <xsl:template match="//tei:u">
-                <xsl:choose>
+        <xsl:choose>
                     <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#AW']">
                         <b><xsl:text>(Arminio W. sovrapposizione): </xsl:text></b><xsl:apply-templates /><br />
                     </xsl:when>
@@ -44,6 +44,18 @@
                     </xsl:when>
                     <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#MA']">
                         <b><xsl:text>(Maurina A. sovrapposizione): </xsl:text></b><xsl:apply-templates /><br />
+                    </xsl:when>
+                    <xsl:when test="(./@xml:id='MA81' and ./@synch='#TS163') or (./@xml:id='MA158' and ./@synch='#TS320') or (./@xml:id='MA56' and ./@synch='#TS113')">
+                        <b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:text>-</xsl:text><br />
+                    </xsl:when>
+                    <xsl:when test="(./@xml:id='PF3' and ./@synch='#TS193') or (./@xml:id='PF4' and ./@synch='#TS195')">
+                        <b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:text>-</xsl:text><br />
+                    </xsl:when>
+                    <xsl:when test="./@xml:id='LPF436' and ./@synch='#TS871'">
+                        <b><xsl:text>Liliana Picciotto Fargion: </xsl:text></b><xsl:text>-</xsl:text><br />
+                    </xsl:when>
+                    <xsl:when test="(./@xml:id='AW96' and ./@synch='#TS194') or (./@xml:id='AW227' and ./@synch='#TS456')">
+                        <b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:text>-</xsl:text><br />
                     </xsl:when>
                     <xsl:when test="./@who='#MA'">
                         <b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:apply-templates /><br />
@@ -103,15 +115,19 @@
 
     <xsl:template match="//tei:persName" >
         <span class="pers">
-        <a><xsl:attribute name="href"><xsl:value-of select="substring-after(@ref,'xml')"/></xsl:attribute><xsl:apply-templates/></a></span>
+        <a class="people1"><xsl:attribute name="href"><xsl:value-of select="substring-after(@ref,'xml')"/></xsl:attribute><xsl:apply-templates/></a></span>
     </xsl:template>
 
-    <xsl:template match="//tei:rs" >
-        <span class="rif"><a><xsl:attribute name="href"><xsl:value-of select="substring-after(@ref,'xml')"/></xsl:attribute><xsl:apply-templates/></a></span>
+    <xsl:template match="//tei:rs[not(contains(@ref,' ')) and contains(@ref,'Person')]" >
+        <span class="rif"><a class="people1"><xsl:attribute name="href"><xsl:value-of select="substring-after(@ref,'xml')"/></xsl:attribute><xsl:apply-templates/></a></span>
+    </xsl:template>
+
+    <xsl:template match="//tei:rs[not(contains(@ref,' ')) and contains(@ref,'Place')]" >
+        <span class="rif"><a class="place1"><xsl:attribute name="href"><xsl:value-of select="substring-after(@ref,'xml')"/></xsl:attribute><xsl:apply-templates/></a></span>
     </xsl:template>
 
     <xsl:template match="//tei:placeName" >
-        <span class="place"><a><xsl:attribute name="href"><xsl:value-of select="substring-after(@ref,'xml')"/></xsl:attribute><xsl:apply-templates/></a></span>
+        <span class="place"><a  class="place1"><xsl:attribute name="href"><xsl:value-of select="substring-after(@ref,'xml')"/></xsl:attribute><xsl:apply-templates/></a></span>
     </xsl:template>
 
     <xsl:template match="//tei:place" >
