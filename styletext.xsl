@@ -192,64 +192,52 @@
 
     <xsl:template match="//tei:vocal"/>
     <xsl:template match="//tei:desc"/>
+    <!--<xsl:template match="//tei:u/tei:vocal">
+        <xsl:if test="count(..//*) = 1 and ../tei:vocal">
+            <xsl:apply-templates/>
+        </xsl:if>
+    </xsl:template>-->
 
     <!--vocal e desc presenti solo in sovrapposizione-->
     <xsl:template match="//tei:u[not(@xml:id)]/tei:vocal">
-        <xsl:apply-templates/>
+        <xsl:text>-</xsl:text>
     </xsl:template>
 
     <xsl:template match="//tei:u[not(@xml:id)]//tei:desc" >
-        <xsl:text>(</xsl:text><xsl:apply-templates/><xsl:text>)</xsl:text>
+        <xsl:text>-</xsl:text>
     </xsl:template>
 
     <xsl:template match="//tei:q">
-		<xsl:text>&#171;</xsl:text>
+        <xsl:choose>
+        <xsl:when test="@xml:lang='de'">
+		<span class="bold"><xsl:text>&#171;</xsl:text>
+		<xsl:apply-templates/>
+		<xsl:text>&#187;</xsl:text></span>
+        </xsl:when>
+        <xsl:otherwise>
+            <xsl:text>&#171;</xsl:text>
 		<xsl:apply-templates/>
 		<xsl:text>&#187;</xsl:text>
+        </xsl:otherwise>
+        </xsl:choose>
 	</xsl:template>
 
+    <xsl:template match="//tei:span[@corresp]">
+        <xsl:text>(</xsl:text>
+		<xsl:apply-templates/>
+		<xsl:text>)</xsl:text>
+    </xsl:template>
+
     <xsl:template match="//tei:gap" >
-        <xsl:choose>
+        <b><xsl:choose>
         <xsl:when test="following-sibling::tei:u">  <xsl:text>*lacuna*</xsl:text><br /></xsl:when>
+        <xsl:when test="@reason='blanked'">  <xsl:text>*parte oscurata*</xsl:text><br /></xsl:when>
         <xsl:otherwise><xsl:text>*lacuna*</xsl:text></xsl:otherwise>
-        </xsl:choose>
+        </xsl:choose></b>
     </xsl:template>
 
     <xsl:template match="//tei:unclear" >
         <span class="unc"><xsl:apply-templates /></span>
     </xsl:template>
-
-    <!--vocale
-    <xsl:template match="//tei:desc">
-        <xsl:choose>
-            <xsl:when test="../@who"> 
-                <span class="desc"> (<xsl:text>l'altro </xsl:text><xsl:apply-templates />) </span>
-            </xsl:when>
-            <xsl:when test="../following-sibling::tei:u"> 
-                <span class="desc"> (<xsl:apply-templates />)</span>
-               <br />
-            </xsl:when>
-            <xsl:otherwise>
-                <span class="desc"> (<xsl:apply-templates />) </span>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
-
-    <xsl:template match="//tei:vocal">
-        <xsl:choose>
-        <xsl:when test="./tei:desc">
-                <xsl:apply-templates />
-        </xsl:when>
-        <xsl:otherwise>
-                <span class="desc"><xsl:apply-templates /> </span>
-        </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>-->
-        
-<!--
-	<xsl:template match="tei:span[@corresp]">
-        <xsl:text> &#8219;</xsl:text><xsl:apply-templates /><xsl:text> &#8217;</xsl:text>
-	</xsl:template>
--->  
     
 </xsl:stylesheet> 

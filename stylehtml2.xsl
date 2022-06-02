@@ -16,12 +16,12 @@
        <xsl:result-document href="#Menu" method="ixsl:replace-content">
         <img id="menuimg" src="menu.png" alt="Icona menu" onclick="openNav()"/>
             <div id="mySidenav" class="sidenav">
-                <img id="home" src="home.png" alt="Icona home"/>
+                <img id="home" src="home.png" alt="Icona home" onclick="nascondi()"/>
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
                 <xsl:for-each select="//tei:person">
-                    <a><xsl:attribute name="href"><xsl:value-of select="concat('#',@xml:id)"/></xsl:attribute>
+                    <a class="people1" onclick="closeNav()" style="display:inline;font-size:25px"><xsl:attribute name="href"><xsl:value-of select="concat('#',@xml:id)"/></xsl:attribute>
                     <xsl:if test="tei:persName/tei:forename[not(@type='religious')] and tei:persName/tei:forename[not(@type='alternative')]">
-						<xsl:value-of select="tei:persName/tei:forename[not(@type='religious')]"/><!--non alternative-->
+						<xsl:value-of select="tei:persName/tei:forename[not(@type='religious')]"/>
 						<xsl:text>&#32;</xsl:text>
                     </xsl:if>
                     <xsl:if test="tei:persName/tei:forename[@type='unknown'] and tei:persName/tei:surname[@type='unknown']">
@@ -29,7 +29,7 @@
                     </xsl:if>
                      <xsl:if test="tei:persName/tei:surname">
 						<xsl:value-of select="tei:persName/tei:surname"/>
-                    </xsl:if></a><br/>
+                    </xsl:if></a><xsl:text>&#32;</xsl:text>
                 </xsl:for-each>
             </div>
         </xsl:result-document>
@@ -41,7 +41,7 @@
             <p>Realizzata da Greta Bernardoni per il progetto <span>Voci dall'Inferno</span></p><br/>
         </xsl:result-document>
         <xsl:result-document href="#up" method="ixsl:replace-content">
-            Torna Su
+            <img id="upimg" src="up.png" alt="Icona up"/>
         </xsl:result-document>
     </xsl:template>
 
@@ -182,31 +182,28 @@
 									</a></li>
 								</xsl:otherwise>
 							</xsl:choose>
+                                                        
+                                <xsl:choose><!--codice funzionante ma brutto-->
+                                <xsl:when test=".[@source='#Rigano2015']">
+                                    <li><b><xsl:text>Fonte: </xsl:text></b>
+                                    <a>
+				                    <xsl:attribute name="href">#Rigano2015</xsl:attribute><xsl:text>Rigano, 2015</xsl:text>
+			                        </a></li>
+                                </xsl:when>
+                                <xsl:when test=".[@source='#Katz1973']">
+                                    <li><b><xsl:text>Fonte: </xsl:text></b>
+                                    <a>
+				                    <xsl:attribute name="href">#Katz1973</xsl:attribute><xsl:text>Katz, 1973</xsl:text>
+			                        </a></li>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                </xsl:otherwise>
+                                </xsl:choose>
                         </ul>
                     </td>
                 </tr>
             </xsl:for-each>
         </table>
     </xsl:template>
-
-    <xsl:template select=".[@source='#Rigano2015']">
-        <xsl:choose><!--codice funzionante ma brutto-->
-            <xsl:when test=".[@source='#Rigano2015']">
-                <li><b><xsl:text>Fonte: </xsl:text></b>
-                    <a>
-				        <xsl:attribute name="href">#Rigano2015</xsl:attribute><xsl:text>Rigano, 2015</xsl:text>
-			            </a>
-                </li>
-            </xsl:when>
-            <xsl:when test=".[@source='#Katz1973']">
-                <li><b><xsl:text>Fonte: </xsl:text></b>
-                    <a>
-				        <xsl:attribute name="href">#Katz1973</xsl:attribute><xsl:text>Katz, 1973</xsl:text>
-			        </a>
-                </li>
-            </xsl:when>
-        <xsl:otherwise>
-        </xsl:otherwise>
-    </xsl:choose>
 
 </xsl:stylesheet>

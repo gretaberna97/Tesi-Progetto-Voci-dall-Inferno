@@ -182,19 +182,19 @@
                     <place xml:id="YU"><!--stato non più esistente-->
                         <placeName ref="https://www.geonames.org/7500737 https://www.treccani.it/enciclopedia/iugoslavia/">Jugoslavia</placeName>
                         <country notBefore="1929" notAfter="2003">Jugoslavia</country>
-                        <note resp="#GB">Stato esistito tra il 1929 e il 2003</note>
+                        <note resp="#GB">stato esistito tra il 1929 e il 2003</note>
                     </place>
 
                     <place xml:id="CS"><!--stato non più esistente-->
                         <placeName ref="https://www.geonames.org/8505031 https://www.treccani.it/enciclopedia/cecoslovacchia/">Cecoslovacchia</placeName>
                         <country notBefore="1918" notAfter="1992">Cecoslovacchia</country>
-                        <note resp="#GB">Stato esistito tra il 1918 e il 1992</note>
+                        <note resp="#GB">stato esistito tra il 1918 e il 1992</note>
                     </place>
 
                     <place xml:id="IAU"><!--stato non più esistente-->
                         <placeName ref="https://it.wikipedia.org/wiki/Impero_austro-ungarico">Austria-Ungheria</placeName>
                         <country notBefore="1867" notAfter="1919">Austria-Ungheria</country>
-                        <note resp="#GB">Stato esistito tra il 1867 e il 1919</note>
+                        <note resp="#GB">stato esistito tra il 1867 e il 1919</note>
                     </place>
 
                     <place xml:id="Te">
@@ -267,7 +267,7 @@
                     </place>
 
                     <place xml:id="Po">
-                        <placeName ref="https://www.geonames.org/6556158 https://it.wikipedia.org/wiki/Poing">Stoccarda</placeName>
+                        <placeName ref="https://www.geonames.org/6556158 https://it.wikipedia.org/wiki/Poing">Poing</placeName>
                         <country key="DE">Germania</country>
                     </place>
 

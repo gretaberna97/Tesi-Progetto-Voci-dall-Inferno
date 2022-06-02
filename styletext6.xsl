@@ -13,8 +13,8 @@
 
     <xsl:template name="main" match="//tei:text">
         <xsl:result-document href="#trascrizione" method="ixsl:replace-content">
-            <h3><xsl:text>Termini del Lager utilizzati nella testimonianza</xsl:text></h3>
-            <xsl:call-template name="gloss"/>
+            <h3><xsl:text>Frasi tedesche in traduzione</xsl:text></h3>
+            <xsl:call-template name="trad"/>
         </xsl:result-document>
     </xsl:template>
 
@@ -32,8 +32,8 @@
     
     <xsl:template match="//tei:desc" />
 
-    <xsl:template name="gloss" match="//tei:term[@xml:id]">
-        <ol><xsl:for-each select="//tei:term[@xml:id]">
+    <xsl:template name="trad">
+        <ol><xsl:for-each select="//*[contains(@xml:id,'trad')]">
             <li><b><xsl:apply-templates/></b>
             <xsl:variable name="id" select="./@xml:id"/>
             <xsl:if test="@xml:lang='de'">
@@ -51,10 +51,12 @@
             <xsl:if test="@xml:lang='en'">
                 <xsl:text> dall'inglese </xsl:text>
             </xsl:if>
-            <xsl:text> = </xsl:text>
-            <xsl:for-each select="//tei:gloss">
-                <xsl:if test="substring-after(./@target,'#') = $id">
-                    <i><xsl:apply-templates/></i>
+            <xsl:if test="not(@xml:lang)">
+                <xsl:text> che sta per </xsl:text>
+            </xsl:if>
+            <xsl:for-each select="//tei:span[@corresp]">
+                <xsl:if test="substring-after(./@corresp,'#') = $id">
+                    <i><xsl:text> &#171;</xsl:text><xsl:apply-templates/><xsl:text>&#187; </xsl:text></i>
                 </xsl:if>
             </xsl:for-each>
             </li>

@@ -21,7 +21,7 @@
         <xsl:for-each select="//tei:div[@type='testo']">
             <h3><xsl:text>File </xsl:text><xsl:value-of select="position()"/></h3>
             <xsl:apply-templates/>
-            </xsl:for-each>
+        </xsl:for-each>
     </xsl:template>
 
     <xsl:template match="//tei:sic" />
@@ -69,16 +69,26 @@
 		<xsl:text>&#187;</xsl:text>
 	</xsl:template>
 
-    <xsl:template match="//tei:desc"/>
-    <xsl:template match="//tei:vocal"/>
-
-    <!--vocal e desc presenti solo in sovrapposizione-->
-    <xsl:template match="//tei:u[not(@xml:id)]/tei:vocal" >
-            <xsl:apply-templates/>
+    <xsl:template match="//tei:span[@corresp]">
+        <xsl:text>(</xsl:text>
+		<xsl:apply-templates/>
+		<xsl:text>)</xsl:text>
     </xsl:template>
 
-    <xsl:template match="//tei:u[not(@xml:id)]//tei:desc" ><!--span classe-->
-        <xsl:text>(</xsl:text><xsl:apply-templates/><xsl:text>)</xsl:text>
+    <xsl:template match="//tei:desc"/>
+    <xsl:template match="//tei:vocal"/>
+    <!--<xsl:template match="//tei:u/tei:vocal">
+        <xsl:if test="count(..//*) = 1 and ../tei:vocal">
+            <xsl:apply-templates/>
+        </xsl:if>
+    </xsl:template>-->
+
+    <xsl:template match="//tei:u[not(@xml:id)]/tei:vocal">
+        <xsl:text>-</xsl:text>
+    </xsl:template>
+
+    <xsl:template match="//tei:u[not(@xml:id)]//tei:desc" >
+        <xsl:text>-</xsl:text>
     </xsl:template>
     
     <xsl:template match="//tei:gap" >
@@ -92,15 +102,16 @@
     </xsl:template>
 
     <xsl:template match="//tei:persName" >
-        <span class="pers"><xsl:apply-templates/></span>
+        <span class="pers">
+        <a><xsl:attribute name="href"><xsl:value-of select="substring-after(@ref,'xml')"/></xsl:attribute><xsl:apply-templates/></a></span>
     </xsl:template>
 
     <xsl:template match="//tei:rs" >
-        <span class="rif"><xsl:apply-templates/></span>
+        <span class="rif"><a><xsl:attribute name="href"><xsl:value-of select="substring-after(@ref,'xml')"/></xsl:attribute><xsl:apply-templates/></a></span>
     </xsl:template>
 
     <xsl:template match="//tei:placeName" >
-        <span class="place"><xsl:apply-templates/></span>
+        <span class="place"><a><xsl:attribute name="href"><xsl:value-of select="substring-after(@ref,'xml')"/></xsl:attribute><xsl:apply-templates/></a></span>
     </xsl:template>
 
     <xsl:template match="//tei:place" >
@@ -111,21 +122,39 @@
         <span class="mes"><xsl:apply-templates/></span>
     </xsl:template>
 
-    <xsl:template match="//tei:date" >
-        <span class="date"><xsl:apply-templates/></span>
+    <xsl:template match="//tei:date">
+        <span class="date"><xsl:apply-templates/>
+        <xsl:choose>
+        <xsl:when test="@notBefore and not(@notAfter)">
+            <xsl:text> [dal </xsl:text><xsl:apply-templates select="@notBefore"/><xsl:text>]</xsl:text>
+        </xsl:when>
+        <xsl:when test="@notAfter and not(@notBefore)">
+            <xsl:text> [prima del </xsl:text><xsl:apply-templates select="@notAfter"/><xsl:text>]</xsl:text>
+        </xsl:when>
+        <xsl:when test="@notBefore and @notAfter">
+            <xsl:text> [</xsl:text><xsl:apply-templates select="@notBefore"/><xsl:text> - </xsl:text><xsl:apply-templates select="@notAfter"/><xsl:text>]</xsl:text>
+        </xsl:when>
+        <xsl:when test="@from and @to">
+            <xsl:text> [dal </xsl:text><xsl:apply-templates select="@from"/><xsl:text> al </xsl:text><xsl:apply-templates select="@to"/><xsl:text>]</xsl:text>
+        </xsl:when>
+        <xsl:when test="not(@dur)">
+            <xsl:text> [</xsl:text><xsl:apply-templates select="@when"/><xsl:apply-templates select="@from"/><xsl:apply-templates select="@to"/><xsl:text>]</xsl:text>
+        </xsl:when>
+        </xsl:choose>
+        </span>
     </xsl:template>
 
     <xsl:template match="//tei:time" >
-        <span class="time"><xsl:apply-templates/></span>
+        <span class="time"><xsl:apply-templates/>
+        <xsl:choose>
+        <xsl:when test="@notBefore and not(@notAfter)">
+            <xsl:text> [dalle ore </xsl:text><xsl:apply-templates select="@notBefore"/><xsl:text>]</xsl:text>
+        </xsl:when>
+        <xsl:when test="not(@dur)">
+        <xsl:text> [ore </xsl:text><xsl:apply-templates select="@when"/><xsl:text>]</xsl:text>
+        </xsl:when>
+        </xsl:choose>
+        </span>
     </xsl:template>
-<!--
-    <xsl:template match="//tei:unclear" >
-        <xsl:text>*</xsl:text><xsl:apply-templates /><xsl:text>*</xsl:text>
-    </xsl:template>
-
-	<xsl:template match="tei:span[@corresp]">
-        <xsl:text> &#8219;</xsl:text><xsl:apply-templates /><xsl:text> &#8217;</xsl:text>
-	</xsl:template>
--->  
     
 </xsl:stylesheet> 

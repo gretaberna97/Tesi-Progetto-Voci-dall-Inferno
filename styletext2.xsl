@@ -75,6 +75,11 @@
 		<xsl:text>&#187;</xsl:text>
 	</xsl:template>
 
+    <xsl:template match="//tei:span[@corresp]">
+        <xsl:text>(</xsl:text>
+		<xsl:apply-templates/>
+		<xsl:text>)</xsl:text>
+    </xsl:template>
 
     <xsl:template match="//tei:kinesic/tei:desc">
         <xsl:choose>
@@ -117,15 +122,6 @@
         </xsl:choose>
     </xsl:template>
 
-    <!--vocal e desc presenti solo in sovrapposizione-->
-    <xsl:template match="//tei:u[not(@xml:id)]/tei:vocal" >
-            <span class="vocals"><xsl:apply-templates/></span>
-    </xsl:template>
-
-    <xsl:template match="//tei:u[not(@xml:id)]//tei:incident/tei:desc" >
-        <span class="rum"><xsl:text>(</xsl:text><xsl:apply-templates/><xsl:text>)</xsl:text></span>
-    </xsl:template>
-
     <xsl:template match="//tei:u[not(@xml:id)]//tei:kinesic/tei:desc" >
         <span class="gesti"><xsl:text>(</xsl:text><xsl:apply-templates/><xsl:text>)</xsl:text></span>
     </xsl:template>
@@ -146,14 +142,5 @@
             <xsl:text>*lacuna*</xsl:text>
         </xsl:if>
     </xsl:template>
-<!--
-    <xsl:template match="//tei:unclear" >
-        <xsl:text>*</xsl:text><xsl:apply-templates /><xsl:text>*</xsl:text>
-    </xsl:template>
-
-	<xsl:template match="tei:span[@corresp]">
-        <xsl:text> &#8219;</xsl:text><xsl:apply-templates /><xsl:text> &#8217;</xsl:text>
-	</xsl:template>
--->  
     
 </xsl:stylesheet> 

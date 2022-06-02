@@ -16,11 +16,11 @@
         <xsl:result-document href="#Menu" method="ixsl:replace-content">
         <img id="menuimg" src="menu.png" alt="Icona menu" onclick="openNav()"/>
             <div id="mySidenav" class="sidenav">
-                <img id="home" src="home.png" alt="Icona home"/><br/>
+                <img id="home" src="home.png" alt="Icona home" onclick="nascondi()"/><br/>
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
-                <a href="#h2inf" id="info">Informazioni</a><br/>
-                <a href="#h2rias" id="rias">Riassunto</a><br/>
-                <a href="#h2tra" id="tras">Trascrizione</a><br/> 
+                <a href="#h2inf" id="info" onclick="closeNav()">Informazioni</a><br/>
+                <a href="#h2rias" id="rias" onclick="closeNav()">Riassunto</a><br/>
+                <a href="#h2tra" id="tras" onclick="closeNav()">Trascrizione</a><br/> 
             </div>
         </xsl:result-document>
         <xsl:result-document href="#Info" method="ixsl:replace-content">
@@ -35,7 +35,7 @@
             <p>Realizzata da Greta Bernardoni per il progetto <span>Voci dall'Inferno</span></p><br/>
         </xsl:result-document>
         <xsl:result-document href="#up" method="ixsl:replace-content">
-            Torna Su
+            <img id="upimg" src="up.png" alt="Icona up"/>
         </xsl:result-document>
     </xsl:template>
 
@@ -55,14 +55,6 @@
         </xsl:result-document>
         <xsl:result-document href="#up" method="ixsl:replace-content">
         </xsl:result-document>
-        <xsl:apply-templates select="h:div[@id='Info']|h:div[@id='Testo']|h:header[@id='Header']|h:footer[@id='footer']"/><!--non funziona(sotto)-->
-    </xsl:template>
-
-    <!--non funziona:serve per rimandare indietro il margine + header non torna indietro-->
-    <xsl:template match="h:div[@id='Info']|h:div[@id='Testo']|h:header[@id='Header']|h:footer[@id='footer']">
-        <xsl:if test="ixsl:style(.)?margin-left = '20%'">
-            <ixsl:set-style name="marginLeft" select="'0%'"/>
-        </xsl:if>
     </xsl:template>
 
     <xsl:template match="//tei:fileDesc">
@@ -160,6 +152,7 @@
                 <th><xsl:text> Partecipante:</xsl:text></th> <td> <xsl:value-of select="./tei:persName" /> </td>
             </tr>
             </xsl:for-each>
+            
             <tr>
                 <th><xsl:text> Linguaggi:</xsl:text></th>
                 <td>
@@ -208,9 +201,10 @@
         <div id="bottoni">
         <button id="information" onclick="closeNav5()" class="cerca"> informatività </button>
         <button id="indaga" onclick="closeNav2()" class="cerca"> indaga il testo </button>
-        <button id="vocal" onclick="closeNav3()" class="cerca"> fenomeni comunicativi </button>
+        <button id="vocal" onclick="closeNav3()" class="cerca"> fenomeni parlato </button>
         <button id="minuti" onclick="minuti()" class="cerca"> mostra i minuti </button>
         <button id="terms" onclick="glosse()" class="cerca"> termini del Lager </button>
+        <button id="trad" onclick="trad()" class="cerca"> traduzioni </button>
         <button id="download" onclick="download()" class="cerca"> download </button>
         <button id="indietro" class="cerca" onclick="indietro()" style="display:none"> originale </button>
         </div>
@@ -223,23 +217,42 @@
         </div>
     </xsl:template>
 
+    <xsl:template match="//tei:item//tei:persName|//tei:item//tei:rs[contains(@ref,'Person')]">
+        <a onclick="javascript:')"><xsl:attribute name="href"><xsl:value-of select="substring-after(@ref,'xml')"/></xsl:attribute><xsl:attribute name="class">people1</xsl:attribute><xsl:apply-templates/></a>
+    </xsl:template>
+
+    <xsl:template match="//tei:item//tei:placeName[@ref]|//tei:item//tei:rs[contains(@ref,'Place')]">
+        <a><xsl:attribute name="href"><xsl:value-of select="substring-after(@ref,'xml')"/></xsl:attribute><xsl:attribute name="class">place1</xsl:attribute><xsl:apply-templates/></a>
+    </xsl:template>
+
     <xsl:template mode="ixsl:onclick" match="h:button[@id='information']">
         <xsl:result-document href="#legenda" method="ixsl:replace-content">
             <h3><xsl:text>Legenda</xsl:text></h3>
+                <xsl:text>- fenomeni non pertinenti</xsl:text><br/>
                 <span class="org"><xsl:text>Istituzioni</xsl:text></span><br/>
+                <span class="pers"><xsl:text>Individui</xsl:text></span><br/>
                 <span class="place"><xsl:text>Luoghi</xsl:text></span><br/>
                 <span class="rif"><xsl:text>Riferimenti indiretti</xsl:text></span><br/>
                 <span class="mes"><xsl:text>Misure</xsl:text></span><br/>
-                <span class="date"><xsl:text>Date</xsl:text></span><br/>
-                <span class="time"><xsl:text>Orari</xsl:text></span><br/>
+                <span class="date"><xsl:text>Date [specificazione]</xsl:text></span><br/>
+                <span class="time"><xsl:text>Orari [specificazione]</xsl:text></span><br/>
+                <br/><b><xsl:text>Cliccando sugli individui, sui luoghi e sui riferimenti indiretti puoi avere maggiori informazioni</xsl:text></b>
         </xsl:result-document>
+        <ixsl:schedule-action wait="2000">
+            <xsl:call-template name="black"/>
+        </ixsl:schedule-action>
+        <ixsl:set-style name="color" select="'rgb(179, 0, 0)'"/>
+    </xsl:template>
+
+    <xsl:template name="black">
+        <ixsl:set-style name="color" select="'black'"/>
     </xsl:template>
 
     <xsl:template mode="ixsl:onclick" match="h:button[@id='indaga']">
         <xsl:result-document href="#legenda" method="ixsl:replace-content">
             <h3><xsl:text>Legenda</xsl:text></h3>
-                <!--<span class="bold"><xsl:text>Le parole in arancio sono le glosse e i relativi termini tedeschi del Lager utilizzati</xsl:text></p>-->
-                <xsl:text>*lacuna*</xsl:text><br/>
+                <xsl:text>- fenomeni non pertinenti</xsl:text><br/>
+                <b><xsl:text>*porzione omessa*</xsl:text></b><br/>
                 <span class="unc"><xsl:text>Testo non certo</xsl:text></span><br/>
                 <span class="agg"><xsl:text>Parole aggiunte</xsl:text></span><br/>
                 <span class="sup"><xsl:text>Parole non necessarie</xsl:text></span><br/>
@@ -265,6 +278,10 @@
                 <select><option><xsl:text>&#10060; Errore</xsl:text></option><option><xsl:text>&#128994; Correzione</xsl:text></option></select>
                 <select><option><xsl:text>&#191; Non standard</xsl:text></option><option><xsl:text>&#128994; Normalizzazione</xsl:text></option></select>
         </xsl:result-document>
+        <ixsl:schedule-action wait="2000">
+            <xsl:call-template name="black"/>
+        </ixsl:schedule-action>
+        <ixsl:set-style name="color" select="'rgb(179, 0, 0)'"/>
     </xsl:template>
 
     <xsl:template mode="ixsl:onclick" match="h:button[@id='vocal']">
@@ -277,14 +294,23 @@
                 <span class="rum"><xsl:text>Rumori accidentali</xsl:text></span><br/>
                 <b><span><xsl:text>Pause (...)</xsl:text></span></b><br/>
         </xsl:result-document>
+        <ixsl:schedule-action wait="2000">
+            <xsl:call-template name="black"/>
+        </ixsl:schedule-action>
+        <ixsl:set-style name="color" select="'rgb(179, 0, 0)'"/>
     </xsl:template>
 
     <xsl:template mode="ixsl:onclick" match="h:button[@id='minuti']">
         <xsl:result-document href="#legenda" method="ixsl:replace-content">
             <h3><xsl:text>Legenda</xsl:text></h3>
+                <xsl:text>- fenomeni non pertinenti</xsl:text><br/>
                 <b style="color:red"><xsl:text>Minuti enunciati</xsl:text></b><br/>
                 <b style="color:blue"><xsl:text>Minuti sovrapposizioni</xsl:text></b><br/>
         </xsl:result-document>
+        <ixsl:schedule-action wait="2000">
+            <xsl:call-template name="black"/>
+        </ixsl:schedule-action>
+        <ixsl:set-style name="color" select="'rgb(179, 0, 0)'"/>
     </xsl:template>
 
     <xsl:template match="//tei:u">        
@@ -316,16 +342,16 @@
                 </xsl:choose>
     </xsl:template>
 
-    <xsl:template match="//tei:vocal" />
     <xsl:template match="//tei:desc" />
+    <xsl:template match="//tei:vocal"/>
 
     <!--vocal e desc presenti solo in sovrapposizione-->
     <xsl:template match="//tei:u[not(@xml:id)]/tei:vocal">
-        <xsl:apply-templates/>
+        <xsl:text>-</xsl:text>
     </xsl:template>
 
     <xsl:template match="//tei:u[not(@xml:id)]//tei:desc" >
-        <xsl:text>(</xsl:text><xsl:apply-templates/><xsl:text>)</xsl:text>
+        <xsl:text>-</xsl:text>
     </xsl:template>
 
     <xsl:template match="//tei:q">
@@ -333,6 +359,12 @@
 		<xsl:apply-templates/>
 		<xsl:text>&#187;</xsl:text>
 	</xsl:template>
+
+        <xsl:template match="//tei:span[@corresp]">
+        <xsl:text>(</xsl:text>
+		<xsl:apply-templates/>
+		<xsl:text>)</xsl:text>
+    </xsl:template>
 
     <xsl:template match="//tei:gap" >
         <xsl:if test="..[not(@xml:id)] and normalize-space(..)=''">

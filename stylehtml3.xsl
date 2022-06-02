@@ -16,10 +16,10 @@
        <xsl:result-document href="#Menu" method="ixsl:replace-content">
         <img id="menuimg" src="menu.png" alt="Icona menu" onclick="openNav()"/>
             <div id="mySidenav" class="sidenav">
-                <img id="home" src="home.png" alt="Icona home"/>
+                <img id="home" src="home.png" alt="Icona home" onclick="nascondi()"/>
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
                 <xsl:for-each select="//tei:sourceDesc/tei:bibl">
-                <a><xsl:attribute name="href"><xsl:value-of select="concat('#',@xml:id)"/></xsl:attribute><xsl:value-of select="./tei:title[1]"/></a><br/>
+                <a onclick="closeNav()"><xsl:attribute name="href"><xsl:value-of select="concat('#',@xml:id)"/></xsl:attribute><xsl:value-of select="./tei:title[1]"/></a><br/>
                 </xsl:for-each>
             </div>
         </xsl:result-document>
@@ -31,7 +31,7 @@
             <p>Realizzata da Greta Bernardoni per il progetto <span>Voci dall'Inferno</span></p><br/>
         </xsl:result-document>
         <xsl:result-document href="#up" method="ixsl:replace-content">
-            Torna Su
+            <img id="upimg" src="up.png" alt="Icona up"/>
         </xsl:result-document>
     </xsl:template>
 

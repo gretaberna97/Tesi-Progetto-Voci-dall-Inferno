@@ -68,6 +68,12 @@
 		<xsl:apply-templates/>
 		<xsl:text>&#187;</xsl:text>
 	</xsl:template>
+
+    <xsl:template match="//tei:span[@corresp]">
+        <xsl:text>(</xsl:text>
+		<xsl:apply-templates/>
+		<xsl:text>)</xsl:text>
+    </xsl:template>
     
     <xsl:template match="//tei:gap" >
         <xsl:if test="..[not(@xml:id)] and normalize-space(..)=''">
@@ -77,14 +83,18 @@
 
     <xsl:template match="//tei:vocal" />
     <xsl:template match="//tei:desc" />
-    
+    <!--<xsl:template match="//tei:u/tei:vocal"> SISTEMARE
+        <xsl:if test="count(..//*) = 1 and ../tei:vocal">
+            <xsl:apply-templates/>
+        </xsl:if>
+    </xsl:template> -->   
     <!--vocal e desc presenti solo in sovrapposizione-->
     <xsl:template match="//tei:u[not(@xml:id)]/tei:vocal">
-        <xsl:apply-templates/>
+        <xsl:text>-</xsl:text>
     </xsl:template>
 
     <xsl:template match="//tei:u[not(@xml:id)]//tei:desc" >
-        <xsl:text>(</xsl:text><xsl:apply-templates/><xsl:text>)</xsl:text>
+        <xsl:text>-</xsl:text>
     </xsl:template>
     
 </xsl:stylesheet> 

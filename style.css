@@ -7,6 +7,7 @@ header {
    text-align: center;
    margin-right:10%;
    font-size:5em;
+   padding:16px;
    font-weight: bold;
    font-family:'Bedfort', Arial, sans-serif;
    color:white;
@@ -30,17 +31,30 @@ header {
 
 #up {
   bottom:1.5%;
-  right:1%;
+  right:0.5%;
+  padding: 1% 0.5% 1% 0.5%;
   position:fixed;
+  width:5%;
+  height: 5%;
   background-color: #4d4d4d;
   border-radius: 10%;
-  width:70px;
-  transition: width 2s;
+  transition: height 2s;
   color:white;
   font-weight: bold;
   font-variant: small-caps;
   text-align: center;
   text-decoration: none;
+}
+
+#mappa {
+  border: 3px solid rgb(179, 0, 0);
+  border-radius: 2%;
+  width:70%;
+  height:500px;
+}
+
+#up img {
+  width:70%;
 }
 
 #menuimg:hover {
@@ -49,7 +63,7 @@ header {
 }
 
 #up:hover {
-  width:75px;
+  height:8%;
   cursor: pointer;
 }
 
@@ -102,7 +116,7 @@ table {
   border:1px solid #4d4d4d;
   padding: 8px; 
   background-color: white;
-  width: 86%;
+  width: 88%;
   margin-left:5%;
   line-height: 30px;
   text-align: justify;
@@ -136,7 +150,7 @@ h3{
   padding-left:2%;
   font-family:'Bedfort', Arial, sans-serif;
   color:black;
-  text-shadow: 5px 5px 5px #4d4d4d;
+  text-shadow: 5px 5px 5px silver;
 }
 
   td, th {
@@ -158,8 +172,8 @@ h3{
 
 /* Link generici */
 a:link {
-  text-decoration: none;
   color:#b30000;
+  text-decoration: none;
 }
 a:active {
   color: black;
@@ -169,7 +183,7 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-  font-weight: bold;
+  text-decoration: underline;
 }
 
 button { 
@@ -177,7 +191,6 @@ button {
   color: black;
   border: none;
   border-radius: 4px;
-  font-size: 15px;
   padding: 10px;
   width: 40%;
   text-decoration: none;
@@ -190,13 +203,11 @@ button {
 .sidenav a { 
   width: 100%;
   cursor: pointer;
-  text-align: center;
+  font-variant: small-caps;
   text-decoration: none;
-  font-size: 1em;
-  color: #818181;
+  color: white;
   display: block;
   margin:auto;
-  transition: 0.3s;
   word-wrap: break-word;
 }
 .sidenav {
@@ -206,41 +217,42 @@ button {
   z-index: 1;
   top: 0;
   left: 0;
+  text-align: center;
   background-color: #4d4d4d;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 10%;
+  font-size: 30px;
+  background-image: url("arminio2.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
 }
 
 .sidenav a:hover {
-  color: white;
+  color: red;
   font-weight: normal;
+  text-decoration: none;
+  transition:1.5s;
 }
 
 #home {
   cursor:pointer;
   display:block;
-  margin:auto;
-  margin-bottom:5%;
-  width:20%;
+  margin: 5% auto 5% auto;
+  width:5%;
 }
 
 #home:hover {
-  width:23%;
+  width:6%;
   transition: width .5s;
-
 }
 
 .sidenav .closebtn {
   position: absolute;
-  top: 0;
-  right: 0%;
-  font-size: 36px;
-}
-
-#main, #Info, #Header, #trascrizione, #Testo {
-  transition: margin-left .5s;
-  padding: 16px;
+  top: 5%;
+  text-align: left;
+  left: 5%;
+  font-size: 35px;
 }
 /*
 @media screen and (max-height: 800px) { sistemare
@@ -256,6 +268,7 @@ button {
 
 #Info {
   text-align:center;
+  margin-bottom:3%;
 }
 
 button:hover{
@@ -306,27 +319,30 @@ footer span{
 @keyframes example {
   from {
    color: #b30000;
+   font-weight: bold;
   }
   to {
    color: black;
+   font-weight: normal;
   }
 }
 
 :target {
   animation-name:example;
-  animation-duration:4s;
+  animation-duration:8s;
 }
 
 #legenda { /*sistemare per il piccolo*/
 text-align:center;
 float:left;
-width:22%;
+width:18%;
+margin-left:5%;
 background-color: #ffe6e6;
 border-radius: 50px;
 word-wrap: break-word;
 position: -webkit-sticky;
 position: sticky;
-top: 15%;
+top: 10%;
 font-size: 15px;
 padding:2%;
 }
@@ -341,14 +357,32 @@ padding:2%;
   font-weight: bold;
 }
 
-.fr, .place {
+.fr {
   color:purple;
   font-weight: bold;
 }
 
-.en, .pers {
+.place, .place a {
+  text-decoration-line: underline;
+  text-decoration-color: goldenrod;
+  text-decoration-thickness: 3px; 
+}
+
+.rif, .rif a {
+  text-decoration-line: underline;
+  text-decoration-color: purple;
+  text-decoration-thickness: 3px; 
+}
+
+.en {
   color:brown;
   font-weight: bold;
+}
+
+.pers, .pers a {
+  text-decoration-line: underline;
+  text-decoration-color: orangered;
+  text-decoration-thickness: 3px; 
 }
 
 .rus {
@@ -358,13 +392,15 @@ padding:2%;
 
 .cerca {
   display:inline-block;
-  width:26%;
+  width:23%;
   margin:1%;
   word-wrap: break-word;
 }
 
 #bottoni {
   text-align: center;
+  margin-left:4%;
+  margin-right:5%;
 }
 
 .arc {
@@ -406,7 +442,7 @@ padding:2%;
   font-weight: bold;
 }
 
-.tec, .rif {
+.tec {
   color:#cc66ff;
   font-weight: bold;
 }

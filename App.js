@@ -1,151 +1,137 @@
-/*Inserire window.onload*/
-function zero() {
-	document.getElementById("Info").style.marginLeft= "0";
-	document.getElementById("Testo").style.marginLeft = "0";
-	document.getElementById("footer").style.marginLeft = "0";
-	document.getElementById("Header").style.marginLeft = "0%";
-}
-
 function testOne(){
-	zero();
+	xmlDoc = "AW1998.xml";
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml.sef.json",
-		sourceLocation: "AW1998.xml"//,
-		//initialTemplate: "menu"
+		sourceLocation: "AW1998.xml"
 	}, "async")
+	document.getElementById("up").style.display="inline";
 }
 
 function testTwo(){
-	zero();
+	xmlDoc = "AW1987.xml";
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml.sef.json",
-		sourceLocation: "AW1987.xml"//,
-		//initialTemplate: "main"
+		sourceLocation: "AW1987.xml"
 	}, "async")
+	document.getElementById("up").style.display="inline";
 }
 
+/*const queryString = window.location.search;
+console.log(queryString);
+const urlParams = new URLSearchParams(queryString);*/
+
 function peopleB(){
-	zero();
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml2.sef.json",
-		sourceLocation: "TEI-ListPerson.xml"//,
-		//initialTemplate: "menu"
+		sourceLocation: "TEI-ListPerson.xml"
 	}, "async")
+	document.getElementById("up").style.display="inline";
+	scroll(0,0);
 }
 
 function fontiB(){
-	zero();
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml3.sef.json",
-		sourceLocation: "TEI-ListPerson.xml"//,
-		//initialTemplate: "menu"
+		sourceLocation: "TEI-ListPerson.xml"
 	}, "async")
+	document.getElementById("up").style.display="inline";
+}
+
+window.onload = function() {
+	document.getElementById("up").style.display="none";
 }
 
 function placeB(){
-	zero();
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml4.sef.json",
-		sourceLocation: "TEI-ListPlace.xml"//,
-		//initialTemplate: "menu"
+		sourceLocation: "TEI-ListPlace.xml"
 	}, "async")
+	document.getElementById("up").style.display="inline";
 }
 
-//Funzioni Greta
-  function openNav() {
-	document.getElementById("mySidenav").style.width = "20%";
-	document.getElementById("Info").style.marginLeft = "20%";
-	document.getElementById("Testo").style.marginLeft = "20%";
-	document.getElementById("footer").style.marginLeft = "20%";
-	document.getElementById("Header").style.marginLeft = "20%";
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
 }
-  
-  function closeNav() {
-	document.getElementById("mySidenav").style.width = "0";
-	document.getElementById("Info").style.marginLeft= "0";
-	document.getElementById("Testo").style.marginLeft = "0";
-	document.getElementById("footer").style.marginLeft = "0";
-	document.getElementById("Header").style.marginLeft = "0%";
-  }
 
-  var xhttp = new XMLHttpRequest();
-  var xmlDoc;
-  xhttp.onreadystatechange = function() {
-	  if (this.readyState == 4 && this.status == 200) {
-		  myFunction(this);
-	  }
-  };
-  
-  function myFunction(xml) {
-	  xmlDoc = xml.responseXML;
-  }
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
 
-xhttp.open('GET', "AW1987.xml", true); 
-xhttp.send();
+var xmlDoc;
 
 function indietro() {
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml.sef.json",
-		sourceNode: xmlDoc,
+		sourceLocation: xmlDoc,
 		destination: "serialized"
 	}, "async")
 }
 
   function closeNav2() {
-	closeNav();
 	trans();
 	SaxonJS.transform({
         stylesheetLocation: "styletext.sef.json",
-		sourceNode: xmlDoc,
+		sourceLocation: xmlDoc,
 		destination: "serialized"
 	}, "async")
   }
 
   function closeNav3() {
 	trans();
-	closeNav();
 	SaxonJS.transform({
         stylesheetLocation: "styletext2.sef.json",
-		sourceNode: xmlDoc,
+		sourceLocation: xmlDoc,
 		destination: "serialized"
 	}, "async")
   }
 
   function minuti() {
 	trans();
-	closeNav();
 	SaxonJS.transform({
         stylesheetLocation: "styletext3.sef.json",
-		sourceNode: xmlDoc,
+		sourceLocation: xmlDoc,
 		destination: "serialized"
 	}, "async")
   }
 
-  function hide(nodo) {
+  function hide() {
 		nodo.style.backgroundColor = "transparent";
 		nodo.style.cursor = "default";
 	  };
 
+	function nascondi(){
+		document.getElementById("up").style.display="none";
+	}
+
   function closeNav5() {
 	trans();
-	closeNav();
 	SaxonJS.transform({
         stylesheetLocation: "styletext4.sef.json",
-		sourceNode: xmlDoc,
+		sourceLocation: xmlDoc,
 		destination: "serialized"
 	}, "async")
   }
 
   function glosse() {
-	closeNav();
 	SaxonJS.transform({
         stylesheetLocation: "styletext5.sef.json",
-		sourceNode: xmlDoc,
+		sourceLocation: xmlDoc,
 		destination: "serialized"
 	}, "async")
 	document.getElementById("legenda").style.display="none";
 	document.getElementById("trascrizione").style.marginLeft = "5%";
-	document.getElementById("trascrizione").style.width = "86%";
+	document.getElementById("trascrizione").style.width = "88%";
+  }
+
+  function trad() {
+	SaxonJS.transform({
+        stylesheetLocation: "styletext6.sef.json",
+		sourceLocation: xmlDoc,
+		destination: "serialized"
+	}, "async")
+	document.getElementById("legenda").style.display="none";
+	document.getElementById("trascrizione").style.marginLeft = "5%";
+	document.getElementById("trascrizione").style.width = "88%";
   }
 
   function trans() {
@@ -154,12 +140,52 @@ function indietro() {
 	document.getElementById("indietro").style.color="white";
 	document.getElementById("Testo").style.marginLeft = "0%";
 	document.getElementById("trascrizione").style.marginLeft = "27.5%";
-	document.getElementById("trascrizione").style.width = "64%";
+	document.getElementById("trascrizione").style.width = "65%";
 	document.getElementById("legenda").style.display = "inline";
-	document.getElementById("footer").style.marginLeft = "0";
-	document.getElementById("Header").style.marginLeft = "0%";
 	document.getElementById("download").style.display = "none";
   }
 
+function download(){
+  const generatedText = document.getElementById("trascrizione").innerText;
+  string = xmlDoc.substring(0, 6);
+  const a = document.createElement('a');
+  let isExecuted = confirm("Vuoi scaricare il testo della testimonianza?");
+  if (isExecuted) {
+	a.href = `data:text/plain,${generatedText}`;
+	a.download = string+'.txt';
+	document.body.appendChild(a);
+	a.click();
+  }
+}
 
- 
+document.getElementById("Info").addEventListener("click", function(e) {
+	var link;
+	var stringa;
+	if(e.target && e.target.nodeName == "A") {
+		if(e.target.className=="people1"){
+			link = e.target.getAttribute("href");
+			stringa = link.substr(1);
+			peopleB();
+			/*non vede ancora il nuovo albero Dom*/
+			document.getElementById(stringa).style.backgroundColor="red";
+		} else if (e.target.className=="place1") {
+			placeB();
+			link = e.target.getAttribute("href");
+			stringa = link.substr(1);
+			placeB();
+			document.getElementById(stringa).style.backgroundColor="red";
+		}
+}
+});
+
+function hideMap (nodo) {
+	document.getElementById("mappa").style.display="none";
+	document.getElementById("butm").setAttribute("onclick", "myMap()");
+  };
+  
+function myMap() {
+	document.getElementById("mappa").style.display="inline-block";
+	document.getElementById("butm").setAttribute("onclick", "hideMap()");
+}
+
+

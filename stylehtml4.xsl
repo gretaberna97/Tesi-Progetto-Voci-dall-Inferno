@@ -16,10 +16,10 @@
        <xsl:result-document href="#Menu" method="ixsl:replace-content">
         <img id="menuimg" src="menu.png" alt="Icona menu" onclick="openNav()"/>
             <div id="mySidenav" class="sidenav">
-                <img id="home" src="home.png" alt="Icona home"/>
+                <img id="home" src="home.png" alt="Icona home" onclick="nascondi()"/>
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
                 <xsl:for-each select="//tei:listPlace/tei:place">
-                    <a><xsl:attribute name="href"><xsl:value-of select="concat('#',@xml:id)"/></xsl:attribute><xsl:value-of select="./tei:placeName"/></a><br/>
+                    <a onclick="closeNav()" style="display:inline" class="place1"><xsl:attribute name="href"><xsl:value-of select="concat('#',@xml:id)"/></xsl:attribute><xsl:value-of select="./tei:placeName"/></a><xsl:text>&#32;</xsl:text>
                 </xsl:for-each>
             </div>
         </xsl:result-document>
@@ -31,7 +31,7 @@
             <p>Realizzata da Greta Bernardoni per il progetto <span>Voci dall'Inferno</span></p><br/>
         </xsl:result-document>
         <xsl:result-document href="#up" method="ixsl:replace-content">
-            Torna Su
+            <img id="upimg" src="up.png" alt="Icona up"/>
         </xsl:result-document>
     </xsl:template>
 
@@ -56,14 +56,14 @@
                 <xsl:value-of select="tei:head" />
             </h1>
             <h2><xsl:text>Luoghi citati all'interno delle testimonianze</xsl:text></h2>
-            <button onclick="map()"> mappa </button>
+            <button id="butm" onclick="myMap()"> mappa </button>
+            <iframe id="mappa" src="https://www.google.com/maps/d/u/0/embed?mid=1-3FZB_vW5iEmxq2r8d5liTzZS63K1A4&amp;ehbc=2E312F" width="800" height="700" style="display:none" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br/>
         <table id="places">
             <xsl:for-each select="//tei:place">
             <tr>
                 <th><xsl:value-of select="position()"/></th><td><xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
                     <xsl:for-each select="tei:placeName">
 						<xsl:value-of select="."/>
-						<xsl:text>&#32;</xsl:text>
 					</xsl:for-each>
                     <xsl:if test="tei:district">
                     <xsl:text> nel </xsl:text>
@@ -77,7 +77,11 @@
                         <xsl:if test="position() != last()">
                                  <xsl:text>, </xsl:text>
                         </xsl:if>
-					</xsl:for-each><xsl:text>)&#32;</xsl:text>
+					</xsl:for-each><xsl:text>)</xsl:text>
+                    </xsl:if>
+                    <xsl:if test="tei:note">
+                    <b><xsl:text>: </xsl:text>
+                        <xsl:value-of select="tei:note"/></b>
                     </xsl:if>
                     </td> 
                     <td>
