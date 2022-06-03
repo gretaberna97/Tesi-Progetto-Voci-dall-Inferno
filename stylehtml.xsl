@@ -207,6 +207,10 @@
         <button id="trad" onclick="trad()" class="cerca"> traduzioni </button>
         <button id="download" onclick="download()" class="cerca"> download </button>
         <button id="indietro" class="cerca" onclick="indietro()" style="display:none"> originale </button>
+        <div id="leg"><h3><xsl:text>Legenda: </xsl:text></h3> 
+        <xsl:text>- fenomeni non pertinenti, &#171;testo riportato&#187; e
+        (traduzioni)</xsl:text><br/>
+        </div><br/>
         </div>
         <div id="legenda" style="display:none"></div>
         <div id="trascrizione">
@@ -229,6 +233,8 @@
         <xsl:result-document href="#legenda" method="ixsl:replace-content">
             <h3><xsl:text>Legenda</xsl:text></h3>
                 <xsl:text>- fenomeni non pertinenti</xsl:text><br/>
+                <xsl:text>&#171;testo riportato&#187;</xsl:text><br/>
+                <xsl:text>(traduzioni)</xsl:text><br/>
                 <span class="org"><xsl:text>Istituzioni</xsl:text></span><br/>
                 <span class="pers"><xsl:text>Individui</xsl:text></span><br/>
                 <span class="place"><xsl:text>Luoghi</xsl:text></span><br/>
@@ -252,6 +258,8 @@
         <xsl:result-document href="#legenda" method="ixsl:replace-content">
             <h3><xsl:text>Legenda</xsl:text></h3>
                 <xsl:text>- fenomeni non pertinenti</xsl:text><br/>
+                <xsl:text>&#171;testo riportato&#187;</xsl:text><br/>
+                <xsl:text>(traduzioni)</xsl:text><br/>
                 <b><xsl:text>*porzione omessa*</xsl:text></b><br/>
                 <span class="unc"><xsl:text>Testo non certo</xsl:text></span><br/>
                 <span class="agg"><xsl:text>Parole aggiunte</xsl:text></span><br/>
@@ -287,7 +295,9 @@
     <xsl:template mode="ixsl:onclick" match="h:button[@id='vocal']">
         <xsl:result-document href="#legenda" method="ixsl:replace-content">
             <h3><xsl:text>Legenda</xsl:text></h3>
-            <xsl:text>- fenomeni non pertinenti</xsl:text><br/>
+                <xsl:text>- fenomeni non pertinenti</xsl:text><br/>
+                <xsl:text>&#171;testo riportato&#187;</xsl:text><br/>
+                <xsl:text>(traduzioni)</xsl:text><br/>
                 <span class="del"><xsl:text>Ripensamenti, ripetizioni e parole troncate</xsl:text></span><br/>
                 <span class="emph"><xsl:text>Porzioni enfatizzate</xsl:text></span><br/>
                 <span class="vocals"><xsl:text>Fenomeni vocali</xsl:text></span><br/>
@@ -305,6 +315,8 @@
         <xsl:result-document href="#legenda" method="ixsl:replace-content">
             <h3><xsl:text>Legenda</xsl:text></h3>
                 <xsl:text>- fenomeni non pertinenti</xsl:text><br/>
+                <xsl:text>&#171;testo riportato&#187;</xsl:text><br/>
+                <xsl:text>(traduzioni)</xsl:text><br/>
                 <b style="color:red"><xsl:text>Minuti enunciati</xsl:text></b><br/>
                 <b style="color:blue"><xsl:text>Minuti sovrapposizioni</xsl:text></b><br/>
         </xsl:result-document>

@@ -34,7 +34,8 @@
 
     <xsl:template name="gloss" match="//tei:term[@xml:id]">
         <ol><xsl:for-each select="//tei:term[@xml:id]">
-            <li><b><xsl:apply-templates/></b>
+            <li>
+            <b onclick="copy(this.id)"><xsl:attribute name="id"><xsl:value-of select="./@xml:id"/></xsl:attribute><img src="play.png" class="play"/><xsl:apply-templates/></b>
             <xsl:variable name="id" select="./@xml:id"/>
             <xsl:if test="@xml:lang='de'">
                 <xsl:text> dal tedesco </xsl:text>

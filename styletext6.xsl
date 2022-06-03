@@ -13,7 +13,7 @@
 
     <xsl:template name="main" match="//tei:text">
         <xsl:result-document href="#trascrizione" method="ixsl:replace-content">
-            <h3><xsl:text>Frasi tedesche in traduzione</xsl:text></h3>
+            <h3><xsl:text>Frasi tedesche presenti nelle testimonianze in traduzione</xsl:text></h3>
             <xsl:call-template name="trad"/>
         </xsl:result-document>
     </xsl:template>
@@ -34,7 +34,7 @@
 
     <xsl:template name="trad">
         <ol><xsl:for-each select="//*[contains(@xml:id,'trad')]">
-            <li><b><xsl:apply-templates/></b>
+            <li><b onclick="copy(this.id)"><xsl:attribute name="id"><xsl:value-of select="./@xml:id"/></xsl:attribute><img src="play.png" class="play"/><xsl:apply-templates/></b>
             <xsl:variable name="id" select="./@xml:id"/>
             <xsl:if test="@xml:lang='de'">
                 <xsl:text> dal tedesco </xsl:text>
