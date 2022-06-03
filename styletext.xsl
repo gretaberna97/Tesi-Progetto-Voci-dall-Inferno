@@ -69,8 +69,12 @@
         <span class="sup"><xsl:apply-templates/></span>
     </xsl:template>
 
-    <xsl:template match="//tei:supplied">
+    <xsl:template match="//tei:supplied[@reason='omitted']">
         <span class="agg"><xsl:apply-templates/></span>
+    </xsl:template>
+
+    <xsl:template match="//tei:supplied[@reason='integration']">
+        <span class="agg"><xsl:text>(</xsl:text><xsl:apply-templates/><xsl:text>)</xsl:text></span>
     </xsl:template>
     
     <xsl:template match="//tei:del"/>
@@ -146,20 +150,6 @@
     <xsl:template match="//tei:distinct[@type='dialectal']">
 		<span class="dia"><xsl:apply-templates/></span>
 	</xsl:template>
-
-    <!--<xsl:template match="//tei:term|//tei:gloss">
-		<xsl:choose>
-        <xsl:when test="@xml:id">
-			<span class="bold"><xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute><xsl:apply-templates/></span>
-		</xsl:when>
-        <xsl:when test="@ref|@target">
-			<a class="bold" style="color:orange"><xsl:attribute name="href"><xsl:value-of select="@ref|@target"/></xsl:attribute><xsl:apply-templates/></a>
-		</xsl:when>
-		<xsl:otherwise>
-			<xsl:apply-templates/>
-		</xsl:otherwise>
-		</xsl:choose>
-	</xsl:template>-->
 
     <xsl:template match="//tei:u">
                 <xsl:choose>

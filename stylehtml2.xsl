@@ -183,16 +183,16 @@
 								</xsl:otherwise>
 							</xsl:choose>
                                                         
-                                <xsl:choose><!--codice funzionante ma brutto-->
+                                <xsl:choose>
                                 <xsl:when test=".[@source='#Rigano2015']">
                                     <li><b><xsl:text>Fonte: </xsl:text></b>
-                                    <a>
+                                    <a class="fonti">
 				                    <xsl:attribute name="href">#Rigano2015</xsl:attribute><xsl:text>Rigano, 2015</xsl:text>
 			                        </a></li>
                                 </xsl:when>
                                 <xsl:when test=".[@source='#Katz1973']">
                                     <li><b><xsl:text>Fonte: </xsl:text></b>
-                                    <a>
+                                    <a class="fonti">
 				                    <xsl:attribute name="href">#Katz1973</xsl:attribute><xsl:text>Katz, 1973</xsl:text>
 			                        </a></li>
                                 </xsl:when>

@@ -81,6 +81,20 @@
                 </xsl:choose>
     </xsl:template>
 
+    <xsl:template match="//tei:anchor">
+        <span class="sovrap">
+        <xsl:variable name="odd" select="number(substring-after(@synch,'#TT'))"/>
+        <xsl:choose>
+        <xsl:when test="($odd mod 2) = 0">
+            <xsl:text>&#8250;</xsl:text>
+        </xsl:when>
+        <xsl:otherwise>
+            <xsl:text>&#8249;</xsl:text>
+        </xsl:otherwise>
+        </xsl:choose>
+        </span>
+    </xsl:template>
+
     <xsl:template match="//tei:q">
 		<xsl:text>&#171;</xsl:text>
 		<xsl:apply-templates/>
@@ -150,14 +164,14 @@
 
     <xsl:template match="//tei:pause">
         <xsl:choose>
-        <xsl:when test="following-sibling::tei:u">  <b><xsl:text>...</xsl:text></b><br /></xsl:when>
-        <xsl:otherwise><b><xsl:text> ...</xsl:text></b></xsl:otherwise>
+        <xsl:when test="following-sibling::tei:u"> <img class="imgp" src="pausa.png"/><br /></xsl:when>
+        <xsl:otherwise><img class="imgp" src="pausa.png"/></xsl:otherwise>
         </xsl:choose>
     </xsl:template>
     
-    <xsl:template match="//tei:gap" >
-        <xsl:if test="..[not(@xml:id)] and normalize-space(..)=''">
-            <xsl:text>*lacuna*</xsl:text>
+    <xsl:template match="//tei:u//tei:gap" >
+        <xsl:if test="..[not(@xml:id)]">
+            <xsl:text>-</xsl:text>
         </xsl:if>
     </xsl:template>
     

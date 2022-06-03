@@ -21,10 +21,19 @@
         <xsl:for-each select="//tei:timeline[contains(@xml:id,'TL3')]">
             <h3><xsl:text>File </xsl:text><xsl:value-of select="position()"/></h3>
             <xsl:for-each select="./tei:when">
-                <xsl:variable name="xmlWhen" select="@xml:id"/>
-                <xsl:variable name="When" select="."/>
-                    <xsl:for-each select="//tei:u">
-                        <xsl:if test="substring-after(./@synch,'#') = $xmlWhen">
+                <xsl:call-template name="utterance">
+                <xsl:with-param name="xmlWhen" select="@xml:id"/>
+                <xsl:with-param name="When" select="."/>
+                </xsl:call-template>
+            </xsl:for-each>
+        </xsl:for-each>
+    </xsl:template>
+
+    <xsl:template name="utterance">
+        <xsl:param name="xmlWhen" select="@xml:id"/>
+        <xsl:param name="When" select="."/>
+        <xsl:for-each select="//tei:u">
+                <xsl:if test="substring-after(./@synch,'#') = $xmlWhen">
                         <b style="color:red">
                         <xsl:value-of select="$When/@absolute"/>
                         </b><xsl:text> </xsl:text>
@@ -47,8 +56,6 @@
                 </xsl:choose>
                         </xsl:if> 
                     </xsl:for-each>
-            </xsl:for-each>
-        </xsl:for-each>
     </xsl:template>
       
     <xsl:template match="//tei:sic"/>
@@ -75,7 +82,7 @@
     
     <xsl:template match="//tei:gap" >
         <xsl:if test="..[not(@xml:id)] and normalize-space(..)=''">
-            <xsl:text>*lacuna*</xsl:text>
+            <xsl:text>-</xsl:text>
         </xsl:if>
     </xsl:template>
 

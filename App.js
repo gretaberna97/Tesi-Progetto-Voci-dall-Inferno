@@ -114,6 +114,7 @@ function indietro() {
 	document.getElementById("indietro").style.display="inline-block";
 	document.getElementById("indietro").style.backgroundColor="#b30000";
 	document.getElementById("indietro").style.color="white";
+	document.getElementById("leg").style.display = "none";
   }
 
   function trad() {
@@ -129,6 +130,7 @@ function indietro() {
 	document.getElementById("indietro").style.display="inline-block";
 	document.getElementById("indietro").style.backgroundColor="#b30000";
 	document.getElementById("indietro").style.color="white";
+	document.getElementById("leg").style.display = "none";
   }
 
   function trans() {
@@ -157,62 +159,35 @@ function download(){
 }
 
 document.getElementById("Info").addEventListener("click", function(e) {
-	var link;
-	var stringa;
 	if(e.target && e.target.nodeName == "A") {
 		if(e.target.className=="people1"){
-			link = e.target.getAttribute("href");
-			stringa = link.substr(1);
-			SaxonJS.transform({
-				stylesheetLocation: "stylehtml2.sef.json",
-				sourceLocation: "TEI-ListPerson.xml"
-			}, "async")
-			.then (stringa => {
-				document.getElementById(stringa).style.backgroundColor="red";
-			})
-			/*non vede ancora il nuovo albero Dom*/
-			document.getElementById("Testo").style.display="none";
+			peopleB();
 		} else if (e.target.className=="place1") {
 			placeB();
-			link = e.target.getAttribute("href");
-			stringa = link.substr(1);
-			placeB();
-			document.getElementById("Testo").style.display="none";
-			document.getElementById(stringa).style.backgroundColor="red";
+		} else if (e.target.className=="fonti")	 {
+			fontiB();
 		}
 }
 });
 
 document.getElementById("Testo").addEventListener("click", function(e) {
-	var link;
-	var stringa;
 	if(e.target && e.target.nodeName == "A") {
 		if(e.target.className=="people1"){
-			link = e.target.getAttribute("href");
-			stringa = link.substr(1);
 			peopleB();
-			/*non vede ancora il nuovo albero Dom*/
-			document.getElementById("Testo").style.display="none";
-			document.getElementById(stringa).style.backgroundColor="red";
 		} else if (e.target.className=="place1") {
 			placeB();
-			link = e.target.getAttribute("href");
-			stringa = link.substr(1);
-			placeB();
-			document.getElementById("Testo").style.display="none";
-			document.getElementById(stringa).style.backgroundColor="red";
+		} else if (e.target.className=="fonti")	 {
+			fontiB();
 		}
 }
 });
 
 function copy(id) {
-	/* Get the text field */
 	var nodo = document.getElementById(id).innerText;
-	/* Copiare un elemento
-	navigator.clipboard.writeText(nodo);*/
 	var msg = new SpeechSynthesisUtterance();
 	msg.text = nodo;
 	msg.lang = 'en-us';
+	msg.rate = 0.3;
 	msg.voice = speechSynthesis.getVoices().find(voice => /de(-|_)DE/.test(voice.lang));
 	window.speechSynthesis.speak(msg);
   }

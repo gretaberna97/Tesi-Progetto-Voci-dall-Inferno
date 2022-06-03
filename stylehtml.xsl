@@ -298,12 +298,13 @@
                 <xsl:text>- fenomeni non pertinenti</xsl:text><br/>
                 <xsl:text>&#171;testo riportato&#187;</xsl:text><br/>
                 <xsl:text>(traduzioni)</xsl:text><br/>
+                <span class="sovrap"><xsl:text>&#8249;</xsl:text></span><xsl:text>sovrapposizioni</xsl:text><span class="sovrap"><xsl:text>&#8250;</xsl:text></span><br/>
                 <span class="del"><xsl:text>Ripensamenti, ripetizioni e parole troncate</xsl:text></span><br/>
                 <span class="emph"><xsl:text>Porzioni enfatizzate</xsl:text></span><br/>
                 <span class="vocals"><xsl:text>Fenomeni vocali</xsl:text></span><br/>
-                <span class="gesti"><xsl:text>Descrizione dei gesti</xsl:text></span><br/>
-                <span class="rum"><xsl:text>Rumori accidentali</xsl:text></span><br/>
-                <b><span><xsl:text>Pause (...)</xsl:text></span></b><br/>
+                <span class="gesti"><xsl:text>(Descrizione dei gesti)</xsl:text></span><br/>
+                <span class="rum"><xsl:text>(Rumori accidentali)</xsl:text></span><br/>
+                <b><span><xsl:text>Pausa</xsl:text> <img src="pausa.png" style="margin-bottom:-3%" class="imgp"/></span></b><br/>
         </xsl:result-document>
         <ixsl:schedule-action wait="2000">
             <xsl:call-template name="black"/>
