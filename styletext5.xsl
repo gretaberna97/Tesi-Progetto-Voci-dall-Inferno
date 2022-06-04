@@ -13,7 +13,7 @@
 
     <xsl:template name="main" match="//tei:text">
         <xsl:result-document href="#trascrizione" method="ixsl:replace-content">
-            <h3><xsl:text>Termini del Lager utilizzati nella testimonianza</xsl:text></h3>
+            <h3><xsl:text>Termini e glosse nella testimonianza</xsl:text></h3>
             <xsl:call-template name="gloss"/>
         </xsl:result-document>
     </xsl:template>
@@ -40,17 +40,8 @@
             <xsl:if test="@xml:lang='de'">
                 <xsl:text> dal tedesco </xsl:text>
             </xsl:if>
-            <xsl:if test="@xml:lang='fr'">
-                <xsl:text> dal francese </xsl:text>
-            </xsl:if>
             <xsl:if test="@xml:lang='ji'">
                 <xsl:text> dall'yiddish </xsl:text>
-            </xsl:if>
-            <xsl:if test="@xml:lang='rus'">
-                <xsl:text> dal russo </xsl:text>
-            </xsl:if>
-            <xsl:if test="@xml:lang='en'">
-                <xsl:text> dall'inglese </xsl:text>
             </xsl:if>
             <xsl:text> = </xsl:text>
             <xsl:for-each select="//tei:gloss">

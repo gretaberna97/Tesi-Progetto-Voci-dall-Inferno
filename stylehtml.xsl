@@ -203,7 +203,7 @@
         <button id="indaga" onclick="closeNav2()" class="cerca"> indaga il testo </button>
         <button id="vocal" onclick="closeNav3()" class="cerca"> fenomeni parlato </button>
         <button id="minuti" onclick="minuti()" class="cerca"> mostra i minuti </button>
-        <button id="terms" onclick="glosse()" class="cerca"> termini del Lager </button>
+        <button id="terms" onclick="glosse()" class="cerca"> termini e glosse </button>
         <button id="trad" onclick="trad()" class="cerca"> traduzioni </button>
         <button id="download" onclick="download()" class="cerca"> download </button>
         <button id="indietro" class="cerca" onclick="indietro()" style="display:none"> originale </button>

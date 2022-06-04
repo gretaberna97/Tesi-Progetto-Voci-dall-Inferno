@@ -13,7 +13,7 @@
 
     <xsl:template name="main" match="//tei:text">
         <xsl:result-document href="#trascrizione" method="ixsl:replace-content">
-            <h3><xsl:text>Frasi tedesche presenti nelle testimonianze in traduzione</xsl:text></h3>
+            <h3><xsl:text>Porzioni di testo in lingua straniera tradotte nella testimonianza</xsl:text></h3>
             <xsl:call-template name="trad"/>
         </xsl:result-document>
     </xsl:template>
@@ -37,19 +37,10 @@
             <li><b onclick="copy(this.id)"><xsl:attribute name="id"><xsl:value-of select="./@xml:id"/></xsl:attribute><img src="play.png" class="play"/><xsl:apply-templates/></b>
             <xsl:variable name="id" select="./@xml:id"/>
             <xsl:if test="@xml:lang='de'">
-                <xsl:text> dal tedesco </xsl:text>
-            </xsl:if>
-            <xsl:if test="@xml:lang='fr'">
-                <xsl:text> dal francese </xsl:text>
+                <xsl:text> dal tedesco = </xsl:text>
             </xsl:if>
             <xsl:if test="@xml:lang='ji'">
-                <xsl:text> dall'yiddish </xsl:text>
-            </xsl:if>
-            <xsl:if test="@xml:lang='rus'">
-                <xsl:text> dal russo </xsl:text>
-            </xsl:if>
-            <xsl:if test="@xml:lang='en'">
-                <xsl:text> dall'inglese </xsl:text>
+                <xsl:text> dall'yiddish  = </xsl:text>
             </xsl:if>
             <xsl:if test="not(@xml:lang)">
                 <xsl:text> che sta per </xsl:text>
