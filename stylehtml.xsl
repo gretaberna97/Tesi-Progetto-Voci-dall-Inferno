@@ -221,13 +221,14 @@
         </div>
     </xsl:template>
 
+    <!--
     <xsl:template match="//tei:item//tei:persName|//tei:item//tei:rs[contains(@ref,'Person') and not(contains(@ref,' '))]">
         <a><xsl:attribute name="href"><xsl:value-of select="substring-after(@ref,'xml')"/></xsl:attribute><xsl:attribute name="class">people1</xsl:attribute><xsl:apply-templates/></a>
     </xsl:template>
 
     <xsl:template match="//tei:item//tei:placeName[@ref]|//tei:item//tei:rs[contains(@ref,'Place')]">
         <a><xsl:attribute name="href"><xsl:value-of select="substring-after(@ref,'xml')"/></xsl:attribute><xsl:attribute name="class">place1</xsl:attribute><xsl:apply-templates/></a>
-    </xsl:template>
+    </xsl:template>-->
 
     <xsl:template mode="ixsl:onclick" match="h:button[@id='information']">
         <xsl:result-document href="#legenda" method="ixsl:replace-content">
@@ -239,6 +240,7 @@
                 <span class="pers"><xsl:text>Individui</xsl:text></span><br/>
                 <span class="place"><xsl:text>Luoghi</xsl:text></span><br/>
                 <span class="rif"><xsl:text>Riferimenti indiretti</xsl:text></span><br/>
+                <span class="agg2"><xsl:text>Integrazioni</xsl:text></span><br/>
                 <span class="mes"><xsl:text>Misure</xsl:text></span><br/>
                 <span class="date"><xsl:text>Date [specificazione]</xsl:text></span><br/>
                 <span class="time"><xsl:text>Orari [specificazione]</xsl:text></span><br/>
@@ -300,6 +302,7 @@
                 <xsl:text>(traduzioni)</xsl:text><br/>
                 <span class="sovrap"><xsl:text>&#8249;</xsl:text></span><xsl:text>sovrapposizioni</xsl:text><span class="sovrap"><xsl:text>&#8250;</xsl:text></span><br/>
                 <span class="del"><xsl:text>Ripensamenti, ripetizioni e parole troncate</xsl:text></span><br/>
+                <span class="tono"><xsl:text>Cambiamenti di tono</xsl:text></span><br/>
                 <span class="emph"><xsl:text>Porzioni enfatizzate</xsl:text></span><br/>
                 <span class="vocals"><xsl:text>Fenomeni vocali</xsl:text></span><br/>
                 <span class="gesti"><xsl:text>(Descrizione dei gesti)</xsl:text></span><br/>
@@ -411,5 +414,7 @@
     <xsl:template match="//tei:surplus" />
     
     <xsl:template match="//tei:del" />
+
+    <xsl:template match="//tei:supplied[@reason='integration']" />
 
 </xsl:stylesheet>

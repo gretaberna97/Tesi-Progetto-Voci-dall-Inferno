@@ -68,6 +68,8 @@
     
     <xsl:template match="//tei:del" />
 
+        <xsl:template match="//tei:supplied[@reason='integration']" />
+
     <xsl:template match="//tei:q">
 		<xsl:text>&#171;</xsl:text>
 		<xsl:apply-templates/>

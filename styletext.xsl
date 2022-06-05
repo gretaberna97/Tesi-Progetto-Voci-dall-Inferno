@@ -73,9 +73,7 @@
         <span class="agg"><xsl:apply-templates/></span>
     </xsl:template>
 
-    <xsl:template match="//tei:supplied[@reason='integration']">
-        <span class="agg"><xsl:text>(</xsl:text><xsl:apply-templates/><xsl:text>)</xsl:text></span>
-    </xsl:template>
+    <xsl:template match="//tei:supplied[@reason='integration']"/>
     
     <xsl:template match="//tei:del"/>
     

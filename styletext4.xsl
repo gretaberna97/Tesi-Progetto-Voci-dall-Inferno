@@ -89,11 +89,6 @@
 
     <xsl:template match="//tei:desc"/>
     <xsl:template match="//tei:vocal"/>
-    <!--<xsl:template match="//tei:u/tei:vocal">
-        <xsl:if test="count(..//*) = 1 and ../tei:vocal">
-            <xsl:apply-templates/>
-        </xsl:if>
-    </xsl:template>-->
 
     <xsl:template match="//tei:u[not(@xml:id)]/tei:vocal">
         <xsl:text>-</xsl:text>
@@ -118,11 +113,11 @@
         <a class="people1"><xsl:attribute name="href"><xsl:value-of select="substring-after(@ref,'xml')"/></xsl:attribute><xsl:apply-templates/></a></span>
     </xsl:template>
 
-    <xsl:template match="//tei:rs[not(contains(@ref,' ')) and contains(@ref,'Person')]" >
+    <xsl:template match="//tei:rs[contains(@ref,'Person')]" >
         <span class="rif"><a class="people1"><xsl:attribute name="href"><xsl:value-of select="substring-after(@ref,'xml')"/></xsl:attribute><xsl:apply-templates/></a></span>
     </xsl:template>
 
-    <xsl:template match="//tei:rs[not(contains(@ref,' ')) and contains(@ref,'Place')]" >
+    <xsl:template match="//tei:rs[contains(@ref,'Place')]" >
         <span class="rif"><a class="place1"><xsl:attribute name="href"><xsl:value-of select="substring-after(@ref,'xml')"/></xsl:attribute><xsl:apply-templates/></a></span>
     </xsl:template>
 
@@ -171,6 +166,10 @@
         </xsl:when>
         </xsl:choose>
         </span>
+    </xsl:template>
+
+    <xsl:template match="//tei:supplied[@reason='integration']">
+        <xsl:text> </xsl:text><span class="agg2"><xsl:text>(</xsl:text><xsl:apply-templates/><xsl:text>)</xsl:text></span>
     </xsl:template>
     
 </xsl:stylesheet> 

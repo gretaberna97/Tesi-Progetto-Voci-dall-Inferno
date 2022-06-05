@@ -3,19 +3,24 @@
   src: url(Bedfort.ttf);	
 }
 
+
 header {
-   text-align: center;
-   margin-right:10%;
-   font-size:5em;
-   padding:16px;
-   font-weight: bold;
-   font-family:'Bedfort', Arial, sans-serif;
-   color:white;
-   text-shadow: 5px 5px 5px black, 9px 8px 0px rgba(0,0,0,0.15);
-   background-image: url("arminio.png");
-   background-repeat: no-repeat;
-   background-position: bottom right;
-   background-size: contain; /*contain piccoli schermi*/
+  text-align: center;
+  font-size:2em;
+  padding:16px;
+  font-weight: bold;
+  color:white;
+  text-shadow: 5px 5px 5px black, 9px 8px 0px rgba(0,0,0,0.15);
+  background-image: url("arminio.png");
+  background-repeat: no-repeat;
+  background-position: bottom right 20%;
+  background-size: contain; /*contain piccoli schermi*/
+}
+
+header p:first-child {
+  font-size:2.5em;
+  margin-right: 15%;
+  font-family:'Bedfort', Arial, sans-serif;
 }
 
 #menuimg {
@@ -378,16 +383,16 @@ padding:2%;
   font-weight: bold;
 }
 
+.pers, .rif, .place {
+  font-weight: bold;
+}
+
 .place, .place a {
-  text-decoration-line: underline;
-  text-decoration-color: goldenrod;
-  text-decoration-thickness: 3px; 
+  color: teal;
 }
 
 .rif, .rif a {
-  text-decoration-line: underline;
-  text-decoration-color: purple;
-  text-decoration-thickness: 3px; 
+  color: purple;
 }
 
 .en {
@@ -396,9 +401,7 @@ padding:2%;
 }
 
 .pers, .pers a {
-  text-decoration-line: underline;
-  text-decoration-color: teal;
-  text-decoration-thickness: 3px; 
+  color: firebrick;
 }
 
 .rus {
@@ -458,7 +461,7 @@ padding:2%;
   font-weight: bold;
 }
 
-.tec {
+.tec, .tono {
   color:#cc66ff;
   font-weight: bold;
 }
@@ -495,6 +498,12 @@ padding:2%;
 
 .agg{
   color:#00cc99;
+}
+
+.agg2{
+  font-variant: small-caps;
+  background-color: yellow;
+  color:black;
 }
 
 select {

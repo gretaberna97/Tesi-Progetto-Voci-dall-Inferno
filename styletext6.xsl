@@ -32,6 +32,8 @@
     
     <xsl:template match="//tei:desc" />
 
+    <xsl:template match="//tei:supplied[@reason='integration']" />
+
     <xsl:template name="trad">
         <ol><xsl:for-each select="//*[contains(@xml:id,'trad')]">
             <li><b onclick="copy(this.id)"><xsl:attribute name="id"><xsl:value-of select="./@xml:id"/></xsl:attribute><img src="play.png" class="play"/><xsl:apply-templates/></b>

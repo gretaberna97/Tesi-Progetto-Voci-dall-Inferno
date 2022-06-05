@@ -31,13 +31,19 @@
     <xsl:template match="//tei:abbr" />
 
     <xsl:template match="//tei:surplus" />
+
+    <xsl:template match="//tei:supplied[@reason='integration']" />
     
     <xsl:template match="//tei:del">
         <span class="del"><xsl:apply-templates/></span>
     </xsl:template>
 
-    <xsl:template match="//tei:shift|//tei:emph" name="enf">
+    <xsl:template match="//tei:emph">
         <span class="emph"><xsl:apply-templates /></span>
+    </xsl:template>
+
+    <xsl:template match="//tei:shift">
+        <span class="tono"><xsl:apply-templates /></span>
     </xsl:template>
 
     <xsl:template match="//tei:u">

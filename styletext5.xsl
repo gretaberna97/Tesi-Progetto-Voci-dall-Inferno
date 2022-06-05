@@ -25,6 +25,8 @@
     <xsl:template match="//tei:abbr" />
 
     <xsl:template match="//tei:surplus" />
+
+    <xsl:template match="//tei:supplied[@reason='integration']" />
     
     <xsl:template match="//tei:del" />
 
