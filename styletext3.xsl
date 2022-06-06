@@ -27,34 +27,48 @@
                 </xsl:call-template>
             </xsl:for-each>
         </xsl:for-each>
+        <xsl:for-each select="//tei:timeline[contains(@xml:id,'TL2')]/tei:when">
+            <xsl:variable name="xmlWhenS" select="number(substring-after(@xml:id,'TT'))"/>
+            <xsl:if test="$xmlWhenS mod 2 != 0">
+            <xsl:call-template name="utterance">
+                <xsl:with-param name="xmlWhen2" select="@xml:id"/>
+                <xsl:with-param name="When2" select="."/>
+            </xsl:call-template>
+            </xsl:if>
+        </xsl:for-each>
     </xsl:template>
 
     <xsl:template name="utterance">
         <xsl:param name="xmlWhen" select="@xml:id"/>
         <xsl:param name="When" select="."/>
+        <xsl:param name="xmlWhen2" select="@xml:id"/>
+        <xsl:param name="When2" select="."/>
         <xsl:for-each select="//tei:u">
-                <xsl:if test="substring-after(./@synch,'#') = $xmlWhen">
+                <xsl:if test="substring-after(./@synch,'#') = $xmlWhen or substring-after(.[not(@xml:id)]/tei:anchor[1]/@synch,'#') = $xmlWhen2">
                         <b style="color:red">
-                        <xsl:value-of select="$When/@absolute"/>
+                        <xsl:value-of select="$When|$When2/@absolute"/>
                         </b><xsl:text> </xsl:text>
                     <xsl:choose>
-                    <xsl:when test="./@who='#MA'">
+                    <xsl:when test="./@who='#MA' and self::node()[@xml:id]">
                         <b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:apply-templates /><br />
                     </xsl:when>
-                    <xsl:when test="./@who='#LPF'">
+                    <xsl:when test="./@who='#LPF' and self::node()[@xml:id]">
                         <b><xsl:text>Liliana Picciotto Fargion: </xsl:text></b><xsl:apply-templates /><br />
                     </xsl:when>
-                    <xsl:when test="./@who='#PF'">
+                    <xsl:when test="./@who='#PF' and self::node()[@xml:id]">
                         <b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:apply-templates /><br />
                     </xsl:when>
-                    <xsl:when test="./@who='Maria'">
+                    <xsl:when test="./@who='#Maria' and self::node()[@xml:id]">
                         <b><xsl:text>Maria: </xsl:text></b><xsl:apply-templates /><br />
                     </xsl:when>
-                    <xsl:otherwise>
+                    <xsl:when test="./@who='#AW' and self::node()[@xml:id]">
                         <b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:apply-templates /><br />
-                    </xsl:otherwise>
+                    </xsl:when>
+                    <xsl:when test="self::node()[not(@xml:id)]">
+                        <b><xsl:text>(sovrapposizione): </xsl:text></b><xsl:apply-templates /><br />
+                    </xsl:when>
                 </xsl:choose>
-                        </xsl:if> 
+                </xsl:if>
                     </xsl:for-each>
     </xsl:template>
       
