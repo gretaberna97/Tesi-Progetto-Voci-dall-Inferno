@@ -40,6 +40,10 @@
     </xsl:template>
 
     <xsl:template mode="ixsl:onclick" match="h:img[@id='home']" >
+        <xsl:result-document href="#Header" method="ixsl:replace-content">
+            <p>L'interprete</p>
+            <p style="margin-top:-10%">Arminio Wachsberger</p>
+        </xsl:result-document>
         <xsl:result-document href="#Menu" method="ixsl:replace-content">
             <button id="TestOne" onclick="testOne()">4 Febbraio 1998</button>
             <button id="TestTwo" onclick="testTwo()">18 Febbraio 1987</button>
