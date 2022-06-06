@@ -37,8 +37,8 @@
             <xsl:apply-templates select="//tei:listPerson" />
         </xsl:result-document>
         <xsl:result-document href="#footer" method="ixsl:replace-content"><br/>
-            <p>Edizione digitale delle testimonianze di</p><span>Arminio Wachsberger</span>
-            <p>Realizzata da Greta Bernardoni per il progetto <span>Voci dall'Inferno</span></p><br/>
+            <p>© Edizione digitale delle testimonianze di <span>Arminio Wachsberger</span> realizzata all'interno del progetto <span>Voci dall'Inferno</span></p>
+            <p>Progetto di Laurea in Informatica Umanistica a.a 2021/2022</p> <p><span>Greta Bernardoni</span> - mat.564826</p><br/>
         </xsl:result-document>
         <xsl:result-document href="#up" method="ixsl:replace-content">
             <img id="upimg" src="up.png" alt="Icona up"/>
@@ -49,8 +49,8 @@
         <xsl:result-document href="#Menu" method="ixsl:replace-content">
             <button id="TestOne" onclick="testOne()">4 Febbraio 1998</button>
             <button id="TestTwo" onclick="testTwo()">18 Febbraio 1987</button>
-            <button id="PeopleBut" onclick="peopleB()">Persone citate</button> 
-            <button id="PlaceBut" onclick="placeB()">Luoghi citati</button>
+            <button id="PeopleBut" onclick="peopleB()">Lista persone</button> 
+            <button id="PlaceBut" onclick="placeB()">Lista luoghi</button>
             <button id="FontiBut" onclick="fontiB()">Fonti di ausilio</button>
         </xsl:result-document>
         <xsl:result-document href="#Info" method="ixsl:replace-content">

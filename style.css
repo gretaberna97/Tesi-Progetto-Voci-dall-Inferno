@@ -23,6 +23,77 @@ header p:first-child {
   font-family:'Bedfort', Arial, sans-serif;
 }
 
+#Menu button {
+  padding: 10% 1% 10% 1%;
+  display: inline;
+  width:17.5%;
+  margin:1%;
+  background-repeat: no-repeat;
+  background-position: bottom 5% center;
+  background-size:30%;
+}
+
+#TestOne {
+  background-image: url("bot1.png");
+}
+
+#TestTwo {
+  background-image: url("bot2.png");
+}
+
+#PeopleBut {
+  background-image: url("bot3.png");
+}
+
+#PlaceBut {
+  background-image: url("bot4.png");
+}
+
+#FontiBut {
+  background-image: url("bot5.png");
+}
+
+button, #linkm {
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid white;
+  cursor: pointer;
+  position: relative;
+  color:white;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:after, #linkm:after {
+  content: "";
+  background-color: rgb(179, 0, 0);
+  border-radius:5px;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+button:hover:after, #linkm:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  button, #linkm {
+    padding: 13px 50px 13px;
+  }
+}
+
 #menuimg {
   top:1.5%;
   left:1%;
@@ -157,7 +228,7 @@ h3{
   font-size:30px;
   padding-left:2%;
   font-family:'Bedfort', Arial, sans-serif;
-  color:black;
+  color:#b30000;
   text-shadow: 5px 5px 5px silver;
 }
 
@@ -192,20 +263,6 @@ a:visited {
 }
 a:hover {
   text-decoration: underline;
-}
-
-button, #linkm { 
-  background-color: white; 
-  color: black;
-  border: none;
-  border-radius: 4px;
-  padding: 10px;
-  width: 40%;
-  text-decoration: none;
-  cursor: pointer;
-  display: block; 
-  margin: 1% auto;
-  font-size:20px;
 }
 
 .sidenav a { 
@@ -279,9 +336,10 @@ button, #linkm {
   margin-bottom:3%;
 }
 
+/*
 button:hover, #linkm:hover{
   background-color: #ffe6e6;
-}
+}*/
 
 footer {
   margin-top:-1%;
@@ -343,10 +401,12 @@ footer span{
 #legenda { /*sistemare per il piccolo*/
 text-align:center;
 float:left;
-width:18%;
+width:17%;
 margin-left:5%;
-background-color: #ffe6e6;
-border-radius: 50px;
+background-color: #dbd9d9;
+border-left: 6px solid #4d4d4d;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
 word-wrap: break-word;
 position: -webkit-sticky;
 position: sticky;
@@ -357,15 +417,16 @@ padding:2%;
 
 #leg { /*sistemare per il piccolo*/
   text-align:center;
-  background-color: #ffe6e6;
-  border-radius: 50px;
+  background-color: #dbd9d9;
+  border-left: 6px solid #4d4d4d;
   word-wrap: break-word;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   font-size: 15px;
   padding:2%;
   width:50%;
   display: block;
   margin:auto;
-  line-height: 0.2pt;
   }
 
 #legenda select {
@@ -413,6 +474,8 @@ padding:2%;
   display:inline-block;
   width:23%;
   margin:1%;
+  padding-left:0%;
+  padding-right:0%;
   word-wrap: break-word;
 }
 
@@ -453,7 +516,7 @@ padding:2%;
 }
 
 .unc {
-  border: 2px solid silver;
+  border: 2px solid red;
 }
 
 .mdd {
@@ -538,4 +601,25 @@ ol li {
 .sovrap {
   color: crimson;
   font-weight: bold;
+}
+
+/* Visione fino ad una risoluzione massima di 410px */
+@media screen and (max-width: 950px){
+  #Menu button {
+    display: block;
+    padding:3%;
+    margin-bottom:3%;
+    width:100%;
+    background-image:none;
+  }
+
+  #legenda {
+    top:auto;
+  }
+
+  .cerca {
+    display: block;
+    margin-bottom:3%;
+    width:100%;
+  }
 }

@@ -27,8 +27,8 @@
             <xsl:apply-templates select="//tei:listPlace" />
         </xsl:result-document>
         <xsl:result-document href="#footer" method="ixsl:replace-content"><br/>
-            <p>Edizione digitale delle testimonianze di</p><span>Arminio Wachsberger</span>
-            <p>Realizzata da Greta Bernardoni per il progetto <span>Voci dall'Inferno</span></p><br/>
+            <p>© Edizione digitale delle testimonianze di <span>Arminio Wachsberger</span> realizzata all'interno del progetto <span>Voci dall'Inferno</span></p>
+            <p>Progetto di Laurea in Informatica Umanistica a.a 2021/2022</p> <p><span>Greta Bernardoni</span> - mat.564826</p><br/>
         </xsl:result-document>
         <xsl:result-document href="#up" method="ixsl:replace-content">
             <img id="upimg" src="up.png" alt="Icona up"/>
@@ -39,8 +39,8 @@
         <xsl:result-document href="#Menu" method="ixsl:replace-content">
             <button id="TestOne" onclick="testOne()">4 Febbraio 1998</button>
             <button id="TestTwo" onclick="testTwo()">18 Febbraio 1987</button>
-            <button id="PeopleBut" onclick="peopleB()">Persone citate</button> 
-            <button id="PlaceBut" onclick="placeB()">Luoghi citati</button>
+            <button id="PeopleBut" onclick="peopleB()">Lista persone</button> 
+            <button id="PlaceBut" onclick="placeB()">Lista luoghi</button>
             <button id="FontiBut" onclick="fontiB()">Fonti di ausilio</button>
         </xsl:result-document>
         <xsl:result-document href="#Info" method="ixsl:replace-content">
@@ -56,7 +56,7 @@
                 <xsl:value-of select="tei:head" />
             </h1>
             <h2><xsl:text>Luoghi citati all'interno delle testimonianze</xsl:text></h2>
-            <a id="linkm" href="https://www.google.com/maps/d/u/0/viewer?mid=1-3FZB_vW5iEmxq2r8d5liTzZS63K1A4&amp;ll=18.143803593704973%2C-0.5140074999999911&amp;z=2">Vedi interamente la mappa dei percorsi</a><br/>
+            <a id="linkm" href="https://www.google.com/maps/d/u/0/viewer?mid=1-3FZB_vW5iEmxq2r8d5liTzZS63K1A4&amp;ll=18.143803593704973%2C-0.5140074999999911&amp;z=2">Vedi interamente la mappa dei percorsi</a><br/><br/><br/>
             <img class="mappa" id="prima" src="mappa.png"/>
             <img class="mappa" src="mappa2.png"/>
             <!--<iframe id="mappa" href="https://www.google.com/maps/d/u/0/viewer?mid=1-3FZB_vW5iEmxq2r8d5liTzZS63K1A4&amp;amp;ll=18.14380359370496%2C-0.5140074999999911&amp;amp;z=2" src="https://www.google.com/maps/d/u/0/embed?mid=1-3FZB_vW5iEmxq2r8d5liTzZS63K1A4&amp;amp;ehbc=2E312F" width="800" height="700" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>--><br/><br/>

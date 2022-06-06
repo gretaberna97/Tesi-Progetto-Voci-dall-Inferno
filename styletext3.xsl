@@ -13,40 +13,49 @@
 
     <xsl:template name="main" match="/">
         <xsl:result-document href="#trascrizione" method="ixsl:replace-content">
-            <xsl:call-template name="testo"/>
+                <h3><xsl:text>File 1</xsl:text></h3>
+                <xsl:apply-templates select="//tei:timeline[@xml:id='TL3I' or @xml:id='TL2I']/tei:when">
+                     <xsl:sort select="@absolute" data-type="time" order="ascending"/>
+                </xsl:apply-templates>
+                <h3><xsl:text>File 2</xsl:text></h3>
+                <xsl:apply-templates select="//tei:timeline[@xml:id='TL3II' or @xml:id='TL2II']/tei:when">
+                     <xsl:sort select="@absolute" data-type="time" order="ascending"/>
+                </xsl:apply-templates>
+                <xsl:if test="//tei:timeline[@xml:id='TL3III']">
+                <h3><xsl:text>File 3</xsl:text></h3>
+                </xsl:if>
+                <xsl:apply-templates select="//tei:timeline[@xml:id='TL3III' or @xml:id='TL2III']/tei:when">
+                     <xsl:sort select="@absolute" data-type="time" order="ascending"/>
+                </xsl:apply-templates>
+                <xsl:if test="//tei:timeline[@xml:id='TL3IV']">
+                <h3><xsl:text>File 4</xsl:text></h3>
+                </xsl:if>
+                <xsl:apply-templates select="//tei:timeline[@xml:id='TL3IV' or @xml:id='TL2IV']/tei:when">
+                     <xsl:sort select="@absolute" data-type="time" order="ascending"/>
+                </xsl:apply-templates>
+                <xsl:if test="//tei:timeline[@xml:id='TL3V']">
+                <h3><xsl:text>File 5</xsl:text></h3>
+                </xsl:if>
+                <xsl:apply-templates select="//tei:timeline[@xml:id='TL3V' or @xml:id='TL2V']/tei:when">
+                     <xsl:sort select="@absolute" data-type="time" order="ascending"/>
+                </xsl:apply-templates>
         </xsl:result-document>
     </xsl:template>
 
-    <xsl:template name="testo">
-        <xsl:for-each select="//tei:timeline[contains(@xml:id,'TL3')]">
-            <h3><xsl:text>File </xsl:text><xsl:value-of select="position()"/></h3>
-            <xsl:for-each select="./tei:when">
-                <xsl:call-template name="utterance">
-                <xsl:with-param name="xmlWhen" select="@xml:id"/>
-                <xsl:with-param name="When" select="."/>
-                </xsl:call-template>
-            </xsl:for-each>
-        </xsl:for-each>
-        <xsl:for-each select="//tei:timeline[contains(@xml:id,'TL2')]/tei:when">
-            <xsl:variable name="xmlWhenS" select="number(substring-after(@xml:id,'TT'))"/>
-            <xsl:if test="$xmlWhenS mod 2 != 0">
-            <xsl:call-template name="utterance">
-                <xsl:with-param name="xmlWhen2" select="@xml:id"/>
-                <xsl:with-param name="When2" select="."/>
-            </xsl:call-template>
-            </xsl:if>
-        </xsl:for-each>
+    <xsl:template match="//tei:timeline[contains(@xml:id,'TL3') or contains(@xml:id,'TL2')]/tei:when">
+        <xsl:call-template name="utterance">
+            <xsl:with-param name="xmlWhen" select="@xml:id"/>
+            <xsl:with-param name="When" select="."/>
+        </xsl:call-template>
     </xsl:template>
 
     <xsl:template name="utterance">
         <xsl:param name="xmlWhen" select="@xml:id"/>
         <xsl:param name="When" select="."/>
-        <xsl:param name="xmlWhen2" select="@xml:id"/>
-        <xsl:param name="When2" select="."/>
         <xsl:for-each select="//tei:u">
-                <xsl:if test="substring-after(./@synch,'#') = $xmlWhen or substring-after(.[not(@xml:id)]/tei:anchor[1]/@synch,'#') = $xmlWhen2">
+                <xsl:if test="substring-after(./@synch|.[not(@xml:id)]/tei:anchor[1]/@synch,'#') = $xmlWhen">
                         <b style="color:red">
-                        <xsl:value-of select="$When|$When2/@absolute"/>
+                        <xsl:value-of select="$When/@absolute"/>
                         </b><xsl:text> </xsl:text>
                     <xsl:choose>
                     <xsl:when test="./@who='#MA' and self::node()[@xml:id]">
@@ -58,15 +67,23 @@
                     <xsl:when test="./@who='#PF' and self::node()[@xml:id]">
                         <b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:apply-templates /><br />
                     </xsl:when>
-                    <xsl:when test="./@who='#Maria' and self::node()[@xml:id]">
+                    <xsl:when test="./@who='Maria' and self::node()[@xml:id]">
                         <b><xsl:text>Maria: </xsl:text></b><xsl:apply-templates /><br />
                     </xsl:when>
                     <xsl:when test="./@who='#AW' and self::node()[@xml:id]">
                         <b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:apply-templates /><br />
                     </xsl:when>
-                    <xsl:when test="self::node()[not(@xml:id)]">
-                        <b><xsl:text>(sovrapposizione): </xsl:text></b><xsl:apply-templates /><br />
+                    <xsl:when test="./@who='#AW' and self::node()[not(@xml:id)]">
+                        <b><xsl:text>(Arminio W. sovrapposizione): </xsl:text></b><xsl:apply-templates /><br />
                     </xsl:when>
+                    <xsl:when test="./@who='#LPF' and self::node()[not(@xml:id)]">
+                        <b><xsl:text>(Liliana P.F. sovrapposizione): </xsl:text></b><xsl:apply-templates /><br />
+                    </xsl:when>
+                    <xsl:when test="./@who='#MA' and self::node()[not(@xml:id)]">
+                        <b><xsl:text>(Maurina A. sovrapposizione): </xsl:text></b><xsl:apply-templates /><br />
+                    </xsl:when>
+                    <xsl:otherwise><xsl:apply-templates />
+                    </xsl:otherwise>
                 </xsl:choose>
                 </xsl:if>
                     </xsl:for-each>
@@ -82,7 +99,7 @@
     
     <xsl:template match="//tei:del" />
 
-        <xsl:template match="//tei:supplied[@reason='integration']" />
+    <xsl:template match="//tei:supplied[@reason='integration']" />
 
     <xsl:template match="//tei:q">
 		<xsl:text>&#171;</xsl:text>

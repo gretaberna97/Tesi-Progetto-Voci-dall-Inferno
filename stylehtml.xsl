@@ -31,8 +31,8 @@
             <xsl:apply-templates select="//tei:text" />
         </xsl:result-document>
         <xsl:result-document href="#footer" method="ixsl:replace-content"><br/>
-            <p>Edizione digitale delle testimonianze di</p><span>Arminio Wachsberger</span>
-            <p>Realizzata da Greta Bernardoni per il progetto <span>Voci dall'Inferno</span></p><br/>
+            <p>© Edizione digitale delle testimonianze di <span>Arminio Wachsberger</span> realizzata all'interno del progetto <span>Voci dall'Inferno</span></p>
+            <p>Progetto di Laurea in Informatica Umanistica a.a 2021/2022</p> <p><span>Greta Bernardoni</span> - mat.564826</p><br/>
         </xsl:result-document>
         <xsl:result-document href="#up" method="ixsl:replace-content">
             <img id="upimg" src="up.png" alt="Icona up"/>
@@ -43,8 +43,8 @@
         <xsl:result-document href="#Menu" method="ixsl:replace-content">
             <button id="TestOne" onclick="testOne()">4 Febbraio 1998</button>
             <button id="TestTwo" onclick="testTwo()">18 Febbraio 1987</button>
-            <button id="PeopleBut" onclick="peopleB()">Persone citate</button> 
-            <button id="PlaceBut" onclick="placeB()">Luoghi citati</button>
+            <button id="PeopleBut" onclick="peopleB()">Lista persone</button> 
+            <button id="PlaceBut" onclick="placeB()">Lista luoghi</button>
             <button id="FontiBut" onclick="fontiB()">Fonti di ausilio</button>
         </xsl:result-document>
         <xsl:result-document href="#Info" method="ixsl:replace-content">
@@ -249,11 +249,11 @@
         <ixsl:schedule-action wait="2000">
             <xsl:call-template name="black"/>
         </ixsl:schedule-action>
-        <ixsl:set-style name="color" select="'rgb(179, 0, 0)'"/>
+        <ixsl:set-style name="backgroundColor" select="'black'"/>
     </xsl:template>
 
     <xsl:template name="black">
-        <ixsl:set-style name="color" select="'black'"/>
+        <ixsl:set-style name="backgroundColor" select="'rgb(179,0,0)'"/>
     </xsl:template>
 
     <xsl:template mode="ixsl:onclick" match="h:button[@id='indaga']">
@@ -291,7 +291,7 @@
         <ixsl:schedule-action wait="2000">
             <xsl:call-template name="black"/>
         </ixsl:schedule-action>
-        <ixsl:set-style name="color" select="'rgb(179, 0, 0)'"/>
+        <ixsl:set-style name="backgroundColor" select="'black'"/>
     </xsl:template>
 
     <xsl:template mode="ixsl:onclick" match="h:button[@id='vocal']">
@@ -312,22 +312,16 @@
         <ixsl:schedule-action wait="2000">
             <xsl:call-template name="black"/>
         </ixsl:schedule-action>
-        <ixsl:set-style name="color" select="'rgb(179, 0, 0)'"/>
+        <ixsl:set-style name="backgroundColor" select="'black'"/>
     </xsl:template>
 
     <xsl:template mode="ixsl:onclick" match="h:button[@id='minuti']">
         <xsl:result-document href="#legenda" method="ixsl:replace-content">
-            <h3><xsl:text>Legenda</xsl:text></h3>
-                <xsl:text>- fenomeni non pertinenti</xsl:text><br/>
-                <xsl:text>&#171;testo riportato&#187;</xsl:text><br/>
-                <xsl:text>(traduzioni)</xsl:text><br/>
-                <b style="color:red"><xsl:text>Minuti enunciati</xsl:text></b><br/>
-                <b style="color:blue"><xsl:text>Minuti sovrapposizioni</xsl:text></b><br/>
         </xsl:result-document>
         <ixsl:schedule-action wait="2000">
             <xsl:call-template name="black"/>
         </ixsl:schedule-action>
-        <ixsl:set-style name="color" select="'rgb(179, 0, 0)'"/>
+        <ixsl:set-style name="backgroundColor" select="'black'"/>
     </xsl:template>
 
     <xsl:template match="//tei:u">        

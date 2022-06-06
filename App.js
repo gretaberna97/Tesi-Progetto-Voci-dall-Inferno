@@ -29,6 +29,7 @@ function fontiB(){
 		stylesheetLocation: "stylehtml3.sef.json",
 		sourceLocation: "TEI-ListPerson.xml"
 	}, "async")
+	scroll(0,0);
 }
 
 
@@ -77,20 +78,25 @@ function indietro() {
   }
 
   function minuti() {
-	trans();
 	SaxonJS.transform({
         stylesheetLocation: "styletext3.sef.json",
 		sourceLocation: xmlDoc,
 		destination: "serialized"
 	}, "async")
+	document.getElementById("legenda").style.display="none";
+	document.getElementById("trascrizione").style.marginLeft = "5%";
+	document.getElementById("trascrizione").style.width = "88%";
+	document.getElementById("download").style.display = "none";
+	document.getElementById("indietro").style.display="inline-block";
+	document.getElementById("indietro").style.backgroundColor="#4d4d4d";
+	document.getElementById("indietro").style.color="white";
+	document.getElementById("leg").style.display = "block";
   }
 
   function hide() {
 		nodo.style.backgroundColor = "transparent";
 		nodo.style.cursor = "default";
 	  };
-
-
 
   function closeNav5() {
 	trans();
@@ -112,7 +118,7 @@ function indietro() {
 	document.getElementById("trascrizione").style.width = "88%";
 	document.getElementById("download").style.display = "none";
 	document.getElementById("indietro").style.display="inline-block";
-	document.getElementById("indietro").style.backgroundColor="#b30000";
+	document.getElementById("indietro").style.backgroundColor="#4d4d4d";
 	document.getElementById("indietro").style.color="white";
 	document.getElementById("leg").style.display = "none";
   }
@@ -128,14 +134,14 @@ function indietro() {
 	document.getElementById("trascrizione").style.width = "88%";
 	document.getElementById("download").style.display = "none";
 	document.getElementById("indietro").style.display="inline-block";
-	document.getElementById("indietro").style.backgroundColor="#b30000";
+	document.getElementById("indietro").style.backgroundColor="#4d4d4d";
 	document.getElementById("indietro").style.color="white";
 	document.getElementById("leg").style.display = "none";
   }
 
   function trans() {
 	document.getElementById("indietro").style.display="inline-block";
-	document.getElementById("indietro").style.backgroundColor="#b30000";
+	document.getElementById("indietro").style.backgroundColor="#4d4d4d";
 	document.getElementById("indietro").style.color="white";
 	document.getElementById("Testo").style.marginLeft = "0%";
 	document.getElementById("trascrizione").style.marginLeft = "27.5%";
@@ -186,11 +192,14 @@ function copy(id) {
 	var nodo = document.getElementById(id).innerText;
 	var msg = new SpeechSynthesisUtterance();
 	msg.text = nodo;
-	msg.lang = 'en-us';
 	msg.rate = 0.3;
 	msg.voice = speechSynthesis.getVoices().find(voice => /de(-|_)DE/.test(voice.lang));
 	window.speechSynthesis.speak(msg);
   }
 
-  
+  console.log(`Voices #: ${speechSynthesis.getVoices().length}`)
+
+  speechSynthesis.getVoices().forEach(voice => {
+	console.log(voice.name, voice.lang)
+  })
   
