@@ -13,6 +13,10 @@
 <xsl:output method="html" html-version="5" encoding="utf-8" indent="no"/>
 
     <xsl:template name="main" match="/">
+        <xsl:result-document href="#Header" method="ixsl:replace-content">
+            <p>Der Dolmetscher</p>
+            <p style="margin-top:-10%">L'interprete</p>
+        </xsl:result-document>
        <xsl:result-document href="#Menu" method="ixsl:replace-content">
         <img id="menuimg" src="menu.png" alt="Icona menu" onclick="openNav()"/>
             <div id="mySidenav" class="sidenav">
@@ -47,8 +51,8 @@
 
     <xsl:template mode="ixsl:onclick" match="h:img[@id='home']" >
         <xsl:result-document href="#Header" method="ixsl:replace-content">
-            <p>L'interprete</p>
-            <p style="margin-top:-10%">Arminio Wachsberger</p>
+            <p>Der Dolmetscher</p>
+            <p style="margin-top:-10%">L'interprete: Arminio Wachsberger</p>
         </xsl:result-document>
         <xsl:result-document href="#Menu" method="ixsl:replace-content">
             <button id="TestOne" onclick="testOne()">4 Febbraio 1998</button>
