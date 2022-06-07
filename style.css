@@ -10,6 +10,7 @@ header {
   padding:16px;
   font-weight: bold;
   color:white;
+  word-wrap: break-word;
   text-shadow: 5px 5px 5px black, 9px 8px 0px rgba(0,0,0,0.15);
   background-image: url("arminio.png");
   background-repeat: no-repeat;

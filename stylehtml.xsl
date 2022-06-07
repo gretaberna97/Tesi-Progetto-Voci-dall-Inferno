@@ -403,7 +403,7 @@
 
     <xsl:template match="//tei:gap" >
         <xsl:if test="..[not(@xml:id)] and normalize-space(..)=''">
-            <xsl:text>*lacuna*</xsl:text>
+            <xsl:text>-</xsl:text>
         </xsl:if>
     </xsl:template>
   
