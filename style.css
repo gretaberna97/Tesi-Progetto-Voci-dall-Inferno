@@ -387,6 +387,18 @@ footer span{
   font-weight: bold;
 }
 
+.soC {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color:blue;
+}
+
+.men {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  text-decoration-color:chocolate;
+}
+
 @keyframes example {
   from {
    color: #b30000;

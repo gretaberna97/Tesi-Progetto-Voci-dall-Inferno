@@ -272,6 +272,8 @@
                 <xsl:text>(traduzioni)</xsl:text><br/>
                 <b><xsl:text>*porzione omessa*</xsl:text></b><br/>
                 <span class="unc"><xsl:text>Testo non certo</xsl:text></span><br/>
+                <span class="soC"><xsl:text>Parole discostate</xsl:text></span><br/>
+                <span class="men"><xsl:text>Menzioni</xsl:text></span><br/>
                 <span class="agg"><xsl:text>Parole aggiunte</xsl:text></span><br/>
                 <span class="sup"><xsl:text>Parole non necessarie</xsl:text></span><br/>
                 <span class="bold"><xsl:text>Parole in tedesco</xsl:text></span><br/>

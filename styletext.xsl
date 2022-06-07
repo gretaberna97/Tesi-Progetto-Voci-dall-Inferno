@@ -149,6 +149,14 @@
 		<span class="dia"><xsl:apply-templates/></span>
 	</xsl:template>
 
+    <xsl:template match="//tei:soCalled">
+		<span class="soC"><xsl:apply-templates/></span>
+	</xsl:template>
+
+    <xsl:template match="//tei:mentioned">
+		<span class="men"><xsl:apply-templates/></span>
+	</xsl:template>
+
     <xsl:template match="//tei:u">
                 <xsl:choose>
                     <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#AW']">
