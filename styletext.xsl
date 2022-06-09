@@ -160,51 +160,46 @@
     <xsl:template match="//tei:u">
                 <xsl:choose>
                     <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#AW']">
-                        <b><xsl:text>(Arminio W. sovrapposizione): </xsl:text></b><xsl:apply-templates /><br />
+                        <p><b><xsl:text>(Arminio W. sovrapposizione): </xsl:text></b><xsl:apply-templates /></p>
                     </xsl:when>
                     <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#LPF']">
-                        <b><xsl:text>(Liliana P.F. sovrapposizione): </xsl:text></b><xsl:apply-templates /><br />
+                        <p><b><xsl:text>(Liliana P.F. sovrapposizione): </xsl:text></b><xsl:apply-templates /></p>
                     </xsl:when>
                     <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#MA']">
-                        <b><xsl:text>(Maurina A. sovrapposizione): </xsl:text></b><xsl:apply-templates /><br />
+                        <p><b><xsl:text>(Maurina A. sovrapposizione): </xsl:text></b><xsl:apply-templates /></p>
                     </xsl:when>
                     <xsl:when test="(./@xml:id='MA81' and ./@synch='#TS163') or (./@xml:id='MA158' and ./@synch='#TS320') or (./@xml:id='MA56' and ./@synch='#TS113')">
-                        <b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:text>-</xsl:text><br />
+                        <p><b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:text>-</xsl:text></p>
                     </xsl:when>
                     <xsl:when test="(./@xml:id='PF3' and ./@synch='#TS193') or (./@xml:id='PF4' and ./@synch='#TS195')">
-                        <b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:text>-</xsl:text><br />
+                        <p><b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:text>-</xsl:text></p>
                     </xsl:when>
                     <xsl:when test="./@xml:id='LPF436' and ./@synch='#TS871'">
-                        <b><xsl:text>Liliana Picciotto Fargion: </xsl:text></b><xsl:text>-</xsl:text><br />
+                        <p><b><xsl:text>Liliana Picciotto Fargion: </xsl:text></b><xsl:text>-</xsl:text></p>
                     </xsl:when>
                     <xsl:when test="(./@xml:id='AW96' and ./@synch='#TS194') or (./@xml:id='AW227' and ./@synch='#TS456')">
-                        <b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:text>-</xsl:text><br />
+                        <p><b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:text>-</xsl:text></p>
                     </xsl:when>
                     <xsl:when test="./@who='#MA'">
-                        <b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:apply-templates /><br />
+                        <p><b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:apply-templates /></p>
                     </xsl:when>
                     <xsl:when test="./@who='#LPF'">
-                        <b><xsl:text>Liliana Picciotto Fargion: </xsl:text></b><xsl:apply-templates /><br />
+                        <p><b><xsl:text>Liliana Picciotto Fargion: </xsl:text></b><xsl:apply-templates /></p>
                     </xsl:when>
                     <xsl:when test="./@who='#PF'">
-                        <b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:apply-templates /><br />
+                        <p><b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:apply-templates /></p>
                     </xsl:when>
                     <xsl:when test="./@who='Maria'">
-                        <b><xsl:text>Maria: </xsl:text></b><xsl:apply-templates /><br />
+                        <p><b><xsl:text>Maria: </xsl:text></b><xsl:apply-templates /></p>
                     </xsl:when>
                     <xsl:otherwise>
-                        <b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:apply-templates /><br />
+                        <p><b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:apply-templates /></p>
                     </xsl:otherwise>
                 </xsl:choose>
     </xsl:template>
 
     <xsl:template match="//tei:vocal"/>
     <xsl:template match="//tei:desc"/>
-    <!--<xsl:template match="//tei:u/tei:vocal">
-        <xsl:if test="count(..//*) = 1 and ../tei:vocal">
-            <xsl:apply-templates/>
-        </xsl:if>
-    </xsl:template>-->
 
     <!--vocal, del desc presenti solo in sovrapposizione-->
     <xsl:template match="//tei:u[not(@xml:id)]/tei:vocal">

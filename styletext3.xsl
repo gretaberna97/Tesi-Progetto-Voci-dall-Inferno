@@ -54,7 +54,7 @@
         <xsl:param name="When" select="."/>
         <xsl:for-each select="//tei:u">
                 <xsl:if test="substring-after(./@synch|.[not(@xml:id)]/tei:anchor[1]/@synch,'#') = $xmlWhen">
-                        <b style="color:red">
+                        <p><b style="color:red">
                         <xsl:value-of select="$When/@absolute"/>
                         </b><xsl:text> </xsl:text>
                     <xsl:choose>
@@ -84,7 +84,7 @@
                     </xsl:when>
                     <xsl:otherwise><xsl:apply-templates />
                     </xsl:otherwise>
-                </xsl:choose>
+                </xsl:choose></p>
                 </xsl:if>
                     </xsl:for-each>
     </xsl:template>

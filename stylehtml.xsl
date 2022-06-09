@@ -184,18 +184,19 @@
         <xsl:variable name="When" select="."/>
             <xsl:for-each select="//tei:item">
                 <xsl:if test="substring-after(./@synch,'#') = $xmlWhen">
-                <b><xsl:text>Minuto </xsl:text>
+                <p><b><xsl:text>Minuto </xsl:text>
                 <xsl:value-of select="$When/@absolute"/>
                 </b><br/>
                 <xsl:choose>
                     <xsl:when test=".[contains(@synch,'a')]">
-                        <xsl:apply-templates/><i><xsl:text>[Continua nel file successivo]</xsl:text></i><br/><br/>
+                        <xsl:apply-templates/><i><xsl:text>[Continua nel file successivo]</xsl:text></i>
                     </xsl:when> 
                     <xsl:when test=".[contains(@synch,'b')]">
-                        <i><xsl:text>[Continuo del file precedente]</xsl:text></i><xsl:apply-templates/><br/><br/>
+                        <i><xsl:text>[Continuo del file precedente]</xsl:text></i><xsl:apply-templates/>
                     </xsl:when> 
-                    <xsl:otherwise><xsl:apply-templates/><br/><br/></xsl:otherwise>
+                    <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
                 </xsl:choose>
+                </p>
                 </xsl:if> 
             </xsl:for-each>
         </xsl:for-each></td>
@@ -216,8 +217,8 @@
         <button id="download" onclick="download()" class="cerca"> download </button>
         <button id="indietro" class="cerca" onclick="indietro()" style="display:none"> originale </button>
         <div id="leg"><h3><xsl:text>Legenda: </xsl:text></h3> 
-        <xsl:text>- fenomeni non pertinenti, &#171;testo riportato&#187; e
-        (traduzioni)</xsl:text><br/>
+        <span><xsl:text>- fenomeni non pertinenti, &#171;testo riportato&#187; e
+        (traduzioni)</xsl:text></span>
         </div><br/>
         </div>
         <div id="legenda" style="display:none"></div>
@@ -229,21 +230,12 @@
         </div>
     </xsl:template>
 
-    <!--
-    <xsl:template match="//tei:item//tei:persName|//tei:item//tei:rs[contains(@ref,'Person') and not(contains(@ref,' '))]">
-        <a><xsl:attribute name="href"><xsl:value-of select="substring-after(@ref,'xml')"/></xsl:attribute><xsl:attribute name="class">people1</xsl:attribute><xsl:apply-templates/></a>
-    </xsl:template>
-
-    <xsl:template match="//tei:item//tei:placeName[@ref]|//tei:item//tei:rs[contains(@ref,'Place')]">
-        <a><xsl:attribute name="href"><xsl:value-of select="substring-after(@ref,'xml')"/></xsl:attribute><xsl:attribute name="class">place1</xsl:attribute><xsl:apply-templates/></a>
-    </xsl:template>-->
-
     <xsl:template mode="ixsl:onclick" match="h:button[@id='information']">
         <xsl:result-document href="#legenda" method="ixsl:replace-content">
             <h3><xsl:text>Legenda</xsl:text></h3>
-                <xsl:text>- fenomeni non pertinenti</xsl:text><br/>
-                <xsl:text>&#171;testo riportato&#187;</xsl:text><br/>
-                <xsl:text>(traduzioni)</xsl:text><br/>
+                <span><xsl:text>- fenomeni non pertinenti</xsl:text></span><br/>
+                <span><xsl:text>&#171;testo riportato&#187;</xsl:text></span><br/>
+                <span><xsl:text>(traduzioni)</xsl:text></span><br/>
                 <span class="org"><xsl:text>Istituzioni</xsl:text></span><br/>
                 <span class="pers"><xsl:text>Individui</xsl:text></span><br/>
                 <span class="place"><xsl:text>Luoghi</xsl:text></span><br/>
@@ -267,9 +259,9 @@
     <xsl:template mode="ixsl:onclick" match="h:button[@id='indaga']">
         <xsl:result-document href="#legenda" method="ixsl:replace-content">
             <h3><xsl:text>Legenda</xsl:text></h3>
-                <xsl:text>- fenomeni non pertinenti</xsl:text><br/>
-                <xsl:text>&#171;testo riportato&#187;</xsl:text><br/>
-                <xsl:text>(traduzioni)</xsl:text><br/>
+                <span><xsl:text>- fenomeni non pertinenti</xsl:text></span><br/>
+                <span><xsl:text>&#171;testo riportato&#187;</xsl:text></span><br/>
+                <span><xsl:text>(traduzioni)</xsl:text></span><br/>
                 <b><xsl:text>*porzione omessa*</xsl:text></b><br/>
                 <span class="unc"><xsl:text>Testo non certo</xsl:text></span><br/>
                 <span class="soC"><xsl:text>Parole discostate</xsl:text></span><br/>
@@ -307,9 +299,9 @@
     <xsl:template mode="ixsl:onclick" match="h:button[@id='vocal']">
         <xsl:result-document href="#legenda" method="ixsl:replace-content">
             <h3><xsl:text>Legenda</xsl:text></h3>
-                <xsl:text>- fenomeni non pertinenti</xsl:text><br/>
-                <xsl:text>&#171;testo riportato&#187;</xsl:text><br/>
-                <xsl:text>(traduzioni)</xsl:text><br/>
+                <span><xsl:text>- fenomeni non pertinenti</xsl:text></span><br/>
+                <span><xsl:text>&#171;testo riportato&#187;</xsl:text></span><br/>
+                <span><xsl:text>(traduzioni)</xsl:text></span><br/>
                 <span class="sovrap"><xsl:text>&#8249;</xsl:text></span><xsl:text>sovrapposizioni</xsl:text><span class="sovrap"><xsl:text>&#8250;</xsl:text></span><br/>
                 <span class="del"><xsl:text>Ripensamenti, ripetizioni e parole troncate</xsl:text></span><br/>
                 <span class="tono"><xsl:text>Cambiamenti di tono</xsl:text></span><br/>
@@ -337,40 +329,40 @@
     <xsl:template match="//tei:u">        
                     <xsl:choose>
                     <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#AW']">
-                        <b><xsl:text>(Arminio W. sovrapposizione): </xsl:text></b><xsl:apply-templates /><br />
+                        <p><b><xsl:text>(Arminio W. sovrapposizione): </xsl:text></b><xsl:apply-templates /></p>
                     </xsl:when>
                     <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#LPF']">
-                        <b><xsl:text>(Liliana P.F. sovrapposizione): </xsl:text></b><xsl:apply-templates /><br />
+                        <p><b><xsl:text>(Liliana P.F. sovrapposizione): </xsl:text></b><xsl:apply-templates /></p>
                     </xsl:when>
                     <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#MA']">
-                        <b><xsl:text>(Maurina A. sovrapposizione): </xsl:text></b><xsl:apply-templates /><br />
+                        <p><b><xsl:text>(Maurina A. sovrapposizione): </xsl:text></b><xsl:apply-templates /></p>
                     </xsl:when>
                     <xsl:when test="(./@xml:id='MA81' and ./@synch='#TS163') or (./@xml:id='MA158' and ./@synch='#TS320') or (./@xml:id='MA56' and ./@synch='#TS113')">
-                        <b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:text>-</xsl:text><br />
+                        <p><b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:text>-</xsl:text></p>
                     </xsl:when>
                     <xsl:when test="(./@xml:id='PF3' and ./@synch='#TS193') or (./@xml:id='PF4' and ./@synch='#TS195')">
-                        <b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:text>-</xsl:text><br />
+                        <p><b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:text>-</xsl:text></p>
                     </xsl:when>
                     <xsl:when test="./@xml:id='LPF436' and ./@synch='#TS871'">
-                        <b><xsl:text>Liliana Picciotto Fargion: </xsl:text></b><xsl:text>-</xsl:text><br />
+                        <p><b><xsl:text>Liliana Picciotto Fargion: </xsl:text></b><xsl:text>-</xsl:text></p>
                     </xsl:when>
                     <xsl:when test="(./@xml:id='AW96' and ./@synch='#TS194') or (./@xml:id='AW227' and ./@synch='#TS456')">
-                        <b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:text>-</xsl:text><br />
+                        <p><b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:text>-</xsl:text></p>
                     </xsl:when>
                     <xsl:when test="./@who='#MA'">
-                        <b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:apply-templates /><br />
+                        <p><b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:apply-templates /></p>
                     </xsl:when>
                     <xsl:when test="./@who='#LPF'">
-                        <b><xsl:text>Liliana Picciotto Fargion: </xsl:text></b><xsl:apply-templates /><br />
+                        <p><b><xsl:text>Liliana Picciotto Fargion: </xsl:text></b><xsl:apply-templates /></p>
                     </xsl:when>
                     <xsl:when test="./@who='#PF'">
-                        <b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:apply-templates /><br />
+                        <p><b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:apply-templates /></p>
                     </xsl:when>
                     <xsl:when test="./@who='Maria'">
-                        <b><xsl:text>Maria: </xsl:text></b><xsl:apply-templates /><br />
+                        <p><b><xsl:text>Maria: </xsl:text></b><xsl:apply-templates /></p>
                     </xsl:when>
                     <xsl:otherwise>
-                        <b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:apply-templates /><br />
+                        <p><b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:apply-templates /></p>
                     </xsl:otherwise>
                 </xsl:choose>
     </xsl:template>
