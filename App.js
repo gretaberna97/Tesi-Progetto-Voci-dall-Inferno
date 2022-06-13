@@ -152,14 +152,14 @@ function indietro() {
   }
 
 function download(){
-  const generatedText = document.getElementById("trascrizione").innerText;
+  var a = document.body.appendChild(document.createElement("a"));
+  var testoTraduzione = document.getElementById("trascrizione").innerText;
   string = xmlDoc.substring(0, 6);
-  const a = document.createElement('a');
   let isExecuted = confirm("Vuoi scaricare il testo della testimonianza?");
   if (isExecuted) {
-	a.href = `data:text/plain,${generatedText}`;
-	a.download = string+'.txt';
-	document.body.appendChild(a);
+	a.download = string + '.txt';
+	testoTraduzione = testoTraduzione.replace(/\n/g, "%0D%0A"); 
+	a.href = "data:text/plain," + testoTraduzione;
 	a.click();
   }
 }
@@ -197,9 +197,10 @@ function copy(id) {
 	window.speechSynthesis.speak(msg);
   }
 
+  /*
   console.log(`Voices #: ${speechSynthesis.getVoices().length}`)
 
   speechSynthesis.getVoices().forEach(voice => {
 	console.log(voice.name, voice.lang)
-  })
+  })*/
   
