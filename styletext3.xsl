@@ -108,9 +108,9 @@
 	</xsl:template>
 
     <xsl:template match="//tei:span[@corresp]">
-        <xsl:text>(</xsl:text>
+        <xsl:text>&#10077;</xsl:text>
 		<xsl:apply-templates/>
-		<xsl:text>)</xsl:text>
+		<xsl:text>&#10078;</xsl:text>
     </xsl:template>
     
     <xsl:template match="//tei:gap" >

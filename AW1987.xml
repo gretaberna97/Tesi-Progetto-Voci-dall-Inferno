@@ -54,7 +54,6 @@
                             <bibl source="http://digital-library.cdec.it/cdec-web/audiovideo/detail/IT-CDEC-AV0001-000193/arminio-wachsberger-1.html">
                                 <author>CDEC - Centro di Documentazione Ebraica - Digital Library</author>
                                 <title>Arminio Wachsberger - Intervista a Arminio Wachsberger</title>
-                                <date></date>
                                 <series>
                                     <title>Arminio Wachsberger - Intervista a Arminio Wachsberger</title>
                                     <biblScope>Parte I di II</biblScope>
@@ -87,7 +86,6 @@
                             <bibl source="http://digital-library.cdec.it/cdec-web/audiovideo/detail/IT-CDEC-AV0001-000193/arminio-wachsberger-1.html">
                                 <author>CDEC - Centro di Documentazione Ebraica - Digital Library</author>
                                 <title>Arminio Wachsberger - Intervista a Arminio Wachsberger</title>
-                                <date></date>
                                 <series>
                                     <title>Arminio Wachsberger - Intervista a Arminio Wachsberger</title>
                                     <biblScope>Parte II di II</biblScope>
@@ -4002,7 +4000,7 @@
                 </u>
 
                 <u who="#LPF">
-                    <anchor xml:id="lpf-235" synch="#TT235"/><del type="truncation">de</del><anchor xml:id="lpf-236" synch="#TT236"/>
+                    <anchor xml:id="lpf-235" synch="#TT235"/>del<anchor xml:id="lpf-236" synch="#TT236"/>
                 </u>
 
                 <u who="#LPF" xml:id="LPF165" synch="#TS331">
@@ -5806,7 +5804,7 @@
                 </u>
 
                 <u who="#AW">
-                    <anchor xml:id="arm-505" synch="#TT505"/><del type="truncation"><del type="repetition">s</del> s</del><anchor xml:id="arm-506" synch="#TT506"/>
+                    <anchor xml:id="arm-505" synch="#TT505"/>se<anchor xml:id="arm-506" synch="#TT506"/>
                 </u>
 
                 <u who="#AW" xml:id="AW346" synch="#TS694">
@@ -6347,7 +6345,7 @@
                 </u>
 
                 <u who="#AW">
-                    <anchor xml:id="arm-581" synch="#TT581"/><del type="truncation">ss</del><anchor xml:id="arm-582" synch="#TT582"/>
+                    <anchor xml:id="arm-581" synch="#TT581"/>se<anchor xml:id="arm-582" synch="#TT582"/>
                 </u>
 
                 <u who="#AW" xml:id="AW401" synch="#TS802">

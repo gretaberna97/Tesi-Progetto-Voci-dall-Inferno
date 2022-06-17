@@ -80,9 +80,10 @@
             <tr>
                 <th><xsl:text> Editore:</xsl:text></th> <td> <xsl:value-of select="tei:publicationStmt" /> </td>
             </tr>         
-            <tr>
-                <th><xsl:text> Data:</xsl:text></th> <td> <xsl:value-of select="//tei:recordingStmt/tei:recording[1]/tei:date" /> </td>
-            </tr>
+            <xsl:if test="//tei:recordingStmt/tei:recording[1]/tei:broadcast//tei:date"><tr>
+                <th><xsl:text> Data trasmissione:</xsl:text></th> <td> 
+                <xsl:value-of select="//tei:recordingStmt/tei:recording[1]/tei:broadcast//tei:date" /> </td>
+            </tr></xsl:if>
             <tr>
                 <th><xsl:text> Tipo di registrazione:</xsl:text></th><td><xsl:value-of select="//tei:recordingStmt/tei:recording[1]/@type" /></td>
             </tr>
@@ -210,15 +211,15 @@
         <div id="bottoni">
         <button id="information" onclick="closeNav5()" class="cerca"> informatività </button>
         <button id="indaga" onclick="closeNav2()" class="cerca"> indaga il testo </button>
-        <button id="vocal" onclick="closeNav3()" class="cerca"> fenomeni parlato </button>
+        <button id="vocal" onclick="closeNav3()" class="cerca"> fenomeni del parlato </button>
         <button id="minuti" onclick="minuti()" class="cerca"> mostra i minuti </button>
         <button id="terms" onclick="glosse()" class="cerca"> termini e glosse </button>
         <button id="trad" onclick="trad()" class="cerca"> traduzioni </button>
         <button id="download" onclick="download()" class="cerca"> download </button>
         <button id="indietro" class="cerca" onclick="indietro()" style="display:none"> originale </button>
-        <div id="leg"><h3><xsl:text>Legenda: </xsl:text></h3> 
+        <div id="leg"><h3><xsl:text>Legenda </xsl:text></h3> 
         <span><xsl:text>- fenomeni non pertinenti, &#171;testo riportato&#187; e
-        (traduzioni)</xsl:text></span>
+        &#10077;traduzioni&#10078;</xsl:text></span>
         </div><br/>
         </div>
         <div id="legenda" style="display:none"></div>
@@ -235,7 +236,7 @@
             <h3><xsl:text>Legenda</xsl:text></h3>
                 <span><xsl:text>- fenomeni non pertinenti</xsl:text></span><br/>
                 <span><xsl:text>&#171;testo riportato&#187;</xsl:text></span><br/>
-                <span><xsl:text>(traduzioni)</xsl:text></span><br/>
+                <span><xsl:text>&#10077;traduzioni&#10078;</xsl:text></span><br/>
                 <span class="org"><xsl:text>Istituzioni</xsl:text></span><br/>
                 <span class="pers"><xsl:text>Individui</xsl:text></span><br/>
                 <span class="place"><xsl:text>Luoghi</xsl:text></span><br/>
@@ -261,7 +262,7 @@
             <h3><xsl:text>Legenda</xsl:text></h3>
                 <span><xsl:text>- fenomeni non pertinenti</xsl:text></span><br/>
                 <span><xsl:text>&#171;testo riportato&#187;</xsl:text></span><br/>
-                <span><xsl:text>(traduzioni)</xsl:text></span><br/>
+                <span><xsl:text>&#10077;traduzioni&#10078;</xsl:text></span><br/>
                 <b><xsl:text>*porzione omessa*</xsl:text></b><br/>
                 <span class="unc"><xsl:text>Testo non certo</xsl:text></span><br/>
                 <span class="soC"><xsl:text>Parole discostate</xsl:text></span><br/>
@@ -301,7 +302,7 @@
             <h3><xsl:text>Legenda</xsl:text></h3>
                 <span><xsl:text>- fenomeni non pertinenti</xsl:text></span><br/>
                 <span><xsl:text>&#171;testo riportato&#187;</xsl:text></span><br/>
-                <span><xsl:text>(traduzioni)</xsl:text></span><br/>
+                <span><xsl:text>&#10077;traduzioni&#10078;</xsl:text></span><br/>
                 <span class="sovrap"><xsl:text>&#8249;</xsl:text></span><xsl:text>sovrapposizioni</xsl:text><span class="sovrap"><xsl:text>&#8250;</xsl:text></span><br/>
                 <span class="del"><xsl:text>Ripensamenti, ripetizioni e parole troncate</xsl:text></span><br/>
                 <span class="tono"><xsl:text>Cambiamenti di tono</xsl:text></span><br/>
@@ -337,13 +338,13 @@
                     <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#MA']">
                         <p><b><xsl:text>(Maurina A. sovrapposizione): </xsl:text></b><xsl:apply-templates /></p>
                     </xsl:when>
-                    <xsl:when test="(./@xml:id='MA81' and ./@synch='#TS163') or (./@xml:id='MA158' and ./@synch='#TS320') or (./@xml:id='MA56' and ./@synch='#TS113')">
+                    <xsl:when test="(./@xml:id='MA81' and ./@synch='#TS163') or (./@xml:id='MA158' and ./@synch='#TS320') or (./@xml:id='MA56' and ./@synch='#TS113') or (./@xml:id='MA77' and ./@synch='#TS155') or (./@xml:id='MA159' and ./@synch='#TS322')">
                         <p><b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:text>-</xsl:text></p>
                     </xsl:when>
                     <xsl:when test="(./@xml:id='PF3' and ./@synch='#TS193') or (./@xml:id='PF4' and ./@synch='#TS195')">
                         <p><b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:text>-</xsl:text></p>
                     </xsl:when>
-                    <xsl:when test="./@xml:id='LPF436' and ./@synch='#TS871'">
+                    <xsl:when test="(./@xml:id='LPF436' and ./@synch='#TS871') or (./@xml:id='LPF387' and ./@synch='#TS773')">
                         <p><b><xsl:text>Liliana Picciotto Fargion: </xsl:text></b><xsl:text>-</xsl:text></p>
                     </xsl:when>
                     <xsl:when test="(./@xml:id='AW96' and ./@synch='#TS194') or (./@xml:id='AW227' and ./@synch='#TS456')">
@@ -389,10 +390,10 @@
 		<xsl:text>&#187;</xsl:text>
 	</xsl:template>
 
-        <xsl:template match="//tei:span[@corresp]">
-        <xsl:text>(</xsl:text>
+    <xsl:template match="//tei:span[@corresp]">
+        <xsl:text>&#10077;</xsl:text>
 		<xsl:apply-templates/>
-		<xsl:text>)</xsl:text>
+		<xsl:text>&#10078;</xsl:text>
     </xsl:template>
 
     <xsl:template match="//tei:gap" >

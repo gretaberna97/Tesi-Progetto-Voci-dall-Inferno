@@ -21,7 +21,12 @@ function peopleB(){
 		stylesheetLocation: "stylehtml2.sef.json",
 		sourceLocation: "TEI-ListPerson.xml"
 	}, "async")
-	scroll(0,0);
+}
+
+function find(){ /* per il target ma non funziona */
+	var thisDoc = window.location.href;
+	var str = thisDoc.substring(thisDoc.indexOf('#') + 1);
+	alert (str);
 }
 
 function fontiB(){
@@ -166,13 +171,7 @@ function download(){
 
 document.getElementById("Info").addEventListener("click", function(e) {
 	if(e.target && e.target.nodeName == "A") {
-		if(e.target.className=="people1"){
-			peopleB();
-		} else if (e.target.className=="place1") {
-			placeB();
-		} else if (e.target.className=="fonti")	 {
 			fontiB();
-		}
 }
 });
 

@@ -168,13 +168,13 @@
                     <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#MA']">
                         <p><b><xsl:text>(Maurina A. sovrapposizione): </xsl:text></b><xsl:apply-templates /></p>
                     </xsl:when>
-                    <xsl:when test="(./@xml:id='MA81' and ./@synch='#TS163') or (./@xml:id='MA158' and ./@synch='#TS320') or (./@xml:id='MA56' and ./@synch='#TS113')">
+                    <xsl:when test="(./@xml:id='MA81' and ./@synch='#TS163') or (./@xml:id='MA158' and ./@synch='#TS320') or (./@xml:id='MA56' and ./@synch='#TS113') or (./@xml:id='MA77' and ./@synch='#TS155') or (./@xml:id='MA159' and ./@synch='#TS322')">
                         <p><b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:text>-</xsl:text></p>
                     </xsl:when>
                     <xsl:when test="(./@xml:id='PF3' and ./@synch='#TS193') or (./@xml:id='PF4' and ./@synch='#TS195')">
                         <p><b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:text>-</xsl:text></p>
                     </xsl:when>
-                    <xsl:when test="./@xml:id='LPF436' and ./@synch='#TS871'">
+                    <xsl:when test="(./@xml:id='LPF436' and ./@synch='#TS871') or (./@xml:id='LPF387' and ./@synch='#TS773')">
                         <p><b><xsl:text>Liliana Picciotto Fargion: </xsl:text></b><xsl:text>-</xsl:text></p>
                     </xsl:when>
                     <xsl:when test="(./@xml:id='AW96' and ./@synch='#TS194') or (./@xml:id='AW227' and ./@synch='#TS456')">
@@ -230,9 +230,9 @@
 	</xsl:template>
 
     <xsl:template match="//tei:span[@corresp]">
-        <xsl:text>(</xsl:text>
+        <xsl:text>&#10077;</xsl:text>
 		<xsl:apply-templates/>
-		<xsl:text>)</xsl:text>
+		<xsl:text>&#10078;</xsl:text>
     </xsl:template>
 
     <xsl:template match="//tei:gap" >
