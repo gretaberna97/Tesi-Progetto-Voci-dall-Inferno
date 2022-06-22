@@ -247,7 +247,7 @@
                 <span class="time"><xsl:text>Orari [specificazione]</xsl:text></span><br/>
                 <br/><b><xsl:text>Cliccando sugli individui, sui luoghi e sui riferimenti indiretti puoi avere maggiori informazioni</xsl:text></b>
         </xsl:result-document>
-        <ixsl:schedule-action wait="2000">
+        <ixsl:schedule-action wait="4000">
             <xsl:call-template name="black"/>
         </ixsl:schedule-action>
         <ixsl:set-style name="backgroundColor" select="'black'"/>
@@ -263,7 +263,7 @@
                 <span><xsl:text>- fenomeni non pertinenti</xsl:text></span><br/>
                 <span><xsl:text>&#171;testo riportato&#187;</xsl:text></span><br/>
                 <span><xsl:text>&#10077;traduzioni&#10078;</xsl:text></span><br/>
-                <b><xsl:text>*porzione omessa*</xsl:text></b><br/>
+                <b><xsl:text>*porzione mancante/omessa*</xsl:text></b><br/>
                 <span class="unc"><xsl:text>Testo non certo</xsl:text></span><br/>
                 <span class="soC"><xsl:text>Parole discostate</xsl:text></span><br/>
                 <span class="men"><xsl:text>Menzioni</xsl:text></span><br/>
