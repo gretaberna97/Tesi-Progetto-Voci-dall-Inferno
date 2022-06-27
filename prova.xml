@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+
+            <publicationStmt>
+                <p></p>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listPerson>
+                    <head>Lista persone</head>
+                    <person><persName>Arminio Wachsberger </persName></person>
+                    <person><persName>Liliana Picciotto Fargion </persName></person>
+                    <person><persName>Maurina Schinasi Alazraki </persName></person>
+                </listPerson>
+            </sourceDesc>
+
+        </fileDesc>
+
+    </teiHeader>
