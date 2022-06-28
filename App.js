@@ -2,7 +2,8 @@ function testOne(){
 	xmlDoc = "AW1998.xml";
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml.sef.json",
-		sourceLocation: "AW1998.xml"
+		sourceLocation: "AW1998.xml",
+		initialTemplate: "main"
 	}, "async")
 	document.getElementById("Testo").style.display="inline";
 }
@@ -11,7 +12,8 @@ function testTwo(){
 	xmlDoc = "AW1987.xml";
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml.sef.json",
-		sourceLocation: "AW1987.xml"
+		sourceLocation: "AW1987.xml",
+		initialTemplate: "main"
 	}, "async")
 	document.getElementById("Testo").style.display="inline";
 }
@@ -19,20 +21,16 @@ function testTwo(){
 function peopleB(){
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml2.sef.json",
-		sourceLocation: "TEI-ListPerson.xml"
+		sourceLocation: "TEI-ListPerson.xml",
+		initialTemplate: "main"
 	}, "async")
-}
-
-function find(){ /* per il target ma non funziona */
-	var thisDoc = window.location.href;
-	var str = thisDoc.substring(thisDoc.indexOf('#') + 1);
-	alert (str);
 }
 
 function fontiB(){
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml3.sef.json",
-		sourceLocation: "TEI-ListPerson.xml"
+		sourceLocation: "TEI-ListPerson.xml",
+		initialTemplate: "main"
 	}, "async")
 	scroll(0,0);
 }
@@ -41,7 +39,8 @@ function fontiB(){
 function placeB(){
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml4.sef.json",
-		sourceLocation: "TEI-ListPlace.xml"
+		sourceLocation: "TEI-ListPlace.xml",
+		initialTemplate: "main"
 	}, "async")
 	scroll(0,0);
 }
@@ -60,7 +59,8 @@ function indietro() {
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml.sef.json",
 		sourceLocation: xmlDoc,
-		destination: "serialized"
+		destination: "serialized",
+		initialTemplate: "main"
 	}, "async")
 }
 
@@ -69,7 +69,8 @@ function indietro() {
 	SaxonJS.transform({
         stylesheetLocation: "styletext.sef.json",
 		sourceLocation: xmlDoc,
-		destination: "serialized"
+		destination: "serialized",
+		initialTemplate: "main"
 	}, "async")
   }
 
@@ -78,7 +79,8 @@ function indietro() {
 	SaxonJS.transform({
         stylesheetLocation: "styletext2.sef.json",
 		sourceLocation: xmlDoc,
-		destination: "serialized"
+		destination: "serialized",
+		initialTemplate: "main"
 	}, "async")
   }
 
@@ -86,7 +88,8 @@ function indietro() {
 	SaxonJS.transform({
         stylesheetLocation: "styletext3.sef.json",
 		sourceLocation: xmlDoc,
-		destination: "serialized"
+		destination: "serialized",
+		initialTemplate: "main"
 	}, "async")
 	document.getElementById("legenda").style.display="none";
 	document.getElementById("trascrizione").style.marginLeft = "5%";
@@ -108,7 +111,8 @@ function indietro() {
 	SaxonJS.transform({
         stylesheetLocation: "styletext4.sef.json",
 		sourceLocation: xmlDoc,
-		destination: "serialized"
+		destination: "serialized",
+		initialTemplate: "main"
 	}, "async")
   }
 
@@ -116,7 +120,8 @@ function indietro() {
 	SaxonJS.transform({
         stylesheetLocation: "styletext5.sef.json",
 		sourceLocation: xmlDoc,
-		destination: "serialized"
+		destination: "serialized",
+		initialTemplate: "main"
 	}, "async")
 	document.getElementById("legenda").style.display="none";
 	document.getElementById("trascrizione").style.marginLeft = "5%";
@@ -132,7 +137,8 @@ function indietro() {
 	SaxonJS.transform({
         stylesheetLocation: "styletext6.sef.json",
 		sourceLocation: xmlDoc,
-		destination: "serialized"
+		destination: "serialized",
+		initialTemplate: "main"
 	}, "async")
 	document.getElementById("legenda").style.display="none";
 	document.getElementById("trascrizione").style.marginLeft = "5%";
@@ -195,11 +201,3 @@ function copy(id) {
 	msg.voice = speechSynthesis.getVoices().find(voice => /de(-|_)DE/.test(voice.lang));
 	window.speechSynthesis.speak(msg);
   }
-
-  /*
-  console.log(`Voices #: ${speechSynthesis.getVoices().length}`)
-
-  speechSynthesis.getVoices().forEach(voice => {
-	console.log(voice.name, voice.lang)
-  })*/
-  
