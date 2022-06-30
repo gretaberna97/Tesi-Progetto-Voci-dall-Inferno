@@ -2,17 +2,17 @@
 
 <!DOCTYPE TEI SYSTEM "tei_all.dtd">
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><!-- Elemento radice -->
 
-    <teiHeader>
+    <teiHeader> <!-- Intestazione obbligatoria del documento elettronico che ne fornisce i dati descrittivi -->
 
 
-        <fileDesc>
-            <titleStmt>
+        <fileDesc><!-- Fornisce la completa descrizione bibliografica del documento elettronico -->
+            <titleStmt><!-- Contiene le informazioni sul titolo -->
                 <title>Testimonianza di Arminio Wachsberger, 4 Febbraio 1998</title>
             </titleStmt>
 
-            <editionStmt>
+            <editionStmt><!-- Fornisce le informazioni relative all'edizione del testo e indica i responsabili del progetto e della codifica -->
                 <edition>Lavoro realizzato per la tesi di Laurea Triennale in Informatica Umanistica, Università di Pisa.</edition>
                                 
                 <respStmt>
@@ -21,22 +21,22 @@
                 </respStmt>
             </editionStmt>
 
-            <publicationStmt>
+            <publicationStmt><!-- Fornisce le informazioni circa la distribuzione del documento indicandone il nome dell'organizzazione responsabile e le informazioni sulla disponibilità del documento, come il diritto d'autore -->
                 <publisher>Università di Pisa</publisher>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
                 </availability>
             </publicationStmt>
 
-            <sourceDesc>  <!--contiene una citazione con i dettagli del copione utilizzato per un testo orale -->
+            <sourceDesc> <!-- Fornisce la descrizione della fonte primaria -->
 
-                <recordingStmt> <!-- descrive l'insieme delle registrazioni usate nella trascrizione di un testo orale, sia diretta sia messa in onda pubblica -->
+                <recordingStmt> <!-- Descrive l'insieme delle registrazioni utilizzate per la trascrizione. Per semplicità verrà descritto puntualmente solo il primo elemento figlio recording, in quanto i successivi sono identici -->
 
-                    <recording type="video" dur="PT27M1S" xml:id="parteI">
+                    <recording type="video" dur="PT27M1S" xml:id="parteI"> <!-- Fornisce i dettagli sulla registrazione audio o video utilizzata come fonte di un teso orale: le occorrenze di questo elemento variano a seconda del numero di file di cui consta l'intervista -->
 
-                        <date when="1998-03-04">4 febbraio 1998</date>
+                        <date when="1998-03-04">4 febbraio 1998</date> <!-- Data in cui è stata registrata l'intervista -->
 
-                        <respStmt>
+                        <respStmt><!-- Indica i responsabili della messa in onda -->
                             <resp>Videointervista promossa da</resp>
                             <name type="org">Survivors of the Shoah Visual History Foundation</name>
                         </respStmt>
@@ -49,16 +49,16 @@
                             <name ref="#PF">Paolo Favaro</name>
                         </respStmt>
 
-                        <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
+                        <equipment><!-- Fornisce i dettagli tecnici delle apparecchiature e dei supporti utilizzati nella registrazione audio o video -->
                             <p>Registrato su una cassetta VHS analogica (tape 5 of 1) successivamente digitalizzata: il video contiene in origine la cassetta 5 dell'intera intervista</p>
                         </equipment>
 
-                        <broadcast>
-                            <bibl source="https://youtu.be/4_1l3ZR-gtI">
+                        <broadcast><!-- Fornisce una descrizione circa la trasmissione della fonte orale -->
+                            <bibl source="https://youtu.be/4_1l3ZR-gtI"><!-- Fornisce una citazione bibliografica poco strutturata: contiene il nome dell'autore, il titolo, la data della distribuzione, e le note della singola registrazione -->
                                 <author>Associazione Figli della Shoah</author>
                                 <title>Arminio Wachsberger "Spielburg" - Parte I</title>
                                 <date when="2020">2020</date>
-                                <series>
+                                <series> <!-- Fornisce le informazioni sulla serie di cui la singola registrazione fa parte -->
                                     <title>Arminio Wachsberger "Spielburg"</title>
                                     <idno type="code">38782-35</idno>
                                     <biblScope>Parte I di V</biblScope>
@@ -86,7 +86,7 @@
                             <name ref="#PF">Paolo Favaro</name>
                         </respStmt>
 
-                        <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
+                        <equipment>
                             <p>Registrato su una cassetta VHS analogica (tape 6 of 1) successivamente digitalizzata: il video contiene in origine la cassetta 6 dell'intera intervista</p>
                         </equipment>
 
@@ -123,7 +123,7 @@
                             <name ref="#PF">Paolo Favaro</name>
                         </respStmt>
 
-                        <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
+                        <equipment>
                             <p>Registrato su una cassetta VHS analogica (tape 6 and 7 of 1) successivamente digitalizzata: il video contiene in origine la cassetta 6 e parte della 7 dell'intera intervista</p>
                         </equipment>
 
@@ -160,7 +160,7 @@
                             <name ref="#PF">Paolo Favaro</name>
                         </respStmt>
                         
-                        <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
+                        <equipment>
                             <p>Registrato su una cassetta VHS analogica (tape 7 and 8 of 1) successivamente digitalizzata: il video contiene in origine parte della cassetta 7 e parte della 8 dell'intera intervista</p>
                         </equipment>
 
@@ -197,7 +197,7 @@
                             <name ref="#PF">Paolo Favaro</name>
                         </respStmt>
 
-                        <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
+                        <equipment>
                             <p>Registrato su una cassetta VHS analogica (tape 8 of 1) successivamente digitalizzata: il video contiene in origine parte della cassetta 8 dell'intera intervista</p>
                         </equipment>
 
@@ -223,13 +223,13 @@
 
         </fileDesc>
 
-        <encodingDesc><!--(descrizione della codifica) documenta la relazione fra un documento elettronico e la o le fonti da cui è derivato. -->
-            <transcriptionDesc ident="HIAT" version="2004"/> <!-- describes the set of transcription conventions used, particularly for spoken material. -->
+        <encodingDesc><!-- Indica lo schema di codifica utilizzato -->
+            <transcriptionDesc ident="HIAT" version="2004"/> <!-- Descrive l'insieme delle convenzioni di trascrizione utilizzate -->
         </encodingDesc>
 
-        <profileDesc><!--(descrizione del profilo del testo) fornisce una descrizione dettagliata degli aspetti non bibliografici di un testo, in modo particolare le lingue e i linguaggi secondari utilizzati, la situazione in cui è stato prodotto il testo, i partecipanti e la relativa ambientazione-->
+        <profileDesc> <!-- Elemento facoltativo che descrive il contenuto testuale della fonte orale, indicandone in una descrizione dettagliata gli aspetti non bibliografici -->
 
-            <particDesc>
+            <particDesc> <!-- Descrive i maggiori partecipanti identificabili all'interno dell'intervista -->
                 <listPerson>
                     <!--Testimone-->
                     <person xml:id="AW">
@@ -260,7 +260,7 @@
             </particDesc>
 
 
-            <langUsage>
+            <langUsage> <!-- Fornisce le lingue utilizzate all'interno della fonte orale dal testimone -->
                 <language ident="it">Italiano</language>
                 <language ident="de">Tedesco</language>
                 <language ident="ji">Yiddish</language>
@@ -271,23 +271,26 @@
             </langUsage>
 
 
-            <abstract> <!--regesto: ogni item rappresenta un blocco di esperienze da lui raccontate: punta con un when all'interno di una timeline -->
-                <ab> 
+            <abstract> <!-- Regesto o riepilogo formale del documento elettronico. Ogni item rappresenta un blocco di esperienze raccontate dal testimone: puntano a un when all'interno della timeline relativa al regesto -->
+                <ab>  <!-- contenitore anonimo -->
                     <list>
-                            <item synch="#TR1"> <!--descrizione baracche di Birkenau-->
+                            <item synch="#TR1"> <!--generalità di Arminio e biografia-->
+                                <!-- dal punto di vista degli elementi TEI-XML utilizzati <rs> contiene un nome generico o una stringa riferita a una persona, a un gruppo di persone o a un luogo (punta a una fonte esterna); <time> identifica un orario in qualsiasi formato; <placeName> e <persName> indicano le entità nominate relative ai luoghi e agli individui; <place> indica una posizione geografica  -->
                                 <persName ref="TEI-ListPerson.xml#AW">Arminio Wachsberger</persName> descrive le baracche di <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName>: erano di legno, senza finestre e potevano ospitare dalle 500 alle 1000 persone. Un letto era composto da tre ripiani di legno: <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> racconta la difficoltà nel salire per coloro che erano al terzo piano, come <rs ref="TEI-ListPerson.xml#AW" resp="#GB">lui</rs>, il quale aveva a fianco una fessura dalla quale vedeva la colonia di <placeName ref="TEI-ListPlace.xml#Te">Theresienstadt</placeName>. In ogni ripiano potevano stare sei persone, accostate l'una all'altra come acciughe: non c'era quindi possibilità di movimento. Al posto di un materasso c'era della semplice paglia e come coperta usavano una coperta militare chiamata kotzen. Tra i 150 ebrei romani c'era un medico livornese, morto successivamente a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName>: <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> nel dopo guerra racconta di aver fatto una dichiarazione di morte non presunta per il medico. Ricorda anche la signorina <persName ref="TEI-ListPerson.xml#Rotschild">Rotschild</persName>, morta durante il viaggio in treno.
                                 La notte non potevano uscire dalla baracca anche se era presente la baracca delle latrine nel <place type="area">campo della quarantena</place> e durante il giorno ai prigionieri veniva imposto di non sostarvici per più di <time dur="PT10M">dieci minuti</time>. Le latrine, distinte per uomini e donne e sorvegliate da degli ufficiali russi comunisti per punizione, erano costituite da banconi di legno con dei fori.
                             </item>
 
                             <item synch="#TR2"> <!--situazione famiglia di Arminio-->
+                                <!-- dal punto di vista degli elementi TEI-XML utilizzati <date> identifica una data in qualsiasi formato; <addName> contiene una componenete del nome aggiuntivo-->
                                 Il <rs ref="TEI-ListPerson.xml#DavideW" resp="#GB">padre</rs> di <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> era morto <date when="1942-07" resp="#GB">un anno prima</date> all'<place type="hospital">ospedale di <placeName ref="TEI-ListPlace.xml#FM">Fiume</placeName></place>: dopo essere stato arrestato in <rs ref="TEI-ListPlace.xml#FM" resp="#GB">quest'ultima città</rs> insieme a tutti i componenti della comunità maschili con un'età superiore ai 18 anni ed essersi ammalato vicino a <placeName ref="TEI-ListPlace.xml#FE">Feltre</placeName>, in un campo di internamento, era stato spostato prima in provincia di <placeName ref="TEI-ListPlace.xml#SA">Salerno</placeName> e poi a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName> grazie alle conoscenze di <persName ref="TEI-ListPerson.xml#AW">Arminio</persName>. <persName ref="TEI-ListPerson.xml#DavideW">Davide Wachsberger</persName> fu sepolto a <placeName ref="TEI-ListPlace.xml#FM">Fiume</placeName> con una regolare sepoltura ebraica: la conferenza di morte fu fatta da un amico di <persName ref="TEI-ListPerson.xml#AW">Arminio</persName>, <persName ref="TEI-ListPerson.xml#HaimZ">Haim Zelikowitz</persName>, successivamente deportato insieme a <persName ref="TEI-ListPerson.xml#GotiB">Goti Bauer</persName> e morto durante la deportazione.
                                 La <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">madre di <persName ref="TEI-ListPerson.xml#AW">Arminio</persName></rs> era rimasta a <placeName ref="TEI-ListPlace.xml#FM">Fiume</placeName> nonostante le continue richieste della figlia <persName ref="TEI-ListPerson.xml#ReginaW"><addName type="nickname">Rive</addName></persName> di nascondersi con <rs ref="TEI-ListPerson.xml#ReginaW" resp="#GB">lei</rs> ed il <rs ref="TEI-ListPerson.xml#LudovicoL" resp="#GB">marito</rs> in <placeName ref="TEI-ListPlace.xml#Friuli">Friuli</placeName>. Nel <date when="1944-05">maggio 1944</date> è stata arrestata con il <rs ref="TEI-ListPerson.xml#GiovanniW" resp="#GB">fratello minore di <persName ref="TEI-ListPerson.xml#AW">Arminio</persName></rs> e trasportata a <placeName ref="TEI-ListPlace.xml#RisieraSS">San Sabba</placeName>.
                             </item>
 
                             <item synch="#TR3"> <!--la verità sulla sorte della famiglia di Arminio-->
+                                <!-- dal punto di vista degli elementi TEI-XML <choice> con i figli <abbr> ed <expan> registra ed estende un'abbreviazione; <roleName> contiene una componente del nome indicante il ruolo o una posizione dell'individuo -->
                                 Dopo che <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> arrivò a <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName> alcuni prigionieri precedenti raccontarono ai nuovi arrivati che le loro famiglie erano state mandate nei campi che vedevano in lontananza, quello che scopriranno essere il <place type="area">campo degli zingari</place>, e il <placeName ref="TEI-ListPlace.xml#Te">Theresienstadt lager</placeName>.
 
-                                La sera del <date when="1943-10-24">giorno in cui arrivarono</date> <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> fu interrogato dal <persName ref="TEI-ListPerson.xml#Mengele"><roleName>dottor</roleName> Mengele</persName>, il quale voleva conoscere la situazione italiana dopo la caduta del fascismo, dopo il <date when="1943-07-25" resp="#GB" cert="high">25 luglio</date>. Nonostante <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> volesse spaventarlo gli raccontò che il popolo italiano era felice di terminare la guerra. Ci furono altri interrogatori simili (avvennero per 4-6 sere) ed in cambio <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName> regalava del cibo ad <persName ref="TEI-ListPerson.xml#AW">Arminio</persName>.
+                                La sera del <date when="1943-10-24">giorno in cui arrivarono</date> <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> fu interrogato dal <persName ref="TEI-ListPerson.xml#Mengele"><roleName>dottor</roleName> Mengele</persName>, il quale voleva conoscere la situazione italiana dopo la caduta del fascismo, dopo il <date when="1943-07-25" resp="#GB" cert="high">25 luglio</date>. Nonostante <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> volesse spaventarlo gli raccontò che il popolo italiano era felice di terminare la guerra. Ci furono altri interrogatori simili (avvennero per 4-6 sere) ed in cambio <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName> regalava del cibo ad <persName ref="TEI-ListPerson.xml#AW">Arminio</persName>. 
                                 <rs ref="TEI-ListPerson.xml#AW" resp="#GB">Quest'ultimo</rs> ricorda che <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName> di solito quando era in funzione metteva il camice bianco sopra la divisa da ufficiale delle <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice> con le mostrine raffiguranti delle croci. 
 
                                 <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> racconta che per la gassificazione, pianificata da <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName>, veniva trasportato da un magazzino di <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> a <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName> lo zyklon b, il gas letale acido cianidrico. Due caporali del servizio di sanità, con indosso una maschera, montavano sul tetto della gas camera, per poi aprire le scatole contenenti dei sugheri imbevuti di zyklon b che venivano gettati nei tubi delle docce fasulle: successivamente con il calore il gas sarebbe fuoriuscito.
@@ -296,6 +299,7 @@
                             </item>
 
                             <item synch="#TR4"> <!--selezione per Varsavia-->
+                                <!-- dal punto di vista degli elementi TEI-XML utilizzati <measure> contiene una parola o una frase che si riferiscono a una certa quantità di un oggetto;  <orgName> contiene il nome di una organizzazione -->
                                 Dopo aver passato <date dur="PT21D" from="1943-10-23" to="1943-11-27" cert="medium" resp="#GB">circa 3 settimane</date> in quarantena dei 150 ebrei italiani alcuni furono mandati nelle <place type="mine">miniere di <placeName ref="TEI-ListPlace.xml#Ja">Jaworzno</placeName></place>, a <measure><num>700</num> <unit>metri</unit></measure> di profondità, dove non sarebbero sopravvissuti per più di <date dur="PT14D">due settimane</date>.
                                 Durante la selezione furono fatti denudare tutti tranne <persName ref="TEI-ListPerson.xml#AW">Arminio</persName>, in quanto interprete, mentre il blockaltester prendeva nota dei numeri. Tra gli italiani <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> ricorda il giovanile <persName ref="TEI-ListPerson.xml#LeonelloDS">Leonello Della Seta</persName> (54 anni) e il figlio <persName ref="TEI-ListPerson.xml#GiancarloDS">Giancarlo</persName>(15 anni) il quale nonostante fosse di grossa statura soffriva di distrofia muscolare: erano stati catturati a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName> presentandosi alla porta il <date when="1943-10-16">16 ottobre 1943</date>. <rs ref="TEI-ListPerson.xml#GiancarloDS TEI-ListPerson.xml#LeonelloDS">Essi</rs> si aspettavano le guardie della <orgName>finanza</orgName> poiché raccoglievano generi alimentari illegalmente invece si trovarono di fronte le <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice> che arrestarono <rs ref="TEI-ListPerson.xml#GiancarloDS TEI-ListPerson.xml#LeonelloDS">loro due</rs> ma non la <rs ref="TEI-ListPerson.xml#LauraM">moglie Della Seta</rs> e la <rs ref="TEI-ListPerson.xml#PaolaDS">figlia</rs> che si erano nascoste nella stanza dei generi alimentari.
                                 Poiché <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> aveva simpatia per i <rs ref="TEI-ListPerson.xml#GiancarloDS TEI-ListPerson.xml#LeonelloDS">Della Seta</rs> e poiché non gli sembrava che fossero stati selezionati per <placeName ref="TEI-ListPlace.xml#Ja">Jaworzno</placeName> raccontò a <persName ref="TEI-ListPerson.xml#LeonelloDS">Leonello Della Seta</persName> la verità riguardo <rs ref="TEI-ListPlace.xml#Ja" resp="#GB">quel luogo</rs> che gli era stata comunicata da un medico. Per evitare che <persName ref="TEI-ListPerson.xml#GiancarloDS">Giancarlo</persName> partisse per <placeName ref="TEI-ListPlace.xml#Ja">Jaworzno</placeName>, poiché invece venne selezionato, <persName ref="TEI-ListPerson.xml#AW">Arminio</persName>, accogliendo le parole del <rs ref="TEI-ListPerson.xml#LeonelloDS">padre</rs>, scambiò gli anelli d'oro che aveva fatto entrare nel campo con delle pasticche che servivano per alzare la temperatura corporea: <persName ref="TEI-ListPerson.xml#GiancarloDS">Giancarlo</persName> le prese prima di partire, la temperatura era salita a 39 gradi e le <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice> decisero di non farlo partire.
@@ -304,7 +308,7 @@
 
                             <item synch="#TR5"> <!--arrivo ad Auschwitz I-->
                                 Con indosso gli zoccoli olandesi i 42 italiani, tra cui anche <persName ref="TEI-ListPerson.xml#IsaccoS">Isacco Sermoneta</persName>, <persName ref="TEI-ListPerson.xml#LelloDS">Lello Di Segni</persName> e <persName ref="TEI-ListPerson.xml#LilloDS">Lillo Di Segni</persName>, percorsero i <measure><num>3</num> <unit>chilometri</unit></measure> che li separavano da <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName>. Quando arrivarono si impressionarono poiché videro edifici a due piani: non gli sembrava di essere in un campo poiché a differenza di <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName> era tutto in muratura e al posto di ripiani di legno avevano dei letti a castello per dormire.
-                                <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> ricorda di esser passato sotto l'arco con scritto <q type="written" xml:lang="de">arbeit macht frei</q> e di esser stato sistemato nel <place type="area">blocco <num>1</num> di <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName></place>: per la maggior parte i prigionieri erano ebrei. Prima di riposare in una grande stanza, gli fecero fare una doccia completa senza disinfettante, e la mattina dopo gli fecero fare uno dei due appelli giornalieri: l'appello era lunghissimo, dovevano portare anche i corpi dei defunti, e dovevano stare sull'attenti senza il berretto in testa e al freddo.
+                                <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> ricorda di esser passato sotto l'arco con scritto arbeit macht frei e di esser stato sistemato nel <place type="area">blocco <num>1</num> di <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName></place>: per la maggior parte i prigionieri erano ebrei. Prima di riposare in una grande stanza, gli fecero fare una doccia completa senza disinfettante, e la mattina dopo gli fecero fare uno dei due appelli giornalieri: l'appello era lunghissimo, dovevano portare anche i corpi dei defunti, e dovevano stare sull'attenti senza il berretto in testa e al freddo.
                                 Fu ad <place type="area"><placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> <num>1</num></place> che <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> vide dei preti liberi: voleva chiedergli l'aiuto del <rs ref="TEI-ListPerson.xml#PioXII" resp="#GB">papa</rs> ma non ebbe occasione di farlo.
 
                                 I 42 italiani con altri 40 ebrei olandesi furono caricati su dei vagoni bestiame di un treno merci: durante il viaggio che durò una notte fecero un baccano tremendo tutti insieme.
@@ -431,7 +435,7 @@
 
                             <!--Feldafing-->
                             <item synch="#TR21a"> 
-                                Il comandante della truppa americana era <persName ref="TEI-ListPerson.xml#IrvingJS"><unclear reason="inaudible" resp="#GB" cert="medium">Jutennens</unclear> Smith</persName>. Dopo aver ucciso le <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice> rimaste, grazie ai prigioneri, e soprattutto ad <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> e ad un certo <persName ref="TEI-ListPerson.xml#ErnstL">Landau</persName>, ebbero salva la vita due aufseherinnen e il <persName ref="TEI-ListPerson.xml#CapBlasi"><roleName type="military">comandante</roleName> Blasi</persName> che si erano comportati umanamente.
+                                Il comandante della truppa americana era <persName ref="TEI-ListPerson.xml#IrvingJS">Jutennens Smith</persName>. Dopo aver ucciso le <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice> rimaste, grazie ai prigioneri, e soprattutto ad <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> e ad un certo <persName ref="TEI-ListPerson.xml#ErnstL">Landau</persName>, ebbero salva la vita due aufseherinnen e il <persName ref="TEI-ListPerson.xml#CapBlasi"><roleName type="military">comandante</roleName> Blasi</persName> che si erano comportati umanamente.
                             </item>
 
                             <item synch="#TR21b"> 
@@ -450,9 +454,10 @@
 
     </teiHeader> 
 
-<standOff>
-        <!--Timeline regesto -->
-        <!--parte I-->
+<standOff> <!-- Elemento contenitore per collegare i dati, le informazioni contestuali e le annotazioni distanziate inserite in un documento TEI. Contiene più timeline ciascuna delle quali crea un allineamento temporale, ovvero fornisce un insieme di punti ordinati nel tempo che possono essere collegati ad alcuni elementi testuali. Avendo più file di cui consta una testimonianza invece di avere 3 timeline di base il numero esatto viene calcolato moltiplicando 3 per il numero di parti di cui si compone la testimonianza. Quindi, in questa codifica ci sono 15 timeline. Inoltre, ogni timeline contiene più elementi when che indicano un momento assoluto o relativo rispetto ad altri elementi when della sequenza temporale. -->
+
+        <!--Timeline del regesto che gestisce il contenuto all'interno dell'elemento abstract: ogni elemento item, indicante un evento descritto, punta a un when definito nelle timeline seguenti che indica l'orario preciso in cui si descrive tale evento-->
+        <!--parte I: l'attributo source punta al primo elemento recording per indicare il primo file di registrazione a cui la timeline si riferisce -->
         <timeline xml:id="TL1I" source="#parteI">
             <when xml:id="TR1" absolute="00:00:32"/> 
             <when xml:id="TR2" absolute="00:04:37"/>
@@ -460,7 +465,7 @@
             <when xml:id="TR4" absolute="00:18:40"/>
         </timeline>
 
-        <!--parte II-->
+        <!--parte II: l'attributo source punta al secondo elemento recording per indicare il secondo file di registrazione a cui la timeline si riferisce-->
         <timeline xml:id="TL1II" source="#parteII">
             <when xml:id="TR5" absolute="00:01:16"/>
             <when xml:id="TR6" absolute="00:09:42"/>
@@ -470,7 +475,7 @@
             <when xml:id="TR10a" absolute="00:23:24"/>
         </timeline>
 
-        <!--parte III-->
+        <!--parte III: l'attributo source punta al terzo elemento recording per indicare il terzo file di registrazione a cui la timeline si riferisce-->
         <timeline xml:id="TL1III" source="#parteIII">
             <when xml:id="TR10b" absolute="00:00:00"/>
             <when xml:id="TR11" absolute="00:05:33"/>
@@ -481,7 +486,7 @@
             <when xml:id="TR16a" absolute="00:23:54"/>
         </timeline>
 
-        <!--parte IV-->
+        <!--parte IV: l'attributo source punta al quarto elemento recording per indicare il quarto file di registrazione a cui la timeline si riferisce-->
         <timeline xml:id="TL1IV" source="#parteIV">
             <when xml:id="TR16b" absolute="00:00:00"/>
             <when xml:id="TR17" absolute="00:02:55"/>
@@ -491,18 +496,18 @@
             <when xml:id="TR21a" absolute="00:25:49"/>
         </timeline>
 
-        <!--parte V-->
+        <!--parte V: l'attributo source punta al quinto elemento recording per indicare il quinto file di registrazione a cui la timeline si riferisce-->
         <timeline xml:id="TL1V" source="#parteV">
             <when xml:id="TR21b" absolute="00:00:00"/>
         </timeline>
 
-        <!--unione di tre when-->
+        <!--unione di tre when. Un singolo join gestisce l'interruzione di evento descritto in due item separati facenti parte delle due diverse timeline del regesto-->
         <join xml:id="TR10" target="#TR10a #TR10b" result="when" type="point_in_time" scope="root"></join>
         <join xml:id="TR16" target="#TR16a #TR16b" result="when" type="point_in_time" scope="root"></join>
         <join xml:id="TR21" target="#TR21a #TR21b" result="when" type="point_in_time" scope="root"></join>
 
-        <!--Timeline body momenti di sovrapposizione dei due parlanti (e le interruzioni)-->
-        <!--parte I-->
+        <!--Timeline delle interruzioni e delle sovrapposizioni tra i parlanti. Si utilizza una coppia di when e, all'interno di body, si individuano gli enunciati o le parole sovrapposte tramite una coppia di elementi anchor che definiscono l'inizio e la fine dell'interruzione: le ancore si sincronizzano con i punti nella timeline definiti tramite i when indicanti di riflesso l'inzio e la fine dell'interruzione-->
+        <!--parte I: l'attributo source punta al primo elemento recording per indicare il primo file di registrazione a cui la timeline si riferisce-->
         <timeline xml:id="TL2I" unit="s" source="#parteI"> 
 
             <when xml:id="TT01" absolute="00:00:34" synch="#arm-01"/> <!--synch punta all'id dell'ancora-->
@@ -705,7 +710,7 @@
 
         </timeline>
 
-        <!--parte II-->
+        <!--parte II: l'attributo source punta al secondo elemento recording per indicare il secondo file di registrazione a cui la timeline si riferisce -->
         <timeline xml:id="TL2II" unit="s" source="#parteII"> 
 
             <when xml:id="TT133" absolute="00:00:04" synch="arm-133"/>
@@ -871,7 +876,7 @@
             <when xml:id="TT240" since="#TT239" interval="1"/>
         </timeline>
 
-        <!--parteIII-->
+        <!--parte III: l'attributo source punta al terzo elemento recording per indicare il terzo file di registrazione a cui la timeline si riferisce -->
         <timeline xml:id="TL2III" unit="s" source="#parteIII"> 
             <when xml:id="TT241" absolute="00:00:45" synch="arm-241"/>
             <when xml:id="TT242" since="#TT241" interval="1"/>
@@ -1036,7 +1041,7 @@
             <when xml:id="TT348" since="#TT347" interval="3"/>
         </timeline>
         
-        <!--parte IV-->
+        <!--parte IV: l'attributo source punta al quarto elemento recording per indicare il quarto file di registrazione a cui la timeline si riferisce -->
         <timeline xml:id="TL2IV" unit="s" source="#parteIV"> 
             <when xml:id="TT349" absolute="00:00:38" synch="arm-349"/>
             <when xml:id="TT350" since="#TT349" interval="1"/>
@@ -1267,7 +1272,7 @@
             <when xml:id="TT500" since="#TT499" interval="1"/>
         </timeline>
         
-        <!--parte V-->
+        <!--parte V: l'attributo source punta al quinto elemento recording per indicare il quinto file di registrazione a cui la timeline si riferisce -->
         <timeline xml:id="TL2V" unit="s" source="#parteV"> 
 
             <when xml:id="TT501" absolute="00:01:26" synch="arm-501"/>
@@ -1310,8 +1315,8 @@
             <when xml:id="TT526" since="#TT525" interval="1"/>
         </timeline>
 
-        <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
-        <!--parte I-->
+        <!--Timeline relativa al cambio di parlante. Si utilizza un elemento when che punta a un elemento u indicante l'enunciato prodotto dal parlante-->
+        <!--parte I: l'attributo source punta al primo elemento recording per indicare il primo file di registrazione a cui la timeline si riferisce-->
         <timeline xml:id="TL3I" unit="s" source="#parteI">                
             <when xml:id="TS01" synch="#PF1" absolute="00:00:16"/>
             <when xml:id="TS02" synch="#MA1" absolute="00:00:19"/>
@@ -1398,7 +1403,7 @@
             <when xml:id="TS83" synch="#AW41" absolute="00:26:56"/>
         </timeline>
         
-        <!--parte II-->
+        <!--parte II: l'attributo source punta al secondo elemento recording per indicare il secondo file di registrazione a cui la timeline si riferisce-->
         <timeline xml:id="TL3II" unit="s" source="#parteII">  
             <when xml:id="TS84" synch="#AW42" absolute="00:00:01"/>
             <when xml:id="TS85" synch="#MA42" absolute="00:00:06"/>
@@ -1503,7 +1508,7 @@
             <when xml:id="TS184" synch="#AW91" absolute="00:23:19"/>
         </timeline>
 
-        <!--parte III-->
+        <!--parte III: l'attributo source punta al terzo elemento recording per indicare il terzo file di registrazione a cui la timeline si riferisce-->
         <timeline  xml:id="TL3III" unit="s" source="#parteIII"> 
             <when xml:id="TS185" synch="#AW92" absolute="00:00:00"/>
             <when xml:id="TS186" synch="#MA92" absolute="00:00:45"/>
@@ -1622,7 +1627,7 @@
             <when xml:id="TS299" synch="#AW148" absolute="00:26:29"/>
         </timeline>
 
-        <!--parte IV-->
+        <!--parte IV: l'attributo source punta al quarto elemento recording per indicare il quarto file di registrazione a cui la timeline si riferisce-->
         <timeline  xml:id="TL3IV" unit="s" source="#parteIV"> 
             <when xml:id="TS300" synch="#AW149" absolute="00:00:00"/>
             <when xml:id="TS301" synch="#MA148" absolute="00:01:18"/>
@@ -1726,7 +1731,7 @@
             <when xml:id="TS399" synch="#AW198" absolute="00:25:47"/>
         </timeline>
 
-        <!--parte V-->
+        <!--parte V: l'attributo source punta al quinto elemento recording per indicare il quinto file di registrazione a cui la timeline si riferisce-->
         <timeline xml:id="TL3V" unit="s" source="#parteV">  
             <when xml:id="TS400" synch="#AW199" absolute="00:00:00"/>
             <when xml:id="TS401" synch="#MA198" absolute="00:01:15"/>
@@ -1755,17 +1760,18 @@
         </timeline>
     </standOff>
 
-<text>
+<text> <!-- Identifica la porzione del documento elettronico comprendente la trascrizione vera e propria del contenuto testuale -->
 
-        <body>
-            <!-- Parte I -->
-            <div type="testo" corresp="#parteI">
+        <body> <!-- Contiene l'intero corpo del testo unitario della testimonianza, esclusa qualsiasi parte anteriore o posteriore -->
 
-                <u who="#PF" xml:id="PF1" synch="#TS01">
+            <!-- Trascrizione parte I -->
+            <div type="testo" corresp="#parteI"> <!-- Indica le suddivisioni del testo: con l'attributo corresp crea un collegamento con il primo elemento recording del quale di seguito è presentata la codifica del contenuto testuale -->
+
+                <u who="#PF" xml:id="PF1" synch="#TS01"> <!-- <vocal> segna qualsiasi fenomeno vocale non necessariamente lessicale; <foreign> indica frasi o parole appartenenti a una lingua diversa da quella del testo circostante -->
                     <foreign xml:lang="en">okay</foreign> quando volete <vocal><desc>sospira</desc></vocal>
                 </u>
 
-                <u who="#MA" xml:id="MA1" synch="#TS02">
+                <u who="#MA" xml:id="MA1" synch="#TS02"> <!-- <pause/> segna una pausa tra o all'interno di enunciati; <seg> segna la segmentazione del testo -->
                     <date when="1998-03-04">4 Marzo 1998</date><pause/> cassetta numero cinque<pause/> intervisto il <persName ref="TEI-ListPerson.xml#AW">signor Arminio<pause/> <kinesic who="#AW"><desc>annuisce e sorride</desc></kinesic> Wachsberger</persName><pause/> allora <persName ref="TEI-ListPerson.xml#AW">signor Wachsberger</persName> siamo arrivati alla quarantena <seg type="truncation">mi ha raccontato</seg>
                 </u>
 
@@ -1777,7 +1783,7 @@
                     <anchor xml:id="ma-01" synch="#TT01"/><del type="repetition">me la</del><anchor xml:id="ma-02" synch="#TT02"/> me la descriva si
                 </u>
                
-                <u who="#AW" xml:id="AW2" synch="#TS05">
+                <u who="#AW" xml:id="AW2" synch="#TS05"> <!-- <kinesic> segna qualsiasi fenomeno comunicativo non necessariamente vocalizzato; <supplied> segna il testo fornito dal codificatore; <surplus> segna il testo ritenuto superfluo o ridondante; <choice> con i figli <sic> e <corr> registra e corregge una porzione del discorso pronunciata in maniera scorretta; <unclear> segna una porzione del discorso di difficile interpretazione -->
                     ecco <vocal>ehm</vocal> l'avete visto sicuramente tante volte in fotografia<pause/> erano baracche di legno<pause/> senza finestre<pause/> che <choice><sic>aveva</sic><corr resp="#GB">avevano</corr></choice><pause/> <del type="falseStart">come</del><pause/><kinesic iterated="true"><desc>muove la sua mano destra simulando i piani dei letti</desc></kinesic>  per dormire<pause/> tre piani <del type="falseStart">di</del> <kinesic><desc>muove entrambe le mani simulando un piano</desc></kinesic>  semplicemente di legno<pause/> <kinesic><desc>alza le mani</desc></kinesic>  <del type="repetition">non</del> non letti a castello<pause/> ma bensì come se fossero letti a castello <kinesic iterated="true"><desc>muove la sua mano destra simulando i piani dei letti</desc></kinesic> tre ripiani<pause/> quindi chi era al pian terreno entrava facilmente <pause/><kinesic iterated="true"><desc>simula un'arrampicata</desc></kinesic> gli altri dovevano arrampicarsi<pause/> io stavo al terzo e quindi avevo davanti <pause/>non <surplus resp="#GB" cert="medium">era</surplus> una finestra<pause/><kinesic><desc>allarga le mani per simulare una fessura</desc></kinesic>  <supplied resp="#GB" cert="medium" reason="omitted">ma</supplied> una fessura <surplus resp="#GB" cert="high">così</surplus> che serviva per <unclear reason="inaudible" resp="#GB" cert="medium">il</unclear> ricambio d'aria<pause/><kinesic><desc>muove la sua mano destra con l'indice alzato</desc></kinesic> ecco da dove vedevo quelli <del type="falseStart">della</del> di <anchor xml:id="arm-03" synch="#TT03"/><placeName ref="TEI-ListPlace.xml#Te">Theresienstadt</placeName><anchor xml:id="arm-04" synch="#TT04"/> 
                 </u>
 
@@ -1821,7 +1827,7 @@
                     una coperta
                 </u>
 
-                <u who="#AW" xml:id="AW6" synch="#TS13">
+                <u who="#AW" xml:id="AW6" synch="#TS13"> <!-- <term> e <gloss> indicano i termini tecnici e le loro spiegazioni -->
                     <del type="falseStart">una <vocal>ehm</vocal></del> si una coperta<pause/> questa si <vocal>emh</vocal> era una <gloss target="#kotzen">coperta militare</gloss> <vocal>emh</vocal> classica che <surplus resp="#GB" cert="high">lo</surplus> chiamavano<pause/> <term xml:id="kotzen" xml:lang="de">kotzen</term> che <unclear resp="#GB" reason="inaudible" cert="medium">è un</unclear> nome mezzo polacco
                 </u>
                     
@@ -1837,7 +1843,7 @@
                     <del type="falseStart">quindi</del> si ricorda qualche nome
                 </u>
 
-                <u who="#AW" xml:id="AW8" synch="#TS17">
+                <u who="#AW" xml:id="AW8" synch="#TS17"> <!-- <choice> con i figli <orig> e <reg> registra e normalizza una porzione del discorso ritenuta non standard; <gap/> indica le lacune o le parti oscurate -->
                     <pause dur="PT3S"/><vocal><desc>sospira</desc></vocal> <kinesic><desc>indica con la mano sinistra di fronte a lui (probabilmente l'intervistatrice)</desc></kinesic> dunque anzitutto come le dico<pause/><kinesic><desc>fa il numero "1" con il pollice sinistro</desc></kinesic>  <seg part="I" next="#s1b" xml:id="s1a">c'era un<pause/> medico livornese</seg> che stava a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName><pause/> un altro medico <pause/><kinesic><desc>fa il numero 2 e si porta la mano sinistra alle tempie con lo sguardo rivolto verso il basso pensante</desc></kinesic>  di dove era<pause dur="PT3S"/><gap resp="#GB" reason="inaudible" atLeast="1" atMost="3" unit="words"/> <kinesic iterated="true"><desc>muove l'indice della sua mano sinistra</desc></kinesic> questo medico livornese poi è morto a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName> e <pause/> il tribunale di <placeName ref="TEI-ListPlace.xml#LI">Livorno</placeName> mi aveva chiamato una volta a fare una dichiarazione di morte<pause/> non presunta<pause/> reale perché i suoi parenti che si son salvati <pause/>avevano bisogno di questa dichiarazione <vocal><desc>sospira</desc></vocal><vocal>ehm</vocal> poi <vocal>ehm</vocal> <pause/><kinesic iterated="true"><desc>muove l'indice della sua mano sinistra</desc></kinesic>  <seg part="F" prev="#s1a" xml:id="s1b">quella <rs ref="TEI-ListPerson.xml#Rotschild" resp="#GB">signorina</rs> che è morta in viaggio si chiamava <choice><sic>Rosenthal</sic><corr resp="#GB">Rotschild</corr></choice></seg> <kinesic><desc>apre la mano sinistra verso l'esterno</desc></kinesic> <choice><orig>vabbè</orig><reg resp="#GB">va bene</reg></choice><pause/> mi è venuto in mente il <anchor xml:id="arm-21" synch="#TT21"/>nome <vocal><desc>sospira</desc></vocal><anchor xml:id="arm-22" synch="#TT22"/> e come le dico<pause/> <kinesic iterated="true"><desc>simula dei piani</desc></kinesic> c'erano questi <pause/><del type="truncation">n</del> non so se chiamarli piani e <vocal>ehm</vocal> per <del type="falseStart">in</del> ogni piano <kinesic iterated="true"><desc>avvicina i palmi delle mani simulando vicinanza</desc></kinesic> <supplied resp="#GB" cert="medium" reason="omitted">c'erano</supplied> sei persone una attaccata all'altra <pause/><surplus resp="#GB" cert="low">e</surplus> <vocal>ehm</vocal> era proibitissimo la notte uscire dalla baracca<pause/> quindi c'era il problema<pause/> di quando uno aveva necessità di bisogni fisiologici
                 </u>
 
@@ -1849,7 +1855,7 @@
                     perché le latrine dove<pause/> <anchor xml:id="ma-23" synch="#TT23"/>stavano<anchor xml:id="ma-24" synch="#TT24"/>
                 </u>
 
-                <u who="#AW" xml:id="AW9" synch="#TS19">
+                <u who="#AW" xml:id="AW9" synch="#TS19"> <!-- <distinct> identifica parole o frasi linguisticamente distinte -->
                     <anchor xml:id="arm-23" synch="#TT23"/>ecco<anchor xml:id="arm-24" synch="#TT24"/> c'era <choice><sic>una</sic><corr resp="#GB">un'</corr></choice> <pause/><vocal>ehm</vocal> altra baracca la baracca delle latrine<pause/> <supplied resp="#GB" cert="high" reason="omitted">il</supplied> <term xml:id="quarantena" xml:lang="de">quarantänelager</term><kinesic><desc>allarga le braccia</desc></kinesic> aveva la sua baracca delle latrine<pause/> le latrine erano costituite da <kinesic><desc>simula un piano e un foro</desc></kinesic> <pause/> banconi di legno con dei fori e <del type="truncation">c</del> <distinct type="informal">si andava</distinct> tutti lì <pause/><choice><sic>c'erano</sic><corr resp="#GB">c'era</corr></choice> <gap reason="inaudible" resp="#GB" extent="1 word"/> quello<kinesic><desc>sposta le mani da destra a sinistra</desc></kinesic>  per uomini e quello<pause/> per donne<pause/> <surplus resp="#GB" cert="medium">e</surplus> semplicemente così <anchor xml:id="arm-25" synch="#TT25"/><vocal>ehm</vocal><anchor xml:id="arm-26" synch="#TT26"/>
                 </u>
 
@@ -1867,7 +1873,7 @@
 
                 <pause/>
 
-                <u who="#AW" xml:id="AW11" synch="#TS23">
+                <u who="#AW" xml:id="AW11" synch="#TS23"> <!-- <q> indica il testo riferito; <soCalled> indica le parole da cui il testimone si allontana -->
                     <vocal>ehm</vocal> dunque si erano le scritte che <choice><sic>diceva</sic><corr resp="#GB">dicevano</corr></choice> <q type="written">non più di <time dur="PT10M">dieci minuti</time></q><pause/> dovevi fare i tuoi bisogni entro <time dur="PT10M">dieci minuti</time> <pause/><kinesic iterated="true"><desc>muove l'indice della sua mano sinistra</desc></kinesic> <unclear reason="inaudible" resp="#GB" cert="medium">ed è</unclear> interessante che i <soCalled>capi</soCalled> chiamiamoli così<pause/> delle latrine erano ufficiali russi<pause/> che <kinesic><desc>muove l'indice della sua mano sinistra con più decisione</desc></kinesic> <surplus resp="#GB" cert="high">li</surplus> mettevano lì per punizione<pause/> <del type="falseStart">la</del> per punire un ufficiale russo<pause/> <distinct type="political">comunista</distinct> naturalmente lo mettevano capo <del type="falseStart">del</del> dei gabinetti <seg type="truncation">e <vocal>ehm</vocal></seg>
                 </u>
 
@@ -1911,7 +1917,7 @@
                     è stato quindi arrestato a <placeName ref="TEI-ListPlace.xml#FM">Fiume</placeName><pause/> suo <anchor xml:id="ma-37" synch="#TT37"/><rs ref="TEI-ListPerson.xml#DavideW" resp="#GB">padre</rs> <supplied resp="#GB" reason="integration">Davide Wachsberger</supplied><anchor xml:id="ma-38" synch="#TT38"/>
                 </u>
 
-                <u who="#AW" xml:id="AW16" synch="#TS33">
+                <u who="#AW" xml:id="AW16" synch="#TS33"> <!-- <emph> segna parole o frasi enfatizzate -->
                     <anchor xml:id="arm-37" synch="#TT37"/>dunque <anchor xml:id="arm-38" synch="#TT38"/><vocal>ehm</vocal> si <del type="repetition">ma</del> ma non solo<pause/> con tutti i componenti della comunità <kinesic><desc>alza la mano sinistra e la ruota</desc></kinesic> <emph>maschi</emph><pause/> superiori ai 18 anni<pause/><del type="falseStart">e portato</del> <kinesic><desc>indica sè stesso con la mano sinistra</desc></kinesic> <rs ref="TEI-ListPerson.xml#DavideW" resp="#GB">papà</rs> <supplied resp="#GB" reason="integration">Davide Wachsberger</supplied> è stato portato <choice><sic>a</sic><corr resp="#GB">in</corr></choice> <placeName ref="TEI-ListPlace.xml#CAM">Campania</placeName> in provincia di <placeName ref="TEI-ListPlace.xml#SA">Salerno</placeName> <pause/><kinesic><desc>indica con la sua mano sinistra qualcosa alla sua sinistra</desc></kinesic> quella fotografia<pause/> si vede lì <surplus resp="#GB" cert="low">e</surplus> <vocal>ehm</vocal><pause/> viceversa si è ammalato l'hanno portato all'<place type="hospital">ospedale di <placeName ref="TEI-ListPlace.xml#FM">Fiume</placeName></place><pause/> ed è morto lì
                 </u>
 
@@ -1963,7 +1969,7 @@
                     <del type="repetition">si si</del> si<pause/> <kinesic who="#AW"><desc>tiene la bocca aperta</desc></kinesic> allora<pause/> torniamo alla <vocal>ehm</vocal><pause/>  quarantena <supplied resp="#GB" cert="medium" reason="omitted">a</supplied> questa baracca che lei <kinesic who="#AW"><desc>annuisce</desc></kinesic> mi ha descritto<pause/> lei quando ha saputo<pause/><vocal>ehm</vocal><kinesic who="#AW"><desc>alza l'indice sinistro</desc></kinesic>  della <rs ref="TEI-ListPerson.xml#ClaraW TEI-ListPerson.xml#ReginaP TEI-ListPerson.xml#MoiseP TEI-ListPerson.xml#CarlottaP" resp="#GB">sua famiglia</rs><supplied resp="#GB" reason="integration">Clara Wachsberger, Regina Polacco, Moisé Polacco e Carlotta Cesana</supplied><anchor xml:id="ma-53" synch="#TT53"/><pause/> <seg type="truncation">dove erano <del type="truncation">fin</del><anchor xml:id="ma-54" synch="#TT54"/></seg>
                 </u>
 
-                <u who="#AW" xml:id="AW21" synch="#TS43">
+                <u who="#AW" xml:id="AW21" synch="#TS43"> <!-- <mentioned> segna parole o frasi menzionate ma slegate dalla loro funzione -->
                     <anchor xml:id="arm-53" synch="#TT53"/><del type="falseStart">ecco adesso le devo</del><anchor xml:id="arm-54" synch="#TT54"/> questi sono <unclear reason="inaudible" resp="#GB" cert="low">i</unclear> particolari interessanti<pause/> <vocal>ehh</vocal><pause/><kinesic iterated="true"><desc>apre e chiude la mano destra</desc></kinesic>  dopo <time dur="PT5M">5 minuti</time> che eravamo nel <foreign xml:lang="de">lager</foreign> dentro<pause/> c'erano i<kinesic iterated="true"><desc>agita le mani per dire "diciamo"</desc></kinesic> <pause/> prigionieri precedenti<pause/> <mentioned>anziani</mentioned> chiamiamoli così<pause/> <del type="truncation">c</del> c'erano quelli<pause/><kinesic><desc>apre la mano destra</desc></kinesic>  <emph>pessimisti</emph> che ci dicevano la verità <q type="spoken">guardate quel fumo</q> <del type="repetition">eccetera</del> eccetera<pause/> c'erano altri prigionieri invece che<pause/> avevano pietà di noi <choice><sic>dice</sic><corr resp="#GB">dicono</corr></choice> <q type="thought">perché dire la verità</q> <unclear resp="#GB" reason="inaudible" cert="low"><choice><sic>dice</sic><corr resp="#GB">dicono</corr></choice></unclear> <q type="spoken">ma no li hanno mandati in un<pause/> altro campo <kinesic><desc>indica qualcosa con il braccio sinistro e simula l'azione di guardare lontano</desc></kinesic> <gap reason="inaudible" atLeast="1" atMost="2" unit="words"/> guardateli</q><pause/> era il <place type="area"><term xml:id="zigeuner" xml:lang="de">Zigeuner lager</term></place> il <gloss target="#zigeuner">campo degli zingari</gloss> e lì c'erano donne bambini piccoli <distinct type="informal">vecchi</distinct> eccetera<pause/> poi <supplied resp="#GB" cert="medium" reason="omitted">dicono</supplied> <q><del type="truncation">n</del> <unclear resp="GB" reason="inaudible" cert="medium">tu</unclear> non ci credi<pause/> <kinesic><desc>indica qualcosa con il braccio sinistro e simula l'azione di guardare lontano</desc></kinesic> guarda <vocal>um</vocal> il <placeName ref="TEI-ListPlace.xml#Te">Theresienstadt <foreign xml:lang="de">lager</foreign></placeName></q><kinesic><desc>si tocca il petto con entrambe le mani</desc></kinesic>  quello accanto a noi<pause/> anche lì <pause/><kinesic iterated="true"><desc>muove circolarmente la mano destra con l'indice alzato</desc></kinesic>  perché quello serviva per <distinct type="political">propaganda</distinct> <anchor xml:id="arm-55" synch="#TT55"/>no<pause/><kinesic><desc>alza le sopracciglia in segno di disgusto</desc></kinesic>  <del type="falseStart">poi<anchor xml:id="arm-56" synch="#TT56"/> invece<pause/> <kinesic iterated="true"><desc>muove l'indice della mano sinistra</desc></kinesic> sia quelli di<placeName ref="TEI-ListPlace.xml#Te">Theresienstadt</placeName> sia <kinesic><desc>sgrana gli occhi</desc></kinesic> gli zingari</del><pause/> <unclear resp="#GB" reason="inaudible" cert="low">degli zingari</unclear> in una notte <kinesic><desc>alza il palmo della mano destra al cielo e alza il mento</desc></kinesic> ne hanno <distinct type="informal">ammazzati</distinct> quaranta mila<pause/><kinesic><desc>muove i polsi di entrambe le mani facendole ruotare dall'interno verso l'esterno</desc></kinesic>  più tardi<kinesic><desc>avvicina le mani e le allontana</desc></kinesic> <pause/> tutti quanti<pause/> mentre prima lasciavano in vita anche <anchor xml:id="arm-57" synch="#TT57"/>le donne e i <unclear resp="#GB" reason="inaudible" cert="high">bambini</unclear><anchor xml:id="arm-58" synch="#TT58"/>
                 </u>
 
@@ -1992,7 +1998,7 @@
                     <anchor xml:id="ma-65" synch="#TT65"/>quindi<anchor xml:id="ma-66" synch="#TT66"/> <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName> veniva nella <anchor xml:id="ma-67" synch="#TT67"/><gloss target="#quarantena"><place type="area"><supplied resp="#GB" cert="high" reason="omitted">baracca della</supplied> quarantena</place></gloss> e<anchor xml:id="ma-68" synch="#TT68"/> perché <del type="truncation">sa</del> aveva saputo che lei <anchor xml:id="ma-69" synch="#TT69"/><vocal>ehm</vocal> sapeva<anchor xml:id="ma-70" synch="#TT70"/> <anchor xml:id="ma-71" synch="#TT71"/>e quindi<anchor xml:id="ma-72" synch="#TT72"/> il giorno dopo diciamo è venuto a parlare
                 </u>
 
-                <u who="#AW" xml:id="AW23" synch="#TS47">
+                <u who="#AW" xml:id="AW23" synch="#TS47"> <!-- <span> indica le traduzioni di un intervallo di testo -->
                     <kinesic><desc>poggia la sua mano destra sul suo petto</desc></kinesic> <anchor xml:id="arm-67" synch="#TT67"/>veniva<anchor xml:id="arm-68" synch="#TT68"/> da me <anchor xml:id="arm-69" synch="#TT69"/>si <vocal>beh</vocal> io ero il suo<anchor xml:id="arm-70" synch="#TT70"/> <gloss target="#dolmetscher">interprete</gloss> no <kinesic iterated="true"><desc>simula il gesto di titar giù</desc></kinesic>  <del type="falseStart">che</del> <rs ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</rs> <choice><orig>m'ha</orig><reg resp="#GB">mi ha</reg></choice> portato giù dal camion<pause/> <choice><orig>m'ha</orig><reg resp="#GB">mi ha</reg></choice> <anchor xml:id="arm-71" synch="#TT71"/>tirato <gap reason="inaudible" resp="#GB" extent="1 word"/><anchor xml:id="arm-72" synch="#TT72"/> si è venuto e <kinesic><desc>fa la lettera "O" con la mano destra</desc></kinesic> <del type="truncation">p</del> e poi dice <q type="spoken" who="TEI-ListPerson.xml#Mengele" xml:lang="de" xml:id="trad0">Komm heute abend zu mir<gap reason="inaudible" resp="#GB" extent="1 word"/><kinesic><desc>indica con la mano destra qualcosa alla sua sinistra</desc></kinesic></q> <span corresp="#trad0">stasera tu vieni da me nella mia baracca</span> <rs ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</rs> aveva una baracca <mentioned>ufficio</mentioned>
                 </u>
 
@@ -2021,7 +2027,7 @@
                     quando ha saputo che si chiamava <persName ref="TEI-ListPerson.xml#Mengele">Mengele</persName> 
                 </u>
 
-                <u who="#AW" xml:id="AW26" synch="#TS53">
+                <u who="#AW" xml:id="AW26" synch="#TS53"> <!-- <join> unisce due elementi frammentati come due enunciati interrotti da un altro enunciato -->
                     <kinesic><desc>sgrana gli occhi, alza il mento e agita le mani quasi infastidito dalla domanda</desc></kinesic> <del type="falseStart">ma tutti lo tutti</del> il nome Mengele è così conosciuto fra quelli del <foreign xml:lang="de">lager</foreign><pause/> come non so <persName ref="TEI-ListPerson.xml#Mussolini">Mussolini</persName> in <placeName ref="TEI-ListPlace.xml#IT">Italia</placeName> nel periodo<pause/> del <distinct type="political">fascismo</distinct><kinesic><desc>appoggia la sua mano destra alla guancia e al mento in posizione pensante</desc></kinesic>  allora<pause/> una volta<pause/><vocal>ehm</vocal> io <del type="repetition">ho ho</del> ho dovuto dirgli <kinesic iterated="true"><desc>scuote leggermente la testa</desc></kinesic> esattamente la verità<pause/> dico <q type="spoken" who="TEI-ListPerson.xml#AW" xml:id="q1">no guardi <rs ref="TEI-ListPerson.xml#Mengele" resp="#GB">signor <seg xml:lang="de" xml:id="trad1">Hauptsturmführer</seg></rs></q><kinesic iterated="true"><desc>muove velocemente la mano destra</desc></kinesic> il suo <span corresp="#trad1">titolo in <lang>tedesco</lang></span><pause/> <q type="spoken" who="TEI-ListPerson.xml#AW" xml:id="q2">non è che i gerarchi hanno fatto la rivolta contro <persName ref="TEI-ListPerson.xml#Mussolini">Mussolini</persName><pause/> è stato il popolo che era felice e giulivo di finire questa guerra che era<pause/><vocal>ehm</vocal> <kinesic iterated="true"><desc>scuote leggermente la testa</desc></kinesic> snervante per tutti</q><join target="#q1 #q2" result="q" type="quotation" scope="branches"></join><pause/><vocal><desc>espira</desc></vocal> quindi l'avevo messo sull'avviso <kinesic iterated="true"><desc>agita l'indice destro</desc></kinesic> <gap reason="inaudible" atLeast="2" atMost="4" unit="words"/>che <rs ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</rs> poi dopo quando la guerra è finita è riuscito a <distinct type="common_saying">tagliare la corda</distinct> <supplied resp="#GB" reason="omitted" cert="medium">ad</supplied> andare <kinesic><desc>appoggia la sua mano destra alla guancia e al mento in posizione pensante</desc></kinesic> prima in <placeName ref="TEI-ListPlace.xml#AR"><choice><sic>Argentinta</sic><corr resp="#GB">Argentina</corr></choice></placeName> poi in <placeName ref="TEI-ListPlace.xml#PY">Paraguay</placeName> <choice><orig>vabbè</orig><reg resp="#GB">va bene</reg></choice> tutti i particolari li conoscete<pause/><vocal><desc>sospira</desc></vocal> <seg type="truncation">una volta <distinct type="informal">siccome</distinct> <rs ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</rs> era medico <pause/> e aveva fatto il <distinct type="technical">giuramento di <persName ref="TEI-ListPerson.xml#Ippocrate">Ippocrate</persName></distinct> no<pause/> <kinesic iterated="true"><desc>agita la mano destra ruotandola</desc></kinesic> cioè <supplied resp="#GB" cert="medium" reason="omitted">ha giurato</supplied> che farà di tutto per aiutare la <distinct type="informal">gente</distinct> a vivere e non farà <emph>nulla</emph> per <vocal>ehm</vocal><pause/> fare del male a una persona<pause/> <kinesic><desc>sgrana gli occhi e si gratta il collo con la mano destra</desc></kinesic>  viceversa <del type="falseStart"><rs ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</rs></del> era <emph><rs ref="TEI-ListPerson.xml#Mengele" resp="#GB">lui</rs></emph> la persona che mandava<pause/> <anchor xml:id="arm-77" synch="#TT77"/>al gas<anchor xml:id="arm-78" synch="#TT78"/></seg>
                 </u>
 
@@ -2139,7 +2145,7 @@
                     <anchor xml:id="ma-113" synch="#TT113"/>ecco <del type="falseStart">come è possibile<anchor xml:id="ma-114" synch="#TT114"/> che</del> cioè lei come ha fatto a <anchor xml:id="ma-115" synch="#TT115"/>nasconderli<anchor xml:id="ma-116" synch="#TT116"/>
                 </u>
 
-                <u who="#AW" xml:id="AW39" synch="#TS79">
+                <u who="#AW" xml:id="AW39" synch="#TS79"> <!-- <shift> segna il punto in cui cambia una caratteristica paralinguistica di un enunciato prodotto da un parlante -->
                     <kinesic><desc>si piega leggermente e alza la gamba destra probabilmente indicando i calzoni</desc></kinesic> <anchor xml:id="arm-115" synch="#TT115"/>li <unclear reason="inaudible" resp="#GB" cert="medium">avevo</unclear><anchor xml:id="arm-116" synch="#TT116"/> nascosti qua dentro<pause/> qua sotto<pause/> nella fodera <pause/><vocal><desc>prende fiato</desc></vocal> allora io sapevo per quel poco che avevo <choice><sic>conoscenze</sic><corr resp="#GB">conosciuto</corr></choice> <del type="repetition">di</del><pause/> di scienze sanitarie<pause/> che <kinesic><desc>fa la lettera "O" con la mano sinistra</desc></kinesic> in quell'epoca<pause/> la  <distinct type="technical">sifilide</distinct><pause/> veniva curata con un sistema che <kinesic iterated="true"><desc>agita la mano sinistra facendo "no"</desc></kinesic> non era <supplied resp="#GB" reason="omitted" cert="medium">quello di</supplied> <persName ref="TEI-ListPerson.xml#PaulE">Ehrlich</persName> quello che aveva trovato il <distinct type="technical">salvarsan</distinct><pause/> eccetera <surplus resp="#GB" cert="low">che</surplus> <del type="repetition">non</del> non dicevano mai che <persName ref="TEI-ListPerson.xml#PaulE">Ehrlich</persName> era ebreo<pause/> però li faceva comodo <unclear reason="inaudible" resp="#GB" cert="medium">il</unclear> <distinct type="technical">salvarsan</distinct><pause/> avevano visto una cosa stranissima che <seg part="I" next="#s8b" xml:id="s8a">quando<pause/> qualcuno aveva la <distinct type="technical">sifilide</distinct><pause/> e si ammalava di <emph><distinct type="technical">malaria</distinct></emph></seg><pause/> la <distinct type="technical">malaria</distinct> porta su <kinesic><desc>alza le braccia e poi lentamente le abbassa per simulare l'aumento di tempoeratura</desc></kinesic> la temperatura molto elevata<pause/> <seg part="F" prev="#s8a" xml:id="s8b">spariva<pause/> la <distinct type="technical">sifilide</distinct></seg><pause/> allora hanno capito che il calore <emph>interno</emph> uccide il <distinct type="technical">batterio</distinct> della <distinct type="technical">sifilide</distinct><pause/> allora cosa è successo che molti soldati tedeschi<pause/> <del type="truncation">pr</del> prendevano la <distinct type="technical">sifilide</distinct> per ragioni evidenti<pause/> <supplied resp="#GB" cert="medium" reason="omitted">e</supplied><emph>li curavano</emph><pause/> <choice><orig>che</orig><reg resp="#GB">perché</reg></choice> gli davano <kinesic><desc>fa la lettera "O" con la mano sinistra</desc></kinesic> delle pastiglie<pause/> che<pause/> <emph>creavano</emph> la febbre esistono ancora oggi<pause/> <del type="truncation">piro</del> <kinesic><desc>alza le sopracciglia e agita la mano sinistra come per dire di non ricordarsi</desc></kinesic> adesso non mi ricordo come si <del type="truncation">chiaman</del><pause/> <seg part="I" next="#s9b" xml:id="s9a">allora io sapendo questo</seg><pause/> noi logicamente <shift feature="giggle" new="normal">non avevamo neanche una pillola <emph>niente</emph></shift><pause/> assolutamente nulla<pause/><vocal><desc>espira</desc></vocal> <del type="truncation">s</del> sapevo però<pause/> che il nostro <kinesic><desc>indica sé stesso con la mano sinistra</desc></kinesic> <term ref="#blockaltester" xml:lang="de">blockaltester</term> sarebbe il capo baracca<pause/> conosceva<pause/> un sottufficiale delle <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice> che era <kinesic iterated="true"><desc>con la mano destra indica qualcosa a sinistra</desc></kinesic> <choice><sic>nella</sic><corr resp="#GB">nel</corr></choice> <term ref="#revier" xml:lang="de">revier</term> della <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice> cioè<pause/> nell'ospedale da campo<pause/> <del type="truncation">d</del> dei tedeschi<pause/> <anchor xml:id="arm-117" synch="#TT117"/><del type="truncation">do</del><anchor xml:id="arm-118" synch="#TT118"/>
                 </u>
 
@@ -2170,8 +2176,9 @@
                     <kinesic><desc>scuote la testa per dire "no"</desc></kinesic> <del type="falseStart">no</del><pause/> nel campo si <kinesic><desc>sgrana gli occhi e poi guarda alla sua destra velocemente</desc></kinesic> sono passato anche davanti alla gas camera<pause/> <kinesic><desc>fa spallucce</desc></kinesic> senza sapere
                 </u>
             </div>
-            <!-- Parte II -->
-            <div type="testo" corresp="#parteII"> 
+
+            <!-- Trascrizione parte II -->
+            <div type="testo" corresp="#parteII"> <!-- Indica le suddivisioni del testo: con l'attributo corresp crea un collegamento con il secondo elemento recording del quale di seguito è presentata la codifica del contenuto testuale -->
 
                 <u who="#AW" xml:id="AW42" synch="#TS84">
                     che erano a gas<pause/> che era un crematorio questo lo sapevamo tutti <kinesic><desc>alza il braccio destro simulando l'altezza che raggiungeva il fumo</desc></kinesic> perché il fumo<anchor xml:id="arm-133" synch="#TT133"/><pause/> <distinct type="informal">impestava</distinct><anchor xml:id="arm-134" synch="#TT134"/> tutto quanto no
@@ -2470,7 +2477,7 @@
                     quanto è durato il viaggio
                 </u>
 
-                <u who="#AW" xml:id="AW69" synch="#TS140">
+                <u who="#AW" xml:id="AW69" synch="#TS140"> <!-- <incident> segna qualsiasi fenomeno o evento non necessariamente vocalizzato o comunicativo -->
                     <del type="repetition" cert="medium"><emph><unclear reason="inaudible" resp="#GB" cert="medium">una</unclear> notte</emph></del> una notte intera<pause/> non è molto distante<pause/> arrivati a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName> ci aprono <del type="falseStart">i</del><pause/> gli sportelli<pause/> e <kinesic iterated="true"><desc>agita la mano sinistra con l'indice alzato e sgrana gli occhi</desc></kinesic> <del type="falseStart">non <del type="truncation">so</del></del> non c'è più la <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice><pause/> <seg part="I" xml:id="s16a" next="#s16b">a <placeName ref="TEI-ListPlace.xml#WA">Varsavia</placeName></seg> <del type="falseStart">c'era invece</del><pause/> mentre a <incident iterated="true"><desc>rumori elettronici</desc></incident><placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName><pause/> e a <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> eran le <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice> pure<pause/> che<pause/> <term ref="#tc" xml:lang="de"><unclear reason="inaudible" resp="#GB" cert="low">totem <distinct type="military">comando</distinct></unclear></term> si chiamava<pause/> <kinesic><desc>simula il teschio delle SS sulla fronte</desc></kinesic> <gloss xml:id="tc"><distinct type="military">comando</distinct> della morte</gloss> <choice><orig>che</orig><reg resp="#GB">le quali</reg></choice> <supplied resp="#GB" cert="medium" reason="omitted"><choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice></supplied> portavano il teschio qui<pause/> ma bensì <kinesic><desc>alza il mento e agita la mano sinistra che fa la lettera "O"</desc></kinesic> <seg xml:id="s16b" prev="#s16a"><supplied resp="#GB" cert="medium" reason="omitted">c'</supplied>erano degli ucraini</seg><pause/> ucraini <choice><orig>che</orig><reg>ai quali</reg></choice><pause/> <del type="falseStart">i <del type="truncation">f</del></del> i tedeschi avevano promesso <surplus resp="#GB" cert="high">loro</surplus> la <emph>libertà</emph><pause/> dal <distinct type="political">comunismo</distinct><pause/> e questi per guadagnare qualche cosa si erano <emph>iscritti</emph><pause/> a questa <orgName><soCalled>polizia ucraina</soCalled></orgName>
                 </u>
 
@@ -2686,8 +2693,9 @@
                 </u>
 
             </div>
-            <!-- Parte III -->
-            <div type="testo" corresp="#parteIII">
+
+            <!-- Trascrizione parte III -->
+            <div type="testo" corresp="#parteIII"><!-- Indica le suddivisioni del testo: con l'attributo corresp crea un collegamento con il terzo elemento recording del quale di seguito è presentata la codifica del contenuto testuale -->
 
                 <u who="#AW" xml:id="AW92" synch="#TS185">
                     <del type="falseStart" xml:id="fs1">teva<pause/> il caporale</del><join target="#fs0 #fs1"></join> lui era caporale perché era<pause/> insegnante <del type="repetition">di</del> di scuola<pause/> e<pause/> poteva<pause/> soddisfare il proprio bisogno di sadismo <del type="falseStart">che</del><pause/> contro i poveri <distinct type="military">legionari</distinct><pause/> <emph>quando è nato</emph> <choice><sic>il</sic><corr resp="#GB">l'</corr></choice><pause/> <distinct type="political">hitlerismo</distinct> il <distinct type="political">nazismo</distinct><pause/> <kinesic><desc>porta la mano destra da sinistra a destra facendo un movimento ad arco</desc></kinesic> <del type="falseStart">e</del> <supplied resp="#GB" cert="medium" reason="omitted">lui</supplied> è scappato dalla <distinct type="military">legione</distinct> francese <supplied resp="#GB" cert="medium" reason="omitted">ed</supplied> è andato<pause/> <choice><sic>a</sic><corr resp="#GB">da</corr></choice> <persName ref="TEI-ListPerson.xml#AH">Hitler</persName> come volontario perché diceva <q type="thought"><kinesic><desc>agita la mano destra di fronte a lui</desc></kinesic> <vocal>ah</vocal> qui potrò<pause/> soddisfare i miei bisogni</q><pause/> <kinesic><desc>porta avanti la mano sinistra con gli occhi sgranati</desc></kinesic> ecco che lui era sadista <del type="repetition">perciò</del><pause/> perciò dice <q type="spoken"><kinesic iterated="true"><desc>si tocca la tempia con l'indice sinistro</desc></kinesic> <surplus resp="#GB" cert="medium">però</surplus> io sono sadista ma sono anche un insegnante elementare<pause/> io capisco quello che faccio<pause/> però <kinesic><desc>fa spallucce</desc></kinesic> non posso far niente contro<pause/> è più forte di me<pause/> però dopo <kinesic><desc>si tocca la tempia con l'indice sinistro</desc></kinesic> poi ci ripenso e mi pento<pause/> ecco <surplus resp="#GB" cert="low">perché</surplus><pause/> <kinesic iterated="true"><desc>indica con entrambe le mani di fronte a lui come se si riferisse a sé stesso</desc></kinesic> le <distinct type="informal">botte</distinct> che <choice><orig>t'ho</orig><reg resp="#GB">ti ho</reg></choice> dato quando sei uscito in quel momento<pause/> <emph>era il sadismo</emph> che aveva<pause/> il guadagno<pause/> adesso sono invece una persona <anchor xml:id="arm-241" synch="#TT241"/>normale<anchor xml:id="arm-242" synch="#TT242"/></q>
@@ -3053,7 +3061,7 @@
                 </u>
 
                 <u who="#AW" xml:id="AW128" synch="#TS259">
-                    <anchor xml:id="arm-321" synch="#TT321"/><kinesic><desc>si tocca il petto con entrambe le mani</desc></kinesic> non nostri <emph>no</emph> erano quelli della <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice><anchor xml:id="arm-322" synch="#TT322"/> lenzuola <vocal>ehm</vocal> <del type="truncation">b</del> camicie <supplied resp="#GB" cert="medium" reason="omitted">e</supplied> così <del type="truncation">avan</del><pause/><vocal><desc>deglutisce</desc></vocal><incident iterated="true"><desc>rumore elettronico</desc></incident> <emph>lì</emph> in questa lavanderia ha conosciuto una ragazza<pause/> questa ragazza era ebrea ma aveva<pause/> <vocal>ehmm</vocal> documenti falsi<pause/> e son diventati fidanzati <kinesic><desc>scuote la testa e le mani come per dire "diciamo"</desc></kinesic> amanti non so che cosa<pause/> allora hanno deciso di <distinct type="common_saying">tagliare la corda</distinct><pause/> di andare nei boschi insieme con i partigiani<pause/><vocal><desc>espira</desc></vocal> allora cosa fa <rs ref="TEI-ListPerson.xml#IsaacSS" resp="#GB">lui</rs><pause/><vocal><desc>click con la lingua</desc></vocal> <seg part="I" xml:id="s31a" next="#s31b"><rs ref="TEI-ListPerson.xml#IsaacSS" resp="#GB">lui</rs></seg><pause/> <kinesic><desc>agita le mani come per dire "diciamo"</desc></kinesic> <del type="falseStart"><del type="truncation">er</del> riusciva <del type="truncation">or</del> <del type="truncation">n</del></del> si chiamava organizzare<pause/> <seg part="F" xml:id="s31b" prev="#s31a">aveva organizzato della <foreign xml:lang="rus">vodka</foreign></seg><pause/> quando sono arrivati nella lavanderia<pause/> <rs ref="TEI-ListPerson.xml#IsaacSS" resp="#GB">lui</rs> ha dato la bottiglia di <foreign xml:lang="rus">vodka</foreign> a questo sottufficiale <choice><sic>dice</sic><corr resp="#GB">dicendo</corr></choice> <q type="spoken" who="TEI-ListPerson.xml#IsaacSS"><del type="repetition">bevi bevi</del> bevi pure</q><pause/> e <rs ref="TEI-ListPerson.xml#IsaacSS" resp="#GB">lui</rs> aveva con sé un pugnale<pause/> <vocal>ah</vocal> <del type="truncation">t</del> <kinesic><desc>con la mano sinistra indica la testa</desc></kinesic> pensava <q type="thought" who="TEI-ListPerson.xml#IsaacSS">quando questo sarà<pause/> <kinesic><desc>agita le mani per simulare lo stordimento</desc></kinesic> mezzo <vocal>ehh</vocal><supplied resp="#GB" cert="medium" reason="omitted">stordito</supplied><pause/> <kinesic><desc>simula l'atto di pugnalare con la mano sinistra</desc></kinesic> io lo pugnalo e <kinesic><desc>fa il gesto tipico di scappare</desc></kinesic> noi due <distinct type="common_saying">tagliamo la corda</distinct></q><pause/> cosa è successo<pause/> esattamente come le ho detto solo che lui <emph>non è morto</emph><pause/> ha cominciato a <emph>urlare</emph> <kinesic><desc>con la mano sinistra indica la sua bocca e poi qualcosa di fronte a lui simulando l'atto di "far fuoriuscire parole dalla bocca</desc></kinesic> questa <del type="truncation">s</del> <distinct type="military">sentinella</distinct> della<pause/> <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice> <del type="falseStart">i</del><pause/> vicino passa una <distinct type="military">pattuglia</distinct> di <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice> che sente queste grida<pause/> <kinesic iterated="true"><desc>agita le mani per dire "diciamo"</desc></kinesic> e insomma <distinct type="common_saying">in parole povere</distinct> lo arrestano<kinesic><desc>batte le mani</desc></kinesic> <pause/> colpevole di<pause/> tentato omicidio<pause/> <surplus resp="#GB" cert="medium">e</surplus> viene riportato nel nostro campo<pause/> e messo in una <emph>cella</emph><pause/> del <foreign xml:lang="de">lager</foreign>
+                    <anchor xml:id="arm-321" synch="#TT321"/><kinesic><desc>si tocca il petto con entrambe le mani</desc></kinesic> non nostri <emph>no</emph> erano quelli della <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice><anchor xml:id="arm-322" synch="#TT322"/> lenzuola <vocal>ehm</vocal> <del type="truncation">b</del> camicie <supplied resp="#GB" cert="medium" reason="omitted">e</supplied> così <del type="truncation">avan</del><pause/><vocal><desc>deglutisce</desc></vocal><incident iterated="true"><desc>rumore elettronico</desc></incident> <emph>lì</emph> in questa lavanderia ha conosciuto una ragazza<pause/> questa ragazza era ebrea ma aveva<pause/> <vocal>ehmm</vocal> documenti falsi<pause/> e son diventati fidanzati <kinesic><desc>scuote la testa e le mani come per dire "diciamo"</desc></kinesic> amanti non so che cosa<pause/> allora hanno deciso di <distinct type="common_saying">tagliare la corda</distinct><pause/> di andare nei boschi insieme con i partigiani<pause/><vocal><desc>espira</desc></vocal> allora cosa fa <rs ref="TEI-ListPerson.xml#IsaacSS" resp="#GB">lui</rs><pause/><vocal><desc>click con la lingua</desc></vocal> <seg part="I" xml:id="s31a" next="#s31b"><rs ref="TEI-ListPerson.xml#IsaacSS" resp="#GB">lui</rs></seg><pause/> <kinesic><desc>agita le mani come per dire "diciamo"</desc></kinesic> <del type="falseStart"><del type="truncation">er</del> riusciva <del type="truncation">or</del> <del type="truncation">n</del></del> si chiamava organizzare<pause/> <seg part="F" xml:id="s31b" prev="#s31a">aveva organizzato della <foreign xml:lang="rus">vodka</foreign></seg><pause/> quando sono arrivati nella lavanderia<pause/> <rs ref="TEI-ListPerson.xml#IsaacSS" resp="#GB">lui</rs> ha dato la bottiglia di <foreign xml:lang="rus">vodka</foreign> a questo sottufficiale <choice><sic>dice</sic><corr resp="#GB">dicendo</corr></choice> <q type="spoken" who="TEI-ListPerson.xml#IsaacSS"><del type="repetition">bevi bevi</del> bevi pure</q><pause/> e <rs ref="TEI-ListPerson.xml#IsaacSS" resp="#GB">lui</rs> aveva con sé un pugnale<pause/> <vocal>ah</vocal> <del type="truncation">t</del> <kinesic><desc>con la mano sinistra indica la testa</desc></kinesic> pensava <q type="thought" who="TEI-ListPerson.xml#IsaacSS">quando questo sarà<pause/> <kinesic><desc>agita le mani per simulare lo stordimento</desc></kinesic> mezzo <vocal>ehh</vocal> <supplied resp="#GB" cert="medium" reason="omitted">stordito</supplied><pause/> <kinesic><desc>simula l'atto di pugnalare con la mano sinistra</desc></kinesic> io lo pugnalo e <kinesic><desc>fa il gesto tipico di scappare</desc></kinesic> noi due <distinct type="common_saying">tagliamo la corda</distinct></q><pause/> cosa è successo<pause/> esattamente come le ho detto solo che lui <emph>non è morto</emph><pause/> ha cominciato a <emph>urlare</emph> <kinesic><desc>con la mano sinistra indica la sua bocca e poi qualcosa di fronte a lui simulando l'atto di "far fuoriuscire parole dalla bocca</desc></kinesic> questa <del type="truncation">s</del> <distinct type="military">sentinella</distinct> della<pause/> <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice> <del type="falseStart">i</del><pause/> vicino passa una <distinct type="military">pattuglia</distinct> di <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice> che sente queste grida<pause/> <kinesic iterated="true"><desc>agita le mani per dire "diciamo"</desc></kinesic> e insomma <distinct type="common_saying">in parole povere</distinct> lo arrestano<kinesic><desc>batte le mani</desc></kinesic> <pause/> colpevole di<pause/> tentato omicidio<pause/> <surplus resp="#GB" cert="medium">e</surplus> viene riportato nel nostro campo<pause/> e messo in una <emph>cella</emph><pause/> del <foreign xml:lang="de">lager</foreign>
                 </u>
 
                 <u who="#MA" xml:id="MA128" synch="#TS260">
@@ -3228,8 +3236,10 @@
                     <anchor xml:id="arm-347" synch="#TT347"/>ecco <kinesic><desc>mette la mano sinistra avanti come per dire di aspettare</desc></kinesic> questi 300 <kinesic><desc>fa il numero "3" con la mano sinistra</desc></kinesic> eran <choice><sic>rimasto</sic><corr resp="#GB">rimasti</corr></choice><pause/><anchor xml:id="arm-348" synch="#TT348"/> e noi dicevamo <kinesic><desc>fa spallucce</desc></kinesic> <q type="thought"><distinct type="altered">poveretti</distinct> saranno morti anche loro</q><pause/> <surplus resp="#GB" cert="medium">e</surplus><pause/> <seg part="I" xml:id="s32a" next="#s32b">io mi trovo a <placeName ref="TEI-ListPlace.xml#Fe">Feldafing</placeName> da uomo libero</seg><pause/><vocal><desc>tira su con il naso</desc></vocal> e c'erano dei conoscenti c'era per caso con noi anche <persName ref="TEI-ListPerson.xml#IsaccoS">Isacco Sermoneta</persName><pause/> che ha preso la tubercolosi e <choice><orig>veniva</orig><reg resp="#GB">arrivava</reg></choice> da un <choice><sic>tubercolisario</sic><corr resp="#GB">tubercolosario</corr></choice><pause/> e <kinesic><desc>sorride</desc></kinesic> <seg part="F" xml:id="s32b" prev="#s32a">stavo raccontando</seg> <q type="spoken" who="TEI-ListPerson.xml#AW">guardate un po' cosa vuol dire <del type="repetition">quel quel</del><pause/> quel <kinesic><desc>alza le sopracciglia</desc></kinesic> <persName ref="TEI-ListPerson.xml#Tis"><addName type="nickname">Tischler</addName></persName> che era <emph>già libero</emph></q><pause/> perché quando siamo <kinesic><desc>indica sé stesso con entrambe le mani</desc></kinesic> usciti noi
                 </u>
             </div>
-            <!-- parte IV -->
-            <div type="testo" corresp="#parteIV"> 
+
+            <!-- Trascrizione parte IV -->
+            <div type="testo" corresp="#parteIV"> <!-- Indica le suddivisioni del testo: con l'attributo corresp crea un collegamento con il quarto elemento recording del quale di seguito è presentata la codifica del contenuto testuale -->
+
                 <u who="#AW" xml:id="AW149" synch="#TS300">
                     è uscito anche <rs ref="TEI-ListPerson.xml#Tis" resp="#GB">lui</rs> <q type="spoken">quando è arrivato alla porta dice <kinesic><desc>scuote la testa agita la mano destra come se disegnasse un percorso</desc></kinesic> <q type="spoken" who="TEI-ListPerson.xml#Tis">no<pause/> torno indietro</q><pause/> è <choice><sic><seg type="truncation">tornat</seg></sic><corr resp="#GB">tornato</corr></choice></q><pause/> e dico <q type="spoken" who="TEI-ListPerson.xml#AW">guarda <kinesic><desc>fa spallucce e sgrana gli occhi</desc></kinesic> se <vocal>mm</vocal> veniva con noi si salvava adesso è morto</q><pause/> <kinesic><desc>simula l'azione di battere alla porta con la mano sinistra</desc></kinesic> battono alla porta<pause/> e <unclear reason="inaudible" resp="#GB" cert="medium">chi era ad entrare</unclear><pause/> <persName ref="TEI-ListPerson.xml#Tis"><addName type="nickname">Tischler</addName></persName> <pause/> <shift feature="loud" new="normal"><choice><sic>al</sic><corr resp="#GB">nel</corr></choice> momento <kinesic><desc>si porta in avanti e indica sé stesso con la mano destra</desc></kinesic> in cui io <kinesic iterated="true"><desc>agita di fronte a lui la mano destra</desc></kinesic> raccontavo la sua storia è capitato <kinesic><desc>torna indietro con la schiena</desc></kinesic> <rs ref="TEI-ListPerson.xml#Tis" resp="#GB">lui</rs></shift><pause/> adesso mi sto muovendo troppo lo so <vocal><desc>tira su con il naso</desc></vocal><kinesic><desc>sorride</desc></kinesic> <pause/> cercherò di<pause/> muovermi un po' meno<pause/> e allora <persName ref="TEI-ListPerson.xml#Tis"><addName type="nickname">Tischler</addName></persName> ci ha raccontato cos'era successo<pause/> <kinesic><desc>fa il numero "3" con la mano sinistra</desc></kinesic>  <del type="falseStart">questi 300</del><pause/><vocal><desc>click con la lingua</desc></vocal> <seg part="I" xml:id="s33a" next="#s33b">i <emph>polacchi</emph><pause/> che erano rimasti <kinesic><desc>alza le mani</desc></kinesic> polacchi non ebrei</seg> <del type="falseStart">in nelle<pause/> e <kinesic><desc>sgrana gli occhi</desc></kinesic> <del type="truncation">s</del></del> avendo saputo che <del type="truncation">s</del> erano rimasti pochi <supplied resp="#GB" cert="medium" reason="omitted">uomini</supplied> della <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice> e <kinesic iterated="true"><desc>indica qualcosa di fronte a lui (probabilmente l'intervistatrice) con la mano destra</desc></kinesic> fra questi quello<pause/> che noi chiamavamo <seg xml:lang="de" ref="#trad21">der schwarze</seg> <kinesic><desc>avvicina le mani al volto</desc></kinesic> <span corresp="#trad21">il nero</span><anchor xml:id="arm-349" synch="#TT349"/><pause/><anchor xml:id="arm-350" synch="#TT350"/> quello che <choice><orig>m'aveva</orig><reg resp="#GB">aveva</reg></choice> dato le <distinct type="informal">botte</distinct> a me<pause/> <del type="truncation">s</del> <surplus resp="#GB" cert="medium">i polacchi non ebrei</surplus> <seg part="F" xml:id="s33b" prev="#s33ba">hanno attaccato il <rs ref="TEI-ListPlace.xml#GhettoWA" resp="#GB">ghetto</rs><supplied resp="#GB" reason="integration">di Varsavia</supplied></seg> <kinesic><desc>fa il numero "3" con la mano sinistra</desc></kinesic> dove c'erano questi 300 <supplied resp="#GB" cert="high" reason="omitted">professionisti ebrei</supplied> e <emph>hanno</emph> salvato questi 300<pause/> <kinesic><desc>fa il numero "3" con la mano sinistra e la apre con incisività</desc></kinesic> erano 300 ebrei <emph>salvi</emph><pause/> e li hanno messi in una scuola<pause/> <distinct type="common_saying"><choice><sic>vuole <unclear reason="inaudible" resp="#GB" cert="medium">il</unclear> destino</sic><corr resp="#GB">il destino vuole che</corr></choice></distinct> <kinesic iterated="true"><desc>alza e abbassa il braccio destro</desc></kinesic> cade una bomba<pause/> sopra la scuola<pause/> <distinct type="informal">ammazza</distinct> tutti quanti meno <rs ref="TEI-ListPerson.xml#Tis" resp="#GB">lui</rs><anchor xml:id="arm-351" synch="#TT351"/><pause/><anchor xml:id="arm-352" synch="#TT352"/> <kinesic><desc>si sposta al centro della poltrona e indica con la mano sinistra qualcosa di fronte a lui(probabilmente l'intevistatrice)</desc></kinesic> <surplus resp="#GB" cert="medium">e</surplus> <rs ref="TEI-ListPerson.xml#Tis" resp="#GB">lui</rs> adesso si trova in <placeName ref="TEI-ListPlace.xml#USA">America</placeName><pause/> ed è venuto a <placeName ref="TEI-ListPlace.xml#Fe">Feldafing</placeName> <kinesic><desc>alza le spalle</desc></kinesic> per vedere se riconosceva qualcuno dei suoi compagni<pause/> <kinesic iterated="true"><desc>scuote la testa</desc></kinesic> un redivivo<pause/> <del type="falseStart">ma le ho raccontato che</del> <kinesic iterated="true"><desc>sgrana gli occhi e agita entrambi gli indici</desc></kinesic> è interessante che <shift feature="loud" new="normal">è <del type="truncation">ven</del> entrato dentro <kinesic><desc>si porta avanti con la schiena</desc></kinesic> proprio nel momento <supplied resp="#GB" reason="omitted">in cui</supplied> io raccontavo la sua storia credendo che fosse morto</shift><kinesic><desc>alza le sopracciglia come per dire "vabbè"</desc></kinesic> 
                 </u>
@@ -3749,8 +3759,10 @@
                 </u>
 
             </div>
-            <!--parte V-->
-            <div type="testo" corresp="#parteV">
+
+            <!-- Trascrizione parte V -->
+            <div type="testo" corresp="#parteV"><!-- Indica le suddivisioni del testo: con l'attributo corresp crea un collegamento con il quinto elemento recording del quale di seguito è presentata la codifica del contenuto testuale -->
+
                 <u who="#AW" xml:id="AW199" synch="#TS400">
                     e<pause/> <kinesic><desc>indica sé stesso con la mano destra e con gli occhi sgranati</desc></kinesic> <del type="falseStart">sono diventate<pause/> a</del> ci hanno portato a <placeName ref="TEI-ListPlace.xml#Fe">Feldafing</placeName> sempre a due<pause/> passi<pause/> <supplied resp="#GB" reason="omitted" cert="medium">in</supplied> <kinesic iterated="true"><desc>strofina le mani</desc></kinesic> questo paese di <placeName ref="TEI-ListPlace.xml#Fe">Feldafing</placeName> c'era una scuola<pause/> per i giovani <distinct type="political">hitleriani</distinct><pause/> <kinesic><desc>apre le mani</desc></kinesic> che era vuota<pause/> perché i giovani <distinct type="political">hitleriani</distinct> li hanno mandati tutti al fronte<pause/> alla fine della guerra<pause/> c'erano solo degli uffici della <choice><abbr>BMW</abbr><pause/> <expan resp="TEI-ListPerson.xml#AW" xml:lang="de">Bayerische Motore Werke</expan></choice> <kinesic><desc>indica a sinistra con la mano destra</desc></kinesic> che è di <placeName ref="TEI-ListPlace.xml#MC">Monaco di Baviera</placeName><pause/> <choice><orig>che</orig><reg resp="#GB">perché</reg></choice> <supplied resp="#GB" cert="medium" reason="omitted">la sede</supplied> era stata bombardata <supplied resp="#GB" cert="medium" reason="omitted">e</supplied> allora gli uffici <kinesic><desc>sposta gli indici da sinistra a destra</desc></kinesic> li hanno <del type="falseStart"><del type="truncation">tras</del> <del type="truncation">mess</del> <kinesic><desc>chiude gli occhi per riformulare la frase</desc></kinesic> <del type="truncation">tras</del></del> trasferiti<pause/> <kinesic iterated="true"><desc>agita entrambi gli indici di fronte a lui</desc></kinesic> <surplus cert="medium" resp="#GB">dentro</surplus> nella scuola dove c'erano prima gli <distinct type="political">hitleriani</distinct><pause/><vocal><desc>espira</desc></vocal> allora <del type="falseStart">i</del> gli americani hanno<pause/> <kinesic><desc>muove le mani dall'interno verso l'esterno</desc></kinesic> mandato via questi impiegati e <choice><orig>c'hanno messo</orig><reg resp="#GB">li hanno messi</reg></choice> a <distinct type="informal">disposizione nostra</distinct><pause/> erano <kinesic><desc>alza le mani</desc></kinesic> <emph>edifici</emph> a due piani<pause/> allora<pause/> <supplied resp="#GB" cert="medium" reason="omitted">gli americani dicono</supplied> <q type="spoken"><kinesic><desc>sposta le mani alte a sinistra</desc></kinesic> per i polacchi questa e questa <kinesic><desc>sposta le mani a destra</desc></kinesic> per gli ungheresi <del type="truncation">que</del> per gli italiani</q> <kinesic><desc>fa spallucce</desc></kinesic> eravamo pochi<pause/> <kinesic iterated="true"><desc>agita le mani di fronte a lui</desc></kinesic> <del type="falseStart">allora</del> <choice><orig>vabbè</orig><reg resp="#GB">va bene</reg></choice> <surplus resp="#GB" cert="medium">allora</surplus> eravamo in <rs ref="TEI-ListPerson.xml#AW TEI-ListPerson.xml#LelloDS TEI-ListPerson.xml#IsaccoS" resp="#GB">3</rs><supplied resp="#GB" reason="integration">Arminio Wachsberger, Lello Di Segni e Isacco Sermoneta</supplied> di italiani soli<pause/> allora ci hanno messo insieme ai <emph>greci</emph> perché eravam mediterranei<kinesic><desc>alza le sopracciglia</desc></kinesic> <pause/><vocal><desc>deglutisce</desc></vocal> e<pause/> così ci hanno salvati<pause/> <kinesic><desc>guarda in basso perso nel vuoto</desc></kinesic> adesso per finire il discorso<pause/> <del type="falseStart">il</del><pause/> <seg part="I" xml:id="s48a" next="#s48b">la maggior parte di questi <supplied resp="#GB" cert="medium" reason="omitted">greci</supplied> di <placeName ref="TEI-ListPlace#Sal">Salonicco</placeName></seg><pause/> <kinesic><desc>scuote leggermente la testa</desc></kinesic> non tutti<pause/> <del type="falseStart">ma</del> son tornati a <rs ref="TEI-ListPlace#Sal" resp="#GB"><choice><sic><seg type="truncation">Salonic</seg></sic><corr resp="#GB">Salonicco</corr></choice></rs> <surplus resp="#GB" cert="medium">ma la maggior parte invece</surplus> <seg part="F" xml:id="s48b" prev="#s48a">è andata<pause/> <del type="falseStart">a</del> in<pause/> <placeName ref="TEI-ListPlace.xml#ISR">Israele</placeName> specialmente a <placeName ref="TEI-ListPlace.xml#H">Haifa</placeName></seg>
                 </u>

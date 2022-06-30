@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" >
   
  
@@ -8,21 +7,17 @@
         <fileDesc>
             <titleStmt>
 
-                <title>
-                    <!-- Insert title for this digital text -->
-                </title>
+                <title></title>
 
             </titleStmt>
 
             <publicationStmt>
-                <p>
-                    <!-- Insert information about the publication of this digital text -->
-                </p>
+                <p></p>
 
             </publicationStmt>
 
-            <sourceDesc><!-- Insert a bibliographic description of the source for this digital text -->
-                <bibl xml:id="Rigano2015" type="ebook">
+            <sourceDesc> <!-- Fornisce la descrizione della fonte primaria -->
+                <bibl xml:id="Rigano2015" type="ebook"><!-- Fornisce una citazione bibliografica poco strutturata: contiene il nome dell'autore, il titolo, il curatore, il luogo di pubblicazione, l'editore e la data di pubblicazione -->
                     <author>
                         <forename>Gabriele</forename>
                         <surname>Rigano</surname>
@@ -35,7 +30,7 @@
 					<date when="2015">2015</date>                       
 				</bibl>
 
-                <bibl xml:id="Katz1973" type="print">
+                <bibl xml:id="Katz1973" type="print"><!-- Fornisce una citazione bibliografica poco strutturata: contiene il nome dell'autore, il titolo, il curatore, il luogo di pubblicazione, l'editore e la data di pubblicazione -->
                     <author>
                         <forename>Robert</forename>
                         <surname>Katz</surname>
@@ -2348,7 +2343,7 @@
                                 </death>
                         </person>
 
-                        <!-- Lista delle relazioni -->
+                        <!-- Lista delle relazioni tra gli individui -->
                         <listRelation>
                             <relation name="interviewers" active="#LPF #MA #PF" passive="#AW"/>
                             <relation name="spouse" mutual="#DavideW #MiriamG"/>

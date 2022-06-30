@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" >
 
 
@@ -7,21 +7,15 @@
         <fileDesc>
 
             <titleStmt>
-                <title>
-                    <!-- Insert title for this digital text -->
-                </title>
+                <title></title>
             </titleStmt>
 
             <publicationStmt>
-                <p>
-                    <!-- Insert information about the publication of this digital text -->
-                </p>
+                <p></p>
             </publicationStmt>
 
             <sourceDesc>
-                <p>
-                    <!-- Insert a bibliographic description of the source for this digital text -->
-                </p>
+                <p></p>
 
                 <listPlace>
 
@@ -179,19 +173,19 @@
                         <country key="CA">Canada</country>
                     </place>
 
-                    <place xml:id="YU"><!--stato non più esistente-->
+                    <place xml:id="YU"> <!--stato non più esistente-->
                         <placeName ref="https://www.geonames.org/7500737 https://www.treccani.it/enciclopedia/iugoslavia/">Jugoslavia</placeName>
                         <country notBefore="1929" notAfter="2003">Jugoslavia</country>
                         <note resp="#GB">stato esistito tra il 1929 e il 2003</note>
                     </place>
 
-                    <place xml:id="CS"><!--stato non più esistente-->
+                    <place xml:id="CS"> <!--stato non più esistente-->
                         <placeName ref="https://www.geonames.org/8505031 https://www.treccani.it/enciclopedia/cecoslovacchia/">Cecoslovacchia</placeName>
                         <country notBefore="1918" notAfter="1992">Cecoslovacchia</country>
                         <note resp="#GB">stato esistito tra il 1918 e il 1992</note>
                     </place>
 
-                    <place xml:id="IAU"><!--stato non più esistente-->
+                    <place xml:id="IAU"> <!--stato non più esistente-->
                         <placeName ref="https://it.wikipedia.org/wiki/Impero_austro-ungarico">Austria-Ungheria</placeName>
                         <country notBefore="1867" notAfter="1919">Austria-Ungheria</country>
                         <note resp="#GB">stato esistito tra il 1867 e il 1919</note>
