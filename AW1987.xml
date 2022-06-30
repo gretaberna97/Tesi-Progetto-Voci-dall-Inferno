@@ -2,17 +2,17 @@
 
 <!DOCTYPE TEI SYSTEM "tei_all.dtd">
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> <!-- Elemento radice -->
 
-    <teiHeader>
+    <teiHeader> <!-- Intestazione obbligatoria del documento elettronico che ne fornisce i dati descrittivi -->
 
 
-        <fileDesc>
-            <titleStmt>
+        <fileDesc> <!-- Fornisce la completa descrizione bibliografica del documento elettronico -->
+            <titleStmt> <!-- Contiene le informazioni sul titolo -->
                 <title>Testimonianza di Arminio Wachsberger, 18 Febbraio 1987</title>
             </titleStmt>
 
-            <editionStmt>
+            <editionStmt> <!-- Fornisce le informazioni relative all'edizione del testo e indica i responsabili del progetto e della codifica -->
                 <edition>Lavoro realizzato per la tesi di Laurea Triennale in Informatica Umanistica, Università di Pisa.</edition>
                                 
                 <respStmt>
@@ -21,22 +21,22 @@
                 </respStmt>
             </editionStmt>
 
-            <publicationStmt>
-                <publisher>Università di Pisa</publisher>
+            <publicationStmt> <!-- Fornisce le informazioni circa la distribuzione del documento indicandone il nome dell'organizzazione responsabile e le informazioni sulla disponibilità del documento, come il diritto d'autore -->
+                <publisher>Università di Pisa</publisher> 
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
                 </availability>
             </publicationStmt>
 
-            <sourceDesc>  <!--contiene una citazione con i dettagli del copione utilizzato per un testo orale -->
+            <sourceDesc>  <!-- Fornisce la descrizione della fonte primaria -->
 
-                <recordingStmt> <!-- descrive l'insieme delle registrazioni usate nella trascrizione di un testo orale, sia diretta sia messa in onda pubblica -->
+                <recordingStmt> <!-- Descrive l'insieme delle registrazioni utilizzate per la trascrizione -->
 
-                    <recording type="audio" dur="PT1H34M39S" xml:id="parteI">
+                    <recording type="audio" dur="PT1H34M39S" xml:id="parteI"> <!-- Fornisce i dettagli sulla registrazione audio o video utilizzata come fonte di un teso orale: le occorrenze di questo elemento variano a seconda del numero di file di cui consta l'intervista -->
 
-                        <date when="1987-02-018">18 febbraio 1987</date>
+                        <date when="1987-02-18">18 febbraio 1987</date> <!-- Data in cui è stata registrata l'intervista -->
 
-                        <respStmt>
+                        <respStmt> <!-- Indica i responsabili della messa in onda -->
                             <resp>Audiointervista promossa dalla</resp>
                             <name type="org">Fondazione CDEC</name>
                             <note>Audiointervista realizzata nell'ambito del progetto "Ricerca sulla deportazione"</note>
@@ -46,15 +46,15 @@
                             <name ref="#LPF">Liliana Picciotto Fargion</name>
                         </respStmt>
 
-                        <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
+                        <equipment> <!-- Fornisce i dettagli tecnici delle apparecchiature e dei supporti utilizzati nella registrazione audio o video -->
                             <p></p>
                         </equipment>
 
-                        <broadcast>
-                            <bibl source="http://digital-library.cdec.it/cdec-web/audiovideo/detail/IT-CDEC-AV0001-000193/arminio-wachsberger-1.html">
+                        <broadcast> <!-- Fornisce una descrizione circa la trasmissione della fonte orale -->
+                            <bibl source="http://digital-library.cdec.it/cdec-web/audiovideo/detail/IT-CDEC-AV0001-000193/arminio-wachsberger-1.html"> <!-- Fornisce una citazione bibliografica poco strutturata: contiene il nome dell'autore, il titolo e le note della singola registrazione -->
                                 <author>CDEC - Centro di Documentazione Ebraica - Digital Library</author>
                                 <title>Arminio Wachsberger - Intervista a Arminio Wachsberger</title>
-                                <series>
+                                <series> <!-- Fornisce le informazioni sulla serie di cui la singola registrazione fa parte -->
                                     <title>Arminio Wachsberger - Intervista a Arminio Wachsberger</title>
                                     <biblScope>Parte I di II</biblScope>
                                 </series>
@@ -64,11 +64,11 @@
 
                     </recording>
 
-                    <recording type="audio" dur="PT1H23M49S" xml:id="parteII">
+                    <recording type="audio" dur="PT1H23M49S" xml:id="parteII"> <!-- Fornisce i dettagli sulla registrazione audio o video utilizzata come fonte di un teso orale: le occorrenze di questo elemento variano a seconda del numero di file di cui consta l'intervista -->
 
-                        <date when="1987-02-018">18 febbraio 1987</date>
+                        <date when="1987-02-18">18 febbraio 1987</date> <!-- Data in cui è stata registrata l'intervista -->
 
-                        <respStmt>
+                        <respStmt>  <!-- Indica i responsabili della messa in onda -->
                             <resp>Audiointervista promossa dalla</resp>
                             <name type="org">Fondazione CDEC</name>
                             <note>Audiointervista realizzata nell'ambito del progetto "Ricerca sulla deportazione"</note>
@@ -78,15 +78,15 @@
                             <name ref="#LPF">Liliana Picciotto Fargion</name>
                         </respStmt>
 
-                        <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
+                        <equipment><!-- Fornisce i dettagli tecnici delle apparecchiature e dei supporti utilizzati nella registrazione audio o video -->
                             <p></p>
                         </equipment>
 
-                        <broadcast>
-                            <bibl source="http://digital-library.cdec.it/cdec-web/audiovideo/detail/IT-CDEC-AV0001-000193/arminio-wachsberger-1.html">
+                        <broadcast> <!-- Fornisce una descrizione circa la trasmissione della fonte orale -->
+                            <bibl source="http://digital-library.cdec.it/cdec-web/audiovideo/detail/IT-CDEC-AV0001-000193/arminio-wachsberger-1.html"> <!-- Fornisce una citazione bibliografica poco strutturata: contiene il nome dell'autore, il titolo e le note della singola registrazione -->
                                 <author>CDEC - Centro di Documentazione Ebraica - Digital Library</author>
                                 <title>Arminio Wachsberger - Intervista a Arminio Wachsberger</title>
-                                <series>
+                                <series> <!-- Fornisce le informazioni sulla serie di cui la singola registrazione fa parte -->
                                     <title>Arminio Wachsberger - Intervista a Arminio Wachsberger</title>
                                     <biblScope>Parte II di II</biblScope>
                                 </series>
@@ -102,14 +102,14 @@
 
         </fileDesc>
 
-        <encodingDesc><!--(descrizione della codifica) documenta la relazione fra un documento elettronico e la o le fonti da cui è derivato. -->
-            <transcriptionDesc ident="HIAT" version="2004"/> <!-- describes the set of transcription conventions used, particularly for spoken material. -->
+        <encodingDesc> <!-- Indica lo schema di codifica utilizzato -->
+            <transcriptionDesc ident="HIAT" version="2004"/> <!-- Descrive l'insieme delle convenzioni di trascrizione utilizzate -->
         </encodingDesc>
 
-        <profileDesc><!--(descrizione del profilo del testo) fornisce una descrizione dettagliata degli aspetti non bibliografici di un testo, in modo particolare le lingue e i linguaggi secondari utilizzati, la situazione in cui è stato prodotto il testo, i partecipanti e la relativa ambientazione-->
+        <profileDesc> <!-- Elemento facoltativo che descrive il contenuto testuale della fonte orale, indicandone in una descrizione dettagliata gli aspetti non bibliografici -->
 
-            <particDesc>
-                <listPerson>
+            <particDesc> <!-- Descrive i maggiori partecipanti identificabili all'interno dell'intervista -->
+                <listPerson> 
                     <!--Testimone-->
                     <person xml:id="AW">
                         <persName>
@@ -130,7 +130,7 @@
                 </listPerson>
             </particDesc>
 
-            <langUsage>
+            <langUsage> <!-- Fornisce le lingue utilizzate all'interno della fonte orale dal testimone -->
                 <language ident="it">Italiano</language>
                 <language ident="de">Tedesco</language>
                 <language ident="ji">Yiddish</language>
@@ -138,10 +138,11 @@
                 <language ident="en">Inglese</language>
             </langUsage>
 
-            <abstract> <!--regesto: ogni item rappresenta un blocco di esperienze da lui raccontate: punta con un when all'interno di una timeline -->
-                <ab> 
+            <abstract> <!-- Regesto o riepilogo formale del documento elettronico. Ogni item rappresenta un blocco di esperienze raccontate dal testimone: puntano a un when all'interno della timeline relativa al regesto -->
+                <ab> <!-- contenitore anonimo -->
                     <list>
                             <item synch="#TR1"> <!--generalità di Arminio e biografia-->
+                                <!-- per quanto riguarda gli elementi TEI-XML utilizzati: <rs> contiene un nome generico o una stringa riferita a una persona, a un gruppo di persone o a un luogo (punta a una fonte esterna); <placeName> e <persName> indicano le entità nominate relative ai luoghi e agli individui; <roleName> contiene una componente del nome indicante il ruolo o una posizione dell'individuo -->
                                 <persName ref="TEI-ListPerson.xml#AW">Arminio Wachsberger</persName> fornisce le sue generalità: residente a <placeName ref="TEI-ListPlace.xml#MI">Milano</placeName>, nasce a <placeName ref="TEI-ListPlace.xml#FM">Fiume</placeName> il <date when="1913-11-04">4 novembre 1913</date> come figlio del <persName ref="TEI-ListPerson.xml#DavideW"><roleName type="religion">rabbino</roleName> ortodosso Davide</persName>, di origine polacca, e <persName ref="TEI-ListPerson.xml#MiriamG">Miriam Gellis</persName>, di origine ungherese. 
                                 In gioventù studiò per <date dur="P5Y" from="1928" to="1933" cert="medium" resp="#GB">5 anni</date> come studente al collegio rabbinico di <placeName ref="TEI-ListPlace.xml#GO">Gorizia</placeName> dal <persName ref="TEI-ListPerson.xml#Schreiber"><roleName type="religion">rabbino</roleName> Schreiber</persName>, arrivato da <placeName ref="TEI-ListPlace.xml#KY">Corfù</placeName> nel <date when="1928">1928</date>, e successivamente venne trasferito per il servizio militare a <placeName ref="TEI-ListPlace.xml#FG">Foggia</placeName>, a <placeName ref="TEI-ListPlace.xml#NA">Napoli</placeName> e infine a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName> dove si stabilì.
                                 
@@ -151,12 +152,14 @@
                             </item>
 
                             <item synch="#TR2"> <!--16 ottobre 1943-->
+                                <!-- per quanto riguarda gli elementi TEI-XML utilizzati: <choice> con i figli <abbr> ed <expan> registra ed estende un'abbreviazione; <time> e <date> identificano un orario o una data in qualsiasi formato -->
                                 Alle <time when="5:00:00">5 del mattino</time> del <date when="1943-10-16">16 ottobre 1943</date> iniziò la cattura degli ebrei nel <placeName ref="TEI-ListPlace.xml#GhettoRO">ghetto di Roma</placeName>: le <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice> entrarono in casa Wachsberger portando via tutta la famiglia, compreso il nipotino <persName ref="TEI-ListPerson.xml#VittorioP">Vittorio Polacco</persName> che era ospite dagli zii, e consegnando un foglio con su scritte le istruzioni che avrebbero dovuto seguire, tra cui il comando di portarsi via beni preziosi e provviste per il viaggio. <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> riuscì a far fuggire e a salvare <rs ref="TEI-ListPerson.xml#VittorioP" resp="#GB">il piccolo</rs> gettandolo tra le braccia di una <rs ref="TEI-ListPerson.xml#AssuntaF" resp="#GB">conoscente</rs> mentre una <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice> si era distratta fumando una sigaretta.
 
                                 Le <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice> erano disorganizzate: il vicino di casa di <persName ref="TEI-ListPerson.xml#AW">Arminio</persName>, <persName ref="TEI-ListPerson.xml#SettimioS">Sorani</persName>, probabilmente doveva essere in un altro elenco di ebrei e di conseguenza le <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice> non li catturarono contemporaneamente e <rs ref="TEI-ListPerson.xml#SettimioS" resp="#GB">lui</rs> riuscì a fuggire.
                             </item>
 
                             <item synch="#TR3"> <!--collegio militare: 17-18 ottobre 1943-->
+                                <!-- per quanto riguarda gli elementi TEI-XML utilizzati: <place> indica una posizione geografica-->
                                 <date when="1943-10-17">Il giorno dopo</date> furono portati al <place type="institute">collegio militare</place> dove il capitano delle <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice>, <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName>, incaricò <persName ref="TEI-ListPerson.xml#AW">Arminio Wachsberger</persName> a fare da interprete: gli ebrei dovevano consegnare tutti i gioielli e il denaro (<persName ref="TEI-ListPerson.xml#AW">Arminio</persName> non consegnò un orologio longines e dei gioielli della <rs ref="TEI-ListPerson.xml#ReginaP" resp="#GB">moglie</rs> e il <rs ref="TEI-ListPerson.xml#Dannecker">comandante</rs> glieli ha lasciati tenere dicendogli che tanto poi glieli avrebbero tolti una volta arrivato al campo di destinazione). 
                                 
                                 Poiché le persone avevano fame e c'era bisogno di medicine <persName ref="TEI-ListPerson.xml#AW">Arminio</persName>, con un gruppo di <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice>, fu incaricato di andare in una panetteria in <placeName type="street">Corso Vittorio</placeName> e successivamente in una farmacia in <placeName type="street">via Arenula</placeName>: in entrambe le situazioni <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> sarebbe potuto fuggire ma la minaccia di <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName> riguardo la <rs ref="TEI-ListPerson.xml#ReginaP TEI-ListPerson.xml#ClaraW TEI-ListPerson.xml#MoiseP TEI-ListPerson.xml#CarlottaP" resp="#GB">sua famiglia</rs> che era ancora nelle sue mani lo fece ritornare indietro ogni volta.
@@ -180,6 +183,7 @@
                             </item>
 
                             <item synch="#TR5"> <!--arrivo a Birkenau-->
+                                <!-- per quanto riguarda gli elementi TEI-XML utilizzati: <measure> contiene una parola o una frase che si riferiscono a una certa quantità di un oggetto -->
                                 <date dur="P6D" when="1943-10-22">Dopo sei giorni</date>, di notte, arrivarono alle porte di <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName>. <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> sollevò <rs ref="TEI-ListPerson.xml#ClaraW" resp="#GB">la figlia</rs> all'interno del vagone per permetterle di vedere al di fuori ma una <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice> le lanciò un sasso. 
                                 Aprirono i vagoni, circa una ventina, direttamente il <date when="1943-10-23">giorno successivo</date>: i sonderkommando li aiutarono a scendere senza permetterli di recuperare le loro valige. Alla stazione erano presenti sia il <persName ref="TEI-ListPerson.xml#Mengele"><roleName>dottor</roleName> Mengele</persName> che il <persName ref="TEI-ListPerson.xml#Hoss"><roleName type="military">comandante</roleName> Hoss</persName>.
                                 <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> fece di nuovo da interprete: erano arrivati in un campo di lavoro e solo gli uomini avrebbero lavorato. Avvenne dunque la prima selezione e successivamente la seconda: chi era stanco da non poter fare <measure><num>10</num> <unit>chilometri</unit></measure> a piedi si sarebbe potuto aggiungere alle persone sul camion (esse erano state selezionate per il gas ma gli ebrei romani ne erano ignari). Così dei 300 ne rimasero solo 200. 
@@ -242,6 +246,7 @@
                             </item>
                             
                             <item synch="#TR9"> <!--Theresienstadt-->
+                                <!-- per quanto riguarda gli elementi TEI-XML utilizzati: <orgName> contiene il nome di una organizzazione -->
                                 <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> racconta del <placeName ref="TEI-ListPlace.xml#Te">lager di Theresienstadt</placeName> che era vicino alla <place type="sub-area">baracca 13</place> dove sostava: vi vennero trasferite da <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> famiglie intere (bambini, donne e anziani compresi), le quali indossavano vestiti civili. Essi ricevevano giornalmente pasti speciali, giochi per i bambini eccetera, e alle volte condividevano con i prigionieri della <place type="sub-area">baracca 13</place> delle croste di pane. 
                                 Gli ebrei romani non riuscivano a capire il motivo del trattamento preferenziale riservato alla colonia di <placeName ref="TEI-ListPlace.xml#Te">Theresienstadt</placeName>, fino a che un giorno, all'improvviso, arrivò un gruppo di ufficiali della <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice> seguito da persone vestite civilmente: alcuni lavoravano per la <orgName>croce rossa</orgName>, altri invece si occupavano di cinematografia e fotografia. 
                                 La mattina dopo tutta la colonia di <placeName ref="TEI-ListPlace.xml#Te">Theresienstadt</placeName> venne inviata al gas e <persName ref="TEI-ListPerson.xml#AW">Arminio</persName> successivamente scoprì che <rs ref="TEI-ListPlace.xml#Te" resp="#GB">quella zona</rs> serviva solo per propaganda e che i prigionieri vennero eliminati per far posto a nuovi arrivi.
@@ -394,9 +399,10 @@
     </teiHeader> 
 
 
-<standOff>
-        <!--Timeline regesto -->
-        <!--parte I-->
+<standOff> <!-- Elemento contenitore per collegare i dati, le informazioni contestuali e le annotazioni distanziate inserite in un documento TEI. Contiene più timeline ciascuna delle quali crea un allineamento temporale, ovvero fornisce un insieme di punti ordinati nel tempo che possono essere collegati ad alcuni elementi testuali. Avendo più file di cui consta una testimonianza invece di avere 3 timeline di base il numero esatto viene calcolato moltiplicando 3 per il numero di parti di cui si compone la testimonianza. Quindi, in questa codifica ci sono 6 timeline. Inoltre, ogni timeline contiene più elementi when che indicano un momento assoluto o relativo rispetto ad altri elementi when della sequenza temporale. -->
+
+        <!--Timeline del regesto che gestisce il contenuto all'interno dell'elemento abstract: ogni elemento item, indicante un evento descritto, punta a un when definito in queste 2 timeline che indica l'orario preciso in cui si descrive tale evento-->
+        <!--parte I: l'attributo source punta al primo elemento recording per indicare il primo file di registrazione a cui la timeline si riferisce -->
         <timeline xml:id="TL1I" source="#parteI">
             <when xml:id="TR1" absolute="00:00:22"/> 
             <when xml:id="TR2" absolute="00:13:13"/>
@@ -407,7 +413,7 @@
             <when xml:id="TR7a" absolute="01:29:58"/>
         </timeline>
 
-        <!--parte II-->
+        <!--parte II: l'attributo source punta al secondo elemento recording per indicare il secondo file di registrazione a cui la timeline si riferisce -->
         <timeline xml:id="TL1II" source="#parteII">
             <when xml:id="TR7b" absolute="00:00:05"/>
             <when xml:id="TR8" absolute="00:01:00"/>
@@ -430,12 +436,11 @@
             <when xml:id="TR25" absolute="01:19:35"/>
         </timeline>
         
-        <!--unione di due when-->
+        <!--unione di due when per gestire l'interruzione di un evento descritto in due item separati facenti parte delle due diverse timeline del regesto-->
         <join xml:id="TR7" target="#TR7a #TR7b" result="when" type="point_in_time" scope="root"></join>
 
-        <!--Timeline body momenti di sovrapposizione dei due parlanti (e le interruzioni)-->
-
-        <!--parte I-->
+        <!--Timeline delle interruzioni e delle sovrapposizioni tra i parlanti. Si utilizza una coppia di when e, all'interno di body, si individuano gli enunciati o le parole sovrapposte tramite una coppia di elementi anchor che definiscono l'inizio e la fine dell'interruzione: le ancore si sincronizzano con i punti nella timeline definiti tramite i when indicanti di riflesso l'inzio e la fine dell'interruzione-->
+        <!--parte I: l'attributo source punta al primo elemento recording per indicare il primo file di registrazione a cui la timeline si riferisce-->
         <timeline xml:id="TL2I" unit="s" source="#parteI"> 
             <when xml:id="TT01" absolute="00:01:27" synch="#lpf-1"/> <!--synch punta all'id dell'ancora-->
             <when xml:id="TT02" since="#TT01" interval="1"/>
@@ -1131,9 +1136,10 @@
             <when xml:id="TT462" since="#TT461" interval="1"/>
 
         </timeline>
-        
+
+        <!--parte II: l'attributo source punta al secondo elemento recording per indicare il secondo file di registrazione a cui la timeline si riferisce -->
         <timeline xml:id="TL2II" unit="s" source="#parteII"> 
-        <!--parte II-->
+        
             <when xml:id="TT463" absolute="00:12" synch="#lpf-463"/> 
             <when xml:id="TT464" since="#TT463" interval="1"/>
 
@@ -1438,9 +1444,8 @@
             <when xml:id="TT664" since="#TT663" interval="1"/>
         </timeline>
 
-        <!--Timeline body che indica il minuto in cui avviene un cambio di parlante-->
-
-        <!--parte I-->
+        <!--Timeline relativa al cambio di parlante. Si utilizza un elemento when che punta a un elemento u indicante l'enunciato prodotto dal parlante-->
+        <!--parte I: l'attributo source punta al primo elemento recording per indicare il primo file di registrazione a cui la timeline si riferisce-->
         <timeline xml:id="TL3I" unit="s" source="#parteI">                
             <when xml:id="TS01" synch="#LPF1" absolute="00:00:00"/>
             <when xml:id="TS02" synch="#AW1" absolute="00:00:22"/>
@@ -2062,7 +2067,7 @@
             <when xml:id="TS618" synch="#AW308" absolute="01:34:38"/>
         </timeline>
         
-        <!--parteII-->
+        <!--parte II: l'attributo source punta al secondo elemento recording per indicare il secondo file di registrazione a cui la timeline si riferisce-->
         <timeline xml:id="TL3II" unit="s" source="#parteII">      
             <when xml:id="TS619" synch="#LPF309" absolute="00:00:00"/>
             <when xml:id="TS620" synch="#AW309" absolute="00:00:01"/>
@@ -2394,25 +2399,26 @@
         
     </standOff>
 
-    <text>
+    <text> <!-- Identifica la porzione del documento elettronico comprendente la trascrizione vera e propria del contenuto testuale -->
 
-        <body>
-            <!-- parte I -->
-            <div type="testo" corresp="#parteI">
+        <body> <!-- Contiene l'intero corpo del testo unitario della testimonianza, esclusa qualsiasi parte anteriore o posteriore -->
+
+            <!-- Trascrizione parte I -->
+            <div type="testo" corresp="#parteI"> <!-- Indica le suddivisioni del testo: con l'attributo corresp crea un collegamento con il primo elemento recording del quale di seguito è presentata la codifica del contenuto testuale -->
                 
-                <u who="#LPF" xml:id="LPF1" synch="#TS01">
+                <u who="#LPF" xml:id="LPF1" synch="#TS01"> <!-- <pause/> segna una pausa tra o all'interno di enunciati; <seg> segna la segmentazione del testo; <choice> con i figli <sic> e <corr> registra e corregge una porzione del discorso pronunciata in maniera scorretta -->
                     <date when="1987" cert="high" resp="#GB"><choice><sic><seg type="truncation">87</seg></sic><corr resp="#GB">1987</corr></choice></date><pause/> registrazione della voce del <persName ref="TEI-ListPerson.xml#AW">signor <pause/>Arminio Wachsberger</persName> nella sua abitazione di <placeName ref="TEI-ListPlace.xml#MI">Milano</placeName><pause/> in <placeName type="square">piazza Giulio Cesare numero<pause/> <num>9</num></placeName><pause/> intervistatrice <persName ref="TEI-ListPerson.xml#LPF">Liliana Picciotto Fargion</persName><pause/> per conto del <orgName>centro di documentazione ebraica contemporanea</orgName><pause/> mi da per favore le sue generalità
                 </u>
 
-                <u who="#AW" xml:id="AW1" synch="#TS02">
+                <u who="#AW" xml:id="AW1" synch="#TS02"> <!-- <del> segna le ripetizioni, le false partenze e le parole troncate -->
                     <persName ref="TEI-ListPerson.xml#AW">Wachsberger<pause/> Arminio</persName><pause/> <del type="falseStart">a</del> nato a <placeName ref="TEI-ListPlace.xml#FM">Fiume</placeName><pause/> ex <placeName ref="TEI-ListPlace.xml#IT">Italia</placeName> ora <placeName ref="TEI-ListPlace.xml#YU">Jugoslavia</placeName><pause/> il <date when="1913-11-04">4 novembre 1913</date><pause/> abitante a <placeName ref="TEI-ListPlace.xml#MI">Milano</placeName> nell'indirizzo suo predicato
                 </u>
 
-                <u who="#LPF" xml:id="LPF2" synch="#TS03">
+                <u who="#LPF" xml:id="LPF2" synch="#TS03"> <!-- <vocal> segna qualsiasi fenomeno vocale non necessariamente lessicale -->
                     <vocal>eh</vocal> di che nazionalità è lei
                 </u>
 
-                <u who="#AW" xml:id="AW2" synch="#TS04">
+                <u who="#AW" xml:id="AW2" synch="#TS04"> <!-- <nationality> contiene una descrizione informale della nazionalità di una persona -->
                     dunque attualmente <nationality key="IT">italiana</nationality>
                 </u>
                 
@@ -2420,7 +2426,7 @@
                     <vocal>eh</vocal> mi può dare il nome dei suoi genitori
                 </u>
 
-                <u who="#AW" xml:id="AW3" synch="#TS06">
+                <u who="#AW" xml:id="AW3" synch="#TS06"> <!-- <unclear> segna una porzione del discorso di difficile interpretazione -->
                     il padre <persName ref="TEI-ListPerson.xml#DavideW">Davide</persName><pause/> <unclear reason="inaudible" resp="#GB" cert="medium">e</unclear> la madre<pause/> <persName ref="TEI-ListPerson.xml#MiriamG">Miriam</persName>
                 </u>
 
@@ -2456,7 +2462,7 @@
                     abitava con la famiglia <anchor xml:id="lpf-1" synch="#TT01"/>o da solo<anchor xml:id="lpf-2" synch="#TT02"/>
                 </u>
 
-                <u who="#AW" xml:id="AW7" synch="#TS14">
+                <u who="#AW" xml:id="AW7" synch="#TS14"> <!-- <supplied> segna il testo fornito dal codificatore -->
                     <anchor xml:id="arm-1" synch="#TT01"/>abitavo<anchor xml:id="arm-2" synch="#TT02"/> con la famiglia<pause/> <rs ref="TEI-ListPerson.xml#ReginaP" resp="#GB">moglie</rs><supplied resp="#GB" reason="integration">Regina Polacco</supplied> e figlia <persName ref="TEI-ListPerson.xml#ClaraW">Clara</persName><pause/> di 5 anni e<pause/> i suoceri<pause/> <persName ref="TEI-ListPerson.xml#MoiseP">Moisè Polacco</persName> e <persName ref="TEI-ListPerson.xml#CarlottaP">Carlotta Polacco</persName>
                 </u>
 
@@ -2464,7 +2470,7 @@
                     <vocal>ehm</vocal> prima di abitare a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName> dove ha abitato
                 </u>
 
-                <u who="#AW" xml:id="AW8" synch="#TS16">
+                <u who="#AW" xml:id="AW8" synch="#TS16"> <!-- <distinct> identifica parole o frasi linguisticamente distinte -->
                     prima di abitare a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName> <del type="falseStart">abitavo</del> oltre che a <placeName ref="TEI-ListPlace.xml#FM">Fiume</placeName><pause/> sono stato <date dur="P5Y" from="1928" to="1933" cert="medium" resp="#GB">5 anni</date> a <placeName ref="TEI-ListPlace.xml#GO">Gorizia</placeName> come studente<pause/> poi<pause/> <distinct type="common_saying">richiamato alle armi</distinct><pause/> sono stato in <distinct type="technical">aeronautica</distinct><pause/><supplied resp="#GB" reason="omitted" cert="high">nell'</supplied> ultimo <pause/><distinct type="military">reggimento</distinct> in <distinct type="technical">aviazione</distinct> a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName>
                 </u>
 
@@ -2498,7 +2504,7 @@
                     <anchor xml:id="arm-5" synch="#TT05"/>si<anchor xml:id="arm-6" synch="#TT06"/> <anchor xml:id="arm-7" synch="#TT07"/><unclear reason="inaudible" resp="#GB" cert="medium">c'era e c'è tutt'ora</unclear><anchor xml:id="arm-8" synch="#TT08"/>
                 </u>
 
-                <u who="#AW" xml:id="AW11" synch="#TS22">
+                <u who="#AW" xml:id="AW11" synch="#TS22"> <!-- <term> e <gloss> indicano i termini tecnici e le loro spiegazioni -->
                     e poi in seguito ho studiato alla <term xml:id="yeshivah" xml:lang="ji">yeshivah</term> di <placeName ref="TEI-ListPlace.xml#GO">Gorizia</placeName><pause/> dal <persName ref="TEI-ListPerson.xml#Schreiber"><roleName type="religion">rabbino</roleName> Schreiber</persName>
                 </u>
 
@@ -2564,7 +2570,7 @@
                 
                 <pause/>
 
-                <u who="#LPF" xml:id="LPF19" synch="#TS37">
+                <u who="#LPF" xml:id="LPF19" synch="#TS37"> <!-- <emph> segna parole o frasi enfatizzate -->
                     avevate già sentito parlare di <distinct type="technical"><emph>sionismo</emph></distinct> allora
                 </u>
 
@@ -2590,7 +2596,7 @@
                     venni trasferito per il servizio militare<pause/> a <placeName ref="TEI-ListPlace.xml#FG">Foggia</placeName><pause/> a <vocal>mm</vocal><pause/> <placeName ref="TEI-ListPlace.xml#NA">Napoli</placeName><pause/> e poi a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName>
                 </u>
 
-                <u who="#LPF" xml:id="LPF22" synch="#TS43">
+                <u who="#LPF" xml:id="LPF22" synch="#TS43"> <!-- <choice> con i figli <orig> e <reg> registra e normalizza una porzione del discorso ritenuta non standard -->
                     e là si fermò<pause/> ma <choice><orig>m'ha</orig><reg resp="#GB" cert="high">mi ha</reg></choice> detto che c'è stato <del type="repetition">un</del> <anchor xml:id="lpf-17" synch="#TT17"/><vocal>mm</vocal> un<anchor xml:id="lpf-18" synch="#TT18"/> periodo in cui <del type="falseStart"><del type="repetition"><del type="truncation">st</del></del> <del type="truncation">st</del></del> <vocal>ehm</vocal> abitò a <placeName ref="TEI-ListPlace.xml#GO">Gorizia</placeName>
                 </u>
 
@@ -2614,7 +2620,7 @@
                     ce l'ha la chiave lei
                 </u>
 
-                <u who="#AW" xml:id="AW24" synch="#TS48">
+                <u who="#AW" xml:id="AW24" synch="#TS48"> <!-- <shift> segna il punto in cui cambia una caratteristica paralinguistica di un enunciato prodotto da un parlante -->
                     si ce l'ha anche <unclear reason="inaudible" resp="#GB" cert="medium"><del type="falseStart">la</del></unclear> <rs ref="TEI-ListPerson.xml#OlgaW" resp="#GB">mia moglie</rs><supplied resp="#GB" reason="integration">Olga Wiener</supplied><pause/> <shift feature="laugh" new="normal">adesso anche questo verrà registrato <pause/>no era così</shift> che <del type="repetition">a</del> a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName> quando ho finito il servizio militare<pause/> rimasi lì per lavorare mi sposai a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName> e abitavo a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName><pause/> <date notAfter="1943-10-16">fino al 16 ottobre del 43</date><pause/> quando venni deportato
                 </u>
 
@@ -2759,7 +2765,7 @@
                     <del type="repetition">era</del> era arrivata di nuovo<pause/> la paura<pause/> ma sempre <choice><orig>col</orig><reg resp="#GB">con il</reg></choice> pensiero costante<pause/> della <rs ref="TEI-ListPerson.xml#ClaraW" resp="#GB">bambina</rs><supplied resp="#GB" reason="integration">Clara Wachsberger</supplied><pause/> ci astenemmo dal<pause/> prender rifugio nella fabbrica
                 </u>
 
-                <u who="#LPF" xml:id="LPF37" synch="#TS76">
+                <u who="#LPF" xml:id="LPF37" synch="#TS76"> <!-- <soCalled> indica le parole da cui il testimone si allontana -->
                     e qualcuno di voi aveva saputo che era arrivato a <placeName ref="TEI-ListPlace.xml#RO">Roma</placeName> questo <soCalled><distinct type="technical">distaccamento speciale</distinct></soCalled> <anchor xml:id="lpf-39" synch="#TT39"/>per <pause/>arrestare gli ebrei<anchor xml:id="lpf-40" synch="#TT40"/>
                 </u>
 
@@ -2767,7 +2773,7 @@
                     <anchor xml:id="arm-39" synch="#TT39"/>no questo qui no solamente<anchor xml:id="arm-40" synch="#TT40"/>
                 </u>
 
-                <u who="#AW" xml:id="AW38" synch="#TS77">
+                <u who="#AW" xml:id="AW38" synch="#TS77"> <!-- <q> indica il testo riferito -->
                     solamente <del type="truncation">ab</del> abbiamo saputo che stavano svaligiando<pause/> <del type="falseStart">la</del> gli archivi della comunità<pause/> ma non potevamo immaginare<pause/> che cosa potesse portare<pause/> come esito<pause/> anzi <rs ref="TEI-ListPerson.xml#ReginaP" resp="#GB">mia moglie</rs><supplied resp="#GB" reason="integration">Regina Polacco</supplied> mi telefonò<pause/> dicendomi <q type="spoken" who="TEI-ListPerson.xml#ReginaP">guarda cosa sta succedendo vedo che stanno portando via <vocal>ehhm</vocal> tutte le schede della comunità</q>
                 </u>
 
@@ -2775,7 +2781,7 @@
                     perché <rs ref="TEI-ListPerson.xml#ReginaP" resp="#GB">lei</rs> vedeva
                 </u>
 
-                <u who="#AW" xml:id="AW39" synch="#TS79">
+                <u who="#AW" xml:id="AW39" synch="#TS79"> <!-- <surplus> segna il testo ritenuto superfluo o ridondante -->
                     <rs ref="TEI-ListPerson.xml#ReginaP" resp="#GB">mia moglie</rs><supplied resp="#GB" reason="integration">Regina Polacco</supplied> vedeva perché <surplus resp="#GB" cert="high"><del type="repetition">da</del> <vocal>ehm</vocal> da</surplus> casa sua era <choice><sic>vicino</sic><corr resp="#GB">vicina</corr></choice><pause/> alla comunità
                 </u>
 
@@ -2945,7 +2951,7 @@
                     <anchor xml:id="arm-65" synch="#TT65"/><del type="repetition">Non lo so</del> non lo so<pause/> so solamente che<anchor xml:id="arm-66" synch="#TT66"/> quando mi trasportarono<pause/> alla <place type="institute">scuola militare</place> che è sul <placeName type="street">Lungo Tevere</placeName><pause/> c'era già una certa<pause/> massa di <distinct type="informal">gente</distinct><pause/> <vocal>eeehm</vocal><pause/> <supplied resp="#GB" reason="omitted" cert="medium">che</supplied> quindi urlava perché <del type="falseStart">i</del> quelli della <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice> davano degli ordini <pause/>e questi non capivano<pause/> quelli delle <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice> allora si<pause/> mettevano <del type="repetition">a</del> a colpirli con il <distinct type="military">calcio del fucile</distinct> in testa<pause/> ed è in quell'epoca che io mi presentai a <pause/><persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName> che era il comandante<pause/> e mi <pause/>offersi <choice><sic>da</sic><corr resp="#GB">di</corr></choice> fare l'interprete<pause/> e <rs ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</rs> accolse molto <unclear reason="inaudible" resp="#GB" cert="medium">favorevolmente</unclear> la mia proposta<pause/> perché nessun altro capiva il <lang>tedesco</lang><pause/> e così si tranquillizzò la situazione
                 </u>
 
-                <u who="#LPF" xml:id="LPF56" synch="#TS114">
+                <u who="#LPF" xml:id="LPF56" synch="#TS114"> <!-- <mentioned> segna parole o frasi menzionate ma slegate dalla loro funzione -->
                     <vocal>ehm</vocal><pause/> che lei sappia qualcuno è riuscito a sfuggire a questa <soCalled><mentioned>retata</mentioned></soCalled>
                 </u>
 
@@ -3049,7 +3055,7 @@
                     era battuto a macchina
                 </u>
 
-                <u who="#AW" xml:id="AW67" synch="#TS136">
+                <u who="#AW" xml:id="AW67" synch="#TS136"> <!-- <foreign> indica frasi o parole appartenenti a una lingua diversa da quella del testo circostante -->
                     <del type="falseStart">era <vocal>ehm</vocal> <del type="truncation">st</del></del><pause/> <seg part="I" next="#s2b" xml:id="s2a"><distinct type="informal">mi pare</distinct> <del type="falseStart">fatto</del> stampato</seg><pause/> per <foreign xml:lang="en" cert="low">copy</foreign><pause/> come si chiama <anchor xml:id="arm-83" synch="#TT83"/><del type="repetition">per</del><pause/> <seg part="F" prev="#s2a" xml:id="s2b">per <distinct type="technical">ciclostile</distinct><anchor xml:id="arm-84" synch="#TT84"/></seg>
                 </u>
 
@@ -3069,11 +3075,11 @@
                     hanno perquisito
                 </u>
 
-                <u who="#AW" xml:id="AW69" synch="#TS140">
+                <u who="#AW" xml:id="AW69" synch="#TS140"> <!-- <incident> segna qualsiasi fenomeno o evento non necessariamente vocalizzato o comunicativo -->
                     hanno perquisito <vocal>eh</vocal> alla ricerca di altre persone <pause/>ma poi quando loro<pause/> ci dissero che<pause/><unclear reason="inaudible" resp="#GB" cert="medium"><choice><sic><seg type="truncation">avevam</seg></sic><corr resp="#GB">avremmo</corr></choice></unclear> potuto portare con noi tutto quanto nel campo di lavoro la tirai fuori<pause/> e la presi con me<pause/> <choice><sic>che</sic><corr resp="#GB">e</corr></choice> poi naturalmente mi è stata sottratta<pause/> già alla <place type="institute">scuola militare</place> perché<pause/> come è noto alla <place type="institute">scuola militare</place> <date when="1943-10-17">il giorno dopo</date><pause/> ci fecero<pause/> traversare il corridoio<pause/> alla fine del quale c'era <persName ref="TEI-ListPerson.xml#Dannecker">l'<roleName type="military">ufficiale</roleName> Dannecker</persName><pause/> e un tavolo<pause/> con dei <distinct type="technical">tiretti</distinct> <rs ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</rs> mi fece dire in <lang>italiano</lang> ciò che naturalmente mi stava dicendo prima in <lang>tedesco</lang><pause/> che<pause/> <seg part="I" next="#s3b" xml:id="s3a">nel campo dove saremmo stati<pause/> deportati</seg> <unclear reason="inaudible" resp="#GB" cert="low">cioè</unclear> non usò il termine deportati ma trasferiti<pause/> <seg part="F" prev="#s3a" xml:id="s3b">avremmo dovuto vivere<pause/> a nostre spese</seg> e cioè con tutto quello che abbiamo con noi<pause/> ma <distinct type="informal">siccome</distinct> ci sono alcuni che hanno dei mezzi e altri no<pause/> bisognava consegnare tutto a loro<pause/> alla <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice> e cioè<pause/> oro gioielli e danaro<pause/> e ripassare quindi davanti<pause/> a <rs ref="TEI-ListPerson.xml#Dannecker" resp="#GB">lui</rs> per consegnarli<pause/> quanto prima detto<pause/> e<pause/> io rimasi l'ultimo<pause/> <surplus resp="#GB" cert="medium">e</surplus> avevo un orologio un longines<pause/> d'oro<pause/> <surplus cert="high" resp="#GB">e</surplus> gli anelli <pause/>e una parte di gioielli io una parte dei gioielli li consegnai più il danaro<pause/> mentre l'orologio lo tenni con me come <distinct type="informal">pure</distinct> gli anelli<pause/> miei e di <rs ref="TEI-ListPerson.xml#ReginaP" resp="#GB">mia moglie</rs><supplied resp="#GB" reason="integration">Regina Polacco</supplied><pause/> <distinct type="informal">il <persName ref="TEI-ListPerson.xml#Dannecker">Dannecker</persName></distinct> mi disse <q type="spoken" who="TEI-ListPerson.xml#Dannecker">tienteli <distinct type="informal">pure</distinct> tanto ti verranno<pause/> <distinct type="informal">levati</distinct><incident><desc>viene spostata una sedia</desc></incident> al campo dove arriverai</q><pause/> <anchor xml:id="arm-85" synch="#TT85"/><emph>so</emph><anchor xml:id="arm-86" synch="#TT86"/> di molte donne<pause/> che il danaro <pause/>anziché consegnarlo hanno preferito buttarlo nella latrina
                 </u>
 
-                <u who="#LPF">
+                <u who="#LPF"> <!-- <gap/> indica le lacune o le parti oscurate -->
                     <anchor xml:id="lpf-85" synch="#TT85"/><gap reason="inaudible" extent="1 word" resp="#GB"/><anchor xml:id="lpf-86" synch="#TT86"/>
                 </u>
 
@@ -4465,7 +4471,7 @@
                     <vocal><desc>sospira</desc></vocal><pause/>qualcuno era anche smistato e poteva andare nel campo di <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName> a lavorare
                 </u>
 
-                <u who="#AW" xml:id="AW209" synch="#TS420">
+                <u who="#AW" xml:id="AW209" synch="#TS420"> <!-- <span> indica le traduzioni di un intervallo di testo -->
                     <del type="repetition">no no <anchor xml:id="arm-333" synch="#TT333"/>no no<anchor xml:id="arm-334" synch="#TT334"/> no</del> no<pause/> si rimaneva in baracca oppure quando ci mandavano fuori<pause/> sempre<pause/> la baracca veniva svuotata<pause/> e si andava tutti quanti<pause/> a lavoro<pause/> in<pause/> <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName> stessa<pause/> nell'interno del campo<pause/> <vocal>ehm</vocal> in attesa di esser trasferiti in qualche altro campo di lavoro<pause/> per lavori di sterro di canalizzazione<pause/> trasporto sassi<pause/> <seg part="I" next="#s8b" xml:id="s8a">solo una volta</seg><pause/> ed era il <date when="1943-11-04">4 novembre del 1943</date> la data la ricordo perché era il mio compleanno<pause/> <seg part="F" prev="#s8a" xml:id="s8b">uscimmo da <placeName ref="TEI-ListPlace.xml#Bi">Birkenau</placeName> per la prima volta</seg><pause/> per andare nei boschi vicini<pause/> a procurarci legname<pause/> per <supplied resp="#GB" reason="omitted" cert="high">il</supplied> riscaldamento<pause/> è lì che vidi la famosa<pause/> <place type="house" xml:lang="de" xml:id="trad0"><unclear reason="inaudible" resp="#GB" cert="medium">das weissee Haus</unclear></place><pause/> la <span corresp="#trad0"><place type="house"><soCalled>casa bianca</soCalled></place></span><pause/> dove<pause/> come mi raccontò un <distinct type="informal">vecchio</distinct> prigioniero<pause/> avevano gassificato i primi russi <pause/>le prime prove di gassificazione <supplied resp="#GB" cert="medium" reason="omitted">vennero</supplied> fatte<pause/> dai russi in questa <distinct type="altered">casetta</distinct><pause/> rurale
                 </u>
 
@@ -5336,7 +5342,7 @@
                     della <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice>
                 </u>
 
-                <join target="#LPF295 #LPF296" result="u" type="utterance" scope="root"></join>
+                <join target="#LPF295 #LPF296" result="u" type="utterance" scope="root"></join><!-- <join> unisce due elementi frammentati come due enunciati interrotti da un altro enunciato -->
 
                 <u who="#AW" xml:id="AW296" synch="#TS594">
                     era della <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice><pause/> personale <del type="falseStart"><del type="repetition">non</del> non era</del><pause/> non vi partecipavano i <term xml:lang="de">kapò</term>
@@ -5447,8 +5453,8 @@
                 </u>
             </div>
 
-            <!--parte II-->
-            <div type="testo" corresp="#parteII">
+            <!-- Trascrizione parte II -->
+            <div type="testo" corresp="#parteII"> <!-- Indica le suddivisioni del testo: con l'attributo corresp crea un collegamento con il secondo elemento recording del quale di seguito è presentata la codifica del contenuto testuale -->
                 <u who="#LPF" xml:id="LPF309" synch="#TS619">
                     <unclear reason="inaudible" resp="#GB" cert="low">se</unclear> la ricorda
                 </u>
@@ -6918,7 +6924,7 @@
                     ha avuto altri <vocal>ehm</vocal> parenti deportati
                 </u>
 
-                <u who="#AW" xml:id="AW459" synch="#TS918">
+                <u who="#AW" xml:id="AW459" synch="#TS918"> <!-- <addName> contiene una componenete del nome aggiuntivo -->
                     si <unclear reason="inaudible" resp="#GB" cert="medium"><del type="falseStart">di</del></unclear> <supplied resp="#GB" reason="omitted" cert="medium">i</supplied> parenti deportati furono<pause/> anzitutto <emph><rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mia madre</rs><supplied resp="#GB" reason="integration">Matilde Miriam Gellis</supplied></emph><pause/> dalla <placeName ref="TEI-ListPlace.xml#RisieraSS">risiera di<pause/> San <choice><sic>Saba</sic><corr resp="#GB">Sabba</corr></choice></placeName> di <emph><placeName ref="TEI-ListPlace.xml#TS">Trieste</placeName></emph><pause/> le mie sorelle<pause/> <unclear reason="inaudible" resp="#GB" cert="low">con</unclear> relativi mariti e <distinct type="altered">figlioli</distinct><pause/> dalla <placeName ref="TEI-ListPlace.xml#CS">Cecoslovacchia</placeName> dove abitavano<pause/> e <vocal>mm</vocal><pause/> numerosi altri parenti in <placeName ref="TEI-ListPlace.xml#PL">Polonia</placeName><pause/> ed <supplied resp="#GB" cert="medium" reason="omitted">in</supplied> <placeName ref="TEI-ListPlace.xml#HU">Ungheria</placeName><pause/> <vocal>ehm</vocal> nell'<placeName ref="TEI-ListPlace.xml#IT">Italia</placeName><pause/> ritrovai mio fratello<pause/> <persName ref="TEI-ListPerson.xml#GiovanniW"><addName type="nickname">Haimi</addName><pause/> Giovanni</persName><pause/> che era stato<pause/> alla <placeName ref="TEI-ListPlace.xml#RisieraSS">risiera di<pause/> <choice><sic>Saba</sic><corr resp="#GB">Sabba</corr></choice></placeName> di <placeName ref="TEI-ListPlace.xml#TS">Trieste</placeName><pause/> <surplus resp="#GB" cert="medium">insieme</surplus> con <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mia madre</rs><supplied resp="#GB" reason="integration">Matilde Miriam Gellis</supplied><pause/> voglio riferire un fatto della <placeName ref="TEI-ListPlace.xml#RisieraSS">risiera di <choice><sic>Saba</sic><corr resp="#GB">Sabba</corr></choice></placeName><pause/> perché lo ritengo utile<pause/> ricordare<pause/> <rs ref="TEI-ListPerson.xml#GiovanniW" resp="#GB">mio fratello</rs><supplied resp="#GB" reason="integration">Giovanni Wachsberger</supplied> e <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mia madre</rs><supplied resp="#GB" reason="integration">Matilde Miriam Gellis</supplied> vennero arrestati a <placeName ref="TEI-ListPlace.xml#FM">Fiume</placeName><pause/> e trasportati a <placeName ref="TEI-ListPlace.xml#TS">Trieste</placeName><pause/> dopo pochi giorni<pause/> stavano preparando<pause/> un trasporto<pause/> da <placeName ref="TEI-ListPlace.xml#TS">Trieste</placeName> ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName><pause/> <vocal>ehm</vocal><pause/> caricarono <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mia madre</rs><supplied resp="#GB" reason="integration">Matilde Miriam Gellis</supplied> e <rs ref="TEI-ListPerson.xml#GiovanniW" resp="#GB">mio fratello</rs><supplied resp="#GB" reason="integration">Giovanni Wachsberger</supplied> <pause/>su <surplus resp="#GB" cert="medium">di</surplus> un camion<pause/> in procinto<pause/> di recarsi<pause/> alla stazione<pause/> <unclear reason="inaudible" resp="#GB" cert="low">a</unclear> un certo momento <pause/>uscì un <vocal>ehm</vocal><pause/> sottufficiale della <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice><pause/> e chiese<pause/> se qualcuno<pause/> era<pause/> di professione sarto<pause/> <rs ref="TEI-ListPerson.xml#GiovanniW" resp="#GB">mio fratello</rs><supplied resp="#GB" reason="integration">Giovanni Wachsberger</supplied> non era sarto <supplied resp="#GB" reason="omitted" cert="medium">ma</supplied> aveva lavorato come fattorino in una sartoria<pause/> e <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mia madre</rs><supplied resp="#GB" reason="integration">Matilde Miriam Gellis</supplied> disse<pause/> <q type="spoken" who="TEI-ListPerson.xml##MiriamG">dì che tu sei <choice><sic><seg type="truncation">sart</seg></sic><corr resp="#GB">sarto</corr></choice></q><pause/> e <rs ref="TEI-ListPerson.xml#GiovanniW" resp="#GB">mio fratello</rs><supplied resp="#GB" reason="integration">Giovanni Wachsberger</supplied> <del type="falseStart">disse</del><pause/> riferì questo alla<pause/> <choice><abbr>SS</abbr><expan xml:lang="de">Schutzstaffel</expan></choice> <unclear reason="inaudible" resp="#GB" cert="low"><choice><sic>e</sic><corr resp="#GB">che</corr></choice> disse</unclear> <q type="spoken">scendi tu rimani qua</q><pause/> <surplus resp="#GB" cert="medium">e</surplus> <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mia madre</rs><supplied resp="#GB" reason="integration">Matilde Miriam Gellis</supplied> venne invece deportata<pause/> ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName><pause/> ricordo questo per dire che <del type="falseStart"><rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mia madre</rs><supplied resp="#GB" reason="integration">Matilde Miriam Gellis</supplied></del><pause/> un'altra madre <del type="falseStart">avrebbe</del><pause/> anche se il figlio fosse stato un sarto<pause/> non lo avrebbe dichiarato perché rimanga insieme con il figlio<pause/> ma <vocal>mm</vocal><pause/> viceversa <rs ref="TEI-ListPerson.xml#MiriamG" resp="#GB">mia madre</rs><supplied resp="#GB" reason="integration">Matilde Miriam Gellis</supplied><pause/> pur di salvare almeno qualcuno<pause/> fece scendere <rs ref="TEI-ListPerson.xml#GiovanniW" resp="#GB">mio fratello</rs><supplied resp="#GB" reason="integration">Giovanni Wachsberger</supplied><pause/> e <rs ref="TEI-ListPerson.xml#GiovanniW" resp="#GB">mio fratello</rs><supplied resp="#GB" reason="integration">Giovanni Wachsberger</supplied> <emph>imparò</emph><pause/> il sarto<pause/> proprio dentro<pause/> a <placeName ref="TEI-ListPlace.xml#RisieraSS">San <choice><sic>Saba</sic><corr resp="#GB">Sabba</corr></choice> nella <del type="truncation">s</del><pause/> risiera</placeName>
                 </u>
 
