@@ -406,6 +406,9 @@
                     <xsl:when test="./@who='Maria'">
                         <p><b><xsl:text>Maria: </xsl:text></b><xsl:apply-templates /></p>
                     </xsl:when>
+                    <xsl:otherwise>
+                        <p><b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:apply-templates /></p>
+                    </xsl:otherwise>
                 </xsl:choose>
     </xsl:template>
 
