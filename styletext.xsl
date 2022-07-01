@@ -24,6 +24,48 @@
             </xsl:for-each>
     </xsl:template>
 
+    <!-- GESTIONE DEGLI ENUNCIATI PRODOTTI DAI PARLANTI -->
+    <xsl:template match="//tei:u">
+                <xsl:choose> <!-- Gestione degli enunciati sovrapposti -->
+                    <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#AW']">
+                        <p><b><xsl:text>(Arminio W. sovrapposizione): </xsl:text></b><xsl:apply-templates /></p>
+                    </xsl:when>
+                    <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#LPF']">
+                        <p><b><xsl:text>(Liliana P.F. sovrapposizione): </xsl:text></b><xsl:apply-templates /></p>
+                    </xsl:when>
+                    <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#MA']">
+                        <p><b><xsl:text>(Maurina A. sovrapposizione): </xsl:text></b><xsl:apply-templates /></p>
+                    </xsl:when> <!-- Gestione degli enunciati non sovrapposti -->
+                    <xsl:when test="(./@xml:id='MA81' and ./@synch='#TS163') or (./@xml:id='MA158' and ./@synch='#TS320') or (./@xml:id='MA56' and ./@synch='#TS113') or (./@xml:id='MA77' and ./@synch='#TS155') or (./@xml:id='MA159' and ./@synch='#TS322')">
+                        <p><b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:text>-</xsl:text></p>
+                    </xsl:when>
+                    <xsl:when test="(./@xml:id='PF3' and ./@synch='#TS193') or (./@xml:id='PF4' and ./@synch='#TS195')">
+                        <p><b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:text>-</xsl:text></p>
+                    </xsl:when>
+                    <xsl:when test="(./@xml:id='LPF436' and ./@synch='#TS871') or (./@xml:id='LPF387' and ./@synch='#TS773')">
+                        <p><b><xsl:text>Liliana Picciotto Fargion: </xsl:text></b><xsl:text>-</xsl:text></p>
+                    </xsl:when>
+                    <xsl:when test="(./@xml:id='AW96' and ./@synch='#TS194') or (./@xml:id='AW227' and ./@synch='#TS456')">
+                        <p><b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:text>-</xsl:text></p>
+                    </xsl:when>
+                    <xsl:when test="./@who='#MA'">
+                        <p><b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:apply-templates /></p>
+                    </xsl:when>
+                    <xsl:when test="./@who='#LPF'">
+                        <p><b><xsl:text>Liliana Picciotto Fargion: </xsl:text></b><xsl:apply-templates /></p>
+                    </xsl:when>
+                    <xsl:when test="./@who='#PF'">
+                        <p><b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:apply-templates /></p>
+                    </xsl:when>
+                    <xsl:when test="./@who='Maria'">
+                        <p><b><xsl:text>Maria: </xsl:text></b><xsl:apply-templates /></p>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <p><b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:apply-templates /></p>
+                    </xsl:otherwise>
+                </xsl:choose>
+    </xsl:template>
+
     <!-- TEMPLATE PER GLI ELEMENTI XML FIGLI DEI DIV RELATIVI AL LESSICO -->
 
     <!-- Gestione delle abbreviazioni, delle porzioni scorrette e delle porzioni non standard -->
@@ -162,48 +204,6 @@
     <xsl:template match="//tei:mentioned">
 		<span class="men"><xsl:apply-templates/></span>
 	</xsl:template>
-
-    <!-- GESTIONE DEGLI ENUNCIATI PRODOTTI DAI PARLANTI -->
-    <xsl:template match="//tei:u">
-                <xsl:choose> <!-- Gestione degli enunciati sovrapposti -->
-                    <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#AW']">
-                        <p><b><xsl:text>(Arminio W. sovrapposizione): </xsl:text></b><xsl:apply-templates /></p>
-                    </xsl:when>
-                    <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#LPF']">
-                        <p><b><xsl:text>(Liliana P.F. sovrapposizione): </xsl:text></b><xsl:apply-templates /></p>
-                    </xsl:when>
-                    <xsl:when test="self::node()[not(@xml:id)] and self::node()[@who='#MA']">
-                        <p><b><xsl:text>(Maurina A. sovrapposizione): </xsl:text></b><xsl:apply-templates /></p>
-                    </xsl:when> <!-- Gestione degli enunciati non sovrapposti -->
-                    <xsl:when test="(./@xml:id='MA81' and ./@synch='#TS163') or (./@xml:id='MA158' and ./@synch='#TS320') or (./@xml:id='MA56' and ./@synch='#TS113') or (./@xml:id='MA77' and ./@synch='#TS155') or (./@xml:id='MA159' and ./@synch='#TS322')">
-                        <p><b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:text>-</xsl:text></p>
-                    </xsl:when>
-                    <xsl:when test="(./@xml:id='PF3' and ./@synch='#TS193') or (./@xml:id='PF4' and ./@synch='#TS195')">
-                        <p><b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:text>-</xsl:text></p>
-                    </xsl:when>
-                    <xsl:when test="(./@xml:id='LPF436' and ./@synch='#TS871') or (./@xml:id='LPF387' and ./@synch='#TS773')">
-                        <p><b><xsl:text>Liliana Picciotto Fargion: </xsl:text></b><xsl:text>-</xsl:text></p>
-                    </xsl:when>
-                    <xsl:when test="(./@xml:id='AW96' and ./@synch='#TS194') or (./@xml:id='AW227' and ./@synch='#TS456')">
-                        <p><b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:text>-</xsl:text></p>
-                    </xsl:when>
-                    <xsl:when test="./@who='#MA'">
-                        <p><b><xsl:text>Maurina Alazraki: </xsl:text></b><xsl:apply-templates /></p>
-                    </xsl:when>
-                    <xsl:when test="./@who='#LPF'">
-                        <p><b><xsl:text>Liliana Picciotto Fargion: </xsl:text></b><xsl:apply-templates /></p>
-                    </xsl:when>
-                    <xsl:when test="./@who='#PF'">
-                        <p><b><xsl:text>Paolo Favaro: </xsl:text></b><xsl:apply-templates /></p>
-                    </xsl:when>
-                    <xsl:when test="./@who='Maria'">
-                        <p><b><xsl:text>Maria: </xsl:text></b><xsl:apply-templates /></p>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <p><b><xsl:text>Arminio Wachsberger: </xsl:text></b><xsl:apply-templates /></p>
-                    </xsl:otherwise>
-                </xsl:choose>
-    </xsl:template>
 
     <!-- TEMPLATE PER GLI ALTRI ELEMENTI XML FIGLI DEI DIV -->
 
