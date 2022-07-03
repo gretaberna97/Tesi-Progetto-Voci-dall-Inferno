@@ -277,28 +277,28 @@
                 <span><xsl:text>&#10077;traduzioni&#10078;</xsl:text></span><br/>
                 <b><xsl:text>*porzione mancante/omessa*</xsl:text></b><br/>
                 <span class="unc"><xsl:text>Testo non certo</xsl:text></span><br/>
-                <span class="soC"><xsl:text>Parole discostate</xsl:text></span><br/>
-                <span class="men"><xsl:text>Menzioni</xsl:text></span><br/>
-                <span class="agg"><xsl:text>Parole aggiunte</xsl:text></span><br/>
-                <span class="sup"><xsl:text>Parole non necessarie</xsl:text></span><br/>
-                <span class="bold"><xsl:text>Parole in tedesco</xsl:text></span><br/>
-                <span class="yi"><xsl:text>Parole in yiddish</xsl:text></span><br/>
-                <span class="fr"><xsl:text>Parole in francese</xsl:text></span><br/>
-                <span class="en"><xsl:text>Parole in inglese</xsl:text></span><br/>
-                <span class="rus"><xsl:text>Parole in russo</xsl:text></span><br/>
-                <span class="lat"><xsl:text>Parole in latino</xsl:text></span><br/>
-                <span class="informali"><xsl:text>Parole informali</xsl:text></span><br/>
-                <span class="politiche"><xsl:text>Parole politiche</xsl:text></span><br/>
-                <span class="military"><xsl:text>Parole militari</xsl:text></span><br/>
-                <span class="alterate"><xsl:text>Parole alterate</xsl:text></span><br/>
-                <span class="mdd"><xsl:text>Modi di dire</xsl:text></span><br/>
-                <span class="tec"><xsl:text>Parole tecniche</xsl:text></span><br/>
-                <span class="fos"><xsl:text>Figure retoriche</xsl:text></span><br/>
-                <span class="infre"><xsl:text>Parole infrequenti</xsl:text></span><br/>
-                <span class="volgari"><xsl:text>Parole non eleganti</xsl:text></span><br/>
-                <span class="arc"><xsl:text>Parole arcaiche</xsl:text></span><br/>
-                <span class="slang"><xsl:text>Parole gergali</xsl:text></span><br/>
-                <span class="dia"><xsl:text>Parole dialettali</xsl:text></span>
+                <span class="soC"><xsl:text>Parole discostate</xsl:text></span>, 
+                <span class="men"><xsl:text>Menzioni</xsl:text></span>, 
+                <span class="agg"><xsl:text>Parole aggiunte</xsl:text></span>,
+                <span class="sup"><xsl:text>non necessarie</xsl:text></span><br/>
+                <span class="bold"><xsl:text>Parole in tedesco</xsl:text></span>,
+                <span class="yi"><xsl:text>in yiddish</xsl:text></span>,
+                <span class="fr"><xsl:text>in francese</xsl:text></span>,
+                <span class="en"><xsl:text>in inglese</xsl:text></span>,
+                <span class="rus"><xsl:text>in russo</xsl:text></span>,
+                <span class="lat"><xsl:text>in latino</xsl:text></span>,
+                <span class="informali"><xsl:text>Parole informali</xsl:text></span>,
+                <span class="politiche"><xsl:text> politiche</xsl:text></span>,
+                <span class="military"><xsl:text> militari</xsl:text></span>,
+                <span class="alterate"><xsl:text> alterate</xsl:text></span>, 
+                <span class="mdd"><xsl:text>Modi di dire</xsl:text></span>,
+                <span class="fos"><xsl:text>Figure retoriche</xsl:text></span>,
+                <span class="tec"><xsl:text>Parole tecniche</xsl:text></span>,
+                <span class="infre"><xsl:text>infrequenti</xsl:text></span>,
+                <span class="volgari"><xsl:text>non eleganti</xsl:text></span>,
+                <span class="arc"><xsl:text>arcaiche</xsl:text></span>,
+                <span class="slang"><xsl:text>gergali</xsl:text></span>,
+                <span class="dia"><xsl:text>dialettali</xsl:text></span>
                 <select><option><xsl:text>Abbreviazione</xsl:text></option><option><xsl:text>Estensione</xsl:text></option></select>
                 <select><option><xsl:text>&#10060; Errore</xsl:text></option><option><xsl:text>&#128994; Correzione</xsl:text></option></select>
                 <select><option><xsl:text>&#191; Non standard</xsl:text></option><option><xsl:text>&#128994; Normalizzazione</xsl:text></option></select>
