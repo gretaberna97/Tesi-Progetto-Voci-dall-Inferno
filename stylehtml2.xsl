@@ -14,7 +14,7 @@
     <xsl:template name="main" match="/"><!-- Creazione del modello denominato "main" che vale per tutto il documento grazie al valore dell'attributo match che è un'espressione XPath. Le regole di trasformazione di seguito definite sono le prime che vengono attivate da SaxonJS.transform() -->
         <xsl:result-document href="#Header" method="ixsl:replace-content"> <!-- Elemento che indirizza la destinazione secondaria della trasformazione: un elemento con id "Header", il quale contenuto viene sostituito tramite l'attributo method (indica la modalità di elaborazione), il quale valore è una funzione estesa realizzata a tal scopo. Quando l'utente clicca il bottone "Lista persone" il contenuto dell'elemento header viene modificato -->
             <p>Der Dolmetscher</p>
-            <p style="margin-top:-10%">L'interprete</p>
+            <p id="secondo">L'interprete</p>
         </xsl:result-document>
        <xsl:result-document href="#Menu" method="ixsl:replace-content"><!-- Sostituzione del contenuto dell'elemento HTML con id "Menu" quando l'utente clicca il bottone "Lista persone" nella Home Page: il menù passa da essere vuoto a contenere altri elementi HTML di seguito elencati -->
         <img id="menuimg" src="menu.png" alt="Icona menu" onclick="openNav()"/> <!-- Immagine che permette che il menù si apra -->
@@ -52,7 +52,7 @@
     <xsl:template mode="ixsl:onclick" match="h:img[@id='home']" > <!-- Modello che si attiva solo quando l'utente clicca sull'immagine con id "home" definita dall'attributo match che indica l'elemento su cui applicare il modello: quando questo elemento viene cliccato la pagina web cambia per riportare l'utente alla Home Page. In poche parole, vengono meno le regole di elaborazione del template "main" -->
         <xsl:result-document href="#Header" method="ixsl:replace-content"> <!-- Sostituzione del contenuto dell'elemento HTML con id "Header" -->
             <p>Der Dolmetscher</p>
-            <p style="margin-top:-10%">L'interprete: Arminio Wachsberger</p>
+            <p id="secondo">L'interprete: Arminio Wachsberger</p>
         </xsl:result-document>
         <xsl:result-document href="#Menu" method="ixsl:replace-content"><!-- Sostituzione del contenuto dell'elemento HTML con id "Menu" -->
             <button id="TestOne" onclick="testOne()">4 Febbraio 1998</button>
@@ -120,7 +120,6 @@
                         (<xsl:value-of select="concat(tei:birth/tei:date,' ', tei:birth/tei:placeName/tei:settlement,' ',tei:birth/tei:placeName/tei:country,' ','-',' ', tei:death/tei:date,' ', tei:death/tei:placeName/tei:settlement,' ',tei:death/tei:placeName/tei:country)"/>)
                     </span>
                     </td> 
-                    <th><xsl:text>Informazioni:</xsl:text></th>
                     <td class="information">
                         <ul>
                             <li><b><xsl:text>Sesso: </xsl:text></b><xsl:value-of select="tei:sex"/></li>

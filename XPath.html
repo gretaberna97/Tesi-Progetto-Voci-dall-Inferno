@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <meta charset=UTF-8>
+    <title>XPath tests</title>
+    <script src="../SaxonJS2.rt.js"></script>
+  </head>
+  <body class="main" onload="run()">
+    <h1>XPath tests</h1>
+    <script>
+        var thisDoc = window.document;
+        var timezones = {              
+                "London": "PT0H", 
+                "New York": "-PT5H",
+                "San Francisco" : "-PT8H",
+                "Delhi" : "PT5H30M",  
+                "Tokyo" : "PT9H"
+                };
+            function setClocks() {
+                var clocks = SaxonJS.XPath.evaluate(".//*[tokenize(@class)='clock']",thisDoc,{resultForm:"array"});
+                for(var i =0; i < clocks.length; i++) {
+                    setClock(clocks[i]);
+                }
+            }
+            function setClock(clock) {
+                var findTime = "let $loc := normalize-space(.//*[@name='city']), " 
+                +
+                "$t := if($loc = ('Local Time','')) then current-time() else adjust-time-to-timezone(current-time(),xs:dayTimeDuration(map:get($timezones,$loc)))"
+                +
+                "return map{'hour':hours-from-time($t), 'minute' : minutes-from-time($t) , 'second' : floor(seconds-from-time($t))}";
+                var time = SaxonJS.XPath.evaluate(findTime, clock, {params: {"timezones": timezones}});
+                var timeIndicators = SaxonJS.XPath.evaluate("map:merge(for $class in ('hour','minute','second') return map:entry($class,array{.//*[@class=$class]}))",clock);
+                for(var part in timeIndicators) {
+                    var nodes = timeIndicators[part];
+                    for(var i = 0; i < nodes.length; i++) {
+                        var node = nodes[i];
+                        var t = time[part];
+                        node.textContent = t < 10 ? "0"+t : t;
+                     }
+                } 
+            }              
+            function run() {
+                setClocks();
+                window.setInterval(setClocks, 1000);
+            }
+      </script>
+
+        <h2>Test 3: MODIFICANDO I DATI DAL FILE HTML CORRENTE CON L'ESEMPIO DELL'OROLOGIO</h2>
+        <div class="clock">
+            <p><span name="city" class="label">London</span> - <span class="hour">00</span>:<span
+                    class="minute">00</span>:<span class="second">00</span></p>
+            <p></p>
+        </div>
+        <div class="clock">
+            <p><span name="city" class="label">San Francisco</span> - <span class="hour"
+                    >00</span>:<span class="minute">00</span>:<span class="second">00</span></p>
+            <p></p>
+        </div>
+
+  </body>
+</html>

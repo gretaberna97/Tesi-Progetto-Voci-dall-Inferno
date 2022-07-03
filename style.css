@@ -27,6 +27,10 @@ header p:first-child {
   font-family:'Bedfort', Arial, sans-serif;
 }
 
+#secondo {
+  margin-top:-10%;
+}
+
 /* Pulsanti */
 button, #linkm {
   font-size: 16px;
@@ -108,6 +112,7 @@ button:hover:after, #linkm:hover:after {
   padding:1%;
   width:2%;
   transition: width 2s;
+  z-index: 1;
 }
 
 #menuimg:hover {
@@ -331,10 +336,6 @@ a:hover {
   font-weight: bold;
   text-align: center;
   width:40%;
-}
-
-#persone th {
-  width:auto;
 }
 
 .infoperson{
@@ -607,8 +608,14 @@ footer span{
   animation-duration:8s;
 }
 
-/* MEDIA QUERIES */
-/* Visione fino ad una risoluzione massima di 950px */
+/* MEDIA QUERIES */ 
+
+@media screen and (min-width: 1500px){
+#secondo {
+    margin-top:0;
+  }
+}
+
 @media screen and (max-width: 950px){
   #Menu button {
     display: block;
@@ -635,14 +642,44 @@ footer span{
   }
 }
 
-/* Visione fino ad una risoluzione massima di 768px */
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   button, #linkm {
     padding: 13px 50px 13px;
   }
 }
 
-/* Visione fino ad una risoluzione massima di 600px */
+@media screen and (max-height: 768px) {
+  #legenda {
+    top:auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .play {
+    width:10%;
+  }
+  .play:hover {
+    cursor: pointer;
+    width:11%;
+  }
+}
+
 @media screen and (max-height: 600px) {
   #home {width:30%;}
+}
+
+@media screen and (max-width: 500px) {
+  #trascrizione {
+    text-align:left;
+  }
+  #up {
+    width:10%;
+    left:1%;
+  }
+  #menuimg {
+    width:8%;
+  }
+  #menuimg:hover {
+    width:9%;
+  }
 }

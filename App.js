@@ -183,7 +183,7 @@ function style2() {
 
 /* Funzioni che gestiscono all'interno del div "Info" e del div "Testo" il direzionamento dell'utente alle pagine "Lista luoghi" o "Lista persone" a seconda del tipo dell'elemento cliccato */
 document.getElementById("Info").addEventListener("click", function(e) {
-	if(e.target && e.target.nodeName == "A") {
+	if(e.target && e.target.nodeName == "A" && e.target.className != "luoghi") {
 			fontiB();
 }
 });

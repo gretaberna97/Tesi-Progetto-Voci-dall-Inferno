@@ -14,7 +14,7 @@
     <xsl:template name="main" match="/"><!-- Creazione del modello denominato "main" che vale per tutto il documento grazie al valore dell'attributo match che è un'espressione XPath. Le regole di trasformazione di seguito definite sono le prime che vengono attivate da SaxonJS.transform() -->
         <xsl:result-document href="#Header" method="ixsl:replace-content"> <!-- Elemento che indirizza la destinazione secondaria della trasformazione: un elemento con id "Header", il quale contenuto viene sostituito tramite l'attributo method (indica la modalità di elaborazione), il quale valore è una funzione estesa realizzata a tal scopo. Quando l'utente clicca il bottone "Lista luoghi" il contenuto dell'elemento header viene modificato -->
             <p>Der Dolmetscher</p>
-            <p style="margin-top:-10%">L'interprete</p>
+            <p id="secondo">L'interprete</p>
         </xsl:result-document>
        <xsl:result-document href="#Menu" method="ixsl:replace-content"><!-- Sostituzione del contenuto dell'elemento HTML con id "Menu" quando l'utente clicca il bottone "Lista luoghi" nella Home Page: il menù passa da essere vuoto a contenere altri elementi HTML di seguito elencati -->
        <img id="menuimg" src="menu.png" alt="Icona menu" onclick="openNav()"/> <!-- Immagine che permette che il menù si apra -->
@@ -42,7 +42,7 @@
     <xsl:template mode="ixsl:onclick" match="h:img[@id='home']" > <!-- Modello che si attiva solo quando l'utente clicca sull'immagine con id "home" definita dall'attributo match che indica l'elemento su cui applicare il modello: quando questo elemento viene cliccato la pagina web cambia per riportare l'utente alla Home Page. In poche parole, vengono meno le regole di elaborazione del template "main" -->
         <xsl:result-document href="#Header" method="ixsl:replace-content"> <!-- Sostituzione del contenuto dell'elemento HTML con id "Header" -->
             <p>Der Dolmetscher</p>
-            <p style="margin-top:-10%">L'interprete: Arminio Wachsberger</p>
+            <p id="secondo">L'interprete: Arminio Wachsberger</p>
         </xsl:result-document>
         <xsl:result-document href="#Menu" method="ixsl:replace-content"><!-- Sostituzione del contenuto dell'elemento HTML con id "Menu" -->
             <button id="TestOne" onclick="testOne()">4 Febbraio 1998</button>
@@ -66,7 +66,7 @@
             </h1>
             <h2><xsl:text>Luoghi citati all'interno delle testimonianze</xsl:text></h2>
             <!-- Gestione del bottone che rimanda a una pagina Google Maps con i luoghi e i percorsi di Arminio -->
-            <a id="linkm" href="https://www.google.com/maps/d/u/0/viewer?mid=1-3FZB_vW5iEmxq2r8d5liTzZS63K1A4&amp;ll=18.143803593704973%2C-0.5140074999999911&amp;z=2">Vedi interamente la mappa dei percorsi</a><br/><br/><br/>
+            <a id="linkm" class="luoghi" href="https://www.google.com/maps/d/u/0/viewer?mid=1-3FZB_vW5iEmxq2r8d5liTzZS63K1A4&amp;ll=18.143803593704973%2C-0.5140074999999911&amp;z=2">Mappe estese</a><br/><br/><br/>
             <img class="mappa" id="prima" src="mappa.png"/>
             <img class="mappa" src="mappa2.png"/>
             <br/><br/>
