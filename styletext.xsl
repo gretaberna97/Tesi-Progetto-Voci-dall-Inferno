@@ -207,6 +207,11 @@
 
     <!-- TEMPLATE PER GLI ALTRI ELEMENTI XML FIGLI DEI DIV -->
 
+    <!-- Gestione del resto degli elementi XML che vengono nascosti nella trascrizione -->
+    <xsl:template match="//tei:del"/>
+    <xsl:template match="//tei:vocal"/>
+    <xsl:template match="//tei:desc"/>
+
     <!-- Gestione degli elementi vocal, del e desc all'interno degli enunciati che si sovrappongono -->
     <xsl:template match="//tei:u[not(@xml:id)]/tei:vocal">
         <xsl:text>-</xsl:text>
@@ -256,10 +261,5 @@
     <xsl:template match="//tei:unclear" >
         <span class="unc"><xsl:apply-templates /></span>
     </xsl:template>
-
-    <!-- Gestione del resto degli elementi XML che vengono nascosti nella trascrizione -->
-    <xsl:template match="//tei:del"/>
-    <xsl:template match="//tei:vocal"/>
-    <xsl:template match="//tei:desc"/>
     
 </xsl:stylesheet> 

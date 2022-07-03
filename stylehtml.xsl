@@ -414,6 +414,16 @@
 
     <!-- TEMPLATE PER GLI ALTRI ELEMENTI XML FIGLI DI TEXT -->
 
+    <!-- Gestione del resto degli elementi XML che vengono nascosti nella trascrizione -->
+    <xsl:template match="//tei:desc" />
+    <xsl:template match="//tei:vocal"/>
+    <xsl:template match="//tei:sic"/>
+    <xsl:template match="//tei:orig" />
+    <xsl:template match="//tei:abbr" />
+    <xsl:template match="//tei:surplus" />
+    <xsl:template match="//tei:del" />
+    <xsl:template match="//tei:supplied[@reason='integration']" />
+
     <!-- Gestione degli elementi vocal, del e desc all'interno degli enunciati che si sovrappongono -->
     <xsl:template match="//tei:u[not(@xml:id)]/tei:vocal">
         <xsl:text>-</xsl:text>
@@ -447,15 +457,5 @@
             <xsl:text>-</xsl:text>
         </xsl:if>
     </xsl:template>
-  
-    <!-- Gestione del resto degli elementi XML che vengono nascosti nella trascrizione -->
-    <xsl:template match="//tei:desc" />
-    <xsl:template match="//tei:vocal"/>
-    <xsl:template match="//tei:sic"/>
-    <xsl:template match="//tei:orig" />
-    <xsl:template match="//tei:abbr" />
-    <xsl:template match="//tei:surplus" />
-    <xsl:template match="//tei:del" />
-    <xsl:template match="//tei:supplied[@reason='integration']" />
 
 </xsl:stylesheet>

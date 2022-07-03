@@ -100,6 +100,16 @@
       
     <!-- TEMPLATE PER GLI ALTRI ELEMENTI XML FIGLI DEI DIV -->
 
+    <!-- Gestione del resto degli elementi XML che vengono nascosti nella trascrizione -->
+    <xsl:template match="//tei:sic" />    
+    <xsl:template match="//tei:orig" />
+    <xsl:template match="//tei:abbr" />
+    <xsl:template match="//tei:surplus" />
+    <xsl:template match="//tei:del"/>
+    <xsl:template match="//tei:desc"/>
+    <xsl:template match="//tei:vocal"/>
+    <xsl:template match="//tei:supplied[@reason='integration']" />
+
     <!-- Gestione del testo riferito -->
     <xsl:template match="//tei:q">
 		<xsl:text>&#171;</xsl:text>
@@ -133,15 +143,5 @@
     <xsl:template match="//tei:u[not(@xml:id)]//tei:desc" >
         <xsl:text>-</xsl:text>
     </xsl:template>
-    
-    <!-- Gestione del resto degli elementi XML che vengono nascosti nella trascrizione -->
-    <xsl:template match="//tei:sic" />    
-    <xsl:template match="//tei:orig" />
-    <xsl:template match="//tei:abbr" />
-    <xsl:template match="//tei:surplus" />
-    <xsl:template match="//tei:del"/>
-    <xsl:template match="//tei:desc"/>
-    <xsl:template match="//tei:vocal"/>
-    <xsl:template match="//tei:supplied[@reason='integration']" />
 
 </xsl:stylesheet> 
