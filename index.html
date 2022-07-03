@@ -1,24 +1,25 @@
-<!DOCTYPE html>
-<html lang="it" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html> <!-- Dichiarazione del tipo di documento: HTML5 -->
+<html lang="it" xmlns="http://www.w3.org/1999/xhtml"> <!-- Elemento radice della pagina HTML -->
 
-<head>
-	<title>Der Dolmetscher</title>
-	<meta name="author" content="Greta Bernardoni">
-	<link rel="stylesheet" href="style.css" type="text/css">
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<head> <!-- Metadati sulla pagina HTML -->
+	<title>Der Dolmetscher</title> <!-- Titolo della pagina HTML -->
+	<meta name="author" content="Greta Bernardoni"> <!-- Autore del documento -->
+	<link rel="stylesheet" href="style.css" type="text/css"> <!-- Collegamento al foglio di stile esterno -->
+	<meta charset="utf-8" /> <!-- Set di codifica dei caratteri -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" /> <!-- Istruzioni su come controllare le dimensioni e il ridimensionamento della pagina -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> <!-- Intestazione HTTP -->
+	<!-- Incorporazione di due script lato client -->
 	<script src="SaxonJS2.js"></script>
 	<script type="text/javascript" src="App.js" defer="defer"></script>
 </head>
 
-<body id="corpo">
-	<header id="Header">
+<body id="corpo"> <!-- Corpo del documento -->
+	<header id="Header"> <!-- Intestazione della pagina HTML -->
 		<p>Der Dolmetscher</p>
 		<p style="margin-top:-10%">L'interprete: Arminio Wachsberger</p>
 	</header>
 
-	<div id="Menu">
+	<div id="Menu"> <!-- Sezione con i bottoni della Home Page -->
 		<button id="TestOne" onclick="testOne()">4 Febbraio 1998</button>
 		<button id="TestTwo" onclick="testTwo()">18 Febbraio 1987</button>
 		<button id="PeopleBut" onclick="peopleB()">Lista persone</button> 
@@ -26,11 +27,11 @@
 		<button id="FontiBut" onclick="fontiB()">Fonti di ausilio</button>
 	</div>
 
-	<div id="Info"></div>
-	<div id="Testo"></div>
-	<a id="up" href="#Header"></a>
+	<div id="Info"></div> <!-- Sezione inizialmente vuota con i metadati delle testimonianze -->
+	<div id="Testo"></div> <!-- Sezione inizialmente vuota con la trascrizione delle testimonianze -->
+	<a id="up" href="#Header"></a> <!-- Collegamento ipertestuale che dirige all'inizio della pagina HTML -->
 
-	<footer id="footer"></footer>
+	<footer id="footer"></footer> <!-- Piè di pagina inizializzato a vuoto -->
 </body>
 
 </html>
