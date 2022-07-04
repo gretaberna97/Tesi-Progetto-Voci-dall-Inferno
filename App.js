@@ -40,7 +40,7 @@ function fontiB(){
 		sourceLocation: "TEI-ListPerson.xml",
 		initialTemplate: "main"
 	}, "async")
-	scroll(0,0); /* Metodo che fa scorrere l'elemento su un particolare insieme di coordinate all'interno di un dato elemento: in questo caso all'inizio della pagina */
+	scroll(0,0); /* Metodo che fa scorrere su un particolare insieme di coordinate: in questo caso fa scorrere all'inizio della pagina */
 }
 
 /* Funzione che si attiva quando l'utente clicca il pulsante "Lista luoghi" */
@@ -50,7 +50,7 @@ function placeB(){
 		sourceLocation: "TEI-ListPlace.xml",
 		initialTemplate: "main"
 	}, "async")
-	scroll(0,0); /* Metodo che fa scorrere l'elemento su un particolare insieme di coordinate all'interno di un dato elemento: in questo caso all'inizio della pagina */
+	scroll(0,0); /* Metodo che fa scorrere su un particolare insieme di coordinate: in questo caso fa scorrere all'inizio della pagina */
 }
 
 /* Funzioni per la gestione dell'estensione e della chiusura del menù */
@@ -61,7 +61,7 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 
-/* Dichiarazione della variabile globale xmlDoc utilizzata per il passaggio del documento XML corrente */
+/* Dichiarazione della variabile globale xmlDoc utilizzata per il passaggio del nome del documento XML corrente */
 var xmlDoc;
 
 /* Funzioni delle sezioni di indagine invocate quando l'utente clicca uno dei pulsanti. A seconda del pulsante cliccato la funzione SaxonJS.transform() elaborarà diversamente il documento in input restituendo una sezione trascrizione "indagata" personalizzata */
@@ -70,7 +70,7 @@ var xmlDoc;
 function indietro() {
 	SaxonJS.transform({
 		stylesheetLocation: "stylehtml.sef.json",
-		sourceLocation: xmlDoc,	/* Passaggio del del documento XML corrente da elaborare memorizzato nella variabile xmlDoc */
+		sourceLocation: xmlDoc,	/* Passaggio del nome del documento XML corrente da elaborare memorizzato nella variabile xmlDoc */
 		destination: "serialized",
 		initialTemplate: "main"
 	}, "async")
@@ -81,7 +81,7 @@ function searchB() {
 	style1();
 	SaxonJS.transform({
         stylesheetLocation: "styletext.sef.json",
-		sourceLocation: xmlDoc, /* Passaggio del del documento XML corrente da elaborare memorizzato nella variabile xmlDoc */
+		sourceLocation: xmlDoc, /* Passaggio del nome del documento XML corrente da elaborare memorizzato nella variabile xmlDoc */
 		destination: "serialized",
 		initialTemplate: "main"
 	}, "async")
@@ -92,7 +92,7 @@ function speechB() {
 	style1();
 	SaxonJS.transform({
         stylesheetLocation: "styletext2.sef.json",
-		sourceLocation: xmlDoc, /* Passaggio del del documento XML corrente da elaborare memorizzato nella variabile xmlDoc */
+		sourceLocation: xmlDoc, /* Passaggio del nome del documento XML corrente da elaborare memorizzato nella variabile xmlDoc */
 		destination: "serialized",
 		initialTemplate: "main"
 	}, "async")
@@ -102,7 +102,7 @@ function speechB() {
 function minutiB() {
 	SaxonJS.transform({
         stylesheetLocation: "styletext3.sef.json",
-		sourceLocation: xmlDoc, /* Passaggio del del documento XML corrente da elaborare memorizzato nella variabile xmlDoc */
+		sourceLocation: xmlDoc, /* Passaggio del nome del documento XML corrente da elaborare memorizzato nella variabile xmlDoc */
 		destination: "serialized",
 		initialTemplate: "main"
 	}, "async")
@@ -114,7 +114,7 @@ function infoB() {
 	style1();
 	SaxonJS.transform({
         stylesheetLocation: "styletext4.sef.json",
-		sourceLocation: xmlDoc, /* Passaggio del del documento XML corrente da elaborare memorizzato nella variabile xmlDoc */
+		sourceLocation: xmlDoc, /* Passaggio del nome del documento XML corrente da elaborare memorizzato nella variabile xmlDoc */
 		destination: "serialized",
 		initialTemplate: "main"
 	}, "async")
@@ -124,7 +124,7 @@ function infoB() {
 function glosseB() {
 	SaxonJS.transform({
         stylesheetLocation: "styletext5.sef.json",
-		sourceLocation: xmlDoc, /* Passaggio del del documento XML corrente da elaborare memorizzato nella variabile xmlDoc */
+		sourceLocation: xmlDoc, /* Passaggio del nome del documento XML corrente da elaborare memorizzato nella variabile xmlDoc */
 		destination: "serialized",
 		initialTemplate: "main"
 	}, "async")
@@ -135,7 +135,7 @@ function glosseB() {
 function tradB() {
 	SaxonJS.transform({
         stylesheetLocation: "styletext6.sef.json",
-		sourceLocation: xmlDoc, /* Passaggio del del documento XML corrente da elaborare memorizzato nella variabile xmlDoc */
+		sourceLocation: xmlDoc, /* Passaggio del nome del documento XML corrente da elaborare memorizzato nella variabile xmlDoc */
 		destination: "serialized",
 		initialTemplate: "main"
 	}, "async")
@@ -206,7 +206,7 @@ function copy(id) {
 	var msg = new SpeechSynthesisUtterance();
 	/* Indicazioni sul testo da riprodurre, sulla voce e sulla lingua da utilizzare e sulla velocità di riproduzione */
 	msg.text = nodo;
-	msg.rate = 0.3;
+	msg.rate = 0.7;
 	msg.voice = speechSynthesis.getVoices().find(voice => /de(-|_)DE/.test(voice.lang));
-	window.speechSynthesis.speak(msg); /* Riproduzione del contenuto della variabile msg */
+	window.speechSynthesis.speak(msg); /* Riproduzione del contenuto testuale della variabile msg */
 }
