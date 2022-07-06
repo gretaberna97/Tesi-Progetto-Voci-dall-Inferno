@@ -277,7 +277,7 @@
                 <span><xsl:text>&#10077;traduzioni&#10078;</xsl:text></span><br/>
                 <b><xsl:text>*porzione mancante/omessa*</xsl:text></b><br/>
                 <span class="unc"><xsl:text>Testo non certo</xsl:text></span><br/>
-                <span class="soC"><xsl:text>Parole discostate</xsl:text></span>, 
+                <span class="soC"><xsl:text>Parole da cui il testimone si allontana</xsl:text></span>, 
                 <span class="men"><xsl:text>Menzioni</xsl:text></span>, 
                 <span class="agg"><xsl:text>Parole aggiunte</xsl:text></span>,
                 <span class="sup"><xsl:text>non necessarie</xsl:text></span><br/>
