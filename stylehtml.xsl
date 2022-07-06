@@ -12,7 +12,7 @@
 <xsl:output method="html" html-version="5" encoding="utf-8" indent="no"/> <!-- Definizione del formato del documento di output -->
 
     <xsl:template name="main" match="/"> <!-- Creazione del modello denominato "main" che vale per tutto il documento grazie al valore dell'attributo match che è un'espressione XPath. Le regole di trasformazione di seguito definite sono le prime che vengono attivate da SaxonJS.transform() -->
-        <xsl:result-document href="#Header" method="ixsl:replace-content"> <!-- Elemento che indirizza la destinazione secondaria della trasformazione: un elemento con id "Header", il quale contenuto viene sostituito tramite l'attributo method (indica la modalità di elaborazione), il quale valore è una funzione estesa realizzata a tal scopo. Quando l'utente clicca uno dei bottoni delle testimonianze nella Home Page il contenuto dell'elemento header viene modificato -->
+        <xsl:result-document href="#Header" method="ixsl:replace-content"> <!-- Elemento che indirizza la destinazione secondaria della trasformazione: un elemento con id "Header", il quale contenuto viene sostituito tramite l'attributo method (indica la modalità di elaborazione) che ha come valore una funzione estesa realizzata a tal scopo. Quando l'utente clicca uno dei bottoni delle testimonianze nella Home Page il contenuto dell'elemento header viene modificato -->
             <p>Der Dolmetscher</p>
             <p id="secondo">L'interprete</p>
         </xsl:result-document>
@@ -55,7 +55,7 @@
             <button id="PlaceBut" onclick="placeB()">Lista luoghi</button>
             <button id="FontiBut" onclick="fontiB()">Fonti di ausilio</button>
         </xsl:result-document>
-        <!-- Azzeramento del contenuto degli elementi HTML con id "Info", "Testo", "footer" e "up": nella Home inizialmente non erano infatti visibili -->
+        <!-- Azzeramento del contenuto degli elementi HTML con id "Info", "Testo", "footer" e "up": nella Home inizialmente erano infatti vuoti -->
         <xsl:result-document href="#Info" method="ixsl:replace-content">
         </xsl:result-document>
         <xsl:result-document href="#Testo" method="ixsl:replace-content">
@@ -187,10 +187,10 @@
         <!-- Gestione di tutte le timeline relative al regesto, il quale id inizia proprio con la stringa "TL1" -->
         <xsl:for-each select="//tei:timeline[contains(@xml:id,'TL1')]">
         <tr><th><xsl:text>File </xsl:text><xsl:value-of select="position()"/></th></tr>
-        <td><xsl:for-each select="./tei:when"> <!-- Di ogni when vengono memorizzate in due variabili l'elemento corrente e l'id dell'elemento corrente -->
+        <td><xsl:for-each select="./tei:when"> <!-- Di ogni when vengono memorizzati in due variabili l'elemento corrente e l'id dell'elemento corrente -->
         <xsl:variable name="xmlWhen" select="@xml:id"/>
         <xsl:variable name="When" select="."/>
-            <xsl:for-each select="//tei:item"> <!-- Per ogni item viene verificato che la stringa che segue "#" nell'attributo synch è uguale all'id del when corrente -->
+            <xsl:for-each select="//tei:item"> <!-- Per ogni item viene verificato che la stringa che segue "#" nell'attributo synch sia uguale all'id del when corrente -->
                 <xsl:if test="substring-after(./@synch,'#') = $xmlWhen">
                 <p><b><xsl:text>Minuto </xsl:text>
                 <xsl:value-of select="$When/@absolute"/> <!-- Viene restituito il minuto assoluto dell'elemento when corrente -->
@@ -223,7 +223,7 @@
         <!-- BOTTONI CHE SE CLICCATI DANNO ACCESSO ALLE VARIE SEZIONI DI INDAGINE -->
         
         <div id="bottoni">
-        <button id="information" onclick="infoB()" class="cerca"> informatività </button>
+        <button id="information" onclick="infoB()" class="cerca"> chi, dove e quando </button>
         <button id="indaga" onclick="searchB()" class="cerca"> indaga il testo </button>
         <button id="vocal" onclick="speechB()" class="cerca"> fenomeni del parlato </button>
         <button id="minuti" onclick="minutiB()" class="cerca"> mostra i minuti </button>
@@ -236,7 +236,7 @@
             &#10077;traduzioni&#10078;</xsl:text></span>
         </div><br/>
         </div>
-        <div id="legenda" style="display:none"></div> <!-- Seconda legenda resa inizialmente invisibile -->
+        <div id="legenda" style="display:none"></div> <!-- Seconda legenda resa inizialmente vuota -->
         <div id="trascrizione"> <!-- DIV che contiene il testo unitario della testimonianza, alla quale l'utente ha avuto accesso cliccando uno dei due riquadri a sinistra nella Home Page -->
             <xsl:for-each select="//tei:div[@type='testo']"> <!-- Le interviste si compogono di più file, quindi la sezione è divisa in più parti all'interno delle quali è presentato il testo della testimonianza presente in tale file -->
             <h3><xsl:text>File </xsl:text><xsl:value-of select="position()"/></h3>
@@ -245,7 +245,7 @@
         </div>
     </xsl:template>
 
-    <!-- GESTIONE DELLA LEGENDA di "INFORMATIVITà", il quale contenuto viene generato quando l'utente clicca sull'elemento HTML con id "information" -->
+    <!-- GESTIONE DELLA LEGENDA di "Chi, dove e quando", il quale contenuto viene generato quando l'utente clicca sull'elemento HTML con id "information" -->
     <xsl:template mode="ixsl:onclick" match="h:button[@id='information']">
         <xsl:result-document href="#legenda" method="ixsl:replace-content"> <!-- Sostituzione del contenuto dell'elemento HTML con id "legenda" -->
             <h3><xsl:text>Legenda</xsl:text></h3>
@@ -323,7 +323,7 @@
                 <span class="vocals"><xsl:text>Fenomeni vocali</xsl:text></span><br/>
                 <span class="gesti"><xsl:text>(Descrizione dei gesti)</xsl:text></span><br/>
                 <span class="rum"><xsl:text>(Rumori accidentali)</xsl:text></span><br/>
-                <b><span><xsl:text>Pausa</xsl:text> <img src="pausa.png" style="margin-bottom:-3%" class="imgp"/></span></b><br/>
+                <b><span><xsl:text>Pausa</xsl:text> <img src="pausa.png" style="margin-bottom:-3%" class="imgp" alt="bottone_pausa"/></span></b><br/>
         </xsl:result-document>
         <ixsl:schedule-action wait="2000"> <!-- Istruzione estesa di Saxon-JS che attende un tempo specificato definito dal suo attributo wait ed effettua una chiamata asincrona al modello denominato in un'istruzione xsl:call-template. L’attributo facoltativo wait è un’espressione XPath utilizzata per specificare il ritardo in millisecondi prima che venga chiamato il template in xsl:call-template  -->
             <xsl:call-template name="black"/>
